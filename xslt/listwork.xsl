@@ -9,9 +9,9 @@
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
-    <xsl:import href="./partials/place.xsl"/>
+    <xsl:import href="./partials/work.xsl"/>
     <xsl:template match="/">
-        <xsl:variable name="doc_title" select="'Ortsregister'"/>
+        <xsl:variable name="doc_title" select="'Werkregister'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
             <xsl:call-template name="html_head">
@@ -31,26 +31,26 @@
                                 <table class="table table-striped display" id="tocTable" style="width:100%">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Ortsname</th>
-                                            <th scope="col">Lat/Lng</th>
+                                            <th scope="col">Titel</th>
+                                            <th scope="col">Autor*in</th>
                                             <th scope="col">Erwähnungen</th>
                                             <th scope="col">ID</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <xsl:for-each select=".//tei:place">
+                                        <xsl:for-each select=".//tei:bibl">
                                             <xsl:variable name="id">
                                                 <xsl:value-of select="data(@xml:id)"/>
                                             </xsl:variable>
                                             <tr>
                                                 <td>
-                                                    <xsl:value-of select=".//tei:placeName[1]/text()"/>
+                                                    <xsl:value-of select=".//tei:title[1]/text()"/>
                                                 </td>
                                                 <td>
-                                                    <xsl:value-of select=".//tei:geo[1]/text()"/>
+                                                    <xsl:value-of select=".//tei:surname/text()"/>, <xsl:value-of select=".//tei:forename/text()"/>
                                                 </td>
                                                 <td>
-                                                    <xsl:value-of select="count(.//tei:ptr)"/>
+                                                    <xsl:value-of select="count(.//tei:date)"/>
                                                 </td>
                                                 <td>
                                                     <a>
@@ -76,9 +76,9 @@
                 </div>
             </body>
         </html>
-        <xsl:for-each select=".//tei:place">
+        <xsl:for-each select=".//tei:bibl">
             <xsl:variable name="filename" select="concat(./@xml:id, '.html')"/>
-            <xsl:variable name="name" select="normalize-space(string-join(./tei:placeName//text()))"></xsl:variable>
+            <xsl:variable name="name" select="./tei:title[1]/text()"></xsl:variable>
             <xsl:result-document href="{$filename}">
                 <html xmlns="http://www.w3.org/1999/xhtml">
                     <xsl:call-template name="html_head">
@@ -97,7 +97,7 @@
                                         </h1>
                                     </div>
                                     <div class="card-body">
-                                        <xsl:call-template name="place_detail"/>
+                                        <xsl:call-template name="work_detail"/>
                                     </div>
                                 </div>
                             </div>

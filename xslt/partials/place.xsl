@@ -34,9 +34,6 @@
                     </xsl:for-each>
                 </ul>
             </xsl:if>
-            
-            
-            <br/>
             <small>Koordinaten:</small>
             <xsl:if test=".//tei:geo/text()">
                 <xsl:text> </xsl:text><xsl:value-of select=".//tei:geo/text()"/>
@@ -45,14 +42,14 @@
             <div id="mentions">
                 <legend>erwähnt in</legend>
                 <ul>
-                    <xsl:for-each select=".//tei:event">
+                    <xsl:for-each select=".//tei:ptr">
                         <xsl:variable name="linkToDocument">
-                            <xsl:value-of select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"/>
+                            <xsl:value-of select="replace(data(.//@target), '.xml', '.html')"/>
                         </xsl:variable>
                         <xsl:choose>
                             <xsl:when test="position() lt $showNumberOfMentions + 1">
                                 <li>
-                                    <xsl:value-of select=".//tei:title"/><xsl:text> </xsl:text>
+                                    erwähnt am <xsl:value-of select="substring-after(replace(data(.//@target), '.xml', ''), '__')"/> <xsl:text> </xsl:text>
                                     <a href="{$linkToDocument}">
                                         <i class="fas fa-external-link-alt"></i>
                                     </a>

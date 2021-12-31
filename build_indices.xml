@@ -19,6 +19,10 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
+    <xslt in="./data/indices/listwork.xml" out="${target}/listwork.html" style="./xslt/listwork.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
     <xslt in="./data/indices/listplace.xml" out="${target}/listplace.html" style="./xslt/listplace.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>

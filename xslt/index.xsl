@@ -54,7 +54,19 @@
                                                         <a class="entry-top-thumbnail" style="height:230px;" href="#" rel="bookmark">
                                                             <img width="1024" height="684" src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/post-bg-1.jpg" alt=""/>
                                                         </a>
-                                                        <div data-template="app:randomDoc" data-template-maxlen="200"/>
+                                                        <div class="entry-text-content">
+                                                            <header class="entry-header">
+                                                                <h4 class="entry-title">
+                                                                    <a href="entry__1902-05-15.html" rel="bookmark" class="light">Donnerstag, 15. Mai 1902</a>
+                                                                </h4>
+                                                            </header>
+                                                            <!-- .entry-header -->
+                                                            <div class="entry-content">
+                                                                <p>15/5 40. Geburtstag.― Nach Wien .― Bei Gustav und Max , in der Affaire Sachsel .― Blumen von Bahr , Vacano , Frau Alb. Gutmann .― Nm. Frl. Hermine Freund , brachte einen netten Brief von Else S. [...]</p>
+                                                                <a class="btn btn-round mb-1" href="entry__1902-05-15.html">Mehr lesen</a>
+                                                            </div>
+                                                            <!-- .entry-content -->
+                                                        </div>
                                                         <!-- .entry-text-content -->
                                                     </div>
                                                     <!-- .card-inner -->

@@ -31,9 +31,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="listperson.html">Personen</a>
                             </li>
-                            <!-- <li class="nav-item">
-                                <a class="nav-link" href="listworks.html">Werke</a>
-                            </li> -->
+                             <li class="nav-item">
+                                <a class="nav-link" href="listwork.html">Werke</a>
+                            </li> 
                             <li class="nav-item">
                                 <a class="nav-link" href="listplace.html">Orte</a>
                             </li>

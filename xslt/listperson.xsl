@@ -35,6 +35,7 @@
                                         <tr>
                                             <th scope="col">Nachname</th>
                                             <th scope="col">Vorname</th>
+                                            <th scope="col">Erwähnungen</th>
                                             <th scope="col">ID</th>
                                         </tr>
                                     </thead>
@@ -49,6 +50,9 @@
                                                 </td>
                                                 <td>                                        
                                                     <xsl:value-of select=".//tei:forename/text()"/>
+                                                </td>
+                                                <td>
+                                                    <xsl:value-of select="count(.//tei:ptr)"/>
                                                 </td>
                                                 <td>
                                                     <a>

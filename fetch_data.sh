@@ -11,3 +11,6 @@ python make_calendar_data.py
 
 echo "denormalize indices"
 schnitzler
+
+echo "add mentions to register-files"
+python add_mentions.py
