@@ -24,6 +24,9 @@ function createDataTable(containerElement, order, pageLength) {
             "'<'row'<'col-sm-12't>>'" +
             "'<'row'<'col-sm-6 offset-sm-6'p>>'",
         responsive: true,
+        language: {
+            url: "https://cdn.datatables.net/plug-ins/1.10.19/i18n/German.json"
+        },
         pageLength: 50,
         buttons: [{
             extend: 'copyHtml5',

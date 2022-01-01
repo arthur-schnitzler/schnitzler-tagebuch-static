@@ -109,7 +109,7 @@
                                                         <li>
                                                             <a>
                                                                 <xsl:attribute name="href"><xsl:value-of select="concat(data(@xml:id), '.html')"/></xsl:attribute>
-                                                                <xsl:value-of select="./tei:persName/text()"/>
+                                                                <xsl:value-of select="./tei:placeName/text()"/>
                                                             </a>
                                                         </li>
                                                     </xsl:for-each>
