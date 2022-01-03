@@ -123,18 +123,12 @@
                             </div>
                             <div class="card-footer text-muted">
                                 <div id="srcbuttons" style="text-align:center">
-                                    <div class="res-act-button res-act-button-copy-url" id="res-act-button-copy-url" data-copyuri="{$quotationURL}">
-                                        <span id="copy-url-button">
+                                    <div class="res-act-button res-act-button-copy-url" id="res-act-button-copy-url">
+                                        <span id="copy-url-button" data-toggle="modal" data-target="#quoteModal">
                                             <i class="fas fa-quote-right"/> ZITIEREN
                                         </span>
-                                        <span id="copyLinkTextfield-wrapper">
-                                            <span type="text" name="copyLinkInputBtn" id="copyLinkInputBtn" data-copyuri="{$quotationString}">
-                                                <i class="far fa-copy"/>
-                                            </span>
-                                            <textarea rows="3" name="copyLinkTextfield" id="copyLinkTextfield" value="">
-                                                <xsl:value-of select="$quotationString"/>
-                                            </textarea>
-                                        </span>
+                                        <!-- Modal -->
+                                    </div>
                                     <xsl:if test=".//tei:facsimile/*">
                                         <a class="ml-3" title="Faksimile zu diesem Eintrag" data-toggle="modal" data-target="#exampleModal">
                                             <i class="fa-lg far fa-file-image"/> Faksimile
@@ -163,7 +157,7 @@
                                             data-result-max="4" data-exclude-edition=""
                                         />
                                     </span>
-                                    </div>
+                                    
                                 </div>
                                 <nav>
                                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -240,7 +234,21 @@
                             </div>
                         </div>                       
                     </div>
-                    
+                    <div class="modal fade" id="quoteModal" tabindex="-1" role="dialog" aria-labelledby="quoteModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
+                                </div>
+                                <div class="modal-body">
+                                    Arthur Schnitzler: Tagebuch. Digitale Edition, <xsl:value-of select="$doctitle"/>, https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand <xsl:value-of select="$currentDate"/>), PID: <xsl:value-of select="$pid"/>. 
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
