@@ -10,6 +10,7 @@
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/person.xsl"/>
+    <xsl:variable name="teiSource" select="'listperson.xml'"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title">
             <xsl:value-of select="'Personen'"/>
@@ -26,8 +27,16 @@
                     
                     <div class="container-fluid">                        
                         <div class="card">
-                            <div class="card-header">
+                            <div class="card-header" style="text-align:center">
                                 <h1><xsl:value-of select="$doc_title"/></h1>
+                                <h3>
+                                    <a>
+                                        <i class="fas fa-info" title="Info zu diesem Personenregister" data-toggle="modal" data-target="#exampleModal"/>
+                                    </a><xsl:text> | </xsl:text>
+                                    <a href="{$teiSource}">
+                                        <i class="fas fa-download" title="Download XML/TEI"/>
+                                    </a>
+                                </h3>
                             </div>
                             <div class="card-body">                                
                                 <table class="table table-striped display" id="tocTable" style="width:100%">
@@ -67,7 +76,47 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div>                       
+                        </div>
+                        <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Info zum Personenregister</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Das digitale Personenverzeichnis geht auf die Grundlage von Peter Michael Braunwarth zurück,
+                                            der die im Zuge der Printedition erstellten Karteikarten digitalisierte. Diese Daten sind
+                                            mittlerweile in der Webapplikation PMB – https://pmb.acdh.oeaw.ac.at/ – verfügbar und werden
+                                            von neueren Projekten aktualisiert und weitergepflegt. Im Mai 2021 wurde zuletzt ein Abgleich gemacht,
+                                            so dass nun deutlich mehr Personen mit Lebensdaten identifiziert sind, als das zum Zeitpunkt
+                                            der Drucklegung der Fall war.</p>
+                                        <p>Im Zuge dessen wurde eine eine Schwäche der digitalen Daten notdürftig behoben, nämlich dass in den
+                                            digitalen Daten nicht alle Personen an der Stelle ihres Vorkommens ausgezeichnet sind. Nunmehr 
+                                            greift der Index auf eine aus dem Register der Printedition entwickelte, tagesaktuelle Liste 
+                                            zu, um das Vorkommen einer Person an einem Tag zu ermitteln.</p>
+                                        <p>Weiterhin eine Schwachstelle, die Erklärung benötigt, sind jene Personen, die im Register vorkommen, die aber zu keinem Ergebnis im Tagebuch führen.
+                                            Dabei handelt es sich um Verfasser von Werken, die im Tagebuch Erwähnung finden, die aber selbst nicht namentlich auftreten. Das gedruckte Werkregister
+                                            wird hoffentlich zu einem späteren Zeitpunkt eingepflegt. In dem betreffenden Fall – wenn
+                                            ein Name keinen Fundort hat — sei behelfsmäßig auf das gedruckte Gesamtregister verwiesen, das unter https://www.austriaca.at/arthur_schnitzler_tagebuch?frames=yes
+                                            eingesehen werden kann.</p>
+                                        <p>Der Name des jeweiligen Person ist mit jenen Dokumenten
+                                            verlinkt, in denen diese erwähnt wird. </p>
+                                        <p>Die Sortierung der einzelnen Spalten kann durch einen Klick
+                                            auf die Spaltenüberschrift geändert werden. Das Suchfeld
+                                            rechts oberhalb der Tabelle durchsucht den gesamten
+                                            Tabelleninhalt. Darüberhinaus können mit Hilfe der
+                                            Suchfelder oberhalb der Spalten gezielt die Inhalte dieser
+                                            Spalten durchsucht bzw. gefiltert werden. </p>
+                                        <p>Die (ggf. gefilterte) Tabelle kann als PDF oder Excel
+                                            heruntergeladen bzw. in den Zwischenspeicher kopiert
+                                            werden.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
                     <script>

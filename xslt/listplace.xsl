@@ -10,6 +10,7 @@
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/place.xsl"/>
+    <xsl:variable name="teiSource" select="'listplace.xml'"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Ortsregister'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
@@ -24,8 +25,16 @@
                     
                     <div class="container-fluid">                        
                         <div class="card">
-                            <div class="card-header">
+                            <div class="card-header" style="text-align:center">
                                 <h1><xsl:value-of select="$doc_title"/></h1>
+                                <h3>
+                                    <a>
+                                        <i class="fas fa-info" title="Info zu diesem Ortsregister" data-toggle="modal" data-target="#exampleModal"/>
+                                    </a><xsl:text> | </xsl:text>
+                                    <a href="{$teiSource}">
+                                        <i class="fas fa-download" title="Download XML/TEI"/>
+                                    </a>
+                                </h3>
                             </div>
                             <div class="card-body">                                
                                 <table class="table table-striped display" id="tocTable" style="width:100%">
@@ -34,6 +43,7 @@
                                             <th scope="col">Ortsname</th>
                                             <th scope="col">Lat/Lng</th>
                                             <th scope="col">Erwähnungen</th>
+                                            <th scope="col">Geonames</th>
                                             <th scope="col">ID</th>
                                         </tr>
                                     </thead>
@@ -44,13 +54,24 @@
                                             </xsl:variable>
                                             <tr>
                                                 <td>
-                                                    <xsl:value-of select=".//tei:placeName[1]/text()"/>
+                                                    <a>
+                                                        <xsl:attribute name="href">
+                                                            <xsl:value-of select="concat($id, '.html')"/>
+                                                        </xsl:attribute>
+                                                        <xsl:value-of select=".//tei:placeName[1]/text()"/>
+                                                    </a>
                                                 </td>
                                                 <td>
                                                     <xsl:value-of select=".//tei:geo[1]/text()"/>
                                                 </td>
                                                 <td>
                                                     <xsl:value-of select="count(.//tei:ptr)"/>
+                                                </td>
+                                                <td>
+                                                    <a>
+                                                        <xsl:attribute name="href"><xsl:value-of select=".//tei:idno[@type='geonames']/text()"/></xsl:attribute>
+                                                        <xsl:value-of select=".//tei:idno[@type='geonames']/text()"/>
+                                                    </a>
                                                 </td>
                                                 <td>
                                                     <a>
@@ -65,7 +86,41 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div>                       
+                        </div>
+                        <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Info zum Ortsregister</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Das vorliegende Ortsverzeichnis umfasst Orte die in den
+                                            Tagebucheinträgen erwähnt werden. Die Namensansetzung wurden
+                                            von den EditorInnen zum Zwecke besserer Suchmöglichkeiten
+                                            normalisiert. Darüberhinaus wurden die Orte auch mit
+                                            Koordinaten versehen, wodurch die Orte auf einer Karte
+                                            angezeigt werden können. Sofern möglich wurden die Orte auch
+                                            mit <a href="http://www.geonames.org/">geonames</a>
+                                            verknüpft.</p>
+                                        <p>Der Name des jeweiligen Ortes ist mit jenen Dokumenten
+                                            verlinkt, in denen dieser Ort erwähnt wird. </p>
+                                        <p>Die Sortierung der einzelnen Spalten kann durch einen Klick
+                                            auf die Spaltenüberschrift geändert werden. Das Suchfeld
+                                            rechts oberhalb der Tabelle durchsucht den gesamten
+                                            Tabelleninhalt. Darüberhinaus können mit Hilfe der
+                                            Suchfelder am Fußende der Spalten gezielt die Inhalte dieser
+                                            Spalten durchsucht bzw. gefiltert werden. </p>
+                                        <p>Die (ggf. gefilterte) Tabelle kann als PDF oder Excel
+                                            heruntergeladen bzw. in den Zwischenspeicher kopiert
+                                            werden.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Schließen</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
                     <script>

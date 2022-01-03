@@ -34,7 +34,7 @@
                                         <i class="fas fa-info" title="Info zum Verzeichnis der Arbeiten von Arthur Schnitzler und anderer im Tagebuch erwähnter (literarischer) Werke" data-toggle="modal" data-target="#exampleModal"/>
                                     </a><xsl:text> | </xsl:text>
                                     <a href="{$teiSource}">
-                                        <i class="fas fa-download" title="show TEI source"/>
+                                        <i class="fas fa-download" title="Download XML/TEI"/>
                                     </a>
                                 </h3>
                             </div>
