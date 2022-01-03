@@ -84,7 +84,7 @@
                     <xsl:call-template name="nav_bar"/>
                     
                     <div class="container-fluid">                        
-                        <div class="card" data-index="true">
+                        <div class="card">
                             <div class="card-header">
                                 <div class="row">
                                     <div class="col-md-2">
@@ -118,11 +118,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-body">                                
+                            <div class="card-body-tagebuch" data-index="true">                                
                                 <xsl:apply-templates select=".//tei:body"></xsl:apply-templates>
                             </div>
-                            <div class="card-footer">
-                                <div id="srcbuttons">
+                            <div class="card-footer text-muted">
+                                <div id="srcbuttons" style="text-align:center">
                                     <div class="res-act-button res-act-button-copy-url" id="res-act-button-copy-url" data-copyuri="{$quotationURL}">
                                         <span id="copy-url-button">
                                             <i class="fas fa-quote-right"/> ZITIEREN
