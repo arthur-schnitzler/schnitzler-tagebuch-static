@@ -16,6 +16,10 @@
     <xsl:import href="./partials/tei-facsimile.xsl"/>
     <xsl:import href="./partials/person.xsl"/>
     <xsl:import href="./partials/place.xsl"/>
+    
+    <xsl:param name="quotationURL"/>
+    
+    <xsl:param name="show-register"/>
 
     <xsl:variable name="prev">
         <xsl:value-of select="replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', '.html')"/>
@@ -31,6 +35,37 @@
     </xsl:variable>
     <xsl:variable name="doc_title">
         <xsl:value-of select=".//tei:title[@level='a'][1]/text()"/>
+    </xsl:variable>
+    
+    <xsl:variable name="entryDate">
+        <xsl:value-of select="xs:date(//tei:title[@type='iso-date']/text())"/>
+    </xsl:variable>
+    <xsl:variable name="doctitle">
+        <xsl:value-of select="//tei:title[@type='main']/text()"/>
+    </xsl:variable>
+    <xsl:variable name="currentDate">
+        <xsl:value-of select="format-date(current-date(), '[Y]-[M]-[D]')"/>
+    </xsl:variable>
+    <xsl:variable name="pid">
+        <xsl:value-of select="//tei:publicationStmt//tei:idno[@type='URI']/text()"/>
+    </xsl:variable>
+    
+    <xsl:variable name="quotationString">
+        <xsl:value-of select="concat('Arthur Schnitzler: Tagebuch. Digitale Edition, ', $doctitle, ', ', $quotationURL, ' (Stand ', $currentDate, ') PID: ', $pid)"/>
+    </xsl:variable>
+    
+    <xsl:variable name="source_volume">
+        <xsl:value-of select="replace(//tei:monogr//tei:biblScope[@unit='volume']/text(), '-', '_')"/>
+    </xsl:variable>
+    <xsl:variable name="source_base_url">https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_</xsl:variable>
+    <xsl:variable name="source_page_nr">
+        <xsl:value-of select="format-number(//tei:monogr//tei:biblScope[@unit='page']/text(), '000')"/>
+    </xsl:variable>
+    <xsl:variable name="source_pdf">
+        <xsl:value-of select="concat($source_base_url, $source_volume, 's', $source_page_nr, '.pdf')"/>
+    </xsl:variable>
+    <xsl:variable name="current-date">
+        <xsl:value-of select="substring-after($doctitle, ': ')"/>
     </xsl:variable>
 
     <xsl:template match="/">
@@ -67,11 +102,6 @@
                                         <h1 align="center">
                                             <xsl:value-of select="$doc_title"/>
                                         </h1>
-                                        <h3 align="center">
-                                            <a href="{$teiSource}">
-                                                <i class="fas fa-download" title="show TEI source"/>
-                                            </a>
-                                        </h3>
                                     </div>
                                     <div class="col-md-2" style="text-align:right">
                                         <xsl:if test="ends-with($next, '.html')">
@@ -91,7 +121,49 @@
                                 <xsl:apply-templates select=".//tei:body"></xsl:apply-templates>
                             </div>
                             <div class="card-footer">
-                                
+                                <div id="srcbuttons">
+                                    <div class="res-act-button res-act-button-copy-url" id="res-act-button-copy-url" data-copyuri="{$quotationURL}">
+                                        <span id="copy-url-button">
+                                            <i class="fas fa-quote-right"/> ZITIEREN
+                                        </span>
+                                        <span id="copyLinkTextfield-wrapper">
+                                            <span type="text" name="copyLinkInputBtn" id="copyLinkInputBtn" data-copyuri="{$quotationString}">
+                                                <i class="far fa-copy"/>
+                                            </span>
+                                            <textarea rows="3" name="copyLinkTextfield" id="copyLinkTextfield" value="">
+                                                <xsl:value-of select="$quotationString"/>
+                                            </textarea>
+                                        </span>
+                                    <xsl:if test=".//tei:facsimile/*">
+                                        <a class="ml-3" title="Faksimile zu diesem Eintrag" data-toggle="modal" data-target="#exampleModal">
+                                            <i class="fa-lg far fa-file-image"/> Faksimile
+                                        </a>
+                                    </xsl:if>
+                                    <a class="ml-3" data-toggle="tooltip" title="Link zum PDF der Buchvorlage zu diesem Eintrag">
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="$source_pdf"/>
+                                        </xsl:attribute>
+                                        <i class="fa-lg far fa-file-pdf"/> PDF
+                                    </a>
+                                    <a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei">
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="$teiSource"/>
+                                        </xsl:attribute>
+                                        <i class="fa-lg far fa-file-code"/> TEI 
+                                    </a>
+                                    <a class="ml-3" data-toggle="tooltip" title="Zeige Register">
+                                        <i class="fas fa-map-marked-alt"/> Zeige Register
+                                    </a>
+                                    <span class="nav-link">
+                                        <div id="csLink" data-correspondent-1-name="Arthur Schnitzler"
+                                            data-correspondent-1-id="http%3A%2F%2Fd-nb.info%2Fgnd%2F118609807"
+                                            data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="{$entryDate}"
+                                            data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after"
+                                            data-result-max="4" data-exclude-edition=""
+                                        />
+                                    </span>
+                                    </div>
+                                </div>
                                 <nav>
                                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
                                         <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a>
@@ -109,7 +181,7 @@
                                                         <li>
                                                             <a>
                                                                 <xsl:attribute name="href"><xsl:value-of select="concat(data(@xml:id), '.html')"/></xsl:attribute>
-                                                                <xsl:value-of select="./tei:placeName/text()"/>
+                                                                <xsl:value-of select="./tei:placeName[1]/text()"/>
                                                             </a>
                                                         </li>
                                                     </xsl:for-each>
@@ -131,7 +203,7 @@
                                             <xsl:for-each select=".//tei:listPlace/tei:place">
                                                 L.marker([<xsl:value-of select="substring-before(.//tei:geo/text()[1], ' ')"/>, <xsl:value-of select="substring-after(.//tei:geo/text(), ' ')"/>]).addTo(mymap)
                                                 .bindPopup("<b>
-                                                    <xsl:value-of select="./tei:placeName/text()"/>
+                                                    <xsl:value-of select="./tei:placeName[1]/text()"/>
                                                 </b>").openPopup();
                                             </xsl:for-each>
                                         </script>
@@ -164,53 +236,53 @@
                                         </ul>
                                     </div>
                                 </div>
-                                
-                                <!--<div class="row">
-                                    <div class="col-md-4">
-                                        <h4>Personen</h4>
-                                        <ul>
-                                            <xsl:for-each select=".//tei:person">
-                                                <li>
-                                                    <a>
-                                                        <xsl:attribute name="href"><xsl:value-of select="concat(data(@xml:id), '.html')"/></xsl:attribute>
-                                                        <xsl:value-of select=".//tei:forename/text()"/>
-                                                        <xsl:value-of select=".//tei:surname/text()"/>
-                                                    </a>
-                                                </li>
-                                            </xsl:for-each>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <h4>Werke</h4>
-                                        <ul>
-                                            <xsl:for-each select=".//tei:bibl">
-                                                <li>
-                                                    <a>
-                                                        <xsl:attribute name="href"><xsl:value-of select="concat(data(@xml:id), '.html')"/></xsl:attribute>
-                                                        <xsl:value-of select=".//tei:surname/text()"/>
-                                                        <xsl:value-of select=".//tei:surname/text()"/>, <xsl:value-of select=".//tei:title/text()"/>
-                                                        
-                                                    </a>
-                                                </li>
-                                            </xsl:for-each>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <h4>Orte</h4>
-                                        <ul>
-                                            <xsl:for-each select=".//tei:place">
-                                                <li>
-                                                    <a>
-                                                        <xsl:attribute name="href"><xsl:value-of select="concat(data(@xml:id), '.html')"/></xsl:attribute>
-                                                        <xsl:value-of select=".//tei:placeName/text()"/>
-                                                    </a>
-                                                </li>
-                                            </xsl:for-each>
-                                        </ul>
-                                    </div>
-                                </div>-->
                             </div>
                         </div>                       
+                    </div>
+                    
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3>Faksimile</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="openseadragon-photo" style="height: 350px;"/>
+                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"/>
+                                    <script type="text/javascript">
+                                        var viewer = OpenSeadragon({
+                                        id: "openseadragon-photo",
+                                        protocol: "http://iiif.io/api/image",
+                                        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
+                                        sequenceMode : true,
+                                        showReferenceStrip: true,
+                                        tileSources: [
+                                            <xsl:for-each select=".//data(@url)">{
+                                                type: 'image',
+                                                url: '<xsl:value-of select="concat(., '?format=iiif')"/>'
+                                             }
+                                            <xsl:choose>
+                                            <xsl:when test="position() != last()">,</xsl:when>
+                                        </xsl:choose></xsl:for-each>]
+                                        });
+                                    </script>
+                                </div>
+                                <div class="modal-footer" style="justify-content: flex-start;">
+                                    <ul style="list-style-type: none;">
+                                        <xsl:for-each select=".//data(@url)">
+                                            <li>
+                                                <a>
+                                                    <xsl:attribute name="href">
+                                                        <xsl:value-of select="concat(., '?format=gui')"/>
+                                                    </xsl:attribute>
+                                                    <xsl:value-of select="."/>
+                                                </a>
+                                            </li>
+                                        </xsl:for-each>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     
                     <xsl:for-each select=".//tei:back//tei:person[@xml:id]">
