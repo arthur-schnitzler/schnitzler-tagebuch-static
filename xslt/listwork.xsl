@@ -10,8 +10,9 @@
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/work.xsl"/>
+    <xsl:variable name="teiSource" select="'listwork.xml'"/>
     <xsl:template match="/">
-        <xsl:variable name="doc_title" select="'Werkregister'"/>
+        <xsl:variable name="doc_title" select="'Verzeichnis erwähnter (literarischer) Werke'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
             <xsl:call-template name="html_head">
@@ -24,8 +25,18 @@
                     
                     <div class="container-fluid">                        
                         <div class="card">
-                            <div class="card-header">
-                                <h1><xsl:value-of select="$doc_title"/></h1>
+                            <div class="card-header" style="text-align:center">
+                                <h1>
+                                    <xsl:value-of select="$doc_title"/>
+                                </h1>
+                                <h3>
+                                    <a>
+                                        <i class="fas fa-info" title="Info zum Verzeichnis der Arbeiten von Arthur Schnitzler und anderer im Tagebuch erwähnter (literarischer) Werke" data-toggle="modal" data-target="#exampleModal"/>
+                                    </a><xsl:text> | </xsl:text>
+                                    <a href="{$teiSource}">
+                                        <i class="fas fa-download" title="show TEI source"/>
+                                    </a>
+                                </h3>
                             </div>
                             <div class="card-body">                                
                                 <table class="table table-striped display" id="tocTable" style="width:100%">
@@ -65,7 +76,30 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div>                       
+                        </div>
+                        <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Info zum Verzeichnis der Arbeiten von Arthur Schnitzler</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Das Register verzeichnet - unter Einschluß der indirekten Erwähnungen, wie etwa 
+                                            durch die Namen einzelner Figuren oder durch Verweise auf Proben, Vorlesungen u. a. 
+                                            und unter Aufnahme auch der vorläufigen oder in Schnitzlers Schreibweise 
+                                            divergierenden Titel sowie unter Einbeziehung des nur im Nachlass überlieferten 
+                                            alle im Tagebuch eigens genannten und identifizierten literarischen Arbeiten. 
+                                            Verweise auf eigene Briefe und Verweise auf das eigene Tagebuch sowie allgemeine, 
+                                            sich offenkundig nicht auf eine einzelne Arbeit beziehende Gattungsbezeichnungen 
+                                            bleiben unberücksichtigt. 
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
                     <script>
