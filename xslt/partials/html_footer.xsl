@@ -58,7 +58,10 @@
         </div>
         
         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;">
-            <a href="imprint.html">Impressum</a>
+            <a href="imprint.html" style="color: #037a33">Impressum</a><br />
+            <a href="https://github.com/acdh-oeaw/schnitzler-tagebuch-static">
+                <small><i class="fab fa-github-square fa-2x" style="color: #037a33"></i></small>
+            </a>
         </div>
         <script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script>
