@@ -79,6 +79,7 @@
             </xsl:call-template>
             
             <body class="page">
+                <link rel="stylesheet" href="css/cslink.css"/>
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
@@ -345,6 +346,7 @@
                         </div>
                     </xsl:for-each>
                     <xsl:call-template name="html_footer"/>
+                    <script src="js/cslink.js"/>
                 </div>
             </body>
         </html>
