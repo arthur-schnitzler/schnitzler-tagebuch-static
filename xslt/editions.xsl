@@ -19,7 +19,7 @@
     
     <xsl:param name="quotationURL"/>
     
-    <xsl:param name="show-register"/>
+    
 
     <xsl:variable name="prev">
         <xsl:value-of select="replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', '.html')"/>
@@ -146,8 +146,8 @@
                                         </xsl:attribute>
                                         <i class="fa-lg far fa-file-code"/> TEI 
                                     </a>
-                                    <a class="ml-3" data-toggle="tooltip" title="Zeige Register">
-                                        <i class="fas fa-map-marked-alt"/> Zeige Register
+                                    <a class="ml-3" data-toggle="tooltip" title="Zeige Register" onclick="myFunction()">
+                                        <i class="fas fa-map-marked-alt"/> Verstecke/Zeige Register
                                     </a>
                                     <span class="nav-link">
                                         <div id="csLink" data-correspondent-1-name="Arthur Schnitzler"
@@ -159,78 +159,79 @@
                                     </span>
                                     
                                 </div>
-                                <nav>
-                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a>
-                                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a>
-                                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a>
-                                    </div>
-                                </nav>
-                                <div class="tab-content" id="nav-tabContent">
-                                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                                        <legend>Orte</legend>
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <ul>
-                                                    <xsl:for-each select=".//tei:listPlace/tei:place">
-                                                        <li>
-                                                            <a>
-                                                                <xsl:attribute name="href"><xsl:value-of select="concat(data(@xml:id), '.html')"/></xsl:attribute>
-                                                                <xsl:value-of select="./tei:placeName[1]/text()"/>
-                                                            </a>
-                                                        </li>
-                                                    </xsl:for-each>
-                                                </ul>
-                                            </div>
-                                            <div id="mapid" style="height: 400px;" class="col-md-8"/>
+                                <div id="registerDiv">
+                                    <nav>
+                                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a>
+                                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a>
+                                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a>
                                         </div>
-                                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
-                                        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""/>
-                                        <script>
+                                    </nav>
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                            <legend>Orte</legend>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <ul>
+                                                        <xsl:for-each select=".//tei:listPlace/tei:place">
+                                                            <li>
+                                                                <a>
+                                                                    <xsl:attribute name="href"><xsl:value-of select="concat(data(@xml:id), '.html')"/></xsl:attribute>
+                                                                    <xsl:value-of select="./tei:placeName[1]/text()"/>
+                                                                </a>
+                                                            </li>
+                                                        </xsl:for-each>
+                                                    </ul>
+                                                </div>
+                                                <div id="mapid" style="height: 400px;" class="col-md-8"/>
+                                            </div>
+                                            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+                                            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""/>
+                                            <script>
+                                                
+                                                var mymap = L.map('mapid').setView([50, 12], 5);
+                                                
+                                                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                maxZoom: 18,
+                                                zIndex: 1
+                                                }).addTo(mymap);
+                                                <xsl:for-each select=".//tei:listPlace/tei:place">
+                                                    L.marker([<xsl:value-of select="substring-before(.//tei:geo/text()[1], ' ')"/>, <xsl:value-of select="substring-after(.//tei:geo/text(), ' ')"/>]).addTo(mymap)
+                                                    .bindPopup("<b>
+                                                        <xsl:value-of select="./tei:placeName[1]/text()"/>
+                                                    </b>").openPopup();
+                                                </xsl:for-each>
+                                            </script>
                                             
-                                            var mymap = L.map('mapid').setView([51.505, -0.09], 6);
-                                            
-                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                            attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                            maxZoom: 18,
-                                            zIndex: 1
-                                            }).addTo(mymap);
-                                            <xsl:for-each select=".//tei:listPlace/tei:place">
-                                                L.marker([<xsl:value-of select="substring-before(.//tei:geo/text()[1], ' ')"/>, <xsl:value-of select="substring-after(.//tei:geo/text(), ' ')"/>]).addTo(mymap)
-                                                .bindPopup("<b>
-                                                    <xsl:value-of select="./tei:placeName[1]/text()"/>
-                                                </b>").openPopup();
-                                            </xsl:for-each>
-                                        </script>
-                                        
-                                    </div>
-                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                                        <legend>Personen</legend>
-                                        <ul>
-                                            <xsl:for-each select=".//tei:listPerson//tei:person">
-                                                <li>
-                                                    <a>
-                                                        <xsl:attribute name="href"><xsl:value-of select="concat(data(@xml:id), '.html')"/></xsl:attribute>
-                                                        <xsl:value-of select="./tei:persName"/>
-                                                    </a>
-                                                </li>
-                                            </xsl:for-each>
-                                        </ul>
-                                    </div>
-                                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                                        <legend>Werke</legend>
-                                        <ul>
-                                            <xsl:for-each select=".//tei:listBibl//tei:bibl">
-                                                <li>
-                                                    <a>
-                                                        <xsl:attribute name="href"><xsl:value-of select="concat(data(@xml:id), '.html')"/></xsl:attribute>
-                                                        <xsl:value-of select="./tei:title"/>
-                                                    </a>
-                                                </li>
-                                            </xsl:for-each>
-                                        </ul>
-                                    </div>
-                                </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                            <legend>Personen</legend>
+                                            <ul>
+                                                <xsl:for-each select=".//tei:listPerson//tei:person">
+                                                    <li>
+                                                        <a>
+                                                            <xsl:attribute name="href"><xsl:value-of select="concat(data(@xml:id), '.html')"/></xsl:attribute>
+                                                            <xsl:value-of select="./tei:persName"/>
+                                                        </a>
+                                                    </li>
+                                                </xsl:for-each>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                            <legend>Werke</legend>
+                                            <ul>
+                                                <xsl:for-each select=".//tei:listBibl//tei:bibl">
+                                                    <li>
+                                                        <a>
+                                                            <xsl:attribute name="href"><xsl:value-of select="concat(data(@xml:id), '.html')"/></xsl:attribute>
+                                                            <xsl:value-of select="./tei:title"/>
+                                                        </a>
+                                                    </li>
+                                                </xsl:for-each>
+                                            </ul>
+                                        </div>
+                                    </div></div>
                             </div>
                         </div>                       
                     </div>
@@ -355,6 +356,16 @@
                     </xsl:for-each>
                     <xsl:call-template name="html_footer"/>
                     <script src="js/cslink.js"/>
+                    <script>
+                        function myFunction() {
+                        var x = document.getElementById("registerDiv");
+                            if (x.style.display === "none") {
+                                x.style.display = "block";
+                            } else {
+                                x.style.display = "none";
+                            }
+                        } 
+                    </script>
                 </div>
             </body>
         </html>
