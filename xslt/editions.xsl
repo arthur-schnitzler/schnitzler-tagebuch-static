@@ -44,16 +44,12 @@
         <xsl:value-of select="//tei:title[@type='main']/text()"/>
     </xsl:variable>
     <xsl:variable name="currentDate">
-        <xsl:value-of select="format-date(current-date(), '[Y]-[M]-[D]')"/>
+        <xsl:value-of select="format-date(current-date(), '[Y]-[M01]-[D01]')"/>
     </xsl:variable>
     <xsl:variable name="pid">
         <xsl:value-of select="//tei:publicationStmt//tei:idno[@type='URI']/text()"/>
     </xsl:variable>
-    
-    <xsl:variable name="quotationString">
-        <xsl:value-of select="concat('Arthur Schnitzler: Tagebuch. Digitale Edition, ', $doctitle, ', ', $quotationURL, ' (Stand ', $currentDate, ') PID: ', $pid)"/>
-    </xsl:variable>
-    
+        
     <xsl:variable name="source_volume">
         <xsl:value-of select="replace(//tei:monogr//tei:biblScope[@unit='volume']/text(), '-', '_')"/>
     </xsl:variable>
@@ -127,7 +123,6 @@
                                         <span id="copy-url-button" data-toggle="modal" data-target="#quoteModal">
                                             <i class="fas fa-quote-right"/> ZITIEREN
                                         </span>
-                                        <!-- Modal -->
                                     </div>
                                     <xsl:if test=".//tei:facsimile/*">
                                         <a class="ml-3" title="Faksimile zu diesem Eintrag" data-toggle="modal" data-target="#exampleModal">

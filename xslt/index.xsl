@@ -32,8 +32,9 @@
                                     <h2>1879 – 1931</h2>
                                 </div>
                                 <p class="mt-3">16.407 Einträge notierte der Schriftsteller Arthur Schnitzler in sein Tagebuch. Sie geben Auskunft über das Leben des Wiener Schriftstellers, die Begegnungen, die er machte und die Gespräche die er führte.</p>
-                                <a data-template="app:firstDoc"/>
-                                <a href="show.html?document=about.xml&amp;directory=meta&amp;stylesheet=meta">
+                                <a href="entry__1879-03-03.html" style="padding:1em;">
+                                    <button class="btn btn-round">Lesen</button></a>
+                                <a href="about.html">
                                     <button class="btn btn-round">Mehr erfahren</button>
                                 </a>
                             </div>
