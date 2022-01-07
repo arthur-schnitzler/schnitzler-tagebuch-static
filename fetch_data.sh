@@ -9,6 +9,9 @@ rm master.zip
 echo "create calendar data"
 python make_calendar_data.py
 
+echo "add ids"
+add-attributes -g "./data/editions/*.xml" -b "https://id.acdh.oeaw.ac.at/schnitzler/schnitzler-tagebuch/editions"
+
 echo "denormalize indices"
 schnitzler
 
