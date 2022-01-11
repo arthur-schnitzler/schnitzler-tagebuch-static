@@ -119,6 +119,9 @@
                             </div>
                             <div class="card-footer text-muted">
                                 <div id="srcbuttons" style="text-align:center">
+                                    <a class="ml-3" data-toggle="tooltip" title="Zeige Register" onclick="myFunction()">
+                                        <i class="fas fa-map-marked-alt"/> Register
+                                    </a>
                                     <div class="res-act-button res-act-button-copy-url" id="res-act-button-copy-url">
                                         <span id="copy-url-button" data-toggle="modal" data-target="#quoteModal">
                                             <i class="fas fa-quote-right"/> ZITIEREN
@@ -140,9 +143,6 @@
                                             <xsl:value-of select="$teiSource"/>
                                         </xsl:attribute>
                                         <i class="fa-lg far fa-file-code"/> TEI 
-                                    </a>
-                                    <a class="ml-3" data-toggle="tooltip" title="Zeige Register" onclick="myFunction()">
-                                        <i class="fas fa-map-marked-alt"/> Verstecke/Zeige Register
                                     </a>
                                     <span class="nav-link">
                                         <div id="csLink" data-correspondent-1-name="Arthur Schnitzler"
