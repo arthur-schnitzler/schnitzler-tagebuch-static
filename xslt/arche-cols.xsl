@@ -42,21 +42,19 @@
                     </xsl:for-each>
                 </acdh:Collection>
             </xsl:for-each>
-            <!--<xsl:for-each-group select="collection('../data/editions')//tei:TEI" group-by=".//tei:seriesStmt/tei:title[@type='collection']/@ref">
+            <xsl:for-each-group select="collection('../data/editions')//tei:TEI" group-by="substring(.//tei:title[@type='iso-date']/text(), 1, 4)">
                 <xsl:variable name="colId">
-                    <xsl:value-of select="concat($TopColId, '/', tokenize(current-grouping-key(), '/')[last()])"/>
+                    <xsl:value-of select="concat($TopColId, '/editions/', current-grouping-key())"/>
                 </xsl:variable>
-                <xsl:choose>
-                    <xsl:when test="contains($colId, '/C_')">
-                        <acdh:Collection rdf:about="{$colId}">
-                            <acdh:hasTitle xml:lang="de"><xsl:value-of select="current-group()[1]//tei:seriesStmt/tei:title[@type='collection']/text()"/></acdh:hasTitle>
-                            <acdh:isPartOf rdf:resource="{concat($TopColId, '/cases')}"/>
-                            <acdh:hasExtent xml:lang="de"><xsl:value-of select="count(current-group())"/> Dokumente</acdh:hasExtent>
-                            <xsl:copy-of select="$constants"/>
-                        </acdh:Collection>
-                    </xsl:when>
-                </xsl:choose>
-            </xsl:for-each-group>-->
+                <acdh:Collection rdf:about="{$colId}">
+                    <acdh:hasTitle xml:lang="de">Einträge des Jahres <xsl:value-of select="current-grouping-key()"/></acdh:hasTitle>
+                    <acdh:isPartOf rdf:resource="{concat($TopColId, '/editions')}"/>
+                    <acdh:hasExtent xml:lang="de"><xsl:value-of select="count(current-group())"/> Tagebucheinträge</acdh:hasExtent>
+                    <xsl:copy-of select="$constants"/>
+                    <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="current-grouping-key()"/>-01-01</acdh:hasCoverageStartDate>
+                    <acdh:hasCoverageEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"><xsl:value-of select="current-grouping-key()"/>-01-01</acdh:hasCoverageEndDate>
+                </acdh:Collection>
+            </xsl:for-each-group>
         </rdf:RDF>
     </xsl:template>
 </xsl:stylesheet>
