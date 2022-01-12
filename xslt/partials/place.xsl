@@ -8,7 +8,7 @@
         <xsl:variable name="selfLink">
             <xsl:value-of select="concat(data(@xml:id), '.html')"/>
         </xsl:variable>
-        <div class="card-body">
+        <div class="card-body-tagebuch w-75">
             <xsl:if test="count(.//tei:placeName) gt 1">
                 <small>Namensvarianten:</small>
                 <ul>
@@ -19,13 +19,11 @@
             </xsl:if>
             
             <xsl:if test="count(.//tei:idno) gt 0">
-                <small>Normdaten IDs</small>
-                <ul>
+                <span class="infodesc">Normdaten IDs</span>
+                <ul class="list-unstyled ml-2">
                     <xsl:for-each select=".//tei:idno">
                         <xsl:if test="./@type">
-                            <li>
-                                <small><xsl:value-of select="data(./@type)"/>:</small> <xsl:text> </xsl:text>
-                                <a>
+                            <li><a>
                                     <xsl:attribute name="href"><xsl:value-of select="./text()"/></xsl:attribute>
                                     <xsl:value-of select="./text()"/>
                                 </a>
@@ -34,14 +32,13 @@
                     </xsl:for-each>
                 </ul>
             </xsl:if>
-            <small>Koordinaten:</small>
+            <span class="infodesc mr-2">Koordinaten</span>
             <xsl:if test=".//tei:geo/text()">
-                <xsl:text> </xsl:text><xsl:value-of select=".//tei:geo/text()"/>
+                <span><xsl:value-of select=".//tei:geo/text()"/></span>
             </xsl:if>
-            <hr />
-            <div id="mentions">
-                <legend>erwähnt in</legend>
-                <ul>
+            <div id="mentions" class="mt-2">
+                <span class="infodesc">Erwähnt in</span>
+                <ul class="list-unstyled ml-2">
                     <xsl:for-each select=".//tei:ptr">
                         <xsl:variable name="linkToDocument">
                             <xsl:value-of select="replace(data(.//@target), '.xml', '.html')"/>

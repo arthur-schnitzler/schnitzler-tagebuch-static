@@ -119,10 +119,10 @@
                             </div>
                             <div class="card-footer text-muted">
                                 <div id="srcbuttons" style="text-align:center">
-                                    <a class="ml-3" data-toggle="tooltip" title="Zeige Register" onclick="myFunction()">
+                                    <a data-toggle="tooltip" title="Zeige Register" onclick="toggleVisibility()">
                                         <i class="fas fa-map-marked-alt"/> Register
                                     </a>
-                                    <div class="res-act-button res-act-button-copy-url" id="res-act-button-copy-url">
+                                    <div class="res-act-button res-act-button-copy-url ml-3" id="res-act-button-copy-url">
                                         <span id="copy-url-button" data-toggle="modal" data-target="#quoteModal">
                                             <i class="fas fa-quote-right"/> ZITIEREN
                                         </span>
@@ -154,7 +154,7 @@
                                     </span>
                                     
                                 </div>
-                                <div id="registerDiv">
+                                <div id="registerDiv" class="d-none">
                                     <nav>
                                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
                                             <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a>
@@ -352,13 +352,10 @@
                     <xsl:call-template name="html_footer"/>
                     <script src="js/cslink.js"/>
                     <script>
-                        function myFunction() {
-                        var x = document.getElementById("registerDiv");
-                            if (x.style.display === "none") {
-                                x.style.display = "block";
-                            } else {
-                                x.style.display = "none";
-                            }
+                        function toggleVisibility() {
+                            document.getElementById("registerDiv").classList.toggle("d-none");
+                            document.getElementById("registerDiv").classList.toggle("d-block");
+                            mymap.invalidateSize();
                         } 
                     </script>
                 </div>

@@ -9,17 +9,26 @@
         <xsl:variable name="selfLink">
             <xsl:value-of select="concat(data(@xml:id), '.html')"/>
         </xsl:variable>
-        <div class="card-body">
-            <small>Vorname</small>:  <xsl:value-of select=".//tei:forename/text()"/>
-            <br />
-            <small>Nachname</small>: <xsl:value-of select=".//tei:surname/text()"/>
-            <br />
-            <small>geboren</small>:  <xsl:value-of select=".//tei:birth/tei:date/text()"/>
-            <br />
-            <small>gestorben</small>: <xsl:value-of select=".//tei:death/tei:date/text()"/>
-            <div id="mentions">
-                <legend>erwähnt in</legend>
-                <ul>
+        <div class="card-body-tagebuch w-75">
+            <div>
+                <span class="infodesc mr-2">Vorname</span>
+                <span><xsl:value-of select=".//tei:forename/text()"/></span>
+            </div>
+            <div class="mt-2">
+                <span class="infodesc mr-2">Nachname</span>
+                <span><xsl:value-of select=".//tei:surname/text()"/></span>
+            </div>
+            <div  class="mt-2">
+                <span class="infodesc mr-2">geboren</span>
+                <span><xsl:value-of select=".//tei:birth/tei:date/text()"/></span>
+            </div>
+            <div class="mt-2">
+                <span class="infodesc mr-2">gestorben</span>
+                <span><xsl:value-of select=".//tei:death/tei:date/text()"/></span>
+            </div>
+            <div id="mentions"  class="mt-2">
+                <span class="infodesc mr-2">Erwähnt am</span>
+                <ul class="list-unstyled ml-2">
                     <xsl:for-each select=".//tei:ptr">
                         <xsl:variable name="linkToDocument">
                             <xsl:value-of select="replace(data(.//@target), '.xml', '.html')"/>
@@ -27,7 +36,7 @@
                         <xsl:choose>
                             <xsl:when test="position() lt $showNumberOfMentions + 1">
                                 <li>
-                                    erwähnt am <xsl:value-of select="substring-after(replace(data(.//@target), '.xml', ''), '__')"/> <xsl:text> </xsl:text>
+                                    <xsl:value-of select="substring-after(replace(data(.//@target), '.xml', ''), '__')"/> <xsl:text> </xsl:text>
                                     <a href="{$linkToDocument}">
                                         <i class="fas fa-external-link-alt"></i>
                                     </a>

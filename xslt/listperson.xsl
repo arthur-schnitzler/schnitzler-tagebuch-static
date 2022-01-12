@@ -142,7 +142,7 @@
                             
                             <div class="container-fluid">
                                 <div class="card">
-                                    <div class="card-header">
+                                    <div class="card-header text-center">
                                         <h1>
                                             <xsl:value-of select="$name"/>
                                         </h1>

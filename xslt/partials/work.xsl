@@ -9,13 +9,18 @@
         <xsl:variable name="selfLink">
             <xsl:value-of select="concat(data(@xml:id), '.html')"/>
         </xsl:variable>
-        <div class="card-body">
-            <small>Titel</small>:  <xsl:value-of select=".//tei:title/text()"/>
-            <br />
-            <small>Autor*In</small>: <xsl:value-of select=".//tei:surname/text()"/>, <xsl:value-of select=".//tei:forename/text()"/>           
-            <div id="mentions">
-                <legend>erwähnt in</legend>
-                <ul>
+         <div class="card-body-tagebuch w-75">
+            <div>
+                <span class="infodesc mr-2">Titel</span>
+                <span><xsl:value-of select=".//tei:title/text()"/></span>
+            </div>
+            <div class="mt-2">
+                <span class="infodesc mr-2">Verfasser:in</span>
+                <span><xsl:value-of select=".//tei:surname/text()"/>, <xsl:value-of select=".//tei:forename/text()"/></span> 
+            </div>          
+            <div id="mentions" class="mt-2">
+                <span class="infodesc mr-2">Erwähnt am</span>
+                <ul class="list-unstyled ml-2">
                     <xsl:for-each select=".//tei:date">
                         <xsl:variable name="linkToDocument">
                             <xsl:value-of select="concat('entry__', data(@when), '.html')"/>
@@ -23,7 +28,7 @@
                         <xsl:choose>
                             <xsl:when test="position() lt $showNumberOfMentions + 1">
                                 <li>
-                                    erwähnt am <xsl:value-of select="@when"/> <xsl:text> </xsl:text>
+                                    <xsl:value-of select="@when"/> <xsl:text> </xsl:text>
                                     <a href="{$linkToDocument}">
                                         <i class="fas fa-external-link-alt"></i>
                                     </a>

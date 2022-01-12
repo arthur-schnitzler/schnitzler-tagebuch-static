@@ -4,7 +4,7 @@ function getYear(item) {
 
 function createyearcell(val) {
   return (val !== undefined) ? '<div class="col-xs-6">\
-          <button class="btn btn-light yearbtn" value="' + val + '" onclick="updateyear(this.value)">' + val + '</button>\
+          <button class="btn rounded-0 yearbtn" value="' + val + '" onclick="updateyear(this.value)">' + val + '</button>\
       </div>' : ''
 }
 
@@ -26,6 +26,7 @@ const calendar = new Calendar('#calendar', {
   startYear: 1888,
   language: "de",
   dataSource: data,
+  displayHeader: false,
   clickDay: function (e) {
     window.location = e.events[0].linkId;
   },
