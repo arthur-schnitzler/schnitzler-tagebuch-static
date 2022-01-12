@@ -19,7 +19,7 @@ jobs:
     - name: Install Python Package
       run: |
         pip install acdh-tei-pyutils>=0.20.0
-    - name: Fetch Data
+    - name: Fetch and preprocess Data
       run: |
         ./fetch_data.sh
     - name: Build ARCHE-MD
@@ -31,3 +31,6 @@ jobs:
     - name: ingest arche-cols
       run: |
         vendor/bin/arche-import-metadata html/arche-cols.rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+    - name: ingest arche
+      run: |
+        vendor/bin/arche-import-metadata html/arche.rdf rdf https://arche-dev.acdh-dev.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}

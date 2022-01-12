@@ -21,7 +21,7 @@ jobs:
         wget https://repo1.maven.org/maven2/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.jar
         mv ant-contrib-1.0b3.jar /usr/share/ant/lib
         pip install acdh-tei-pyutils>=0.20.0
-    - name: Fetch Data
+    - name: Fetch and preprocess Data
       run: |
         ./fetch_data.sh
     - name: Build
