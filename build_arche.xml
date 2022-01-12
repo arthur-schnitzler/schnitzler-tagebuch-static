@@ -3,6 +3,9 @@
     <property name="target" value="./html"/>
     <delete>
         <fileset dir="${target}" includes="*.rdf" />
+    </delete>
+    <delete>
+        <fileset dir="${target}" includes="*.xml" />
     </delete>  
     <xslt in="./data/meta/arche_constants.rdf" out="${target}/arche.rdf" style="./xslt/arche.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
@@ -12,4 +15,9 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
+    <copy todir="${target}" flatten="true">
+        <fileset dir="./data/">
+            <include name="**/*.xml"/>
+        </fileset>
+    </copy>
 </project>
