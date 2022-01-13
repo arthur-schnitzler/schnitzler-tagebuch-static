@@ -45,7 +45,10 @@
                                                 <xsl:value-of select="document-uri(/)"/>
                                             </xsl:variable>
                                             <tr>
-                                                <td>                                        
+                                                <td>
+                                                <xsl:attribute name="data-sort">
+                                                    <xsl:value-of select=".//tei:title[@type='iso-date'][1]/text()"/>
+                                                </xsl:attribute>                                        
                                                     <a>
                                                         <xsl:attribute name="href">                                                
                                                             <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
