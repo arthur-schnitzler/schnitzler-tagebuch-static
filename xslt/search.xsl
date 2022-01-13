@@ -35,6 +35,11 @@
                     <xsl:call-template name="html_footer"/>
                     
                 </div>
+                <script>
+                window.addEventListener('load', function(){
+                    Sch.captionSet.strScore = '';
+                });
+                </script>
             </body>
         </html>
     </xsl:template>

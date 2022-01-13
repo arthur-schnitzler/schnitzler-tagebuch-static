@@ -461,6 +461,13 @@ td p {
     font-weight: 500;
 }
 
+/*** search ***/
+
+#ssResults div span {
+    font-size: 1.2em;
+    margin-left: 1rem;
+}
+
 /*** media queries ***/
 
 @media (min-width: 1200px){

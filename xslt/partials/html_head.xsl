@@ -15,6 +15,7 @@
             <meta name="mobile-web-app-capable" content="yes" />
             <meta name="apple-mobile-web-app-capable" content="yes" />
             <meta name="apple-mobile-web-app-title" content="{$html_title}" />
+            <meta name="docTitle" class="staticSearch_docTitle" content="{$html_title}"/>
             <link rel="profile" href="http://gmpg.org/xfn/11"></link>
             <title><xsl:value-of select="$html_title"/></title>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></link>
