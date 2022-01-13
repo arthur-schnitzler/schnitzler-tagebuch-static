@@ -13,12 +13,10 @@ function hideSearchInputs(containerElement, columns) {
 }
 
 function createDataTable(containerElement, order, pageLength) {
-    
     $(`#${containerElement} thead tr`)
         .clone(true)
         .addClass('filters')
         .appendTo(`#${containerElement} thead`);
-
     var table = $(`#${containerElement}`).DataTable({
         dom: "'<'row controlwrapper'<'col-sm-4'f><'col-sm-4'i><'col-sm-4 exportbuttons'Br>>'" +
             "'<'row'<'col-sm-12't>>'" +
@@ -59,6 +57,7 @@ function createDataTable(containerElement, order, pageLength) {
         orderCellsTop: true,
         fixedHeader: true,
         initComplete: function () {
+            $(".table-loader").hide();
             var api = this.api();
 
             // For each column
@@ -104,6 +103,7 @@ function createDataTable(containerElement, order, pageLength) {
                         });
                 });
                 hideSearchInputs(containerElement, api.columns().responsiveHidden().toArray());
+            $(`#${containerElement}`).removeClass('d-none');
         }
     });
     table.responsive.recalc();

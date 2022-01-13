@@ -23,11 +23,16 @@
                     
                     <div class="container-fluid">
                         <div class="card">
-                            <div class="card-header">
+                            <div class="card-header text-center">
                                 <h1><xsl:value-of select="$doc_title"/></h1>
                             </div>
                             <div class="card-body">
-                                <table class="table table-striped display" id="tocTable" style="width:100%">
+                            <div class="w-100 text-center">
+                                <div class="spinner-grow table-loader" role="status">
+                                    <span class="sr-only">Loading...</span>
+                                </div>          
+                            </div>
+                                <table class="table table-striped display d-none" id="tocTable" style="width:100%">
                                     <thead>
                                         <tr>
                                             <th scope="col">Titel</th>

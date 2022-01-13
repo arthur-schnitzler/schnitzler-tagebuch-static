@@ -1,3 +1,7 @@
+html {
+    overflow-y: scroll;
+}
+
 /* Datatables, provided by https://github.com/babslgam*/
 
 :root {
@@ -35,18 +39,18 @@ div.dataTables_filter {
 }
 
 #datatable .page-item.active .page-link   {
-        background-color:var(--schnitzler-green);
-        border-color:var(--schnitzler-green);
-        color:white;
+    background-color:var(--schnitzler-green);
+    border-color:var(--schnitzler-green);
+    color:white;
     }
     
-    #datatable .page-link {
-        color:var(--schnitzler-green);
-    }
+#datatable .page-link {
+    color:var(--schnitzler-green);
+}
    
-    table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control:before
-    {
-    
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control:before
+{
+
     font-family:"Font Awesome 5 Free";
     font-weight: 900;
     content : '\f067';
@@ -54,12 +58,12 @@ div.dataTables_filter {
     border:none;
     color:var(--schnitzler-green);
     box-shadow:none;
-    }
-    
-     table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child::before {
-        content:'\f068';
-        background-color: transparent;
-     }
+}
+
+    table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child::before {
+    content:'\f068';
+    background-color: transparent;
+    }   
 
 /**** Font Aweseome ***/
 .far {
@@ -467,6 +471,29 @@ td p {
     font-size: 1.2em;
     margin-left: 1rem;
 }
+
+/*** utils ***/
+/* copied from next bootstrap version */
+.spinner-grow {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: text-bottom;
+    background-color: var(--schnitzler-green);
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-animation: spinner-grow .75s linear infinite;
+    animation: spinner-grow .75s linear infinite;
+}
+
+@keyframes spinner-grow {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      opacity: 1;
+    }
+  }
 
 /*** media queries ***/
 

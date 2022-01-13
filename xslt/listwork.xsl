@@ -38,8 +38,13 @@
                                     </a>
                                 </h3>
                             </div>
-                            <div class="card-body">                                
-                                <table class="table table-striped display" id="tocTable" style="width:100%">
+                            <div class="card-body">
+                            <div class="w-100 text-center">
+                                <div class="spinner-grow table-loader" role="status">
+                                    <span class="sr-only">Loading...</span>
+                                </div>          
+                            </div>                               
+                                <table class="table table-striped display d-none" id="tocTable" style="width:100%">
                                     <thead>
                                         <tr>
                                             <th scope="col">Titel</th>
