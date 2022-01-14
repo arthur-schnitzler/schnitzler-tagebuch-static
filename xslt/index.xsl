@@ -49,9 +49,9 @@
                                         <main class="site-main" id="main">
                                             <!-- Use custom content block templates if they are defined -->
                                             
-                                            <div class="card-wrapper">
+                                            <div class="card_wrapper">
                                                 <article class="card col-md-6 flat-style">
-                                                    <div class="card-inner card-vertical" style="min-height:420px;">
+                                                    <div class="card-inner card-vertical h-100 d-flex flex-column" style="min-height:420px;">
                                                         <a class="entry-top-thumbnail" style="height:230px;" href="#" rel="bookmark">
                                                             <img width="1024" height="684" src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/post-bg-1.jpg" alt=""/>
                                                         </a>
@@ -64,17 +64,19 @@
                                                             <!-- .entry-header -->
                                                             <div class="entry-content">
                                                                 <p>15/5 40. Geburtstag.― Nach Wien .― Bei Gustav und Max , in der Affaire Sachsel .― Blumen von Bahr , Vacano , Frau Alb. Gutmann .― Nm. Frl. Hermine Freund , brachte einen netten Brief von Else S. [...]</p>
-                                                                <a class="btn btn-round mb-1" href="entry__1902-05-15.html">Mehr lesen</a>
                                                             </div>
                                                             <!-- .entry-content -->
                                                         </div>
                                                         <!-- .entry-text-content -->
+                                                        <footer class="mt-auto">
+                                                            <a class="btn btn-round mb-1" href="entry__1902-05-15.html">Mehr lesen</a>
+                                                        </footer>
                                                     </div>
                                                     <!-- .card-inner -->
                                                 </article>
                                                 <!-- #post-## -->
                                                 <article class="card col-md-6 flat-style">
-                                                    <div class="card-inner card-vertical" style="min-height:420px;">
+                                                    <div class="card-inner card-vertical h-100 d-flex flex-column" style="min-height:420px;">
                                                         <a class="entry-top-thumbnail" style="height:230px;" href="calendar.html" rel="bookmark">
                                                             <img width="1024" height="684" src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/post-bg-2.jpg" alt=""/>
                                                         </a>
@@ -87,17 +89,19 @@
                                                             <!-- .entry-header -->
                                                             <div class="entry-content">
                                                                 <p>Fünfzig Jahre lang legte Schnitzler nahezu täglich Einträge an. Über den Kalender können bestimmte Tage direkt aufgefunden werden.</p>
-                                                                <a class="btn btn-round mb-1" href="calendar.html">Mehr lesen</a>
                                                             </div>
                                                             <!-- .entry-content -->
                                                         </div>
                                                         <!-- .entry-text-content -->
+                                                        <footer class="mt-auto">
+                                                            <a class="btn btn-round mb-1" href="calendar.html">Mehr lesen</a>
+                                                        </footer>
                                                     </div>
                                                     <!-- .card-inner -->
                                                 </article>
                                                 <!-- #post-## -->
                                                 <article class="card col-md-6 flat-style">
-                                                    <div class="card-inner card-vertical" style="min-height:420px;">
+                                                    <div class="card-inner card-vertical h-100 d-flex flex-column" style="min-height:420px;">
                                                         <a class="entry-top-thumbnail" style="height:230px;" href="persons.html" rel="bookmark">
                                                             <img width="1024" height="684" src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/persons.jpg" title="University Children's Hospital, Vienna: a row of girl patients, outdoors, being measured for height. Photograph, 1921. Credit: Wellcome Collection. CC BY" alt="University Children's Hospital, Vienna: a row of girl patients, outdoors, being measured for height. Photograph, 1921. Credit: Wellcome Collection. CC BY"/>
                                                         </a>
@@ -110,17 +114,19 @@
                                                             <!-- .entry-header -->
                                                             <div class="entry-content">
                                                                 <p>Einstieg in das Tagebuch über das Personenregister mit über 8.500 nachgewiesenen Personen und ihrem Vorkommen.</p>
-                                                                <a class="btn btn-round mb-1" href="listperson.html">Mehr lesen</a>
                                                             </div>
                                                             <!-- .entry-content -->
                                                         </div>
                                                         <!-- .entry-text-content -->
+                                                        <footer class="mt-auto">
+                                                            <a class="btn btn-round mb-1" href="listperson.html">Mehr lesen</a>
+                                                        </footer>
                                                     </div>
                                                     <!-- .card-inner -->
                                                 </article>
                                                 <!-- #post-## -->
                                                 <article class="card col-md-6 flat-style">
-                                                    <div class="card-inner card-vertical" style="min-height:420px;">
+                                                    <div class="card-inner card-vertical h-100 d-flex flex-column" style="min-height:420px;">
                                                         <a class="entry-top-thumbnail" style="height:230px;" href="places.html" rel="bookmark">
                                                             <img width="1024" height="684" src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/places.jpg" alt="Stadtplan von Wien innerhalb des Gürtels, Beilage zum Meyers Konversationslexikon von 1905." title="Stadtplan von Wien innerhalb des Gürtels, Beilage zum Meyers Konversationslexikon von 1905."/>
                                                         </a>
@@ -133,11 +139,13 @@
                                                             <!-- .entry-header -->
                                                             <div class="entry-content">
                                                                 <p>Zugang zum Tagebuch mittels 2.200 Orten, die auch über ihre Koordinaten erschlossen sind.</p>
-                                                                <a class="btn btn-round mb-1" href="listplace.html">Mehr lesen</a>
                                                             </div>
                                                             <!-- .entry-content -->
                                                         </div>
                                                         <!-- .entry-text-content -->
+                                                        <footer class="mt-auto">
+                                                            <a class="btn btn-round mb-1" href="listplace.html">Mehr lesen</a>
+                                                        </footer>
                                                     </div>
                                                     <!-- .card-inner -->
                                                 </article>
