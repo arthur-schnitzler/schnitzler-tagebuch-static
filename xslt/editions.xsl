@@ -72,6 +72,7 @@
         <html>
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
+                <xsl:with-param name="entry_date" select="$entryDate"></xsl:with-param>
             </xsl:call-template>
             
             <body class="page">
