@@ -514,9 +514,26 @@ td p {
 
 /*** search ***/
 
+#ssResults button {
+    border-radius: .25rem;
+    border: 1px solid rgba(0,0,0,.1);
+    background-color: transparent;
+    padding: .5rem 1rem;
+    font-size: 0.9rem;
+    font-weight:500;
+    line-height: 0.9rem;
+
+}
+
+#ssResults button:hover {
+    background-color: #212529;
+    color:white;
+}
+
+
+/* hide score */
 #ssResults div span {
-    font-size: 1.2em;
-    margin-left: 1rem;
+    display:none;
 }
 
 /*** utils ***/
