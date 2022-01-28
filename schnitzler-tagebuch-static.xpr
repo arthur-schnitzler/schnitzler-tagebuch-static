@@ -10,7 +10,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/editions/entry__1879-12-28.xml</String>
+                                    <String>data/editions/entry__1880-01-29.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -31,6 +31,26 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>data/editions/entry__1879-07-11.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>editions - Copy</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/editions/entry__1879-12-28.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
