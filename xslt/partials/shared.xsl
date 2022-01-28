@@ -15,16 +15,14 @@
     </xsl:function>
 
     <xsl:template match="tei:rs[@ref or @key]">
-        <strong>
             <xsl:element name="a">
                 <xsl:attribute name="data-toggle">modal</xsl:attribute>
                 <xsl:attribute name="data-target">
                     <xsl:value-of select="data(@ref)"/>
-                    <!-- <xsl:value-of select="concat('#', @key)"/> -->
                 </xsl:attribute>
+                <xsl:attribute name="style">color:black</xsl:attribute>
                 <xsl:value-of select="."/>
             </xsl:element>
-        </strong>
     </xsl:template>
 
 </xsl:stylesheet>

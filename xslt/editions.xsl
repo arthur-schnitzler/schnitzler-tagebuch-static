@@ -158,13 +158,39 @@
                                 <div id="registerDiv" class="d-none">
                                     <nav>
                                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Orte</a>
-                                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personen</a>
-                                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Werke</a>
+                                            <a class="nav-item nav-link" id="nav-person-tab" data-toggle="tab" href="#nav-person" role="tab" aria-controls="nav-person" aria-selected="true">Personen</a>
+                                            <a class="nav-item nav-link" id="nav-werk-tab" data-toggle="tab" href="#nav-werk" role="tab" aria-controls="nav-werk" aria-selected="false">Werke</a>
+                                            <a class="nav-item nav-link active" id="nav-ort-tab" data-toggle="tab" href="#nav-ort" role="tab" aria-controls="nav-ort" aria-selected="false">Orte</a>
                                         </div>
                                     </nav>
                                     <div class="tab-content" id="nav-tabContent">
-                                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                        <div class="tab-pane" id="nav-person" role="tabpanel" aria-labelledby="nav-person-tab">
+                                            <legend>Personen</legend>
+                                            <ul>
+                                                <xsl:for-each select=".//tei:listPerson//tei:person">
+                                                    <li>
+                                                        <a>
+                                                            <xsl:attribute name="href"><xsl:value-of select="concat(data(@xml:id), '.html')"/></xsl:attribute>
+                                                            <xsl:value-of select="./tei:persName"/>
+                                                        </a>
+                                                    </li>
+                                                </xsl:for-each>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane fade" id="nav-werk" role="tabpanel" aria-labelledby="nav-werk-tab">
+                                            <legend>Werke</legend>
+                                            <ul>
+                                                <xsl:for-each select=".//tei:listBibl//tei:bibl">
+                                                    <li>
+                                                        <a>
+                                                            <xsl:attribute name="href"><xsl:value-of select="concat(data(@xml:id), '.html')"/></xsl:attribute>
+                                                            <xsl:value-of select="./tei:title"/>
+                                                        </a>
+                                                    </li>
+                                                </xsl:for-each>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane fade fade show active" id="nav-ort" role="tabpanel" aria-labelledby="nav-ort-tab">
                                             <legend>Orte</legend>
                                             <div class="row">
                                                 <div class="col-md-4">
@@ -201,33 +227,8 @@
                                             </script>
                                             
                                         </div>
-                                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                                            <legend>Personen</legend>
-                                            <ul>
-                                                <xsl:for-each select=".//tei:listPerson//tei:person">
-                                                    <li>
-                                                        <a>
-                                                            <xsl:attribute name="href"><xsl:value-of select="concat(data(@xml:id), '.html')"/></xsl:attribute>
-                                                            <xsl:value-of select="./tei:persName"/>
-                                                        </a>
-                                                    </li>
-                                                </xsl:for-each>
-                                            </ul>
-                                        </div>
-                                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                                            <legend>Werke</legend>
-                                            <ul>
-                                                <xsl:for-each select=".//tei:listBibl//tei:bibl">
-                                                    <li>
-                                                        <a>
-                                                            <xsl:attribute name="href"><xsl:value-of select="concat(data(@xml:id), '.html')"/></xsl:attribute>
-                                                            <xsl:value-of select="./tei:title"/>
-                                                        </a>
-                                                    </li>
-                                                </xsl:for-each>
-                                            </ul>
-                                        </div>
-                                    </div></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>                       
                     </div>
@@ -247,13 +248,13 @@
                         </div>
                     </div>
                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-dialog modal-lg" role="document" style="max-width: 2000px;">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h3>Faksimile</h3>
                                 </div>
                                 <div class="modal-body">
-                                    <div id="openseadragon-photo" style="height: 350px;"/>
+                                    <div id="openseadragon-photo" style="height: 850px;"/>
                                     <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"/>
                                     <script type="text/javascript">
                                         var viewer = OpenSeadragon({
