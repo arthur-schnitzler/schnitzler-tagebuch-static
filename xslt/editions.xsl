@@ -121,16 +121,16 @@
                             <div class="card-footer text-muted">
                                 <div id="srcbuttons" style="text-align:center">
                                     <a data-toggle="tooltip" title="Zeige Register" onclick="toggleVisibility()">
-                                        <i class="fas fa-map-marked-alt"/> REGISTER
+                                        <i class="fas fa-map-marked-alt"/> Register
                                     </a>
                                     <div class="res-act-button res-act-button-copy-url ml-3" id="res-act-button-copy-url">
                                         <span id="copy-url-button" data-toggle="modal" data-target="#quoteModal">
-                                            <i class="fas fa-quote-right"/> ZITIEREN
+                                            <i class="fas fa-quote-right"/> Zitieren
                                         </span>
                                     </div>
                                     <xsl:if test=".//tei:facsimile/*">
                                         <a class="ml-3" title="Faksimile zu diesem Eintrag" data-toggle="modal" data-target="#exampleModal">
-                                            <i class="fa-lg far fa-file-image"/> FAKSIMILE
+                                            <i class="fa-lg far fa-file-image"/> Faksimile
                                         </a>
                                     </xsl:if>
                                     <a class="ml-3" data-toggle="tooltip" title="Link zum PDF der Buchvorlage zu diesem Eintrag">

@@ -314,7 +314,7 @@ a:not([href]):not([tabindex]) {
     margin-left: auto;
 }
 #wrapper-hero-inner {
-    padding: 0 35% 0 15px;
+    padding: 0 35% 0 30px;
 }
 .row-footer {
     display: flex;
@@ -330,6 +330,11 @@ a:not([href]):not([tabindex]) {
 #srcbuttons {
     margin-bottom:0;
     padding:0.5rem;
+    text-transform: uppercase;
+}
+
+#srcbuttons .nav-link, #srcbuttons .nav-link div {
+    display:inline;
 }
 
 .rangeslider {
