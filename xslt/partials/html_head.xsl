@@ -25,7 +25,32 @@
             <link rel="stylesheet" id="fundament-styles"  href="dist/fundament/css/fundament.min.css" type="text/css"></link>
             <link rel="stylesheet" href="css/style.css" type="text/css"></link>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-            <script type="text/javascript" src="js/copytoclipboard.js"/>
+            <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+            <script type="text/javascript">
+                window.cookieconsent_options = {
+                "message":"This website uses cookies to ensure you get the best experience on our website",
+                "dismiss":"Got it!",
+                "learnMore":"More info",
+                "link":"imprint.html",
+                "theme":"dark-bottom"};
+            </script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+            <!-- End Cookie Consent plugin -->
+            <!-- Matomo -->
+            <script type="text/javascript">
+                var _paq = _paq || [];
+                /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+                _paq.push(['trackPageView']);
+                _paq.push(['enableLinkTracking']);
+                (function() {
+                var u="https://matomo.acdh.oeaw.ac.at/";
+                _paq.push(['setTrackerUrl', u+'piwik.php']);
+                _paq.push(['setSiteId', '101']);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+                })();
+            </script>
+            <!-- End Matomo Code -->
         </head>
     </xsl:template>
 </xsl:stylesheet>
