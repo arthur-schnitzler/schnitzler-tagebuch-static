@@ -39,7 +39,7 @@
                             <xsl:value-of select="substring-after(replace(data(.//@target), '.xml', ''), '__')"/>
                         </xsl:variable>
                         <xsl:variable name="print_date">
-                            <xsl:value-of select='format-date($doc_date,"[F], [D]. [Mn] [Y]", "de", (), ())'/>
+                            <xsl:value-of select='format-date($doc_date,"[F], [D]. [MNn] [Y]", "de", (), ())'/>
                         </xsl:variable>
                         <li>
                             <xsl:value-of select="$print_date"/> <xsl:text> </xsl:text>

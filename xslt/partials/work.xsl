@@ -26,7 +26,7 @@
                             <xsl:value-of select="concat('entry__', data(@when), '.html')"/>
                         </xsl:variable>
                         <xsl:variable name="print_date">
-                            <xsl:value-of select='format-date(data(@when),"[F], [D]. [Mn] [Y]", "de", (), ())'/>
+                            <xsl:value-of select='format-date(data(@when),"[F], [D]. [MNn] [Y]", "de", (), ())'/>
                         </xsl:variable>
                         <li>
                             <xsl:value-of select="$print_date"/> <xsl:text> </xsl:text>
