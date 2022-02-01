@@ -14,7 +14,7 @@
             <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
         </xsl:variable>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
-        <html>
+        <html lang="de">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
             </xsl:call-template>
