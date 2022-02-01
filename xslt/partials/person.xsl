@@ -26,6 +26,7 @@
                 <span class="infodesc mr-2">gestorben</span>
                 <span><xsl:value-of select=".//tei:death/tei:date/text()"/></span>
             </div>
+            <xsl:if test="count(.//tei:event) gt 0">
             <div id="mentions"  class="mt-2">
                 <span class="infodesc mr-2">Erwähnt am</span>
                 <ul class="list-unstyled ml-2">
@@ -34,7 +35,7 @@
                             <xsl:value-of select="replace(data(.//@target), '.xml', '.html')"/>
                         </xsl:variable>
                         <xsl:choose>
-                            <xsl:when test="position() lt $showNumberOfMentions + 1">
+                            <xsl:when test="position() lt 0">
                                 <li>
                                     <xsl:value-of select="substring-after(replace(data(.//@target), '.xml', ''), '__')"/> <xsl:text> </xsl:text>
                                     <a href="{$linkToDocument}">
@@ -45,10 +46,8 @@
                         </xsl:choose>
                     </xsl:for-each>
                 </ul>
-                <xsl:if test="count(.//tei:event) gt $showNumberOfMentions + 1">
-                    <p>Anzahl der Erwähnungen limitiert, klicke <a href="{$selfLink}">hier</a> für eine vollständige Auflistung</p>
-                </xsl:if>
             </div>
+            </xsl:if>
         </div>
     </xsl:template>
 </xsl:stylesheet>
