@@ -25,21 +25,17 @@
                         <xsl:variable name="linkToDocument">
                             <xsl:value-of select="concat('entry__', data(@when), '.html')"/>
                         </xsl:variable>
-                        <xsl:choose>
-                            <xsl:when test="position() lt $showNumberOfMentions + 1">
-                                <li>
-                                    <xsl:value-of select="@when"/> <xsl:text> </xsl:text>
-                                    <a href="{$linkToDocument}">
-                                        <i class="fas fa-external-link-alt"></i>
-                                    </a>
-                                </li>
-                            </xsl:when>
-                        </xsl:choose>
+                        <xsl:variable name="print_date">
+                            <xsl:value-of select='format-date(data(@when),"[F], [D]. [Mn] [Y]", "de", (), ())'/>
+                        </xsl:variable>
+                        <li>
+                            <xsl:value-of select="$print_date"/> <xsl:text> </xsl:text>
+                            <a href="{$linkToDocument}">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </li>
                     </xsl:for-each>
                 </ul>
-                <xsl:if test="count(.//tei:date) gt $showNumberOfMentions + 1">
-                    <p>Anzahl der Erwähnungen limitiert, klicke <a href="{$selfLink}">hier</a> für eine vollständige Auflistung</p>
-                </xsl:if>
             </div>
         </div>
     </xsl:template>

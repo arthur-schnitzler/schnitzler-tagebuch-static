@@ -36,29 +36,31 @@
             <xsl:if test=".//tei:geo/text()">
                 <span><xsl:value-of select=".//tei:geo/text()"/></span>
             </xsl:if>
-            <div id="mentions" class="mt-2">
-                <span class="infodesc">Erwähnt in</span>
-                <ul class="list-unstyled ml-2">
-                    <xsl:for-each select=".//tei:ptr">
-                        <xsl:variable name="linkToDocument">
-                            <xsl:value-of select="replace(data(.//@target), '.xml', '.html')"/>
-                        </xsl:variable>
-                        <xsl:choose>
-                            <xsl:when test="position() lt $showNumberOfMentions + 1">
-                                <li>
-                                    erwähnt am <xsl:value-of select="substring-after(replace(data(.//@target), '.xml', ''), '__')"/> <xsl:text> </xsl:text>
-                                    <a href="{$linkToDocument}">
-                                        <i class="fas fa-external-link-alt"></i>
-                                    </a>
-                                </li>
-                            </xsl:when>
-                        </xsl:choose>
-                    </xsl:for-each>
-                </ul>
-                <xsl:if test="count(.//tei:event) gt $showNumberOfMentions + 1">
-                    <p>Anzahl der Erwähnungen limitiert, klicke <a href="{$selfLink}">hier</a> für eine vollständige Auflistung</p>
-                </xsl:if>
-            </div>
+            <xsl:if test="count(.//tei:ptr) gt 0">
+                <div id="mentions"  class="mt-2">
+                    <span class="infodesc mr-2">Erwähnt am</span>
+                    <ul class="list-unstyled ml-2">
+                        <xsl:for-each select=".//tei:ptr">
+                            <xsl:sort data-type="text" order="ascending" select="@target"/>
+                            <xsl:variable name="linkToDocument">
+                                <xsl:value-of select="replace(data(.//@target), '.xml', '.html')"/>
+                            </xsl:variable>
+                            <xsl:variable name="doc_date">
+                                <xsl:value-of select="substring-after(replace(data(.//@target), '.xml', ''), '__')"/>
+                            </xsl:variable>
+                            <xsl:variable name="print_date">
+                                <xsl:value-of select='format-date($doc_date,"[F], [D]. [Mn] [Y]", "de", (), ())'/>
+                            </xsl:variable>
+                            <li>
+                                <xsl:value-of select="$print_date"/> <xsl:text> </xsl:text>
+                                <a href="{$linkToDocument}">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </li>
+                        </xsl:for-each>
+                    </ul>
+                </div>
+            </xsl:if>
         </div>
     </xsl:template>
 </xsl:stylesheet>
