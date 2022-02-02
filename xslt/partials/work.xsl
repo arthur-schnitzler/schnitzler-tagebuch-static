@@ -2,7 +2,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:df="http://example.com/df"
     version="2.0" exclude-result-prefixes="xsl tei xs">
+    <xsl:import href="germandate.xsl"/>
     
     <xsl:template match="tei:bibl" name="work_detail">
         <xsl:param name="showNumberOfMentions" as="xs:integer" select="50000" />
@@ -20,13 +22,17 @@
             </div>          
             <div id="mentions" class="mt-2">
                 <span class="infodesc mr-2">Erwähnt am</span>
-                <ul class="list-unstyled ml-2">
+                <ul class="list-unstyled">
                     <xsl:for-each select=".//tei:date">
                         <xsl:variable name="linkToDocument">
                             <xsl:value-of select="concat('entry__', data(@when), '.html')"/>
                         </xsl:variable>
                         <xsl:variable name="print_date">
-                            <xsl:value-of select='format-date(data(@when),"[F], [D]. [MNn] [Y]", "de", (), ())'/>
+                            <xsl:variable name="monat" select="df:germanNames(format-date(data(@when),'[MNn]'))"/>
+                            <xsl:variable name="wochentag" select="df:germanNames(format-date(data(@when),'[F]'))"/>
+                            <xsl:variable name="tag" select="concat(format-date(data(@when),'[D]'),'. ')"/>
+                            <xsl:variable name="jahr" select="format-date(data(@when),'[Y]')"/>
+                            <xsl:value-of select="concat($wochentag, ', ', $tag, $monat, ' ', $jahr)"/>
                         </xsl:variable>
                         <li>
                             <xsl:value-of select="$print_date"/> <xsl:text> </xsl:text>
