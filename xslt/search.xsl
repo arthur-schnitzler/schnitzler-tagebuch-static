@@ -24,10 +24,28 @@
                     <div class="container-fluid">
                         <div class="card">
                             <div class="card-header">
-                                <h1><xsl:value-of select="$doc_title"/></h1>
+                                <h1>
+                                    <xsl:value-of select="$doc_title"/> | <i class="fas fa-info" title="Info zu diesem Personenregister" data-toggle="modal" data-target="#exampleModal"/>
+                                </h1>
                             </div>
                             <div class="card-body">
                                 <div id="staticSearch"/>                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Info zur Volltextsuche</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Verwenden Sie Platzhalter: »Schotten*« findet »Schottenfeld« und »Schottentor«
+                                        Die Suche mit Platzhaltern unterscheidet gegenwärtig zwischen Groß- und Kleinbuchstaben, »hauptm*« und »Hauptm*« liefern unterschiedliche Ergebnisse</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                                </div>
                             </div>
                         </div>
                     </div>
