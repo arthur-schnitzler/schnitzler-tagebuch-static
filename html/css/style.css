@@ -28,11 +28,16 @@ div.dataTables_filter {
   text-align: center;
 }
 
+.filters th {
+    padding-left:0.55rem;
+}
+
 .filters input {
   width:100%;
   padding: 3px;
   box-sizing: border-box;
 }
+ 
 
 .dataTables_wrapper table {
   width:100%;
@@ -406,7 +411,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .table td {
-    padding:0.3rem;
+    padding:0.3rem 0.3rem 0.3rem 0.75rem;
 }
 
 td li {
