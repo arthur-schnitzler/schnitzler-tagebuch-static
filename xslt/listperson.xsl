@@ -50,6 +50,11 @@
                                             <th scope="col">Nachname</th>
                                             <th scope="col">Vorname</th>
                                             <th scope="col">Erwähnungen</th>
+                                            <th scope="col">Profession</th>
+                                            <th scope="col">geboren am</th>
+                                            <th scope="col">geboren in</th>
+                                            <th scope="col">gestorben am</th>
+                                            <th scope="col">gestorben in</th>
                                             <th scope="col">ID</th>
                                         </tr>
                                     </thead>
@@ -68,6 +73,11 @@
                                                 <td>
                                                     <xsl:value-of select="count(.//tei:ptr)"/>
                                                 </td>
+                                                <td><xsl:value-of select="string-join(.//tei:occupation/text(), '; ')"/></td>
+                                                <td><xsl:value-of select=".//tei:birth/tei:date/text()"/></td>
+                                                <td><xsl:value-of select=".//tei:birth//tei:settlement/text()"/></td>
+                                                <td><xsl:value-of select=".//tei:death/tei:date/text()"/></td>
+                                                <td><xsl:value-of select=".//tei:death//tei:settlement/text()"/></td>
                                                 <td>
                                                     <a>
                                                         <xsl:attribute name="href">

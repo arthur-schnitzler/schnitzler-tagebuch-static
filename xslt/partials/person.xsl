@@ -19,13 +19,19 @@
                 <span class="infodesc mr-2">Nachname</span>
                 <span><xsl:value-of select=".//tei:surname/text()"/></span>
             </div>
+            <div class="mt-2">
+                <span class="infodesc mr-2">Profession</span>
+                <span><xsl:value-of select="string-join(.//tei:occupation/text(), '; ')"/></span>
+            </div>
             <div  class="mt-2">
                 <span class="infodesc mr-2">geboren</span>
                 <span><xsl:value-of select=".//tei:birth/tei:date/text()"/></span>
+                <xsl:if test=".//tei:birth//tei:settlement/text()">, <xsl:value-of select=".//tei:birth//tei:settlement/text()"/></xsl:if>
             </div>
             <div class="mt-2">
                 <span class="infodesc mr-2">gestorben</span>
                 <span><xsl:value-of select=".//tei:death/tei:date/text()"/></span>
+                <xsl:if test=".//tei:death//tei:settlement/text()">, <xsl:value-of select=".//tei:death//tei:settlement/text()"/></xsl:if>
             </div>
             <xsl:if test="count(.//tei:ptr) gt 0">
             <div id="mentions"  class="mt-2">
