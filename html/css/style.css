@@ -306,6 +306,11 @@ a:not([href]):not([tabindex]) {
     padding-bottom: 0rem;
     padding-top: 0rem;
 }
+
+.meta.container-fluid {
+    max-width: 750px;
+}
+
   .container-fluid-start {
     padding: 0 15px;
     max-width:1200px;
