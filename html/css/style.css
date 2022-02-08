@@ -516,6 +516,7 @@ td p {
 
 #srcbuttons a {
     cursor: pointer;
+    display:inline-block;
 }
 
 .infodesc {
