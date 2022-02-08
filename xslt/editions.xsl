@@ -363,6 +363,7 @@
             </body>
         </html>
     </xsl:template>
+    <xsl:template match="tei:fw"/>
 
     <xsl:template match="tei:p">
         <p id="{local:makeId(.)}">
