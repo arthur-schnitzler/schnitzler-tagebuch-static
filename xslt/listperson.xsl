@@ -65,10 +65,10 @@
                                             </xsl:variable>
                                             <tr>
                                                 <td>
-                                                    <xsl:value-of select=".//tei:surname/text()"/>
+                                                    <xsl:value-of select=".//tei:persName[1]/tei:surname/text()"/>
                                                 </td>
                                                 <td>                                        
-                                                    <xsl:value-of select=".//tei:forename/text()"/>
+                                                    <xsl:value-of select=".//tei:persName[1]/tei:forename/text()"/>
                                                 </td>
                                                 <td>
                                                     <xsl:value-of select="count(.//tei:ptr)"/>
@@ -144,7 +144,7 @@
         </html>
         <xsl:for-each select=".//tei:person">
             <xsl:variable name="filename" select="concat(./@xml:id, '.html')"/>
-            <xsl:variable name="name" select="normalize-space(string-join(./tei:persName//text()))"></xsl:variable>
+            <xsl:variable name="name" select="normalize-space(string-join(./tei:persName[1]//text()))"></xsl:variable>
             <xsl:result-document href="{$filename}">
                 <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
                     <xsl:call-template name="html_head">
