@@ -138,7 +138,7 @@
         </html>
         <xsl:for-each select=".//tei:place">
             <xsl:variable name="filename" select="concat(./@xml:id, '.html')"/>
-            <xsl:variable name="name" select="normalize-space(string-join(./tei:placeName//text()))"></xsl:variable>
+            <xsl:variable name="name" select="normalize-space(string-join(./tei:placeName[1]//text()))"></xsl:variable>
             <xsl:result-document href="{$filename}">
                 <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
                     <xsl:call-template name="html_head">
