@@ -10,6 +10,9 @@
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/work.xsl"/>
+    <xsl:param name="work-day"
+        select="document('../data/indices/index_work_day.xml')"/>
+    <xsl:key name="work-day-lookup" match="item/@when" use="ref"/>
     <xsl:variable name="teiSource" select="'listwork.xml'"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Verzeichnis erwähnter (literarischer) Werke'"/>
@@ -41,16 +44,15 @@
                             <div class="card-body">
                             <div class="w-100 text-center">
                                 <div class="spinner-grow table-loader" role="status">
-                                    <span class="sr-only">Loading...</span>
+                                    <span class="sr-only">Wird geladen…</span>
                                 </div>          
                             </div>                               
                                 <table class="table table-striped display d-none" id="tocTable" style="width:100%">
                                     <thead>
                                         <tr>
                                             <th scope="col">Titel</th>
-                                            <th scope="col">Autor*in</th>
+                                            <th scope="col">Autor:in</th>
                                             <th scope="col">Erwähnungen</th>
-                                            <th scope="col">ID</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -58,25 +60,33 @@
                                             <xsl:variable name="id">
                                                 <xsl:value-of select="data(@xml:id)"/>
                                             </xsl:variable>
+                                            <xsl:variable name="titel" select="normalize-space(tei:title[1]/text())"/>
+                                            <xsl:for-each select="tei:author">
                                             <tr>
-                                                <td>
-                                                    <xsl:value-of select=".//tei:title[1]/text()"/>
+                                                <td><xsl:element name="a">
+                                                    <xsl:attribute name="href">
+                                                        <xsl:value-of select="concat($id, '.html')"/>
+                                                    </xsl:attribute>
+                                                    <xsl:value-of select="$titel"/>
+                                                    </xsl:element>
                                                 </td>
                                                 <td>
-                                                    <xsl:value-of select=".//tei:surname/text()"/>, <xsl:value-of select=".//tei:forename/text()"/>
+                                                    <xsl:value-of select="tei:persName[1]/tei:surname/text()"/>, <xsl:value-of select="tei:persName[1]/tei:forename/text()"/>
+                                                    <xsl:if test="@role='editor'">
+                                                        <xsl:text> (Hrsg.)</xsl:text>
+                                                    </xsl:if>
+                                                    <xsl:if test="@role='translator'">
+                                                        <xsl:text> (Übersetzung)</xsl:text>
+                                                    </xsl:if>
+                                                    <xsl:if test="@role='illustrator'">
+                                                        <xsl:text> (Illustrationen)</xsl:text>
+                                                    </xsl:if>
                                                 </td>
                                                 <td>
-                                                    <xsl:value-of select="count(.//tei:date)"/>
-                                                </td>
-                                                <td>
-                                                    <a>
-                                                        <xsl:attribute name="href">
-                                                            <xsl:value-of select="concat($id, '.html')"/>
-                                                        </xsl:attribute>
-                                                        <xsl:value-of select="$id"/>
-                                                    </a> 
+                                                    <xsl:value-of select="count(key('work-day-lookup', $id, $work-day))"/>
                                                 </td>
                                             </tr>
+                                            </xsl:for-each>
                                         </xsl:for-each>
                                     </tbody>
                                 </table>
