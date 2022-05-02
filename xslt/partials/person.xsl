@@ -198,6 +198,9 @@
                             <xsl:if test="@role='translator'">
                                 <xsl:text>(Übersetzung)</xsl:text>
                             </xsl:if>
+                            <xsl:if test="@role='illustrator'">
+                                <xsl:text>(Illustrationen)</xsl:text>
+                            </xsl:if>
                             <xsl:element name="a">
                                 <xsl:attribute name="class">
                                     <xsl:text>tagebuch-button</xsl:text>
@@ -670,3 +673,4 @@
         <xsl:text>]</xsl:text>
     </xsl:template>
 </xsl:stylesheet>
+
