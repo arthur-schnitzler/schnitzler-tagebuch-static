@@ -47,6 +47,15 @@
                                         </xsl:when>
                                     </xsl:choose>
                                 </a>
+                                <xsl:if test="@role='editor'">
+                                    <xsl:text> (Hrsg.)</xsl:text>
+                                </xsl:if>
+                                <xsl:if test="@role='translator'">
+                                    <xsl:text> (Übersetzung)</xsl:text>
+                                </xsl:if>
+                                <xsl:if test="@role='illustrator'">
+                                    <xsl:text> (Illustrationen)</xsl:text>
+                                </xsl:if>
                             </xsl:otherwise>
                         </xsl:choose>
                         <xsl:text> </xsl:text>
