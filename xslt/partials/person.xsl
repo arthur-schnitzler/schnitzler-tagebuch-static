@@ -202,9 +202,6 @@
                                 <xsl:text>(Illustrationen)</xsl:text>
                             </xsl:if>
                             <xsl:element name="a">
-                                <xsl:attribute name="class">
-                                    <xsl:text>tagebuch-button</xsl:text>
-                                </xsl:attribute>
                                 <xsl:attribute name="href">
                                     <xsl:value-of select="concat(@xml:id,'.html')"/>
                                 </xsl:attribute>
