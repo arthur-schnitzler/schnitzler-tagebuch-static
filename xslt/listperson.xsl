@@ -264,11 +264,7 @@
                                                         <xsl:text>)</xsl:text>
                                                     </span>
                                                 </xsl:when>
-                                                <xsl:otherwise>
-                                                    <span class="lebensdaten">
-                                                        <xsl:text>ERROR 287 Lebensdaten</xsl:text>
-                                                    </span>
-                                                </xsl:otherwise>
+                                                <xsl:otherwise/>
                                             </xsl:choose>
                                         </h1>
                                     </div>
