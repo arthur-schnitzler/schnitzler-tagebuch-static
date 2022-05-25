@@ -131,7 +131,7 @@
                         </xsl:element>
                     </xsl:element>
                     </span>
-                    
+                    </xsl:if>
                     <xsl:if test="child::tei:idno[@type = 'gnd']">
                         <xsl:text> </xsl:text>
                         <span class="button">
@@ -156,6 +156,7 @@
                         </xsl:element>
                         </span>
                     </xsl:if>
+                      
                 </p>
             </div>
             <div class="werke">
