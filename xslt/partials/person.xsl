@@ -53,7 +53,7 @@
             <div id="mentions">
                 <p class="buttonreihe">
                     <xsl:for-each
-                        select="child::tei:idno[not(@type = 'schnitzler-tagebuch') and not(@type = 'gnd')]">
+                        select="child::tei:idno[not(@type = 'schnitzler-tagebuch') and not(@type = 'gnd') and not(@type = 'pmb')]">
                         <span class="button">
                         <xsl:choose>
                             <xsl:when test="not(. = '')">
@@ -109,6 +109,7 @@
                         </xsl:if>
                         </span>
                     </xsl:for-each>
+                    <xsl:if test="child::tei:idno[@type = 'pmb']">
                     <span class="button">
                     <xsl:element name="a">
                         <xsl:attribute name="class">
@@ -116,7 +117,7 @@
                         </xsl:attribute>
                         <xsl:attribute name="href">
                             <xsl:value-of
-                                select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/', substring-after(./@xml:id, 'pmb'), '/detail')"
+                                select="concat(child::tei:idno[@type = 'pmb'][1], '/detail')"
                             />
                         </xsl:attribute>
                         <xsl:attribute name="target">
