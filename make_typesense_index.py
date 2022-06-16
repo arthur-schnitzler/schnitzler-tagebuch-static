@@ -2,8 +2,6 @@ import glob
 import os
 import ciso8601
 import time
-import json
-
 import typesense
 
 from typesense.api_call import ObjectNotFound
@@ -16,12 +14,12 @@ TYPESENSE_API_KEY = os.environ.get("TYPESENSE_API_KEY", "xyz")
 
 client = typesense.Client({
   'nodes': [{
-    'host': 'localhost', # For Typesense Cloud use xxx.a1.typesense.net
-    'port': '8108',      # For Typesense Cloud use 443
-    'protocol': 'http'   # For Typesense Cloud use https
+    'host': os.environ.get('TYPESENSE_HOST','localhost'), # For Typesense Cloud use xxx.a1.typesense.net
+    'port': os.environ.get('TYPESENSE_PORT', '8108'),      # For Typesense Cloud use 443
+    'protocol': os.environ.get('TYPESENSE_PROTOCOL', 'http')   # For Typesense Cloud use https
   }],
   'api_key': TYPESENSE_API_KEY,
-  'connection_timeout_seconds': 2
+  'connection_timeout_seconds': 120
 })
 
 try:
