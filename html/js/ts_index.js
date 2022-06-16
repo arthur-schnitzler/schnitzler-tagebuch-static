@@ -1,11 +1,11 @@
 const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
     server: {
-      apiKey: "xyz", // Be sure to use an API key that only allows search operations
+      apiKey: "tbuqzVnBrxDVB0WSelohgwffwiQtkukg", // Be sure to use an API key that only allows search operations
       nodes: [
         {
-          host: "localhost",
-          port: "8108",
-          protocol: "http",
+          host: "1ckxuotadbr6fqh3p-1.a1.typesense.net",
+          port: "443",
+          protocol: "https",
         },
       ],
       cacheSearchResultsForSeconds: 2 * 60, // Cache search results from server. Defaults to 2 minutes. Set to 0 to disable caching.
