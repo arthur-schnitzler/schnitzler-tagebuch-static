@@ -1,9 +1,9 @@
 const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
     server: {
-      apiKey: "tbuqzVnBrxDVB0WSelohgwffwiQtkukg", // Be sure to use an API key that only allows search operations
+      apiKey: "LwgBWMJQ1Zm679fPXAk59NP6T8kifCq7", // Be sure to use an API key that only allows search operations
       nodes: [
         {
-          host: "1ckxuotadbr6fqh3p-1.a1.typesense.net",
+          host: "typesense.acdh-dev.oeaw.ac.at",
           port: "443",
           protocol: "https",
         },
@@ -36,7 +36,7 @@ search.addWidgets([
             empty: 'No results',
             item: `
                 <h4> {{ rec_id }}</h4>
-                <h5><a href="{{ rec_id }}">{{ title }}</a></h5>
+                <h5><a href="{{ id }}.html">{{ title }}</a></h5>
                 <p>{{#helpers.snippet}}{ "attribute": "full_text" }{{/helpers.snippet}}</p>
             `
         }
@@ -63,6 +63,12 @@ search.addWidgets([
         attribute: 'works',
         searchable: true,
     }),
+    
+    instantsearch.widgets.rangeInput({
+        container: "#range-input",
+        attribute: "year",
+        // Optional parameters
+      }),
 
     instantsearch.widgets.pagination({
         container: '#pagination',
@@ -82,6 +88,18 @@ search.addWidgets([
         attributesToSnippet: ['full_text'],
     })
 ]);
+
+search.addWidgets([
+    instantsearch.widgets.sortBy({
+      container: "#sort-by",
+      items: [
+        { label: "Tag (aufsteigend)", value: "stb/sort/date:asc" },
+        { label: "Tag (absteigend)", value: "stb/sort/date:desc" },
+        { label: "Jahr (aufsteigend)", value: "stb/sort/year:asc" },
+        { label: "Jahr (absteigend)", value: "stb/sort/year:desc" },
+      ],
+    }),
+  ]);
 
 
 search.start();

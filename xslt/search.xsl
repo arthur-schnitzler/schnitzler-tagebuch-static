@@ -33,6 +33,7 @@
                                             <div id="stats-container"></div>
                                             <div id="searchbox"></div>
                                             <div id="clear-refinements"></div>
+                                            <div id="sort-by"></div>
                                             
                                             <h4>Personen</h4>
                                             <div id="refinement-list-persons"></div>
@@ -40,6 +41,8 @@
                                             <div id="refinement-list-works"></div>
                                             <h4>Orte</h4>
                                             <div id="refinement-list-places"></div>
+                                            <h4>Jahr</h4>
+                                            <div id="range-input"></div>
                                         </div>
                                         <div class="col-md-8">
                                             <div id="hits"></div>

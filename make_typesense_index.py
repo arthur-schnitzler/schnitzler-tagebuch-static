@@ -31,6 +31,10 @@ current_schema = {
     'name': 'stb',
     'fields': [
         {
+            'name': 'id',
+            'type': 'string',
+        },
+        {
             'name': 'rec_id',
             'type': 'string'
         },
@@ -45,7 +49,13 @@ current_schema = {
         {
             'name': 'date',
             'type': 'int64',
-            'optional': True
+            'facet': True
+        },
+        {
+            'name': 'year',
+            'type': 'int32',
+            'optional': True,
+            'facet': True
         },
         {
             'name': 'persons',
@@ -65,7 +75,8 @@ current_schema = {
             'facet': True,
             'optional': True
         }
-    ]
+    ],
+    'default_sorting_field': 'date',
 }
 
 client.collections.create(current_schema)
@@ -76,8 +87,10 @@ for x in tqdm(files, total=len(files)):
     doc = TeiReader(x)
     body = doc.any_xpath('.//tei:body')[0]
     record['rec_id'] = os.path.split(x)[-1]
+    record['id'] = os.path.split(x)[-1].replace('.xml', '')
     record['title'] = " ".join(" ".join(doc.any_xpath('.//tei:title[@type="main"]//text()')).split())
     date_str = doc.any_xpath('.//tei:title[@type="iso-date"]/text()')[0]
+    record['year'] = int(date_str[:4])
     try:
         ts = ciso8601.parse_datetime(date_str)
     except ValueError:
