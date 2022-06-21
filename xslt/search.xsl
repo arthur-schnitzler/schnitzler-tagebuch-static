@@ -32,6 +32,7 @@
                                         <div class="col-md-4">
                                             <div id="stats-container"></div>
                                             <div id="searchbox"></div>
+                                            <div id="current-refinements"></div>
                                             <div id="clear-refinements"></div>
                                             <div id="sort-by"></div>
                                             
