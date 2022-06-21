@@ -83,6 +83,7 @@ for x in tqdm(files, total=len(files)):
     record['rec_id'] = os.path.split(x)[-1]
     cfts_record['rec_id'] = record['rec_id']
     record['id'] = os.path.split(x)[-1].replace('.xml', '')
+    cfts_record['resolver'] = f"https://schnitzler-tagebuch.acdh.oeaw.ac.at/{record['id']}.html"
     cfts_record['id'] = record['id']
     record['title'] = " ".join(" ".join(doc.any_xpath('.//tei:title[@type="main"]//text()')).split())
     cfts_record['title'] = record['title']
