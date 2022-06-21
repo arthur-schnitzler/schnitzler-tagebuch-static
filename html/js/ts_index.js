@@ -28,6 +28,12 @@ const search = instantsearch({
 search.addWidgets([
     instantsearch.widgets.searchBox({
         container: '#searchbox',
+        cssClasses: {
+          form: 'form-inline',
+          input: 'form-control col-md-11',
+          submit: 'btn',
+          reset: 'btn'
+        },
     }),
 
     instantsearch.widgets.hits({
@@ -50,35 +56,85 @@ search.addWidgets([
         container: '#refinement-list-places',
         attribute: 'places',
         searchable: true,
+        cssClasses: {
+          searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+          searchableSubmit: 'd-none',
+          searchableReset: 'd-none',
+          showMore: 'btn btn-secondary btn-sm align-content-center',
+          list: 'list-unstyled',
+          count: 'badge badge-light bg-light-2 ml-2',
+          label: 'd-flex align-items-center text-capitalize',
+          checkbox: 'mr-2',
+        }
     }),
 
     instantsearch.widgets.refinementList({
         container: '#refinement-list-persons',
         attribute: 'persons',
         searchable: true,
+        cssClasses: {
+          searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+          searchableSubmit: 'd-none',
+          searchableReset: 'd-none',
+          showMore: 'btn btn-secondary btn-sm align-content-center',
+          list: 'list-unstyled',
+          count: 'badge badge-light bg-light-2 ml-2',
+          label: 'd-flex align-items-center text-capitalize',
+          checkbox: 'mr-2',
+        }
     }),
 
     instantsearch.widgets.refinementList({
         container: '#refinement-list-works',
         attribute: 'works',
         searchable: true,
+        cssClasses: {
+          searchableInput: 'form-control form-control-sm mb-2 border-light-2',
+          searchableSubmit: 'd-none',
+          searchableReset: 'd-none',
+          showMore: 'btn btn-secondary btn-sm align-content-center',
+          list: 'list-unstyled',
+          count: 'badge badge-light bg-light-2 ml-2',
+          label: 'd-flex align-items-center text-capitalize',
+          checkbox: 'mr-2',
+        }
     }),
     
     instantsearch.widgets.rangeInput({
         container: "#range-input",
         attribute: "year",
-        // Optional parameters
+        cssClasses: {
+          form: 'form-inline',
+          input: 'form-control',
+          submit: 'btn'
+        }
       }),
 
     instantsearch.widgets.pagination({
         container: '#pagination',
         padding: 2,
+        cssClasses: {
+          list: 'pagination',
+          item: 'page-item',
+          link: 'page-link'
+        }
     }),
     instantsearch.widgets.clearRefinements({
         container: '#clear-refinements',
+        cssClasses: {
+          button: 'btn'
+        }
+    }),
+
+    	
+
+    instantsearch.widgets.currentRefinements({
+      container: '#current-refinements',
+      cssClasses: {
+        delete: 'btn',
+        label: 'badge'
+      }
     })
-
-
 ]);
 
 
@@ -98,6 +154,9 @@ search.addWidgets([
         { label: "Jahr (aufsteigend)", value: "stb/sort/year:asc" },
         { label: "Jahr (absteigend)", value: "stb/sort/year:desc" },
       ],
+      cssClasses: {
+        select: 'custom-select'
+      }
     }),
   ]);
 
