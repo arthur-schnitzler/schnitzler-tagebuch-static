@@ -34,8 +34,9 @@
                                             <div id="searchbox"></div>
                                             <div id="current-refinements"></div>
                                             <div id="clear-refinements"></div>
-                                            <div id="sort-by"></div>
                                             
+                                            <h4>Sortierung</h4>
+                                            <div id="sort-by"></div>
                                             <h4>Personen</h4>
                                             <div id="refinement-list-persons"></div>
                                             <h4>Werke</h4>
