@@ -39,7 +39,8 @@ search.addWidgets([
         templates: {
           empty: 'Keine Ergebnisse',
           item: `
-              <h3><a href="{{ id }}.html">{{ title }}</a></h3>
+              <h4><a href="{{ id }}.html">{{ title }}</a></h4>
+              <p>{{#helpers.snippet}}{ "attribute": "full_text" }{{/helpers.snippet}}</p>
               <h5><span class="badge badge-primary">{{ project }}</span></h5>
               <div>
               {{#persons}}
@@ -55,7 +56,6 @@ search.addWidgets([
               {{/places}}
               </div>
               </div>
-              <p>{{#helpers.snippet}}{ "attribute": "full_text" }{{/helpers.snippet}}</p>
           `
       }
     }),
