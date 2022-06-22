@@ -189,8 +189,6 @@ search.addWidgets([
       items: [
         { label: "Tag (aufsteigend)", value: "stb/sort/date:asc" },
         { label: "Tag (absteigend)", value: "stb/sort/date:desc" },
-        { label: "Jahr (aufsteigend)", value: "stb/sort/year:asc" },
-        { label: "Jahr (absteigend)", value: "stb/sort/year:desc" },
       ],
       cssClasses: {
         select: 'custom-select'
