@@ -1,6 +1,6 @@
 const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
     server: {
-      apiKey: "LwgBWMJQ1Zm679fPXAk59NP6T8kifCq7", // Be sure to use an API key that only allows search operations
+      apiKey: "LwgBWMJQ1Zm679fPXAk59NP6T8kifCq7",
       nodes: [
         {
           host: "typesense.acdh-dev.oeaw.ac.at",
@@ -8,11 +8,8 @@ const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
           protocol: "https",
         },
       ],
-      cacheSearchResultsForSeconds: 2 * 60, // Cache search results from server. Defaults to 2 minutes. Set to 0 to disable caching.
+      cacheSearchResultsForSeconds: 2 * 60,
     },
-    // The following parameters are directly passed to Typesense's search API endpoint.
-    //  So you can pass any parameters supported by the search endpoint below.
-    //  query_by is required.
     additionalSearchParameters: {
       query_by: "full_text"
     },
@@ -28,6 +25,7 @@ const search = instantsearch({
 search.addWidgets([
     instantsearch.widgets.searchBox({
         container: '#searchbox',
+        autofocus: true,
         cssClasses: {
           form: 'form-inline',
           input: 'form-control col-md-11',
@@ -39,30 +37,61 @@ search.addWidgets([
     instantsearch.widgets.hits({
         container: '#hits',
         templates: {
-            empty: 'No results',
-            item: `
-                <h4> {{ rec_id }}</h4>
-                <h5><a href="{{ id }}.html">{{ title }}</a></h5>
-                <p>{{#helpers.snippet}}{ "attribute": "full_text" }{{/helpers.snippet}}</p>
-            `
-        }
+          empty: 'Keine Ergebnisse',
+          item: `
+              <h3><a href="{{ id }}.html">{{ title }}</a></h3>
+              <h5><span class="badge badge-primary">{{ project }}</span></h5>
+              <div>
+              {{#persons}}
+              <span class="badge badge-secondary">{{ . }}</span>
+              {{/persons}}
+              </div>
+              {{#works}}
+              <span class="badge badge-success">{{ . }}</span>
+              {{/works}}
+              <div>
+              {{#places}}
+              <span class="badge badge-info">{{ . }}</span>
+              {{/places}}
+              </div>
+              </div>
+              <p>{{#helpers.snippet}}{ "attribute": "full_text" }{{/helpers.snippet}}</p>
+          `
+      }
     }),
 
     instantsearch.widgets.stats({
-        container: '#stats-container'
-    }),
+      container: '#stats-container',
+      templates: {
+        text: `
+          {{#areHitsSorted}}
+            {{#hasNoSortedResults}}Keine Treffer{{/hasNoSortedResults}}
+            {{#hasOneSortedResults}}1 Treffer{{/hasOneSortedResults}}
+            {{#hasManySortedResults}}{{#helpers.formatNumber}}{{nbSortedHits}}{{/helpers.formatNumber}} Treffer {{/hasManySortedResults}}
+            aus {{#helpers.formatNumber}}{{nbHits}}{{/helpers.formatNumber}}
+          {{/areHitsSorted}}
+          {{^areHitsSorted}}
+            {{#hasNoResults}}Keine Treffer{{/hasNoResults}}
+            {{#hasOneResult}}1 Treffer{{/hasOneResult}}
+            {{#hasManyResults}}{{#helpers.formatNumber}}{{nbHits}}{{/helpers.formatNumber}} Treffer{{/hasManyResults}}
+          {{/areHitsSorted}}
+          gefunden in {{processingTimeMS}}ms
+        `,
+      }
+  }),
 
     instantsearch.widgets.refinementList({
         container: '#refinement-list-places',
         attribute: 'places',
         searchable: true,
+        searchablePlaceholder: 'Suche',
         cssClasses: {
           searchableInput: 'form-control form-control-sm mb-2 border-light-2',
           searchableSubmit: 'd-none',
           searchableReset: 'd-none',
           showMore: 'btn btn-secondary btn-sm align-content-center',
           list: 'list-unstyled',
-          count: 'badge badge-light bg-light-2 ml-2',
+          count: 'badge ml-2 badge-info',
           label: 'd-flex align-items-center text-capitalize',
           checkbox: 'mr-2',
         }
@@ -72,13 +101,14 @@ search.addWidgets([
         container: '#refinement-list-persons',
         attribute: 'persons',
         searchable: true,
+        searchablePlaceholder: 'Suche',
         cssClasses: {
           searchableInput: 'form-control form-control-sm mb-2 border-light-2',
           searchableSubmit: 'd-none',
           searchableReset: 'd-none',
           showMore: 'btn btn-secondary btn-sm align-content-center',
           list: 'list-unstyled',
-          count: 'badge badge-light bg-light-2 ml-2',
+          count: 'badge ml-2 badge-secondary',
           label: 'd-flex align-items-center text-capitalize',
           checkbox: 'mr-2',
         }
@@ -88,13 +118,14 @@ search.addWidgets([
         container: '#refinement-list-works',
         attribute: 'works',
         searchable: true,
+        searchablePlaceholder: 'Suche',
         cssClasses: {
           searchableInput: 'form-control form-control-sm mb-2 border-light-2',
           searchableSubmit: 'd-none',
           searchableReset: 'd-none',
           showMore: 'btn btn-secondary btn-sm align-content-center',
           list: 'list-unstyled',
-          count: 'badge badge-light bg-light-2 ml-2',
+          count: 'badge ml-2 badge-success',
           label: 'd-flex align-items-center text-capitalize',
           checkbox: 'mr-2',
         }
@@ -103,6 +134,10 @@ search.addWidgets([
     instantsearch.widgets.rangeInput({
         container: "#range-input",
         attribute: "year",
+        templates: {
+          separatorText: 'bis',
+          submitText: 'Suchen',
+        },
         cssClasses: {
           form: 'form-inline',
           input: 'form-control',
@@ -121,6 +156,9 @@ search.addWidgets([
     }),
     instantsearch.widgets.clearRefinements({
         container: '#clear-refinements',
+        templates: {
+          resetLabel: 'Filter zurücksetzen',
+        },
         cssClasses: {
           button: 'btn'
         }
