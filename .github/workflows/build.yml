@@ -9,6 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ANT_OPTS: -Xmx6g
+      TYPESENSE_HOST: typesense.acdh-dev.oeaw.ac.at
+      TYPESENSE_PORT: 443
+      TYPESENSE_PROTOCOL: https
+      TYPESENSE_API_KEY: ${{secrets.TYPESENSE_API_KEY}}
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v2
@@ -18,21 +22,13 @@ jobs:
         ./script.sh
     - name: Install Ant-Contrib and Python
       run: |
-        wget https://repo1.maven.org/maven2/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.jar
-        mv ant-contrib-1.0b3.jar /usr/share/ant/lib
-        pip install acdh-tei-pyutils>=0.20.0
+        pip install -r requirements.txt
     - name: Fetch and preprocess Data
       run: |
         ./fetch_data.sh
     - name: Build
       run: |
         ant
-    - name: Build Fulltext Search Index
-      run: |
-        ./build_index.sh
-    - name: Build Register
-      run: |
-        ant -f build_indices.xml
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:

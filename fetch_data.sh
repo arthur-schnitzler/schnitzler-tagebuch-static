@@ -17,3 +17,6 @@ schnitzler
 
 echo "add mentions to register-files"
 python add_mentions.py
+
+echo "build search index with typesense"
+python make_typesense_index.py
