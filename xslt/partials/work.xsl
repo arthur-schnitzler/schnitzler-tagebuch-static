@@ -85,7 +85,7 @@
                                             <xsl:when test="@type = 'schnitzler-lektueren'">
                                                 <xsl:text>leseliste-workbutton</xsl:text>
                                             </xsl:when>
-                                            <xsl:when test="@type = 'bahrschnitzler'">
+                                            <xsl:when test="@type = 'schnitzler-bahr'">
                                                 <xsl:text>bahrschnitzler-workbutton</xsl:text>
                                             </xsl:when>
                                             <xsl:when test="@type = 'pmb'">
@@ -217,7 +217,7 @@
             <xsl:when test="$typityp = 'gnd'">
                 <xsl:text> Wikipedia?</xsl:text>
             </xsl:when>
-            <xsl:when test="$typityp = 'bahrschnitzler'">
+            <xsl:when test="$typityp = 'schnitzler-bahr'">
                 <xsl:text> Bahr/Schnitzler</xsl:text>
             </xsl:when>
             <xsl:when test="$typityp = 'widmungDLA'">
