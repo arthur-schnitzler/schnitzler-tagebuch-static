@@ -171,7 +171,7 @@
                         <li>
                             <xsl:if test="tei:author[2]">
                                 <xsl:text>(mit </xsl:text>
-                                <xsl:for-each select="tei:author[not(@ref = $author-ref)]">
+                                <xsl:for-each select="tei:author[not(replace(@ref,'#','') = $author-ref)]">
                                     <xsl:choose>
                                         <xsl:when
                                             test="tei:persName/tei:forename and tei:persName/tei:surname">
@@ -297,7 +297,7 @@
                                             <xsl:if test="tei:author[2]">
                                                 <xsl:text>(mit </xsl:text>
                                                 <xsl:for-each
-                                                  select="tei:author[not(@ref = $author-ref)]">
+                                                    select="tei:author[not(replace(@ref,'#','') = $author-ref)]">
                                                   <xsl:value-of select="."/>
                                                   <xsl:choose>
                                                   <xsl:when test="position() = last()">
