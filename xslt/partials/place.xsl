@@ -12,13 +12,17 @@
             <xsl:value-of select="concat(data(@xml:id), '.html')"/>
         </xsl:variable>
         <div class="card-body-tagebuch w-75">
-            <xsl:if test="count(.//tei:placeName) gt 1">
+            <xsl:if test="count(distinct-values(descendant::tei:placeName)) gt 1">
+                <xsl:variable name="lemma-placeName" select="descendant::tei:placeName[1]"/>
                 <span class="infodesc">Namensvarianten</span>
                                 <ul>
-                    <xsl:for-each select=".//tei:placeName[@type = 'alternative-name']">
+                                    
+                    <xsl:for-each select="distinct-values(tei:placeName)">
+                        <xsl:if test=". != $lemma-placeName">
                         <li>
-                            <xsl:value-of select="./text()"/>
+                            <xsl:value-of select="."/>
                         </li>
+                        </xsl:if>
                     </xsl:for-each>
                 </ul>
             </xsl:if>
@@ -56,7 +60,7 @@
             <div id="mentions">
                 <p class="buttonreihe">
                     <xsl:for-each
-                        select="child::tei:idno[not(@type = 'schnitzler-tagebuch') and not(@type = 'gnd') and not(@type = 'pmb') and not(@type='geonames')]">
+                        select="child::tei:idno[not(@type = 'schnitzler-tagebuch') and not(@type = 'gnd') and not(@type = 'pmb') and not(@type='geonames') and not(@type='obsolete-schnitzler-diary')]">
                         <span class="button">
                             <xsl:choose>
                                 <xsl:when test="not(. = '')">
@@ -122,7 +126,7 @@
                                     select="concat(substring-after(child::tei:idno[@type = 'pmb'][1], 'https://pmb.acdh.oeaw.ac.at/entity/'), '/detail')"/>
                                 <xsl:attribute name="href">
                                     <xsl:value-of
-                                        select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/', $pmb-path-ende)"
+                                        select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/place/', $pmb-path-ende)"
                                     />
                                 </xsl:attribute>
                                 <xsl:attribute name="target">
