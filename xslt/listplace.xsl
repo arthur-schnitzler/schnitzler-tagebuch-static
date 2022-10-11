@@ -49,7 +49,6 @@
                                             <th scope="col">Lat/Lng</th>
                                             <th scope="col">Erwähnungen</th>
                                             <th scope="col">Geonames</th>
-                                            <th scope="col">ID</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -78,14 +77,7 @@
                                                         <xsl:value-of select=".//tei:idno[@type='geonames']/text()"/>
                                                     </a>
                                                 </td>
-                                                <td>
-                                                    <a>
-                                                        <xsl:attribute name="href">
-                                                            <xsl:value-of select="concat($id, '.html')"/>
-                                                        </xsl:attribute>
-                                                        <xsl:value-of select="$id"/>
-                                                    </a> 
-                                                </td>
+                                                
                                             </tr>
                                         </xsl:for-each>
                                     </tbody>
@@ -107,8 +99,6 @@
                                             angezeigt werden können. Sofern möglich wurden die Orte auch
                                             mit <a href="http://www.geonames.org/">geonames</a>
                                             verknüpft.</p>
-                                        <p>Der Name des jeweiligen Ortes ist mit jenen Dokumenten
-                                            verlinkt, in denen dieser Ort erwähnt wird. </p>
                                         <p>Die Sortierung der einzelnen Spalten kann durch einen Klick
                                             auf die Spaltenüberschrift geändert werden. Das Suchfeld
                                             rechts oberhalb der Tabelle durchsucht den gesamten
