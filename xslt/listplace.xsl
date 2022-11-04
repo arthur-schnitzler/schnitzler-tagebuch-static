@@ -1,119 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet 
-    xmlns="http://www.w3.org/1999/xhtml"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    version="2.0" exclude-result-prefixes="xsl tei xs">
-    <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
-    
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0"
+    exclude-result-prefixes="xsl tei xs">
+    <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes"
+        omit-xml-declaration="yes"/>
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/place.xsl"/>
-    <xsl:variable name="teiSource" select="'listplace.xml'"/>
     <xsl:template match="/">
-        <xsl:variable name="doc_title" select="'Ortsregister'"/>
-        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
+        <xsl:variable name="doc_title" select="'Erwähnte Orte'"/>
+        <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html lang="de">
             <xsl:call-template name="html_head">
-                <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
+                <xsl:with-param name="html_title" select="$doc_title"/>
             </xsl:call-template>
-            
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                    
-                    <div class="container-fluid">                        
+                    <div class="container-fluid">
                         <div class="card">
                             <div class="card-header" style="text-align:center">
-                                <h1><xsl:value-of select="$doc_title"/></h1>
-                                <h3>
-                                    <a>
-                                        <i class="fas fa-info" title="Info zu diesem Ortsregister" data-toggle="modal" data-target="#exampleModal"/>
-                                    </a><xsl:text> | </xsl:text>
-                                    <a href="{$teiSource}">
-                                        <i class="fas fa-download" title="Download XML/TEI"/>
-                                    </a>
-                                </h3>
+                                <h1>
+                                    <xsl:value-of select="$doc_title"/>
+                                </h1>
                             </div>
                             <div class="card-body">
-                            <div class="w-100 text-center">
-                                <div class="spinner-grow table-loader" role="status">
-                                    <span class="sr-only">Loading...</span>
-                                </div>          
-                            </div>                                
-                                <table class="table table-striped display d-none" id="tocTable" style="width:100%">
+                                <table class="table table-striped display" id="tocTable"
+                                    style="width:100%">
                                     <thead>
                                         <tr>
                                             <th scope="col">Ortsname</th>
-                                            <th scope="col">Lat/Lng</th>
-                                            <th scope="col">Erwähnungen</th>
-                                            <th scope="col">Geonames</th>
+                                            <th scope="col">Längen-/Breitengrad</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <xsl:for-each select=".//tei:place">
+                                        <xsl:for-each select="descendant::tei:place">
                                             <xsl:variable name="id">
                                                 <xsl:value-of select="data(@xml:id)"/>
                                             </xsl:variable>
                                             <tr>
                                                 <td>
-                                                    <a>
-                                                        <xsl:attribute name="href">
-                                                            <xsl:value-of select="concat($id, '.html')"/>
-                                                        </xsl:attribute>
-                                                        <xsl:value-of select=".//tei:placeName[1]/text()"/>
-                                                    </a>
+                                                  <a>
+                                                  <xsl:attribute name="href">
+                                                  <xsl:value-of select="concat($id, '.html')"/>
+                                                  </xsl:attribute>
+                                                  <xsl:value-of
+                                                  select="descendant::tei:placeName[1]/text()"/>
+                                                  </a>
                                                 </td>
                                                 <td>
-                                                    <xsl:value-of select=".//tei:geo[1]/text()"/>
+                                                  <xsl:if test="descendant::tei:geo[1]">
+                                                  <xsl:variable name="lat"
+                                                  select="replace(tokenize(descendant::tei:geo[1]/text(), ' ')[1], ',', '.')"
+                                                  as="xs:string"/>
+                                                  <xsl:variable name="long"
+                                                  select="replace(tokenize(descendant::tei:geo[1]/text(), ' ')[2], ',', '.')"
+                                                  as="xs:string"/>
+                                                  <xsl:value-of
+                                                  select="concat(foo:grad-kuerzen($lat), '/', foo:grad-kuerzen($long))"
+                                                  />
+                                                  </xsl:if>
                                                 </td>
-                                                <td>
-                                                    <xsl:value-of select="count(.//tei:ptr)"/>
-                                                </td>
-                                                <td>
-                                                    <a>
-                                                        <xsl:attribute name="href"><xsl:value-of select=".//tei:idno[@type='geonames']/text()"/></xsl:attribute>
-                                                        <xsl:value-of select=".//tei:idno[@type='geonames']/text()"/>
-                                                    </a>
-                                                </td>
-                                                
                                             </tr>
                                         </xsl:for-each>
                                     </tbody>
                                 </table>
-                            </div>
-                        </div>
-                        <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">Info zum Ortsregister</h5>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>Das vorliegende Ortsverzeichnis umfasst Orte die in den
-                                            Tagebucheinträgen erwähnt werden. Die Namensansetzung wurden
-                                            von den EditorInnen zum Zwecke besserer Suchmöglichkeiten
-                                            normalisiert. Darüberhinaus wurden die Orte auch mit
-                                            Koordinaten versehen, wodurch die Orte auf einer Karte
-                                            angezeigt werden können. Sofern möglich wurden die Orte auch
-                                            mit <a href="http://www.geonames.org/">geonames</a>
-                                            verknüpft.</p>
-                                        <p>Die Sortierung der einzelnen Spalten kann durch einen Klick
-                                            auf die Spaltenüberschrift geändert werden. Das Suchfeld
-                                            rechts oberhalb der Tabelle durchsucht den gesamten
-                                            Tabelleninhalt. Darüberhinaus können mit Hilfe der
-                                            Suchfelder am Fußende der Spalten gezielt die Inhalte dieser
-                                            Spalten durchsucht bzw. gefiltert werden. </p>
-                                        <p>Die (ggf. gefilterte) Tabelle kann als PDF oder Excel
-                                            heruntergeladen bzw. in den Zwischenspeicher kopiert
-                                            werden.</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-dismiss="modal">Schließen</button>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -128,17 +81,15 @@
         </html>
         <xsl:for-each select=".//tei:place">
             <xsl:variable name="filename" select="concat(./@xml:id, '.html')"/>
-            <xsl:variable name="name" select="normalize-space(string-join(./tei:placeName[1]//text()))"></xsl:variable>
+            <xsl:variable name="name" select="./tei:placeName[1]/text()"/>
             <xsl:result-document href="{$filename}">
-                <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+                <html xmlns="http://www.w3.org/1999/xhtml">
                     <xsl:call-template name="html_head">
-                        <xsl:with-param name="html_title" select="$name"></xsl:with-param>
+                        <xsl:with-param name="html_title" select="$name"/>
                     </xsl:call-template>
-                    
                     <body class="page">
                         <div class="hfeed site" id="page">
                             <xsl:call-template name="nav_bar"/>
-                            
                             <div class="container-fluid">
                                 <div class="card">
                                     <div class="card-header">
@@ -151,14 +102,26 @@
                                     </div>
                                 </div>
                             </div>
-                            
                             <xsl:call-template name="html_footer"/>
                         </div>
                     </body>
                 </html>
             </xsl:result-document>
-            
         </xsl:for-each>
     </xsl:template>
-    
+    <xsl:function name="foo:grad-kuerzen">
+        <xsl:param name="eingangs-grad" as="xs:string"/>
+        <xsl:variable name="vordempunkt" as="xs:string"
+            select="substring-before($eingangs-grad, '.')"/>
+        <xsl:variable name="nachdempunkt" as="xs:string"
+            select="substring-after($eingangs-grad, '.')"/>
+        <xsl:choose>
+            <xsl:when test="string-length($nachdempunkt) &gt; 4">
+                <xsl:value-of select="concat($vordempunkt, '.', substring($nachdempunkt, 1, 4))"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$eingangs-grad"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
 </xsl:stylesheet>
