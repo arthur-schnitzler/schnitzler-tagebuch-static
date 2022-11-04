@@ -60,7 +60,6 @@
                                                     </xsl:otherwise>
                                                 </xsl:choose>
                                             </xsl:variable>
-                                            select="normalize-space(tei:date[1]/text())"
                                             <xsl:for-each select="tei:author">
                                                 <tr>
                                                     <td>
