@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This XML file collects all the types of idnos that should be
+included. By adding the attribute type="current-edition" one can 
+note which one should be omitted without deleting it. If the URIs
+are but links to pdfs etc. an URL can be added
+-->
+<list>
+    <item >
+        <abbr>schnitzler-briefe</abbr>
+        <caption>Briefe</caption>
+        <color>#A63437</color>
+    </item>
+    <item type="current-edition">
+        <abbr>schnitzler-tagebuch</abbr>
+        <caption>Tagebuch</caption>
+        <color>#037a33</color>
+    </item>
+    <item>
+        <abbr>schnitzler-lektueren</abbr>
+        <caption>Leseliste</caption>
+        <color>#022954</color>
+    </item>
+    <item>
+        <abbr>schnitzler-bahr</abbr>
+        <caption>Schnitzler/Bahr</caption>
+        <color>#F9BD63</color>
+    </item>
+    <!--<item>
+        <abbr>fackel</abbr>
+        <caption>Fackel</caption>
+        <color>#CE0F0B</caption>
+    </item>-->
+    <item>
+        <abbr>legalkraus</abbr>
+        <caption>Rechtsakten</caption>
+        <color>#c85545</color>
+    </item>
+    <!--<item>
+        <abbr>dritte-walpurgisnacht</abbr>
+        <caption>Dritte Walpurgisnacht</caption>
+        <color>#a21a17</caption>
+    </item>-->
+    <item>
+        <abbr>schoenbach</abbr>
+        <caption>Schönbach</caption>
+        <color>#62C3D0</color>
+    </item>
+    <item type="print-online">
+        <abbr>briefe_i</abbr>
+        <caption>Briefe 1875–1912</caption>
+        <url>https://shared.acdh.oeaw.ac.at/schnitzler-briefe/1981_Briefe-1875–1912.pdf</url>
+    </item>
+    <item type="print-online">
+        <abbr>briefe_ii</abbr>
+        <caption>Briefe 1913–1931</caption>
+        <url>https://shared.acdh.oeaw.ac.at/schnitzler-briefe/1984_Briefe-1913–1931.pdf</url>
+    </item>
+    <item type="print-online">
+        <abbr>jugend-in-wien</abbr>
+        <caption>Jugend in Wien</caption>
+        <url>http://www.zeno.org/Literatur/M/Schnitzler,+Arthur/Autobiographisches/Jugend+in+Wien</url>
+    </item>
+    
+    <item>
+        <abbr>wikidata</abbr>
+        <caption>Wikidata</caption>
+        <color>#0645ad</color>
+    </item>
+    <item>
+        <abbr>oebl</abbr>
+        <caption>ÖBL</caption>
+        <color>#a50021</color>
+    </item>
+    <item>
+        <abbr>pmb</abbr>
+        <caption>PMB</caption>
+        <color>#9B5F98</color>
+    </item>
+    <item>
+        <abbr>gnd</abbr>
+        <caption>GND</caption>
+        <color>#006AB3</color>
+    </item>
+    <item>
+        <abbr>geonames</abbr>
+        <caption>geoNames</caption>
+        <color>#363</color>
+    </item>
+    
+   
+</list>
