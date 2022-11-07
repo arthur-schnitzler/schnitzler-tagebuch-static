@@ -43,170 +43,73 @@
                             </div>
                         </div>
                         <!-- #wrapper-hero-content -->
-                        <div class="wrapper" id="index-wrapper">
-                            <div class="container-fluid-start" id="content" tabindex="-1">
-                                <div class="row">
-                                    <!-- Do the left sidebar check and opens the primary div -->
-                                    <div class="col-md-12 content-area" id="primary">
-                                        <main class="site-main" id="main">
-                                            <!-- Use custom content block templates if they are defined -->
-                                            <div class="card_wrapper">
-                                                <article class="card col-md-6 flat-style">
-                                                  <div
-                                                  class="card-inner card-vertical h-100 d-flex flex-column"
-                                                  style="min-height:420px;">
-                                                  <a class="entry-top-thumbnail"
-                                                  style="height:230px;" href="#" rel="bookmark">
-                                                  <img width="1024" height="684"
-                                                  src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/post-bg-1.jpg"
-                                                  alt=""/>
-                                                  </a>
-                                                  <div class="entry-text-content">
-                                                  <header class="entry-header">
-                                                  <h4 class="entry-title">
-                                                  <a href="entry__1902-05-15.html" rel="bookmark"
-                                                  class="light">Donnerstag, 15. Mai 1902</a>
-                                                  </h4>
-                                                  </header>
-                                                  <!-- .entry-header -->
-                                                  <div class="entry-content">
-                                                  <p>15/5 40. Geburtstag.― Nach Wien .― Bei Gustav
-                                                  und Max , in der Affaire Sachsel .― Blumen von
-                                                  Bahr , Vacano , Frau Alb. Gutmann .― Nm. Frl.
-                                                  Hermine Freund , brachte einen netten Brief von
-                                                  Else S. [...]</p>
-                                                  </div>
-                                                  <!-- .entry-content -->
-                                                  </div>
-                                                  <!-- .entry-text-content -->
-                                                  <footer class="mt-auto">
-                                                  <a class="btn btn-round mb-1"
-                                                  href="entry__1902-05-15.html">Mehr lesen</a>
-                                                  </footer>
-                                                  </div>
-                                                  <!-- .card-inner -->
-                                                </article>
-                                                <!-- #post-## -->
-                                                <article class="card col-md-6 flat-style">
-                                                  <div
-                                                  class="card-inner card-vertical h-100 d-flex flex-column"
-                                                  style="min-height:420px;">
-                                                  <a class="entry-top-thumbnail"
-                                                  style="height:230px;" href="calendar.html"
-                                                  rel="bookmark">
-                                                  <img width="1024" height="684"
-                                                  src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/post-bg-2.jpg"
-                                                  alt=""/>
-                                                  </a>
-                                                  <div class="entry-text-content">
-                                                  <header class="entry-header">
-                                                  <h4 class="entry-title">
-                                                  <a href="calendar.html" rel="bookmark"
-                                                  class="light">Das Tagebuch in Kalenderansicht</a>
-                                                  </h4>
-                                                  </header>
-                                                  <!-- .entry-header -->
-                                                  <div class="entry-content">
-                                                  <p>Fünfzig Jahre lang legte Schnitzler nahezu
-                                                  täglich Einträge an. Über den Kalender können
-                                                  bestimmte Tage direkt aufgefunden werden.</p>
-                                                  </div>
-                                                  <!-- .entry-content -->
-                                                  </div>
-                                                  <!-- .entry-text-content -->
-                                                  <footer class="mt-auto">
-                                                  <a class="btn btn-round mb-1" href="calendar.html"
-                                                  >Mehr lesen</a>
-                                                  </footer>
-                                                  </div>
-                                                  <!-- .card-inner -->
-                                                </article>
-                                                <!-- #post-## -->
-                                                <article class="card col-md-6 flat-style">
-                                                  <div
-                                                  class="card-inner card-vertical h-100 d-flex flex-column"
-                                                  style="min-height:420px;">
-                                                  <a class="entry-top-thumbnail"
-                                                  style="height:230px;" href="persons.html"
-                                                  rel="bookmark">
-                                                  <img width="1024" height="684"
-                                                  src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/persons.jpg"
-                                                  title="University Children's Hospital, Vienna: a row of girl patients, outdoors, being measured for height. Photograph, 1921. Credit: Wellcome Collection. CC BY"
-                                                  alt="University Children's Hospital, Vienna: a row of girl patients, outdoors, being measured for height. Photograph, 1921. Credit: Wellcome Collection. CC BY"
-                                                  />
-                                                  </a>
-                                                  <div class="entry-text-content">
-                                                  <header class="entry-header">
-                                                  <h4 class="entry-title">
-                                                  <a href="listperson.html" rel="bookmark"
-                                                  class="light">Personenverzeichnis</a>
-                                                  </h4>
-                                                  </header>
-                                                  <!-- .entry-header -->
-                                                  <div class="entry-content">
-                                                  <p>Einstieg in das Tagebuch über das
-                                                  Personenregister mit über 8.500 nachgewiesenen
-                                                  Personen und ihrem Vorkommen.</p>
-                                                  </div>
-                                                  <!-- .entry-content -->
-                                                  </div>
-                                                  <!-- .entry-text-content -->
-                                                  <footer class="mt-auto">
-                                                  <a class="btn btn-round mb-1"
-                                                  href="listperson.html">Mehr lesen</a>
-                                                  </footer>
-                                                  </div>
-                                                  <!-- .card-inner -->
-                                                </article>
-                                                <!-- #post-## -->
-                                                <article class="card col-md-6 flat-style">
-                                                  <div
-                                                  class="card-inner card-vertical h-100 d-flex flex-column"
-                                                  style="min-height:420px;">
-                                                  <a class="entry-top-thumbnail"
-                                                  style="height:230px;" href="places.html"
-                                                  rel="bookmark">
-                                                  <img width="1024" height="684"
-                                                  src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/places.jpg"
-                                                  alt="Stadtplan von Wien innerhalb des Gürtels, Beilage zum Meyers Konversationslexikon von 1905."
-                                                  title="Stadtplan von Wien innerhalb des Gürtels, Beilage zum Meyers Konversationslexikon von 1905."
-                                                  />
-                                                  </a>
-                                                  <div class="entry-text-content">
-                                                  <header class="entry-header">
-                                                  <h4 class="entry-title">
-                                                  <a href="listplace.html" rel="bookmark"
-                                                  class="light">Ortsverzeichnis</a>
-                                                  </h4>
-                                                  </header>
-                                                  <!-- .entry-header -->
-                                                  <div class="entry-content">
-                                                  <p>Zugang zum Tagebuch mittels 2.200 Orten, die
-                                                  auch über ihre Koordinaten erschlossen sind.</p>
-                                                  </div>
-                                                  <!-- .entry-content -->
-                                                  </div>
-                                                  <!-- .entry-text-content -->
-                                                  <footer class="mt-auto">
-                                                  <a class="btn btn-round mb-1"
-                                                  href="listplace.html">Mehr lesen</a>
-                                                  </footer>
-                                                  </div>
-                                                  <!-- .card-inner -->
-                                                </article>
-                                                <!-- #post-## -->
-                                            </div>
-                                            <!-- .card-wrapper -->
-                                        </main>
-                                        <!-- #main -->
-                                        <!-- The pagination component -->
+                    </div>
+                    <div class="container" style="margin-top:1em;">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="calendar.html" class="index-link">
+                                    <div class="card index-card">
+                                        <div class="card-body">
+                                            <img
+                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/post-bg-2.jpg"
+                                                class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">
+                                            <h3>
+                                                <i class="fa-solid fa-user-group"/> Kalender
+                                            </h3>
+                                        </div>
                                     </div>
-                                    <!-- #primary -->
-                                    <!-- Do the right sidebar check -->
-                                </div>
-                                <!-- .row -->
+                                </a>
                             </div>
-                            <!-- Container end -->
+                            <div class="col-md-4">
+                                <a href="listperson.html" class="index-link">
+                                    <div class="card index-card">
+                                        <div class="card-body">
+                                            <img
+                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/persons.jpg"
+                                                class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">
+                                            <h3>
+                                                <i class="fa-solid fa-user-group"/> Personenverzeichnis
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="listwork.html" class="index-link">
+                                    <div class="card index-card">
+                                        <div class="card-body">
+                                            <img
+                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-briefe/img/werke.jpg"
+                                                class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">
+                                            <h3>
+                                                <i class="fa-solid fa-user-group"/> Werkregister
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="listplace.html" class="index-link">
+                                    <div class="card index-card">
+                                        <div class="card-body">
+                                            <img
+                                                src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/resources/img/places.jpg"
+                                                class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">
+                                            <h3>
+                                                <i class="fa-solid fa-user-group"/> Ortsregister
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <xsl:call-template name="html_footer"/>

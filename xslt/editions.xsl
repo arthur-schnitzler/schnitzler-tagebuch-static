@@ -171,14 +171,14 @@
                                             aria-labelledby="nav-person-tab">
                                             <legend>Personen</legend>
                                             <ul>
-                                                <xsl:for-each select=".//tei:listPerson//tei:person">
+                                                <xsl:for-each select="descendant::tei:back/tei:listPerson/tei:person">
                                                   <li>
                                                   <a>
                                                   <xsl:attribute name="href">
                                                   <xsl:value-of
                                                   select="concat(data(@xml:id), '.html')"/>
                                                   </xsl:attribute>
-                                                  <xsl:value-of select="./tei:persName"/>
+                                                  <xsl:value-of select="child::tei:persName[1]"/>
                                                   </a>
                                                   </li>
                                                 </xsl:for-each>
@@ -188,14 +188,14 @@
                                             aria-labelledby="nav-werk-tab">
                                             <legend>Werke</legend>
                                             <ul>
-                                                <xsl:for-each select=".//tei:listBibl//tei:bibl">
+                                                <xsl:for-each select="descendant::tei:back/tei:listBibl/tei:bibl">
                                                   <li>
                                                   <a>
                                                   <xsl:attribute name="href">
                                                   <xsl:value-of
                                                   select="concat(data(@xml:id), '.html')"/>
                                                   </xsl:attribute>
-                                                  <xsl:value-of select="./tei:title"/>
+                                                  <xsl:value-of select="tei:title[@type='main'][1]"/>
                                                   </a>
                                                   </li>
                                                 </xsl:for-each>
@@ -207,14 +207,14 @@
                                             <div class="row">
                                                 <div class="col-md-4">
                                                   <ul>
-                                                  <xsl:for-each select=".//tei:listPlace/tei:place">
+                                                      <xsl:for-each select="descendant::tei:back/tei:listPlace/tei:place">
                                                   <li>
                                                   <a>
                                                   <xsl:attribute name="href">
                                                   <xsl:value-of
                                                   select="concat(data(@xml:id), '.html')"/>
                                                   </xsl:attribute>
-                                                  <xsl:value-of select="./tei:placeName[1]/text()"/>
+                                                  <xsl:value-of select="child::tei:placeName[1]/text()"/>
                                                   </a>
                                                   </li>
                                                   </xsl:for-each>
@@ -315,7 +315,7 @@
                             </div>
                         </div>
                     </div>
-                    <xsl:for-each select=".//tei:back//tei:person[@xml:id]">
+                    <xsl:for-each select=".//tei:back/tei:listPerson/tei:person[@xml:id]">
                         <xsl:variable name="xmlId">
                             <xsl:value-of select="data(./@xml:id)"/>
                         </xsl:variable>
@@ -346,7 +346,7 @@
                             </div>
                         </div>
                     </xsl:for-each>
-                    <xsl:for-each select=".//tei:back//tei:place[@xml:id]">
+                    <xsl:for-each select=".//tei:back/tei:listPlace/tei:place[@xml:id]">
                         <xsl:variable name="xmlId">
                             <xsl:value-of select="data(./@xml:id)"/>
                         </xsl:variable>
