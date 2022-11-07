@@ -193,12 +193,12 @@
                                                 />"/> </xsl:when>
                                             <xsl:when test="contains(tei:persName, ', ')">
                                                 <xsl:value-of
-                                                  select="concat(substring-after(tei:persName, ', '), ' ', substring-before(tei:persName, ', '))"
+                                                    select="concat(substring-after(tei:persName, ', '), ' ', substring-before(tei:persName, ', '))"
                                                 />
                                             </xsl:when>
                                             <xsl:when test="contains(., ', ')">
                                                 <xsl:value-of
-                                                  select="concat(substring-after(., ', '), ' ', substring-before(., ', '))"
+                                                    select="concat(substring-after(., ', '), ' ', substring-before(., ', '))"
                                                 />
                                             </xsl:when>
                                             <xsl:otherwise>
@@ -247,12 +247,12 @@
                                             <xsl:when
                                                 test="normalize-space(tokenize(tei:date[1], '–')[1]) = normalize-space(tokenize(tei:date[1], '–')[2])">
                                                 <xsl:value-of
-                                                  select="mam:normalize-date(normalize-space((tokenize(tei:date[1], '–')[1])))"
+                                                    select="mam:normalize-date(normalize-space((tokenize(tei:date[1], '–')[1])))"
                                                 />
                                             </xsl:when>
                                             <xsl:otherwise>
                                                 <xsl:value-of
-                                                  select="mam:normalize-date(normalize-space(tei:date[1]))"
+                                                    select="mam:normalize-date(normalize-space(tei:date[1]))"
                                                 />
                                             </xsl:otherwise>
                                         </xsl:choose>

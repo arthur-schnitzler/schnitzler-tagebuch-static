@@ -138,8 +138,8 @@
                                             <xsl:value-of select="$teiSource"/>
                                         </xsl:attribute>
                                         <i class="fa-lg far fa-file-code"/> TEI </a>
-                                    <span class="nav-link" style="color:#037A33">
-                                        <div id="csLink"
+                                    <span class="nav-link">
+                                        <div id="csLink" style="color:#037A33"
                                             data-correspondent-1-name="Arthur Schnitzler"
                                             data-correspondent-1-id="http%3A%2F%2Fd-nb.info%2Fgnd%2F118609807"
                                             data-correspondent-2-name="" data-correspondent-2-id=""
