@@ -7,7 +7,7 @@ from tqdm import tqdm
 
 
 files = glob.glob('./data/editions/*.xml')
-indices = glob.glob('./data/indices/listp*.xml')
+indices = glob.glob('./data/indices/list*.xml')
 
 d = defaultdict(set)
 for x in tqdm(sorted(files), total=len(files)):

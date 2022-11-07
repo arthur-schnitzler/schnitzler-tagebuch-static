@@ -8,6 +8,8 @@
     <xsl:param name="works" select="document('../../data/indices/listwork.xml')"/>
     <xsl:key name="authorwork-lookup" match="tei:bibl"
         use="tei:author/@key/replace(replace(., 'person__', ''), 'pmb', '')"/>
+    <xsl:param name="konkordanz" select="document('../../data/indices/index_person_day.xml')"/>
+    <xsl:key name="konk-lookup" match="item" use="ref"/>
     <xsl:template match="tei:person" name="person_detail">
         <xsl:param name="showNumberOfMentions" as="xs:integer" select="50000"/>
         <xsl:variable name="selfLink">
@@ -277,34 +279,33 @@
                 </ul>
             </div>
             <div id="mentions" class="mt-2">
-                <span class="infodesc mr-2">
-                    <legend>Erwähnungen</legend>
-                    <ul>
-                        <xsl:for-each select=".//tei:note[@type = 'mentions']">
-                            <xsl:variable name="linkToDocument">
-                                <xsl:value-of
-                                    select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"
-                                />
-                            </xsl:variable>
-                            <xsl:choose>
-                                <xsl:when test="position() lt $showNumberOfMentions + 1">
-                                    <li>
-                                        <xsl:value-of select="."/>
-                                        <xsl:text> </xsl:text>
-                                        <a href="{$linkToDocument}">
-                                            <i class="fas fa-external-link-alt"/>
-                                        </a>
-                                    </li>
-                                </xsl:when>
-                            </xsl:choose>
-                        </xsl:for-each>
-                    </ul>
-                    <xsl:if
-                        test="count(.//tei:note[@type = 'mentions']) gt $showNumberOfMentions + 1">
-                        <p>Anzahl der Erwähnungen limitiert, klicke <a href="{$selfLink}">hier</a>
-                            für eine vollständige Auflistung</p>
-                    </xsl:if>
-                </span>
+                <span class="infodesc mr-2">Erwähnt am</span>
+                <ul class="list-unstyled">
+                    <xsl:for-each select="key('konk-lookup', @xml:id, $konkordanz)">
+                        <xsl:variable name="linkToDocument">
+                            <xsl:value-of select="concat('entry__', @target, '.html')"/>
+                        </xsl:variable>
+                        <xsl:variable name="doc_date">
+                            <xsl:value-of select="@target"/>
+                        </xsl:variable>
+                        <xsl:variable name="print_date">
+                            <xsl:variable name="monat"
+                                select="df:germanNames(format-date(data(@target), '[MNn]'))"/>
+                            <xsl:variable name="wochentag"
+                                select="df:germanNames(format-date(data(@target), '[F]'))"/>
+                            <xsl:variable name="tag"
+                                select="concat(format-date(@target, '[D]'), '. ')"/>
+                            <xsl:variable name="jahr" select="format-date(@target, '[Y]')"/>
+                            <xsl:value-of
+                                select="concat($wochentag, ', ', $tag, $monat, ' ', $jahr)"/>
+                        </xsl:variable>
+                        <li>
+                            <a href="{$linkToDocument}">
+                                <xsl:value-of select="$print_date"/>
+                            </a>
+                        </li>
+                    </xsl:for-each>
+                </ul>
             </div>
         </div>
     </xsl:template>
