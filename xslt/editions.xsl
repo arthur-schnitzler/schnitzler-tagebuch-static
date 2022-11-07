@@ -66,34 +66,31 @@
 
     <xsl:template match="/">
         <xsl:variable name="doc_title">
-            <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
+            <xsl:value-of select="descendant::tei:titleStmt[1]/tei:title[@level = 'a'][1]/text()"/>
         </xsl:variable>
-        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
+        <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html lang="de">
             <xsl:call-template name="html_head">
-                <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
-                <xsl:with-param name="entry_date" select="$entryDate"></xsl:with-param>
+                <xsl:with-param name="html_title" select="$doc_title"/>
             </xsl:call-template>
-            
             <body class="page">
                 <link rel="stylesheet" href="css/cslink.css"/>
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                    
-                    <div class="container-fluid">                        
+                    <div class="container-fluid">
                         <div class="card">
-                            <div class="card-header">
+                            <div class="card card-header">
                                 <div class="row">
                                     <div class="col-md-2">
-                                        <xsl:if test="ends-with($prev,'.html')">
-                                            <h1>
+                                        <xsl:if test="ends-with($prev, '.html')">
+                                            <h2>
                                                 <a>
                                                     <xsl:attribute name="href">
                                                         <xsl:value-of select="$prev"/>
                                                     </xsl:attribute>
                                                     <i class="fas fa-chevron-left" title="prev"/>
                                                 </a>
-                                            </h1>
+                                            </h2>
                                         </xsl:if>
                                     </div>
                                     <div class="col-md-8">
@@ -114,6 +111,19 @@
                                         </xsl:if>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="card-body-normalertext" data-index="true">
+                                <xsl:apply-templates select=".//tei:body"/>
+                                <xsl:if test="descendant::tei:footNote">
+                                    <p/>
+                                    <xsl:element name="ol">
+                                        <xsl:attribute name="class">
+                                            <xsl:text>list-for-footnotes</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:apply-templates select="descendant::tei:footNote"
+                                            mode="footnote"/>
+                                    </xsl:element>
+                                </xsl:if>
                             </div>
                             <div class="card-body-tagebuch" data-index="true">                                
                                 <xsl:apply-templates select=".//tei:body"></xsl:apply-templates>
