@@ -47,13 +47,13 @@
                                             <tr>
                                                 <td>
                                                 <xsl:attribute name="data-sort">
-                                                    <xsl:value-of select=".//tei:title[@type='iso-date'][1]/text()"/>
+                                                    <xsl:value-of select=".//tei:titleStmt/tei:title[@type='iso-date'][1]/text()"/>
                                                 </xsl:attribute>                                        
                                                     <a>
                                                         <xsl:attribute name="href">                                                
                                                             <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
                                                         </xsl:attribute>
-                                                        <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
+                                                        <xsl:value-of select=".//tei:titleStmt/tei:title[@type='main'][1]/text()"/>
                                                     </a>
                                                 </td>
                                                 <td>
