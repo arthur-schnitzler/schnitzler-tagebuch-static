@@ -2,10 +2,8 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:mam="whatever"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:df="http://example.com/df"
     version="2.0" exclude-result-prefixes="xsl tei xs">
     <xsl:import href="LOD-idnos.xsl"/>
-    <xsl:import href="germandate.xsl"/>
     <xsl:param name="relevant-uris" select="document('../utils/list-of-relevant-uris.xml')"/>
     <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
     
@@ -73,40 +71,88 @@
                     </xsl:for-each>
                 </ul>
             </xsl:if>
-            <xsl:if test="count(.//tei:ptr) gt 0">
-                <div id="mentions"  class="mt-2">
-                    <span class="infodesc mr-2">Erwähnt am</span>
-                    <ul class="list-unstyled">
-                        <xsl:for-each select=".//tei:ptr">
-                            <xsl:sort data-type="text" order="ascending" select="@target"/>
-                            <xsl:variable name="linkToDocument">
-                                <xsl:value-of select="replace(data(.//@target), '.xml', '.html')"/>
-                            </xsl:variable>
-                            <xsl:variable name="doc_date">
-                                <xsl:value-of select="substring-after(replace(data(.//@target), '.xml', ''), '__')"/>
-                            </xsl:variable>
-                            <xsl:variable name="print_date">
-                                <xsl:variable name="monat" select="df:germanNames(format-date($doc_date,'[MNn]'))"/>
-                                <xsl:variable name="wochentag" select="df:germanNames(format-date($doc_date,'[F]'))"/>
-                                <xsl:variable name="tag" select="concat(format-date($doc_date,'[D]'),'. ')"/>
-                                <xsl:variable name="jahr" select="format-date($doc_date,'[Y]')"/>
-                                <xsl:value-of select="concat($wochentag, ', ', $tag, $monat, ' ', $jahr)"/>
-                            </xsl:variable>
-                            <li>
-                                <xsl:value-of select="$print_date"/> <xsl:text> </xsl:text>
-                                <a href="{$linkToDocument}">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </li>
-                        </xsl:for-each>
-                    </ul>
-                </div>
-            </xsl:if>
+            <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                <legend>Erwähnungen</legend>
+                <ul>
+                    <xsl:for-each select=".//tei:note[@type='mentions']">
+                        <xsl:variable name="linkToDocument">
+                            <xsl:value-of
+                                select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"
+                            />
+                        </xsl:variable>
+                        <xsl:choose>
+                            <xsl:when test="position() lt $showNumberOfMentions + 1">
+                                <li>
+                                    <xsl:value-of select="."/>
+                                    <xsl:text> </xsl:text>
+                                    <a href="{$linkToDocument}">
+                                        <i class="fas fa-external-link-alt"/>
+                                    </a>
+                                </li>
+                            </xsl:when>
+                        </xsl:choose>
+                    </xsl:for-each>
+                </ul>
+                <xsl:if test="count(.//tei:note[@type='mentions']) gt $showNumberOfMentions + 1">
+                    <p>Anzahl der Erwähnungen limitiert, klicke <a href="{$selfLink}">hier</a> für
+                        eine vollständige Auflistung</p>
+                </xsl:if></span>
+            </div>
         </div>
         </div>
     </xsl:template>
     
-   
-    
+    <xsl:function name="mam:pmbChange">
+        <xsl:param name="url" as="xs:string"/>
+        <xsl:param name="entitytyp" as="xs:string"/>
+        <xsl:value-of select="
+            concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/', $entitytyp, '/',
+            substring-after($url, 'https://pmb.acdh.oeaw.ac.at/entity/'), '/detail')"/>
+    </xsl:function>
+    <xsl:function name="mam:ahref-namen">
+        <xsl:param name="typityp" as="xs:string"/>
+        <xsl:choose>
+            <xsl:when test="$typityp = 'schnitzler-tagebuch'">
+                <xsl:text> Tagebuch</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'schnitzler-briefe'">
+                <xsl:text> Briefe</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'schnitzler-lektueren'">
+                <xsl:text> Lektüren</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'PMB'">
+                <xsl:text> PMB</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'pmb'">
+                <xsl:text> PMB</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'briefe_i'">
+                <xsl:text> Briefe 1875–1912</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'briefe_ii'">
+                <xsl:text> Briefe 1913–1931</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'DLAwidmund'">
+                <xsl:text> Widmungsexemplar Deutsches Literaturarchiv</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'jugend-in-wien'">
+                <xsl:text> Jugend in Wien</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'gnd'">
+                <xsl:text> Wikipedia?</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'schnitzler-briefe'">
+                <xsl:text> Bahr/Schnitzler</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'widmungDLA'">
+                <xsl:text> Widmung DLA</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text> </xsl:text>
+                <xsl:value-of select="$typityp"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
     
 </xsl:stylesheet>
