@@ -261,12 +261,11 @@ h5 {
     padding: 4rem 0}
 
 #wrapper-hero-content::after {
-    background-color: rgba(166, 52, 55, 0.1)}
+    background-color: rgba(2, 121, 51, 0.10);
+}
 
 #wrapper-hero-content > #wrapper-hero-inner > p {
     font-size: 1.25rem}
-#wrapper-hero-inner {
-    padding: 0 35% 0 15px}
 
 div[type = "level5"] {
     padding-left: 80px;
@@ -425,14 +424,17 @@ article.card.col-md-6 {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 0rem;
-    padding-top: 0rem;
-    background: white}
+    padding-top: 0rem}
 
 .container-fluid-empty {
     padding-left: 2rem;
     padding-right: 1rem;
     padding-bottom: 0rem;
     padding-top: 0rem}
+    
+#wrapper-hero-inner {
+    padding: 0 35% 0 30px;
+}
 
 .containingloader {
     min-height: 500px}
