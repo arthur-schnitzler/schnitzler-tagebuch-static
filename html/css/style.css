@@ -5,6 +5,7 @@ input:focus {
 body {
     font-family: inherit;
     font-weight: 400;
+    color: black;
     font-size: 1.1rem;
     background-color: #ffffff;
     border-right-width: 0rem;
