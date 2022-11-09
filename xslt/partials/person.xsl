@@ -148,14 +148,15 @@
             </xsl:if>
             
             <div class="werke">
+                <xsl:for-each select="tei:idno[@subtype='pmb' and starts-with(., 'https://pmb.acdh.oeaw.ac.at/entity/')]">
+                    <xsl:if test="position() = 1">
+                        <span class="infodesc mr-2">
+                            <legend>Werke</legend>
+                            <p/>
+                        </span>
+                    </xsl:if>
                 <xsl:variable name="author-ref"
-                    select="replace(replace(@xml:id, 'person_', ''), 'pmb', '')"/>
-                <xsl:if test="key('authorwork-lookup', $author-ref, $works)[1]">
-                    <span class="infodesc mr-2">
-                        <legend>Werke</legend>
-                    </span>
-                </xsl:if>
-                <p/>
+                    select="substring-after(., 'https://pmb.acdh.oeaw.ac.at/entity/')"/>
                 <ul class="dashed">
                     <xsl:for-each select="key('authorwork-lookup', $author-ref, $works)">
                         <li>
@@ -277,6 +278,8 @@
                         </li>
                     </xsl:for-each>
                 </ul>
+                    
+                </xsl:for-each>
             </div>
             <div id="mentions" class="mt-2">
                 <span class="infodesc mr-2">Erwähnt am</span>
