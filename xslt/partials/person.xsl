@@ -149,7 +149,7 @@
             
             <div class="werke">
                 <xsl:variable name="author-ref"
-                    select="replace(replace(@xml:id, 'person__', ''), 'pmb', '')"/>
+                    select="replace(replace(@xml:id, 'person_', ''), 'pmb', '')"/>
                 <xsl:if test="key('authorwork-lookup', $author-ref, $works)[1]">
                     <span class="infodesc mr-2">
                         <legend>Werke</legend>
