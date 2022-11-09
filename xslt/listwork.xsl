@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:mam="whatever" 
     xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" exclude-result-prefixes="xsl tei xs">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes"
         omit-xml-declaration="yes"/>
@@ -8,6 +8,7 @@
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/work.xsl"/>
+    <xsl:import href="partials/LOD-idnos.xsl"/>
     <xsl:param name="work-day" select="document('../data/indices/index_work_day.xml')"/>
     <xsl:key name="work-day-lookup" match="item/@when" use="ref"/>
     <xsl:variable name="teiSource" select="'listwork.xml'"/>
@@ -52,11 +53,11 @@
                                                 select="normalize-space(tei:title[1]/text())"/>
                                             <xsl:variable name="datum">
                                                 <xsl:choose>
-                                                    <xsl:when test="contains(tei:date/text(), '>&lt;')">
-                                                        <xsl:value-of select="substring-before(tei:date/text(), '>&lt;')"/>
+                                                    <xsl:when test="tokenize(tei:date/text(), ' – ')[1] = tokenize(tei:date/text(), ' – ')[2]">
+                                                        <xsl:value-of select="substring-before(tokenize(tei:date/text(), ' – ')[1], '&lt;')"/>
                                                     </xsl:when>
                                                     <xsl:otherwise>
-                                                        <xsl:value-of select="tei:date"/>
+                                                        <xsl:value-of select="substring-before(tei:date/text(), '&lt;')"/>
                                                     </xsl:otherwise>
                                                 </xsl:choose>
                                             </xsl:variable>
@@ -73,7 +74,7 @@
                                                     <td>
                                                         <a>
                                                             <xsl:attribute name="href">
-                                                                <xsl:value-of select="concat(@ref, '.html')"/>
+                                                                <xsl:value-of select="concat(@key, '.html')"/>
                                                             </xsl:attribute>
                                                             <xsl:value-of select="."/>
                                                         </a>
@@ -91,7 +92,7 @@
                                                         </xsl:if>
                                                     </td>
                                                     <td>
-                                                        <xsl:value-of select="$datum"/>
+                                                        <xsl:value-of select="mam:normalize-date($datum)"/>
                                                     </td>
                                                 </tr>
                                             </xsl:for-each>
