@@ -106,7 +106,7 @@ for x in tqdm(files, total=len(files)):
     ]
     cfts_record['places'] = record['places']
     record['works'] = [
-         " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath("'.//tei:listBibl//tei:bibl[@xml:id]/tei:title[1]")
+         " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:listBibl//tei:bibl[@xml:id]/tei:title[1]')
     ]
     cfts_record['works'] = record['works']
     record['full_text'] = " ".join(''.join(body.itertext()).split())
