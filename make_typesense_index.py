@@ -98,15 +98,15 @@ for x in tqdm(files, total=len(files)):
     record['date'] = int(time.mktime(ts.timetuple()))
     cfts_record['date'] = record['date']
     record['persons'] = [
-        " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:person/tei:persName')
+        " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:person/tei:persName[1]')
     ]
     cfts_record['persons'] = record['persons']
     record['places'] = [
-         " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:place[@xml:id]/tei:placeName')
+         " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:place[@xml:id]/tei:placeName[1]')
     ]
     cfts_record['places'] = record['places']
     record['works'] = [
-         " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:listBibl//tei:bibl[@xml:id]/tei:title')
+         " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath("'.//tei:listBibl//tei:bibl[@xml:id]/tei:title[1]")
     ]
     cfts_record['works'] = record['works']
     record['full_text'] = " ".join(''.join(body.itertext()).split())
