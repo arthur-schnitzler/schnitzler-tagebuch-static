@@ -238,7 +238,7 @@
                                                 zIndex: 1
                                                 }).addTo(mymap);
                                                 <xsl:for-each select=".//tei:listPlace/tei:place">
-                                                    L.marker([<xsl:value-of select="substring-before(.//tei:geo/text()[1], ' ')"/>, <xsl:value-of select="substring-after(.//tei:geo/text(), ' ')"/>]).addTo(mymap)
+                                                    L.marker([<xsl:value-of select="substring-before(.//tei:geo[1]/text()[1], ' ')"/>, <xsl:value-of select="substring-after(.//tei:geo[1]/text()[1], ' ')"/>]).addTo(mymap)
                                                     .bindPopup("<b>
                                                         <xsl:value-of select="./tei:placeName[1]/text()"/>
                                                     </b>").openPopup();
@@ -260,7 +260,7 @@
                                 </div>
                                 <div class="modal-body"> Arthur Schnitzler: Tagebuch. Digitale
                                     Edition, <xsl:value-of select="$doctitle"/>,
-                                    https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html
+                                    https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__<xsl:value-of select="descendant::tei:teiHeader[1]/tei:fileDesc[1]/tei:titleStmt[1]/tei:title[@type='iso-date']"/>.html
                                     (Stand <xsl:value-of select="$currentDate"/>), PID:
                                         <xsl:value-of select="$pid"/>. </div>
                                 <div class="modal-footer">
