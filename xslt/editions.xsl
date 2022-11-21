@@ -223,7 +223,7 @@
                                                 <div id="mapid" style="height: 400px;"
                                                   class="col-md-8"/>
                                             </div>
-                                            <link rel="stylesheet"
+                                           <!-- <link rel="stylesheet"
                                                 href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
                                                 integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
                                                 crossorigin=""/>
@@ -237,13 +237,14 @@
                                                 maxZoom: 18,
                                                 zIndex: 1
                                                 }).addTo(mymap);
-                                                <xsl:for-each select=".//tei:listPlace/tei:place">
+                                                <xsl:for-each select="descendant::tei:back/tei:listPlace/tei:place">
+                                                    
                                                     L.marker([<xsl:value-of select="substring-before(.//tei:geo[1]/text()[1], ' ')"/>, <xsl:value-of select="substring-after(.//tei:geo[1]/text()[1], ' ')"/>]).addTo(mymap)
                                                     .bindPopup("<b>
                                                         <xsl:value-of select="./tei:placeName[1]/text()"/>
                                                     </b>").openPopup();
                                                 </xsl:for-each>
-                                            </script>
+                                            </script>-->
                                         </div>
                                     </div>
                                 </div>
