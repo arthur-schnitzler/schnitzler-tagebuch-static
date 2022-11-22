@@ -35,7 +35,7 @@
         <xsl:value-of select="xs:date(//tei:title[@type = 'iso-date']/text())"/>
     </xsl:variable>
     <xsl:variable name="doctitle">
-        <xsl:value-of select="//tei:title[@type = 'main']/text()"/>
+        <xsl:value-of select="//tei:teiHeader/tei:titleStmt/tei:title[@type = 'main']/text()"/>
     </xsl:variable>
     <xsl:variable name="currentDate">
         <xsl:value-of select="format-date(current-date(), '[Y]-[M01]-[D01]')"/>
@@ -138,7 +138,6 @@
                                             <xsl:value-of select="$teiSource"/>
                                         </xsl:attribute>
                                         <i class="fa-lg far fa-file-code"/> TEI </a>
-                                    <span class="nav-link">
                                         <div id="csLink" style="color:#037A33"
                                             data-correspondent-1-name="Arthur Schnitzler"
                                             data-correspondent-1-id="http%3A%2F%2Fd-nb.info%2Fgnd%2F118609807"
@@ -147,7 +146,7 @@
                                             data-range="50" data-selection-when="before-after"
                                             data-selection-span="median-before-after"
                                             data-result-max="4" data-exclude-edition=""/>
-                                    </span>
+                                    
                                 </div>
                                 <div id="registerDiv" class="d-none">
                                     <nav>
