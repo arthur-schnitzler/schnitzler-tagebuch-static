@@ -281,6 +281,7 @@
                     
                 </xsl:for-each>
             </div>
+            <xsl:if test="key('konk-lookup', @xml:id, $konkordanz)[1]">
             <div id="mentions" class="mt-2">
                 <span class="infodesc mr-2">Erwähnt am</span>
                 <ul class="list-unstyled">
@@ -309,7 +310,7 @@
                         </li>
                     </xsl:for-each>
                 </ul>
-            </div>
+            </div></xsl:if>
         </div>
     </xsl:template>
     <xsl:template match="tei:supplied">

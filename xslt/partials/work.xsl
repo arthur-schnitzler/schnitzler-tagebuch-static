@@ -10,6 +10,8 @@
     <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
     <xsl:param name="works" select="document('../../data/indices/listwork.xml')"/>
     <xsl:key name="work-lookup" match="tei:bibl" use="tei:relatedItem/@target"/>
+    <xsl:param name="authors" select="document('../../data/indices/listperson.xml')"/>
+    <xsl:key name="author-lookup" match="tei:person" use="tei:idno[@subtype='pmb']"/>
     <xsl:param name="work-day"
         select="document('../../data/indices/index_work_day.xml')"/>
     <xsl:key name="work-day-lookup" match="item" use="ref"/>
@@ -58,13 +60,13 @@
                                         <xsl:variable name="autor-ref" as="xs:string">
                                             <xsl:choose>
                                                 <xsl:when test="contains($keyToRef, 'person__')">
-                                                    <xsl:value-of select="concat('pmb', substring-after($keyToRef, 'person__'))"/>
+                                                    <xsl:value-of select="substring-after($keyToRef, 'person__')"/>
                                                 </xsl:when>
                                                 <xsl:when test="starts-with($keyToRef, 'pmb')">
-                                                    <xsl:value-of select="$keyToRef"/>
+                                                    <xsl:value-of select="replace($keyToRef, 'pmb', '')"/>
                                                 </xsl:when>
                                                 <xsl:otherwise>
-                                                    <xsl:value-of select="concat('pmb', $keyToRef)"/>
+                                                    <xsl:value-of select="$keyToRef"/>
                                                 </xsl:otherwise>
                                             </xsl:choose>
                                         </xsl:variable>
@@ -75,9 +77,10 @@
                                                 </a>
                                             </xsl:when>
                                             <xsl:otherwise>
+                                                <xsl:variable name="autor-ref-schnitzler-tagebuch" select="key('author-lookup', concat('', $autor-ref), $authors)/tei:idno[@subtype='schnitzler-tagebuch']/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/')"/>
                                                 <a>
                                                   <xsl:attribute name="href">
-                                                  <xsl:value-of select="concat($autor-ref, '.html')"
+                                                  <xsl:value-of select="concat($autor-ref-schnitzler-tagebuch, '.html')"
                                                   />
                                                   </xsl:attribute>
                                                   <xsl:choose>
@@ -134,13 +137,13 @@
                             <xsl:variable name="autor-ref" as="xs:string">
                                 <xsl:choose>
                                     <xsl:when test="contains($keyToRef, 'person__')">
-                                        <xsl:value-of select="concat('pmb', substring-after($keyToRef, 'person__'))"/>
+                                        <xsl:value-of select="substring-after($keyToRef, 'person__')"/>
                                     </xsl:when>
                                     <xsl:when test="starts-with($keyToRef, 'pmb')">
-                                        <xsl:value-of select="$keyToRef"/>
+                                        <xsl:value-of select="replace($keyToRef, 'pmb', '')"/>
                                     </xsl:when>
                                     <xsl:otherwise>
-                                        <xsl:value-of select="concat('pmb', $keyToRef)"/>
+                                        <xsl:value-of select="$keyToRef"/>
                                     </xsl:otherwise>
                                 </xsl:choose>
                             </xsl:variable>
@@ -151,9 +154,10 @@
                                     </a>
                                 </xsl:when>
                                 <xsl:otherwise>
+                                    <xsl:variable name="autor-ref-schnitzler-tagebuch" select="key('author-lookup', concat('', $autor-ref), $authors)/tei:idno[@subtype='schnitzler-tagebuch']/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/')"/>
                                     <a>
                                         <xsl:attribute name="href">
-                                            <xsl:value-of select="concat($autor-ref, '.html')"/>
+                                            <xsl:value-of select="concat($autor-ref-schnitzler-tagebuch, '.html')"/>
                                         </xsl:attribute>
                                         <xsl:choose>
                                             <xsl:when

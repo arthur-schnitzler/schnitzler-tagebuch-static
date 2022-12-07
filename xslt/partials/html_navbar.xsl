@@ -37,6 +37,10 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="listplace.html">Orte</a>
                             </li>
+                            <li class="nav-item dropdown-submenu">
+                                <a title="Links" href="https://schnitzler.acdh.oeaw.ac.at"
+                                    class="nav-link">Schnitzler am ACDH-CH</a>
+                            </li>
                             <!--<li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     API
