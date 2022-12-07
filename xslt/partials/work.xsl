@@ -77,7 +77,7 @@
                                                 </a>
                                             </xsl:when>
                                             <xsl:otherwise>
-                                                <xsl:variable name="autor-ref-schnitzler-tagebuch" select="key('author-lookup', concat('', $autor-ref), $authors)/tei:idno[@subtype='schnitzler-tagebuch']/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/')"/>
+                                                <xsl:variable name="autor-ref-schnitzler-tagebuch" select="key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', $autor-ref), $authors)/tei:idno[@subtype='schnitzler-tagebuch']/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/')"/>
                                                 <a>
                                                   <xsl:attribute name="href">
                                                   <xsl:value-of select="concat($autor-ref-schnitzler-tagebuch, '.html')"
@@ -154,7 +154,7 @@
                                     </a>
                                 </xsl:when>
                                 <xsl:otherwise>
-                                    <xsl:variable name="autor-ref-schnitzler-tagebuch" select="key('author-lookup', concat('', $autor-ref), $authors)/tei:idno[@subtype='schnitzler-tagebuch']/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/')"/>
+                                    <xsl:variable name="autor-ref-schnitzler-tagebuch" select="key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', $autor-ref), $authors)/tei:idno[@subtype='schnitzler-tagebuch']/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/')"/>
                                     <a>
                                         <xsl:attribute name="href">
                                             <xsl:value-of select="concat($autor-ref-schnitzler-tagebuch, '.html')"/>
