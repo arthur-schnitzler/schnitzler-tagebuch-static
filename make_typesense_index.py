@@ -85,9 +85,9 @@ for x in tqdm(files, total=len(files)):
     record['id'] = os.path.split(x)[-1].replace('.xml', '')
     cfts_record['resolver'] = f"https://schnitzler-tagebuch.acdh.oeaw.ac.at/{record['id']}.html"
     cfts_record['id'] = record['id']
-    record['title'] = " ".join(" ".join(doc.any_xpath('.//tei:title[@type="main"]//text()')).split())
+    record['title'] = " ".join(" ".join(doc.any_xpath('.//tei:titleSmt/tei:title[@type="main"]//text()')).split())
     cfts_record['title'] = record['title']
-    date_str = doc.any_xpath('.//tei:title[@type="iso-date"]/text()')[0]
+    date_str = doc.any_xpath('.//tei:titleSmt/tei:title[@type="iso-date"]/text()')[0]
     record['year'] = int(date_str[:4])
     cfts_record['id'] = record['id']
     try:
