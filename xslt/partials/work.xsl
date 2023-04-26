@@ -105,15 +105,38 @@
                                                   </xsl:otherwise>
                                                   </xsl:choose>
                                                 </a>
-                                                <xsl:if test="@role = 'editor'">
-                                                  <xsl:text> (Herausgabe)</xsl:text>
-                                                </xsl:if>
-                                                <xsl:if test="@role = 'translator'">
-                                                  <xsl:text> (Übersetzung)</xsl:text>
-                                                </xsl:if>
-                                                <xsl:if test="@role = 'illustrator'">
-                                                  <xsl:text> (Illustration)</xsl:text>
-                                                </xsl:if>
+                                                <xsl:choose>
+                                                        <xsl:when test="@role = 'editor' or @role ='hat-herausgegeben'">
+                                                            <xsl:text> (Herausgabe)</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:when test="@role = 'translator' or @role ='hat-ubersetzt'">
+                                                            <xsl:text> (Übersetzung)</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:when test="@role ='hat-ubersetzt'">
+                                                            <xsl:text> (unter Pseudonym)</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:when test="@role ='hat-unter-einem-kurzel-veroffentlicht'">
+                                                            <xsl:text> (unter Kürzel)</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:when test="@role ='hat-illustriert'">
+                                                            <xsl:text> (Illustration)</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:when test="@role ='hat-vertont'">
+                                                            <xsl:text> (Vertonung)</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:when test="@role ='hat-einen-beitrag-geschaffen-zu'">
+                                                            <xsl:text> (Beitrag)</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:when test="@role ='hat-ein-vorwortnachwort-verfasst-zu'">
+                                                            <xsl:text> (Vorwort/Nachwort)</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:when test="@role ='hat-anonym-veroffentlicht'">
+                                                            <xsl:text> (ohne Namensnennung)</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:when test="@role ='bekommt-zugeschrieben'">
+                                                            <xsl:text> (Zuschreibung)</xsl:text>
+                                                        </xsl:when>
+                                                    </xsl:choose>
                                             </xsl:otherwise>
                                         </xsl:choose>
                                     </li>
