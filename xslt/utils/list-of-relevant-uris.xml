@@ -30,11 +30,31 @@ are but links to pdfs etc. an URL can be added
         <caption>Schnitzler/Bahr</caption>
         <color>#F9BD63</color>
     </item>
-    <!--<item>
+    <item>
+        <abbr>schnitzler-orte</abbr>
+        <caption>Aufenthaltsorte</caption>
+        <color>#045344</color>
+    </item>
+    <item>
+        <abbr>pollaczek</abbr>
+        <caption>Pollazczek: Schnitzler und ich</caption>
+        <color>#1e81b0</color>
+    </item>
+    <item>
+        <abbr>schnitzler-tage</abbr>
+        <caption>Tag für Tag</caption>
+        <color>#C67F53</color>
+    </item>
+    <item>
+        <abbr>schnitzler-digital</abbr>
+        <caption>Schnitzler digital</caption>
+        <color>#801e23</color>
+    </item>
+    <item>
         <abbr>fackel</abbr>
         <caption>Fackel</caption>
-        <color>#CE0F0B</caption>
-    </item>-->
+        <color>#CE0F0B</color>
+    </item>
     <item>
         <abbr>legalkraus</abbr>
         <caption>Rechtsakten</caption>
