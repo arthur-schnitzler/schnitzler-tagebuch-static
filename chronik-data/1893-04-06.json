@@ -1,0 +1,75 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-04-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-04-06.html",
+ "head":
+ "Tagebuch, 6. April 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Alfred Grünfeld",
+ "ref":
+ "person_15702"},
+ {
+ "persName":
+ "Carl Rübsam",
+ "ref":
+ "person_19459"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die verkaufte Braut",
+ "ref":
+ "pmb81327"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ringstraße",
+ "ref":
+ "pmb112"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}] 

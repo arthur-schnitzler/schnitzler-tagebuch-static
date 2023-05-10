@@ -1,0 +1,120 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-03-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-03-26.html",
+ "head":
+ "Tagebuch, 26. März 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00193",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00193.html",
+ "head":
+ "Joseph Victor Widmann an Arthur Schnitzler, 26. 3. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Joseph Victor Widmann",
+ "ref":
+ "pmb3557"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Kunst und Litteratur",
+ "ref":
+ "pmb32947"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Der Bund",
+ "ref":
+ "pmb43382"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bern",
+ "ref":
+ "pmb1223"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "Grillparzerstraße",
+ "ref":
+ "pmb412"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}] 

@@ -1,0 +1,76 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1902-07-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-07-07.html",
+ "head":
+ "Tagebuch, 7. Juli 1902",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Abenteurer",
+ "ref":
+ "pmb35724"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Welsberg-Taisten",
+ "ref":
+ "pmb428"}
+ ,  {
+ "placeName":
+ "Lienz",
+ "ref":
+ "pmb897"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/428/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/428/",
+ "head":
+ "Welsberg-Taisten"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/897/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/897/",
+ "head":
+ "Lienz"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/723/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/723/",
+ "head":
+ "Wildbad Waldbrunn"
+}] 

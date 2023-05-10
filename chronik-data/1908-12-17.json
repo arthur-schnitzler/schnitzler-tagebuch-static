@@ -1,0 +1,64 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-12-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-12-17.html",
+ "head":
+ "Tagebuch, 17. Dezember 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alexander von Rosen",
+ "ref":
+ "person_19355"},
+ {
+ "persName":
+ "László Toldy",
+ "ref":
+ "person_20767"},
+ {
+ "persName":
+ "Arthur Wilheim",
+ "ref":
+ "person_21332"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schweiz",
+ "ref":
+ "pmb43435"}
+ ,  {
+ "placeName":
+ "Budapest",
+ "ref":
+ "pmb43471"}
+ ,  {
+ "placeName":
+ "New Danube",
+ "ref":
+ "pmb90538"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/43471/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43471/",
+ "head":
+ "Budapest"
+}] 

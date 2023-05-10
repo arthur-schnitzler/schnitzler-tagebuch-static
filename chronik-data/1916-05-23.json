@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1916-05-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-05-23.html",
+ "head":
+ "Tagebuch, 23. Mai 1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josef Popper-Lynkeus",
+ "ref":
+ "person_18916"},
+ {
+ "persName":
+ "Franz Steiner",
+ "ref":
+ "person_20372"},
+ {
+ "persName":
+ "Otto Zuckerkandl",
+ "ref":
+ "person_21601"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "person_21602"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Krieg, Wehrpflicht und Staatsverfassung",
+ "ref":
+ "pmb32660"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Val Sugana",
+ "ref":
+ "pmb39934"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

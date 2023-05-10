@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-03-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-03-16.html",
+ "head":
+ "Tagebuch, 16. März 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugenie Bachrach",
+ "ref":
+ "person_13355"},
+ {
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"},
+ {
+ "persName":
+ "Alberto Stringa",
+ "ref":
+ "person_20532"},
+ {
+ "persName":
+ "Rudolf Olden",
+ "ref":
+ "person_18548"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salmannsdorf",
+ "ref":
+ "pmb91641"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Stefan Zweig an Arthur Schnitzler, 16.3.1913",
+ "source":
+ "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
+}] 

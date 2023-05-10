@@ -1,0 +1,114 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-02-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-02-27.html",
+ "head":
+ "Tagebuch, 27. Februar 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ivan Mosjoukine",
+ "ref":
+ "person_18268"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Igor F. Strawinsky",
+ "ref":
+ "person_20512"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Abenteurernovelle",
+ "ref":
+ "pmb30299"}
+ ,  {
+ "title":
+ "Im Spiel der Sommerlüfte. In drei Aufzügen",
+ "ref":
+ "pmb30945"}
+ ,  {
+ "title":
+ "Ergib Dich, Weib!",
+ "ref":
+ "pmb81321"}
+ ,  {
+ "title":
+ "Oedipus Rex",
+ "ref":
+ "pmb81375"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00046705",
+ "head":
+ "Schnitzler, Arthur an Jacob, Heinrich Eduard [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich Eduard (1889-1967) Jacob",
+ "ref":
+ "http://d-nb.info/gnd/118835327"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00083113",
+ "head":
+ "Schnitzler, Arthur: Im Spiel der Sommerlüfte [Dramatisches] (Drucktitel)",
+ "text":
+ "Erstes Objekt aus der Mappe. ca 67 Bl."
+}] 

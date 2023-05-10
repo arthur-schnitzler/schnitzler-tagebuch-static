@@ -1,0 +1,69 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-10-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-10-04.html",
+ "head":
+ "Tagebuch, 4. Oktober 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leonhard Adelt",
+ "ref":
+ "person_13089"},
+ {
+ "persName":
+ "Henry Hellssen",
+ "ref":
+ "person_16081"},
+ {
+ "persName":
+ "Lotte Medelsky",
+ "ref":
+ "person_18035"},
+ {
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "person_21614"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Bacchusfest",
+ "ref":
+ "pmb32097"}
+ ,  {
+ "title":
+ "Stunde des Erkennens",
+ "ref":
+ "pmb31447"}
+ ,  {
+ "title":
+ "Große Szene",
+ "ref":
+ "pmb31429"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

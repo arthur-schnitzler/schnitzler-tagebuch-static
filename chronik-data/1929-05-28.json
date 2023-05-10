@@ -1,0 +1,125 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1929-05-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-05-28.html",
+ "head":
+ "Tagebuch, 28. Mai 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Arnoldo Cappellini",
+ "ref":
+ "person_14129"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Charlotte Horn",
+ "ref":
+ "person_16362"},
+ {
+ "persName":
+ "Lotte Janowitzer",
+ "ref":
+ "person_16507"},
+ {
+ "persName":
+ "Alfred Neugebauer",
+ "ref":
+ "person_18403"},
+ {
+ "persName":
+ "Romain Rolland",
+ "ref":
+ "person_19333"},
+ {
+ "persName":
+ "Tizian",
+ "ref":
+ "person_20759"},
+ {
+ "persName":
+ "Margarete Witzmann",
+ "ref":
+ "person_21413"},
+ {
+ "persName":
+ "Edith Schneider",
+ "ref":
+ "person_19802"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Feuerglocke",
+ "ref":
+ "pmb76891"}
+ ,  {
+ "title":
+ "Die Leoniden",
+ "ref":
+ "pmb78078"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Parkring",
+ "ref":
+ "pmb55901"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/55901/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/55901/",
+ "head":
+ "Parkring"
+}] 

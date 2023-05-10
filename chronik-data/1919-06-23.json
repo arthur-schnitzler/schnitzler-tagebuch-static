@@ -1,0 +1,125 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-06-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-06-23.html",
+ "head":
+ "Tagebuch, 23. Juni 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Oscar Fried",
+ "ref":
+ "person_15204"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "person_17784"},
+ {
+ "persName":
+ "Alexander Marmorek",
+ "ref":
+ "person_17919"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Hermine Simandt",
+ "ref":
+ "person_20112"},
+ {
+ "persName":
+ "Anna Sikora",
+ "ref":
+ "person_20523"},
+ {
+ "persName":
+ "Alexander von Zemlinsky",
+ "ref":
+ "person_21537"},
+ {
+ "persName":
+ "Fritz Schlemmer",
+ "ref":
+ "person_19722"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Casanovas Heimfahrt",
+ "ref":
+ "pmb30971"}
+ ,  {
+ "title":
+ "Symphonie Nr. 9 d-Moll op. 125",
+ "ref":
+ "pmb77191"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Bratislava",
+ "ref":
+ "pmb39615"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 23. Juni 1919",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

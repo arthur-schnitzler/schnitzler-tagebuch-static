@@ -1,0 +1,140 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1897-05-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-05-30.html",
+ "head":
+ "Tagebuch, 30. Mai 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leons",
+ "ref":
+ "person_17456"},
+ {
+ "persName":
+ "Charles Gustavus Markbreiter",
+ "ref":
+ "person_17898"},
+ {
+ "persName":
+ "Felix Markbreiter",
+ "ref":
+ "person_17901"},
+ {
+ "persName":
+ "Otto Markbreiter",
+ "ref":
+ "person_17906"},
+ {
+ "persName":
+ "Hermann Oelsner",
+ "ref":
+ "person_18521"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/224/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/224/",
+ "head":
+ "London"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041680",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041680.html",
+ "head":
+ "Elsa Plessner an Schnitzler, 30. 5. [1897]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Elsa Plessner",
+ "ref":
+ "pmb2128"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Meine Freundin Klothilde",
+ "ref":
+ "pmb32161"}
+ ,  {
+ "title":
+ "Der gläserne Käfig. Eine Parabel",
+ "ref":
+ "pmb30265"}
+ ,  {
+ "title":
+ "Warten",
+ "ref":
+ "pmb32316"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Fröschelgasse",
+ "ref":
+ "pmb820"}
+ ,  {
+ "placeName":
+ "London",
+ "ref":
+ "pmb224"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Die Zeit. Wiener Wochenschrift",
+ "ref":
+ "pmb29209"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Elsa Plessner an Arthur Schnitzler, 30.5.1897",
+ "source":
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}] 

@@ -1,0 +1,129 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-12-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-12-20.html",
+ "head":
+ "Tagebuch, 20. Dezember 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Friedrich Händel",
+ "ref":
+ "person_15835"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Heinrich Mann",
+ "ref":
+ "person_17834"},
+ {
+ "persName":
+ "Ferdinand Schmutzer",
+ "ref":
+ "person_19784"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Karl Schönherr",
+ "ref":
+ "person_19850"},
+ {
+ "persName":
+ "Else Speidel",
+ "ref":
+ "person_20241"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "person_20714"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Der Untertan",
+ "ref":
+ "pmb30779"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02316",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02316.html",
+ "head":
+ "Arthur Schnitzler an Robert Adam, 20. 12. [1918]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "XII., Meidling",
+ "ref":
+ "pmb62"}
+ ,  {
+ "placeName":
+ "Meidlinger Hauptstraße",
+ "ref":
+ "pmb1239"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

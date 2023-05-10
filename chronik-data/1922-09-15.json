@@ -1,0 +1,135 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-09-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-09-15.html",
+ "head":
+ "Tagebuch, 15. September 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans Altmann",
+ "ref":
+ "person_13171"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Ottokar von Czernin-Chudenitz",
+ "ref":
+ "person_14331"},
+ {
+ "persName":
+ "Max Friedmann",
+ "ref":
+ "person_15231"},
+ {
+ "persName":
+ "Margarethe Lichtenstein",
+ "ref":
+ "person_17505"},
+ {
+ "persName":
+ "Richard Mayr",
+ "ref":
+ "person_18030"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Ignaz Seipel",
+ "ref":
+ "person_20038"},
+ {
+ "persName":
+ "Marie Elisabeth Stößler",
+ "ref":
+ "person_20454"},
+ {
+ "persName":
+ "Bertha Marie Mayr",
+ "ref":
+ "person_18028"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berchtesgaden",
+ "ref":
+ "pmb797"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Wallersee",
+ "ref":
+ "pmb92039"}
+ ,  {
+ "placeName":
+ "Gremsmühlen",
+ "ref":
+ "pmb90765"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/797/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/797/",
+ "head":
+ "Berchtesgaden"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/30/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "head":
+ "Salzburg"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1904-09-07">Mittwoch, 7. September 1904</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1904-09-07">
+               <head>Tagebuch, 7. September 1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17834">Heinrich Mann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13550">Paula Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16293">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30233">Der Graf von Charolais. Ein Trauerspiel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31091">Das gerettete Venedig. Trauerspiel in fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31981">Die Jagd nach Liebe</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91173">Pass Lueg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb415">Bad Aussee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb969">Südtirol</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb462">Venedig</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-09-07.html</idno>
+            </event>
+            <event when-iso="1904-09-07">
+               <head>Arthur Schnitzler, Olga Schnitzler, Hugo von (sen.) Hofmannsthal, Hugo Hofmannsthal, Max Burckhard, Gerty Hofmannsthal an Hermann Bahr, 7. 9. 1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11737">Hugo August von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29547">Stiegl-Brauerei</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb33">St. Gilgen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb63">XIII., Hietzing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb165">Ober Sankt Veit</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb220">Veitlissengasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb824">Hotel und Pension Lueg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01438.html</idno>
+            </event>
+            <event when-iso="1904-09-07">
+               <head>Arthur Schnitzler, Olga Schnitzler, Hugo von (sen.) Hofmannsthal, Hugo Hofmannsthal, Max Burckhard, Gerty Hofmannsthal an Gerhart Hauptmann, 7. 9. 1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11737">Hugo August von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11617">Gerhart Hauptmann</persName>
+                     </person>
+                  </listPerson>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29547">Stiegl-Brauerei</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb33">St. Gilgen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb735">Agnetendorf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1122">Schlesien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb824">Hotel und Pension Lueg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1150">Bahn- und Dampfschiffstation</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01439.html</idno>
+            </event>
+            <event when-iso="1904-09-07">
+               <head>Pass Lueg</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91173/</idno>
+            </event>
+            <event when-iso="1904-09-07">
+               <head>Hotel und Pension Lueg</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/824/</idno>
+            </event>
+            <event when-iso="1904-09-07">
+               <head>Schnitzler u. a. an Bahr, 7. 9. 1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11737">Hugo August von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb33">St. Gilgen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb824">Hotel und Pension Lueg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb165">Ober Sankt Veit</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb220">Veitlissengasse</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041073.html</idno>
+            </event>
+            <event when-iso="1904-09-07">
+               <head>Arthur Schnitzler, Olga Schnitzler, Hugo von
+                  (sen.) Hofmannsthal, Hugo Hofmannsthal, Max Burckhard, Gerty Hofmannsthal an Hermann Bahr, 7. 9. 1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116848723">Schnitzler, Olga</persName>
+                     </person>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116952202">Hofmannsthal, Hugo von
+                  (sen.)</persName>
+                     </person>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118552759">Hofmannsthal, Hugo</persName>
+                     </person>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/117161144">Burckhard, Max</persName>
+                     </person>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116952199">Hofmannsthal, Gerty</persName>
+                     </person>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118505955">Bahr, Hermann</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Hugo und Gerty von
+               Hofmannsthal - Hermann Bahr: Briefwechsel. 1891-1934. Hg. und kommentiert von Elsbeth
+               Dangel-Pelloquin. Göttingen: Wallstein 2013.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#l25eefe1-afeb-4a14-b13f-25d15ae20e34"/>
+            </event>
+            <event when-iso="1904-09-07">
+               <head>Brief von Hugo von Hofmannsthal, Gerty von Hofmannsthal, Hugo August Peter von Hofmannsthal, Arthur Schnitzler, Olga Schnitzler und Unbekannt an Gerhart Hauptmann</head>
+               <desc>1 Postkarte, 1 Bl.<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/118552759">Hofmannsthal, Hugo von (1874-1929)</persName>
+                     </person>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/118546937">Hauptmann, Gerhart (1862-1946)</persName>
+                     </person>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/116952199">Hofmannsthal, Gerty von (1880-1959)</persName>
+                     </person>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/116952202">Hofmannsthal, Hugo August Peter von (1841-1915)</persName>
+                     </person>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/126794855">Schnitzler, Arthur (1862-1931)</persName>
+                     </person>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/116848723">Schnitzler, Olga</persName>
+                     </person>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/128972920">Unbekannt</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-611-HS-1912794</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

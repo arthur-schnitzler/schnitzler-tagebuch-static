@@ -1,0 +1,150 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-09-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-09-10.html",
+ "head":
+ "Tagebuch, 10. September 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Forte dei Marmi",
+ "ref":
+ "pmb44248"}
+ ,  {
+ "placeName":
+ "Viareggio",
+ "ref":
+ "pmb1174"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02447",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02447.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 10. 9. 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Forte dei Marmi",
+ "ref":
+ "pmb44248"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Hasenauerstraße",
+ "ref":
+ "pmb383"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Monte Corchia",
+ "ref":
+ "pmb52707"}
+ ,  {
+ "placeName":
+ "Monte Pania della Croce",
+ "ref":
+ "pmb52710"}
+ ,  {
+ "placeName":
+ "Monte Matanna",
+ "ref":
+ "pmb52713"}
+ ,  {
+ "placeName":
+ "Monte Gabberi",
+ "ref":
+ "pmb52718"}
+ ,  {
+ "placeName":
+ "Monte Prana",
+ "ref":
+ "pmb52720"}
+ ,  {
+ "placeName":
+ "Grand Hotel Forte dei Marmi",
+ "ref":
+ "pmb52716"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44248/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44248/",
+ "head":
+ "Forte dei Marmi"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp261",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp261.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 10. September 1925"
+}] 

@@ -1,0 +1,90 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-04-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-04-26.html",
+ "head":
+ "Tagebuch, 26. April 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Metzl",
+ "ref":
+ "person_18104"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Hugo Schönbrunn",
+ "ref":
+ "person_19846"},
+ {
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "person_21109"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00081798",
+ "head":
+ "Zauber, Grete Eeze an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

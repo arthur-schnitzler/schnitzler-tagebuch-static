@@ -1,0 +1,105 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1929-10-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-10-01.html",
+ "head":
+ "Tagebuch, 1. Oktober 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Wort. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30615"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgring",
+ "ref":
+ "pmb274"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp736",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp736.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 26. September – 8. Oktober 1929"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 01. Oktober 1929",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00078444",
+ "head":
+ "Schnitzler, Arthur an Liveright, Horace [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Horace (1886-1933) Liveright",
+ "ref":
+ "http://d-nb.info/gnd/119297019"}]
+}
+}] 

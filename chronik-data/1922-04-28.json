@@ -1,0 +1,115 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-04-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-04-28.html",
+ "head":
+ "Tagebuch, 28. April 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Egbertje Alida Brevée",
+ "ref":
+ "person_13969"},
+ {
+ "persName":
+ "Geza de Koos",
+ "ref":
+ "person_17031"},
+ {
+ "persName":
+ "Johan de Meester",
+ "ref":
+ "person_18038"},
+ {
+ "persName":
+ "François Henri Jacques Mijnssen",
+ "ref":
+ "person_18158"},
+ {
+ "persName":
+ "Henri Adolph Tels",
+ "ref":
+ "person_20660"},
+ {
+ "persName":
+ "Eduard Rutger Verkade",
+ "ref":
+ "person_20947"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ,  {
+ "title":
+ "The Yellow Jacket",
+ "ref":
+ "pmb80151"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Den Haag",
+ "ref":
+ "pmb58810"}
+ ,  {
+ "placeName":
+ "Scheveningen",
+ "ref":
+ "pmb44313"}
+ ,  {
+ "placeName":
+ "Amsterdam",
+ "ref":
+ "pmb40709"}
+ ,  {
+ "placeName":
+ "Verhulststr.",
+ "ref":
+ "pmb92581"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/58810/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/58810/",
+ "head":
+ "Den Haag"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40709/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40709/",
+ "head":
+ "Amsterdam"
+}] 

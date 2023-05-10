@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-02-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-02-06.html",
+ "head":
+ "Tagebuch, 6. Februar 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Devrient",
+ "ref":
+ "person_14434"},
+ {
+ "persName":
+ "Paul Eger",
+ "ref":
+ "person_14626"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "person_15980"},
+ {
+ "persName":
+ "Alfred von Montenuovo",
+ "ref":
+ "person_18237"},
+ {
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "person_19364"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "person_20714"},
+ {
+ "persName":
+ "Kory Elisabeth Rosenbaum",
+ "ref":
+ "person_19363"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Literatur",
+ "ref":
+ "pmb29869"}
+ ,  {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ,  {
+ "title":
+ "Boubouroche",
+ "ref":
+ "pmb77461"}
+ ,  {
+ "title":
+ "Der Kammersänger",
+ "ref":
+ "pmb76460"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00034107",
+ "head":
+ "Frankl, Frida an Schnitzler, Arthur [Briefe]",
+ "text":
+ "3 Bl."
+}] 

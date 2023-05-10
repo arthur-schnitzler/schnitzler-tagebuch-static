@@ -1,0 +1,162 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-07-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-07-02.html",
+ "head":
+ "Tagebuch, 2. Juli 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Joseph Gollomb",
+ "ref":
+ "person_15557"},
+ {
+ "persName":
+ "Alfred Scharf",
+ "ref":
+ "person_19628"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Clara Samuely",
+ "ref":
+ "person_19558"},
+ {
+ "persName":
+ "Boris Schatz",
+ "ref":
+ "person_19635"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Goethes Briefwechsel mit Heinrich Meyer",
+ "ref":
+ "pmb76798"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "England",
+ "ref":
+ "pmb90593"}
+ ,  {
+ "placeName":
+ "Siberia",
+ "ref":
+ "pmb91739"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02345",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02345.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 2. 7. 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "pmb22728"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Christiane von Hofmannsthal",
+ "ref":
+ "pmb3220"},
+ {
+ "persName":
+ "Raimund von Hofmannsthal",
+ "ref":
+ "pmb3241"},
+ {
+ "persName":
+ "Franz von Hofmannsthal",
+ "ref":
+ "pmb3244"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

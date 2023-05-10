@@ -1,0 +1,226 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-01-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-01-23.html",
+ "head":
+ "Tagebuch, 23. Januar 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marianne Benedict",
+ "ref":
+ "person_13581"},
+ {
+ "persName":
+ "Ernst von Dohnányi",
+ "ref":
+ "person_14473"},
+ {
+ "persName":
+ "Heindl",
+ "ref":
+ "person_16045"},
+ {
+ "persName":
+ "Ernst Latzko",
+ "ref":
+ "person_17351"},
+ {
+ "persName":
+ "Lindner",
+ "ref":
+ "person_17571"},
+ {
+ "persName":
+ "Nikolaus von Seebach",
+ "ref":
+ "person_20011"},
+ {
+ "persName":
+ "Bernhard Herzmansky",
+ "ref":
+ "person_16166"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Hermine von Schaffgotsch",
+ "ref":
+ "person_19611"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02553",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02553.html",
+ "head":
+ "Olga Schnitzler an Paula Beer-Hofmann, 23. 1. 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"},
+ {
+ "persName":
+ "Ernst von Schuch",
+ "ref":
+ "pmb24537"},
+ {
+ "persName":
+ "Ernst von Dohnányi",
+ "ref":
+ "pmb11165"},
+ {
+ "persName":
+ "Otto Carl Waldemar Benzon",
+ "ref":
+ "pmb14029"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Gabriel Beer-Hofmann",
+ "ref":
+ "pmb13923"},
+ {
+ "persName":
+ "Mirjam Beer-Hofmann",
+ "ref":
+ "pmb2668"},
+ {
+ "persName":
+ "Naëmah Beer-Hofmann",
+ "ref":
+ "pmb2534"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Pierrette",
+ "ref":
+ "pmb30215"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Dresden",
+ "ref":
+ "pmb866"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XIX., Döbling",
+ "ref":
+ "pmb69"}
+ ,  {
+ "placeName":
+ "Hasenauerstraße",
+ "ref":
+ "pmb383"}
+ ,  {
+ "placeName":
+ "Hotel Bellevue",
+ "ref":
+ "pmb53107"}
+ ,  {
+ "placeName":
+ "Dänemark",
+ "ref":
+ "pmb43570"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90550/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90550/",
+ "head":
+ "Dresden"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Erhalt von Zinaida Vengerova an Arthur Schnitzler, 19. 1. 1910",
+ "source":
+ "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Zinaida Vengerova, 23. 1. 1910",
+ "source":
+ "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Zinaida Wengerova, 23. 1. 1910",
+ "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}] 

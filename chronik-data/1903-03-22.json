@@ -1,0 +1,142 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-03-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-03-22.html",
+ "head":
+ "Tagebuch, 22. März 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "person_20925"},
+ {
+ "persName":
+ "Franziska Mütter",
+ "ref":
+ "person_18320"},
+ {
+ "persName":
+ "Josefine Rothenstein",
+ "ref":
+ "person_19424"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gentzgasse",
+ "ref":
+ "pmb40694"}
+ ,  {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Döbling",
+ "ref":
+ "pmb64219"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01278",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01278.html",
+ "head":
+ "Arthur Schnitzler an Richard Dehmel, 22. 3. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Dehmel",
+ "ref":
+ "pmb11148"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zwei Menschen. Roman in Romanzen",
+ "ref":
+ "pmb44833"}
+ ,  {
+ "title":
+ "Neue Deutsche Rundschau",
+ "ref":
+ "pmb36152"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-3935243",
+ "head":
+ "Brief an Richard Dehmel",
+ "text":
+ "1 eigenh. Br.: 2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur (1862-1931) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/126794855"},
+ {
+ "persName":
+ "Richard (1863-1920) Dehmel",
+ "ref":
+ "http://d-nb.info/gnd/118679236"}]
+}
+}] 

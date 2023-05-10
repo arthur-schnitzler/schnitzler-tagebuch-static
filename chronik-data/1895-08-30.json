@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-08-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-08-30.html",
+ "head":
+ "Tagebuch, 30. August 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Otto Greiner",
+ "ref":
+ "person_15644"},
+ {
+ "persName":
+ "Hugo Kaufmann",
+ "ref":
+ "person_16773"},
+ {
+ "persName":
+ "Heinrich Stümcke",
+ "ref":
+ "person_20554"},
+ {
+ "persName":
+ "Lou Brion",
+ "ref":
+ "person_13979"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schwabingerstr.",
+ "ref":
+ "pmb92524"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/681/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/681/",
+ "head":
+ "Hotel Continental"
+}] 

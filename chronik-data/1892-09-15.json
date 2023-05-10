@@ -1,0 +1,84 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1892-09-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-09-15.html",
+ "head":
+ "Tagebuch, 15. September 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Cornel Engel",
+ "ref":
+ "person_14751"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Tauski",
+ "ref":
+ "person_20645"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Riva del Garda",
+ "ref":
+ "pmb465"}
+ ,  {
+ "placeName":
+ "Salò",
+ "ref":
+ "pmb39611"}
+ ,  {
+ "placeName":
+ "Gardone Riviera",
+ "ref":
+ "pmb90693"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/465/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/465/",
+ "head":
+ "Riva del Garda"
+}] 

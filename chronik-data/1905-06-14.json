@@ -1,0 +1,184 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-06-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-06-14.html",
+ "head":
+ "Tagebuch, 14. Juni 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Pjotr Iljitsch Tschaikowski",
+ "ref":
+ "person_20822"},
+ {
+ "persName":
+ "Agnes Ulmann",
+ "ref":
+ "person_20872"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Gottfried Kellers Leben. Seine Briefe und Tagebücher",
+ "ref":
+ "pmb80111"}
+ ,  {
+ "title":
+ "Klaviertrio a-Moll op. 50",
+ "ref":
+ "pmb30681"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01525",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01525.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 14. 6. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Lucie Höflich",
+ "ref":
+ "pmb11791"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Ober Sankt Veit",
+ "ref":
+ "pmb165"}
+ ,  {
+ "placeName":
+ "Veitlissengasse",
+ "ref":
+ "pmb220"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041290",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041290.html",
+ "head":
+ "Bahr an Schnitzler, 14. 6. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Lucie Höflich",
+ "ref":
+ "pmb11791"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ober Sankt Veit",
+ "ref":
+ "pmb165"}
+ ,  {
+ "placeName":
+ "Veitlissengasse",
+ "ref":
+ "pmb220"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ]
+}
+}] 

@@ -1,0 +1,77 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-08-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-08-15.html",
+ "head":
+ "Tagebuch, 15. August 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Rudolf Eduard von Cuny-Pierron",
+ "ref":
+ "person_18791"},
+ {
+ "persName":
+ "Antonie Diglas",
+ "ref":
+ "person_14453"},
+ {
+ "persName":
+ "Staudinger",
+ "ref":
+ "person_20336"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Vorderbrühl",
+ "ref":
+ "pmb92025"}
+ ,  {
+ "placeName":
+ "Brühl",
+ "ref":
+ "pmb44413"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}] 

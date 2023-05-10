@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1909-01-01">Freitag, 1. Januar 1909</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1909-01-01">
+               <head>Doktor Gräsler, Badearzt, erschl. hsl. Skizze 1</head>
+               <desc/>
+               <idno type="Arthur-Schnitzler-digital">https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/GRA_*SH1</idno>
+            </event>
+            <event when-iso="1909-01-01">
+               <head>Tagebuch, 1. Januar 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13305">Raoul Auernheimer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14065">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14224">Jules Claretie</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14473">Ernst von Dohnányi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15854">Gisela Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16646">Josef Kainz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16717">Edgar von Karg-Bebenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16718">Hannibal von Karg-Bebenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18910">Felix Poppenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20490">Oscar Straus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20767">László Toldy</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20796">Siegfried Trebitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21419">Dominik Wölfel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21107">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16194">Leonie Meyerhof</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16293">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16770">Arthur Kaufmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30005">Abschiedssouper</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29921">Dämmerseelen. Novellen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30201">Doktor Gräsler, Badearzt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30211">Geschwister</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30213">Die Hirtenflöte. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29843">Der grüne Kakadu. Groteske in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb46124">Der tapfere Kassian. Singspiel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30205">Komödie der Verführung. In drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29931">Komtesse Mizzi oder Der Familientag</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30217">Der tapfere Cassian. Puppenspiel in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29873">Der Puppenspieler</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30209">Prinzessin Sibylle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29905">Der Ruf des Lebens. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30215">Der Schleier der Pierrette</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29877">Die letzten Masken</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30301">Die griechische Tänzerin. Novellen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30219">Das Vermächtnis. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80699">Penthesileia. Frauenbrevier für männerfeindliche Stunden</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb169">Pötzleinsdorf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91641">Salmannsdorf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb176">Dornbacher Park</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb917">Turin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb996">St. Johann im Pongau</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-01-01.html</idno>
+            </event>
+            <event when-iso="1909-01-01">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1909-01-01">
+               <head>Tagebuch von Schnitzler, 1. 1. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12698">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2461">Gisela Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12701">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11851">Josef Kainz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13055">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2496">Arthur Kaufmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10788">Raoul Auernheimer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12968">Siegfried Trebitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27785">László Toldy</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11165">Ernst von Dohnányi</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12861">Oscar Straus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2500">Jules Claretie</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12441">Felix Poppenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2503">Dominik Wölfel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12244">Leonie Meyerhof</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2506">Hannibal von Karg-Bebenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2219">Edgar von Karg-Bebenburg</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30201">Doktor Gräsler, Badearzt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30205">Komödie der Verführung. In drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30209">Prinzessin Sibylle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30211">Geschwister</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30213">Die Hirtenflöte. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29931">Komtesse Mizzi oder Der Familientag</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30215">Der Schleier der Pierrette</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30217">Der tapfere Cassian. Puppenspiel in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29877">Die letzten Masken</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30005">Abschiedssouper</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29843">Der grüne Kakadu. Groteske in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29873">Der Puppenspieler</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30219">Das Vermächtnis. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29905">Der Ruf des Lebens. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30221">Penthesilea. Ein Trauerspiel</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb169">Pötzleinsdorf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb242">Salmannsdorf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb176">Dornbacher Park</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb20">Volkstheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb12">Kammerspiele Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb917">Turin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb996">St. Johann im Pongau</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29677">Franz-Grillparzer-Preis</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041040.html</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

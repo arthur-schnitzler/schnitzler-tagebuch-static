@@ -1,0 +1,299 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net",
+ "head":
+ "Der Sekundant, Typoskript",
+ "text":
+ "Publikation in Vorbereitung"
+}, {
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net",
+ "head":
+ "Ich, Typoskript",
+ "text":
+ "Publikation in Vorbereitung"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1927-11-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-11-07.html",
+ "head":
+ "Tagebuch, 7. November 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Leo Fischmann",
+ "ref":
+ "person_15014"},
+ {
+ "persName":
+ "Oskar Maurus Fontana",
+ "ref":
+ "person_15072"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Franz Spunda",
+ "ref":
+ "person_20298"},
+ {
+ "persName":
+ "Leopold Lipschütz",
+ "ref":
+ "person_17585"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Sekundant",
+ "ref":
+ "pmb30953"}
+ ,  {
+ "title":
+ "Zug der Schatten",
+ "ref":
+ "pmb32049"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rom",
+ "ref":
+ "pmb445"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02492",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02492.html",
+ "head":
+ "Arthur Schnitzler an Stefan Großmann, 7. 11. 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ "pmb11527"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Buch der Sprüche und Bedenken",
+ "ref":
+ "pmb30053"}
+ ,  {
+ "title":
+ "Das Tage-Buch",
+ "ref":
+ "pmb46493"}
+ ,  {
+ "title":
+ "Bemerkungen. Aus dem noch unveröffentlichten »Buch der Sprüche und Bedenken«.",
+ "ref":
+ "pmb47266"}
+ ,  {
+ "title":
+ "Neue Freie Presse",
+ "ref":
+ "pmb36374"}
+ ,  {
+ "title":
+ "Bemerkungen. (Aus dem noch unveröffentlichten »Buch der Sprüche und Bedenken«)",
+ "ref":
+ "pmb47270"}
+ ,  {
+ "title":
+ "Dresdner Neueste Nachrichten",
+ "ref":
+ "pmb47273"}
+ ,  {
+ "title":
+ "Bemerkungen",
+ "ref":
+ "pmb47262"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Das Tage-Buch",
+ "ref":
+ "pmb37544"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Beuthstrasse",
+ "ref":
+ "pmb46598"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp490",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp490.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 6.–8. November 1927"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Hedy Kempny an Arthur Schnitzler, 7.11.1927",
+ "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Konrad Maril, 7. 11. 1927",
+ "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Leopold Moll, 7. 11. 1927",
+ "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00080189",
+ "head":
+ "Schnitzler, Arthur: Der Sekundant [Prosa] (Drucktitel)",
+ "text":
+ "Erstes Objekt aus der Mappe. 65 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00080405",
+ "head":
+ "Schnitzler, Arthur: Novelette [Prosa] (Manuskripttitel)",
+ "text":
+ "Letztes Objekt aus der Mappe. 21 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00047940",
+ "head":
+ "Schnitzler, Arthur an Moll, Leopold [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopold (1877-1933) Moll",
+ "ref":
+ "http://d-nb.info/gnd/140120262"}]
+}
+}] 

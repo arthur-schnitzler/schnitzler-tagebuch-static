@@ -1,0 +1,119 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1892-03-19",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-03-19.html",
+ "head":
+ "Tagebuch, 19. März 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Agonie",
+ "ref":
+ "pmb30159"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00085",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00085.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 19. 3. 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "pmb11851"},
+ {
+ "persName":
+ "Emanuel Reicher",
+ "ref":
+ "pmb12491"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ "pmb53"}
+ ,  {
+ "placeName":
+ "Kärntnerring",
+ "ref":
+ "pmb501"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Purkersdorf",
+ "ref":
+ "pmb39792"}
+ ,  {
+ "placeName":
+ "Graz",
+ "ref":
+ "pmb860"}
+ ,  {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ,  {
+ "placeName":
+ "Moskau",
+ "ref":
+ "pmb869"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

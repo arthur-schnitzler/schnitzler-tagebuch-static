@@ -1,0 +1,65 @@
+[{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01746",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01746.html",
+ "head":
+ "Max Burckhard an Arthur Schnitzler, 27. 12. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Theater",
+ "ref":
+ "pmb48443"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Rütten &amp; Loening",
+ "ref":
+ "pmb29309"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

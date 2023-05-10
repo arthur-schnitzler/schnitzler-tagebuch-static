@@ -1,0 +1,67 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-04-19",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-04-19.html",
+ "head":
+ "Tagebuch, 19. April 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Metzl",
+ "ref":
+ "person_18103"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Menton",
+ "ref":
+ "pmb36456"}
+ ,  {
+ "placeName":
+ "Nizza",
+ "ref":
+ "pmb926"}
+ ,  {
+ "placeName":
+ "Cimiez",
+ "ref":
+ "pmb90482"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/36456/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/36456/",
+ "head":
+ "Menton"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/926/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/926/",
+ "head":
+ "Nizza"
+}] 

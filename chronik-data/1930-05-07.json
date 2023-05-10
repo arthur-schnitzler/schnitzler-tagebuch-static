@@ -1,0 +1,110 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1930-05-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-05-07.html",
+ "head":
+ "Tagebuch, 7. Mai 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arnoldo Cappellini",
+ "ref":
+ "person_14129"},
+ {
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "person_17838"},
+ {
+ "persName":
+ "Richard Tauber",
+ "ref":
+ "person_20641"},
+ {
+ "persName":
+ "Norbert Hoffmann",
+ "ref":
+ "person_16277"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Notizen zu Lektüre und Theaterbesuchen (1879-1927)",
+ "ref":
+ "pmb35998"}
+ ,  {
+ "title":
+ "Mario und der Zauberer",
+ "ref":
+ "pmb76548"}
+ ,  {
+ "title":
+ "Der Herr Kammersänger",
+ "ref":
+ "pmb81157"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Suzanne Clauser, 7. 5. 1930",
+ "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00049976",
+ "head":
+ "Schnitzler, Arthur an Wolf, Bodo [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

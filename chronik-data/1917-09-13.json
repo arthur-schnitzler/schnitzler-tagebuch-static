@@ -1,0 +1,77 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1917-09-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-09-13.html",
+ "head":
+ "Tagebuch, 13. September 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard de Crignis",
+ "ref":
+ "person_14298"},
+ {
+ "persName":
+ "Anne-Elisabeth Kösters",
+ "ref":
+ "person_16984"},
+ {
+ "persName":
+ "Julian Marcuse",
+ "ref":
+ "person_17863"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Kopal",
+ "ref":
+ "person_17033"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kainzenbad",
+ "ref":
+ "pmb92318"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00033343",
+ "head":
+ "Ebel, S. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

@@ -1,0 +1,162 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-02-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-02-09.html",
+ "head":
+ "Tagebuch, 9. Februar 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "person_14643"},
+ {
+ "persName":
+ "Johan Messchaert",
+ "ref":
+ "person_18094"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Mörder. Novelle",
+ "ref":
+ "pmb33754"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02008",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02008.html",
+ "head":
+ "Arthur Schnitzler an Albert Ehrenstein, 9. 2. 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "pmb11230"},
+ {
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ "pmb11527"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "pmb11988"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Die Fackel",
+ "ref":
+ "pmb29308"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02009",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02009.html",
+ "head":
+ "Robert Adam an Arthur Schnitzler, 9. 2. 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Neidhard",
+ "ref":
+ "pmb33580"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "S. Fischer Verlag",
+ "ref":
+ "pmb29639"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Granville-Barker,
+                        Harley, 9. 2. 1911",
+ "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}] 

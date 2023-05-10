@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1909-01-05">Dienstag, 5. Januar 1909</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1909-01-05">
+               <head>Tagebuch, 5. Januar 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15902">Käthe Hannemann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16914">Wilhelm Klitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17223">Victor Kutschera</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19394">Moritz Rosenthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19755">Hugo Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19823">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20872">Agnes Ulmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20925">Leo Van-Jung</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21231">Isabella Vengerova</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21107">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13550">Paula Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16770">Arthur Kaufmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29931">Komtesse Mizzi oder Der Familientag</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78463">Symphonische Etüden op. 13</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb96">Meissl &amp; Schadn</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb4">Bösendorfer-Saal</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-01-05.html</idno>
+            </event>
+            <event when-iso="1909-01-05">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1909-01-05">
+               <head>Premiere von Liebelei, deutschsprachige Uraufführung von Komtesse Mizzi, 5.1.1909</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29931" type="auffuhrung-von-urauffuhrung-von">Komtesse Mizzi oder Der Familientag</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917" type="auffuhrung-von-premiere-von">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173" type="hat-als-teilnehmerin">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12701" type="hat-als-teilnehmerin">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24423" type="hat-als-teilnehmerin">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12698" type="hat-als-teilnehmerin">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2868" type="hat-als-arbeitskraft">Victor Kutschera</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb17831" type="hat-als-arbeitskraft">Käthe Hannemann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26610" type="hat-als-arbeitskraft">Charlotte Waldow</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3341" type="hat-als-arbeitskraft">Kathi Thaller</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11224" type="hat-als-arbeitskraft">Anton Edthofer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb8246" type="hat-als-arbeitskraft">Wilhelm Klitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12936" type="hat-als-arbeitskraft">Wilhelm Thaller</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11394" type="hat-als-arbeitskraft">Elsa Marguerite Galafrès</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb17109" type="hat-als-arbeitskraft">Josefine Glöckner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12025" type="hat-als-arbeitskraft">Hans Lackner</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb20" type="veranstaltet-in">Volkstheater</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36430" type="veranstaltet-von">Volkstheater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/35215/</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

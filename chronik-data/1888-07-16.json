@@ -1,0 +1,57 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1888-07-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-07-16.html",
+ "head":
+ "Tagebuch, 16. Juli 1888",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Fritz Wien",
+ "ref":
+ "person_21301"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Joseph’s Sweetheart",
+ "ref":
+ "pmb80250"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/224/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/224/",
+ "head":
+ "London"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Louise Schnitzler, 16. 7. 1888",
+ "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}] 

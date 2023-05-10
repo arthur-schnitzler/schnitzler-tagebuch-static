@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-01-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-01-28.html",
+ "head":
+ "Tagebuch, 28. Januar 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Alexander Salkind",
+ "ref":
+ "person_19533"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"},
+ {
+ "persName":
+ "Curt Wigand",
+ "ref":
+ "person_21316"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Wort. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30615"}
+ ,  {
+ "title":
+ "Arthur Schnitzler. Eine kritische Studie über seine hervorragendsten Werke",
+ "ref":
+ "pmb81227"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Währing",
+ "ref":
+ "pmb90546"}
+ ,  {
+ "placeName":
+ "Salmannsdorf",
+ "ref":
+ "pmb91641"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,71 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-02-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-02-21.html",
+ "head":
+ "Tagebuch, 21. Februar 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Paracelsus. Versspiel in einem Akt",
+ "ref":
+ "pmb30403"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-908661",
+ "head":
+ "Brief von Arthur Schnitzler an Richard Rosenbaum",
+ "text":
+ "1 Br., 1 3/4 S. 4˚",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur (1862-1931) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/126794855"},
+ {
+ "persName":
+ "Richard (1867-1942) Rosenbaum",
+ "ref":
+ "http://d-nb.info/gnd/11662177X"}]
+}
+}] 

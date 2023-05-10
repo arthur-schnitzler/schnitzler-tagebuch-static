@@ -1,0 +1,69 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-04-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-04-26.html",
+ "head":
+ "Tagebuch, 26. April 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marja Fjodorovna Andrejewna-Gorki",
+ "ref":
+ "person_13199"},
+ {
+ "persName":
+ "Juliusz Wolfsohn",
+ "ref":
+ "person_21455"},
+ {
+ "persName":
+ "Bronsky",
+ "ref":
+ "person_13997"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"},
+ {
+ "persName":
+ "Maxim Gorkij",
+ "ref":
+ "person_15573"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

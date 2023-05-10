@@ -1,0 +1,158 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-11-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-11-29.html",
+ "head":
+ "Tagebuch, 29. November 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Johanna Bergmeister",
+ "ref":
+ "person_13641"},
+ {
+ "persName":
+ "Emil Eysler",
+ "ref":
+ "person_14834"},
+ {
+ "persName":
+ "Otto Eysler",
+ "ref":
+ "person_14835"},
+ {
+ "persName":
+ "Robert Eysler",
+ "ref":
+ "person_14836"},
+ {
+ "persName":
+ "Wilhelm Kienzl",
+ "ref":
+ "person_16837"},
+ {
+ "persName":
+ "Rudolf Links",
+ "ref":
+ "person_17575"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Richard Specht",
+ "ref":
+ "person_20238"},
+ {
+ "persName":
+ "Felix von Weingartner",
+ "ref":
+ "person_21172"},
+ {
+ "persName":
+ "Robert Eysler",
+ "ref":
+ "person_14837"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"},
+ {
+ "persName":
+ "Gertrude Foerstel",
+ "ref":
+ "person_15060"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "person_21602"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Das stärkere Band",
+ "ref":
+ "pmb32446"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Stefan Zweig an Arthur Schnitzler, 29.11.1914",
+ "source":
+ "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 29. November 1914",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

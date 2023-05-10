@@ -1,0 +1,106 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-10-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-10-15.html",
+ "head":
+ "Tagebuch, 15. Oktober 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopoldine Müller",
+ "ref":
+ "person_18303"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/662/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/662/",
+ "head":
+ "Baden bei Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/CH-002121-2-991170467260805501",
+ "head":
+ "Briefumschlag an Herrn Georg Hirschfeld / von [Arthur Schnitzler]",
+ "text":
+ "1 Kuvert (8 cm)",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg (1873-1942) Hirschfeld",
+ "ref":
+ "http://d-nb.info/gnd/101708122"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/CH-002121-2-991170467098805501",
+ "head":
+ "Briefkarte an Georg Hirschfeld / von Arth[ur] Sch[nitzler]",
+ "text":
+ "Transkription: 'lieber Georg, es thut mir leid, Sie in Wien nicht mehr gesehen zu haben; nun, hoffentlich, in Berlin, wo Sie nun wojl schon in [häus?]licher Ordnung und zu Hause sind. Ich habe mich auf einige Tage vom TagXXXX- u XXXXlärm hiehergeflüchtet. Es waren &lt;pb/&gt;noch ein paar wunderschöne Herbstsonnentage, aber jetzt wird es kalt, gelb und traurig. Herzliche Grüße, auch Ihrer Frau u Ihrer Mama Ihr Arth Sch' (Freundliche Mitteilung von Martin Anton Müller, Wien, 28.09.2020). 1 Karte (8 cm)",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg (1873-1942) Hirschfeld",
+ "ref":
+ "http://d-nb.info/gnd/101708122"}]
+}
+}] 

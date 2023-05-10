@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1897-03-28">Sonntag, 28. März 1897</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1897-03-28">
+               <head>Tagebuch, 28. März 1897</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14322">Curt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16222">Georg Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16730">Carl Karlweis</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18355">Peter Nansen</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19460">Anton Rückauf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21083">Gustav Walter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19150">Marie Reinhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13611">Ferry Bératon</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16293">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76470">Anekdote</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29835">Bei Beiden</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30279">Der Thor und der Tod</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb4">Bösendorfer-Saal</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb36300">Kopenhagen</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-03-28.html</idno>
+            </event>
+            <event when-iso="1897-03-28">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1897-03-28">
+               <head>Kalendereintrag von Bahr, 28. 3. 1897</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11701">Georg Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb4">Bösendorfer-Saal</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041398.html</idno>
+            </event>
+            <event when-iso="1897-03-28">
+               <head>Tagebuch von Schnitzler, 28. 3. 1897</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2378">Marie Reinhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb15172">Curt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11701">Georg Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12698">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13082">Carl Karlweis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb19144">Emilie Karlweis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14756">Ferry Bératon</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12598">Anton Rückauf</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13044">Gustav Walter</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2357">Peter Nansen</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29835">Bei Beiden</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30279">Der Thor und der Tod</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30472">Die schöne Frau. Eine Anekdote</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30470">Arthur Schnitzler. »Elskovsleg«s Forfatter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb4">Bösendorfer-Saal</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb36300">Kopenhagen</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29628">Politiken</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041170.html</idno>
+            </event>
+            <event when-iso="1897-03-28">
+               <head>Lesung von Hirschfeld, Hofmannsthal, Schnitzler und Bahr, 28.3.1897</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29835" type="vortragvorlesung-von">Bei Beiden</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29899" type="vortragvorlesung-von">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30279" type="vortragvorlesung-von">Der Thor und der Tod</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30472" type="vortragvorlesung-von">Die schöne Frau. Eine Anekdote</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11701" type="hat-als-arbeitskraft">Georg Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815" type="hat-als-arbeitskraft">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740" type="hat-als-arbeitskraft">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb59282" type="hat-als-teilnehmerin">Valla Karplus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14756" type="hat-als-teilnehmerin">Ferry Bératon</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13082" type="hat-als-teilnehmerin">Carl Karlweis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10765" type="hat-als-teilnehmerin">Leopold von Andrian-Werburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb20408" type="hat-als-teilnehmerin">Robert von Lieben</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12698" type="hat-als-teilnehmerin">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb19144" type="hat-als-teilnehmerin">Emilie Karlweis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167" type="hat-als-teilnehmerin">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12435" type="hat-als-teilnehmerin">Clara Katharina Pollaczek</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb4" type="veranstaltet-in">Bösendorfer-Saal</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/59292/</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

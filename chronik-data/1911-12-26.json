@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-12-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-12-26.html",
+ "head":
+ "Tagebuch, 26. Dezember 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "person_19828"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frau Beate und ihr Sohn. Novelle",
+ "ref":
+ "pmb32133"}
+ ,  {
+ "title":
+ "Wilhelm Tell",
+ "ref":
+ "pmb77042"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Penzing",
+ "ref":
+ "pmb90913"}
+ ,  {
+ "placeName":
+ "Satzberg",
+ "ref":
+ "pmb91663"}
+ ,  {
+ "placeName":
+ "Galitzinberg",
+ "ref":
+ "pmb90687"}
+ ,  {
+ "placeName":
+ "Liebhartstal",
+ "ref":
+ "pmb92374"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

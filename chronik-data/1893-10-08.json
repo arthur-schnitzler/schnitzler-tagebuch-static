@@ -1,0 +1,54 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-10-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-10-08.html",
+ "head":
+ "Tagebuch, 8. Oktober 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustav Frid",
+ "ref":
+ "person_15194"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bratislava",
+ "ref":
+ "pmb39615"}
+ ,  {
+ "placeName":
+ "Hainburg an der Donau",
+ "ref":
+ "pmb90823"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/39615/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/39615/",
+ "head":
+ "Bratislava"
+}] 

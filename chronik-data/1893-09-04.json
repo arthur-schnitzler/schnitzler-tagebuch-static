@@ -1,0 +1,142 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-09-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-09-04.html",
+ "head":
+ "Tagebuch, 4. September 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Josefine Lydia von Weisswasser",
+ "ref":
+ "person_21214"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02714",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02714.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 4. 9. [1893]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Romeo Omarini",
+ "ref":
+ "pmb89847"},
+ {
+ "persName":
+ "Antonio Omarini",
+ "ref":
+ "pmb89849"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Hôtel du Dauphin",
+ "ref":
+ "pmb89840"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Isola Bella",
+ "ref":
+ "pmb89841"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Borromean Islands",
+ "ref":
+ "pmb89844"}
+ ,  {
+ "placeName":
+ "Lake Maggiore",
+ "ref":
+ "pmb89836"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ,  {
+ "placeName":
+ "Mailand",
+ "ref":
+ "pmb886"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}] 

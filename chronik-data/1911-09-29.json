@@ -1,0 +1,228 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-09-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-09-29.html",
+ "head":
+ "Tagebuch, 29. September 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Detlev von Liliencron",
+ "ref":
+ "person_17547"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "person_21109"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "Breide Hummelsbüttel",
+ "ref":
+ "pmb77503"}
+ ,  {
+ "title":
+ "Erdgeist. Tragödie in vier Aufzügen",
+ "ref":
+ "pmb31323"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Hamburg",
+ "ref":
+ "pmb506"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041624",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041624.html",
+ "head":
+ "Brahm an Bahr, 29. 9. 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Heinrich von Kleist",
+ "ref":
+ "pmb11933"},
+ {
+ "persName":
+ "Hans Marr",
+ "ref":
+ "pmb12192"},
+ {
+ "persName":
+ "Karl Forest",
+ "ref":
+ "pmb4431"},
+ {
+ "persName":
+ "Lore Busch",
+ "ref":
+ "pmb28750"},
+ {
+ "persName":
+ "Emanuel Reicher",
+ "ref":
+ "pmb12491"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Prinzip",
+ "ref":
+ "pmb30375"}
+ ,  {
+ "title":
+ "Das Leben Heinrichs von Kleist",
+ "ref":
+ "pmb31319"}
+ ,  {
+ "title":
+ "An die Jugend",
+ "ref":
+ "pmb32560"}
+ ,  {
+ "title":
+ "Das Tänzchen. Lustspiel in drei Akten",
+ "ref":
+ "pmb30085"}
+ ,  {
+ "title":
+ "Komtesse Mizzi oder Der Familientag",
+ "ref":
+ "pmb29931"}
+ ,  {
+ "title":
+ "Die Kinder. Eine Komödie in drei Akten",
+ "ref":
+ "pmb30269"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Lessing-Theater",
+ "ref":
+ "pmb18"}
+ ,  {
+ "placeName":
+ "Leipzig",
+ "ref":
+ "pmb864"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neue Freie Presse",
+ "ref":
+ "pmb29351"}
+ ]
+}
+}] 

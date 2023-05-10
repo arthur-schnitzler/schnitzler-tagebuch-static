@@ -1,0 +1,112 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-04-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-04-17.html",
+ "head":
+ "Tagebuch, 17. April 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karl Gassner",
+ "ref":
+ "person_15354"},
+ {
+ "persName":
+ "Adrienne Wärndorfer",
+ "ref":
+ "person_21011"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Roquebrune-Cap-Martin",
+ "ref":
+ "pmb90442"}
+ ,  {
+ "placeName":
+ "Mortola Inferiore",
+ "ref":
+ "pmb91300"}
+ ,  {
+ "placeName":
+ "Monte Carlo",
+ "ref":
+ "pmb5862"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/36456/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/36456/",
+ "head":
+ "Menton"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90442/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90442/",
+ "head":
+ "Roquebrune-Cap-Martin"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/5862/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/5862/",
+ "head":
+ "Monte Carlo"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-908690",
+ "head":
+ "Brief von Arthur Schnitzler an Richard Rosenbaum",
+ "text":
+ "1 Br., 3 S. 4˚, Antwortkop.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur (1862-1931) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/126794855"},
+ {
+ "persName":
+ "Richard (1867-1942) Rosenbaum",
+ "ref":
+ "http://d-nb.info/gnd/11662177X"}]
+}
+}] 

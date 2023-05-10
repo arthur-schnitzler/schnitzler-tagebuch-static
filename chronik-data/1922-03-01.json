@@ -1,0 +1,132 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-03-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-03-01.html",
+ "head":
+ "Tagebuch, 1. März 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Charlotte Baruch",
+ "ref":
+ "person_13448"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Josef Körner",
+ "ref":
+ "person_16980"},
+ {
+ "persName":
+ "Richard Lehnert",
+ "ref":
+ "person_17411"},
+ {
+ "persName":
+ "Robert Lichtenstern",
+ "ref":
+ "person_17509"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "person_17784"},
+ {
+ "persName":
+ "Otto Marburg",
+ "ref":
+ "person_17852"},
+ {
+ "persName":
+ "Theodor? Meyer",
+ "ref":
+ "person_18123"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Werner Schott",
+ "ref":
+ "person_19874"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"},
+ {
+ "persName":
+ "Wilhelm Grosz",
+ "ref":
+ "person_15685"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"},
+ {
+ "persName":
+ "Eugenie Schwarzwald",
+ "ref":
+ "person_19991"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Arthur Schnitzlers Gestalten und Probleme",
+ "ref":
+ "pmb56576"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 01. März 1922",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

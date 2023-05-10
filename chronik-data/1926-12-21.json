@@ -1,0 +1,152 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-12-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-12-21.html",
+ "head":
+ "Tagebuch, 21. Dezember 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Felix Dörmann",
+ "ref":
+ "person_14472"},
+ {
+ "persName":
+ "Johann Gottlieb Fichte",
+ "ref":
+ "person_14975"},
+ {
+ "persName":
+ "Paul Géraldy",
+ "ref":
+ "person_15395"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "person_15499"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Erich Wolfgang Korngold",
+ "ref":
+ "person_17058"},
+ {
+ "persName":
+ "Lili Kraus",
+ "ref":
+ "person_17110"},
+ {
+ "persName":
+ "Ferdinand Lassalle",
+ "ref":
+ "person_17340"},
+ {
+ "persName":
+ "Robert Lichtenstern",
+ "ref":
+ "person_17509"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Adolfo Rossi",
+ "ref":
+ "person_19402"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Oscar Wilde",
+ "ref":
+ "person_21325"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Ernst Moritz Arndt",
+ "ref":
+ "person_13259"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aphoristisches",
+ "ref":
+ "pmb35745"}
+ ,  {
+ "title":
+ "Klaviersonate Nr. 30 E-Dur op. 109",
+ "ref":
+ "pmb77151"}
+ ,  {
+ "title":
+ "Geschichte der deutschen Kunst",
+ "ref":
+ "pmb80361"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 21. Dezember 1926",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

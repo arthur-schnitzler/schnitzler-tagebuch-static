@@ -1,0 +1,122 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-01-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-01-26.html",
+ "head":
+ "Tagebuch, 26. Januar 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "person_13162"},
+ {
+ "persName":
+ "Julius Bab",
+ "ref":
+ "person_13337"},
+ {
+ "persName":
+ "Fritz Freund",
+ "ref":
+ "person_15183"},
+ {
+ "persName":
+ "Anna Rotenstern-Tesi",
+ "ref":
+ "person_19412"},
+ {
+ "persName":
+ "Friedrich Geiringer",
+ "ref":
+ "person_15369"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Wort. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30615"}
+ ,  {
+ "title":
+ "Der Andere",
+ "ref":
+ "pmb31195"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Nizza",
+ "ref":
+ "pmb926"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01654",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01654.html",
+ "head":
+ "Max Burckhard an Arthur Schnitzler, 26. 1. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Porzellangasse",
+ "ref":
+ "pmb436"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,159 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1930-11-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-11-30.html",
+ "head":
+ "Tagebuch, 30. November 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Paul Liebesny",
+ "ref":
+ "person_17518"},
+ {
+ "persName":
+ "Heinrich Mann",
+ "ref":
+ "person_17834"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"},
+ {
+ "persName":
+ "Arnold von Tolnai",
+ "ref":
+ "person_20769"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Sängerin",
+ "ref":
+ "pmb32051"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Jeutendorf",
+ "ref":
+ "pmb45181"}
+ ,  {
+ "placeName":
+ "Währing",
+ "ref":
+ "pmb90546"}
+ ,  {
+ "placeName":
+ "Dornbacher Park",
+ "ref":
+ "pmb176"}
+ ,  {
+ "placeName":
+ "Graben",
+ "ref":
+ "pmb90753"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90546/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90546/",
+ "head":
+ "Währing"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/176/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/176/",
+ "head":
+ "Dornbacher Park"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp861",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp861.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 30. November – 5. Dezember 1930"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 30. November 1930",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

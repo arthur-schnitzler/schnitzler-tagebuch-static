@@ -1,0 +1,99 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1901-01-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-01-16.html",
+ "head":
+ "Tagebuch, 16. Januar 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Luise Zehngraf",
+ "ref":
+ "person_21521"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01091",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01091.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 1[6?] 1. 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "William Shakespeare",
+ "ref":
+ "pmb2412"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Neue Deutsche Rundschau",
+ "ref":
+ "pmb36152"}
+ ,  {
+ "title":
+ "Frau Bertha Garlan. Roman",
+ "ref":
+ "pmb30486"}
+ ,  {
+ "title":
+ "Der blinde Geronimo und sein Bruder",
+ "ref":
+ "pmb30649"}
+ ,  {
+ "title":
+ "Henry IV, Part 1",
+ "ref":
+ "pmb30867"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

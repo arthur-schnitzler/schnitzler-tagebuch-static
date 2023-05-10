@@ -1,0 +1,151 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-03-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-03-14.html",
+ "head":
+ "Tagebuch, 14. März 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Werner Krauss",
+ "ref":
+ "person_17120"},
+ {
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Karl Michaelis",
+ "ref":
+ "person_18140"},
+ {
+ "persName":
+ "Alfred Rotter",
+ "ref":
+ "person_19435"},
+ {
+ "persName":
+ "Fritz Rotter",
+ "ref":
+ "person_19436"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Abschiedssouper",
+ "ref":
+ "pmb30005"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Charley’s Tante",
+ "ref":
+ "pmb81419"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Zuoz",
+ "ref":
+ "pmb41063"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp189",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp189.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 14. März 1925"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp190",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp190.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 14. März 1925"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Hedy Kempny an Arthur Schnitzler, 14.3.1925",
+ "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}] 

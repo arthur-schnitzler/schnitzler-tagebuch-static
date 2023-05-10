@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1906-07-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-07-22.html",
+ "head":
+ "Tagebuch, 22. Juli 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "person_13162"},
+ {
+ "persName":
+ "Hans von Bülow",
+ "ref":
+ "person_14052"},
+ {
+ "persName":
+ "Detlev von Liliencron",
+ "ref":
+ "person_17547"},
+ {
+ "persName":
+ "Ida d’Albert",
+ "ref":
+ "person_13131"},
+ {
+ "persName":
+ "Edgar Allan Poe",
+ "ref":
+ "person_18839"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Wort. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30615"}
+ ,  {
+ "title":
+ "Bilder aus der deutschen Vergangenheit. Aus dem Jahrhundert des großen Krieges",
+ "ref":
+ "pmb59476"}
+ ,  {
+ "title":
+ "Gedichte",
+ "ref":
+ "pmb77505"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hellebæk",
+ "ref":
+ "pmb90855"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/959/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/959/",
+ "head":
+ "Marienlyst"
+}] 

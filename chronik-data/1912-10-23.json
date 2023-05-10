@@ -1,0 +1,79 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1912-10-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-10-23.html",
+ "head":
+ "Tagebuch, 23. Oktober 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "person_13202"},
+ {
+ "persName":
+ "Paul Brann",
+ "ref":
+ "person_13925"},
+ {
+ "persName":
+ "Helene Jäger",
+ "ref":
+ "person_16488"},
+ {
+ "persName":
+ "Robert Michel",
+ "ref":
+ "person_18147"},
+ {
+ "persName":
+ "Max Schach",
+ "ref":
+ "person_19603"},
+ {
+ "persName":
+ "Hans Bernhard Schlesinger",
+ "ref":
+ "person_19731"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Monte Carlo",
+ "ref":
+ "pmb5862"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

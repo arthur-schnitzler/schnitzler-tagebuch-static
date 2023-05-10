@@ -1,0 +1,111 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-06-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-06-09.html",
+ "head":
+ "Tagebuch, 9. Juni 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "person_13624"},
+ {
+ "persName":
+ "Franz Ferdinand von Österreich-Este",
+ "ref":
+ "person_15149"},
+ {
+ "persName":
+ "Franz Höbling",
+ "ref":
+ "person_16250"},
+ {
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "person_19364"},
+ {
+ "persName":
+ "Alexander Rottmann",
+ "ref":
+ "person_19438"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Franz Schuselka",
+ "ref":
+ "person_19947"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Olga Matscheko",
+ "ref":
+ "person_17973"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043477",
+ "head":
+ "Stahl, Ernst Leopold an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ernst Leopold (1882-1949) Stahl",
+ "ref":
+ "http://d-nb.info/gnd/117203262"}]
+}
+}] 

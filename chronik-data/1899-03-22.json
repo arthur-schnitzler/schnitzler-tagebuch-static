@@ -1,0 +1,84 @@
+[{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00908",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00908.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, 22. 3. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "pmb2378"},
+ {
+ "persName":
+ "Caroline Burger",
+ "ref":
+ "pmb14707"},
+ {
+ "persName":
+ "Carl Reinhard",
+ "ref":
+ "pmb23209"},
+ {
+ "persName":
+ "Therese Reinhard",
+ "ref":
+ "pmb23215"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "pmb11701"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Graz",
+ "ref":
+ "pmb860"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

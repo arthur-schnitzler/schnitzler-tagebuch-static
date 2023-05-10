@@ -1,0 +1,242 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-02-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-02-20.html",
+ "head":
+ "Tagebuch, 20. Februar 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Nadina Slaviansky",
+ "ref":
+ "person_20163"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02905",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02905.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 20. 2. 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "D. W. Schröder",
+ "ref":
+ "pmb141473"},
+ {
+ "persName":
+ "Franz Grillparzer",
+ "ref":
+ "pmb11518"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "pmb11851"},
+ {
+ "persName":
+ "Irene Triesch",
+ "ref":
+ "pmb12977"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Paul Lindau",
+ "ref":
+ "pmb12078"},
+ {
+ "persName":
+ "Auguste Chlum",
+ "ref":
+ "pmb14948"},
+ {
+ "persName":
+ "Rosa Freudenthal",
+ "ref":
+ "pmb16560"},
+ {
+ "persName":
+ "Hermann Freudenthal",
+ "ref":
+ "pmb16557"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "pmb14953"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "pmb12698"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "pmb15430"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "pmb24423"},
+ {
+ "persName":
+ "Adele Schreiber",
+ "ref":
+ "pmb88525"},
+ {
+ "persName":
+ "Eduard Hanslick",
+ "ref":
+ "pmb11578"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "[Vortrag über Arthur Schnitzler]",
+ "ref":
+ "pmb141499"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb35597"}
+ ,  {
+ "orgName":
+ "Schauspielhaus Berlin",
+ "ref":
+ "pmb55522"}
+ ,  {
+ "orgName":
+ "Berliner Theater",
+ "ref":
+ "pmb29380"}
+ ,  {
+ "orgName":
+ "Neue Freie Presse",
+ "ref":
+ "pmb29351"}
+ ,  {
+ "orgName":
+ "Lessing-Gesellschaft für Kunst und Wissenschaft",
+ "ref":
+ "pmb141511"}
+ ,  {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hotel Saxonia",
+ "ref":
+ "pmb40853"}
+ ,  {
+ "placeName":
+ "Potsdamer Platz",
+ "ref":
+ "pmb141471"}
+ ,  {
+ "placeName":
+ "Tiergarten",
+ "ref":
+ "pmb36914"}
+ ,  {
+ "placeName":
+ "Stresemannstraße",
+ "ref":
+ "pmb40854"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ,  {
+ "placeName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb3"}
+ ,  {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ,  {
+ "placeName":
+ "Breslau",
+ "ref":
+ "pmb677"}
+ ,  {
+ "placeName":
+ "Schauspielhaus",
+ "ref":
+ "pmb784"}
+ ,  {
+ "placeName":
+ "Berliner Theater",
+ "ref":
+ "pmb738"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

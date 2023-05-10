@@ -1,0 +1,89 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1906-11-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-11-05.html",
+ "head":
+ "Tagebuch, 5. November 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Paul Wilhelm",
+ "ref":
+ "person_21342"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "La Vallière. Dramatische Dichtung in 1 Vorspiel und fünf Akten",
+ "ref":
+ "pmb77015"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Michaelerberg",
+ "ref":
+ "pmb91239"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-2244219",
+ "head":
+ "Brief von Arthur Schnitzler an Ferdinand Gregori",
+ "text":
+ "1 e.Br.kt.m.U.m.Umschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur (1862-1931) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/126794855"},
+ {
+ "persName":
+ "Ferdinand (1870-1928) Gregori",
+ "ref":
+ "http://d-nb.info/gnd/116829931"}]
+}
+}] 

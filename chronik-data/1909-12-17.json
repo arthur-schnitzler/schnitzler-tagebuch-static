@@ -1,0 +1,234 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-12-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-12-17.html",
+ "head":
+ "Tagebuch, 17. Dezember 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "person_13202"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Anton von Eiselsberg",
+ "ref":
+ "person_14676"},
+ {
+ "persName":
+ "Anton Geiringer",
+ "ref":
+ "person_15368"},
+ {
+ "persName":
+ "Emil von Jettel-Ettenach",
+ "ref":
+ "person_16551"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "person_19154"},
+ {
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "person_19364"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Paul Schlenther",
+ "ref":
+ "person_19724"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Karl Schönherr",
+ "ref":
+ "person_19850"},
+ {
+ "persName":
+ "Adolf Weisse",
+ "ref":
+ "person_21211"},
+ {
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "person_21614"},
+ {
+ "persName":
+ "Julius Herzka",
+ "ref":
+ "person_16159"},
+ {
+ "persName":
+ "Paula Müller",
+ "ref":
+ "person_18306"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Abenteurernovelle",
+ "ref":
+ "pmb30299"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "Streichquartett Nr. 12 Es-Dur op. 127",
+ "ref":
+ "pmb77173"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01905",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01905.html",
+ "head":
+ "Franz Blei an Arthur Schnitzler, [17. 12. 1909]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franz Blei",
+ "ref":
+ "pmb10955"},
+ {
+ "persName":
+ "Hans von Weber",
+ "ref":
+ "pmb5598"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Hyperion",
+ "ref":
+ "pmb29552"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Arthur Kahane, 17.12.1909",
+ "source":
+ "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Ludwig Strecker, 17. 12. 1909",
+ "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}] 

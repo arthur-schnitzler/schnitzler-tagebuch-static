@@ -1,0 +1,188 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1901-05-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-05-11.html",
+ "head":
+ "Tagebuch, 11. Mai 1901"
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01117",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01117.html",
+ "head":
+ "Arthur Schnitzler an Georg Brandes, 11. 5. 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041412",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041412.html",
+ "head":
+ "Kalendereintrag von Bahr, 11. 5. 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Eduard Pötzl",
+ "ref":
+ "pmb12460"},
+ {
+ "persName":
+ "Hermann Sudermann",
+ "ref":
+ "pmb12899"},
+ {
+ "persName":
+ "Willy Ahlfeld",
+ "ref":
+ "pmb28301"},
+ {
+ "persName":
+ "Josefine no name provided",
+ "ref":
+ "pmb28302"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Kunst des Kindes",
+ "ref":
+ "pmb31003"}
+ ,  {
+ "title":
+ "Andre Hofer",
+ "ref":
+ "pmb30987"}
+ ,  {
+ "title":
+ "Der gute Ton",
+ "ref":
+ "pmb31001"}
+ ,  {
+ "title":
+ "Die Menschen. Ein Gespräch",
+ "ref":
+ "pmb30989"}
+ ,  {
+ "title":
+ "Orchideen",
+ "ref":
+ "pmb30999"}
+ ,  {
+ "title":
+ "Johannisfeuer. Schauspiel in vier Akten von Hermann Sudermann. Zum ersten Male aufgeführt am 24. November 1900",
+ "ref":
+ "pmb30995"}
+ ,  {
+ "title":
+ "Der Schleier der Beatrice. (Schauspiel in fünf Akten von Arthur Schnitzler. Zum ersten Male aufgeführt am Breslauer Lobe-Theater am 1. Dez. 1900)",
+ "ref":
+ "pmb30997"}
+ ,  {
+ "title":
+ "Der Beruf der Zukunft",
+ "ref":
+ "pmb31381"}
+ ,  {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "Premièren. Winter 1900 bis Sommer 1901",
+ "ref":
+ "pmb30991"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ,  {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neues Wiener Tagblatt",
+ "ref":
+ "pmb29414"}
+ ,  {
+ "orgName":
+ "Der Tag",
+ "ref":
+ "pmb29650"}
+ ]
+}
+}] 

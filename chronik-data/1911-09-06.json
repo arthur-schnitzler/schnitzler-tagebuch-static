@@ -1,0 +1,96 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-09-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-09-06.html",
+ "head":
+ "Tagebuch, 6. September 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Fernand Caudrelier",
+ "ref":
+ "person_14161"},
+ {
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "person_19364"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Johannes Horowitz",
+ "ref":
+ "person_16383"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb91735"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-908697",
+ "head":
+ "Brief von Arthur Schnitzler an Richard Rosenbaum",
+ "text":
+ "1 Briefkt., 3 1/2 S.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur (1862-1931) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/126794855"},
+ {
+ "persName":
+ "Richard (1867-1942) Rosenbaum",
+ "ref":
+ "http://d-nb.info/gnd/11662177X"}]
+}
+}] 

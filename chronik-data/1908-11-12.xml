@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1908-11-12">Donnerstag, 12. November 1908</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1908-11-12">
+               <head>Tagebuch, 12. November 1908</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15630">Giovanni Grasso</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18374">Oskar Nedbal</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19326">Carl Rössler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20986">Karl Gustav Vollmoeller</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32045">Der reiche Jüngling</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb77116">Der deutsche Graf</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb58">VIII., Josefstadt</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-11-12.html</idno>
+            </event>
+            <event when-iso="1908-11-12">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1908-11-12">
+               <head>Bahr: Tagebuch. 10. Juni, 6. 11. 1908; mit Anmerkungen von Schnitzler,
+                     [11.–13.] 11. 1908</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4255">Maria Theresia von Österreich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27680">Franz Karl Weidlich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27667">Wilhelmine Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10765">Leopold von Andrian-Werburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb29012">Cäcilia von Andrian-Werburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12640">René Schickele</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13522">Schalom Asch</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30089">Tagebuch. 10. Juni [1908]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41630">Morgen. Wochenschrift für deutsche Kultur</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29929">Tagebuch [Berlin: Paul Cassirer]</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb151">Deutschland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb558">Akademisches Gymnasium Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb556">Stiftsgymnasium Kremsmünster</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb557">Schottengymnasium</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb545">Hotel Savoy</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb555">Kalksburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb38444">Tschechoslowakei</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34494">Kroatien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb378">Rumänien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb544">Slowenien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40306">Italien</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29398">Der Morgen. Wiener Montagsblatt</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29297">Jesuiten (Gesellschaft Jesu)</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030026.html</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

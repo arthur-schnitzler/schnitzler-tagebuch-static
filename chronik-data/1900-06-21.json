@@ -1,0 +1,334 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-06-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-06-21.html",
+ "head":
+ "Tagebuch, 21. Juni 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Emilie Krall",
+ "ref":
+ "person_17082"},
+ {
+ "persName":
+ "Hiero Stoessel",
+ "ref":
+ "person_20451"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01047",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01047.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 21. 6. 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Theseus besiegt den Kentaur",
+ "ref":
+ "pmb47668"}
+ ,  {
+ "title":
+ "Frau Bertha Garlan. Roman",
+ "ref":
+ "pmb30486"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Altaussee",
+ "ref":
+ "pmb34401"}
+ ,  {
+ "placeName":
+ "Kunsthistorisches Museum",
+ "ref":
+ "pmb47660"}
+ ,  {
+ "placeName":
+ "London",
+ "ref":
+ "pmb224"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01048",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01048.html",
+ "head":
+ "Arthur Schnitzler an Julius Rodenberg, 21. 6. 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julius Rodenberg",
+ "ref":
+ "pmb9550"},
+ {
+ "persName":
+ "Willy Pastor",
+ "ref":
+ "pmb35005"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frau Bertha Garlan. Roman",
+ "ref":
+ "pmb30486"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Deutsche Rundschau",
+ "ref":
+ "pmb34931"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Frankgasse",
+ "ref":
+ "pmb397"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02921",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02921.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 21. 6. [1900]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Paul Schlenther",
+ "ref":
+ "pmb12671"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "pmb11701"},
+ {
+ "persName":
+ "Paul Lindau",
+ "ref":
+ "pmb12078"},
+ {
+ "persName":
+ "Albert Bassermann",
+ "ref":
+ "pmb10844"},
+ {
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "pmb10883"},
+ {
+ "persName":
+ "Stella Hohenfels",
+ "ref":
+ "pmb2850"},
+ {
+ "persName":
+ "Irene Triesch",
+ "ref":
+ "pmb12977"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "pmb14953"},
+ {
+ "persName":
+ "Auguste Chlum",
+ "ref":
+ "pmb14948"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ,  {
+ "orgName":
+ "Volkstheater",
+ "ref":
+ "pmb36430"}
+ ,  {
+ "orgName":
+ "Berliner Theater",
+ "ref":
+ "pmb29380"}
+ ,  {
+ "orgName":
+ "Deutsches Schauspielhaus in Hamburg",
+ "ref":
+ "pmb45530"}
+ ,  {
+ "orgName":
+ "Deutsches Schauspielhaus in Hamburg",
+ "ref":
+ "pmb645"}
+ ,  {
+ "orgName":
+ "Frankfurter Stadttheater",
+ "ref":
+ "pmb88756"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Dessauer Straße",
+ "ref":
+ "pmb40583"}
+ ,  {
+ "placeName":
+ "Schlesien",
+ "ref":
+ "pmb1122"}
+ ,  {
+ "placeName":
+ "Hamburg",
+ "ref":
+ "pmb506"}
+ ,  {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ,  {
+ "placeName":
+ "Alpen",
+ "ref":
+ "pmb117"}
+ ,  {
+ "placeName":
+ "Dolomiten",
+ "ref":
+ "pmb58636"}
+ ,  {
+ "placeName":
+ "Vorarlberg",
+ "ref":
+ "pmb141756"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#g14221ae-8633-4ad0-944c-44805d2c1459",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Alfred Kerr, 21.6.1900",
+ "source":
+ "Alfred Kerr, Arthur Schnitzler: »Es ist eine sehr seltsame Gefühlsmischung, die Sie erwecken.« Briefwechsel 1896–1925. Hg. Elgin Helmstaedt. In: Sinn und Form, Jg. 69, H. 5, September/Oktober 2017, S. 581–618."
+}] 

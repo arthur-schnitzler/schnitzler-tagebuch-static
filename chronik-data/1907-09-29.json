@@ -1,0 +1,271 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-09-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-09-29.html",
+ "head":
+ "Tagebuch, 29. September 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred Polgar",
+ "ref":
+ "person_18856"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01713",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01713.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 29. 9. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Lisa Clarus",
+ "ref":
+ "pmb27910"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Dämmerseelen. Novellen",
+ "ref":
+ "pmb29921"}
+ ,  {
+ "title":
+ "Die gelbe Nachtigall",
+ "ref":
+ "pmb30021"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb189"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01714",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01714.html",
+ "head":
+ "Stefan Großmann an Arthur Schnitzler, 29. 9. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ "pmb11527"},
+ {
+ "persName":
+ "Engelbert Pernerstorfer",
+ "ref":
+ "pmb12408"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Lieutenant Gustl. Novelle",
+ "ref":
+ "pmb29853"}
+ ,  {
+ "title":
+ "Das neue Lied",
+ "ref":
+ "pmb30655"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Freie Volksbühne",
+ "ref":
+ "pmb29569"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "VI., Mariahilf",
+ "ref":
+ "pmb56"}
+ ,  {
+ "placeName":
+ "Mariahilferstraße",
+ "ref":
+ "pmb302"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041312",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041312.html",
+ "head":
+ "Bahr an Schnitzler, 29. 9. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Lisa Clarus",
+ "ref":
+ "pmb27910"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Dämmerseelen. Novellen",
+ "ref":
+ "pmb29921"}
+ ,  {
+ "title":
+ "Die gelbe Nachtigall",
+ "ref":
+ "pmb30021"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}] 

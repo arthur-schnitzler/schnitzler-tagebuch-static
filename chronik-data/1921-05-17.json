@@ -1,0 +1,105 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-05-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-05-17.html",
+ "head":
+ "Tagebuch, 17. Mai 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur Markus",
+ "ref":
+ "person_17915"},
+ {
+ "persName":
+ "Hans Müller",
+ "ref":
+ "person_18297"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"},
+ {
+ "persName":
+ "Friedrich Rosenthal",
+ "ref":
+ "person_19392"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Paracelsus. Versspiel in einem Akt",
+ "ref":
+ "pmb30403"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ringstraße",
+ "ref":
+ "pmb112"}
+ ,  {
+ "placeName":
+ "Rothenburg ob der Tauber",
+ "ref":
+ "pmb856"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Gustaf Linden an Arthur Schnitzler, 17.5.1921",
+ "source":
+ "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
+}] 

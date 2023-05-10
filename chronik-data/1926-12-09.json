@@ -1,0 +1,120 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-12-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-12-09.html",
+ "head":
+ "Tagebuch, 9. Dezember 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Josef Popper-Lynkeus",
+ "ref":
+ "person_18916"},
+ {
+ "persName":
+ "Anton Wildgans",
+ "ref":
+ "person_21328"},
+ {
+ "persName":
+ "Adolf Gelber",
+ "ref":
+ "person_15375"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#wfc5c16f-4da0-48c1-b8ab-b48bf2a6fece",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Anton Alfred Noder, 9.12.1926",
+ "source":
+ "Peter Michael Braunwarth: In Reife und Überreife. In: Die Presse, 25.9.2004, Spectrum, IV."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-1438410",
+ "head":
+ "Brief von Arthur Schnitzler an Anton Alfred Noder",
+ "text":
+ "1 Br.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Anton Alfred (1864-1936) Noder",
+ "ref":
+ "http://d-nb.info/gnd/118803204"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00048164",
+ "head":
+ "Schnitzler, Arthur an Noden, A. [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00048424",
+ "head":
+ "Schnitzler, Arthur an Popien, Bernhard [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

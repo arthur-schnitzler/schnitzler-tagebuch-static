@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1924-11-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-11-08.html",
+ "head":
+ "Tagebuch, 8. November 1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Otto König",
+ "ref":
+ "person_16971"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "person_17784"},
+ {
+ "persName":
+ "Josephine von Stackelberg",
+ "ref":
+ "person_20313"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Briefe 1879-1911",
+ "ref":
+ "pmb77677"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sardinia",
+ "ref":
+ "pmb91659"}
+ ,  {
+ "placeName":
+ "Buenos Aires",
+ "ref":
+ "pmb54042"}
+ ,  {
+ "placeName":
+ "Würting",
+ "ref":
+ "pmb92113"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

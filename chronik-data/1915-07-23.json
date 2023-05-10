@@ -1,0 +1,115 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-07-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-07-23.html",
+ "head":
+ "Tagebuch, 23. Juli 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Efim Manassewitsch",
+ "ref":
+ "person_17803"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Alfred Topolanski",
+ "ref":
+ "person_20778"},
+ {
+ "persName":
+ "Margot Vallo",
+ "ref":
+ "person_16894"},
+ {
+ "persName":
+ "Irene Mandl",
+ "ref":
+ "person_17822"},
+ {
+ "persName":
+ "Wilhelm Korvin",
+ "ref":
+ "person_17064"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Küb",
+ "ref":
+ "pmb91083"}
+ ,  {
+ "placeName":
+ "Payerbach",
+ "ref":
+ "pmb948"}
+ ,  {
+ "placeName":
+ "Prein an der Rax",
+ "ref":
+ "pmb49072"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91083/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91083/",
+ "head":
+ "Küb"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/948/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/948/",
+ "head":
+ "Payerbach"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91572/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91572/",
+ "head":
+ "Raxalpe"
+}] 

@@ -1,0 +1,167 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-03-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-03-09.html",
+ "head":
+ "Tagebuch, 9. März 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Egbertje Alida Brevée",
+ "ref":
+ "person_13969"},
+ {
+ "persName":
+ "Arthur Eloesser",
+ "ref":
+ "person_14730"},
+ {
+ "persName":
+ "Sigmund Freud",
+ "ref":
+ "person_15172"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Josef Körner",
+ "ref":
+ "person_16980"},
+ {
+ "persName":
+ "Giles Lytton Strachey",
+ "ref":
+ "person_20465"},
+ {
+ "persName":
+ "Klaus Mann",
+ "ref":
+ "person_17836"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Geist im Wort und der Geist in der Tat",
+ "ref":
+ "pmb30051"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Thomas Mann. Sein Leben und sein Werk",
+ "ref":
+ "pmb80429"}
+ ,  {
+ "title":
+ "Hemmung, Symptom und Angst",
+ "ref":
+ "pmb78443"}
+ ,  {
+ "title":
+ "Eifersucht",
+ "ref":
+ "pmb77327"}
+ ,  {
+ "title":
+ "Die Brüder Schlegel",
+ "ref":
+ "pmb76877"}
+ ,  {
+ "title":
+ "Queen Victoria",
+ "ref":
+ "pmb81372"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02466",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02466.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 9. 3. [1926]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "pmb2238"},
+ {
+ "persName":
+ "Erich Reiss",
+ "ref":
+ "pmb5585"},
+ {
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Erich Reiß",
+ "ref":
+ "pmb65371"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,114 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1929-06-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-06-17.html",
+ "head":
+ "Tagebuch, 17. Juni 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aphoristisches",
+ "ref":
+ "pmb35745"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp704",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp704.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 15.–21. Juni 1929"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00041172",
+ "head":
+ "Reichsausschuß für Hygienische Volksbelehrung an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Reichsausschuß für Hygienische Volksbelehrung",
+ "ref":
+ "http://d-nb.info/gnd/19407-4"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00077781",
+ "head":
+ "Schnitzler, Arthur an Jacob, Hans [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans (1896-1961) Jacob",
+ "ref":
+ "http://d-nb.info/gnd/133030571"}]
+}
+}] 

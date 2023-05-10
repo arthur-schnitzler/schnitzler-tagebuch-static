@@ -1,0 +1,115 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-04-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-04-04.html",
+ "head":
+ "Tagebuch, 4. April 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "David Devant",
+ "ref":
+ "person_14433"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "person_15499"},
+ {
+ "persName":
+ "Nevil Maskelyne",
+ "ref":
+ "person_17961"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "person_19828"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Wort. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30615"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ghent",
+ "ref":
+ "pmb58674"}
+ ,  {
+ "placeName":
+ "Ostend",
+ "ref":
+ "pmb91417"}
+ ,  {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ "pmb53"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00077512",
+ "head":
+ "Schnitzler, Arthur an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

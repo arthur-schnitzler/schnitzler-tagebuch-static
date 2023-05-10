@@ -1,0 +1,64 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-10-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-10-04.html",
+ "head":
+ "Tagebuch, 4. Oktober 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Schwarzkopf",
+ "ref":
+ "person_19987"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Mödling",
+ "ref":
+ "pmb968"}
+ ,  {
+ "placeName":
+ "Sparbach",
+ "ref":
+ "pmb91782"}
+ ,  {
+ "placeName":
+ "Sulz im Wienerwald",
+ "ref":
+ "pmb91857"}
+ ,  {
+ "placeName":
+ "Breitenfurt bei Wien",
+ "ref":
+ "pmb1022"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

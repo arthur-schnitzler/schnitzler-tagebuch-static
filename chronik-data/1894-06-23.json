@@ -1,0 +1,112 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1894-06-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-06-23.html",
+ "head":
+ "Tagebuch, 23. Juni 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiener Neustadt",
+ "ref":
+ "pmb92109"}
+ ,  {
+ "placeName":
+ "Baden bei Wien",
+ "ref":
+ "pmb662"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00340",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00340.html",
+ "head":
+ "Friedrich M. Fels an Arthur Schnitzler, 23. 6. 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Michael Fels",
+ "ref":
+ "pmb2450"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Frankgasse",
+ "ref":
+ "pmb397"}
+ ,  {
+ "placeName":
+ "Krütznergasse",
+ "ref":
+ "pmb33993"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92109/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92109/",
+ "head":
+ "Wiener Neustadt"
+}] 

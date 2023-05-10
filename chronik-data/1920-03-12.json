@@ -1,0 +1,178 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-03-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-03-12.html",
+ "head":
+ "Tagebuch, 12. März 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Gustav Harpner",
+ "ref":
+ "person_15929"},
+ {
+ "persName":
+ "Ferdinand Onno",
+ "ref":
+ "person_18556"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "person_19828"},
+ {
+ "persName":
+ "Ludwig Winter",
+ "ref":
+ "person_21377"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Komtesse Mizzi oder Der Familientag",
+ "ref":
+ "pmb29931"}
+ ,  {
+ "title":
+ "Der Puppenspieler",
+ "ref":
+ "pmb29873"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/63449/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/63449/",
+ "head":
+ "Premiere von Der Puppenspieler, Der grüne Kakadu, Komtesse Mizzi, 12.3.1920",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Puppenspieler",
+ "ref":
+ "pmb29873"}
+ ,  {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Komtesse Mizzi oder Der Familientag",
+ "ref":
+ "pmb29931"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "pmb12698"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "pmb24423"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "pmb24413"},
+ {
+ "persName":
+ "Ferdinand Onno",
+ "ref":
+ "pmb12378"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Volkstheater",
+ "ref":
+ "pmb36430"}
+ ]
+}
+}] 

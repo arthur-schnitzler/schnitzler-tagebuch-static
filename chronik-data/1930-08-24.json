@@ -1,0 +1,116 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1930-08-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-08-24.html",
+ "head":
+ "Tagebuch, 24. August 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Kurt Sonnenfeld",
+ "ref":
+ "person_20201"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zug der Schatten",
+ "ref":
+ "pmb32049"}
+ ,  {
+ "title":
+ "Eine schwache Stunde",
+ "ref":
+ "pmb80430"}
+ ,  {
+ "title":
+ "Fräulein Narziss",
+ "ref":
+ "pmb77933"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp826",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp826.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 22.–27. August 1930"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Otto P. Schinnerer, 24. 8. 1930",
+ "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00046524",
+ "head":
+ "Schnitzler, Arthur an International Mark Twain Society &lt;Missouri&gt; [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

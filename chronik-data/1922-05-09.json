@@ -1,0 +1,343 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-05-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-05-09.html",
+ "head":
+ "Tagebuch, 9. Mai 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Franz Blei",
+ "ref":
+ "person_13774"},
+ {
+ "persName":
+ "Otto Flake",
+ "ref":
+ "person_15023"},
+ {
+ "persName":
+ "Leo Greiner",
+ "ref":
+ "person_15643"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "person_15980"},
+ {
+ "persName":
+ "Felix Hollaender",
+ "ref":
+ "person_16326"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "person_16819"},
+ {
+ "persName":
+ "Heinrich Mann",
+ "ref":
+ "person_17834"},
+ {
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "person_17838"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Karl Michaelis",
+ "ref":
+ "person_18140"},
+ {
+ "persName":
+ "Franz Werfel",
+ "ref":
+ "person_21243"},
+ {
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "person_21614"},
+ {
+ "persName":
+ "Richard Specht",
+ "ref":
+ "person_20238"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"},
+ {
+ "persName":
+ "Egon Friedell",
+ "ref":
+ "person_15210"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Gesammelte Werke",
+ "ref":
+ "pmb30313"}
+ ,  {
+ "title":
+ "Die wunderliche Geschichte des Kapellmeister Kreisler",
+ "ref":
+ "pmb30835"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041345",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041345.html",
+ "head":
+ "Tagebuch von Schnitzler, 9. 5. 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "pmb2774"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "pmb11324"},
+ {
+ "persName":
+ "Leo Greiner",
+ "ref":
+ "pmb11515"},
+ {
+ "persName":
+ "Karl Michaelis",
+ "ref":
+ "pmb3064"},
+ {
+ "persName":
+ "Lorenz Michaelis",
+ "ref":
+ "pmb21415"},
+ {
+ "persName":
+ "Andreas Albert Michaelis",
+ "ref":
+ "pmb27995"},
+ {
+ "persName":
+ "Thomas Valentin Michaelis",
+ "ref":
+ "pmb27999"},
+ {
+ "persName":
+ "Richard Specht",
+ "ref":
+ "pmb2456"},
+ {
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "pmb10788"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Franz Blei",
+ "ref":
+ "pmb10955"},
+ {
+ "persName":
+ "Otto Flake",
+ "ref":
+ "pmb11327"},
+ {
+ "persName":
+ "Egon Friedell",
+ "ref":
+ "pmb2771"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Felix Hollaender",
+ "ref":
+ "pmb11752"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "pmb11910"},
+ {
+ "persName":
+ "Heinrich Mann",
+ "ref":
+ "pmb12170"},
+ {
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "pmb12176"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Franz Werfel",
+ "ref":
+ "pmb13094"},
+ {
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "pmb13212"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Gesammelte Werke",
+ "ref":
+ "pmb30313"}
+ ,  {
+ "title":
+ "Arthur Schnitzler zu seinem sechzigsten Geburtstag",
+ "ref":
+ "pmb31455"}
+ ,  {
+ "title":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb89486"}
+ ,  {
+ "title":
+ "Arthur Schnitzler. Der Dichter und sein Werk. Eine Studie",
+ "ref":
+ "pmb30837"}
+ ,  {
+ "title":
+ "Die wunderliche Geschichte des Kapellmeister Kreisler",
+ "ref":
+ "pmb30835"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Hotel Esplanade",
+ "ref":
+ "pmb245"}
+ ,  {
+ "placeName":
+ "Hebbel-Theater",
+ "ref":
+ "pmb13"}
+ ,  {
+ "placeName":
+ "Stallmann",
+ "ref":
+ "pmb247"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neue Rundschau, Neue Deutsche Rundschau, Freie Bühne",
+ "ref":
+ "pmb29212"}
+ ]
+}
+}] 

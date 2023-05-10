@@ -1,0 +1,49 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1888-11-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-11-01.html",
+ "head":
+ "Tagebuch, 1. November 1888",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Friedmann",
+ "ref":
+ "person_15231"},
+ {
+ "persName":
+ "Richard Tausenau",
+ "ref":
+ "person_20643"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Streitberger",
+ "ref":
+ "pmb92556"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

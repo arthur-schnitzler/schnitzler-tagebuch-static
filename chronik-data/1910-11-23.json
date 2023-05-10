@@ -1,0 +1,148 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-11-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-11-23.html",
+ "head":
+ "Tagebuch, 23. November 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "person_13624"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Olga Lewinsky",
+ "ref":
+ "person_17494"},
+ {
+ "persName":
+ "Guy de Maupassant",
+ "ref":
+ "person_17985"},
+ {
+ "persName":
+ "Jacob Pollak",
+ "ref":
+ "person_18884"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "person_20714"},
+ {
+ "persName":
+ "Alexander von Weilen",
+ "ref":
+ "person_21157"},
+ {
+ "persName":
+ "Else Wohlgemuth",
+ "ref":
+ "person_21423"},
+ {
+ "persName":
+ "Alexander Demetrius Goltz",
+ "ref":
+ "person_15559"},
+ {
+ "persName":
+ "Hugo Ganz",
+ "ref":
+ "person_15345"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Drei Mann in einem Boot",
+ "ref":
+ "pmb30325"}
+ ,  {
+ "title":
+ "La maison Tellier",
+ "ref":
+ "pmb77860"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/47048/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/47048/",
+ "head":
+ "Generalprobe Der junge Medardus, 23.11.1910",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ]
+}
+}] 

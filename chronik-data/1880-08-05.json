@@ -1,0 +1,55 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1880-08-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1880-08-05.html",
+ "head":
+ "Tagebuch, 5. August 1880",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Toblach",
+ "ref":
+ "pmb987"}
+ ,  {
+ "placeName":
+ "Cortina d'Ampezzo",
+ "ref":
+ "pmb34199"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/987/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/987/",
+ "head":
+ "Toblach"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34199/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34199/",
+ "head":
+ "Cortina d'Ampezzo"
+}] 

@@ -1,0 +1,174 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-05-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-05-23.html",
+ "head":
+ "Tagebuch, 23. Mai 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Andersen",
+ "ref":
+ "person_13189"},
+ {
+ "persName":
+ "Raoul Aslan",
+ "ref":
+ "person_13286"},
+ {
+ "persName":
+ "Elisabeth Bergner",
+ "ref":
+ "person_13643"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Franz Herterich",
+ "ref":
+ "person_16125"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Ferdinand Schmutzer",
+ "ref":
+ "person_19784"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Hilde Wagener",
+ "ref":
+ "person_21019"},
+ {
+ "persName":
+ "Victor Barnowsky",
+ "ref":
+ "person_13428"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"},
+ {
+ "persName":
+ "Albert Heine",
+ "ref":
+ "person_16046"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fräulein Else",
+ "ref":
+ "pmb29941"}
+ ,  {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Jakob Lippowitz, 23. 5. 1925",
+ "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00044635",
+ "head":
+ "Schnitzler, Arthur an Barton, Gervaise [Briefe]",
+ "text":
+ "1 Bl.Durchschl. Mit 1 weit. Ex. 1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00077925",
+ "head":
+ "Schnitzler, Arthur an Oertel, C. [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00078806",
+ "head":
+ "Schnitzler, Arthur an Erdélyi, Vilma [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

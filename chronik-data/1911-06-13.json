@@ -1,0 +1,137 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-06-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-06-13.html",
+ "head":
+ "Tagebuch, 13. Juni 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Robert Gund",
+ "ref":
+ "person_15750"},
+ {
+ "persName":
+ "Carl Hagemann",
+ "ref":
+ "person_15840"},
+ {
+ "persName":
+ "Elisabeth Lauterburg",
+ "ref":
+ "person_17365"},
+ {
+ "persName":
+ "Josef Obrist",
+ "ref":
+ "person_18514"},
+ {
+ "persName":
+ "Heinrich Prechtler",
+ "ref":
+ "person_18950"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Doktor Gräsler, Badearzt",
+ "ref":
+ "pmb30201"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hasenauerstraße",
+ "ref":
+ "pmb383"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Julius Kapp, 13. 6. 1911",
+ "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-908693",
+ "head":
+ "Brief von Arthur Schnitzler an Richard Rosenbaum",
+ "text":
+ "1 masch. Br., 1 S. 4˚",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur (1862-1931) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/126794855"},
+ {
+ "persName":
+ "Richard (1867-1942) Rosenbaum",
+ "ref":
+ "http://d-nb.info/gnd/11662177X"}]
+}
+}] 

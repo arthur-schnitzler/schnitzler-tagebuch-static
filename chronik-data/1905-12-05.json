@@ -1,0 +1,105 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-12-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-12-05.html",
+ "head":
+ "Tagebuch, 5. Dezember 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johannes Brahms",
+ "ref":
+ "person_13914"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Alexander Glasunow",
+ "ref":
+ "person_15464"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Anna Sikora",
+ "ref":
+ "person_20523"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aegidius",
+ "ref":
+ "pmb35727"}
+ ,  {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "Die Weissagung",
+ "ref":
+ "pmb30683"}
+ ,  {
+ "title":
+ "Variationen über ein Thema von Joseph Haydn op. 56a",
+ "ref":
+ "pmb78225"}
+ ,  {
+ "title":
+ "Kreml’ op. 30",
+ "ref":
+ "pmb78429"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043237",
+ "head":
+ "Seger, Fritz an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.Kopie"
+}] 

@@ -1,0 +1,88 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net",
+ "head":
+ "Der Gang zum Weiher, Typoskript",
+ "text":
+ "Publikation in Vorbereitung"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-06-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-06-13.html",
+ "head":
+ "Tagebuch, 13. Juni 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Paula Schmidl",
+ "ref":
+ "person_19756"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sommerhaidenweg",
+ "ref":
+ "pmb243"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00082924",
+ "head":
+ "Schnitzler, Arthur: Der Gang zum Weiher [Dramatisches] (Drucktitel)",
+ "text":
+ "Letztes Objekt aus der Mappe. ca 100 Bl."
+}] 

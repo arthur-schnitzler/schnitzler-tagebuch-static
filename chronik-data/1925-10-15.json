@@ -1,0 +1,143 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-10-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-10-15.html",
+ "head":
+ "Tagebuch, 15. Oktober 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Flake",
+ "ref":
+ "person_15023"},
+ {
+ "persName":
+ "Max Halbe",
+ "ref":
+ "person_15859"},
+ {
+ "persName":
+ "Heinrich Mann",
+ "ref":
+ "person_17834"},
+ {
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "person_17838"},
+ {
+ "persName":
+ "Klaus Pringsheim",
+ "ref":
+ "person_18968"},
+ {
+ "persName":
+ "Peter Pringsheim",
+ "ref":
+ "person_18969"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Victor Barnowsky",
+ "ref":
+ "person_13428"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"},
+ {
+ "persName":
+ "Beck",
+ "ref":
+ "person_13510"},
+ {
+ "persName":
+ "Jürgen Fehling",
+ "ref":
+ "person_14908"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend",
+ "ref":
+ "pmb77411"}
+ ,  {
+ "title":
+ "Betrachtungen eines Unpolitischen",
+ "ref":
+ "pmb33598"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Garmisch-Partenkirchen",
+ "ref":
+ "pmb667"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/245/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/245/",
+ "head":
+ "Hotel Esplanade"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Hedy Kempny, 15.10.1925",
+ "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}] 

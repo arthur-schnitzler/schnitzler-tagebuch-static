@@ -1,0 +1,230 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-06-19",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-06-19.html",
+ "head":
+ "Tagebuch, 19. Juni 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Adolf Lantz",
+ "ref":
+ "person_17324"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Neuwaldegg",
+ "ref":
+ "pmb170"}
+ ,  {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01406",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01406.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 1[9?]. 6. [1904]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Hugo August von Hofmannsthal",
+ "ref":
+ "pmb11737"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "pmb11988"},
+ {
+ "persName":
+ "Adolph Donath",
+ "ref":
+ "pmb2968"},
+ {
+ "persName":
+ "Detlev von Liliencron",
+ "ref":
+ "pmb12071"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Österreichische Dichter zum 60. Geburtstage Detlev von Liliencrons",
+ "ref":
+ "pmb32840"}
+ ,  {
+ "title":
+ "Die Fackel",
+ "ref":
+ "pmb41244"}
+ ,  {
+ "title":
+ "Zur Liliencron-Feier",
+ "ref":
+ "pmb32750"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Carl Konegen",
+ "ref":
+ "pmb29296"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Niederlande",
+ "ref":
+ "pmb44016"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01407",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01407.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, [19.? 6. 1904]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "pmb11988"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Salmannsdorf",
+ "ref":
+ "pmb242"}
+ ,  {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Neuwaldegg",
+ "ref":
+ "pmb170"}
+ ,  {
+ "placeName":
+ "Weidlingbach",
+ "ref":
+ "pmb44394"}
+ ,  {
+ "placeName":
+ "Exelbergstraße",
+ "ref":
+ "pmb45026"}
+ ,  {
+ "placeName":
+ "Sizilien",
+ "ref":
+ "pmb451"}
+ ,  {
+ "placeName":
+ "Niederlande",
+ "ref":
+ "pmb44016"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

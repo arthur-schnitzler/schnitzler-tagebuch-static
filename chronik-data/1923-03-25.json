@@ -1,0 +1,131 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net",
+ "head":
+ "Die Frau des Richters, Typoskript",
+ "text":
+ "Publikation in Vorbereitung"
+}, {
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/ELS_T1_0120",
+ "head":
+ "Fräulein Else, msl. Werkniederschrift, vgl. dagegen Tb, 26.03.1923"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-03-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-03-25.html",
+ "head":
+ "Tagebuch, 25. März 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Marie Krall",
+ "ref":
+ "person_17083"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "person_17784"},
+ {
+ "persName":
+ "Philipp Menczel",
+ "ref":
+ "person_18063"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Richard Specht",
+ "ref":
+ "person_20238"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Frau des Richters. Novelle",
+ "ref":
+ "pmb30751"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Der Marquis von Keith",
+ "ref":
+ "pmb76462"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schafberg (St. Gilgen)",
+ "ref":
+ "pmb59367"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ,  {
+ "placeName":
+ "Baden-Baden",
+ "ref":
+ "pmb228"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

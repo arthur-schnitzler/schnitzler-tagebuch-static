@@ -1,0 +1,117 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-08-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-08-15.html",
+ "head":
+ "Tagebuch, 15. August 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Edmond Fleury Sachs",
+ "ref":
+ "person_19500"},
+ {
+ "persName":
+ "Nettie von Scanavi",
+ "ref":
+ "person_19597"},
+ {
+ "persName":
+ "Agnes Ulmann",
+ "ref":
+ "person_20872"},
+ {
+ "persName":
+ "Anton Bettelheim",
+ "ref":
+ "person_13699"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Berthold Auerbach. Der Mann – Sein Werk – Sein Nachlass. Mit einem Bildnis des Dichters",
+ "ref":
+ "pmb78639"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kastelruth",
+ "ref":
+ "pmb91012"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/988/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/988/",
+ "head":
+ "Seis am Schlern"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/467/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/467/",
+ "head":
+ "Villa Heufler"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-2814024",
+ "head":
+ "Brief von Arthur Schnitzler an Herwarth Walden",
+ "text":
+ "1 Brief, 1 Bl. u. Umschlag",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur (1862-1931) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/126794855"},
+ {
+ "persName":
+ "Herwarth (1878-1941) Walden",
+ "ref":
+ "http://d-nb.info/gnd/118770950"}]
+}
+}] 

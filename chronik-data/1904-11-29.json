@@ -1,0 +1,126 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-11-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-11-29.html",
+ "head":
+ "Tagebuch, 29. November 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johannes Brahms",
+ "ref":
+ "person_13914"},
+ {
+ "persName":
+ "Emma Calvé",
+ "ref":
+ "person_14120"},
+ {
+ "persName":
+ "Rosa Hochsinger",
+ "ref":
+ "person_16245"},
+ {
+ "persName":
+ "Siegfried Jacobsohn",
+ "ref":
+ "person_16477"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Puppenspieler",
+ "ref":
+ "pmb29873"}
+ ,  {
+ "title":
+ "Literatur",
+ "ref":
+ "pmb29869"}
+ ,  {
+ "title":
+ "Die letzten Masken",
+ "ref":
+ "pmb29877"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Klavierquartett Nr. 3 c-Moll op. 60",
+ "ref":
+ "pmb78204"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043589",
+ "head":
+ "Stibitz, Josef an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josef (1872-1947) Stibitz",
+ "ref":
+ "http://d-nb.info/gnd/11724385X"}]
+}
+}] 

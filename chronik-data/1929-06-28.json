@@ -1,0 +1,100 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1929-06-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-06-28.html",
+ "head":
+ "Tagebuch, 28. Juni 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zug der Schatten",
+ "ref":
+ "pmb32049"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb91735"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91735/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91735/",
+ "head":
+ "Semmering"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp706",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp706.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 28. Juni 1929 – 4. Juli 1926"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00069038",
+ "head":
+ "Schnitzler, Heinrich an Schnitzler, Arthur [Briefe]",
+ "text":
+ "Letztes Objekt aus der Mappe. 30 Br., davon 2 Vis.ktn, 25 Ktn 65 Bl. Mit 6 Beil. 6 Bl. Mit 55 Abschr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich (1902-1982) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848510"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00033908",
+ "head":
+ "Fessler, Gustav an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

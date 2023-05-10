@@ -1,0 +1,77 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-02-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-02-10.html",
+ "head":
+ "Tagebuch, 10. Februar 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Eysler",
+ "ref":
+ "person_14835"},
+ {
+ "persName":
+ "Josef Jarno",
+ "ref":
+ "person_16517"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "person_16819"},
+ {
+ "persName":
+ "Bernhard Szalit",
+ "ref":
+ "person_20599"},
+ {
+ "persName":
+ "Hermann Sudermann",
+ "ref":
+ "person_20563"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Glück im Winkel",
+ "ref":
+ "pmb30455"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/41234/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/41234/",
+ "head":
+ "Hotel Westminster"
+}] 

@@ -1,0 +1,287 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-06-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-06-21.html",
+ "head":
+ "Tagebuch, 21. Juni 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Katharina Frank",
+ "ref":
+ "person_15125"},
+ {
+ "persName":
+ "Hans Homma",
+ "ref":
+ "person_16342"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Lotte Witt",
+ "ref":
+ "person_21403"},
+ {
+ "persName":
+ "Richard Specht",
+ "ref":
+ "person_20238"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00928",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00928.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 21. 6. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Oskar Mayer",
+ "ref":
+ "pmb21236"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "pmb2378"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"},
+ {
+ "persName":
+ "Mirjam Beer-Hofmann",
+ "ref":
+ "pmb2668"},
+ {
+ "persName":
+ "Naëmah Beer-Hofmann",
+ "ref":
+ "pmb2534"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Seeboden",
+ "ref":
+ "pmb34824"}
+ ,  {
+ "placeName":
+ "Südtirol",
+ "ref":
+ "pmb969"}
+ ,  {
+ "placeName":
+ "San Martino di Castrozza",
+ "ref":
+ "pmb44311"}
+ ,  {
+ "placeName":
+ "Hotel Edlacherhof",
+ "ref":
+ "pmb714"}
+ ,  {
+ "placeName":
+ "Gasthof zur Singerin",
+ "ref":
+ "pmb40527"}
+ ,  {
+ "placeName":
+ "Gutenstein",
+ "ref":
+ "pmb1036"}
+ ,  {
+ "placeName":
+ "Pottenstein",
+ "ref":
+ "pmb40112"}
+ ,  {
+ "placeName":
+ "Bad Vöslau",
+ "ref":
+ "pmb992"}
+ ,  {
+ "placeName":
+ "Slavonija",
+ "ref":
+ "pmb40529"}
+ ,  {
+ "placeName":
+ "Tirol",
+ "ref":
+ "pmb423"}
+ ,  {
+ "placeName":
+ "Niederdorf",
+ "ref":
+ "pmb40556"}
+ ,  {
+ "placeName":
+ "Carbonin",
+ "ref":
+ "pmb44317"}
+ ,  {
+ "placeName":
+ "Tre Croci",
+ "ref":
+ "pmb40563"}
+ ,  {
+ "placeName":
+ "Cortina d'Ampezzo",
+ "ref":
+ "pmb34199"}
+ ,  {
+ "placeName":
+ "Alleghe",
+ "ref":
+ "pmb40574"}
+ ,  {
+ "placeName":
+ "Passo Fedaia",
+ "ref":
+ "pmb40577"}
+ ,  {
+ "placeName":
+ "Karersee",
+ "ref":
+ "pmb40371"}
+ ,  {
+ "placeName":
+ "Passo Rolle",
+ "ref":
+ "pmb40578"}
+ ,  {
+ "placeName":
+ "Trient",
+ "ref":
+ "pmb954"}
+ ,  {
+ "placeName":
+ "Bozen",
+ "ref":
+ "pmb40260"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00929",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00929.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 21. 6. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Seeboden",
+ "ref":
+ "pmb34824"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Villa Platzer",
+ "ref":
+ "pmb40788"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Olga Schnitzler, 21. 6. 1899",
+ "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}] 

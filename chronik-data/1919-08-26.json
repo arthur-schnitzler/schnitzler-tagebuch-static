@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-08-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-08-26.html",
+ "head":
+ "Tagebuch, 26. August 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Caroline von Schlegel",
+ "ref":
+ "person_19715"},
+ {
+ "persName":
+ "Erich Schmidt",
+ "ref":
+ "person_19759"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Emil Schwarzkopf",
+ "ref":
+ "person_19985"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Max Schwarzkopf",
+ "ref":
+ "person_19987"},
+ {
+ "persName":
+ "Georg Waitz",
+ "ref":
+ "person_21048"},
+ {
+ "persName":
+ "Ludwig Winter",
+ "ref":
+ "person_21377"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Caroline",
+ "ref":
+ "pmb81261"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Graz",
+ "ref":
+ "pmb860"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

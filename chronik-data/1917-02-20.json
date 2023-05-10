@@ -1,0 +1,108 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/GRA_DJ_0092",
+ "head":
+ "Doktor Gräsler, Badearzt, Journaldruck"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1917-02-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-02-20.html",
+ "head":
+ "Tagebuch, 20. Februar 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Beer",
+ "ref":
+ "person_13546"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "person_15499"},
+ {
+ "persName":
+ "Wolfgang Amadeus Mozart",
+ "ref":
+ "person_18282"},
+ {
+ "persName":
+ "Josef Popper-Lynkeus",
+ "ref":
+ "person_18916"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Daniel Kaufmann",
+ "ref":
+ "person_16771"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"},
+ {
+ "persName":
+ "Aristoteles",
+ "ref":
+ "person_13247"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Politik",
+ "ref":
+ "pmb80086"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

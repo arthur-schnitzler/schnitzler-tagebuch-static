@@ -1,0 +1,125 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1912-02-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-02-09.html",
+ "head":
+ "Tagebuch, 9. Februar 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Anton Edthofer",
+ "ref":
+ "person_14620"},
+ {
+ "persName":
+ "Karl Günther",
+ "ref":
+ "person_15732"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Margot Vallo",
+ "ref":
+ "person_16894"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"},
+ {
+ "persName":
+ "Alois Böhm",
+ "ref":
+ "person_13830"},
+ {
+ "persName":
+ "Eduard Vallo",
+ "ref":
+ "person_20915"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Marionetten. Drei Einakter",
+ "ref":
+ "pmb29859"}
+ ,  {
+ "title":
+ "Der tapfere Cassian. Puppenspiel in einem Akt",
+ "ref":
+ "pmb30217"}
+ ,  {
+ "title":
+ "Zum großen Wurstel",
+ "ref":
+ "pmb29951"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 9.2.1912",
+ "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 09. Februar 1912",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

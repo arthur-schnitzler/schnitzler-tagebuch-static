@@ -1,0 +1,90 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net",
+ "head":
+ "Der Gang zum Weiher, Typoskript",
+ "text":
+ "Publikation in Vorbereitung"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-11-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-11-18.html",
+ "head":
+ "Tagebuch, 18. November 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Rudolf Urbantschitsch",
+ "ref":
+ "person_20892"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "person_21047"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Casanovas Heimfahrt",
+ "ref":
+ "pmb30971"}
+ ,  {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lviv",
+ "ref":
+ "pmb46224"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

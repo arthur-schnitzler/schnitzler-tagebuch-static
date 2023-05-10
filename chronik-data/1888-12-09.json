@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1888-12-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-12-09.html",
+ "head":
+ "Tagebuch, 9. Dezember 1888",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gisela Fischer",
+ "ref":
+ "person_15002"},
+ {
+ "persName":
+ "Jeanette Heeger",
+ "ref":
+ "person_16022"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02551",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02551.html",
+ "head":
+ "Fedor Mamroth, Paul Goldmann an Arthur Schnitzler, 9. 12. 1888",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Fedor Mamroth",
+ "ref":
+ "pmb4986"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Mein Freund Ypsilon",
+ "ref":
+ "pmb33710"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Josef Eberle Stein-, Buch und Musikaliendruckerei",
+ "ref":
+ "pmb53104"}
+ ,  {
+ "orgName":
+ "An der schönen blauen Donau",
+ "ref":
+ "pmb29698"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Seidengasse",
+ "ref":
+ "pmb53101"}
+ ,  {
+ "placeName":
+ "Berggasse",
+ "ref":
+ "pmb52510"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

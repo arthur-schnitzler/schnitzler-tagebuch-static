@@ -1,0 +1,100 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1930-10-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-10-23.html",
+ "head":
+ "Tagebuch, 23. Oktober 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Max Krell",
+ "ref":
+ "person_17129"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Flucht in die Finsternis",
+ "ref":
+ "pmb30863"}
+ ,  {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Orangen in Ronco",
+ "ref":
+ "pmb78946"}
+ ,  {
+ "title":
+ "Dreyfus",
+ "ref":
+ "pmb77555"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Spöttelgasse",
+ "ref":
+ "pmb92539"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92539/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92539/",
+ "head":
+ "Spöttelgasse"
+}] 

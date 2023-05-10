@@ -1,0 +1,85 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-01-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-01-21.html",
+ "head":
+ "Tagebuch, 21. Januar 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "person_13202"},
+ {
+ "persName":
+ "Josef Gaschler",
+ "ref":
+ "person_15352"},
+ {
+ "persName":
+ "Rudolf Kaufmann",
+ "ref":
+ "person_16777"},
+ {
+ "persName":
+ "Robert Michel",
+ "ref":
+ "person_18147"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frau Beate und ihr Sohn. Novelle",
+ "ref":
+ "pmb32133"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00045591",
+ "head":
+ "Schnitzler, Arthur an Gonscherowski, ... [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00079271",
+ "head":
+ "Schnitzler, Arthur an Gabrielli, ... [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

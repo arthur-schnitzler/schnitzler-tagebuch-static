@@ -1,0 +1,218 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-11-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-11-30.html",
+ "head":
+ "Tagebuch, 30. November 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josef Berger",
+ "ref":
+ "person_13631"},
+ {
+ "persName":
+ "Franz Grillparzer",
+ "ref":
+ "person_15661"},
+ {
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "person_19364"},
+ {
+ "persName":
+ "Paul Schlenther",
+ "ref":
+ "person_19724"},
+ {
+ "persName":
+ "Karl Schönherr",
+ "ref":
+ "person_19850"},
+ {
+ "persName":
+ "Julius Feldstein",
+ "ref":
+ "person_14930"},
+ {
+ "persName":
+ "Bernhard Herzmansky",
+ "ref":
+ "person_16166"},
+ {
+ "persName":
+ "Heinrich Laube",
+ "ref":
+ "person_17356"},
+ {
+ "persName":
+ "Max Weinberg",
+ "ref":
+ "person_21163"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Abenteurernovelle",
+ "ref":
+ "pmb30299"}
+ ,  {
+ "title":
+ "Der tapfere Kassian. Singspiel",
+ "ref":
+ "pmb46124"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Der Schleier der Pierrette",
+ "ref":
+ "pmb30215"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ,  {
+ "placeName":
+ "Höflein",
+ "ref":
+ "pmb46776"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01890",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01890.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 30. 11. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "pmb10765"},
+ {
+ "persName":
+ "Felix von Oppenheimer",
+ "ref":
+ "pmb2527"},
+ {
+ "persName":
+ "Ludwig von Oppenheimer",
+ "ref":
+ "pmb44595"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "pmb2238"},
+ {
+ "persName":
+ "Naëmah Beer-Hofmann",
+ "ref":
+ "pmb2534"},
+ {
+ "persName":
+ "Mirjam Beer-Hofmann",
+ "ref":
+ "pmb2668"},
+ {
+ "persName":
+ "Gabriel Beer-Hofmann",
+ "ref":
+ "pmb13923"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Reisnerstraße",
+ "ref":
+ "pmb41831"}
+ ,  {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb189"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Stefan Zweig, 30.11.1909",
+ "source":
+ "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Arthur Kahane, 30.11.1909",
+ "source":
+ "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
+}] 

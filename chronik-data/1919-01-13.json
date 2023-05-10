@@ -1,0 +1,95 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-01-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-01-13.html",
+ "head":
+ "Tagebuch, 13. Januar 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ernst Czuczka",
+ "ref":
+ "person_14337"},
+ {
+ "persName":
+ "Oskar Molitor",
+ "ref":
+ "person_18216"},
+ {
+ "persName":
+ "Lotte Witt",
+ "ref":
+ "person_21403"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Währingerstraße",
+ "ref":
+ "pmb312"}
+ ,  {
+ "placeName":
+ "Deutsch Österreich",
+ "ref":
+ "pmb92203"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 13. Januar 1919",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00047181",
+ "head":
+ "Schnitzler, Arthur an Kaltscharsch, ... [Briefe]",
+ "text":
+ "1 Bl.Durchschl. Mit 1 weit. Ex. 1 Bl.Durchschl."
+}] 

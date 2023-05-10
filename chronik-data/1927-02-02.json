@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1927-02-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-02-02.html",
+ "head":
+ "Tagebuch, 2. Februar 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julius Bauer",
+ "ref":
+ "person_13471"},
+ {
+ "persName":
+ "Robert Lichtenstern",
+ "ref":
+ "person_17509"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Jules Romains",
+ "ref":
+ "person_19338"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"},
+ {
+ "persName":
+ "Heinrich York-Steiner",
+ "ref":
+ "person_21496"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Geist im Wort und der Geist in der Tat",
+ "ref":
+ "pmb30051"}
+ ,  {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ,  {
+ "title":
+ "Zug der Schatten",
+ "ref":
+ "pmb32049"}
+ ,  {
+ "title":
+ "Der Diktator",
+ "ref":
+ "pmb79470"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00080699",
+ "head":
+ "Bauer, Wilhelm an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.Abschr."
+}] 

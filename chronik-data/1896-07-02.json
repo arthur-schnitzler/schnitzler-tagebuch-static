@@ -1,0 +1,132 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-07-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-02.html",
+ "head":
+ "Tagebuch, 2. Juli 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Entsch",
+ "ref":
+ "person_14766"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Verona",
+ "ref":
+ "pmb44153"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00559",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00559.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 2. 7. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "VI., Mariahilf",
+ "ref":
+ "pmb56"}
+ ,  {
+ "placeName":
+ "St. Gilgen",
+ "ref":
+ "pmb33"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Fürberg",
+ "ref":
+ "pmb40276"}
+ ,  {
+ "placeName":
+ "Dänemark",
+ "ref":
+ "pmb43570"}
+ ,  {
+ "placeName":
+ "Hamburg",
+ "ref":
+ "pmb506"}
+ ,  {
+ "placeName":
+ "Trondheim",
+ "ref":
+ "pmb40290"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

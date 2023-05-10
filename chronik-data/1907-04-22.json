@@ -1,0 +1,144 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-04-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-04-22.html",
+ "head":
+ "Tagebuch, 22. April 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "person_16292"},
+ {
+ "persName":
+ "Grete Jacques",
+ "ref":
+ "person_16485"},
+ {
+ "persName":
+ "Adolf Lantz",
+ "ref":
+ "person_17324"},
+ {
+ "persName":
+ "Richard Metzl",
+ "ref":
+ "person_18104"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Der Tod des Junggesellen",
+ "ref":
+ "pmb33758"}
+ ,  {
+ "title":
+ "Endlich allein",
+ "ref":
+ "pmb76677"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/143159/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/143159/",
+ "head":
+ "Aufführung von Liebelei, Endlich allein, 22.4.1907",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Endlich allein",
+ "ref":
+ "pmb76677"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"},
+ {
+ "persName":
+ "Grete Jacques",
+ "ref":
+ "pmb18743"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"}]
+}
+}] 

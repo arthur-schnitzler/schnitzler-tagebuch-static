@@ -1,0 +1,145 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-04-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-04-26.html",
+ "head":
+ "Tagebuch, 26. April 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans Altmann",
+ "ref":
+ "person_13171"},
+ {
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "person_15306"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Gefährtin. Schauspiel in einem Akt",
+ "ref":
+ "pmb29845"}
+ ,  {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Paracelsus. Versspiel in einem Akt",
+ "ref":
+ "pmb30403"}
+ ,  {
+ "title":
+ "Die Puppe",
+ "ref":
+ "pmb80099"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02872",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02872.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 26. 4. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Alfred Dreyfus",
+ "ref":
+ "pmb4216"},
+ {
+ "persName":
+ "Julius Bauer",
+ "ref":
+ "pmb2150"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "pmb11988"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter",
+ "ref":
+ "pmb32562"}
+ ,  {
+ "title":
+ "Die Fackel",
+ "ref":
+ "pmb41244"}
+ ,  {
+ "title":
+ "Die Vertreibung aus dem Paradiese",
+ "ref":
+ "pmb135057"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb3"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}] 

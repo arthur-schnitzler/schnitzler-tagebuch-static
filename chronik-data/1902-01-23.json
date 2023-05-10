@@ -1,0 +1,207 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1902-01-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-01-23.html",
+ "head":
+ "Tagebuch, 23. Januar 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Flesch",
+ "ref":
+ "person_15047"},
+ {
+ "persName":
+ "Yvette Guilbert",
+ "ref":
+ "person_15741"},
+ {
+ "persName":
+ "Rosa Hochsinger",
+ "ref":
+ "person_16245"},
+ {
+ "persName":
+ "Paul Schiff",
+ "ref":
+ "person_19683"},
+ {
+ "persName":
+ "Max Schiller",
+ "ref":
+ "person_19695"},
+ {
+ "persName":
+ "Alexander Demetrius Goltz",
+ "ref":
+ "person_15559"},
+ {
+ "persName":
+ "Therese Horn",
+ "ref":
+ "person_16366"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "T030035",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/T030035.html",
+ "head":
+ "Bahr: Der Grillparzerpreis, 23. 1. 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Otto Erich Hartleben",
+ "ref":
+ "pmb11605"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "pmb11461"},
+ {
+ "persName":
+ "Karl Glossy",
+ "ref":
+ "pmb11447"},
+ {
+ "persName":
+ "Eduard von Bauernfeld",
+ "ref":
+ "pmb10854"},
+ {
+ "persName":
+ "Guy de Maupassant",
+ "ref":
+ "pmb12201"},
+ {
+ "persName":
+ "Gisela von Österreich",
+ "ref":
+ "pmb4420"},
+ {
+ "persName":
+ "Katharina Selma Hartleben",
+ "ref":
+ "pmb2309"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Rosenmontag",
+ "ref":
+ "pmb31767"}
+ ,  {
+ "title":
+ "Goethe-Brevier. Goethes Leben in seinen Gedichten",
+ "ref":
+ "pmb32224"}
+ ,  {
+ "title":
+ "Aus Bauernfelds Tagebüchern",
+ "ref":
+ "pmb32650"}
+ ,  {
+ "title":
+ "Lieutenant Gustl. Novelle",
+ "ref":
+ "pmb29853"}
+ ,  {
+ "title":
+ "Lebendige Stunden. Vier Einakter",
+ "ref":
+ "pmb29863"}
+ ,  {
+ "title":
+ "Der Grillparzerpreis",
+ "ref":
+ "pmb31379"}
+ ,  {
+ "title":
+ "Der Tag",
+ "ref":
+ "pmb41560"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Winterbierhaus",
+ "ref":
+ "pmb998"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Franz-Grillparzer-Preis",
+ "ref":
+ "pmb29677"}
+ ]
+}
+}] 

@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1917-01-19",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-01-19.html",
+ "head":
+ "Tagebuch, 19. Januar 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Otto Zuckerkandl",
+ "ref":
+ "person_21601"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Flucht in die Finsternis",
+ "ref":
+ "pmb30863"}
+ ,  {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Vöslau",
+ "ref":
+ "pmb992"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Saint Anton",
+ "ref":
+ "pmb91800"}
+ ,  {
+ "placeName":
+ "Seis am Schlern",
+ "ref":
+ "pmb988"}
+ ,  {
+ "placeName":
+ "Welsberg-Taisten",
+ "ref":
+ "pmb428"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

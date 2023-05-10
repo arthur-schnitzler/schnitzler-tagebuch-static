@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-05-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-05-25.html",
+ "head":
+ "Tagebuch, 25. Mai 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jean Billiter",
+ "ref":
+ "person_13730"},
+ {
+ "persName":
+ "Felix Costa",
+ "ref":
+ "person_14284"},
+ {
+ "persName":
+ "Robert Lichtenstern",
+ "ref":
+ "person_17509"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"},
+ {
+ "persName":
+ "Edith Schneider",
+ "ref":
+ "person_19802"},
+ {
+ "persName":
+ "Elisabeth Melanie von Gans-Ludassy",
+ "ref":
+ "person_15337"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brijuni",
+ "ref":
+ "pmb45260"}
+ ,  {
+ "placeName":
+ "Edlach",
+ "ref":
+ "pmb470"}
+ ,  {
+ "placeName":
+ "Sollenau",
+ "ref":
+ "pmb91770"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp548",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp548.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 21. Mai – 5. Juni 1928"
+}] 

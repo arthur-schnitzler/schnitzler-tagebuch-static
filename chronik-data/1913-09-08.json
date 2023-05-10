@@ -1,0 +1,130 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-09-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-09-08.html",
+ "head":
+ "Tagebuch, 8. September 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Dörmann",
+ "ref":
+ "person_14472"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Luise Halbe",
+ "ref":
+ "person_15858"},
+ {
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Erich Ziegel",
+ "ref":
+ "person_21545"},
+ {
+ "persName":
+ "Mirjam Horwitz",
+ "ref":
+ "person_21546"},
+ {
+ "persName":
+ "Friedrich Basil",
+ "ref":
+ "person_13456"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"},
+ {
+ "persName":
+ "Georg Stollberg",
+ "ref":
+ "person_20458"},
+ {
+ "persName":
+ "Clemens von Franckenstein",
+ "ref":
+ "person_15115"},
+ {
+ "persName":
+ "Alfred Karl Mayer",
+ "ref":
+ "person_18011"},
+ {
+ "persName":
+ "Bruno Walter",
+ "ref":
+ "person_21080"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Isar",
+ "ref":
+ "pmb90936"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00076896",
+ "head":
+ "Schnitzler, Arthur: Aufführungsvertrag mit dem Lessing Theater über sein Stück 'Professor Bernhardi' [Dokumente]",
+ "text":
+ "1 Bl."
+}] 

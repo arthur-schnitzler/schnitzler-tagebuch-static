@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-09-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-09-05.html",
+ "head":
+ "Tagebuch, 5. September 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Edgar von Karg-Bebenburg",
+ "ref":
+ "person_16717"},
+ {
+ "persName":
+ "Helene Samek",
+ "ref":
+ "person_19554"},
+ {
+ "persName":
+ "Franziska Schlesinger",
+ "ref":
+ "person_19729"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Anna Holitscher",
+ "ref":
+ "person_16321"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hallstätter See",
+ "ref":
+ "pmb65265"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/414/",
+ "head":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)"
+}] 

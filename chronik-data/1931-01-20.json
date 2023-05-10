@@ -1,0 +1,103 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1931-01-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-01-20.html",
+ "head":
+ "Tagebuch, 20. Januar 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Georg Terramare",
+ "ref":
+ "person_14696"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ,  {
+ "title":
+ "Winterballade",
+ "ref":
+ "pmb76931"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bern",
+ "ref":
+ "pmb1223"}
+ ,  {
+ "placeName":
+ "Küb",
+ "ref":
+ "pmb91083"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/14/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/14/",
+ "head":
+ "Burgtheater"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp878",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp878.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 18.–21. Januar 1931"
+}] 

@@ -1,0 +1,308 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-10-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-10-20.html",
+ "head":
+ "Tagebuch, 20. Oktober 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred Bernau",
+ "ref":
+ "person_13663"},
+ {
+ "persName":
+ "Ludwig Horch",
+ "ref":
+ "person_16356"},
+ {
+ "persName":
+ "Marie Kalbeck",
+ "ref":
+ "person_16652"},
+ {
+ "persName":
+ "Karoline Leitner",
+ "ref":
+ "person_17423"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Werner Schott",
+ "ref":
+ "person_19874"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Emilie Sgal",
+ "ref":
+ "person_20075"},
+ {
+ "persName":
+ "Otto Zuckerkandl",
+ "ref":
+ "person_21601"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "person_21602"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Kabale und Liebe",
+ "ref":
+ "pmb31599"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb91735"}
+ ,  {
+ "placeName":
+ "Sofienalpe",
+ "ref":
+ "pmb92533"}
+ ,  {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Neuwaldegg",
+ "ref":
+ "pmb170"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041558",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041558.html",
+ "head":
+ "Tagebuch von Schnitzler, 20. 10. 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Otto Zuckerkandl",
+ "ref":
+ "pmb3091"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "pmb27549"},
+ {
+ "persName":
+ "Marie Kalbeck",
+ "ref":
+ "pmb11854"},
+ {
+ "persName":
+ "Isidor Mautner",
+ "ref":
+ "pmb3744"},
+ {
+ "persName":
+ "Werner Schott",
+ "ref":
+ "pmb12711"},
+ {
+ "persName":
+ "Schott",
+ "ref":
+ "pmb27691"},
+ {
+ "persName":
+ "Peter Schott",
+ "ref":
+ "pmb24475"},
+ {
+ "persName":
+ "Schott",
+ "ref":
+ "pmb27692"},
+ {
+ "persName":
+ "Alfred Bernau",
+ "ref":
+ "pmb4040"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Franz Horch",
+ "ref":
+ "pmb11774"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "pmb2496"},
+ {
+ "persName":
+ "Malvine Kaufmann",
+ "ref":
+ "pmb19230"},
+ {
+ "persName":
+ "Karoline Leitner",
+ "ref":
+ "pmb20266"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "pmb3159"},
+ {
+ "persName":
+ "Paula Schmidl",
+ "ref":
+ "pmb24292"},
+ {
+ "persName":
+ "Emilie Sgal",
+ "ref":
+ "pmb24860"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Kabale und Liebe",
+ "ref":
+ "pmb31599"}
+ ,  {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb189"}
+ ,  {
+ "placeName":
+ "Sophienalpe",
+ "ref":
+ "pmb539"}
+ ,  {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Hameau",
+ "ref":
+ "pmb540"}
+ ,  {
+ "placeName":
+ "Neuwaldegg",
+ "ref":
+ "pmb170"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 20. Oktober 1918",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

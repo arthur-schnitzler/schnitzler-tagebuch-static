@@ -1,0 +1,79 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-10-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-10-22.html",
+ "head":
+ "Tagebuch, 22. Oktober 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Bassermann",
+ "ref":
+ "person_13457"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Victor Barnowsky",
+ "ref":
+ "person_13428"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"},
+ {
+ "persName":
+ "Curt Goetz",
+ "ref":
+ "person_15504"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Worte. Drei Einakter",
+ "ref":
+ "pmb30717"}
+ ,  {
+ "title":
+ "Das Bacchusfest",
+ "ref":
+ "pmb32097"}
+ ,  {
+ "title":
+ "Stunde des Erkennens",
+ "ref":
+ "pmb31447"}
+ ,  {
+ "title":
+ "Große Szene",
+ "ref":
+ "pmb31429"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}] 

@@ -1,0 +1,67 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-06-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-06-03.html",
+ "head":
+ "Tagebuch, 3. Juni 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Moritz Coschell",
+ "ref":
+ "person_14283"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#sb5b8e07-e0c8-47e6-8add-494150f56e37",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Franziska Lawner an Arthur Schnitzler, 3.6.1899",
+ "source":
+ "Arthur Schnitzler: Frau Bertha Garlan. Historisch-kritische Ausgabe. Herausgegeben von Gerhard Hubmann und Isabella Schwentner und Mitarbeit von Anna Lindner und Martin Anton Müller. Berlin, Boston: De Gruyter 2015 (Arthur Schnitzler: Werke in historisch-kritischen Ausgaben. Herausgegeben von Konstanze Fliedl), S. 281–298."
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 3.6.1899",
+ "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}] 

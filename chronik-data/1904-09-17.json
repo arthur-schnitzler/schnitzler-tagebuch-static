@@ -1,0 +1,125 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-09-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-09-17.html",
+ "head":
+ "Tagebuch, 17. September 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Hannibal von Karg-Bebenburg",
+ "ref":
+ "person_16718"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01447",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01447.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 17. 9. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Buchhandlung und Verlag Eduard Höllrigel",
+ "ref":
+ "pmb51413"}
+ ,  {
+ "orgName":
+ "Wenzel Swatek",
+ "ref":
+ "pmb40036"}
+ ,  {
+ "orgName":
+ "Karl Schwarz Antiquitäten",
+ "ref":
+ "pmb51418"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Ritzerhaus",
+ "ref":
+ "pmb51415"}
+ ,  {
+ "placeName":
+ "Alter Markt",
+ "ref":
+ "pmb508"}
+ ,  {
+ "placeName":
+ "Kaigasse",
+ "ref":
+ "pmb51411"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/30/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "head":
+ "Salzburg"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40804/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40804/",
+ "head":
+ "Hotel und Pension Nelböck"
+}] 

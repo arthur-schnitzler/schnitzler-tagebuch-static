@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-08-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-08-03.html",
+ "head":
+ "Tagebuch, 3. August 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Katharina Kohn",
+ "ref":
+ "person_14798"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Frau des Weisen. Erzählung",
+ "ref":
+ "pmb30075"}
+ ,  {
+ "title":
+ "Hänsel und Grethel",
+ "ref":
+ "pmb30447"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/414/",
+ "head":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)"
+}] 

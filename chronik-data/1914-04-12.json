@@ -1,0 +1,117 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-04-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-04-12.html",
+ "head":
+ "Tagebuch, 12. April 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Maria Theresia von Österreich",
+ "ref":
+ "person_17880"},
+ {
+ "persName":
+ "Josef Müllner",
+ "ref":
+ "person_18313"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Heinrich von Angeli",
+ "ref":
+ "person_13204"},
+ {
+ "persName":
+ "Alexander Oswald von Pallavicini",
+ "ref":
+ "person_18641"},
+ {
+ "persName":
+ "Bertha Gussmann",
+ "ref":
+ "person_15757"},
+ {
+ "persName":
+ "Rudolf Gussmann",
+ "ref":
+ "person_15759"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Briefe",
+ "ref":
+ "pmb80955"}
+ ,  {
+ "title":
+ "Othello",
+ "ref":
+ "pmb31671"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sofienalpe",
+ "ref":
+ "pmb92533"}
+ ,  {
+ "placeName":
+ "Hainbach",
+ "ref":
+ "pmb90821"}
+ ,  {
+ "placeName":
+ "Weidlingau",
+ "ref":
+ "pmb92059"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

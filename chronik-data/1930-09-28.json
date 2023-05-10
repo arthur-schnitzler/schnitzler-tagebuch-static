@@ -1,0 +1,156 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1930-09-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-09-28.html",
+ "head":
+ "Tagebuch, 28. September 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans Albers",
+ "ref":
+ "person_13125"},
+ {
+ "persName":
+ "Georgette Boner",
+ "ref":
+ "person_13864"},
+ {
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "David Herbert Lawrence",
+ "ref":
+ "person_17372"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Charlotte Susa",
+ "ref":
+ "person_20579"},
+ {
+ "persName":
+ "Emma Sachs",
+ "ref":
+ "person_19501"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Hermine von Schaffgotsch",
+ "ref":
+ "person_19611"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Greifer",
+ "ref":
+ "pmb80416"}
+ ,  {
+ "title":
+ "Lady Chatterley und ihr Liebhaber",
+ "ref":
+ "pmb80853"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Gersthof",
+ "ref":
+ "pmb90705"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90705/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90705/",
+ "head":
+ "Gersthof"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp835",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp835.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 28. September 1930"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp836",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp836.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 28.–30. September 1930"
+}] 

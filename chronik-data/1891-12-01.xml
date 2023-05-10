@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1891-12-01">Dienstag, 1. Dezember 1891</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1891-12-01">
+               <head>Tagebuch, 1. Dezember 1891</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-12-01.html</idno>
+            </event>
+            <event when-iso="1891-12-01">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1891-12-01">
+               <head>Bahr: Moderne Kunst in Österreich, Dezember 1891</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11024">Anton Bruckner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10866">Ludwig van Beethoven</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13152">Hugo Wolf</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11491">Adalbert von Goldschmidt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11518">Franz Grillparzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb19980">Ferdinand Kürnberger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12851">Adalbert Stifter</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3805">Carl Du Prel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11944">Max Klinger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4557">Hans Thoma</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4579">Arnold Böcklin</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12071">Detlev von Liliencron</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12156">Maurice Maeterlinck</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4283">Théodore de Banville</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10759">Rudolf von Alt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27950">Franz Russ</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12661">Emil Jakob Schindler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4586">Eugen von Blaas</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4590">Julius von Blaas</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4593">Carl von Blaas</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4569">Olga Wisinger-Florian</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28653">Carl von Merode</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4573">Franz Xaver von Pausinger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11257">Josef Engelhart</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4565">Adolf Hirémy-Hirschl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14756">Ferry Bératon</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28649">Julien Bastien-Lepage</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10899">Sarah Bernhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4583">Albert Wolff</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28667">André Theuriet</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28664">Édouard Manet</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12602">Ferdinand von Saar</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11216">Marie von Ebner-Eschenbach</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3853">Ossip Schubin</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12906">Bertha von Suttner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4223">Emil Marriot</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2425">Felix Dörmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4064">Marie Eugenie Delle Grazie</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4561">Edith von Salburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26121">Carl von Torresani-Lanzenfeld</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32366">Veden</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31333">Die Philosophie der Mystik</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32264">Sarah Bernhardt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32268">Albert Wolff</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32266">André Theuriet</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31643">Aus der schönen, wilden Lieutenants-Zeit</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32402">Mit tausend Masten. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31649">Auf gerettetem Kahn. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31645">Schwarzgelbe Reitergeschichten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31655">Die Juckercomtesse. Roman aus der Gesellschaft</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30261">Moderne Kunst in Österreich</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb89475">Moderne Kunst in Meister-Holzschnitten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb644">Galizien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb651">Kärnten</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb697">Salzburg (Land)</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb36545">Krems</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb271">Hütteldorf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb386">Universität Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb468">Europa</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb166">Frankreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40306">Italien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb17">Steiermark</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29417">Moderne Dichtung/Moderne Rundschau</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29771">E. Pierson’s Verlag</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030054.html</idno>
+            </event>
+            <event when-iso="1891-12-01">
+               <head>Schnitzer, Manuel an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00077223</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

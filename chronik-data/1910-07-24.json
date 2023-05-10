@@ -1,0 +1,105 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-07-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-07-24.html",
+ "head":
+ "Tagebuch, 24. Juli 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur Eloesser",
+ "ref":
+ "person_14730"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Heinrich von Kleist",
+ "ref":
+ "person_16900"},
+ {
+ "persName":
+ "Heinrich Reinhardt",
+ "ref":
+ "person_19153"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Eduard Stern",
+ "ref":
+ "person_20407"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Briefe",
+ "ref":
+ "pmb77663"}
+ ,  {
+ "title":
+ "Die Meistersinger von Nürnberg",
+ "ref":
+ "pmb30661"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Haizingergasse",
+ "ref":
+ "pmb92269"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Stefan Zweig, 24.7.1910",
+ "source":
+ "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
+}] 

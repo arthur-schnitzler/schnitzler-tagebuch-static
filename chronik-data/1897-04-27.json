@@ -1,0 +1,58 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1897-04-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-04-27.html",
+ "head":
+ "Tagebuch, 27. April 1897",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Deux gosses (Zwei kleine Vagabunden)",
+ "ref":
+ "pmb80360"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bois de Vincennes",
+ "ref":
+ "pmb90380"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/182/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/182/",
+ "head":
+ "Paris"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/592/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/592/",
+ "head":
+ "rue de Maubeuge"
+}] 

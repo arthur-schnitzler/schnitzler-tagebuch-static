@@ -1,0 +1,127 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1927-05-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-05-10.html",
+ "head":
+ "Tagebuch, 10. Mai 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Efim Manassewitsch",
+ "ref":
+ "person_17803"},
+ {
+ "persName":
+ "Maria Renata Manassewitsch",
+ "ref":
+ "person_17805"},
+ {
+ "persName":
+ "Carola Neher",
+ "ref":
+ "person_18378"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Weiberfeinde",
+ "ref":
+ "pmb80883"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02486",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02486.html",
+ "head":
+ "Felix Braun an Arthur Schnitzler, 10. 5. 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Braun",
+ "ref":
+ "pmb11002"},
+ {
+ "persName":
+ "?? [Leser von Spiel im Morgengrauen 1927]",
+ "ref":
+ "pmb53267"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Spiel im Morgengrauen. Novelle",
+ "ref":
+ "pmb32131"}
+ ,  {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,128 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1901-05-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-05-20.html",
+ "head":
+ "Tagebuch, 20. Mai 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Wilhelm de Grach",
+ "ref":
+ "person_15607"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brühl",
+ "ref":
+ "pmb44413"}
+ ,  {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01122",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01122.html",
+ "head":
+ "Arthur Schnitzler an Hermann Bahr, [20.?] 5. 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Moritz Coschell",
+ "ref":
+ "pmb28645"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Börsenblatt für den deutschen Buchhandel",
+ "ref":
+ "pmb47979"}
+ ,  {
+ "title":
+ "Lieutenant Gustl. Novelle",
+ "ref":
+ "pmb29853"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "S. Fischer Verlag",
+ "ref":
+ "pmb29639"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#s68ac8da-2b04-4b21-afc4-b597655696e0",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Richard Schaukal, 20.5.1901",
+ "source":
+ "Reinhard Urbach: Richard Schaukal – Arthur Schnitzler, Briefwechsel (1900-1902). In: Modern Austrian Literature, Jg. 8, 1975, H.3/4, S.15-43."
+}] 

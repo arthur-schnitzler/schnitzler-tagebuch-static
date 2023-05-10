@@ -1,0 +1,92 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-05-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-05-27.html",
+ "head":
+ "Tagebuch, 27. Mai 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Paul Eger",
+ "ref":
+ "person_14626"},
+ {
+ "persName":
+ "Willi Handl",
+ "ref":
+ "person_15898"},
+ {
+ "persName":
+ "Klaus Pringsheim",
+ "ref":
+ "person_18968"},
+ {
+ "persName":
+ "Heinrich Teweles",
+ "ref":
+ "person_20682"},
+ {
+ "persName":
+ "Alice Ziegler",
+ "ref":
+ "person_21547"},
+ {
+ "persName":
+ "Rudolf Holzer",
+ "ref":
+ "person_16339"},
+ {
+ "persName":
+ "Ernst Ziegler",
+ "ref":
+ "person_21548"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Der Mörder. Novelle",
+ "ref":
+ "pmb33754"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/652/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/652/",
+ "head":
+ "Prag"
+}] 

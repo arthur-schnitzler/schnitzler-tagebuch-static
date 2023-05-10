@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-11-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-11-26.html",
+ "head":
+ "Tagebuch, 26. November 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Raoul Frank",
+ "ref":
+ "person_15130"},
+ {
+ "persName":
+ "Heinrich Lefler",
+ "ref":
+ "person_17397"},
+ {
+ "persName":
+ "Arnold Rosé",
+ "ref":
+ "person_19351"},
+ {
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "person_19364"},
+ {
+ "persName":
+ "Paul Schlenther",
+ "ref":
+ "person_19724"},
+ {
+ "persName":
+ "Karl Schönherr",
+ "ref":
+ "person_19850"},
+ {
+ "persName":
+ "Theodor von Taussig",
+ "ref":
+ "person_20650"},
+ {
+ "persName":
+ "Konrad Loewe",
+ "ref":
+ "person_17642"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Abenteurernovelle",
+ "ref":
+ "pmb30299"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Über die Brücke",
+ "ref":
+ "pmb77338"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00038036",
+ "head":
+ "Koon, Richard an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

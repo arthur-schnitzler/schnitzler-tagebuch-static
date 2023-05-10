@@ -1,0 +1,401 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-09-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-09-14.html",
+ "head":
+ "Tagebuch, 14. September 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Devrient",
+ "ref":
+ "person_14434"},
+ {
+ "persName":
+ "Hans Müller",
+ "ref":
+ "person_18297"},
+ {
+ "persName":
+ "Johanna Schopf",
+ "ref":
+ "person_19867"},
+ {
+ "persName":
+ "Werner Schott",
+ "ref":
+ "person_19874"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Richard Smekal",
+ "ref":
+ "person_20170"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ,  {
+ "title":
+ "Der Schöpfer",
+ "ref":
+ "pmb30783"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02836",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02836.html",
+ "head":
+ "Arthur Schnitzler an Hermann Bahr, 14. 9. 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Max von Millenkovich",
+ "ref":
+ "pmb4048"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "pmb12504"},
+ {
+ "persName":
+ "Clemens von Franckenstein",
+ "ref":
+ "pmb3130"},
+ {
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "pmb10765"},
+ {
+ "persName":
+ "Robert Michel",
+ "ref":
+ "pmb12254"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ,  {
+ "orgName":
+ "Königliche Hof- und Nationaltheater München",
+ "ref":
+ "pmb44112"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Partenkirchen",
+ "ref":
+ "pmb2318"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041698",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041698.html",
+ "head":
+ "Schnitzler an Bahr, 14. 9. 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Max von Millenkovich",
+ "ref":
+ "pmb4048"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "pmb12504"},
+ {
+ "persName":
+ "Clemens von Franckenstein",
+ "ref":
+ "pmb3130"},
+ {
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "pmb10765"},
+ {
+ "persName":
+ "Robert Michel",
+ "ref":
+ "pmb12254"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Partenkirchen",
+ "ref":
+ "pmb2318"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ,  {
+ "orgName":
+ "Königliche Hof- und Nationaltheater München",
+ "ref":
+ "pmb44112"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041548",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041548.html",
+ "head":
+ "Tagebuch von Schnitzler, 14. 9. 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Max Devrient",
+ "ref":
+ "pmb2446"},
+ {
+ "persName":
+ "Richard Smekal",
+ "ref":
+ "pmb4012"},
+ {
+ "persName":
+ "Hans Müller",
+ "ref":
+ "pmb12327"},
+ {
+ "persName":
+ "Johanna Schopf",
+ "ref":
+ "pmb24464"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Werner Schott",
+ "ref":
+ "pmb12711"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ,  {
+ "title":
+ "Der Schöpfer",
+ "ref":
+ "pmb30783"}
+ ,  {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "T030007",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/T030007.html",
+ "head":
+ "Schnitzler: Die Schwestern, mit Strichen von Andrian oder Bahr, 14.–19. 9.
+                     1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "pmb10765"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Spamersche Buchdruckerei",
+ "ref":
+ "pmb29694"}
+ ]
+}
+}] 

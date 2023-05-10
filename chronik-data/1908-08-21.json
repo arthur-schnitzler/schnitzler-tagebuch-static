@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-08-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-08-21.html",
+ "head":
+ "Tagebuch, 21. August 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Irene Auernheimer",
+ "ref":
+ "person_13304"},
+ {
+ "persName":
+ "Friedrich Eckstein",
+ "ref":
+ "person_14612"},
+ {
+ "persName":
+ "Albert Frankfurter",
+ "ref":
+ "person_15134"},
+ {
+ "persName":
+ "Louis Philipp Friedmann",
+ "ref":
+ "person_15229"},
+ {
+ "persName":
+ "Julius von Kniep",
+ "ref":
+ "person_16939"},
+ {
+ "persName":
+ "Richard Tausenau",
+ "ref":
+ "person_20643"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/988/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/988/",
+ "head":
+ "Seis am Schlern"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/467/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/467/",
+ "head":
+ "Villa Heufler"
+}] 

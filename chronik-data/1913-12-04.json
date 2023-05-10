@@ -1,0 +1,260 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-12-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-12-04.html",
+ "head":
+ "Tagebuch, 4. Dezember 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Max Devrient",
+ "ref":
+ "person_14434"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "person_16819"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "person_17108"},
+ {
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "person_17838"},
+ {
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "person_19364"},
+ {
+ "persName":
+ "Helene Rothballer",
+ "ref":
+ "person_19421"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Vera Schapira",
+ "ref":
+ "person_19625"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Paula Schmidl",
+ "ref":
+ "person_19756"},
+ {
+ "persName":
+ "George Bernard Shaw",
+ "ref":
+ "person_20080"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "person_20714"},
+ {
+ "persName":
+ "Maximilian Harden",
+ "ref":
+ "person_15919"},
+ {
+ "persName":
+ "Richard Specht",
+ "ref":
+ "person_20238"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Grinzing",
+ "ref":
+ "pmb90771"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041358",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041358.html",
+ "head":
+ "Tagebuch von Schnitzler, 4. 12. 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "pmb12556"},
+ {
+ "persName":
+ "Max Devrient",
+ "ref":
+ "pmb2446"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "pmb12948"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "pmb3159"},
+ {
+ "persName":
+ "Paula Schmidl",
+ "ref":
+ "pmb24292"},
+ {
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "pmb12176"},
+ {
+ "persName":
+ "Helene Rothballer",
+ "ref":
+ "pmb23653"},
+ {
+ "persName":
+ "George Bernard Shaw",
+ "ref":
+ "pmb2381"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "pmb11988"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "pmb11910"},
+ {
+ "persName":
+ "Maximilian Harden",
+ "ref":
+ "pmb11581"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Richard Specht",
+ "ref":
+ "pmb2456"},
+ {
+ "persName":
+ "Vera Schapira",
+ "ref":
+ "pmb9667"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ,  {
+ "placeName":
+ "Grinzing",
+ "ref":
+ "pmb225"}
+ ]
+}
+}] 

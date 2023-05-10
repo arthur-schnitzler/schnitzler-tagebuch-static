@@ -1,0 +1,130 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-03-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-03-04.html",
+ "head":
+ "Tagebuch, 4. März 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Iso Brante",
+ "ref":
+ "person_13926"},
+ {
+ "persName":
+ "Paul Breisach",
+ "ref":
+ "person_13948"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Bruno Klein",
+ "ref":
+ "person_16883"},
+ {
+ "persName":
+ "Robert Lichtenstern",
+ "ref":
+ "person_17509"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Paula",
+ "ref":
+ "person_18687"},
+ {
+ "persName":
+ "Charles Recht",
+ "ref":
+ "person_19087"},
+ {
+ "persName":
+ "Eugen Steinach",
+ "ref":
+ "person_20358"},
+ {
+ "persName":
+ "Josef Wesicowsky",
+ "ref":
+ "person_21272"},
+ {
+ "persName":
+ "Wilhelm Grosz",
+ "ref":
+ "person_15685"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Mannheim",
+ "ref":
+ "pmb881"}
+ ,  {
+ "placeName":
+ "New York City",
+ "ref":
+ "pmb44053"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ,  {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Gustaf Linden an Arthur Schnitzler, 4.3.1922",
+ "source":
+ "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
+}] 

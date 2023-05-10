@@ -1,0 +1,178 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-11-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-11-09.html",
+ "head":
+ "Tagebuch, 9. November 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "person_16222"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "person_16819"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00618",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00618.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 9. 11. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Wollzeile",
+ "ref":
+ "pmb338"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00619",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00619.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 9. 11. [1896]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ "pmb29899"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043197",
+ "head":
+ "Schmidt, Lothar an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lothar (1862-1931) Schmidt",
+ "ref":
+ "http://d-nb.info/gnd/117538884"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00041221",
+ "head":
+ "Reinhard, Marie an Schnitzler, Arthur [Briefe]",
+ "text":
+ "Letztes Objekt aus der Mappe. 35 Br., 1 Tel. 90 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie (1871-1899) Reinhard",
+ "ref":
+ "http://d-nb.info/gnd/123368790"}]
+}
+}] 

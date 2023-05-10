@@ -1,0 +1,104 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-05-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-05-13.html",
+ "head":
+ "Tagebuch, 13. Mai 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alexander Moissi",
+ "ref":
+ "person_18209"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "person_19154"},
+ {
+ "persName":
+ "Gustav Schneider",
+ "ref":
+ "person_19805"},
+ {
+ "persName":
+ "Sigmund Schneider",
+ "ref":
+ "person_19811"},
+ {
+ "persName":
+ "Marianne Giustiniani",
+ "ref":
+ "person_21600"},
+ {
+ "persName":
+ "Heinrich Glücksmann",
+ "ref":
+ "person_15483"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Marionetten. Drei Einakter",
+ "ref":
+ "pmb29859"}
+ ,  {
+ "title":
+ "König Ödipus. Übersetzt und für die neuere Bühne eingerichtet",
+ "ref":
+ "pmb31435"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-1424469",
+ "head":
+ "Brief von Arthur Schnitzler an Ignaz Georg Stollberg",
+ "text":
+ "1 Br.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ignaz Georg (1853-1926) Stollberg",
+ "ref":
+ "http://d-nb.info/gnd/117286842"}]
+}
+}] 

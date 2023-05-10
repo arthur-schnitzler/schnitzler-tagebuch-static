@@ -1,0 +1,512 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-01-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-01-26.html",
+ "head":
+ "Tagebuch, 26. Januar 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Johannes Brahms",
+ "ref":
+ "person_13914"},
+ {
+ "persName":
+ "Julius von Gans-Ludassy",
+ "ref":
+ "person_15338"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Hermine von Schaffgotsch",
+ "ref":
+ "person_19611"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ "pmb29899"}
+ ,  {
+ "title":
+ "Literatur",
+ "ref":
+ "pmb29869"}
+ ,  {
+ "title":
+ "Der Graf von Charolais. Ein Trauerspiel",
+ "ref":
+ "pmb30233"}
+ ,  {
+ "title":
+ "Serenade Nr. 1 D-Dur op. 11",
+ "ref":
+ "pmb78213"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01495",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01495.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 26. 1. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Internationales Reise-Bureau Schenker",
+ "ref":
+ "pmb51616"}
+ ,  {
+ "orgName":
+ "Hamburg-Amerika-Linie",
+ "ref":
+ "pmb51619"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Liesingerstraße",
+ "ref":
+ "pmb40101"}
+ ,  {
+ "placeName":
+ "Mittelmeer",
+ "ref":
+ "pmb41016"}
+ ,  {
+ "placeName":
+ "Hamburg",
+ "ref":
+ "pmb506"}
+ ,  {
+ "placeName":
+ "Dover",
+ "ref":
+ "pmb38495"}
+ ,  {
+ "placeName":
+ "Lissabon",
+ "ref":
+ "pmb15227"}
+ ,  {
+ "placeName":
+ "Funchal",
+ "ref":
+ "pmb48004"}
+ ,  {
+ "placeName":
+ "Teneriffa",
+ "ref":
+ "pmb16330"}
+ ,  {
+ "placeName":
+ "Tanger",
+ "ref":
+ "pmb951"}
+ ,  {
+ "placeName":
+ "Gibraltar",
+ "ref":
+ "pmb51646"}
+ ,  {
+ "placeName":
+ "Oran",
+ "ref":
+ "pmb51697"}
+ ,  {
+ "placeName":
+ "Algiers",
+ "ref":
+ "pmb43991"}
+ ,  {
+ "placeName":
+ "Tunis",
+ "ref":
+ "pmb48771"}
+ ,  {
+ "placeName":
+ "Palermo",
+ "ref":
+ "pmb901"}
+ ,  {
+ "placeName":
+ "Monreale",
+ "ref":
+ "pmb45264"}
+ ,  {
+ "placeName":
+ "Neapel",
+ "ref":
+ "pmb595"}
+ ,  {
+ "placeName":
+ "Vesuv",
+ "ref":
+ "pmb51642"}
+ ,  {
+ "placeName":
+ "Pompei",
+ "ref":
+ "pmb1283"}
+ ,  {
+ "placeName":
+ "Genua",
+ "ref":
+ "pmb994"}
+ ,  {
+ "placeName":
+ "Villefranche-sur-Mer",
+ "ref":
+ "pmb51666"}
+ ,  {
+ "placeName":
+ "Nizza",
+ "ref":
+ "pmb926"}
+ ,  {
+ "placeName":
+ "Monte Carlo",
+ "ref":
+ "pmb5862"}
+ ,  {
+ "placeName":
+ "Ajaccio",
+ "ref":
+ "pmb847"}
+ ,  {
+ "placeName":
+ "Barcelona",
+ "ref":
+ "pmb6588"}
+ ,  {
+ "placeName":
+ "Messina",
+ "ref":
+ "pmb44129"}
+ ,  {
+ "placeName":
+ "Istanbul",
+ "ref":
+ "pmb966"}
+ ,  {
+ "placeName":
+ "Izmir",
+ "ref":
+ "pmb44099"}
+ ,  {
+ "placeName":
+ "Piraeus",
+ "ref":
+ "pmb49145"}
+ ,  {
+ "placeName":
+ "Athen",
+ "ref":
+ "pmb505"}
+ ,  {
+ "placeName":
+ "Syrakus",
+ "ref":
+ "pmb48769"}
+ ,  {
+ "placeName":
+ "Korfu",
+ "ref":
+ "pmb41212"}
+ ,  {
+ "placeName":
+ "Kotor",
+ "ref":
+ "pmb49149"}
+ ,  {
+ "placeName":
+ "Dubrovnik",
+ "ref":
+ "pmb682"}
+ ,  {
+ "placeName":
+ "Split",
+ "ref":
+ "pmb4231"}
+ ,  {
+ "placeName":
+ "Opatija",
+ "ref":
+ "pmb38096"}
+ ,  {
+ "placeName":
+ "Rijeka",
+ "ref":
+ "pmb44246"}
+ ,  {
+ "placeName":
+ "Triest",
+ "ref":
+ "pmb873"}
+ ,  {
+ "placeName":
+ "Schloss Miramare",
+ "ref":
+ "pmb51692"}
+ ,  {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "New York City",
+ "ref":
+ "pmb44053"}
+ ,  {
+ "placeName":
+ "Ponta Delgada",
+ "ref":
+ "pmb51675"}
+ ,  {
+ "placeName":
+ "Santa Cruz",
+ "ref":
+ "pmb51673"}
+ ,  {
+ "placeName":
+ "Cagliari",
+ "ref":
+ "pmb51657"}
+ ,  {
+ "placeName":
+ "Porto",
+ "ref":
+ "pmb51695"}
+ ,  {
+ "placeName":
+ "Saint Thomas",
+ "ref":
+ "pmb51699"}
+ ,  {
+ "placeName":
+ "Saint-Pierre",
+ "ref":
+ "pmb51706"}
+ ,  {
+ "placeName":
+ "Fort-de-France",
+ "ref":
+ "pmb51682"}
+ ,  {
+ "placeName":
+ "San Juan",
+ "ref":
+ "pmb39662"}
+ ,  {
+ "placeName":
+ "Santiago de Cuba",
+ "ref":
+ "pmb51668"}
+ ,  {
+ "placeName":
+ "Havana",
+ "ref":
+ "pmb39944"}
+ ,  {
+ "placeName":
+ "Nassau",
+ "ref":
+ "pmb51639"}
+ ,  {
+ "placeName":
+ "Bridgetown",
+ "ref":
+ "pmb51654"}
+ ,  {
+ "placeName":
+ "Port of Spain",
+ "ref":
+ "pmb51701"}
+ ,  {
+ "placeName":
+ "Punta Brea",
+ "ref":
+ "pmb51685"}
+ ,  {
+ "placeName":
+ "La Guaira",
+ "ref":
+ "pmb51690"}
+ ,  {
+ "placeName":
+ "Puerto Cabello",
+ "ref":
+ "pmb51704"}
+ ,  {
+ "placeName":
+ "Curaçao",
+ "ref":
+ "pmb51660"}
+ ,  {
+ "placeName":
+ "Kingston",
+ "ref":
+ "pmb51671"}
+ ,  {
+ "placeName":
+ "Bermuda",
+ "ref":
+ "pmb46765"}
+ ,  {
+ "placeName":
+ "Malta",
+ "ref":
+ "pmb46462"}
+ ,  {
+ "placeName":
+ "Alexandria",
+ "ref":
+ "pmb12515"}
+ ,  {
+ "placeName":
+ "Kairo",
+ "ref":
+ "pmb839"}
+ ,  {
+ "placeName":
+ "Beirut",
+ "ref":
+ "pmb46759"}
+ ,  {
+ "placeName":
+ "Damascus",
+ "ref":
+ "pmb51663"}
+ ,  {
+ "placeName":
+ "Baalbek",
+ "ref":
+ "pmb51648"}
+ ,  {
+ "placeName":
+ "Jaffa",
+ "ref":
+ "pmb51650"}
+ ,  {
+ "placeName":
+ "Jerusalem",
+ "ref":
+ "pmb5297"}
+ ,  {
+ "placeName":
+ "Nafplion",
+ "ref":
+ "pmb51677"}
+ ,  {
+ "placeName":
+ "Elefsina",
+ "ref":
+ "pmb49147"}
+ ,  {
+ "placeName":
+ "Mycenae",
+ "ref":
+ "pmb51679"}
+ ,  {
+ "placeName":
+ "Capri",
+ "ref":
+ "pmb919"}
+ ,  {
+ "placeName":
+ "Rom",
+ "ref":
+ "pmb445"}
+ ,  {
+ "placeName":
+ "Schottenring",
+ "ref":
+ "pmb50493"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

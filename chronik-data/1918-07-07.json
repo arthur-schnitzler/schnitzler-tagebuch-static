@@ -1,0 +1,92 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-07-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-07-07.html",
+ "head":
+ "Tagebuch, 7. Juli 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustav Alexander",
+ "ref":
+ "person_13147"},
+ {
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Ottokar von Chiari",
+ "ref":
+ "person_14193"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Julius von Hochenegg",
+ "ref":
+ "person_16241"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Streichtrio Nr. 2 D-Dur op. 8 (Serenade)",
+ "ref":
+ "pmb77185"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Sofienalpe",
+ "ref":
+ "pmb92533"}
+ ,  {
+ "placeName":
+ "Salmannsdorf",
+ "ref":
+ "pmb91641"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

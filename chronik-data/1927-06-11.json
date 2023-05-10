@@ -1,0 +1,91 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1927-06-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-06-11.html",
+ "head":
+ "Tagebuch, 11. Juni 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Sydney Chaplin",
+ "ref":
+ "person_14180"},
+ {
+ "persName":
+ "Morris Gest",
+ "ref":
+ "person_15409"},
+ {
+ "persName":
+ "Hedwig Sophie Verena Gossman",
+ "ref":
+ "person_15579"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aphoristisches",
+ "ref":
+ "pmb35745"}
+ ,  {
+ "title":
+ "Der Geist im Wort und der Geist in der Tat",
+ "ref":
+ "pmb30051"}
+ ,  {
+ "title":
+ "Syd, das Mädchen für alles",
+ "ref":
+ "pmb80437"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00079081",
+ "head":
+ "Schnitzler, Arthur an Wildgans, Anton [Briefe]",
+ "text":
+ "1 Br. 1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Anton (1881-1932) Wildgans",
+ "ref":
+ "http://d-nb.info/gnd/118632841"}]
+}
+}] 

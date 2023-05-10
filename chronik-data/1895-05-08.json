@@ -1,0 +1,190 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-05-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-05-08.html",
+ "head":
+ "Tagebuch, 8. Mai 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lou Andreas-Salomé",
+ "ref":
+ "person_13196"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Olga von Golovin",
+ "ref":
+ "person_15558"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kahlenberg",
+ "ref":
+ "pmb574"}
+ ,  {
+ "placeName":
+ "Leopoldsberg",
+ "ref":
+ "pmb59364"}
+ ,  {
+ "placeName":
+ "Probst Ubald Weg",
+ "ref":
+ "pmb92464"}
+ ,  {
+ "placeName":
+ "Klosterneuburg",
+ "ref":
+ "pmb865"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00438",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00438.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, [8.? 5. 1895]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Isidor Singer",
+ "ref":
+ "pmb12790"},
+ {
+ "persName":
+ "Heinrich Kanner",
+ "ref":
+ "pmb11867"},
+ {
+ "persName":
+ "Rosa Bahr",
+ "ref":
+ "pmb13682"},
+ {
+ "persName":
+ "Adalbert von Goldschmidt",
+ "ref":
+ "pmb11491"},
+ {
+ "persName":
+ "Heinrich Müller",
+ "ref":
+ "pmb4922"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Die Zeit. Wiener Wochenschrift",
+ "ref":
+ "pmb29209"}
+ ,  {
+ "orgName":
+ "Neue Freie Presse",
+ "ref":
+ "pmb29351"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Günthergasse",
+ "ref":
+ "pmb296"}
+ ,  {
+ "placeName":
+ "Rathaus",
+ "ref":
+ "pmb373"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041173",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041173.html",
+ "head":
+ "Bahr an Schnitzler, [8.? 5. 1895]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Die Zeit. Wiener Wochenschrift",
+ "ref":
+ "pmb29209"}
+ ]
+}
+}] 

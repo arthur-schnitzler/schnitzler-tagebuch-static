@@ -1,0 +1,209 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1930-08-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-08-06.html",
+ "head":
+ "Tagebuch, 6. August 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "George Altmann",
+ "ref":
+ "person_13170"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Albert? Tugendhat",
+ "ref":
+ "person_20834"},
+ {
+ "persName":
+ "Ruth Schnitzler",
+ "ref":
+ "person_13139"},
+ {
+ "persName":
+ "Josef Wolfsthal",
+ "ref":
+ "person_21456"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die letzten Masken",
+ "ref":
+ "pmb29877"}
+ ,  {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sankt Moritz",
+ "ref":
+ "pmb44374"}
+ ,  {
+ "placeName":
+ "Pontresina",
+ "ref":
+ "pmb34946"}
+ ,  {
+ "placeName":
+ "Bernina District",
+ "ref":
+ "pmb90342"}
+ ,  {
+ "placeName":
+ "Le Prese",
+ "ref":
+ "pmb49135"}
+ ,  {
+ "placeName":
+ "Poschiavo",
+ "ref":
+ "pmb91514"}
+ ,  {
+ "placeName":
+ "Hannover",
+ "ref":
+ "pmb890"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44374/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44374/",
+ "head":
+ "Sankt Moritz"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34946/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34946/",
+ "head":
+ "Pontresina"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90342/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90342/",
+ "head":
+ "Bernina (Bezirk)"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/49135/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/49135/",
+ "head":
+ "Le Prese"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91514/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91514/",
+ "head":
+ "Poschiavo"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Suzanne Clauser, 6. 8.1930",
+ "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00069163",
+ "head":
+ "Schnitzler, Heinrich an Schnitzler, Arthur [Briefe]",
+ "text":
+ "Erstes Objekt aus der Mappe. 21 Br., 12 Ktn, davon 1 Kte an Olga Schnitzler, 1 Tel. 73 Bl., davon 2 Bl.Dr. Mit 33 Abschr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich (1902-1982) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848510"}]
+}
+}] 

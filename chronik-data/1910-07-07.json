@@ -1,0 +1,223 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-07-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-07-07.html",
+ "head":
+ "Tagebuch, 7. Juli 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Arthur Eloesser",
+ "ref":
+ "person_14730"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Margarethe Kainz",
+ "ref":
+ "person_16647"},
+ {
+ "persName":
+ "Julie Markbreiter",
+ "ref":
+ "person_17904"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "person_19828"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"},
+ {
+ "persName":
+ "Clara Jonas",
+ "ref":
+ "person_16572"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Mörderin",
+ "ref":
+ "pmb33792"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pinkenkogel",
+ "ref":
+ "pmb91482"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01942",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01942.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 7. 7. 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "pmb22728"},
+ {
+ "persName":
+ "?? [Übersetzer Deutsch zu Ungarisch]",
+ "ref":
+ "pmb40917"},
+ {
+ "persName":
+ "Louis Philipp Friedmann",
+ "ref":
+ "pmb16658"},
+ {
+ "persName":
+ "Friedrich Eckstein",
+ "ref":
+ "pmb2836"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Mirjam Beer-Hofmann",
+ "ref":
+ "pmb2668"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Schlaflied für Mirjam",
+ "ref":
+ "pmb39783"}
+ ,  {
+ "title":
+ "Die Welt in der man sich langweilt",
+ "ref":
+ "pmb40910"}
+ ,  {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Steinfeld",
+ "ref":
+ "pmb405"}
+ ,  {
+ "placeName":
+ "Ungarn",
+ "ref":
+ "pmb35512"}
+ ,  {
+ "placeName":
+ "Hotel Post",
+ "ref":
+ "pmb40440"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91735/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91735/",
+ "head":
+ "Semmering"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/413/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/413/",
+ "head":
+ "Südbahnhotel"
+}] 

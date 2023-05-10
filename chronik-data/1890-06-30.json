@@ -1,0 +1,86 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1890-06-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1890-06-30.html",
+ "head":
+ "Tagebuch, 30. Juni 1890",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Basch",
+ "ref":
+ "person_13452"},
+ {
+ "persName":
+ "Mandl",
+ "ref":
+ "person_17810"},
+ {
+ "persName":
+ "Valeska",
+ "ref":
+ "person_20910"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Baden bei Wien",
+ "ref":
+ "pmb662"}
+ ,  {
+ "placeName":
+ "Bad Vöslau",
+ "ref":
+ "pmb992"}
+ ,  {
+ "placeName":
+ "Leidingers Restauration",
+ "ref":
+ "pmb42"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00034616",
+ "head":
+ "Glümer, Marie an Schnitzler, Arthur [Briefe]",
+ "text":
+ "Letztes Objekt aus der Mappe. 36 Br., 5 Ktn 68 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie (1873-1925) Glümer",
+ "ref":
+ "http://d-nb.info/gnd/128385022"}]
+}
+}] 

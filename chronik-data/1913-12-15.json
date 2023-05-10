@@ -1,0 +1,122 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net",
+ "head":
+ "Fink und Fliederbusch, Typoskript",
+ "text":
+ "Publikation in Vorbereitung"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-12-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-12-15.html",
+ "head":
+ "Tagebuch, 15. Dezember 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eberhard Buchner",
+ "ref":
+ "person_14042"},
+ {
+ "persName":
+ "Erwin Lang",
+ "ref":
+ "person_17295"},
+ {
+ "persName":
+ "G. Lenotre",
+ "ref":
+ "person_17440"},
+ {
+ "persName":
+ "Emil Orlik",
+ "ref":
+ "person_18576"},
+ {
+ "persName":
+ "Robert Roseeu",
+ "ref":
+ "person_19353"},
+ {
+ "persName":
+ "Josef von Schey-Koromla",
+ "ref":
+ "person_19669"},
+ {
+ "persName":
+ "Grethe Wiesenthal",
+ "ref":
+ "person_21312"},
+ {
+ "persName":
+ "Anna Cäcilia Schindler",
+ "ref":
+ "person_19701"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Edgar von Spiegl-Thurnsee",
+ "ref":
+ "person_20255"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Das Neueste von gestern",
+ "ref":
+ "pmb80254"}
+ ,  {
+ "title":
+ "La guillotine et les exécuteurs des arrêts criminels pendant la Révolution",
+ "ref":
+ "pmb30865"}
+ ,  {
+ "title":
+ "Arthur Schnitzler",
+ "ref":
+ "pmb81207"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

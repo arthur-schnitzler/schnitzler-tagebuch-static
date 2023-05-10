@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-05-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-05-02.html",
+ "head":
+ "Tagebuch, 2. Mai 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Egbertje Alida Brevée",
+ "ref":
+ "person_13969"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "person_20509"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Don Quixote op. 35",
+ "ref":
+ "pmb76839"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bratislava",
+ "ref":
+ "pmb39615"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

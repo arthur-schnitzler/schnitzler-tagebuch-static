@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-09-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-09-11.html",
+ "head":
+ "Tagebuch, 11. September 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pass Lueg",
+ "ref":
+ "pmb91173"}
+ ,  {
+ "placeName":
+ "Fuschl am See",
+ "ref":
+ "pmb90679"}
+ ,  {
+ "placeName":
+ "Scharfling",
+ "ref":
+ "pmb91671"}
+ ,  {
+ "placeName":
+ "Fürberg",
+ "ref":
+ "pmb40276"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91173/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91173/",
+ "head":
+ "Pass Lueg"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/824/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/824/",
+ "head":
+ "Hotel und Pension Lueg"
+}] 

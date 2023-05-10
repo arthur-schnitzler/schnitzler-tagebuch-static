@@ -1,0 +1,195 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1891-06-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-06-21.html",
+ "head":
+ "Tagebuch, 21. Juni 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred Friedmann",
+ "ref":
+ "person_15227"},
+ {
+ "persName":
+ "Franz Ferdinand Heitmüller",
+ "ref":
+ "person_16055"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Maximilian Singer",
+ "ref":
+ "person_20137"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Alexandrine von Holmblad",
+ "ref":
+ "person_16320"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Hieroglyphen des Lebens. Novellen und Skizzen",
+ "ref":
+ "pmb61767"}
+ ,  {
+ "title":
+ "Das Medeabild. Drama in einem Aufzuge",
+ "ref":
+ "pmb61800"}
+ ,  {
+ "title":
+ "Professor Sylvan’s junge Ehe und andere Novellen",
+ "ref":
+ "pmb61781"}
+ ,  {
+ "title":
+ "Der Friedensengel. Schauspiel in einem Aufzuge",
+ "ref":
+ "pmb31901"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00020",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00020.html",
+ "head":
+ "Fedor Mamroth an Arthur Schnitzler, 21. 6. 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Fedor Mamroth",
+ "ref":
+ "pmb4986"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Karl Bleibtreu",
+ "ref":
+ "pmb14281"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die drei Elixire",
+ "ref":
+ "pmb31965"}
+ ,  {
+ "title":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb36344"}
+ ,  {
+ "title":
+ "Freie Bühne für modernes Leben",
+ "ref":
+ "pmb36149"}
+ ,  {
+ "title":
+ "Dies Irae. Erinnerungen eines französischen Offiziers an die Tage von Sedan",
+ "ref":
+ "pmb42702"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ,  {
+ "orgName":
+ "L’Écho de Paris",
+ "ref":
+ "pmb34980"}
+ ,  {
+ "orgName":
+ "Gil Blas",
+ "ref":
+ "pmb34982"}
+ ,  {
+ "orgName":
+ "Carl Krabbe",
+ "ref":
+ "pmb29465"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Brüssel",
+ "ref":
+ "pmb862"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,62 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1902-12-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-12-09.html",
+ "head":
+ "Tagebuch, 9. Dezember 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermine von Schaffgotsch",
+ "ref":
+ "person_19611"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Alkandi’s Lied",
+ "ref":
+ "pmb31637"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#wbbaa189-e228-4270-9326-f15d55d5a5c5",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Otto Borchsenius, 9.12.1902",
+ "source":
+ "Ernst-Ullrich Pinkert: Arthur Schnitzlers Briefe nach Dänemark. Roskilde: Roskilde Universitet 2006. (Småskrifter fra CØNK, 19)"
+}] 

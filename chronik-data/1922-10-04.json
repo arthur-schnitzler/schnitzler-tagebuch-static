@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-10-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-10-04.html",
+ "head":
+ "Tagebuch, 4. Oktober 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Helene Binder",
+ "ref":
+ "person_13733"},
+ {
+ "persName":
+ "Sybille Binder",
+ "ref":
+ "person_13735"},
+ {
+ "persName":
+ "Erich Wolfgang Korngold",
+ "ref":
+ "person_17058"},
+ {
+ "persName":
+ "Hilda Milkó",
+ "ref":
+ "person_18164"},
+ {
+ "persName":
+ "Hans Müller",
+ "ref":
+ "person_18297"},
+ {
+ "persName":
+ "Wilhelm Stekel",
+ "ref":
+ "person_20392"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fidelio op. 72",
+ "ref":
+ "pmb77145"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 04. Oktober 1922",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

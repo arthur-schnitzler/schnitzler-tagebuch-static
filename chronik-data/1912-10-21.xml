@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1912-10-21">Montag, 21. Oktober 1912</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1912-10-21">
+               <head>Die Schwestern oder Casanova in Spa, Typoskript</head>
+               <desc>Publikation in Vorbereitung</desc>
+               <idno type="Arthur-Schnitzler-digital">https://www.schnitzler-edition.net</idno>
+            </event>
+            <event when-iso="1912-10-21">
+               <head>Tagebuch, 21. Oktober 1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13359">Stefanie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18884">Jacob Pollak</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20204">Adolf von Sonnenthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13723">Richard von Bienerth-Schmerling</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14216">Franz Josef von Cischini</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15483">Heinrich Glücksmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31357">Episode</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30971">Casanovas Heimfahrt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb35802">Ein Glas zu viel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30819">Die Schwestern oder Casanova in Spa. Lustspiel in Versen</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-10-21.html</idno>
+            </event>
+            <event when-iso="1912-10-21">
+               <head>Karin Michaëlis an Arthur Schnitzler, 21. 10. 1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb4408">Karin Michaëlis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2357">Peter Nansen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24658">Eugenie Schwarzwald</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb36300">Kopenhagen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51915">Josefstädter Straße</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02582.html</idno>
+            </event>
+            <event when-iso="1912-10-21">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1912-10-21">
+               <head>Karin Michaëlis an Arthur Schnitzler, 21.10.1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/11539396X">Michaëlis, Karin</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Peter Nansen -
+                    Arthur Schnitzler: Ein Briefwechsel zweier Geistsverwandter. Hg. Karin Bang. In:
+                    Småskrifter fra CØNK, Nr. 9, 2005, S. 1-60.
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#z7240971-fbf6-453b-9f97-eb6aaa8f59ae"/>
+            </event>
+            <event when-iso="1912-10-21">
+               <head>Michaëlis, Karin an Schnitzler, Arthur [Briefe]</head>
+               <desc>2 Bl.<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/11539396X">Michaëlis, Karin (1872-1950)</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00040492</idno>
+            </event>
+            <event when-iso="1912-10-21">
+               <head>Schnitzler, Arthur: Die Sängerin [Dramatisches] (Manuskripttitel)</head>
+               <desc>15 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00080487</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

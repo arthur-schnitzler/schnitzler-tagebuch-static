@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-05-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-05-13.html",
+ "head":
+ "Tagebuch, 13. Mai 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Max Duschnitz",
+ "ref":
+ "person_14573"},
+ {
+ "persName":
+ "Heinrich Lilienfein",
+ "ref":
+ "person_17548"},
+ {
+ "persName":
+ "Helene Piekarski",
+ "ref":
+ "person_18786"},
+ {
+ "persName":
+ "Ernst Prinzhorn",
+ "ref":
+ "person_18971"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Karl Schönherr",
+ "ref":
+ "person_19850"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"},
+ {
+ "persName":
+ "Elisabeth von Landesberger",
+ "ref":
+ "person_20543"},
+ {
+ "persName":
+ "Otto Tressler",
+ "ref":
+ "person_20803"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Hildebrand",
+ "ref":
+ "pmb31619"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Niš",
+ "ref":
+ "pmb91354"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

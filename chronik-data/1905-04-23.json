@@ -1,0 +1,95 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/WUR_DJ_0001",
+ "head":
+ "Zum großen Wurstel, Journaldruck"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-04-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-04-23.html",
+ "head":
+ "Tagebuch, 23. April 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Dora Erl",
+ "ref":
+ "person_14792"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das neue Lied",
+ "ref":
+ "pmb30655"}
+ ,  {
+ "title":
+ "Zum großen Wurstel",
+ "ref":
+ "pmb29951"}
+ ,  {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00050835",
+ "head":
+ "Schnitzler, Arthur an Schnitzler, Olga [Briefe]",
+ "text":
+ "Erstes Objekt aus der Mappe. 12 Br., 3 Ktn, 10 Tel. 49 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga (1882-1970) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848723"}]
+}
+}] 

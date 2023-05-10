@@ -1,0 +1,81 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1890-03-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1890-03-06.html",
+ "head":
+ "Tagebuch, 6. März 1890",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Alfred Nossig",
+ "ref":
+ "person_18483"},
+ {
+ "persName":
+ "Ludwig Gelber",
+ "ref":
+ "person_15376"},
+ {
+ "persName":
+ "Clemens Sokal",
+ "ref":
+ "person_20186"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00036255",
+ "head":
+ "Unbekannt an Heeger, Jeanette [Briefe]",
+ "text":
+ "2 Bl. Mit 1 Umschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jeanette (1865-1903) Heeger",
+ "ref":
+ "http://d-nb.info/gnd/105081309X"}]
+}
+}] 

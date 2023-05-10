@@ -1,0 +1,155 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-08-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-08-25.html",
+ "head":
+ "Tagebuch, 25. August 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franz Salvator",
+ "ref":
+ "person_15151"},
+ {
+ "persName":
+ "Gisela Frid",
+ "ref":
+ "person_15193"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "person_17108"},
+ {
+ "persName":
+ "Hans Markbreiter",
+ "ref":
+ "person_17902"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Eugen Steinach",
+ "ref":
+ "person_20358"},
+ {
+ "persName":
+ "Elsa von Thurn-Valsássina",
+ "ref":
+ "person_20739"},
+ {
+ "persName":
+ "Gabriele von Wydenbruck",
+ "ref":
+ "person_21483"},
+ {
+ "persName":
+ "Julius Bittner",
+ "ref":
+ "person_13754"},
+ {
+ "persName":
+ "Margot Vallo",
+ "ref":
+ "person_16894"},
+ {
+ "persName":
+ "Klementine von Ružičić",
+ "ref":
+ "person_19482"},
+ {
+ "persName":
+ "Maria von Wydenbruck",
+ "ref":
+ "person_21484"},
+ {
+ "persName":
+ "Rudolf Dusch",
+ "ref":
+ "person_14570"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Eduard Vallo",
+ "ref":
+ "person_20915"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Der Schwierige. Lustspiel in drei Akten",
+ "ref":
+ "pmb39855"}
+ ,  {
+ "title":
+ "Die Fackel",
+ "ref":
+ "pmb41244"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Altaussee",
+ "ref":
+ "pmb90229"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Hedy Kempny, 25.8.1920",
+ "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}] 

@@ -1,0 +1,157 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-09-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-09-23.html",
+ "head":
+ "Tagebuch, 23. September 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "",
+ "ref":
+ "person_14790"},
+ {
+ "persName":
+ "Bertha Bauer",
+ "ref":
+ "person_19275"},
+ {
+ "persName":
+ "Marino Angelo von Rinaldini",
+ "ref":
+ "person_19277"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Breitenstein am Semmering",
+ "ref":
+ "pmb36503"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91735/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91735/",
+ "head":
+ "Semmering"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041479",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041479.html",
+ "head":
+ "Aufzeichnung von Bahr, 23. 9. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Egbert Johannes Drugulin",
+ "ref":
+ "pmb3638"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "pmb12948"},
+ {
+ "persName":
+ "Friedrich von Schlegel",
+ "ref":
+ "pmb12668"},
+ {
+ "persName":
+ "Paul Anton de Lagarde",
+ "ref":
+ "pmb3641"},
+ {
+ "persName":
+ "Eduard Mörike",
+ "ref":
+ "pmb12323"},
+ {
+ "persName":
+ "Alexander von der Marwitz",
+ "ref":
+ "pmb3644"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Rosmersholm. Schauspiel in vier Akten von Henrik Ibsen. Neu inszeniert im Deutschen Volkstheater am 21. September 1905",
+ "ref":
+ "pmb31179"}
+ ,  {
+ "title":
+ "Rosmersholm",
+ "ref":
+ "pmb29955"}
+ ,  {
+ "title":
+ "Der Klub der Erlöser",
+ "ref":
+ "pmb29907"}
+ ,  {
+ "title":
+ "Die Verschwörung des Fiesko zu Genua",
+ "ref":
+ "pmb31181"}
+ ,  {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Fragmente und Ideen",
+ "ref":
+ "pmb31183"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}] 

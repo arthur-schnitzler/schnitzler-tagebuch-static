@@ -1,0 +1,254 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1897-07-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-07-13.html",
+ "head":
+ "Tagebuch, 13. Juli 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Altmann",
+ "ref":
+ "person_13175"},
+ {
+ "persName":
+ "Rosa Freudenthal",
+ "ref":
+ "person_15178"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Andermatt",
+ "ref":
+ "pmb49079"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00701",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00701.html",
+ "head":
+ "Georg Brandes an Arthur Schnitzler, [13. 7. 1897]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"},
+ {
+ "persName":
+ "William Shakespeare",
+ "ref":
+ "pmb2412"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "William Shakespeare",
+ "ref":
+ "pmb32159"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Dänemark",
+ "ref":
+ "pmb43570"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02817",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02817.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 13. 7. [1897]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Leopold Sonnemann",
+ "ref":
+ "pmb87771"},
+ {
+ "persName":
+ "Félix Faure",
+ "ref":
+ "pmb57436"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "pmb2378"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Parsifal",
+ "ref":
+ "pmb33031"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ,  {
+ "orgName":
+ "Bayreuther Festspiele",
+ "ref":
+ "pmb29811"}
+ ,  {
+ "orgName":
+ "Houghton Library",
+ "ref":
+ "pmb29616"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "rue de la Bourse",
+ "ref":
+ "pmb43397"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ,  {
+ "placeName":
+ "Bayreuth",
+ "ref":
+ "pmb734"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Südtirol",
+ "ref":
+ "pmb969"}
+ ,  {
+ "placeName":
+ "Andermatt",
+ "ref":
+ "pmb49079"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/414/",
+ "head":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d2b0f559-bde7-4114-82b9-741a8810c463",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Olga Waissnix an Arthur Schnitzler, 13.7.1897",
+ "source":
+ "Arthur Schnitzler und Waissnix, Olga: Liebe, die starb vor der Zeit. Ein Briefwechsel. Mit einem Vorwort von Hans Weigel. Mit 16 Seiten Kunstdruckbildern. Hg. v. Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)"
+}] 

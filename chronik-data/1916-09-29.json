@@ -1,0 +1,65 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1916-09-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-09-29.html",
+ "head":
+ "Tagebuch, 29. September 1916",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Gmunden",
+ "ref":
+ "pmb874"}
+ ,  {
+ "placeName":
+ "Traun",
+ "ref":
+ "pmb91926"}
+ ,  {
+ "placeName":
+ "Lambach",
+ "ref":
+ "pmb91105"}
+ ,  {
+ "placeName":
+ "Linz",
+ "ref":
+ "pmb91153"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/874/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/874/",
+ "head":
+ "Gmunden"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91153/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91153/",
+ "head":
+ "Linz"
+}] 

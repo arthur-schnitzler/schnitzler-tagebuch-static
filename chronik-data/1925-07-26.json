@@ -1,0 +1,100 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-07-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-07-26.html",
+ "head":
+ "Tagebuch, 26. Juli 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ernst Benedikt",
+ "ref":
+ "person_13589"},
+ {
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "person_13920"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Paula Schmidl",
+ "ref":
+ "person_19756"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Geist im Wort und der Geist in der Tat",
+ "ref":
+ "pmb30051"}
+ ,  {
+ "title":
+ "Traumnovelle",
+ "ref":
+ "pmb30851"}
+ ,  {
+ "title":
+ "Caius Iulius Caesar",
+ "ref":
+ "pmb76808"}
+ ,  {
+ "title":
+ "Der ewige Student",
+ "ref":
+ "pmb78322"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Grinzing",
+ "ref":
+ "pmb90771"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#v02efeb3-b382-4ed8-a71f-1366a4647e76",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Raoul Auernheimer an Arthur Schnitzler, 26.7.1925",
+ "source":
+ "The Correspondence of Arthur Schnitzler and Raoul Auernheimer with Raoul Auernheimer’s Aphorism. Edited with introduction and notes by Donald G. Daviau and Jorun B. Johns. Chapel Hill: The University of North Carolina Press, 1972 (University of North Carolina Studies in the Germanic Languages and Literatures, 73)."
+}] 

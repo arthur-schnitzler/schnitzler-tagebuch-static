@@ -1,0 +1,108 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1931-03-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-03-27.html",
+ "head":
+ "Tagebuch, 27. März 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans Altmann",
+ "ref":
+ "person_13171"},
+ {
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Christiane von Klein-Wisenberg",
+ "ref":
+ "person_16898"},
+ {
+ "persName":
+ "Ernst Lubitsch",
+ "ref":
+ "person_17711"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Monte Carlo",
+ "ref":
+ "pmb80933"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "VI., Mariahilf",
+ "ref":
+ "pmb56"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/56/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/56/",
+ "head":
+ "VI., Mariahilf"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp895",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp895.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 24.–31. März 1931"
+}] 

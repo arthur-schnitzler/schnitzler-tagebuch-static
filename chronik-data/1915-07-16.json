@@ -1,0 +1,132 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-07-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-07-16.html",
+ "head":
+ "Tagebuch, 16. Juli 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "G. Lenotre",
+ "ref":
+ "person_17440"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Casanovas Heimfahrt",
+ "ref":
+ "pmb30971"}
+ ,  {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Vieilles maisons, vieux papiers",
+ "ref":
+ "pmb77029"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02215",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02215.html",
+ "head":
+ "Robert Adam an Arthur Schnitzler, 16. 7. 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Gesellschaft [Eine Gaunerkomödie]",
+ "ref":
+ "pmb33628"}
+ ,  {
+ "title":
+ "Sprüche",
+ "ref":
+ "pmb33648"}
+ ,  {
+ "title":
+ "Die Fackel",
+ "ref":
+ "pmb41244"}
+ ,  {
+ "title":
+ "Rechtsphilosophie",
+ "ref":
+ "pmb33650"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Zistersdorf",
+ "ref":
+ "pmb44400"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

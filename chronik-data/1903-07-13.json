@@ -1,0 +1,197 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-07-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-07-13.html",
+ "head":
+ "Tagebuch, 13. Juli 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Adolf Lantz",
+ "ref":
+ "person_17324"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Mirjam Horwitz",
+ "ref":
+ "person_21546"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salmannsdorf",
+ "ref":
+ "pmb91641"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01302",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01302.html",
+ "head":
+ "Arthur Schnitzler an Hermann Bahr, 1[3]. 7. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Dialog vom Tragischen",
+ "ref":
+ "pmb29895"}
+ ,  {
+ "title":
+ "Die neue Rundschau",
+ "ref":
+ "pmb36156"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01303",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01303.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 13. 7. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Liesingerstraße",
+ "ref":
+ "pmb40101"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041058",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041058.html",
+ "head":
+ "Schnitzler an Bahr, 1[3]. 7. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Dialog vom Tragischen",
+ "ref":
+ "pmb29895"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neue Rundschau, Neue Deutsche Rundschau, Freie Bühne",
+ "ref":
+ "pmb29212"}
+ ]
+}
+}] 

@@ -1,0 +1,69 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-03-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-03-09.html",
+ "head":
+ "Tagebuch, 9. März 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred Bernau",
+ "ref":
+ "person_13663"},
+ {
+ "persName":
+ "Annie Oppelt",
+ "ref":
+ "person_18560"},
+ {
+ "persName":
+ "Gertrude Felice von Landesberger",
+ "ref":
+ "person_19227"},
+ {
+ "persName":
+ "Friedrich Rosenthal",
+ "ref":
+ "person_19392"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ungarn",
+ "ref":
+ "pmb35512"}
+ ,  {
+ "placeName":
+ "Arad",
+ "ref":
+ "pmb45359"}
+ ,  {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

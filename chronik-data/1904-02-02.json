@@ -1,0 +1,282 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-02-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-02-02.html",
+ "head":
+ "Tagebuch, 2. Februar 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "person_16292"},
+ {
+ "persName":
+ "Edgar von Karg-Bebenburg",
+ "ref":
+ "person_16717"},
+ {
+ "persName":
+ "Anna Roussel",
+ "ref":
+ "person_19440"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Raoul Markbreiter",
+ "ref":
+ "person_17909"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Neuwaldegg",
+ "ref":
+ "pmb170"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041639",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041639.html",
+ "head":
+ "Siegfried Trebitsch an Bahr, 2. 2. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "pmb12968"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Agnes Sorma",
+ "ref":
+ "pmb2299"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "pmb12504"},
+ {
+ "persName":
+ "Raphael Löwenfeld",
+ "ref":
+ "pmb12140"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Schwester Beatrix",
+ "ref":
+ "pmb32288"}
+ ,  {
+ "title":
+ "Candida",
+ "ref":
+ "pmb30645"}
+ ,  {
+ "title":
+ "Der Star",
+ "ref":
+ "pmb30127"}
+ ,  {
+ "title":
+ "Die Weber. Schauspiel aus den vierziger Jahren",
+ "ref":
+ "pmb29827"}
+ ,  {
+ "title":
+ "Der Meister",
+ "ref":
+ "pmb29983"}
+ ,  {
+ "title":
+ "Das Thal des Lebens",
+ "ref":
+ "pmb32282"}
+ ,  {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Marbach am Bodensee",
+ "ref":
+ "pmb218"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Theater an der Wien",
+ "ref":
+ "pmb37"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041226",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041226.html",
+ "head":
+ "Tagebuch von Schnitzler, 2. 2. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"},
+ {
+ "persName":
+ "Raoul Markbreiter",
+ "ref":
+ "pmb21050"},
+ {
+ "persName":
+ "Anna Roussel",
+ "ref":
+ "pmb23686"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Edgar von Karg-Bebenburg",
+ "ref":
+ "pmb2219"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Neuwaldegg",
+ "ref":
+ "pmb170"}
+ ]
+}
+}] 

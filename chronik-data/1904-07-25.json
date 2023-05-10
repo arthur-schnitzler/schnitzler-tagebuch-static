@@ -1,0 +1,175 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-07-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-07-25.html",
+ "head":
+ "Tagebuch, 25. Juli 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01418",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01418.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, [24./25.?] 7. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "pmb11461"},
+ {
+ "persName":
+ "Friedrich von Schiller",
+ "ref":
+ "pmb12654"},
+ {
+ "persName":
+ "Hugo August von Hofmannsthal",
+ "ref":
+ "pmb11737"},
+ {
+ "persName":
+ "Pedro Calderón de la Barca",
+ "ref":
+ "pmb11068"},
+ {
+ "persName":
+ "Euripides",
+ "ref":
+ "pmb4107"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Briefwechsel zwischen Schiller und Goethe",
+ "ref":
+ "pmb32408"}
+ ,  {
+ "title":
+ "Linzer Tages-Post",
+ "ref":
+ "pmb40232"}
+ ,  {
+ "title":
+ "Das gerettete Venedig. Trauerspiel in fünf Aufzügen",
+ "ref":
+ "pmb31091"}
+ ,  {
+ "title":
+ "Der Turm. Ein Trauerspiel",
+ "ref":
+ "pmb33722"}
+ ,  {
+ "title":
+ "Pentheus. Trauerspiel in zwei Aufzügen",
+ "ref":
+ "pmb41626"}
+ ,  {
+ "title":
+ "Die Bakchen",
+ "ref":
+ "pmb32111"}
+ ,  {
+ "title":
+ "Orest in Delphi",
+ "ref":
+ "pmb41628"}
+ ,  {
+ "title":
+ "Elektra. Tragödie in einem Aufzug",
+ "ref":
+ "pmb30633"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "S. Fischer Verlag",
+ "ref":
+ "pmb29639"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Fusch",
+ "ref":
+ "pmb573"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Ramgut",
+ "ref":
+ "pmb656"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

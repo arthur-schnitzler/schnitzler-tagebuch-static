@@ -1,0 +1,77 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1897-03-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-03-30.html",
+ "head":
+ "Tagebuch, 30. März 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Erich Hartleben",
+ "ref":
+ "person_15941"},
+ {
+ "persName":
+ "Toni",
+ "ref":
+ "person_20777"},
+ {
+ "persName":
+ "Pepi Wagner",
+ "ref":
+ "person_21032"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Ein angenehmer Gast",
+ "ref":
+ "pmb77462"}
+ ,  {
+ "title":
+ "Die sittliche Forderung",
+ "ref":
+ "pmb77481"}
+ ,  {
+ "title":
+ "Hoeï-lan-ki",
+ "ref":
+ "pmb76981"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

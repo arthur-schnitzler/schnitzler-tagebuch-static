@@ -1,0 +1,92 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-05-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-05-12.html",
+ "head":
+ "Tagebuch, 12. Mai 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Else Speidel-Haeberle",
+ "ref":
+ "person_15833"},
+ {
+ "persName":
+ "von Pollak",
+ "ref":
+ "person_18872"},
+ {
+ "persName":
+ "Franz Otto Schmid",
+ "ref":
+ "person_19751"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Leonoren-Ouvertüre Nr. 2 C-Dur op. 72",
+ "ref":
+ "pmb77162"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00086228",
+ "head":
+ "Schnitzler, Arthur: Quittung einer Postanweisung [Dokumente] (Titel von Bearbeiter/in)",
+ "text":
+ "1 Bl."
+}] 

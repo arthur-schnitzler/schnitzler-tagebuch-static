@@ -1,0 +1,118 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1929-08-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-08-15.html",
+ "head":
+ "Tagebuch, 15. August 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Sol Liptzin",
+ "ref":
+ "person_17586"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Igor F. Strawinsky",
+ "ref":
+ "person_20512"},
+ {
+ "persName":
+ "Otto Paul Schinnerer",
+ "ref":
+ "person_19704"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Dreigroschenoper",
+ "ref":
+ "pmb53718"}
+ ,  {
+ "title":
+ "Pulcinella",
+ "ref":
+ "pmb81377"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Krems",
+ "ref":
+ "pmb36545"}
+ ,  {
+ "placeName":
+ "Gaming",
+ "ref":
+ "pmb90689"}
+ ,  {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp712",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp712.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 8.–17. August 1929"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Hedy Kempny an Arthur Schnitzler, 15.8.1929",
+ "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}] 

@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-03-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-03-27.html",
+ "head":
+ "Tagebuch, 27. März 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Peter Anninger",
+ "ref":
+ "person_13220"},
+ {
+ "persName":
+ "Victor Anninger",
+ "ref":
+ "person_13221"},
+ {
+ "persName":
+ "Eugenie Bachrach",
+ "ref":
+ "person_13355"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Franz Josef Lichtenstern",
+ "ref":
+ "person_17507"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Max Leitner",
+ "ref":
+ "person_17425"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reichtum. Erzählung",
+ "ref":
+ "pmb30277"}
+ ,  {
+ "title":
+ "Der Hund von Florenz",
+ "ref":
+ "pmb76509"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Sommerhaidenweg",
+ "ref":
+ "pmb243"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

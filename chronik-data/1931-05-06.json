@@ -1,0 +1,170 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1931-05-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-05-06.html",
+ "head":
+ "Tagebuch, 6. Mai 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"},
+ {
+ "persName":
+ "Hubert Clauser",
+ "ref":
+ "person_14231"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"},
+ {
+ "persName":
+ "Elisabeth Melanie von Gans-Ludassy",
+ "ref":
+ "person_15337"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp905",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp905.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 4.–6. Mai 1931"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp906",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp906.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 6. Mai 1931"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00069192",
+ "head":
+ "Schnitzler, Heinrich an Schnitzler, Arthur [Briefe]",
+ "text":
+ "Erstes Objekt aus der Mappe. 19 Br., davon 1 Vis.kte, 7 Ktn, 2 Tel. 52 Bl. Mit 28 Abschr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich (1902-1982) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848510"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00044450",
+ "head":
+ "Schnitzler, Arthur an Adler, Sigmund [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00048332",
+ "head":
+ "Schnitzler, Arthur an R. Piper und Co. &lt;München&gt; [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "R. Piper und Co. &lt;München&gt;",
+ "ref":
+ "http://d-nb.info/gnd/25993-7"}]
+}
+}] 

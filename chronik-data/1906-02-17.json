@@ -1,0 +1,62 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1906-02-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-02-17.html",
+ "head":
+ "Tagebuch, 17. Februar 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Anton Erl",
+ "ref":
+ "person_14791"},
+ {
+ "persName":
+ "Ernst von Schuch",
+ "ref":
+ "person_19906"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "person_20509"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Salome op. 54",
+ "ref":
+ "pmb76845"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Dresden",
+ "ref":
+ "pmb90550"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90550/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90550/",
+ "head":
+ "Dresden"
+}] 

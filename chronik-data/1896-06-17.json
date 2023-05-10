@@ -1,0 +1,59 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-06-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-06-17.html",
+ "head":
+ "Tagebuch, 17. Juni 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Irmgard Kaufmann",
+ "ref":
+ "person_16449"},
+ {
+ "persName":
+ "Rudolf Kaufmann",
+ "ref":
+ "person_16777"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Altaussee",
+ "ref":
+ "pmb90229"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

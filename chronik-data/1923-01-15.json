@@ -1,0 +1,203 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/ELS_H1_0091",
+ "head":
+ "Fräulein Else, hsl. Werkniederschrift, 15.01.1923, 28.01.1923, 29.01.1923 o.
+            30.01.1923"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-01-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-01-15.html",
+ "head":
+ "Tagebuch, 15. Januar 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ferdinand Kende",
+ "ref":
+ "person_16811"},
+ {
+ "persName":
+ "Robert Lichtenstern",
+ "ref":
+ "person_17509"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fräulein Else",
+ "ref":
+ "pmb29941"}
+ ,  {
+ "title":
+ "Die Frau des Richters. Novelle",
+ "ref":
+ "pmb30751"}
+ ,  {
+ "title":
+ "Traumnovelle",
+ "ref":
+ "pmb30851"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02395",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02395.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, 15. 1. 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Heinrich Noren",
+ "ref":
+ "pmb22001"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "pmb12870"},
+ {
+ "persName":
+ "Bruno Walter",
+ "ref":
+ "pmb13041"},
+ {
+ "persName":
+ "Franz Schalk",
+ "ref":
+ "pmb12630"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "pmb12504"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "Das Salzburger große Welttheater",
+ "ref":
+ "pmb30839"}
+ ,  {
+ "title":
+ "Vienna Letter",
+ "ref":
+ "pmb41299"}
+ ,  {
+ "title":
+ "Vienna Letter",
+ "ref":
+ "pmb41302"}
+ ,  {
+ "title":
+ "The Dial",
+ "ref":
+ "pmb41296"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Staatsoper",
+ "ref":
+ "pmb36687"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Kollegienkirche (Salzburg)",
+ "ref":
+ "pmb48407"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00045372",
+ "head":
+ "Schnitzler, Arthur an Formes-Königswarter, Margarethe [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00074136",
+ "head":
+ "Treichler, H. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "3 Bl."
+}] 

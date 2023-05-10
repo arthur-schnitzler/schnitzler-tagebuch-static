@@ -1,0 +1,116 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1902-12-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-12-18.html",
+ "head":
+ "Tagebuch, 18. Dezember 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Louise Dumont",
+ "ref":
+ "person_14550"},
+ {
+ "persName":
+ "Arthur Klein",
+ "ref":
+ "person_16880"},
+ {
+ "persName":
+ "Wilhelmine Sandrock",
+ "ref":
+ "person_19568"},
+ {
+ "persName":
+ "Julius Upřimny",
+ "ref":
+ "person_20887"},
+ {
+ "persName":
+ "Jakob Schreiner",
+ "ref":
+ "person_19884"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"},
+ {
+ "persName":
+ "Hermann Sudermann",
+ "ref":
+ "person_20563"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01257",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01257.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 18. 12. 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Frankgasse",
+ "ref":
+ "pmb397"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

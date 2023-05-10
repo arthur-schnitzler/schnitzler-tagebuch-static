@@ -1,0 +1,366 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-01-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-01-27.html",
+ "head":
+ "Tagebuch, 27. Januar 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Hebbel",
+ "ref":
+ "person_16009"},
+ {
+ "persName":
+ "Emmanuel de Las Cases",
+ "ref":
+ "person_17335"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebücher",
+ "ref":
+ "pmb30609"}
+ ,  {
+ "title":
+ "Die Gespräche der Aloisia Sigaea",
+ "ref":
+ "pmb81007"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01365",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01365.html",
+ "head":
+ "Arthur Schnitzler an Hermann Bahr, 27. 1. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "pmb11324"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Wangen im Allgäu",
+ "ref":
+ "pmb846"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Radolfzell am Bodensee",
+ "ref":
+ "pmb845"}
+ ,  {
+ "placeName":
+ "Sanatorium Schloss Marbach am Bodensee",
+ "ref":
+ "pmb219"}
+ ,  {
+ "placeName":
+ "Marbach am Bodensee",
+ "ref":
+ "pmb218"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041641",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041641.html",
+ "head":
+ "Siegfried Trebitsch an Bahr, [zwischen 27. und 30. 1. 1904]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "pmb12968"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Agnes Sorma",
+ "ref":
+ "pmb2299"},
+ {
+ "persName":
+ "George Bernard Shaw",
+ "ref":
+ "pmb2381"},
+ {
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "pmb10883"},
+ {
+ "persName":
+ "Raphael Löwenfeld",
+ "ref":
+ "pmb12140"},
+ {
+ "persName":
+ "Napoleon Bonaparte",
+ "ref":
+ "pmb4769"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "pmb12504"},
+ {
+ "persName":
+ "Richard Vallentin",
+ "ref":
+ "pmb2235"},
+ {
+ "persName":
+ "Josef Giampietro",
+ "ref":
+ "pmb2847"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Felix Dörmann",
+ "ref":
+ "pmb2425"},
+ {
+ "persName":
+ "Arthur Kahane",
+ "ref":
+ "pmb3025"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Star",
+ "ref":
+ "pmb30127"}
+ ,  {
+ "title":
+ "Der Schlachtenlenker",
+ "ref":
+ "pmb29841"}
+ ,  {
+ "title":
+ "Der Meister",
+ "ref":
+ "pmb29983"}
+ ,  {
+ "title":
+ "Wienerinnen",
+ "ref":
+ "pmb29885"}
+ ,  {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ,  {
+ "title":
+ "Zapfenstreich",
+ "ref":
+ "pmb32306"}
+ ,  {
+ "title":
+ "Novella d’Andrea",
+ "ref":
+ "pmb29981"}
+ ,  {
+ "title":
+ "Der Herr von Abadessa",
+ "ref":
+ "pmb29989"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Marbach am Bodensee",
+ "ref":
+ "pmb218"}
+ ,  {
+ "placeName":
+ "Rankestraße",
+ "ref":
+ "pmb771"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041069",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041069.html",
+ "head":
+ "Schnitzler an Bahr, 27. 1. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "pmb11324"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Radolfzell am Bodensee",
+ "ref":
+ "pmb845"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Wangen im Allgäu",
+ "ref":
+ "pmb846"}
+ ,  {
+ "placeName":
+ "Sanatorium Schloss Marbach am Bodensee",
+ "ref":
+ "pmb219"}
+ ,  {
+ "placeName":
+ "Marbach am Bodensee",
+ "ref":
+ "pmb218"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 27.1.1904",
+ "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}] 

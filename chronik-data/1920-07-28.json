@@ -1,0 +1,115 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-07-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-07-28.html",
+ "head":
+ "Tagebuch, 28. Juli 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustav Landauer",
+ "ref":
+ "person_17272"},
+ {
+ "persName":
+ "Victor Panin",
+ "ref":
+ "person_18651"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Revolutionsbriefe",
+ "ref":
+ "pmb78956"}
+ ,  {
+ "title":
+ "Die schwere Stunde",
+ "ref":
+ "pmb79988"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/483/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/483/",
+ "head":
+ "Reichenau an der Rax"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44982/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44982/",
+ "head":
+ "Kurhaus Rudolfsbad"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043269",
+ "head":
+ "Silberer, Rose an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Br., 1 Kte 4 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rose (1893-1942) Silberer",
+ "ref":
+ "http://d-nb.info/gnd/138213437"}]
+}
+}] 

@@ -1,0 +1,97 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-12-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-12-27.html",
+ "head":
+ "Tagebuch, 27. Dezember 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Moriz Benedikt",
+ "ref":
+ "person_13595"},
+ {
+ "persName":
+ "Paul Eger",
+ "ref":
+ "person_14626"},
+ {
+ "persName":
+ "Emil von Jettel-Ettenach",
+ "ref":
+ "person_16551"},
+ {
+ "persName":
+ "Leon Kellner",
+ "ref":
+ "person_16801"},
+ {
+ "persName":
+ "Emma Löwenstamm",
+ "ref":
+ "person_17650"},
+ {
+ "persName":
+ "Nathan Rosenblatt",
+ "ref":
+ "person_19380"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "person_20714"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Flucht in die Finsternis",
+ "ref":
+ "pmb30863"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Darmstadt",
+ "ref":
+ "pmb834"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ,  {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

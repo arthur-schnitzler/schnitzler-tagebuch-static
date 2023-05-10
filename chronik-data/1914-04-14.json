@@ -1,0 +1,80 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net",
+ "head":
+ "Fink und Fliederbusch, Typoskript",
+ "text":
+ "Publikation in Vorbereitung"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-04-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-04-14.html",
+ "head":
+ "Tagebuch, 14. April 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugenie Bachrach",
+ "ref":
+ "person_13355"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Krems",
+ "ref":
+ "pmb36545"}
+ ,  {
+ "placeName":
+ "Wachau",
+ "ref":
+ "pmb531"}
+ ,  {
+ "placeName":
+ "Dürnstein",
+ "ref":
+ "pmb90558"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/531/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/531/",
+ "head":
+ "Wachau"
+}] 

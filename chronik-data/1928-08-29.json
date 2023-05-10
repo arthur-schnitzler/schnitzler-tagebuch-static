@@ -1,0 +1,67 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-08-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-08-29.html",
+ "head":
+ "Tagebuch, 29. August 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arnoldo Cappellini",
+ "ref":
+ "person_14129"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Ruth Schnitzler",
+ "ref":
+ "person_13139"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hohenschwangau",
+ "ref":
+ "pmb90895"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90895/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90895/",
+ "head":
+ "Hohenschwangau"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp591",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp591.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 25.–31. August 1928"
+}] 

@@ -1,0 +1,70 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-08-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-08-01.html",
+ "head":
+ "Tagebuch, 1. August 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Erna Grunert",
+ "ref":
+ "person_15719"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Boccaccio. Komische Operette in 3 Acten",
+ "ref":
+ "pmb81387"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/414/",
+ "head":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j4f39377-ae1d-48c1-9afa-6e4618284c9a",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Theodor Herzl an Arthur Schnitzler, Anfang August 1895?",
+ "source":
+ "Theodor Herzl: Briefe. Anfang Mai 1895 – Anfang Dezember 1898. Bearbeitet von Barbara Schäfer in Zusammenarbeit mit Sofia Gelmann, Chaya Harel, Ines Rubin, Daisy Ticho. Berlin: Propyläen 1990. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Vierter Band)"
+}] 

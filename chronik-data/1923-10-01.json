@@ -1,0 +1,152 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-10-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-10-01.html",
+ "head":
+ "Tagebuch, 1. Oktober 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Joseph Chapiro",
+ "ref":
+ "person_14178"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "person_15980"},
+ {
+ "persName":
+ "Maria Mann",
+ "ref":
+ "person_17837"},
+ {
+ "persName":
+ "Viktor Pollitzer",
+ "ref":
+ "person_18902"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der blinde Geronimo und sein Bruder",
+ "ref":
+ "pmb30649"}
+ ,  {
+ "title":
+ "Gespräche mit Gerhart Hauptmann",
+ "ref":
+ "pmb80292"}
+ ,  {
+ "title":
+ "Die Welt in Novellen. Eine Auswahl für die Jugend",
+ "ref":
+ "pmb81133"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ,  {
+ "placeName":
+ "Agnetendorf",
+ "ref":
+ "pmb735"}
+ ,  {
+ "placeName":
+ "Feldafing",
+ "ref":
+ "pmb53150"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Bozen",
+ "ref":
+ "pmb40260"}
+ ,  {
+ "placeName":
+ "Italian Riviera",
+ "ref":
+ "pmb90942"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00044879",
+ "head":
+ "Schnitzler, Arthur an Bruell, Julius [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00077905",
+ "head":
+ "Schnitzler, Arthur an Michel, Robert [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert (1876-1957) Michel",
+ "ref":
+ "http://d-nb.info/gnd/118893297"}]
+}
+}] 

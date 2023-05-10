@@ -1,0 +1,150 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-06-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-06-20.html",
+ "head":
+ "Tagebuch, 20. Juni 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Iwan Bloch",
+ "ref":
+ "person_13789"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "person_15499"},
+ {
+ "persName":
+ "Heinrich von Kleist",
+ "ref":
+ "person_16900"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "person_17108"},
+ {
+ "persName":
+ "Theodor Mommsen",
+ "ref":
+ "person_18231"},
+ {
+ "persName":
+ "Wilhelm Pollauf",
+ "ref":
+ "person_18900"},
+ {
+ "persName":
+ "Hermann von Pückler-Muskau",
+ "ref":
+ "person_18991"},
+ {
+ "persName":
+ "Werner Sombart",
+ "ref":
+ "person_20192"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Arthur Langen",
+ "ref":
+ "person_17303"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Doktor Gräsler, Badearzt",
+ "ref":
+ "pmb30201"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Das Sexualleben unsere Zeit",
+ "ref":
+ "pmb30345"}
+ ,  {
+ "title":
+ "Die Familie Schroffenstein",
+ "ref":
+ "pmb77664"}
+ ,  {
+ "title":
+ "Heine und die Folgen",
+ "ref":
+ "pmb52745"}
+ ,  {
+ "title":
+ "Briefwechsel und Tagebücher",
+ "ref":
+ "pmb80846"}
+ ,  {
+ "title":
+ "Jean-Christophe",
+ "ref":
+ "pmb78079"}
+ ,  {
+ "title":
+ "Die Juden und das Wirtschaftsleben",
+ "ref":
+ "pmb78337"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Julius Kapp, 20. 6. 1911",
+ "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}] 

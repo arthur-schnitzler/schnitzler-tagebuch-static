@@ -1,0 +1,188 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1916-12-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-12-09.html",
+ "head":
+ "Tagebuch, 9. Dezember 1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Moritz Heimann",
+ "ref":
+ "person_16041"},
+ {
+ "persName":
+ "Heinrich Mann",
+ "ref":
+ "person_17834"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Friedrich Mitterwurzer",
+ "ref":
+ "person_18190"},
+ {
+ "persName":
+ "Erika Morini",
+ "ref":
+ "person_18254"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"},
+ {
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "person_21109"},
+ {
+ "persName":
+ "Felix? Stössinger",
+ "ref":
+ "person_20452"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Alexandre père Dumas",
+ "ref":
+ "person_14547"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Mémoires d’un médecin",
+ "ref":
+ "pmb77784"}
+ ,  {
+ "title":
+ "Robert und Bertram",
+ "ref":
+ "pmb32474"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02249",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02249.html",
+ "head":
+ "Robert Adam an Arthur Schnitzler, 9. 12. 1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "pmb12837"},
+ {
+ "persName":
+ "Gerhard Gutherz",
+ "ref":
+ "pmb5812"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Neidhard",
+ "ref":
+ "pmb33580"}
+ ,  {
+ "title":
+ "Die Geschichte des Alî ibn Bekkâr mit Schams an-Nahâr",
+ "ref":
+ "pmb33578"}
+ ,  {
+ "title":
+ "Der Fremde",
+ "ref":
+ "pmb33606"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 09. Dezember 1916",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

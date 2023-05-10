@@ -1,0 +1,180 @@
+[{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01055",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01055.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 15. 7. 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Oskar Mayer",
+ "ref":
+ "pmb21236"},
+ {
+ "persName":
+ "Hermine von Schaffgotsch",
+ "ref":
+ "pmb24033"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Wenzel Swatek",
+ "ref":
+ "pmb40036"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Payerbach",
+ "ref":
+ "pmb948"}
+ ,  {
+ "placeName":
+ "Altaussee",
+ "ref":
+ "pmb34401"}
+ ,  {
+ "placeName":
+ "Levico Terme",
+ "ref":
+ "pmb40033"}
+ ,  {
+ "placeName":
+ "Klösterle",
+ "ref":
+ "pmb40025"}
+ ,  {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Innsbruck",
+ "ref":
+ "pmb867"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01056",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01056.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 15. 7. 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Hugo August von Hofmannsthal",
+ "ref":
+ "pmb11737"},
+ {
+ "persName":
+ "Anna von Hofmannsthal",
+ "ref":
+ "pmb18404"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Fusch",
+ "ref":
+ "pmb573"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Brühl",
+ "ref":
+ "pmb44413"}
+ ,  {
+ "placeName":
+ "Saalfelden am Steinernen Meer",
+ "ref":
+ "pmb34293"}
+ ,  {
+ "placeName":
+ "Hintersee",
+ "ref":
+ "pmb40784"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Golling",
+ "ref":
+ "pmb40779"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/483/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/483/",
+ "head":
+ "Reichenau an der Rax"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44982/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44982/",
+ "head":
+ "Kurhaus Rudolfsbad"
+}] 

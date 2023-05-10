@@ -1,0 +1,64 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-02-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-02-06.html",
+ "head":
+ "Tagebuch, 6. Februar 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo Heller",
+ "ref":
+ "person_16069"},
+ {
+ "persName":
+ "Vera Schapira",
+ "ref":
+ "person_19625"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Richard Specht",
+ "ref":
+ "person_20238"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Große Szene",
+ "ref":
+ "pmb31429"}
+ ,  {
+ "title":
+ "Klein Eyolf",
+ "ref":
+ "pmb77003"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

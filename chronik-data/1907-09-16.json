@@ -1,0 +1,159 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-09-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-09-16.html",
+ "head":
+ "Tagebuch, 16. September 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Dias Willy",
+ "ref":
+ "person_14437"},
+ {
+ "persName":
+ "Ida Grünwald",
+ "ref":
+ "person_15715"},
+ {
+ "persName":
+ "Else Speidel-Haeberle",
+ "ref":
+ "person_15833"},
+ {
+ "persName":
+ "Alice Schalek",
+ "ref":
+ "person_19615"},
+ {
+ "persName":
+ "Henri de Régnier",
+ "ref":
+ "person_19106"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Maria Lamberti",
+ "ref":
+ "pmb80370"}
+ ,  {
+ "title":
+ "La double maîtresse",
+ "ref":
+ "pmb79452"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Isola di Capri",
+ "ref":
+ "pmb90444"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01707",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01707.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, 16. 9. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Morgen. Wochenschrift für deutsche Kultur",
+ "ref":
+ "pmb34262"}
+ ,  {
+ "orgName":
+ "Orientalische Akademie",
+ "ref":
+ "pmb34272"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00078813",
+ "head":
+ "Schnitzler, Arthur an Kesztelyi, Ernst [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00079381",
+ "head":
+ "Schnitzler, Arthur an Nuova Antologia &lt;Zeitschrift&gt; [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

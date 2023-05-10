@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-01-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-01-07.html",
+ "head":
+ "Tagebuch, 7. Januar 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich Heine",
+ "ref":
+ "person_16047"},
+ {
+ "persName":
+ "Theodor Mommsen",
+ "ref":
+ "person_18231"},
+ {
+ "persName":
+ "Karl August von Varnhagen-Ense",
+ "ref":
+ "person_20929"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Dogmen der Kritik",
+ "ref":
+ "pmb35747"}
+ ,  {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ,  {
+ "title":
+ "Lutetia",
+ "ref":
+ "pmb30335"}
+ ,  {
+ "title":
+ "Tagebücher",
+ "ref":
+ "pmb30297"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043199",
+ "head":
+ "Schmied, Bernhard an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

@@ -1,0 +1,162 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1930-04-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-04-21.html",
+ "head":
+ "Tagebuch, 21. April 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Marianne Hartstein",
+ "ref":
+ "person_15952"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Friedrich Weleminsky",
+ "ref":
+ "person_21220"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Purkersdorf",
+ "ref":
+ "pmb91552"}
+ ,  {
+ "placeName":
+ "Riederberg",
+ "ref":
+ "pmb91592"}
+ ,  {
+ "placeName":
+ "Sieghartskirchen",
+ "ref":
+ "pmb58825"}
+ ,  {
+ "placeName":
+ "Thalheim bei Wels",
+ "ref":
+ "pmb91887"}
+ ,  {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ,  {
+ "placeName":
+ "Währingerhof",
+ "ref":
+ "pmb92589"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91552/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91552/",
+ "head":
+ "Purkersdorf"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91592/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91592/",
+ "head":
+ "Riederberg"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/58825/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/58825/",
+ "head":
+ "Sieghartskirchen"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91887/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91887/",
+ "head":
+ "Thalheim bei Wels"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92589/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92589/",
+ "head":
+ "Währingerhof"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp771",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp771.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 18.–26. April 1930"
+}] 

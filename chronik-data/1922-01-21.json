@@ -1,0 +1,348 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-01-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-01-21.html",
+ "head":
+ "Tagebuch, 21. Januar 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Egbertje Alida Brevée",
+ "ref":
+ "person_13969"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Joseph Chapiro",
+ "ref":
+ "person_14178"},
+ {
+ "persName":
+ "Franz Grillparzer",
+ "ref":
+ "person_15661"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Adele Kapper",
+ "ref":
+ "person_16706"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "person_17784"},
+ {
+ "persName":
+ "Emil Reich",
+ "ref":
+ "person_19115"},
+ {
+ "persName":
+ "Georg Reimers",
+ "ref":
+ "person_19139"},
+ {
+ "persName":
+ "August Sauer",
+ "ref":
+ "person_19587"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Eugen Stößler",
+ "ref":
+ "person_20455"},
+ {
+ "persName":
+ "Anna Sikora",
+ "ref":
+ "person_20523"},
+ {
+ "persName":
+ "Anton Wildgans",
+ "ref":
+ "person_21328"},
+ {
+ "persName":
+ "Else Wohlgemuth",
+ "ref":
+ "person_21423"},
+ {
+ "persName":
+ "Alexander Oswald von Pallavicini",
+ "ref":
+ "person_18641"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Gustav Gugitz",
+ "ref":
+ "person_15738"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Esther",
+ "ref":
+ "pmb30827"}
+ ,  {
+ "title":
+ "Giacomo Casanova und sein Lebensroman. Historische Studien zu seinen Memoiren",
+ "ref":
+ "pmb30829"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041341",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041341.html",
+ "head":
+ "Tagebuch von Schnitzler, 21. 1. 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "pmb2461"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "pmb12160"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Joseph Chapiro",
+ "ref":
+ "pmb11090"},
+ {
+ "persName":
+ "Eugen Stößler",
+ "ref":
+ "pmb27987"},
+ {
+ "persName":
+ "Friederike Stößler",
+ "ref":
+ "pmb27990"},
+ {
+ "persName":
+ "Egbertje Alida Brevée",
+ "ref":
+ "pmb14544"},
+ {
+ "persName":
+ "Hedwig Kempny",
+ "ref":
+ "pmb19262"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "pmb2238"},
+ {
+ "persName":
+ "Anna Sikora",
+ "ref":
+ "pmb27955"},
+ {
+ "persName":
+ "Franz Grillparzer",
+ "ref":
+ "pmb11518"},
+ {
+ "persName":
+ "August Sauer",
+ "ref":
+ "pmb12627"},
+ {
+ "persName":
+ "Georg Reimers",
+ "ref":
+ "pmb12498"},
+ {
+ "persName":
+ "Else Wohlgemuth",
+ "ref":
+ "pmb13149"},
+ {
+ "persName":
+ "Adele Kapper",
+ "ref":
+ "pmb19096"},
+ {
+ "persName":
+ "Felicitas Marie Kapper",
+ "ref":
+ "pmb19103"},
+ {
+ "persName":
+ "Anton Wildgans",
+ "ref":
+ "pmb13122"},
+ {
+ "persName":
+ "Jakob Reumann",
+ "ref":
+ "pmb12511"},
+ {
+ "persName":
+ "Emil Reich",
+ "ref":
+ "pmb9449"},
+ {
+ "persName":
+ "Alexander Oswald von Pallavicini",
+ "ref":
+ "pmb12390"},
+ {
+ "persName":
+ "Gustav Gugitz",
+ "ref":
+ "pmb11541"},
+ {
+ "persName":
+ "Giacomo Girolamo Casanova",
+ "ref":
+ "pmb3145"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Esther",
+ "ref":
+ "pmb30827"}
+ ,  {
+ "title":
+ "Giacomo Casanova und sein Lebensroman. Historische Studien zu seinen Memoiren",
+ "ref":
+ "pmb30829"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Grand Hotel de L’Europe, G. Jung",
+ "ref":
+ "pmb152"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Konzerthaus",
+ "ref":
+ "pmb240"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Concordia",
+ "ref":
+ "pmb29752"}
+ ]
+}
+}] 

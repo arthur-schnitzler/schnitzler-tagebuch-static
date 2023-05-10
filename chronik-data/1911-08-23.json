@@ -1,0 +1,155 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-08-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-08-23.html",
+ "head":
+ "Tagebuch, 23. August 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Dlabač",
+ "ref":
+ "person_14465"},
+ {
+ "persName":
+ "Hans Pfitzner",
+ "ref":
+ "person_18745"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Irene Mandl",
+ "ref":
+ "person_17822"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"},
+ {
+ "persName":
+ "Hermann Müller",
+ "ref":
+ "person_18298"},
+ {
+ "persName":
+ "Bruno Walter",
+ "ref":
+ "person_21080"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Baden bei Wien",
+ "ref":
+ "pmb662"}
+ ,  {
+ "placeName":
+ "Sacher",
+ "ref":
+ "pmb92506"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02025",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02025.html",
+ "head":
+ "Max Burckhard an Arthur Schnitzler, 23. 8. 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"},
+ {
+ "persName":
+ "Theodor Christomannos",
+ "ref":
+ "pmb4820"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "St. Gilgen",
+ "ref":
+ "pmb33"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Lichtenfelsgasse",
+ "ref":
+ "pmb95"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91735/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91735/",
+ "head":
+ "Semmering"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Stefan Zweig an Arthur Schnitzler, 23.8.1911?",
+ "source":
+ "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
+}] 

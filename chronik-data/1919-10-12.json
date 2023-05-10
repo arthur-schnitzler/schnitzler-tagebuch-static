@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-10-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-10-12.html",
+ "head":
+ "Tagebuch, 12. Oktober 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friederike Ergas",
+ "ref":
+ "person_14784"},
+ {
+ "persName":
+ "Mathilde Fleischmann",
+ "ref":
+ "person_15039"},
+ {
+ "persName":
+ "Carl Fleischmann",
+ "ref":
+ "person_15038"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00050854",
+ "head":
+ "Prechner, Paul an Groß, Wilhelm [Briefe]",
+ "text":
+ "1 Bl. Mit Umschl."
+}] 

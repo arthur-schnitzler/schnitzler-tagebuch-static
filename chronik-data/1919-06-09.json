@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-06-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-06-09.html",
+ "head":
+ "Tagebuch, 9. Juni 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Paul Scheel",
+ "ref":
+ "person_19640"},
+ {
+ "persName":
+ "Alfred von Winterstein",
+ "ref":
+ "person_21387"},
+ {
+ "persName":
+ "Gaston Arman de Caillavet",
+ "ref":
+ "person_14112"},
+ {
+ "persName":
+ "Marie Fenth",
+ "ref":
+ "person_14947"},
+ {
+ "persName":
+ "Robert de Flers",
+ "ref":
+ "person_15045"},
+ {
+ "persName":
+ "Wilhelm Grosz",
+ "ref":
+ "person_15685"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "L’âne de Buridan",
+ "ref":
+ "pmb77801"}
+ ,  {
+ "title":
+ "Der König",
+ "ref":
+ "pmb77802"}
+ ,  {
+ "title":
+ "Goethes Briefe an Frau von Stein",
+ "ref":
+ "pmb76797"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salmannsdorf",
+ "ref":
+ "pmb91641"}
+ ,  {
+ "placeName":
+ "Weidlingbach",
+ "ref":
+ "pmb44394"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

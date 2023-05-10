@@ -1,0 +1,196 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-03-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-03-13.html",
+ "head":
+ "Tagebuch, 13. März 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Manon Gropius",
+ "ref":
+ "person_15674"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Harry Walden",
+ "ref":
+ "person_21059"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Worte. Drei Einakter",
+ "ref":
+ "pmb30717"}
+ ,  {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02338",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02338.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 13. 3. 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "pmb22728"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/63461/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/63461/",
+ "head":
+ "Aufführung von Komödie der Worte, 13.3.1920",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Komödie der Worte. Drei Einakter",
+ "ref":
+ "pmb30717"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Harry Walden",
+ "ref":
+ "pmb3201"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "pmb24420"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Renaissancetheater",
+ "ref":
+ "pmb280"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Renaissancebühne",
+ "ref":
+ "pmb37126"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 13. März 1920",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

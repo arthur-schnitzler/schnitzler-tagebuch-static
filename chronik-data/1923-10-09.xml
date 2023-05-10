@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1923-10-09">Dienstag, 9. Oktober 1923</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1923-10-09">
+               <head>Tagebuch, 9. Oktober 1923</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_16807">Hedy Kempny</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18063">Philipp Menczel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18722">Josef Peter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19798">Gustav Schnaubelt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13438">Deszö Barsi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13439">Hermine Barsi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16277">Norbert Hoffmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16735">Moriz Károlyi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30145">Denksteine</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb35745">Aphoristisches</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb815">Palästina</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-10-09.html</idno>
+            </event>
+            <event when-iso="1923-10-09">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1923-10-09">
+               <head>Arthur an Olga Schnitzler, 9. 10. 1923</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3119">Philipp Menczel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10959">Hedwig Bleibtreu</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11324">Samuel Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12537">Eugen Robert</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24368">Gustav Schnaubelt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4401">Norbert Hoffmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3159">Hugo Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24292">Paula Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28864">Michael Kertesz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26351">Ladislaus Vajda</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4424">Marie Mann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14948">Auguste Chlum</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14953">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28901">David Barsi</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13773">Hermine Barsi</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28839">Eduard Rutger Verkade</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb17046">Piet Pieterzoon Gips</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13216">Karel Čapek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12435">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb20400">Vilma Lichtenstern</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30205">Komödie der Verführung. In drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29941">Fräulein Else</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32131">Spiel im Morgengrauen. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30751">Die Frau des Richters. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30851">Traumnovelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32021">Luisenhof</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32294">Der junge Medardus</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30145">Denksteine</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31777">W. U. R.</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31779">Die Sache Makropulos</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29933">Das Konzert. Lustspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb228">Baden-Baden</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb68">XVIII., Währing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb150">Sternwartestraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb491">Herchenbachstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb175">Amerika</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb874">Gmunden</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb815">Palästina</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45508">Israel</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44016">Niederlande</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43435">Schweiz</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29240">Herrmann-Bank</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041658.html</idno>
+            </event>
+            <event when-iso="1923-10-09">
+               <head>Arthur Schnitzler an Olga Schnitzler, 9.10.1923</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116848723">Schnitzler, Olga</persName>
+                     </person>
+                  </listPerson>
+                  <bibl> Hermann
+                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
+                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
+                    Verlag 2018 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

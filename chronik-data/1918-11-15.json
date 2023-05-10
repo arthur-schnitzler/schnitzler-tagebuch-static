@@ -1,0 +1,183 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-11-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-11-15.html",
+ "head":
+ "Tagebuch, 15. November 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Mandl",
+ "ref":
+ "person_17827"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Gabriele von Wydenbruck",
+ "ref":
+ "person_21483"},
+ {
+ "persName":
+ "Maria von Wydenbruck",
+ "ref":
+ "person_21484"},
+ {
+ "persName":
+ "Johann Klein",
+ "ref":
+ "person_16888"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Leopoldsberg",
+ "ref":
+ "pmb59364"}
+ ,  {
+ "placeName":
+ "Kahlenberg",
+ "ref":
+ "pmb574"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02311",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02311.html",
+ "head":
+ "Robert Adam an Arthur Schnitzler, 15. 11. 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"},
+ {
+ "persName":
+ "Heinrich Glücksmann",
+ "ref":
+ "pmb11454"},
+ {
+ "persName":
+ "Fritz von Uhde",
+ "ref":
+ "pmb5776"},
+ {
+ "persName":
+ "Alfred Bernau",
+ "ref":
+ "pmb4040"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Fremde",
+ "ref":
+ "pmb33606"}
+ ,  {
+ "title":
+ "Yppl. Idylle in fünf Akten",
+ "ref":
+ "pmb33604"}
+ ,  {
+ "title":
+ "Ein Richter für die Republik",
+ "ref":
+ "pmb33614"}
+ ,  {
+ "title":
+ "Wiener Allgemeine Zeitung",
+ "ref":
+ "pmb39950"}
+ ,  {
+ "title":
+ "Kein Strafurteil an dem ersten Tag der Republik",
+ "ref":
+ "pmb33658"}
+ ,  {
+ "title":
+ "Prager Tagblatt",
+ "ref":
+ "pmb41507"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Bezirksgericht Wien Josefstadt",
+ "ref":
+ "pmb29605"}
+ ,  {
+ "orgName":
+ "Prager Tagblatt",
+ "ref":
+ "pmb29259"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

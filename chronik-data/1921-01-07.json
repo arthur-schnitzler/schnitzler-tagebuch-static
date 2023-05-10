@@ -1,0 +1,109 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-01-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-01-07.html",
+ "head":
+ "Tagebuch, 7. Januar 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hedwig Keller",
+ "ref":
+ "person_16796"},
+ {
+ "persName":
+ "Hermine Körner",
+ "ref":
+ "person_16979"},
+ {
+ "persName":
+ "Maximilian Sladek",
+ "ref":
+ "person_20161"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Der junge Medardus",
+ "ref":
+ "pmb32294"}
+ ,  {
+ "title":
+ "Der Herzog von Reichstadt",
+ "ref":
+ "pmb80906"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "IV., Wieden",
+ "ref":
+ "pmb54"}
+ ,  {
+ "placeName":
+ "Paulanergasse",
+ "ref":
+ "pmb92438"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00048489",
+ "head":
+ "Schnitzler, Arthur an Reimann, Hans [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans (1889-1969) Reimann",
+ "ref":
+ "http://d-nb.info/gnd/118744089"}]
+}
+}] 

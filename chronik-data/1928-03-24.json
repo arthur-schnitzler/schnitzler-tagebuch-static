@@ -1,0 +1,178 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-03-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-03-24.html",
+ "head":
+ "Tagebuch, 24. März 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan von Auspitz-Artenegg",
+ "ref":
+ "person_13316"},
+ {
+ "persName":
+ "Hans Brahm",
+ "ref":
+ "person_13911"},
+ {
+ "persName":
+ "Isidor Fett",
+ "ref":
+ "person_14957"},
+ {
+ "persName":
+ "Franz Herterich",
+ "ref":
+ "person_16125"},
+ {
+ "persName":
+ "Werner Krauss",
+ "ref":
+ "person_17120"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "person_17784"},
+ {
+ "persName":
+ "Anna Sofie Moll",
+ "ref":
+ "person_18217"},
+ {
+ "persName":
+ "Carl Moll",
+ "ref":
+ "person_18218"},
+ {
+ "persName":
+ "Maria Moll",
+ "ref":
+ "person_18220"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Johannes Sievers",
+ "ref":
+ "person_20095"},
+ {
+ "persName":
+ "Helene Caroline von Sizzo-Noris",
+ "ref":
+ "person_20148"},
+ {
+ "persName":
+ "Lucie von Traeger-Rhonhof",
+ "ref":
+ "person_20787"},
+ {
+ "persName":
+ "Franz Werfel",
+ "ref":
+ "person_21243"},
+ {
+ "persName":
+ "Jacob Julius Fleck",
+ "ref":
+ "person_15026"},
+ {
+ "persName":
+ "Sacha Guitry",
+ "ref":
+ "person_15747"},
+ {
+ "persName":
+ "William Leon Smyser",
+ "ref":
+ "person_20175"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Stunde des Erkennens",
+ "ref":
+ "pmb31447"}
+ ,  {
+ "title":
+ "Deburau",
+ "ref":
+ "pmb80638"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ,  {
+ "placeName":
+ "Hohe Warte",
+ "ref":
+ "pmb92292"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92292/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92292/",
+ "head":
+ "Hohe Warte"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Franz Herterich, 24. 3. 1928",
+ "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}] 

@@ -1,0 +1,90 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-03-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-03-23.html",
+ "head":
+ "Tagebuch, 23. März 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jenny Bally",
+ "ref":
+ "person_13391"},
+ {
+ "persName":
+ "Auguste Chlum",
+ "ref":
+ "person_14199"},
+ {
+ "persName":
+ "Sidonie Eisenschitz",
+ "ref":
+ "person_14687"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Alexander Singer",
+ "ref":
+ "person_20130"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Gedichte",
+ "ref":
+ "pmb76533"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00085519",
+ "head":
+ "Unbekannt an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Kte"
+}] 

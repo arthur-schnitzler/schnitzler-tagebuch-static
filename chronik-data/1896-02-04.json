@@ -1,0 +1,256 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-02-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-02-04.html",
+ "head":
+ "Tagebuch, 4. Februar 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Oskar Blumenthal",
+ "ref":
+ "person_13808"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Emil Heilbut",
+ "ref":
+ "person_16036"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "person_16222"},
+ {
+ "persName":
+ "Alfred Holzbock",
+ "ref":
+ "person_16338"},
+ {
+ "persName":
+ "Josef Jarno",
+ "ref":
+ "person_16517"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "person_16819"},
+ {
+ "persName":
+ "Rudolf Rittner",
+ "ref":
+ "person_19288"},
+ {
+ "persName":
+ "Erich Schmidt",
+ "ref":
+ "person_19759"},
+ {
+ "persName":
+ "Maximilian Harden",
+ "ref":
+ "person_15919"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"},
+ {
+ "persName":
+ "Paul Jonas",
+ "ref":
+ "person_16574"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Der zerbrochene Krug",
+ "ref":
+ "pmb30675"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/41234/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/41234/",
+ "head":
+ "Hotel Westminster"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/35206/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/35206/",
+ "head":
+ "Premiere von Liebelei und Der zerbrochene Krug, 4.2.1896",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Der zerbrochene Krug",
+ "ref":
+ "pmb30675"}
+ ,  {
+ "title":
+ "Der zerbrochene Krug im Deutschen Theater",
+ "ref":
+ "pmb93074"}
+ ,  {
+ "title":
+ "Deutsches Theater",
+ "ref":
+ "pmb93080"}
+ ,  {
+ "title":
+ "Courrier des Théatres [Liebelei-Premiere Berlin]",
+ "ref":
+ "pmb93556"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Kurt Hiller",
+ "ref":
+ "pmb11694"},
+ {
+ "persName":
+ "Erich Schmidt",
+ "ref":
+ "pmb12678"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "pmb11324"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "pmb11701"},
+ {
+ "persName":
+ "Hedwig Fischer",
+ "ref":
+ "pmb2657"},
+ {
+ "persName":
+ "Paul Jonas",
+ "ref":
+ "pmb4532"},
+ {
+ "persName":
+ "Clara Jonas",
+ "ref":
+ "pmb18900"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "pmb11910"},
+ {
+ "persName":
+ "Alfred Holzbock",
+ "ref":
+ "pmb18485"},
+ {
+ "persName":
+ "Rudolf Rittner",
+ "ref":
+ "pmb12530"},
+ {
+ "persName":
+ "Emil Heilbut",
+ "ref":
+ "pmb2713"},
+ {
+ "persName":
+ "Agnes Sorma",
+ "ref":
+ "pmb2299"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb3"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb35597"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040971",
+ "head":
+ "Ploecker-Eckardt, ... an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Kte"
+}] 

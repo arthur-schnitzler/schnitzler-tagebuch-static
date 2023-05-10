@@ -1,0 +1,105 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-08-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-08-26.html",
+ "head":
+ "Tagebuch, 26. August 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "person_16292"},
+ {
+ "persName":
+ "Margarethe Kainz",
+ "ref":
+ "person_16647"},
+ {
+ "persName":
+ "Alexander Moissi",
+ "ref":
+ "person_18209"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Ernst Toller",
+ "ref":
+ "person_20768"},
+ {
+ "persName":
+ "Franz Servaes",
+ "ref":
+ "person_20068"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Paracelsus. Versspiel in einem Akt",
+ "ref":
+ "pmb30403"}
+ ,  {
+ "title":
+ "The Virgin of Stamboul",
+ "ref":
+ "pmb80243"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schweden",
+ "ref":
+ "pmb44335"}
+ ,  {
+ "placeName":
+ "Parsch",
+ "ref":
+ "pmb49759"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/30/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "head":
+ "Salzburg"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Stefan Hock an Arthur Schnitzler, 26.8.1921",
+ "source":
+ "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
+}] 

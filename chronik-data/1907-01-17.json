@@ -1,0 +1,158 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-01-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-01-17.html",
+ "head":
+ "Tagebuch, 17. Januar 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Eva Marie Goldmann",
+ "ref":
+ "person_15526"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Agnes Ulmann",
+ "ref":
+ "person_20872"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Klavierkonzert Nr. 1 C-Dur op. 15",
+ "ref":
+ "pmb77147"}
+ ,  {
+ "title":
+ "Der Dichter und diese Zeit",
+ "ref":
+ "pmb43900"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Meissl &amp; Schadn",
+ "ref":
+ "pmb96"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/43905/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43905/",
+ "head":
+ "Vortrag von Der Dichter und diese Zeit, 17.1.1907",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Dichter und diese Zeit",
+ "ref":
+ "pmb43900"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Galerie Miethke",
+ "ref":
+ "pmb43902"}
+ ]
+}
+}] 

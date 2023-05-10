@@ -1,0 +1,54 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1917-01-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-01-04.html",
+ "head":
+ "Tagebuch, 4. Januar 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul von Hindenburg",
+ "ref":
+ "person_16204"},
+ {
+ "persName":
+ "Otto König",
+ "ref":
+ "person_16970"},
+ {
+ "persName":
+ "Erich Ludendorff",
+ "ref":
+ "person_17720"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Flucht in die Finsternis",
+ "ref":
+ "pmb30863"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

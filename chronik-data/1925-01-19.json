@@ -1,0 +1,77 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-01-19",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-01-19.html",
+ "head":
+ "Tagebuch, 19. Januar 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rudolf Askonas",
+ "ref":
+ "person_13285"},
+ {
+ "persName":
+ "Hans Bodmer",
+ "ref":
+ "person_13824"},
+ {
+ "persName":
+ "Robert Faesi",
+ "ref":
+ "person_14853"},
+ {
+ "persName":
+ "Herbert Steiner",
+ "ref":
+ "person_20373"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zum großen Wurstel",
+ "ref":
+ "pmb29951"}
+ ,  {
+ "title":
+ "Die letzten Masken",
+ "ref":
+ "pmb29877"}
+ ,  {
+ "title":
+ "Das Tagebuch der Redegonda",
+ "ref":
+ "pmb30349"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Zürich",
+ "ref":
+ "pmb484"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/484/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/484/",
+ "head":
+ "Zürich"
+}] 

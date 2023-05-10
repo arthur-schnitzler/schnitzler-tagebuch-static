@@ -1,0 +1,90 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-06-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-06-13.html",
+ "head":
+ "Tagebuch, 13. Juni 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "C.",
+ "ref":
+ "person_14102"},
+ {
+ "persName":
+ "Irma",
+ "ref":
+ "person_16448"},
+ {
+ "persName":
+ "Leopoldine Müller",
+ "ref":
+ "person_18303"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Waidhofen an der Ybbs",
+ "ref":
+ "pmb49181"}
+ ,  {
+ "placeName":
+ "Gstatterboden",
+ "ref":
+ "pmb90797"}
+ ,  {
+ "placeName":
+ "Amstetten",
+ "ref":
+ "pmb90243"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/49181/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/49181/",
+ "head":
+ "Waidhofen an der Ybbs"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90797/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90797/",
+ "head":
+ "Gstatterboden"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00033810",
+ "head":
+ "Falkove, ... an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

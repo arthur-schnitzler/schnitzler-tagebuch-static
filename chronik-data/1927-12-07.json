@@ -1,0 +1,125 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1927-12-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-12-07.html",
+ "head":
+ "Tagebuch, 7. Dezember 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johann Sebastian Bach",
+ "ref":
+ "person_13344"},
+ {
+ "persName":
+ "Werner Hegemann",
+ "ref":
+ "person_16026"},
+ {
+ "persName":
+ "Carl Laemmle",
+ "ref":
+ "person_17248"},
+ {
+ "persName":
+ "Ivan Mosjoukine",
+ "ref":
+ "person_18268"},
+ {
+ "persName":
+ "Richard Oswald",
+ "ref":
+ "person_18605"},
+ {
+ "persName":
+ "Edmund Pietrkowski",
+ "ref":
+ "person_18793"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Louise Koppel",
+ "ref":
+ "person_17037"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Casanovas Heimfahrt",
+ "ref":
+ "pmb30971"}
+ ,  {
+ "title":
+ "Kaiser Josef II.",
+ "ref":
+ "pmb30843"}
+ ,  {
+ "title":
+ "Walzer",
+ "ref":
+ "pmb36026"}
+ ,  {
+ "title":
+ "Toccata und Fuge F-Dur BWV 540",
+ "ref":
+ "pmb77126"}
+ ,  {
+ "title":
+ "Casanova",
+ "ref":
+ "pmb81512"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp514",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp514.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 4.–22. Dezember 1927"
+}] 

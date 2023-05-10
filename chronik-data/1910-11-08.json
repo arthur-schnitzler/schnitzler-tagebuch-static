@@ -1,0 +1,117 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-11-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-11-08.html",
+ "head":
+ "Tagebuch, 8. November 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "person_13624"},
+ {
+ "persName":
+ "Heinrich Lefler",
+ "ref":
+ "person_17397"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "person_20714"},
+ {
+ "persName":
+ "Fritz Wittels",
+ "ref":
+ "person_21406"},
+ {
+ "persName":
+ "Ashley Dukes",
+ "ref":
+ "person_14544"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Ezechiel der Zugereiste",
+ "ref":
+ "pmb77794"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "England",
+ "ref":
+ "pmb90593"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Zinaida Vengerova, 8. 11. 1910",
+ "source":
+ "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00045093",
+ "head":
+ "Schnitzler, Arthur an Cossmann, Paul Nikolaus [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Nikolaus (1869-1942) Cossmann",
+ "ref":
+ "http://d-nb.info/gnd/118677012"}]
+}
+}] 

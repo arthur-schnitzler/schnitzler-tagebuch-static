@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1900-12-22">Samstag, 22. Dezember 1900</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1900-12-22">
+               <head>Tagebuch, 22. Dezember 1900</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18303">Leopoldine Müller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20219">Agnes Sorma</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15900">Hermine Klara Hanel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30649">Der blinde Geronimo und sein Bruder</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29869">Literatur</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31395">Nora oder ein Puppenheim</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-12-22.html</idno>
+            </event>
+            <event when-iso="1900-12-22">
+               <head>Hugo von Hofmannsthal an Arthur Schnitzler, 22. 12. 1900</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb8316">August von Kotzebue</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29853">Lieutenant Gustl. Novelle</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb53">III., Landstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb59">IX., Alsergrund</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb397">Frankgasse</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01088.html</idno>
+            </event>
+            <event when-iso="1900-12-22">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1900-12-22">
+               <head>Arthur Schnitzler an Theodor Herzl, 22.12.1900</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118550241">Herzl, Theodor</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Theodor Herzl:
+                    Briefe. Ende August 1900 – Ende Dezember 1902. Bearbeitet von Barbara Schäfer in
+                    Zusammenarbeit mit Sofia Gelmann, Chaya Harel, Ines Rubin. Berlin: Propyläen
+                    1993. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive,
+                    Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Sechster Band)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#b5c73b7a-bcb8-436a-a3d6-f5de5dad3d5b"/>
+            </event>
+            <event when-iso="1900-12-22">
+               <head>Arthur Schnitzler an Theodor Herzl, 22. 12. 1900</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118550241">Herzl, Theodor</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am
+                    Main: S. Fischer 1981.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
+            </event>
+            <event when-iso="1900-12-22">
+               <head>Schnitzler, Arthur an Schnitzler, Olga [Briefe]</head>
+               <desc>Letztes Objekt aus der Mappe. 26 Br., davon 1 Vis.kte, 23 Ktn 97 Bl.<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/116848723">Schnitzler, Olga (1882-1970)</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00050719</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-05-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-05-07.html",
+ "head":
+ "Tagebuch, 7. Mai 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lucy von Jacobi",
+ "ref":
+ "person_16469"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Isar",
+ "ref":
+ "pmb90936"}
+ ,  {
+ "placeName":
+ "Hellabrunn Zoo",
+ "ref":
+ "pmb90853"}
+ ,  {
+ "placeName":
+ "Harlaching",
+ "ref":
+ "pmb52583"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/52580/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/52580/",
+ "head":
+ "Parkhotel München"
+}] 

@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1931-03-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-03-02.html",
+ "head":
+ "Tagebuch, 2. März 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans Albers",
+ "ref":
+ "person_13125"},
+ {
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Bertrand-Gaston-Alexandre de Clauzel",
+ "ref":
+ "person_14235"},
+ {
+ "persName":
+ "Käthe Dorsch",
+ "ref":
+ "person_14496"},
+ {
+ "persName":
+ "Josef Körner",
+ "ref":
+ "person_16980"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Drei Tage Liebe",
+ "ref":
+ "pmb80703"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp891",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp891.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 27. Februar – 5. März 1931"
+}] 

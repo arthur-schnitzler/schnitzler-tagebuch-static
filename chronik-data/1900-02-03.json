@@ -1,0 +1,71 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-02-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-02-03.html",
+ "head":
+ "Tagebuch, 3. Februar 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rosa Freudenthal",
+ "ref":
+ "person_15178"},
+ {
+ "persName":
+ "Leopoldine Müller",
+ "ref":
+ "person_18303"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/141489/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/141489/",
+ "head":
+ "Private Lesung von Der Gemeine, 13. 2. 1900",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Gemeine. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb32426"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"}]
+}
+}] 

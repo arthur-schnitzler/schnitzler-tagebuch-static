@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1917-12-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-12-15.html",
+ "head":
+ "Tagebuch, 15. Dezember 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Joseph Schildkraut",
+ "ref":
+ "person_19688"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Ernst Ebenstein",
+ "ref":
+ "person_14596"},
+ {
+ "persName":
+ "Egon Friedell",
+ "ref":
+ "person_15210"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"},
+ {
+ "persName":
+ "Kory Elisabeth Rosenbaum",
+ "ref":
+ "person_19363"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aladin",
+ "ref":
+ "pmb78923"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00077111",
+ "head":
+ "Reiche, Erwin an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

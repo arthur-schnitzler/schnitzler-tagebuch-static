@@ -1,0 +1,95 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1931-05-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-05-01.html",
+ "head":
+ "Tagebuch, 1. Mai 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Christiane von Klein-Wisenberg",
+ "ref":
+ "person_16898"},
+ {
+ "persName":
+ "Erich Maria Remarque",
+ "ref":
+ "person_19180"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Stefanie Clauser",
+ "ref":
+ "person_14233"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Etzel Andergast",
+ "ref":
+ "pmb76948"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Montreux",
+ "ref":
+ "pmb91284"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp903",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp903.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 30. April – 2. Mai 1931"
+}] 

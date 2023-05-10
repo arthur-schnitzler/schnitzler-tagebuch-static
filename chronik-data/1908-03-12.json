@@ -1,0 +1,75 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-03-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-03-12.html",
+ "head":
+ "Tagebuch, 12. März 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Moritz Rosenthal",
+ "ref":
+ "person_19394"},
+ {
+ "persName":
+ "Pjotr Iljitsch Tschaikowski",
+ "ref":
+ "person_20822"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Klavierkonzert Nr. 1 b-Moll op. 23",
+ "ref":
+ "pmb77538"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Nussdorf",
+ "ref":
+ "pmb91367"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00032254",
+ "head":
+ "Benesch, Rudolf an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

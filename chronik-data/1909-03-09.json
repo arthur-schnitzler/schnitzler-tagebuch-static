@@ -1,0 +1,77 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-03-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-03-09.html",
+ "head":
+ "Tagebuch, 9. März 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Felix Mendelssohn-Bartholdy",
+ "ref":
+ "person_18066"},
+ {
+ "persName":
+ "Arnold Rosé",
+ "ref":
+ "person_19351"},
+ {
+ "persName":
+ "Bruno Walter",
+ "ref":
+ "person_21080"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Streichoktett Es-Dur op. 20",
+ "ref":
+ "pmb80994"}
+ ,  {
+ "title":
+ "Violinsonate A-Dur",
+ "ref":
+ "pmb78144"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Restauration Gabriel",
+ "ref":
+ "pmb92481"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

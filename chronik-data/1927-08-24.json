@@ -1,0 +1,123 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1927-08-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-08-24.html",
+ "head":
+ "Tagebuch, 24. August 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Biermann",
+ "ref":
+ "person_13727"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Rudolf Schmidt",
+ "ref":
+ "person_19768"},
+ {
+ "persName":
+ "Alois Dominik von Stefenelli",
+ "ref":
+ "person_20340"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Friedrich Schlesinger",
+ "ref":
+ "person_19730"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bozen",
+ "ref":
+ "pmb40260"}
+ ,  {
+ "placeName":
+ "Meran",
+ "ref":
+ "pmb43520"}
+ ,  {
+ "placeName":
+ "Solda",
+ "ref":
+ "pmb91855"}
+ ,  {
+ "placeName":
+ "Zermatt",
+ "ref":
+ "pmb34007"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40260/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40260/",
+ "head":
+ "Bozen"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91855/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91855/",
+ "head":
+ "Solda"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp468",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp468.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 23.–28. August 1927"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Hedy Kempny, 24.8.1927",
+ "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}] 

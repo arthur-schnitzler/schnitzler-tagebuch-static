@@ -1,0 +1,112 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-01-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-01-15.html",
+ "head":
+ "Tagebuch, 15. Januar 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustav Freytag",
+ "ref":
+ "person_15190"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Heinrich Heine",
+ "ref":
+ "person_16047"},
+ {
+ "persName":
+ "Julian Schmidt",
+ "ref":
+ "person_19763"},
+ {
+ "persName":
+ "Alice Gurschner",
+ "ref":
+ "person_15754"},
+ {
+ "persName":
+ "Carl von Torresani-Lanzenfeld",
+ "ref":
+ "person_20779"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Landsknecht",
+ "ref":
+ "pmb30753"}
+ ,  {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Bilder aus der deutschen Vergangenheit. Aus dem Jahrhundert des großen Krieges",
+ "ref":
+ "pmb59476"}
+ ,  {
+ "title":
+ "Der heilige Kuß",
+ "ref":
+ "pmb78502"}
+ ,  {
+ "title":
+ "Der neue Pitaval",
+ "ref":
+ "pmb78574"}
+ ,  {
+ "title":
+ "Die Ratten",
+ "ref":
+ "pmb31321"}
+ ,  {
+ "title":
+ "Lutetia",
+ "ref":
+ "pmb30335"}
+ ,  {
+ "title":
+ "Schwarzgelbe Reitergeschichten",
+ "ref":
+ "pmb31645"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sommerhaidenweg",
+ "ref":
+ "pmb243"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

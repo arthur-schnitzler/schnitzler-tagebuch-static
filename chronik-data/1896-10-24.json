@@ -1,0 +1,66 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-10-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-10-24.html",
+ "head":
+ "Tagebuch, 24. Oktober 1896"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/43270/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43270/",
+ "head":
+ "Aufführung Zu ebener Erde und erster Stock, 24.10.1896",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Zu ebener Erde und erster Stock oder Die Launen des Glücks",
+ "ref":
+ "pmb43268"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Raimund-Theater",
+ "ref":
+ "pmb77"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Raimund-Theater",
+ "ref":
+ "pmb39666"}
+ ]
+}
+}] 

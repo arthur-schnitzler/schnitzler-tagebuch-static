@@ -1,0 +1,169 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1931-04-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-04-27.html",
+ "head":
+ "Tagebuch, 27. April 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Arnold Bermann",
+ "ref":
+ "person_13657"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Robert Adam",
+ "ref":
+ "person_18893"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Derwischtrommel. Das Leben des erwarteten Mahdi",
+ "ref":
+ "pmb78528"}
+ ,  {
+ "title":
+ "Etzel Andergast",
+ "ref":
+ "pmb76948"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp902",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp902.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 26.–29. April 1931"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-1774800",
+ "head":
+ "Brief von Arthur Schnitzler an Margaret Burton-Brown",
+ "text":
+ "1 Bl. m. eh Unterschrift",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur (1862-1931) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/126794855"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00048530",
+ "head":
+ "Schnitzler, Arthur an Reiss, Erich [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Erich (1887-1951) Reiss",
+ "ref":
+ "http://d-nb.info/gnd/119239175"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00049730",
+ "head":
+ "Schnitzler, Arthur an Wiener Volksbildungsverein [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Wiener Volksbildungsverein",
+ "ref":
+ "http://d-nb.info/gnd/5009399-X"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00078257",
+ "head":
+ "Schnitzler, Arthur an Burton-Brown, Margaret [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

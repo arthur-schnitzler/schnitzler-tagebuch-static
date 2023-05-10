@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1919-09-19">Freitag, 19. September 1919</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1919-09-19">
+               <head>Tagebuch, 19. September 1919</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13776">Hedwig Bleibtreu</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14784">Friederike Ergas</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17784">Alma Maria Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14786">Rudolf Ergas</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20885">Fritz von Unruh</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30775">Der Gang zum Weiher. Dramatische Dichtung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32326">Ein Geschlecht</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb91067">Kreuzberg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-09-19.html</idno>
+            </event>
+            <event when-iso="1919-09-19">
+               <head>Hugo von Hofmannsthal an Arthur Schnitzler, 19. 9. 1919</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb22728">Frieda Pollak</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12870">Richard Strauss</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12630">Franz Schalk</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31681">Palestrina. Musikalische Legende in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb39853">Die Frau ohne Schatten. Erzählung</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb415">Bad Aussee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40632">Ferleiten</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb180">Mirabell</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb31">Hellbrunn</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34839">Salzburg-Leopoldskron</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb15">Oper</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02326.html</idno>
+            </event>
+            <event when-iso="1919-09-19">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1919-09-19">
+               <head>Arthur an Olga Schnitzler, 19. 9. 1919</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb22733">Jacob Pollak</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2135">Josef Popper-Lynkeus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3115">Fritz Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13197">Gertrude Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2312">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb16608">Oscar Fried</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26392">Leo Van-Jung</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26173">Eleonore Tressler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12993">Fritz von Unruh</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb15967">Friederike Ergas</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2150">Julius Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3103">Rudolf Ergas</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12160">Alma Maria Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11521">Manon Gropius</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10959">Hedwig Bleibtreu</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12711">Werner Schott</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12939">Hans Thimig</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12211">Maria Mayen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21327">Albert von Mensdorff-Pouilly-Dietrichstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24945">Hermine Simandt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12163">Gustav Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2238">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21844">Severin Nemec</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32326">Ein Geschlecht</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32300">Heinrich aus Andernach</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32298">Platz</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32155">Symphonie Nr. 9 D-Dur</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb68">XVIII., Währing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb150">Sternwartestraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40384">Hotel Bristol</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb917">Turin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb205">Hotel Bristol</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb533">Währinger Cottage</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb795">Elisabethstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb36503">Breitenstein am Semmering</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041653.html</idno>
+            </event>
+            <event when-iso="1919-09-19">
+               <head>Arthur Schnitzler an Olga Schnitzler, 19.9.1919</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116848723">Schnitzler, Olga</persName>
+                     </person>
+                  </listPerson>
+                  <bibl> Hermann
+                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
+                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
+                    Verlag 2018 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
+            </event>
+            <event when-iso="1919-09-19">
+               <head>Hedy Kempny an Arthur Schnitzler, 19.9.1919</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/11872181X">Kempny, Hedy</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Hedy Kempny und
+                    Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz
+                    ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer
+                    Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt
+                    1984. (Neue Frau)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#n0827e77-245d-4359-a0b0-5b601a5370ee"/>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,49 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1902-01-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-01-17.html",
+ "head":
+ "Tagebuch, 17. Januar 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#zd58d226-ca44-4dfa-b10c-81551ef4de77",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Rainer Maria Rilke, 17.1.1902",
+ "source":
+ "Heinrich Schnitzler (Hg.): Rainer Maria Rilke und Arthur Schnitzler. Ihr Briefwechsel mit Anmerkungen. In: Wort und Wahrheit, 13. Jahrgang 1958, S. 283-298."
+}] 

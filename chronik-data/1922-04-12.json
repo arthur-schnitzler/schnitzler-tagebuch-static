@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-04-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-04-12.html",
+ "head":
+ "Tagebuch, 12. April 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Geraldine Farrar",
+ "ref":
+ "person_14892"},
+ {
+ "persName":
+ "Gustav Frid",
+ "ref":
+ "person_15194"},
+ {
+ "persName":
+ "Joseph Gregor",
+ "ref":
+ "person_15638"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "person_17784"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Franz Werfel",
+ "ref":
+ "person_21243"},
+ {
+ "persName":
+ "Pietro Mascagni",
+ "ref":
+ "person_17960"},
+ {
+ "persName":
+ "Axel Fraenkel",
+ "ref":
+ "person_15098"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Spiegelmensch",
+ "ref":
+ "pmb76580"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Weimar",
+ "ref":
+ "pmb197"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ,  {
+ "placeName":
+ "Java",
+ "ref":
+ "pmb90952"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

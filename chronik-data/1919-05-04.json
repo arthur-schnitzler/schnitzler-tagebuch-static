@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-05-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-05-04.html",
+ "head":
+ "Tagebuch, 4. Mai 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alice Schmutzer",
+ "ref":
+ "person_19783"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Werner Schott",
+ "ref":
+ "person_19874"},
+ {
+ "persName":
+ "Carl Seelig",
+ "ref":
+ "person_20016"},
+ {
+ "persName":
+ "Pjotr Iljitsch Tschaikowski",
+ "ref":
+ "person_20822"},
+ {
+ "persName":
+ "Sonia Rappaport",
+ "ref":
+ "person_19061"},
+ {
+ "persName":
+ "Milan Szeniczey",
+ "ref":
+ "person_20603"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Symphonie Nr. 4 f-Moll op. 36",
+ "ref":
+ "pmb77542"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salmannsdorf",
+ "ref":
+ "pmb91641"}
+ ,  {
+ "placeName":
+ "Sofienalpe",
+ "ref":
+ "pmb92533"}
+ ,  {
+ "placeName":
+ "Neuwaldegg",
+ "ref":
+ "pmb170"}
+ ,  {
+ "placeName":
+ "Budapest",
+ "ref":
+ "pmb43471"}
+ ,  {
+ "placeName":
+ "Zürich",
+ "ref":
+ "pmb484"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

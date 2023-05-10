@@ -1,0 +1,128 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-02-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-02-27.html",
+ "head":
+ "Tagebuch, 27. Februar 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friederike Ergas",
+ "ref":
+ "person_14784"},
+ {
+ "persName":
+ "Oscar Fried",
+ "ref":
+ "person_15204"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Anna Lieser",
+ "ref":
+ "person_17537"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Elisabeth von Landesberger",
+ "ref":
+ "person_20543"},
+ {
+ "persName":
+ "Napoleon Bonaparte",
+ "ref":
+ "person_18356"},
+ {
+ "persName":
+ "Wilhelm II. von Preußen",
+ "ref":
+ "person_21338"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus",
+ "ref":
+ "pmb32294"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ,  {
+ "placeName":
+ "Garmisch-Partenkirchen",
+ "ref":
+ "pmb667"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 27. Februar 1920",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00078811",
+ "head":
+ "Schnitzler, Arthur an Kazincky, ... [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

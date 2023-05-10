@@ -1,0 +1,113 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-05-31",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-05-31.html",
+ "head":
+ "Tagebuch, 31. Mai 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Mödling",
+ "ref":
+ "pmb968"}
+ ,  {
+ "placeName":
+ "Heiligenkreuz",
+ "ref":
+ "pmb90845"}
+ ,  {
+ "placeName":
+ "Mayerling",
+ "ref":
+ "pmb49690"}
+ ,  {
+ "placeName":
+ "Neuhaus",
+ "ref":
+ "pmb47414"}
+ ,  {
+ "placeName":
+ "Bad Vöslau",
+ "ref":
+ "pmb992"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90845/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90845/",
+ "head":
+ "Heiligenkreuz"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/49690/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/49690/",
+ "head":
+ "Mayerling"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/47414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/47414/",
+ "head":
+ "Neuhaus"
+}] 

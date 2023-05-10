@@ -1,0 +1,303 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-07-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-07-17.html",
+ "head":
+ "Tagebuch, 17. Juli 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Bertha Schimitschek",
+ "ref":
+ "person_19699"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Tuckelnov",
+ "ref":
+ "person_20832"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Lieutenant Gustl. Novelle",
+ "ref":
+ "pmb29853"}
+ ,  {
+ "title":
+ "Die Quellen des Nil",
+ "ref":
+ "pmb30625"}
+ ,  {
+ "title":
+ "Literatur",
+ "ref":
+ "pmb29869"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01057",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01057.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, 17. 7. 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "pmb11910"},
+ {
+ "persName":
+ "Oskar Mayer",
+ "ref":
+ "pmb21236"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "pmb11701"},
+ {
+ "persName":
+ "Elly Petersen",
+ "ref":
+ "pmb9233"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "pmb2315"},
+ {
+ "persName":
+ "Bertha Schimitschek",
+ "ref":
+ "pmb24186"},
+ {
+ "persName":
+ "?? [Verehrer von Elisabeth Steinrück]",
+ "ref":
+ "pmb39712"},
+ {
+ "persName":
+ "Josef Redlich",
+ "ref":
+ "pmb12481"},
+ {
+ "persName":
+ "Alice Leo",
+ "ref":
+ "pmb28111"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "pmb2461"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "pmb24423"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"},
+ {
+ "persName":
+ "Hugo August von Hofmannsthal",
+ "ref":
+ "pmb11737"},
+ {
+ "persName":
+ "Anna von Hofmannsthal",
+ "ref":
+ "pmb18404"},
+ {
+ "persName":
+ "Nanette Speyer",
+ "ref":
+ "pmb25187"},
+ {
+ "persName":
+ "Albert Speyer",
+ "ref":
+ "pmb25179"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Quellen des Nil",
+ "ref":
+ "pmb30625"}
+ ,  {
+ "title":
+ "Lieutenant Gustl. Novelle",
+ "ref":
+ "pmb29853"}
+ ,  {
+ "title":
+ "Frau Bertha Garlan. Roman",
+ "ref":
+ "pmb30486"}
+ ,  {
+ "title":
+ "Die Frau im Fenster",
+ "ref":
+ "pmb32067"}
+ ,  {
+ "title":
+ "Gestern. Dramatische Studie in einem Akt in Versen",
+ "ref":
+ "pmb30141"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neue Rundschau, Neue Deutsche Rundschau, Freie Bühne",
+ "ref":
+ "pmb29212"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Reichenau an der Rax",
+ "ref":
+ "pmb483"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Kurhaus Rudolfsbad",
+ "ref":
+ "pmb44982"}
+ ,  {
+ "placeName":
+ "Tegernsee",
+ "ref":
+ "pmb39752"}
+ ,  {
+ "placeName":
+ "Altaussee",
+ "ref":
+ "pmb34401"}
+ ,  {
+ "placeName":
+ "Kaliningrad",
+ "ref":
+ "pmb42605"}
+ ,  {
+ "placeName":
+ "Edlach",
+ "ref":
+ "pmb470"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/483/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/483/",
+ "head":
+ "Reichenau an der Rax"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44982/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44982/",
+ "head":
+ "Kurhaus Rudolfsbad"
+}] 

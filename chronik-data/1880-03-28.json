@@ -1,0 +1,64 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1880-03-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1880-03-28.html",
+ "head":
+ "Tagebuch, 28. März 1880",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugen Deimel",
+ "ref":
+ "person_14386"},
+ {
+ "persName":
+ "Jacques Pichler",
+ "ref":
+ "person_18766"},
+ {
+ "persName":
+ "Ludwig Wahrmund",
+ "ref":
+ "person_21045"},
+ {
+ "persName":
+ "Emil Weichsel",
+ "ref":
+ "person_21144"},
+ {
+ "persName":
+ "Rudolf Pick",
+ "ref":
+ "person_18780"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

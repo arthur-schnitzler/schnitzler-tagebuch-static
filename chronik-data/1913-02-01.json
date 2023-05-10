@@ -1,0 +1,117 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-02-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-02-01.html",
+ "head":
+ "Tagebuch, 1. Februar 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "person_13202"},
+ {
+ "persName":
+ "Rudolf Kaufmann",
+ "ref":
+ "person_16777"},
+ {
+ "persName":
+ "Leopold Tomola",
+ "ref":
+ "person_20773"},
+ {
+ "persName":
+ "Rudolf Urbantschitsch",
+ "ref":
+ "person_20892"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Flucht in die Finsternis",
+ "ref":
+ "pmb30863"}
+ ,  {
+ "title":
+ "Elskovsleg",
+ "ref":
+ "pmb32800"}
+ ,  {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00047010",
+ "head":
+ "Schnitzler, Arthur an Kaletta, ... [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00048599",
+ "head":
+ "Schnitzler, Arthur an Ruletta, ... [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00044331",
+ "head":
+ "Verein Freie Schule &lt;Wien&gt; an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Verein Freie Schule &lt;Wien&gt;",
+ "ref":
+ "http://d-nb.info/gnd/5030993-6"}]
+}
+}] 

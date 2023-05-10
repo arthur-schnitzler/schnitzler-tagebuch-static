@@ -1,0 +1,127 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-03-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-03-24.html",
+ "head":
+ "Tagebuch, 24. März 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Dehmel",
+ "ref":
+ "person_14383"},
+ {
+ "persName":
+ "Nils Grevillius",
+ "ref":
+ "person_15654"},
+ {
+ "persName":
+ "Hugo Heller",
+ "ref":
+ "person_16069"},
+ {
+ "persName":
+ "Wilhelm Kienzl",
+ "ref":
+ "person_16837"},
+ {
+ "persName":
+ "Wladimir Iljitsch Lenin",
+ "ref":
+ "person_17435"},
+ {
+ "persName":
+ "Heinrich Noren",
+ "ref":
+ "person_18474"},
+ {
+ "persName":
+ "Raymond Poincaré",
+ "ref":
+ "person_18852"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Gustav von Sizzo-Noris",
+ "ref":
+ "person_20147"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "person_20509"},
+ {
+ "persName":
+ "Maria Elisabeth Adolphine Waller",
+ "ref":
+ "person_21070"},
+ {
+ "persName":
+ "Woodrow Wilson",
+ "ref":
+ "person_21357"},
+ {
+ "persName":
+ "Julius Bittner",
+ "ref":
+ "person_13754"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Beatrice. Oper",
+ "ref":
+ "pmb35992"}
+ ,  {
+ "title":
+ "Ausgewählte Briefe aus den Jahren 1883-1902",
+ "ref":
+ "pmb76969"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ,  {
+ "placeName":
+ "Niederlande",
+ "ref":
+ "pmb44016"}
+ ,  {
+ "placeName":
+ "Stockholm",
+ "ref":
+ "pmb1119"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

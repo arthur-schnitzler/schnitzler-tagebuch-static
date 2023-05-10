@@ -1,0 +1,123 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1929-10-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-10-11.html",
+ "head":
+ "Tagebuch, 11. Oktober 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emil Geyer",
+ "ref":
+ "person_15412"},
+ {
+ "persName":
+ "Josef Peter",
+ "ref":
+ "person_18722"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Moriz Károlyi",
+ "ref":
+ "person_16735"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Daybreak",
+ "ref":
+ "pmb32157"}
+ ,  {
+ "title":
+ "Der Sekundant",
+ "ref":
+ "pmb30953"}
+ ,  {
+ "title":
+ "Im Spiel der Sommerlüfte. In drei Aufzügen",
+ "ref":
+ "pmb30945"}
+ ,  {
+ "title":
+ "Theaterroman",
+ "ref":
+ "pmb30321"}
+ ,  {
+ "title":
+ "Zug der Schatten",
+ "ref":
+ "pmb32049"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ,  {
+ "placeName":
+ "Graben",
+ "ref":
+ "pmb90753"}
+ ,  {
+ "placeName":
+ "VIII., Josefstadt",
+ "ref":
+ "pmb58"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90753/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90753/",
+ "head":
+ "Graben"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/58/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/58/",
+ "head":
+ "VIII., Josefstadt"
+}] 

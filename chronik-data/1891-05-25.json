@@ -1,0 +1,59 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1891-05-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-05-25.html",
+ "head":
+ "Tagebuch, 25. Mai 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Richard Tausenau",
+ "ref":
+ "person_20643"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Dornbacher Park",
+ "ref":
+ "pmb176"}
+ ,  {
+ "placeName":
+ "III., Landstraße",
+ "ref":
+ "pmb53"}
+ ,  {
+ "placeName":
+ "Ringstraße",
+ "ref":
+ "pmb112"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

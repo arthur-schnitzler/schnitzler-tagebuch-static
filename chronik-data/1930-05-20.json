@@ -1,0 +1,115 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1930-05-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-05-20.html",
+ "head":
+ "Tagebuch, 20. Mai 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Anna Eisenmenger",
+ "ref":
+ "person_14682"},
+ {
+ "persName":
+ "Louis Gillet",
+ "ref":
+ "person_15430"},
+ {
+ "persName":
+ "James Joyce",
+ "ref":
+ "person_16591"},
+ {
+ "persName":
+ "Maurice Maeterlinck",
+ "ref":
+ "person_17779"},
+ {
+ "persName":
+ "Maria Theresia von Österreich",
+ "ref":
+ "person_17880"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ,  {
+ "title":
+ "Esquisses anglaises",
+ "ref":
+ "pmb80585"}
+ ,  {
+ "title":
+ "Das Leben der Termiten",
+ "ref":
+ "pmb76829"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp779",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp779.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 15.–30. Mai 1930"
+}] 

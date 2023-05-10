@@ -1,0 +1,106 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1929-09-19",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-09-19.html",
+ "head":
+ "Tagebuch, 19. September 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Feher",
+ "ref":
+ "person_14907"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Theaterroman",
+ "ref":
+ "pmb30321"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Marienbad",
+ "ref":
+ "pmb772"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Franzensbad",
+ "ref":
+ "pmb390"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/772/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/772/",
+ "head":
+ "Marienbad"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp731",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp731.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 16.–21. September 1929"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp732",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp732.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 19. September 1929"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp733",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp733.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 19. September 1929"
+}] 

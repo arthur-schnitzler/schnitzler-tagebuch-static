@@ -1,0 +1,182 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net",
+ "head":
+ "Die Frau des Richters, Typoskript",
+ "text":
+ "Publikation in Vorbereitung"
+}, {
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/ELS_T1_0089",
+ "head":
+ "Fräulein Else, msl. Werkniederschrift"
+}, {
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net",
+ "head":
+ "Traumnovelle, Typoskript",
+ "text":
+ "Publikation in Vorbereitung"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-02-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-02-15.html",
+ "head":
+ "Tagebuch, 15. Februar 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Auguste Chlum",
+ "ref":
+ "person_14199"},
+ {
+ "persName":
+ "Hugo Heller",
+ "ref":
+ "person_16069"},
+ {
+ "persName":
+ "Lucy von Jacobi",
+ "ref":
+ "person_16469"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Jean-Jacques Rousseau",
+ "ref":
+ "person_19439"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Alexander N. Skriabin",
+ "ref":
+ "person_20157"},
+ {
+ "persName":
+ "Émile Zola",
+ "ref":
+ "person_21578"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"},
+ {
+ "persName":
+ "Friedrich von Schiller",
+ "ref":
+ "person_19694"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fräulein Else",
+ "ref":
+ "pmb29941"}
+ ,  {
+ "title":
+ "Die Frau des Richters. Novelle",
+ "ref":
+ "pmb30751"}
+ ,  {
+ "title":
+ "Traumnovelle",
+ "ref":
+ "pmb30851"}
+ ,  {
+ "title":
+ "Symphonie Nr. 4 B-Dur op. 60",
+ "ref":
+ "pmb77187"}
+ ,  {
+ "title":
+ "Der Geisterseher",
+ "ref":
+ "pmb77036"}
+ ,  {
+ "title":
+ "Symphonie Nr. 3 c-Moll op. 43",
+ "ref":
+ "pmb81319"}
+ ,  {
+ "title":
+ "Nana",
+ "ref":
+ "pmb32892"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Edlach",
+ "ref":
+ "pmb470"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 15. Februar 1923",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

@@ -1,0 +1,67 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-03-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-03-02.html",
+ "head":
+ "Tagebuch, 2. März 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albrecht Wirth",
+ "ref":
+ "person_21393"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Legende",
+ "ref":
+ "pmb33856"}
+ ,  {
+ "title":
+ "Der Leuchtkäfer",
+ "ref":
+ "pmb33752"}
+ ,  {
+ "title":
+ "Der Weltverkehr",
+ "ref":
+ "pmb79207"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00077900",
+ "head":
+ "Exner, Sigmund an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

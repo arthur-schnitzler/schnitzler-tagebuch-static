@@ -1,0 +1,106 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-06-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-06-23.html",
+ "head":
+ "Tagebuch, 23. Juni 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Michael Honeck",
+ "ref":
+ "person_16343"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Innsbruck",
+ "ref":
+ "pmb867"}
+ ,  {
+ "placeName":
+ "Waidbruck",
+ "ref":
+ "pmb92031"}
+ ,  {
+ "placeName":
+ "Burg Salegg",
+ "ref":
+ "pmb41156"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/867/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/867/",
+ "head":
+ "Innsbruck"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92031/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92031/",
+ "head":
+ "Waidbruck"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/41156/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/41156/",
+ "head":
+ "Burg Salegg"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/988/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/988/",
+ "head":
+ "Seis am Schlern"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/51945/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/51945/",
+ "head":
+ "Hotel Salegg"
+}] 

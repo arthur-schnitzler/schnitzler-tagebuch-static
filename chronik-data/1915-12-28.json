@@ -1,0 +1,77 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-12-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-12-28.html",
+ "head":
+ "Tagebuch, 28. Dezember 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josef Fleminger",
+ "ref":
+ "person_15043"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "person_17108"},
+ {
+ "persName":
+ "Josef Popper-Lynkeus",
+ "ref":
+ "person_18916"},
+ {
+ "persName":
+ "Edith von Rodling-Amann",
+ "ref":
+ "person_19315"},
+ {
+ "persName":
+ "Fritz Wittels",
+ "ref":
+ "person_21406"},
+ {
+ "persName":
+ "Eleonore Reik",
+ "ref":
+ "person_19134"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Marburg",
+ "ref":
+ "pmb59021"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

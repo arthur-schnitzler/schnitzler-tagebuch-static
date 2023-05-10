@@ -1,0 +1,391 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1902-01-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-01-03.html",
+ "head":
+ "Tagebuch, 3. Januar 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Auguste Chlum",
+ "ref":
+ "person_14199"},
+ {
+ "persName":
+ "Moritz Coschell",
+ "ref":
+ "person_14283"},
+ {
+ "persName":
+ "Arthur Eloesser",
+ "ref":
+ "person_14730"},
+ {
+ "persName":
+ "Efraim Frisch",
+ "ref":
+ "person_15253"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Moritz Heimann",
+ "ref":
+ "person_16041"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "person_16819"},
+ {
+ "persName":
+ "Paul Martin Marton",
+ "ref":
+ "person_17946"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "Lebendige Stunden. Vier Einakter",
+ "ref":
+ "pmb29863"}
+ ,  {
+ "title":
+ "Das Verlöbnis. Geschichte eines Knaben",
+ "ref":
+ "pmb43467"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Zürich",
+ "ref":
+ "pmb484"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01195",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01195.html",
+ "head":
+ "Arthur Schnitzler an Hermann Bahr, 3. 1. 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Maximilian Harden",
+ "ref":
+ "pmb11581"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "pmb11988"},
+ {
+ "persName":
+ "Alfred Capus",
+ "ref":
+ "pmb2408"},
+ {
+ "persName":
+ "Theodor Wolff",
+ "ref":
+ "pmb13163"},
+ {
+ "persName":
+ "Albert Bassermann",
+ "ref":
+ "pmb10844"},
+ {
+ "persName":
+ "Oskar Sauer",
+ "ref":
+ "pmb2193"},
+ {
+ "persName":
+ "Henrik Ibsen",
+ "ref":
+ "pmb11798"},
+ {
+ "persName":
+ "Irene Triesch",
+ "ref":
+ "pmb12977"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Krampus",
+ "ref":
+ "pmb29881"}
+ ,  {
+ "title":
+ "Die Fackel",
+ "ref":
+ "pmb41244"}
+ ,  {
+ "title":
+ "[Wie mich Herr Bahr beneidet]",
+ "ref":
+ "pmb29969"}
+ ,  {
+ "title":
+ "Das Glück",
+ "ref":
+ "pmb29967"}
+ ,  {
+ "title":
+ "Das Glück. (La veine. Komödie in vier Aufzügen von Alfred Capus. Deutsch von Theodor Wolff. Zum ersten Mal aufgeführt im Deutschen Volkstheater am 28. September 1901)",
+ "ref":
+ "pmb32468"}
+ ,  {
+ "title":
+ "Neues Wiener Tagblatt",
+ "ref":
+ "pmb41321"}
+ ,  {
+ "title":
+ "Lebendige Stunden. Vier Einakter",
+ "ref":
+ "pmb29863"}
+ ,  {
+ "title":
+ "Die Wildente",
+ "ref":
+ "pmb29971"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb3"}
+ ,  {
+ "placeName":
+ "Hamburg",
+ "ref":
+ "pmb506"}
+ ,  {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041047",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041047.html",
+ "head":
+ "Schnitzler an Bahr, 3. 1. 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Maximilian Harden",
+ "ref":
+ "pmb11581"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "pmb11988"},
+ {
+ "persName":
+ "Albert Bassermann",
+ "ref":
+ "pmb10844"},
+ {
+ "persName":
+ "Oskar Sauer",
+ "ref":
+ "pmb2193"},
+ {
+ "persName":
+ "Irene Triesch",
+ "ref":
+ "pmb12977"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Krampus",
+ "ref":
+ "pmb29881"}
+ ,  {
+ "title":
+ "[Wie mich Herr Bahr beneidet]",
+ "ref":
+ "pmb29969"}
+ ,  {
+ "title":
+ "Das Glück",
+ "ref":
+ "pmb29967"}
+ ,  {
+ "title":
+ "Lebendige Stunden. Vier Einakter",
+ "ref":
+ "pmb29863"}
+ ,  {
+ "title":
+ "Die Wildente",
+ "ref":
+ "pmb29971"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb3"}
+ ,  {
+ "placeName":
+ "Hamburg",
+ "ref":
+ "pmb506"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Die Fackel",
+ "ref":
+ "pmb29308"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#w300e3d7-7902-4a11-b0c7-2b0b441db98d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Louise Dumont an Arthur Schnitzler, 3.1.1902",
+ "source":
+ "Gertrude Cepl-Kaufmann et al. (Hgg.): Louise Dumont. Eine Kulturgeschichte in Briefen und Dokumenten. Bd. 1: 1879-1904. Klartext Verlag, Essen 2013."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00051194",
+ "head":
+ "Schnitzler, Arthur an Gussmann, Elisabeth [Briefe]",
+ "text":
+ "Erstes Objekt aus der Mappe. 40 Br., 14 Ktn 98 Bl., davon 2 Bl.Durchschl. Mit 7 Umschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Elisabeth (1885-1920) Gussmann",
+ "ref":
+ "http://d-nb.info/gnd/117263958"}]
+}
+}] 

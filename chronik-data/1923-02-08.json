@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-02-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-02-08.html",
+ "head":
+ "Tagebuch, 8. Februar 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Joseph Jefferson Asch",
+ "ref":
+ "person_13272"},
+ {
+ "persName":
+ "Alexander Barjanski",
+ "ref":
+ "person_13423"},
+ {
+ "persName":
+ "Catherine Barjanski",
+ "ref":
+ "person_13424"},
+ {
+ "persName":
+ "Siegfried von Strakosch-Feldringen",
+ "ref":
+ "person_20469"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Traumnovelle",
+ "ref":
+ "pmb30851"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Gustaf Linden, 8.2.1923",
+ "source":
+ "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00078661",
+ "head":
+ "Schnitzler, Arthur an Segatockicz, Z. [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-1424475",
+ "head":
+ "Brief von Arthur Schnitzler an Ignaz Georg Stollberg",
+ "text":
+ "1 Br.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ignaz Georg (1853-1926) Stollberg",
+ "ref":
+ "http://d-nb.info/gnd/117286842"}]
+}
+}] 

@@ -1,0 +1,336 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-07-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-07-01.html",
+ "head":
+ "Tagebuch, 1. Juli 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marco Polo",
+ "ref":
+ "person_18904"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Geschichte der deutschen Höfe seit der Reformation",
+ "ref":
+ "pmb31315"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01413",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01413.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 1. 7. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Schicksal des Freiherrn von Leisenbohg. Novellette",
+ "ref":
+ "pmb30057"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Sixleitengasse",
+ "ref":
+ "pmb45103"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01414",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01414.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 1. 7. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Schicksal des Freiherrn von Leisenbohg. Novellette",
+ "ref":
+ "pmb30057"}
+ ,  {
+ "title":
+ "Die neue Rundschau",
+ "ref":
+ "pmb36156"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041542",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041542.html",
+ "head":
+ "Schnitzler an Otto Brahm, 1. 7. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Felix Hollaender",
+ "ref":
+ "pmb11752"},
+ {
+ "persName":
+ "Josef Jarno",
+ "ref":
+ "pmb2601"},
+ {
+ "persName":
+ "Albert Bassermann",
+ "ref":
+ "pmb10844"},
+ {
+ "persName":
+ "??",
+ "ref":
+ "pmb27708"},
+ {
+ "persName":
+ "Miguel de Cervantes Saavedra",
+ "ref":
+ "pmb2980"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Rudolf Rittner",
+ "ref":
+ "pmb12530"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Ritterlichkeit",
+ "ref":
+ "pmb30287"}
+ ,  {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Literatur",
+ "ref":
+ "pmb29869"}
+ ,  {
+ "title":
+ "Lebendige Stunden. Vier Einakter",
+ "ref":
+ "pmb29863"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Der Meister",
+ "ref":
+ "pmb29983"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Physiatrisches Sanatorium (Lahmann)",
+ "ref":
+ "pmb580"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Taormina",
+ "ref":
+ "pmb906"}
+ ,  {
+ "placeName":
+ "Kleines Theater",
+ "ref":
+ "pmb208"}
+ ,  {
+ "placeName":
+ "Neues Theater",
+ "ref":
+ "pmb720"}
+ ,  {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ,  {
+ "placeName":
+ "Theater in der Josefstadt",
+ "ref":
+ "pmb40"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Otto Brahm, 1.7.1904",
+ "source":
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}] 

@@ -1,0 +1,121 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-08-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-08-04.html",
+ "head":
+ "Tagebuch, 4. August 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Christian Hold",
+ "ref":
+ "person_16316"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Helene Eidlitz",
+ "ref":
+ "person_20268"},
+ {
+ "persName":
+ "Otto Zuckerkandl",
+ "ref":
+ "person_21601"},
+ {
+ "persName":
+ "Adalbert von Kunzek-Lichton",
+ "ref":
+ "person_17200"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "person_21602"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02146",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02146.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 4. 8. 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Santa Maria Elisabetta",
+ "ref":
+ "pmb843"}
+ ,  {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Brijuni",
+ "ref":
+ "pmb45260"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Serbien",
+ "ref":
+ "pmb264"}
+ ,  {
+ "placeName":
+ "Canale Albrizzi",
+ "ref":
+ "pmb52030"}
+ ,  {
+ "placeName":
+ "Grand Hotel des Bains",
+ "ref":
+ "pmb40983"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45260/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45260/",
+ "head":
+ "Brijuni"
+}] 

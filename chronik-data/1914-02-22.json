@@ -1,0 +1,144 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-02-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-02-22.html",
+ "head":
+ "Tagebuch, 22. Februar 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Edith von Beschi",
+ "ref":
+ "person_13693"},
+ {
+ "persName":
+ "Maria Mayer",
+ "ref":
+ "person_18020"},
+ {
+ "persName":
+ "Emil Reich",
+ "ref":
+ "person_19115"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "person_21602"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Das Schicksal des Freiherrn von Leisenbohg. Novellette",
+ "ref":
+ "pmb30057"}
+ ,  {
+ "title":
+ "Goethe über seine Dichtungen",
+ "ref":
+ "pmb30979"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Döbling",
+ "ref":
+ "pmb64219"}
+ ,  {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/51279/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/51279/",
+ "head":
+ "Vorlesung von Leisenbohg, Professor Bernhardi, 22.2.1914",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Das Schicksal des Freiherrn von Leisenbohg. Novellette",
+ "ref":
+ "pmb30057"}
+ ,  {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ludo-Hartmann-Platz",
+ "ref":
+ "pmb51285"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Verein Volksheim",
+ "ref":
+ "pmb51283"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#w6429315-92be-4f82-b2f1-926125f9bfa5",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Eugen Deimel an Arthur Schnitzler, 22.2.1914?",
+ "source":
+ "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
+}] 

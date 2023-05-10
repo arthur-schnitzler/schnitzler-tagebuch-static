@@ -1,0 +1,112 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-09-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-09-20.html",
+ "head":
+ "Tagebuch, 20. September 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan von Auspitz-Artenegg",
+ "ref":
+ "person_13316"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Camillo Castiglioni",
+ "ref":
+ "person_14158"},
+ {
+ "persName":
+ "Friedrich Gundolf",
+ "ref":
+ "person_15751"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Ludwig Sgal",
+ "ref":
+ "person_20076"},
+ {
+ "persName":
+ "Georg Wassermann",
+ "ref":
+ "person_21106"},
+ {
+ "persName":
+ "Siegmund Bosel",
+ "ref":
+ "person_13886"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Shakespeare. Sein Wesen und Werk",
+ "ref":
+ "pmb77090"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Isola di Capri",
+ "ref":
+ "pmb90444"}
+ ,  {
+ "placeName":
+ "Udine",
+ "ref":
+ "pmb91965"}
+ ,  {
+ "placeName":
+ "Rijeka",
+ "ref":
+ "pmb44246"}
+ ,  {
+ "placeName":
+ "London",
+ "ref":
+ "pmb224"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/462/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/462/",
+ "head":
+ "Venedig"
+}] 

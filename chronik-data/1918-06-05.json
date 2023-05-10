@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-06-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-06-05.html",
+ "head":
+ "Tagebuch, 5. Juni 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Friedrich Kerst",
+ "ref":
+ "person_16823"},
+ {
+ "persName":
+ "Julius von Landesberger",
+ "ref":
+ "person_17278"},
+ {
+ "persName":
+ "Marie Christine Olden",
+ "ref":
+ "person_18546"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "person_21047"},
+ {
+ "persName":
+ "Fritz Wittels",
+ "ref":
+ "person_21406"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Die Erinnerungen an Beethoven",
+ "ref":
+ "pmb78915"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ungarn",
+ "ref":
+ "pmb35512"}
+ ,  {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

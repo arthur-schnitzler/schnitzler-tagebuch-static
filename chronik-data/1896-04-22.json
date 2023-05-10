@@ -1,0 +1,147 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-04-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-04-22.html",
+ "head":
+ "Tagebuch, 22. April 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ida Falk",
+ "ref":
+ "person_14878"},
+ {
+ "persName":
+ "Dora Fournier",
+ "ref":
+ "person_15087"},
+ {
+ "persName":
+ "Louis Philipp Friedmann",
+ "ref":
+ "person_15229"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "person_16222"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00541",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00541.html",
+ "head":
+ "Georg Brandes an Arthur Schnitzler, 22. 4. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"},
+ {
+ "persName":
+ "Emanuel Reicher",
+ "ref":
+ "pmb12491"},
+ {
+ "persName":
+ "Rudolf Rittner",
+ "ref":
+ "pmb12530"},
+ {
+ "persName":
+ "Josef Jarno",
+ "ref":
+ "pmb2601"},
+ {
+ "persName":
+ "Agnes Sorma",
+ "ref":
+ "pmb2299"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb3"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

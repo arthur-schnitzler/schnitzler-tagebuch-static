@@ -1,0 +1,99 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1931-07-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-07-15.html",
+ "head":
+ "Tagebuch, 15. Juli 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arnold Korff",
+ "ref":
+ "person_17046"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"},
+ {
+ "persName":
+ "Otto Paul Schinnerer",
+ "ref":
+ "person_19704"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp936",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp936.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 12.–18. Juli 1931"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00069199",
+ "head":
+ "Hoffmann, Norbert an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Norbert (1891-1977) Hoffmann",
+ "ref":
+ "http://d-nb.info/gnd/1113760052"}]
+}
+}] 

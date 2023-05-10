@@ -1,0 +1,223 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-02-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-02-27.html",
+ "head":
+ "Tagebuch, 27. Februar 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Sidonie Eisenschitz",
+ "ref":
+ "person_14687"},
+ {
+ "persName":
+ "Wilhelm Meyer-Förster",
+ "ref":
+ "person_18127"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Kriemhilde",
+ "ref":
+ "pmb33528"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00183",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00183.html",
+ "head":
+ "Karl Kraus an Arthur Schnitzler, 27. 2. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "pmb11988"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"},
+ {
+ "persName":
+ "Felix Dörmann",
+ "ref":
+ "pmb2425"},
+ {
+ "persName":
+ "Richard Specht",
+ "ref":
+ "pmb2456"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "pmb26392"},
+ {
+ "persName":
+ "Boris Van-Jung",
+ "ref":
+ "pmb26388"},
+ {
+ "persName":
+ "Georg Fischer",
+ "ref":
+ "pmb16265"},
+ {
+ "persName":
+ "Robert Fischer",
+ "ref":
+ "pmb16288"},
+ {
+ "persName":
+ "Carl Busse",
+ "ref":
+ "pmb4494"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Weber. Schauspiel aus den vierziger Jahren",
+ "ref":
+ "pmb29827"}
+ ,  {
+ "title":
+ "Wiener Lyriker",
+ "ref":
+ "pmb33436"}
+ ,  {
+ "title":
+ "Magazin für die Literatur des Auslandes",
+ "ref":
+ "pmb40968"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Freie Bühne",
+ "ref":
+ "pmb29561"}
+ ,  {
+ "orgName":
+ "Magazin für die Literatur des Auslandes",
+ "ref":
+ "pmb29625"}
+ ,  {
+ "orgName":
+ "Lessing-Theater",
+ "ref":
+ "pmb35053"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "Grillparzerstraße",
+ "ref":
+ "pmb412"}
+ ,  {
+ "placeName":
+ "Schultheiß",
+ "ref":
+ "pmb1176"}
+ ,  {
+ "placeName":
+ "Neues Theater",
+ "ref":
+ "pmb720"}
+ ,  {
+ "placeName":
+ "Café Griensteidl",
+ "ref":
+ "pmb34"}
+ ,  {
+ "placeName":
+ "Waldemarstraße",
+ "ref":
+ "pmb1177"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}] 

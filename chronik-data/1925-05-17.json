@@ -1,0 +1,59 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-05-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-05-17.html",
+ "head":
+ "Tagebuch, 17. Mai 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johannes Brahms",
+ "ref":
+ "person_13914"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Clara Soltau",
+ "ref":
+ "person_20191"},
+ {
+ "persName":
+ "Ellis Stampe-Bendix",
+ "ref":
+ "person_20322"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Klaviertrio Nr. 2 C-Dur op. 87",
+ "ref":
+ "pmb78209"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

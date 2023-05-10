@@ -1,0 +1,267 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-01-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-01-01.html",
+ "head":
+ "Tagebuch, 1. Januar 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gisela von Ehrenstein",
+ "ref":
+ "person_14646"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Paul Jacobsohn",
+ "ref":
+ "person_16475"},
+ {
+ "persName":
+ "Innozenz Kohnberger",
+ "ref":
+ "person_16996"},
+ {
+ "persName":
+ "Else Markbreiter",
+ "ref":
+ "person_17900"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Richard von Wolff",
+ "ref":
+ "person_21449"},
+ {
+ "persName":
+ "Friedrich Michael Fels",
+ "ref":
+ "person_14942"},
+ {
+ "persName":
+ "Bernhard? Panzer",
+ "ref":
+ "person_18657"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00153",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00153.html",
+ "head":
+ "Friedrich M. Fels an Arthur Schnitzler, [1. 1. 1893?]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Michael Fels",
+ "ref":
+ "pmb2450"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Allgemeine Kunst-Chronik",
+ "ref":
+ "pmb29360"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Reisnerstraße",
+ "ref":
+ "pmb41831"}
+ ,  {
+ "placeName":
+ "Strohgasse",
+ "ref":
+ "pmb34016"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00154",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00154.html",
+ "head":
+ "Friedrich M. Fels an Arthur Schnitzler, [1. 1. 1893?]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Michael Fels",
+ "ref":
+ "pmb2450"},
+ {
+ "persName":
+ "Wilhelm Lauser",
+ "ref":
+ "pmb41857"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Allgemeine Kunst-Chronik",
+ "ref":
+ "pmb29360"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Reisnerstraße",
+ "ref":
+ "pmb41831"}
+ ,  {
+ "placeName":
+ "II., Leopoldstadt",
+ "ref":
+ "pmb52"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041519",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041519.html",
+ "head":
+ "Bahr: [Undatierte Notiz, 1893?]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Julius Bauer",
+ "ref":
+ "pmb2150"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00034827",
+ "head":
+ "Glümer, Marie an Schnitzler, Arthur [Briefe]",
+ "text":
+ "Erstes Objekt aus der Mappe. 24 Br., 2 Ktn, 1 Tel. 40 Bl. Mit 2 Beil. 2 Bl.Dr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie (1873-1925) Glümer",
+ "ref":
+ "http://d-nb.info/gnd/128385022"}]
+}
+}] 

@@ -1,0 +1,149 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-10-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-10-29.html",
+ "head":
+ "Tagebuch, 29. Oktober 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ "person_15691"},
+ {
+ "persName":
+ "Arthur Klein",
+ "ref":
+ "person_16880"},
+ {
+ "persName":
+ "Eveline Landing",
+ "ref":
+ "person_17285"},
+ {
+ "persName":
+ "Alice Schmutzer",
+ "ref":
+ "person_19783"},
+ {
+ "persName":
+ "Ferdinand Schmutzer",
+ "ref":
+ "person_19784"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Rudolf von Simolin-Bathory",
+ "ref":
+ "person_20114"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"},
+ {
+ "persName":
+ "Leo Feld",
+ "ref":
+ "person_14923"},
+ {
+ "persName":
+ "Nikolaus Njegus",
+ "ref":
+ "person_18464"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Episode",
+ "ref":
+ "pmb31357"}
+ ,  {
+ "title":
+ "Die Hirtenflöte. Novelle",
+ "ref":
+ "pmb30213"}
+ ,  {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-908700",
+ "head":
+ "Brief von Arthur Schnitzler an Richard Rosenbaum",
+ "text":
+ "1 Briefkt., Antwortkop.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur (1862-1931) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/126794855"},
+ {
+ "persName":
+ "Richard (1867-1942) Rosenbaum",
+ "ref":
+ "http://d-nb.info/gnd/11662177X"}]
+}
+}] 

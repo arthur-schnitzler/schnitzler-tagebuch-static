@@ -1,0 +1,137 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-01-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-01-12.html",
+ "head":
+ "Tagebuch, 12. Januar 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johann Sebastian Bach",
+ "ref":
+ "person_13344"},
+ {
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Honoré Daumier",
+ "ref":
+ "person_14360"},
+ {
+ "persName":
+ "Artur Fleischer",
+ "ref":
+ "person_15032"},
+ {
+ "persName":
+ "El Greco",
+ "ref":
+ "person_15631"},
+ {
+ "persName":
+ "Grete Jacques",
+ "ref":
+ "person_16485"},
+ {
+ "persName":
+ "Franz Liszt",
+ "ref":
+ "person_17593"},
+ {
+ "persName":
+ "Carl Moll",
+ "ref":
+ "person_18218"},
+ {
+ "persName":
+ "Hans Pfitzner",
+ "ref":
+ "person_18745"},
+ {
+ "persName":
+ "Arnold Rosé",
+ "ref":
+ "person_19351"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "person_20509"},
+ {
+ "persName":
+ "Wilhelm Trübner",
+ "ref":
+ "person_20820"},
+ {
+ "persName":
+ "Richard Wagner",
+ "ref":
+ "person_21034"},
+ {
+ "persName":
+ "Isabella Vengerova",
+ "ref":
+ "person_21231"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"},
+ {
+ "persName":
+ "Max Reger",
+ "ref":
+ "person_19103"},
+ {
+ "persName":
+ "Franz Peter Schubert",
+ "ref":
+ "person_19902"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Das Wohltemperierte Klavier BWV 846-893",
+ "ref":
+ "pmb77120"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Köstlergasse",
+ "ref":
+ "pmb92343"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

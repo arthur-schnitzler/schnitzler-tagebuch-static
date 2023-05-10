@@ -1,0 +1,142 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1894-01-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-01-21.html",
+ "head":
+ "Tagebuch, 21. Januar 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Oskar Blumenthal",
+ "ref":
+ "person_13808"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "person_17108"},
+ {
+ "persName":
+ "Sigmund Lautenburg",
+ "ref":
+ "person_17364"},
+ {
+ "persName":
+ "Jean Mounet-Sully",
+ "ref":
+ "person_18281"},
+ {
+ "persName":
+ "Robert Nhil",
+ "ref":
+ "person_18438"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Friedrich Schik",
+ "ref":
+ "person_19685"},
+ {
+ "persName":
+ "Friedrich Elbogen",
+ "ref":
+ "person_14713"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Hamlet",
+ "ref":
+ "pmb30009"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/118263/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/118263/",
+ "head":
+ "Aufführung von Hamlet, 21.1.1894",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Hamlet",
+ "ref":
+ "pmb30009"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Jean Mounet-Sully",
+ "ref":
+ "pmb21668"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Carl-Theater",
+ "ref":
+ "pmb118"}
+ ]
+}
+}] 

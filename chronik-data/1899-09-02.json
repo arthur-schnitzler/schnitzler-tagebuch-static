@@ -1,0 +1,92 @@
+[{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00967",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00967.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 2. 9. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Seeboden",
+ "ref":
+ "pmb34824"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+ "ref":
+ "pmb414"}
+ ,  {
+ "placeName":
+ "Villa Platzer",
+ "ref":
+ "pmb40788"}
+ ,  {
+ "placeName":
+ "Sachsenburg",
+ "ref":
+ "pmb41430"}
+ ,  {
+ "placeName":
+ "Kärnten",
+ "ref":
+ "pmb651"}
+ ,  {
+ "placeName":
+ "Gasthof Fritz",
+ "ref":
+ "pmb43036"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/414/",
+ "head":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)"
+}] 

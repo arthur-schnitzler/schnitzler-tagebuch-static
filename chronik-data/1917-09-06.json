@@ -1,0 +1,72 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net",
+ "head":
+ "Fink und Fliederbusch, Manuskript",
+ "text":
+ "Publikation in Vorbereitung"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1917-09-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-09-06.html",
+ "head":
+ "Tagebuch, 6. September 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Bassermann",
+ "ref":
+ "person_13457"},
+ {
+ "persName":
+ "Siegfried Jacobsohn",
+ "ref":
+ "person_16477"},
+ {
+ "persName":
+ "Anne-Elisabeth Kösters",
+ "ref":
+ "person_16984"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Eibsee",
+ "ref":
+ "pmb90567"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,103 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1912-03-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-03-01.html",
+ "head":
+ "Tagebuch, 1. März 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marianne Benedict",
+ "ref":
+ "person_13581"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Wilhelm König",
+ "ref":
+ "person_16972"},
+ {
+ "persName":
+ "Bernhard Herzmansky",
+ "ref":
+ "person_16166"},
+ {
+ "persName":
+ "Eduard Vallo",
+ "ref":
+ "person_20915"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Pierrette",
+ "ref":
+ "pmb30215"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schwarzenbergplatz",
+ "ref":
+ "pmb91711"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00046259",
+ "head":
+ "Schnitzler, Arthur an Herzmansky, Bernhard [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043227",
+ "head":
+ "Sebaldt, Otto F. W. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl. Mit 1 Beil. 2 Bl.Dr."
+}] 

@@ -1,0 +1,113 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1931-04-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-04-10.html",
+ "head":
+ "Tagebuch, 10. April 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugen Alt",
+ "ref":
+ "person_13158"},
+ {
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Karl Friedrich Pollaczek",
+ "ref":
+ "person_18866"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Oscar Straus",
+ "ref":
+ "person_20490"},
+ {
+ "persName":
+ "Alt",
+ "ref":
+ "person_13157"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Bauerngeneral",
+ "ref":
+ "pmb77128"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp897",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp897.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 5.–12. April 1931"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00080258",
+ "head":
+ "Schnitzler, Arthur: Heimkehr [Dramatisches] (Manuskripttitel)",
+ "text":
+ "Erstes Objekt aus der Mappe. ca 40 Bl."
+}] 

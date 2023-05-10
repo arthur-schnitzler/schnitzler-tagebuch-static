@@ -1,0 +1,95 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-05-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-05-22.html",
+ "head":
+ "Tagebuch, 22. Mai 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Alfred Mandl",
+ "ref":
+ "person_17815"},
+ {
+ "persName":
+ "Ludwig Mandl",
+ "ref":
+ "person_17826"},
+ {
+ "persName":
+ "Gustav von Mauthner",
+ "ref":
+ "person_17994"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berndorf",
+ "ref":
+ "pmb90340"}
+ ,  {
+ "placeName":
+ "Pottenstein",
+ "ref":
+ "pmb40112"}
+ ,  {
+ "placeName":
+ "Baden bei Wien",
+ "ref":
+ "pmb662"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/992/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/992/",
+ "head":
+ "Bad Vöslau"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40112/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40112/",
+ "head":
+ "Pottenstein"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/662/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/662/",
+ "head":
+ "Baden bei Wien"
+}] 

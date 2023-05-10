@@ -1,0 +1,144 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-11-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-11-12.html",
+ "head":
+ "Tagebuch, 12. November 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johann Sebastian Bach",
+ "ref":
+ "person_13344"},
+ {
+ "persName":
+ "Edmund Eysler",
+ "ref":
+ "person_14833"},
+ {
+ "persName":
+ "Grete Jacques",
+ "ref":
+ "person_16485"},
+ {
+ "persName":
+ "Leopold Krenn",
+ "ref":
+ "person_17133"},
+ {
+ "persName":
+ "Heinrich Reinhardt",
+ "ref":
+ "person_19153"},
+ {
+ "persName":
+ "Fritz Telmann",
+ "ref":
+ "person_20658"},
+ {
+ "persName":
+ "Charles Weinberger",
+ "ref":
+ "person_21166"},
+ {
+ "persName":
+ "Franz Wolff",
+ "ref":
+ "person_21442"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Messe h-Moll BWV 232",
+ "ref":
+ "pmb77124"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01729",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01729.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 12. 11. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Franziska Schlesinger",
+ "ref":
+ "pmb24233"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XVII., Hernals",
+ "ref":
+ "pmb67"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Elisabethstraße",
+ "ref":
+ "pmb795"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

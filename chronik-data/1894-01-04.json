@@ -1,0 +1,112 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1894-01-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-01-04.html",
+ "head":
+ "Tagebuch, 4. Januar 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00289",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00289.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 4. 1. 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Friedrich Michael Fels",
+ "ref":
+ "pmb2450"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Eine böse Nacht. Lustspiel in 3 Acten",
+ "ref":
+ "pmb41931"}
+ ,  {
+ "title":
+ "Das Bild des Signorelli. Schauspiel in 4 Acten",
+ "ref":
+ "pmb41936"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Raimund-Theater",
+ "ref":
+ "pmb77"}
+ ,  {
+ "placeName":
+ "Café Central",
+ "ref":
+ "pmb262"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#g21edf0a-7af3-4163-813b-7d55aaaf2eba",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Adele Sandrock, 4.1.1894",
+ "source":
+ "Renate Wagner (Hg.): Dilly. Geschichte einer Liebe in Briefen, Bildern und Dokumenten. Wien/München: Amalthea 1975."
+}] 

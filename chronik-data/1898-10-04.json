@@ -1,0 +1,204 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1898-10-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-10-04.html",
+ "head":
+ "Tagebuch, 4. Oktober 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Hermann Faber",
+ "ref":
+ "person_14847"},
+ {
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "person_15306"},
+ {
+ "persName":
+ "Alexander Meyer-Cohn",
+ "ref":
+ "person_18124"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Vermächtnis. Schauspiel in drei Akten",
+ "ref":
+ "pmb30219"}
+ ,  {
+ "title":
+ "Cyrano von Bergerac",
+ "ref":
+ "pmb77230"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00850",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00850.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, 4. 10. 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Vermächtnis. Schauspiel in drei Akten",
+ "ref":
+ "pmb30219"}
+ ,  {
+ "title":
+ "Der Abenteurer und die Sängerin oder Die Geschenke des Lebens",
+ "ref":
+ "pmb32512"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Le due Torri: Garisenda e degli Asinelli",
+ "ref":
+ "pmb43375"}
+ ,  {
+ "placeName":
+ "Bologna",
+ "ref":
+ "pmb896"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/143068/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/143068/",
+ "head":
+ "Aufführung von Cyrano von Bergerac, 4.10.1898",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Cyrano von Bergerac. Romantische Komödie in fünf Aufzügen",
+ "ref":
+ "pmb77230"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Hermann Faber",
+ "ref":
+ "pmb7054"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "pmb11391"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb3"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb35597"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Marie Reinhard, 4. 10. 1898",
+ "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}] 

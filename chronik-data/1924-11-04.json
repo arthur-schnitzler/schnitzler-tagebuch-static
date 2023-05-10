@@ -1,0 +1,190 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1924-11-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-11-04.html",
+ "head":
+ "Tagebuch, 4. November 1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Olga von Gans-Ludassy",
+ "ref":
+ "person_15340"},
+ {
+ "persName":
+ "Leon Kellner",
+ "ref":
+ "person_16801"},
+ {
+ "persName":
+ "Helene Lafite",
+ "ref":
+ "person_17250"},
+ {
+ "persName":
+ "Philine Lahr",
+ "ref":
+ "person_17255"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "person_17784"},
+ {
+ "persName":
+ "Josef Peter",
+ "ref":
+ "person_18722"},
+ {
+ "persName":
+ "Franz Werfel",
+ "ref":
+ "person_21243"},
+ {
+ "persName":
+ "Jean Untermeyer",
+ "ref":
+ "person_20332"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"},
+ {
+ "persName":
+ "Louise Koppel",
+ "ref":
+ "person_17037"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aphoristisches",
+ "ref":
+ "pmb35745"}
+ ,  {
+ "title":
+ "Der Geist im Wort und der Geist in der Tat",
+ "ref":
+ "pmb30051"}
+ ,  {
+ "title":
+ "Kritik und Fälschung",
+ "ref":
+ "pmb35753"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Köln",
+ "ref":
+ "pmb145"}
+ ,  {
+ "placeName":
+ "Maria Wörth",
+ "ref":
+ "pmb45266"}
+ ,  {
+ "placeName":
+ "Wörthersee",
+ "ref":
+ "pmb430"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/142476/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/142476/",
+ "head":
+ "Konzert von Jean Starr Untermeyer, 4.11.1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jean Untermeyer",
+ "ref":
+ "pmb4451"},
+ {
+ "persName":
+ "Helene Lafite",
+ "ref":
+ "pmb20026"},
+ {
+ "persName":
+ "Carl Lafite",
+ "ref":
+ "pmb20023"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Konzerthaus",
+ "ref":
+ "pmb240"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Stefan Zweig an Arthur Schnitzler, 4.11.1924",
+ "source":
+ "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
+}] 

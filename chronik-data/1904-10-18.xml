@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1904-10-18">Dienstag, 18. Oktober 1904</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1904-10-18">
+               <head>Tagebuch, 18. Oktober 1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13473">Ludwig Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15530">Karl Goldmark</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16646">Josef Kainz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19902">Franz Peter Schubert</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31547">Das Haus Delorme. Eine Familienszene</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29843">Der grüne Kakadu. Groteske in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30217">Der tapfere Cassian. Puppenspiel in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30403">Paracelsus. Versspiel in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80607">In Italien, Ouvertüre op. 49</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-10-18.html</idno>
+            </event>
+            <event when-iso="1904-10-18">
+               <head>Hugo von Hofmannsthal an Arthur Schnitzler, 18. 10. 1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb60">X., Favoriten</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb57">VII., Neubau</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb133">Edmund-Weiß-Gasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb63">XIII., Hietzing</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01457.html</idno>
+            </event>
+            <event when-iso="1904-10-18">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1904-10-18">
+               <head>Boubela, R. V. an Schnitzler, Arthur [Briefe]</head>
+               <desc>2 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00032545</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

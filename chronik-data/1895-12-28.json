@@ -1,0 +1,92 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-12-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-12-28.html",
+ "head":
+ "Tagebuch, 28. Dezember 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustav Frieberger",
+ "ref":
+ "person_15199"},
+ {
+ "persName":
+ "Edmund von Gutmann-Gelse",
+ "ref":
+ "person_15776"},
+ {
+ "persName":
+ "Zacharias Konrad Lecher",
+ "ref":
+ "person_17379"},
+ {
+ "persName":
+ "Adolf von Sonnenthal",
+ "ref":
+ "person_20204"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Heinrich Glogau",
+ "ref":
+ "person_15472"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der kleine Lord",
+ "ref":
+ "pmb80269"}
+ ,  {
+ "title":
+ "Die schlimmen Buben in der Schule",
+ "ref":
+ "pmb77428"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

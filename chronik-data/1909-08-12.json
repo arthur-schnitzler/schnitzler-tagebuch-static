@@ -1,0 +1,181 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-08-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-08-12.html",
+ "head":
+ "Tagebuch, 12. August 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "person_15499"},
+ {
+ "persName":
+ "Anna Kallina",
+ "ref":
+ "person_16666"},
+ {
+ "persName":
+ "Friedrich Mitterwurzer",
+ "ref":
+ "person_18190"},
+ {
+ "persName":
+ "Egon Witrofsky",
+ "ref":
+ "person_21402"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hochschneeberg",
+ "ref":
+ "pmb5836"}
+ ,  {
+ "placeName":
+ "Eng",
+ "ref":
+ "pmb90587"}
+ ,  {
+ "placeName":
+ "Gahns",
+ "ref":
+ "pmb91101"}
+ ,  {
+ "placeName":
+ "Grünbach am Schneeberg",
+ "ref":
+ "pmb90785"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01864",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01864.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 12. 8. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "St. Elisabeth-Kirchlein-Baucomité",
+ "ref":
+ "pmb51999"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hochschneeberg",
+ "ref":
+ "pmb5836"}
+ ,  {
+ "placeName":
+ "Santa Maria Elisabetta",
+ "ref":
+ "pmb843"}
+ ,  {
+ "placeName":
+ "Magistratisches Bezirksamt für den 3. Bezirk",
+ "ref":
+ "pmb52001"}
+ ,  {
+ "placeName":
+ "Lido",
+ "ref":
+ "pmb259"}
+ ,  {
+ "placeName":
+ "Grand Hotel des Bains",
+ "ref":
+ "pmb40983"}
+ ,  {
+ "placeName":
+ "Berghaus Hochschneeberg",
+ "ref":
+ "pmb51994"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/470/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/470/",
+ "head":
+ "Edlach"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91691/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91691/",
+ "head":
+ "Hochschneeberg"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90785/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90785/",
+ "head":
+ "Grünbach am Schneeberg"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/714/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/714/",
+ "head":
+ "Hotel Edlacherhof"
+}] 

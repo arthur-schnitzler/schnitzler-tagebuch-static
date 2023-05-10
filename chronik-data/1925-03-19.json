@@ -1,0 +1,120 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-03-19",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-03-19.html",
+ "head":
+ "Tagebuch, 19. März 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "person_16819"},
+ {
+ "persName":
+ "Lina Lossen",
+ "ref":
+ "person_17692"},
+ {
+ "persName":
+ "Alice Meisel",
+ "ref":
+ "person_18048"},
+ {
+ "persName":
+ "Karl Michaelis",
+ "ref":
+ "person_18140"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Paul Wiegler",
+ "ref":
+ "person_21298"},
+ {
+ "persName":
+ "Egon Friedell",
+ "ref":
+ "person_15210"},
+ {
+ "persName":
+ "Georg von Sachsen-Meiningen",
+ "ref":
+ "person_19514"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Grunewald",
+ "ref":
+ "pmb129"}
+ ,  {
+ "placeName":
+ "Meiningen",
+ "ref":
+ "pmb35576"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp200",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp200.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 19. März 1925"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp201",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp201.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 19. März 1925"
+}] 

@@ -1,0 +1,96 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-04-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-04-30.html",
+ "head":
+ "Tagebuch, 30. April 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Andersen",
+ "ref":
+ "person_13189"},
+ {
+ "persName":
+ "Franz Herterich",
+ "ref":
+ "person_16125"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Paul Schlenther",
+ "ref":
+ "person_19724"},
+ {
+ "persName":
+ "Thelma Spear",
+ "ref":
+ "person_20231"},
+ {
+ "persName":
+ "Hilde Wagener",
+ "ref":
+ "person_21019"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00034040",
+ "head":
+ "Flesch-Brunningen, Hans an Schnitzler, Arthur [Briefe]",
+ "text":
+ "3 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans (1895-1981) Flesch-Brunningen",
+ "ref":
+ "http://d-nb.info/gnd/105602213"}]
+}
+}] 

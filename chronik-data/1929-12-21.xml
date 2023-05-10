@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1929-12-21">Samstag, 21. Dezember 1929</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1929-12-21">
+               <head>Tagebuch, 21. Dezember 1929</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13545">Rudolf Beer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13730">Jean Billiter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14234">Suzanne Clauser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14316">Franz Theodor Csokor</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16807">Hedy Kempny</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17509">Robert Lichtenstern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17888">Konrad Maril</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18137">Dora Michaelis</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18209">Alexander Moissi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18866">Karl Friedrich Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18867">Magda Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19756">Paula Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19802">Edith Schneider</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30945">Im Spiel der Sommerlüfte. In drei Aufzügen</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb43406">Vereinigte Staaten von Amerika (USA)</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44016">Niederlande</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-12-21.html</idno>
+            </event>
+            <event when-iso="1929-12-21">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1929-12-21">
+               <head>Deutsches Volkstheater</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92202/</idno>
+            </event>
+            <event when-iso="1929-12-21">
+               <head>Schnitzler: Freiexemplare Im Spiel der Sommerlüfte, [Ende 1929?]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10788">Raoul Auernheimer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14041">Alice Berend</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2914">Oskar Bie</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4358">Ida Dehmel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11205">Alfred Döblin</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11246">Julius Elias</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11327">Otto Flake</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11472">Wenzel Goldbaum</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11617">Gerhart Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11679">Hermann Hesse</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4367">Julius Hirsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11752">Felix Hollaender</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11820">Johannes Vilhelm Jensen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11900">Bernhard Kellermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11910">Alfred Kerr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4351">Annette Kolb</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3878">Oskar Loerke</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4354">Aage Madelung</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12176">Thomas Mann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28556">Laura von Moellendorf</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12514">Gabriele Reuter</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4387">Samuel Saenger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4362">Hugo Simon</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12968">Siegfried Trebitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13055">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13156">Alfred Wolfenstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13094">Franz Werfel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10889">Gottfried Bermann Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11891">Rudolf Kayser</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4374">Konrad Maril</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30945">Im Spiel der Sommerlüfte. In drei Aufzügen</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030046.html</idno>
+            </event>
+            <event when-iso="1929-12-21">
+               <head>Uraufführung von Im Spiel der Sommerlüfte, 21.12.1929</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30945" type="auffuhrung-von-urauffuhrung-von">Im Spiel der Sommerlüfte. In drei Aufzügen</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12435" type="hat-als-teilnehmerin">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb22698" type="hat-als-teilnehmerin">Karl Friedrich Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28022" type="hat-als-teilnehmerin">Magda Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12698" type="hat-als-teilnehmerin">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13920" type="hat-als-arbeitskraft">Rudolf Beer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12274" type="hat-als-arbeitskraft">Alexander Moissi</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11120" type="hat-als-teilnehmerin">Franz Theodor Csokor</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2292" type="hat-als-teilnehmerin">Gertrude von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb15015" type="hat-als-teilnehmerin">Suzanne Clauser</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10300" type="hat-als-arbeitskraft">Luise Ullrich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4836" type="hat-als-teilnehmerin">Therese Rie</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb20" type="veranstaltet-in">Volkstheater</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36430" type="veranstaltet-von">Volkstheater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/35439/</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

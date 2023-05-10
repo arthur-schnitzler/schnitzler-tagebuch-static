@@ -1,0 +1,235 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1901-10-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-10-28.html",
+ "head":
+ "Tagebuch, 28. Oktober 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Abendspaziergang",
+ "ref":
+ "pmb35702"}
+ ,  {
+ "title":
+ "Die grüne Krawatte",
+ "ref":
+ "pmb33786"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01185",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01185.html",
+ "head":
+ "Arthur Schnitzler an Hermann Bahr, 28. 10. 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "pmb10883"},
+ {
+ "persName":
+ "Emerich von Bukovics",
+ "ref":
+ "pmb2161"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "pmb11851"},
+ {
+ "persName":
+ "Albert Gutmann",
+ "ref":
+ "pmb2185"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Lebendige Stunden. Vier Einakter",
+ "ref":
+ "pmb29863"}
+ ,  {
+ "title":
+ "Die letzten Masken",
+ "ref":
+ "pmb29877"}
+ ,  {
+ "title":
+ "Literatur",
+ "ref":
+ "pmb29869"}
+ ,  {
+ "title":
+ "Die Frau mit dem Dolche",
+ "ref":
+ "pmb29865"}
+ ,  {
+ "title":
+ "Lebendige Stunden",
+ "ref":
+ "pmb29957"}
+ ,  {
+ "title":
+ "Lieutenant Gustl. Novelle",
+ "ref":
+ "pmb29853"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hamburg",
+ "ref":
+ "pmb506"}
+ ,  {
+ "placeName":
+ "Deutsches Schauspielhaus",
+ "ref":
+ "pmb645"}
+ ,  {
+ "placeName":
+ "Bösendorfer-Saal",
+ "ref":
+ "pmb4"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041043",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041043.html",
+ "head":
+ "Schnitzler an Bahr, 28. 10. 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "pmb10883"},
+ {
+ "persName":
+ "Emerich von Bukovics",
+ "ref":
+ "pmb2161"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "pmb11851"},
+ {
+ "persName":
+ "Albert Gutmann",
+ "ref":
+ "pmb2185"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die letzten Masken",
+ "ref":
+ "pmb29877"}
+ ,  {
+ "title":
+ "Literatur",
+ "ref":
+ "pmb29869"}
+ ,  {
+ "title":
+ "Die Frau mit dem Dolche",
+ "ref":
+ "pmb29865"}
+ ,  {
+ "title":
+ "Lebendige Stunden",
+ "ref":
+ "pmb29957"}
+ ,  {
+ "title":
+ "Lieutenant Gustl. Novelle",
+ "ref":
+ "pmb29853"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hamburg",
+ "ref":
+ "pmb506"}
+ ]
+}
+}] 

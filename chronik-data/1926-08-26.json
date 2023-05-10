@@ -1,0 +1,85 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-08-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-08-26.html",
+ "head":
+ "Tagebuch, 26. August 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Zermatt",
+ "ref":
+ "pmb34007"}
+ ,  {
+ "placeName":
+ "Interlaken",
+ "ref":
+ "pmb916"}
+ ,  {
+ "placeName":
+ "Grindelwald",
+ "ref":
+ "pmb90769"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/916/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/916/",
+ "head":
+ "Interlaken"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp383",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp383.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 25.–28. August 1926"
+}] 

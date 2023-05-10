@@ -1,0 +1,62 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-08-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-08-13.html",
+ "head":
+ "Tagebuch, 13. August 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Hermine Porges",
+ "ref":
+ "person_18923"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bern",
+ "ref":
+ "pmb1223"}
+ ,  {
+ "placeName":
+ "Zürich",
+ "ref":
+ "pmb484"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/1223/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/1223/",
+ "head":
+ "Bern"
+}] 

@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-08-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-08-15.html",
+ "head":
+ "Tagebuch, 15. August 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Rudolf Schwarzkopf",
+ "ref":
+ "person_19988"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Mörder. Novelle",
+ "ref":
+ "pmb33754"}
+ ,  {
+ "title":
+ "Die Mörderin",
+ "ref":
+ "pmb33792"}
+ ,  {
+ "title":
+ "Theaterroman",
+ "ref":
+ "pmb30321"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

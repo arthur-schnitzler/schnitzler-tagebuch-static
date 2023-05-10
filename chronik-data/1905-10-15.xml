@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1905-10-15">Sonntag, 15. Oktober 1905</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1905-10-15">
+               <head>Tagebuch, 15. Oktober 1905</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15306">Ludwig Fulda</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15854">Gisela Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15855">Markus Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15886">Albert Hammerschlag</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16646">Josef Kainz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21211">Adolf Weisse</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14792">Dora Erl</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29843">Der grüne Kakadu. Groteske in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb96">Meissl &amp; Schadn</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-10-15.html</idno>
+            </event>
+            <event when-iso="1905-10-15">
+               <head>Arthur Schnitzler an Adalbert Seligmann, 15. 10. 1905</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12769">Adalbert Franz Seligmann</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb133">Edmund-Weiß-Gasse</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01564.html</idno>
+            </event>
+            <event when-iso="1905-10-15">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1905-10-15">
+               <head>Aufzeichnung von Bahr, 15. 10. 1905</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31185">Deutsches Volkstheater. (»Der zerbrochene Krug« von Kleist. »Der grüne Kakadu« von Arthur Schnitzler)</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30675">Der zerbrochene Krug</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29843">Der grüne Kakadu. Groteske in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29907">Der Klub der Erlöser</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041483.html</idno>
+            </event>
+            <event when-iso="1905-10-15">
+               <head>Tagebuch von Schnitzler, 15. 10. 1905</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2461">Gisela Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2284">Markus Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2434">Albert Hammerschlag</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12701">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb62143">Erl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb15983">Dora Erl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26880">Adolf Weisse</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11851">Josef Kainz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11391">Ludwig Fulda</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29843">Der grüne Kakadu. Groteske in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb20">Volkstheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb96">Meissl &amp; Schadn</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29626">Die Zeit</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041263.html</idno>
+            </event>
+            <event when-iso="1905-10-15">
+               <head>Bahr: [»Der zerbrochene Krug« und »Der grüne Kakadu«], 15. 10. 1905</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28422">Anton Genast</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23867">Karl August von Sachsen-Weimar</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28430">Luise von Sachsen-Weimar</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11461">Johann Wolfgang von Goethe</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4138">Friedrich Wilhelm Riemer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11933">Heinrich von Kleist</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28904">Johannes Falk</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4153">Henriette von Knebel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4158">Karl Ludwig von Knebel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4273">Caroline Luise von Sachsen-Weimar-Eisenach</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2702">Heinrich Laube</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12654">Friedrich von Schiller</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4135">Theodor Döring</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28440">Carl von La Roche</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4142">Franz von Dingelstedt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11813">Siegfried Jacobsohn</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4146">Friedrich Ludwig Schmidt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4132">Ludwig Tieck</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2412">William Shakespeare</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2189">Ermete Novelli</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11851">Josef Kainz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11441">Alexander Girardi</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11788">Emil Höfer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3341">Kathi Thaller</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10940">Emil Birron</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2235">Richard Vallentin</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4176">Lucie Lissl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2303">Helene Ritscher</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11981">Leopold Kramer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4179">Eugen Jensen</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30675">Der zerbrochene Krug</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32153">Aus dem Tagebuche eines alten Schauspielers, 1. Band</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32640">Goethe aus näherm persönlichen Umgange dargestellt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31249">Gespräche</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32310">Das Burgtheater. Ein Beitrag zur Deutschen Theater-Geschichte</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32642">Neues Kleines Theater</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30095">Das Wiener Stadt-Theater</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31699">Dramaturgische Blätter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29843">Der grüne Kakadu. Groteske in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31185">Deutsches Volkstheater. (»Der zerbrochene Krug« von Kleist. »Der grüne Kakadu« von Arthur Schnitzler)</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41321">Neues Wiener Tagblatt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30685">Glossen. Zum Wiener Theater (1903 bis 1906)</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb20">Volkstheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb197">Weimar</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb861">Hoftheater Weimar</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb866">Dresden</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb151">Deutschland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb646">Mark Brandenburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb208">Kleines Theater</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29700">Phöbus</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29818">Lazarus-Orden</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29348">Die Schaubühne / Die Weltbühne</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/T030022.html</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

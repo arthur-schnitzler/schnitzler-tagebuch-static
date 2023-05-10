@@ -1,0 +1,77 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-10-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-10-17.html",
+ "head":
+ "Tagebuch, 17. Oktober 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Douglas Fairbanks",
+ "ref":
+ "person_14856"},
+ {
+ "persName":
+ "Charlotte Horn",
+ "ref":
+ "person_16362"},
+ {
+ "persName":
+ "Tilly Losch",
+ "ref":
+ "person_17691"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Dieb von Bagdad",
+ "ref":
+ "pmb81456"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Grinzing",
+ "ref":
+ "pmb90771"}
+ ,  {
+ "placeName":
+ "Döbling",
+ "ref":
+ "pmb64219"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

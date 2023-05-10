@@ -1,0 +1,112 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1906-03-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-03-29.html",
+ "head":
+ "Tagebuch, 29. März 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Bauer",
+ "ref":
+ "person_13473"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Siegfried Knapitsch",
+ "ref":
+ "person_16925"},
+ {
+ "persName":
+ "Rudolf Lothar",
+ "ref":
+ "person_17696"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Josef Werkmann",
+ "ref":
+ "person_21245"},
+ {
+ "persName":
+ "Dora Erl",
+ "ref":
+ "person_14792"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Aufstand in Syrakus",
+ "ref":
+ "pmb80126"}
+ ,  {
+ "title":
+ "Automobil",
+ "ref":
+ "pmb80127"}
+ ,  {
+ "title":
+ "Liebessünden. Ländliches Drama",
+ "ref":
+ "pmb31387"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Salmannsdorf",
+ "ref":
+ "pmb91641"}
+ ,  {
+ "placeName":
+ "Köln",
+ "ref":
+ "pmb145"}
+ ,  {
+ "placeName":
+ "Opatija",
+ "ref":
+ "pmb38096"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

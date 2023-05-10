@@ -1,0 +1,108 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net",
+ "head":
+ "Fink und Fliederbusch, Typoskript",
+ "text":
+ "Publikation in Vorbereitung"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-10-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-10-23.html",
+ "head":
+ "Tagebuch, 23. Oktober 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Georg Stollberg",
+ "ref":
+ "person_20458"},
+ {
+ "persName":
+ "Sacha Guitry",
+ "ref":
+ "person_15747"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Bacchusfest",
+ "ref":
+ "pmb32097"}
+ ,  {
+ "title":
+ "La prise de Berg-op-Zoom",
+ "ref":
+ "pmb80642"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Hotel Hammerand",
+ "ref":
+ "pmb585"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00082961",
+ "head":
+ "Schnitzler, Arthur: Fink und Fliederbusch [Dramatisches] (Drucktitel)",
+ "text":
+ "Letztes Objekt aus der Mappe. 32 Bl."
+}] 

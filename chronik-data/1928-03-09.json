@@ -1,0 +1,85 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-03-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-03-09.html",
+ "head":
+ "Tagebuch, 9. März 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Wilhelm Kienzl",
+ "ref":
+ "person_16837"},
+ {
+ "persName":
+ "Josef Kranz",
+ "ref":
+ "person_17092"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Evangelimann",
+ "ref":
+ "pmb80791"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Carezza",
+ "ref":
+ "pmb91003"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp647",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp647.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 2.–10. März 1928"
+}] 

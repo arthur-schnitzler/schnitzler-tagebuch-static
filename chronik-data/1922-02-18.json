@@ -1,0 +1,142 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-02-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-02-18.html",
+ "head":
+ "Tagebuch, 18. Februar 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josefine Glöckner",
+ "ref":
+ "person_15469"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Leopold Kramer",
+ "ref":
+ "person_17087"},
+ {
+ "persName":
+ "Otto Nirenstein",
+ "ref":
+ "person_18460"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041579",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041579.html",
+ "head":
+ "Aufzeichnung von Bahr, 18. 2. 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Ernestine Schlosser",
+ "ref":
+ "pmb28615"},
+ {
+ "persName":
+ "Eugenie von Roth",
+ "ref":
+ "pmb28618"},
+ {
+ "persName":
+ "Ludwig Hirschfeld",
+ "ref":
+ "pmb11704"},
+ {
+ "persName":
+ "Carl Muth",
+ "ref":
+ "pmb4484"},
+ {
+ "persName":
+ "Richard Küsswetter",
+ "ref":
+ "pmb28613"},
+ {
+ "persName":
+ "Oscar A. H. Schmitz",
+ "ref":
+ "pmb12685"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Brief an Arthur Schnitzler",
+ "ref":
+ "pmb30049"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Aigen",
+ "ref":
+ "pmb269"}
+ ]
+}
+}] 

@@ -1,0 +1,190 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-02-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-02-07.html",
+ "head":
+ "Tagebuch, 7. Februar 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Harley Granville-Barker",
+ "ref":
+ "person_15627"},
+ {
+ "persName":
+ "Max Oppenheimer",
+ "ref":
+ "person_18572"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"},
+ {
+ "persName":
+ "Clara Samuely",
+ "ref":
+ "person_19558"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Doktor Gräsler, Badearzt",
+ "ref":
+ "pmb30201"}
+ ,  {
+ "title":
+ "Der Mörder. Novelle",
+ "ref":
+ "pmb33754"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "London",
+ "ref":
+ "pmb224"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02004",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02004.html",
+ "head":
+ "Arthur Schnitzler an Robert Adam, 7. 2. 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XII., Meidling",
+ "ref":
+ "pmb62"}
+ ,  {
+ "placeName":
+ "Meidlinger Hauptstraße",
+ "ref":
+ "pmb1239"}
+ ,  {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02005",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02005.html",
+ "head":
+ "Stefan Großmann an Arthur Schnitzler, [7.] 2. 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ "pmb11527"},
+ {
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "pmb11230"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "pmb11988"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Freie Volksbühne",
+ "ref":
+ "pmb29569"}
+ ,  {
+ "orgName":
+ "Die Fackel",
+ "ref":
+ "pmb29308"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Linke Wienzeile",
+ "ref":
+ "pmb1262"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

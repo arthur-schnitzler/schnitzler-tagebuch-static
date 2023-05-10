@@ -1,0 +1,147 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1917-05-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-05-26.html",
+ "head":
+ "Tagebuch, 26. Mai 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugenie Bachrach",
+ "ref":
+ "person_13355"},
+ {
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Josef Popper-Lynkeus",
+ "ref":
+ "person_18916"},
+ {
+ "persName":
+ "Margit Steiner",
+ "ref":
+ "person_20374"},
+ {
+ "persName":
+ "Friedrich Adler",
+ "ref":
+ "person_13096"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041542",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041542.html",
+ "head":
+ "Tagebuch von Schnitzler, 26. 5. 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josef Popper-Lynkeus",
+ "ref":
+ "pmb2135"},
+ {
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "pmb13653"},
+ {
+ "persName":
+ "Marianne Giustiniani",
+ "ref":
+ "pmb2753"},
+ {
+ "persName":
+ "Julius Bachrach",
+ "ref":
+ "pmb13648"},
+ {
+ "persName":
+ "Eugenie Bachrach",
+ "ref":
+ "pmb13644"},
+ {
+ "persName":
+ "Adolf Bachrach",
+ "ref":
+ "pmb3618"},
+ {
+ "persName":
+ "Friedrich Adler",
+ "ref":
+ "pmb10746"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Margit Steiner",
+ "ref":
+ "pmb25409"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ]
+}
+}] 

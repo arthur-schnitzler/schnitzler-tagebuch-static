@@ -1,0 +1,91 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1917-01-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-01-11.html",
+ "head":
+ "Tagebuch, 11. Januar 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Anninger",
+ "ref":
+ "person_13219"},
+ {
+ "persName":
+ "Johann Sebastian Bach",
+ "ref":
+ "person_13344"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "person_21602"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Flucht in die Finsternis",
+ "ref":
+ "pmb30863"}
+ ,  {
+ "title":
+ "Brandenburgische Konzerte BWV 1046-1051",
+ "ref":
+ "pmb77119"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00076740",
+ "head":
+ "Viehweg, Fritz an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Schauspielhaus &lt;Leipzig&gt;",
+ "ref":
+ "http://d-nb.info/gnd/63262-4"}]
+}
+}] 

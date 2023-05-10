@@ -1,0 +1,165 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-05-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-05-29.html",
+ "head":
+ "Tagebuch, 29. Mai 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Margarethe Kainz",
+ "ref":
+ "person_16647"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burg Liechtenstein",
+ "ref":
+ "pmb91145"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01680",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01680.html",
+ "head":
+ "Gerty von Hofmannsthal an Arthur Schnitzler, [29. 5. 1907]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Hugo August von Hofmannsthal",
+ "ref":
+ "pmb11737"},
+ {
+ "persName":
+ "Christiane von Thun-Hohenstein-Salm-Reifferscheidt",
+ "ref":
+ "pmb26046"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hinterbrühl",
+ "ref":
+ "pmb75"}
+ ,  {
+ "placeName":
+ "Hotel Brufani",
+ "ref":
+ "pmb44518"}
+ ,  {
+ "placeName":
+ "Ravenna",
+ "ref":
+ "pmb44290"}
+ ,  {
+ "placeName":
+ "Rimini",
+ "ref":
+ "pmb44523"}
+ ,  {
+ "placeName":
+ "Ancona",
+ "ref":
+ "pmb44521"}
+ ,  {
+ "placeName":
+ "Gubbio",
+ "ref":
+ "pmb44514"}
+ ,  {
+ "placeName":
+ "Perugia",
+ "ref":
+ "pmb41027"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/75/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/75/",
+ "head":
+ "Hinterbrühl"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44510/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44510/",
+ "head":
+ "Hotel Radetzky"
+}] 

@@ -1,0 +1,416 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1897-03-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-03-28.html",
+ "head":
+ "Tagebuch, 28. März 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Curt",
+ "ref":
+ "person_14322"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "person_16222"},
+ {
+ "persName":
+ "Carl Karlweis",
+ "ref":
+ "person_16730"},
+ {
+ "persName":
+ "Peter Nansen",
+ "ref":
+ "person_18355"},
+ {
+ "persName":
+ "Anton Rückauf",
+ "ref":
+ "person_19460"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Gustav Walter",
+ "ref":
+ "person_21083"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Ferry Bératon",
+ "ref":
+ "person_13611"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ "pmb29899"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Anekdote",
+ "ref":
+ "pmb76470"}
+ ,  {
+ "title":
+ "Bei Beiden",
+ "ref":
+ "pmb29835"}
+ ,  {
+ "title":
+ "Der Thor und der Tod",
+ "ref":
+ "pmb30279"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bösendorfer-Saal",
+ "ref":
+ "pmb4"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041398",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041398.html",
+ "head":
+ "Kalendereintrag von Bahr, 28. 3. 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "pmb11701"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bösendorfer-Saal",
+ "ref":
+ "pmb4"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041170",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041170.html",
+ "head":
+ "Tagebuch von Schnitzler, 28. 3. 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "pmb2378"},
+ {
+ "persName":
+ "Curt",
+ "ref":
+ "pmb15172"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "pmb11701"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "pmb12698"},
+ {
+ "persName":
+ "Carl Karlweis",
+ "ref":
+ "pmb13082"},
+ {
+ "persName":
+ "Emilie Karlweis",
+ "ref":
+ "pmb19144"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Ferry Bératon",
+ "ref":
+ "pmb14756"},
+ {
+ "persName":
+ "Anton Rückauf",
+ "ref":
+ "pmb12598"},
+ {
+ "persName":
+ "Gustav Walter",
+ "ref":
+ "pmb13044"},
+ {
+ "persName":
+ "Peter Nansen",
+ "ref":
+ "pmb2357"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Bei Beiden",
+ "ref":
+ "pmb29835"}
+ ,  {
+ "title":
+ "Der Thor und der Tod",
+ "ref":
+ "pmb30279"}
+ ,  {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ "pmb29899"}
+ ,  {
+ "title":
+ "Die schöne Frau. Eine Anekdote",
+ "ref":
+ "pmb30472"}
+ ,  {
+ "title":
+ "Arthur Schnitzler. »Elskovsleg«s Forfatter",
+ "ref":
+ "pmb30470"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bösendorfer-Saal",
+ "ref":
+ "pmb4"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Politiken",
+ "ref":
+ "pmb29628"}
+ ]
+}
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/59292/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/59292/",
+ "head":
+ "Lesung von Hirschfeld, Hofmannsthal, Schnitzler und Bahr, 28.3.1897",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Bei Beiden",
+ "ref":
+ "pmb29835"}
+ ,  {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ "pmb29899"}
+ ,  {
+ "title":
+ "Der Thor und der Tod",
+ "ref":
+ "pmb30279"}
+ ,  {
+ "title":
+ "Die schöne Frau. Eine Anekdote",
+ "ref":
+ "pmb30472"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "pmb11701"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Valla Karplus",
+ "ref":
+ "pmb59282"},
+ {
+ "persName":
+ "Ferry Bératon",
+ "ref":
+ "pmb14756"},
+ {
+ "persName":
+ "Carl Karlweis",
+ "ref":
+ "pmb13082"},
+ {
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "pmb10765"},
+ {
+ "persName":
+ "Robert von Lieben",
+ "ref":
+ "pmb20408"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "pmb12698"},
+ {
+ "persName":
+ "Emilie Karlweis",
+ "ref":
+ "pmb19144"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "pmb12435"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bösendorfer-Saal",
+ "ref":
+ "pmb4"}
+ ]
+}
+}] 

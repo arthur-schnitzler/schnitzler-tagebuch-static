@@ -1,0 +1,67 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-10-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-10-16.html",
+ "head":
+ "Tagebuch, 16. Oktober 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emmy Destinn",
+ "ref":
+ "person_14420"},
+ {
+ "persName":
+ "Klaus Pringsheim",
+ "ref":
+ "person_18968"},
+ {
+ "persName":
+ "Heinrich Teweles",
+ "ref":
+ "person_20682"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Bacchusfest",
+ "ref":
+ "pmb32097"}
+ ,  {
+ "title":
+ "Aida",
+ "ref":
+ "pmb30365"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Graz",
+ "ref":
+ "pmb860"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

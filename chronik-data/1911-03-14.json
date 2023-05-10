@@ -1,0 +1,118 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-03-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-03-14.html",
+ "head":
+ "Tagebuch, 14. März 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Therese Behr",
+ "ref":
+ "person_13559"},
+ {
+ "persName":
+ "Artur Schnabel",
+ "ref":
+ "person_19789"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Doktor Gräsler, Badearzt",
+ "ref":
+ "pmb30201"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02013",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02013.html",
+ "head":
+ "Engelbert Pernerstorfer, Stefan Großmann an Arthur Schnitzler, 14. 3. 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Engelbert Pernerstorfer",
+ "ref":
+ "pmb12408"},
+ {
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ "pmb11527"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Strom. Organ der Wiener Freien Volksbühne",
+ "ref":
+ "pmb46360"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Freie Volksbühne",
+ "ref":
+ "pmb29569"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Schönbrunnerstraße",
+ "ref":
+ "pmb46358"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00033433",
+ "head":
+ "Beran, Hugo an Eirich, Otto F. [Briefe]",
+ "text":
+ "1 Bl.Abschr."
+}] 

@@ -1,0 +1,110 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1901-07-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-07-12.html",
+ "head":
+ "Tagebuch, 12. Juli 1901",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Saint Anton",
+ "ref":
+ "pmb91800"}
+ ,  {
+ "placeName":
+ "Haiming",
+ "ref":
+ "pmb90819"}
+ ,  {
+ "placeName":
+ "Innsbruck",
+ "ref":
+ "pmb867"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01146",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01146.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 1[2?]. 7. 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Innsbruck",
+ "ref":
+ "pmb867"}
+ ,  {
+ "placeName":
+ "Pörtschach",
+ "ref":
+ "pmb44278"}
+ ,  {
+ "placeName":
+ "Niederösterreich",
+ "ref":
+ "pmb1003"}
+ ,  {
+ "placeName":
+ "Villa Arnstein",
+ "ref":
+ "pmb1110"}
+ ,  {
+ "placeName":
+ "Vahrn",
+ "ref":
+ "pmb946"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91800/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91800/",
+ "head":
+ "St. Anton am Arlberg"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/867/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/867/",
+ "head":
+ "Innsbruck"
+}] 

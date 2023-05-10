@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-03-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-03-28.html",
+ "head":
+ "Tagebuch, 28. März 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Anna Eisenmenger",
+ "ref":
+ "person_14682"},
+ {
+ "persName":
+ "Eduard Poldini",
+ "ref":
+ "person_18855"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Gloria Swanson",
+ "ref":
+ "person_20590"},
+ {
+ "persName":
+ "Albert Curtis Brown",
+ "ref":
+ "person_14323"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gesellschaftsskandal",
+ "ref":
+ "pmb80404"}
+ ,  {
+ "title":
+ "Hochzeit im Fasching",
+ "ref":
+ "pmb81131"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Vevey",
+ "ref":
+ "pmb64657"}
+ ,  {
+ "placeName":
+ "Budapest",
+ "ref":
+ "pmb43471"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

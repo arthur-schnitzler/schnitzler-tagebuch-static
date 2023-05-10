@@ -1,0 +1,89 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-12-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-12-23.html",
+ "head":
+ "Tagebuch, 23. Dezember 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "person_20925"},
+ {
+ "persName":
+ "Theodor Reik",
+ "ref":
+ "person_19135"},
+ {
+ "persName":
+ "Gerhart Fischer",
+ "ref":
+ "person_15001"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Arthur Schnitzler als Psycholog",
+ "ref":
+ "pmb81159"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiesbaden",
+ "ref":
+ "pmb883"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00076532",
+ "head":
+ "Walden, Harry an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Harry (1875-1921) Walden",
+ "ref":
+ "http://d-nb.info/gnd/117118524"}]
+}
+}] 

@@ -1,0 +1,145 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-07-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-07-30.html",
+ "head":
+ "Tagebuch, 30. Juli 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jenny Bally",
+ "ref":
+ "person_13391"},
+ {
+ "persName":
+ "Gustav Frid",
+ "ref":
+ "person_15194"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Kris",
+ "ref":
+ "person_17140"},
+ {
+ "persName":
+ "Else Singer",
+ "ref":
+ "person_19143"},
+ {
+ "persName":
+ "Fritz Singer",
+ "ref":
+ "person_20133"},
+ {
+ "persName":
+ "Alexander Singer",
+ "ref":
+ "person_20130"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Baden bei Wien",
+ "ref":
+ "pmb662"}
+ ,  {
+ "placeName":
+ "Marienbad",
+ "ref":
+ "pmb772"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00247",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00247.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, [30. 7.?] 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "?? [Schreibkraft für Arthur Schnitzler]",
+ "ref":
+ "pmb27711"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Kind",
+ "ref":
+ "pmb30437"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Schulgasse",
+ "ref":
+ "pmb41463"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}] 

@@ -1,0 +1,86 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-09-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-09-21.html",
+ "head":
+ "Tagebuch, 21. September 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Moriz Fuchs",
+ "ref":
+ "person_15280"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Ludwig Klinenberger",
+ "ref":
+ "person_16911"},
+ {
+ "persName":
+ "Joseph? Modl",
+ "ref":
+ "person_18200"},
+ {
+ "persName":
+ "Otto Tressler",
+ "ref":
+ "person_20803"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ronacher",
+ "ref":
+ "pmb92490"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00073525",
+ "head":
+ "Wigand, Curt an Gussmann, Elisabeth [Briefe]",
+ "text":
+ "1 Br. 3 Bl.Abschr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Elisabeth (1885-1920) Gussmann",
+ "ref":
+ "http://d-nb.info/gnd/117263958"}]
+}
+}] 

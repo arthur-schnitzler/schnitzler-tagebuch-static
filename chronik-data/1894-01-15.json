@@ -1,0 +1,235 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1894-01-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-01-15.html",
+ "head":
+ "Tagebuch, 15. Januar 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Vincenz Chiavacci",
+ "ref":
+ "person_14195"},
+ {
+ "persName":
+ "Konrad Dreher",
+ "ref":
+ "person_14509"},
+ {
+ "persName":
+ "Carl Karlweis",
+ "ref":
+ "person_16730"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "person_17108"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Oskar Walzel",
+ "ref":
+ "person_21089"},
+ {
+ "persName":
+ "Ludwig Julius Eisenberg",
+ "ref":
+ "person_14680"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Sterben. Novelle",
+ "ref":
+ "pmb30117"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00291",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00291.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, [15. 1. 1894]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Jean Mounet-Sully",
+ "ref":
+ "pmb21668"},
+ {
+ "persName":
+ "Carl Laufs",
+ "ref":
+ "pmb8511"},
+ {
+ "persName":
+ "Wilhelm Jacoby",
+ "ref":
+ "pmb34135"},
+ {
+ "persName":
+ "Victorien Sardou",
+ "ref":
+ "pmb12624"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Hamlet",
+ "ref":
+ "pmb30009"}
+ ,  {
+ "title":
+ "Der ungläubige Thomas",
+ "ref":
+ "pmb34138"}
+ ,  {
+ "title":
+ "Madame Sans-Gêne. Comédie en 3 actes et 1 prologue",
+ "ref":
+ "pmb30379"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "S. Fischer Verlag",
+ "ref":
+ "pmb29639"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Carl-Theater",
+ "ref":
+ "pmb118"}
+ ,  {
+ "placeName":
+ "Raimund-Theater",
+ "ref":
+ "pmb77"}
+ ,  {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/118269/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/118269/",
+ "head":
+ "Premiere von Der ungläubige Thomas, 15.1.1894",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der ungläubige Thomas",
+ "ref":
+ "pmb34138"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Raimund-Theater",
+ "ref":
+ "pmb77"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Raimund-Theater",
+ "ref":
+ "pmb39666"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#g21edf0a-7af3-4163-813b-7d55aaaf2eba",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Adele Sandrock, 15.1.1894",
+ "source":
+ "Renate Wagner (Hg.): Dilly. Geschichte einer Liebe in Briefen, Bildern und Dokumenten. Wien/München: Amalthea 1975."
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#g21edf0a-7af3-4163-813b-7d55aaaf2eba",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Adele Sandrock an Arthur Schnitzler, 15.1.1894",
+ "source":
+ "Renate Wagner (Hg.): Dilly. Geschichte einer Liebe in Briefen, Bildern und Dokumenten. Wien/München: Amalthea 1975."
+}] 

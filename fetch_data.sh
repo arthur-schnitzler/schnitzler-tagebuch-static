@@ -20,3 +20,15 @@ python add_mentions.py
 
 echo "build search index with typesense"
 python make_typesense_index.py
+
+# get schnitzler-chronik-data
+
+# Download XML files from GitHub repository
+wget https://github.com/arthur-schnitzler/schnitzler-chronik-data/archive/refs/heads/main.zip
+rm -rf chronik-data
+unzip main.zip
+
+mv schnitzler-chronik-data-main/editions/data chronik-data/
+rm -rf schnitzler-chronik-data-main
+
+rm main.zip

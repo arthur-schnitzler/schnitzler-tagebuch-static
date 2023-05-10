@@ -1,0 +1,92 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1894-12-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-12-13.html",
+ "head":
+ "Tagebuch, 13. Dezember 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Jakob Julius David",
+ "ref":
+ "person_14363"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00410",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00410.html",
+ "head":
+ "Ferdindand von Saar an Arthur Schnitzler, 13. 12. 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ferdinand von Saar",
+ "ref":
+ "pmb12602"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Sterben. Novelle",
+ "ref":
+ "pmb30117"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rájec-Jestřebí",
+ "ref":
+ "pmb50476"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

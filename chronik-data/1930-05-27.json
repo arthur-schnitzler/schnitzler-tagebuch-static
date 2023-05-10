@@ -1,0 +1,120 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1930-05-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-05-27.html",
+ "head":
+ "Tagebuch, 27. Mai 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Renée Falconetti",
+ "ref":
+ "person_14877"},
+ {
+ "persName":
+ "Lili Kraus",
+ "ref":
+ "person_17110"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Maurice Rémon",
+ "ref":
+ "person_19182"},
+ {
+ "persName":
+ "Malvine Schönherr",
+ "ref":
+ "person_19851"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Hermann Erich Pollaczek",
+ "ref":
+ "person_18865"},
+ {
+ "persName":
+ "Geza Silberer",
+ "ref":
+ "person_20108"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Casanovas Heimfahrt",
+ "ref":
+ "pmb30971"}
+ ,  {
+ "title":
+ "Daybreak",
+ "ref":
+ "pmb32157"}
+ ,  {
+ "title":
+ "Sensation im Wintergarten",
+ "ref":
+ "pmb81190"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hollywood",
+ "ref":
+ "pmb38174"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp779",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp779.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 15.–30. Mai 1930"
+}] 

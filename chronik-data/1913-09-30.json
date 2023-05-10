@@ -1,0 +1,67 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-09-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-09-30.html",
+ "head":
+ "Tagebuch, 30. September 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Herbert Eulenberg",
+ "ref":
+ "person_14821"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Theaterroman",
+ "ref":
+ "pmb30321"}
+ ,  {
+ "title":
+ "Münchhausen. Ein deutsches Schauspiel",
+ "ref":
+ "pmb76743"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Baden bei Wien",
+ "ref":
+ "pmb662"}
+ ,  {
+ "placeName":
+ "Pottenstein",
+ "ref":
+ "pmb40112"}
+ ,  {
+ "placeName":
+ "Neuhaus",
+ "ref":
+ "pmb47414"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/47414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/47414/",
+ "head":
+ "Neuhaus"
+}] 

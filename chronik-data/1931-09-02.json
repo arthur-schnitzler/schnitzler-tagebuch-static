@@ -1,0 +1,95 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1931-09-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-09-02.html",
+ "head":
+ "Tagebuch, 2. September 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Maurice Chevalier",
+ "ref":
+ "person_14191"},
+ {
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Trude Donath",
+ "ref":
+ "person_14485"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Sekundant",
+ "ref":
+ "pmb30953"}
+ ,  {
+ "title":
+ "Der lächelnde Leutnant",
+ "ref":
+ "pmb80924"}
+ ,  {
+ "title":
+ "Ein Walzertraum",
+ "ref":
+ "pmb56883"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Meissl &amp; Schadn",
+ "ref":
+ "pmb96"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/96/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/96/",
+ "head":
+ "Meissl &amp; Schadn"
+}] 

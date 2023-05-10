@@ -1,0 +1,63 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-05-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-05-02.html",
+ "head":
+ "Tagebuch, 2. Mai 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Dora Fournier",
+ "ref":
+ "person_15087"},
+ {
+ "persName":
+ "Adele Reisner",
+ "ref":
+ "person_19165"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00034916",
+ "head":
+ "Glümer, Marie an Schnitzler, Arthur [Briefe]",
+ "text":
+ "Letztes Objekt aus der Mappe. 26 Br., 5 Tel. 58 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie (1873-1925) Glümer",
+ "ref":
+ "http://d-nb.info/gnd/128385022"}]
+}
+}] 

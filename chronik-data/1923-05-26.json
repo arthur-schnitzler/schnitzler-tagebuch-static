@@ -1,0 +1,77 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-05-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-05-26.html",
+ "head":
+ "Tagebuch, 26. Mai 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Benjamin Harz",
+ "ref":
+ "person_15957"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Arthur Rosenberger",
+ "ref":
+ "person_19379"},
+ {
+ "persName":
+ "Alfred Rotter",
+ "ref":
+ "person_19435"},
+ {
+ "persName":
+ "Fritz Rotter",
+ "ref":
+ "person_19436"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Dahlem",
+ "ref":
+ "pmb90508"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}] 

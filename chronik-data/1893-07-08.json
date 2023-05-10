@@ -1,0 +1,232 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-07-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-07-08.html",
+ "head":
+ "Tagebuch, 8. Juli 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Auguste Chlum",
+ "ref":
+ "person_14199"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Adele Kapper",
+ "ref":
+ "person_16706"},
+ {
+ "persName":
+ "Friedrich Kapper",
+ "ref":
+ "person_16709"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00234",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00234.html",
+ "head":
+ "Arthur Schnitzler an Wilhelm Bölsche, 8. 7. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Wilhelm Bölsche",
+ "ref":
+ "pmb11061"},
+ {
+ "persName":
+ "Max Halbe",
+ "ref":
+ "pmb11565"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Der Amerikafahrer",
+ "ref":
+ "pmb33714"}
+ ,  {
+ "title":
+ "Freie Bühne für den Entwickelungskampf der Zeit",
+ "ref":
+ "pmb36166"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Lessing-Theater",
+ "ref":
+ "pmb35053"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Grillparzerstraße",
+ "ref":
+ "pmb412"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00235",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00235.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, Richard Beer-Hofmann, 8. 7. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "William Shakespeare",
+ "ref":
+ "pmb2412"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "pmb11461"},
+ {
+ "persName":
+ "Friedrich von Schiller",
+ "ref":
+ "pmb12654"},
+ {
+ "persName":
+ "Friedrich Maximilian von Klinger",
+ "ref":
+ "pmb19441"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Gestern. Dramatische Studie in einem Akt in Versen",
+ "ref":
+ "pmb30141"}
+ ,  {
+ "title":
+ "Briefwechsel zwischen Schiller und Goethe",
+ "ref":
+ "pmb32408"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Manz’sche Verlags- und Universitätsbuchhandlung",
+ "ref":
+ "pmb29216"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Fusch",
+ "ref":
+ "pmb573"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Kohlmarkt",
+ "ref":
+ "pmb597"}
+ ,  {
+ "placeName":
+ "Karlsbad",
+ "ref":
+ "pmb842"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n486abeb-0cb6-411d-aeca-ca37d35fe60e",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Hugo
+                        von Hofmannsthal an Richard Beer-Hofmann, Arthur Schnitzler, 8.7.1893",
+ "source":
+ "Hugo von Hofmannsthal, Richard Beer-Hofmann: Briefwechsel. Hrsg. Eugene Weber. Frankfurt/Main: S. Fischer Verlag 1972."
+}] 

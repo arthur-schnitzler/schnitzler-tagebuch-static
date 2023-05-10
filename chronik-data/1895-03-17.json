@@ -1,0 +1,177 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-03-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-03-17.html",
+ "head":
+ "Tagebuch, 17. März 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "person_13202"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "person_15499"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "person_21047"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Sterben. Novelle",
+ "ref":
+ "pmb30117"}
+ ,  {
+ "title":
+ "Das Kind",
+ "ref":
+ "pmb30437"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041143",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041143.html",
+ "head":
+ "Tagebuch von Schnitzler, 17. 3. 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "pmb10765"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "pmb11461"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "pmb14953"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "pmb2453"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Garten der Erkenntnis",
+ "ref":
+ "pmb30435"}
+ ,  {
+ "title":
+ "Der Garten der Erkenntnis",
+ "ref":
+ "pmb32338"}
+ ,  {
+ "title":
+ "Das Kind",
+ "ref":
+ "pmb30437"}
+ ,  {
+ "title":
+ "Sterben. Novelle",
+ "ref":
+ "pmb30117"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d2b0f559-bde7-4114-82b9-741a8810c463",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Olga Waissnix an Arthur Schnitzler, 17.3.1895",
+ "source":
+ "Arthur Schnitzler und Waissnix, Olga: Liebe, die starb vor der Zeit. Ein Briefwechsel. Mit einem Vorwort von Hans Weigel. Mit 16 Seiten Kunstdruckbildern. Hg. v. Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)"
+}] 

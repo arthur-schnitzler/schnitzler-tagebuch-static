@@ -1,0 +1,132 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-12-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-12-08.html",
+ "head":
+ "Tagebuch, 8. Dezember 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Emma Gütersloh",
+ "ref":
+ "person_15736"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Siegmund Schratter",
+ "ref":
+ "person_19879"},
+ {
+ "persName":
+ "George Bernard Shaw",
+ "ref":
+ "person_20080"},
+ {
+ "persName":
+ "Alberto Stringa",
+ "ref":
+ "person_20532"},
+ {
+ "persName":
+ "Marianne Giustiniani",
+ "ref":
+ "person_21600"},
+ {
+ "persName":
+ "Otto Zuckerkandl",
+ "ref":
+ "person_21601"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Androklus und der Löwe",
+ "ref":
+ "pmb77091"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kahlenberg",
+ "ref":
+ "pmb574"}
+ ,  {
+ "placeName":
+ "Hohe Warte",
+ "ref":
+ "pmb92292"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02161",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02161.html",
+ "head":
+ "Bertha von Suttner an Arthur Schnitzler, 8. 12. 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Bertha von Suttner",
+ "ref":
+ "pmb12906"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,203 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1891-06-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-06-18.html",
+ "head":
+ "Tagebuch, 18. Juni 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Friedmann",
+ "ref":
+ "person_15237"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "person_15499"},
+ {
+ "persName":
+ "Richard Tausenau",
+ "ref":
+ "person_20643"},
+ {
+ "persName":
+ "Honoré Gabriel de Mirabeau",
+ "ref":
+ "person_18184"},
+ {
+ "persName":
+ "Napoleon Bonaparte",
+ "ref":
+ "person_18356"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gumpoldskirchen",
+ "ref":
+ "pmb54863"}
+ ,  {
+ "placeName":
+ "Mödling",
+ "ref":
+ "pmb968"}
+ ,  {
+ "placeName":
+ "Guntramsdorf",
+ "ref":
+ "pmb64740"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00019",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00019.html",
+ "head":
+ "Friedrich M. Fels an Arthur Schnitzler, 18. 6. 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Michael Fels",
+ "ref":
+ "pmb2450"},
+ {
+ "persName":
+ "Jaques Joachim",
+ "ref":
+ "pmb18870"},
+ {
+ "persName":
+ "Eduard Michael Kafka",
+ "ref":
+ "pmb2563"},
+ {
+ "persName":
+ "Franz Held",
+ "ref":
+ "pmb41781"},
+ {
+ "persName":
+ "Jakob Julius David",
+ "ref":
+ "pmb2416"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Ein Pyrrhus-Sieg. Geschichte eines glücklichen Pechvogels",
+ "ref":
+ "pmb41788"}
+ ,  {
+ "title":
+ "Hagars Sohn. Schauspiel in vier Acten",
+ "ref":
+ "pmb31371"}
+ ,  {
+ "title":
+ "Die drei Elixire",
+ "ref":
+ "pmb31965"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Moderne Dichtung/Moderne Rundschau",
+ "ref":
+ "pmb29417"}
+ ,  {
+ "orgName":
+ "Leopold Weiss",
+ "ref":
+ "pmb29220"}
+ ,  {
+ "orgName":
+ "Jung Wien",
+ "ref":
+ "pmb89143"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Buchfeldgasse",
+ "ref":
+ "pmb789"}
+ ,  {
+ "placeName":
+ "Tuchlauben",
+ "ref":
+ "pmb790"}
+ ,  {
+ "placeName":
+ "Joseph G. Wieninger, Weinhandlung",
+ "ref":
+ "pmb43528"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/54863/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/54863/",
+ "head":
+ "Gumpoldskirchen"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

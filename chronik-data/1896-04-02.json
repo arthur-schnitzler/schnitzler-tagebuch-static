@@ -1,0 +1,152 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-04-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-04-02.html",
+ "head":
+ "Tagebuch, 2. April 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02770",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02770.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 2. 4. [1896]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Leopold Sonnemann",
+ "ref":
+ "pmb87771"},
+ {
+ "persName":
+ "Christian Schefer",
+ "ref":
+ "pmb93611"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb36344"}
+ ,  {
+ "title":
+ "La Nouvelle Revue",
+ "ref":
+ "pmb93619"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Sterben. Novelle",
+ "ref":
+ "pmb30117"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Un jeune écrivain viennois: M. Arthur Schnitzler",
+ "ref":
+ "pmb93622"}
+ ,  {
+ "title":
+ "Amourette. Pièce en trois actes",
+ "ref":
+ "pmb92876"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ,  {
+ "orgName":
+ "École libre des sciences politiques",
+ "ref":
+ "pmb93613"}
+ ,  {
+ "orgName":
+ "Nouvelle Revue",
+ "ref":
+ "pmb34277"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "rue Feydeau",
+ "ref":
+ "pmb42671"}
+ ,  {
+ "placeName":
+ "Boulevard Montmartre",
+ "ref":
+ "pmb93616"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

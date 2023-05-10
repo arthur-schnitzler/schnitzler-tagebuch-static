@@ -1,0 +1,349 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1892-10-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-10-09.html",
+ "head":
+ "Tagebuch, 9. Oktober 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Ferdinand Bonn",
+ "ref":
+ "person_13867"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "person_15980"},
+ {
+ "persName":
+ "Josef Lewinsky",
+ "ref":
+ "person_17493"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Ludwig Gabillon",
+ "ref":
+ "person_15319"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Carl von Torresani-Lanzenfeld",
+ "ref":
+ "person_20779"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Gestern",
+ "ref":
+ "pmb76487"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02702",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02702.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 9. 10. [1892]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Leopold Sonnemann",
+ "ref":
+ "pmb87771"},
+ {
+ "persName":
+ "Fedor Mamroth",
+ "ref":
+ "pmb4986"},
+ {
+ "persName":
+ "Theodor Loewe",
+ "ref":
+ "pmb2941"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "pmb12698"},
+ {
+ "persName":
+ "Ernest Renan",
+ "ref":
+ "pmb9484"},
+ {
+ "persName":
+ "Sébastien Roch Nicolas Chamfort",
+ "ref":
+ "pmb39417"},
+ {
+ "persName":
+ "Sully Prudhomme",
+ "ref":
+ "pmb89450"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Alkandi’s Lied",
+ "ref":
+ "pmb31637"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Das Leben Jesu. Vollständige Volks-Ausgabe",
+ "ref":
+ "pmb89428"}
+ ,  {
+ "title":
+ "Maximes et Pensées, Caractères et Anecdotes",
+ "ref":
+ "pmb89447"}
+ ,  {
+ "title":
+ "Les caresses",
+ "ref":
+ "pmb89460"}
+ ,  {
+ "title":
+ "[Leseliste]",
+ "ref":
+ "pmb32276"}
+ ,  {
+ "title":
+ "Œuvres choises de Chamfort, tome 2",
+ "ref":
+ "pmb89439"}
+ ,  {
+ "title":
+ "Œuvres de Sully Prudhomme, tome 2",
+ "ref":
+ "pmb89463"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ,  {
+ "orgName":
+ "Bibliographisches Bureau",
+ "ref":
+ "pmb29716"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "rue Richelieu",
+ "ref":
+ "pmb34187"}
+ ,  {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ,  {
+ "placeName":
+ "Breslau",
+ "ref":
+ "pmb677"}
+ ,  {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041037",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041037.html",
+ "head":
+ "Tagebuch von Schnitzler, 9. 10. 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Carl von Torresani-Lanzenfeld",
+ "ref":
+ "pmb26121"},
+ {
+ "persName":
+ "Ferdinand Bonn",
+ "ref":
+ "pmb10980"},
+ {
+ "persName":
+ "Josef Lewinsky",
+ "ref":
+ "pmb12061"},
+ {
+ "persName":
+ "Ludwig Gabillon",
+ "ref":
+ "pmb2484"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Gestern. Dramatische Studie in einem Akt in Versen",
+ "ref":
+ "pmb30141"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Marie Glümer, 9. 10. 1892",
+ "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00032966",
+ "head":
+ "Dévidé, Henriette an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

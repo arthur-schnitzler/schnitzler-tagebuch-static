@@ -1,0 +1,59 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1916-04-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-04-13.html",
+ "head":
+ "Tagebuch, 13. April 1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josef Lanner",
+ "ref":
+ "person_17321"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Josef Simon",
+ "ref":
+ "person_20120"},
+ {
+ "persName":
+ "Johann Strauss",
+ "ref":
+ "person_20505"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Durrës",
+ "ref":
+ "pmb65558"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

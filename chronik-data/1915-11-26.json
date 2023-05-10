@@ -1,0 +1,125 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-11-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-11-26.html",
+ "head":
+ "Tagebuch, 26. November 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Walther Brecht",
+ "ref":
+ "person_13944"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "person_15499"},
+ {
+ "persName":
+ "Friedrich Hebbel",
+ "ref":
+ "person_16009"},
+ {
+ "persName":
+ "Robert Hirschfeld",
+ "ref":
+ "person_16228"},
+ {
+ "persName":
+ "Jakob Minor",
+ "ref":
+ "person_18182"},
+ {
+ "persName":
+ "Josef Popper-Lynkeus",
+ "ref":
+ "person_18916"},
+ {
+ "persName":
+ "Emil Reich",
+ "ref":
+ "person_19115"},
+ {
+ "persName":
+ "Rudolf Urbantschitsch",
+ "ref":
+ "person_20892"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Das Individuum und die Bewertung menschlicher Existenzen",
+ "ref":
+ "pmb78104"}
+ ,  {
+ "title":
+ "Die allgemeine Nährpflicht als Lösung der sozialen Frage",
+ "ref":
+ "pmb78105"}
+ ,  {
+ "title":
+ "Selbstbiographie",
+ "ref":
+ "pmb78108"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00041528",
+ "head":
+ "Rosenfels, Helene an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

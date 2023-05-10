@@ -1,0 +1,114 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1901-06-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-06-27.html",
+ "head":
+ "Tagebuch, 27. Juni 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Innsbruck",
+ "ref":
+ "pmb867"}
+ ,  {
+ "placeName":
+ "Stubaital",
+ "ref":
+ "pmb607"}
+ ,  {
+ "placeName":
+ "Schönberg im Stubaital",
+ "ref":
+ "pmb759"}
+ ,  {
+ "placeName":
+ "Weiherburg",
+ "ref":
+ "pmb92596"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01136",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01136.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 27. 6. 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schönberg im Stubaital",
+ "ref":
+ "pmb759"}
+ ,  {
+ "placeName":
+ "Pörtschach",
+ "ref":
+ "pmb44278"}
+ ,  {
+ "placeName":
+ "Wörthersee",
+ "ref":
+ "pmb430"}
+ ,  {
+ "placeName":
+ "Villa Arnstein",
+ "ref":
+ "pmb1110"}
+ ,  {
+ "placeName":
+ "Stubaital",
+ "ref":
+ "pmb607"}
+ ,  {
+ "placeName":
+ "Gasthaus Jagerhof",
+ "ref":
+ "pmb43323"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/867/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/867/",
+ "head":
+ "Innsbruck"
+}] 

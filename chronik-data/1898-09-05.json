@@ -1,0 +1,193 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1898-09-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-09-05.html",
+ "head":
+ "Tagebuch, 5. September 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Devrient",
+ "ref":
+ "person_14434"},
+ {
+ "persName":
+ "Franz Joseph I. von Österreich-Ungarn",
+ "ref":
+ "person_15150"},
+ {
+ "persName":
+ "Paul Schlenther",
+ "ref":
+ "person_19724"},
+ {
+ "persName":
+ "Katharina Schratt",
+ "ref":
+ "person_19877"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Paracelsus. Versspiel in einem Akt",
+ "ref":
+ "pmb30403"}
+ ,  {
+ "title":
+ "Das Vermächtnis. Schauspiel in drei Akten",
+ "ref":
+ "pmb30219"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00844",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00844.html",
+ "head":
+ "Richard Beer-Hofmann, Hugo von Hofmannsthal an Arthur Schnitzler, 5. 9. 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Tod Georgs",
+ "ref":
+ "pmb31535"}
+ ,  {
+ "title":
+ "Il Secolo",
+ "ref":
+ "pmb41293"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lugano",
+ "ref":
+ "pmb885"}
+ ,  {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Frankgasse",
+ "ref":
+ "pmb397"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Villa Ceresio",
+ "ref":
+ "pmb44624"}
+ ,  {
+ "placeName":
+ "Hôtel du Parc",
+ "ref":
+ "pmb513"}
+ ,  {
+ "placeName":
+ "Villa Beauséjour",
+ "ref":
+ "pmb44626"}
+ ,  {
+ "placeName":
+ "Belvédère",
+ "ref":
+ "pmb44628"}
+ ,  {
+ "placeName":
+ "Mailand",
+ "ref":
+ "pmb886"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00075813",
+ "head":
+ "Weiß, Julius an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00033612",
+ "head":
+ "Entsch, A. an Prasch, Aloys [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

@@ -1,0 +1,85 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1898-08-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-28.html",
+ "head":
+ "Tagebuch, 28. August 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Max Weinberg",
+ "ref":
+ "person_21163"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Luzern",
+ "ref":
+ "pmb967"}
+ ,  {
+ "placeName":
+ "Mailand",
+ "ref":
+ "pmb886"}
+ ,  {
+ "placeName":
+ "",
+ "ref":
+ "place_santambrogio"}
+ ,  {
+ "placeName":
+ "Giardini pubblici Indro Montanelli",
+ "ref":
+ "pmb90713"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/967/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/967/",
+ "head":
+ "Luzern"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/886/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/886/",
+ "head":
+ "Mailand"
+}] 

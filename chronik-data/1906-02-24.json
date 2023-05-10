@@ -1,0 +1,227 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1906-02-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-02-24.html",
+ "head":
+ "Tagebuch, 24. Februar 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lou Andreas-Salomé",
+ "ref":
+ "person_13196"},
+ {
+ "persName":
+ "Else Bassermann",
+ "ref":
+ "person_13458"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Emil Heilbut",
+ "ref":
+ "person_16036"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "person_16819"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Felix Poppenberg",
+ "ref":
+ "person_18910"},
+ {
+ "persName":
+ "Werner Sombart",
+ "ref":
+ "person_20192"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"},
+ {
+ "persName":
+ "Julius Elias",
+ "ref":
+ "person_14718"},
+ {
+ "persName":
+ "Jonas Fraenkel",
+ "ref":
+ "person_15101"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"},
+ {
+ "persName":
+ "Paul Jonas",
+ "ref":
+ "person_16574"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/35179/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/35179/",
+ "head":
+ "Premiere von Der Ruf des Lebens, 24.2.1906",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "»Der Ruf des Lebens.« Schauspiel von Artur Schnitzler. Erste Aufführung im Lessingtheater",
+ "ref":
+ "pmb33352"}
+ ,  {
+ "title":
+ "Theater",
+ "ref":
+ "pmb32518"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Maximilian Harden",
+ "ref":
+ "pmb11581"},
+ {
+ "persName":
+ "Lou Andreas-Salomé",
+ "ref":
+ "pmb10762"},
+ {
+ "persName":
+ "Werner Sombart",
+ "ref":
+ "pmb9931"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Hedwig Fischer",
+ "ref":
+ "pmb2657"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "pmb11324"},
+ {
+ "persName":
+ "Paul Jonas",
+ "ref":
+ "pmb4532"},
+ {
+ "persName":
+ "Clara Jonas",
+ "ref":
+ "pmb18900"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "pmb12968"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "pmb11910"},
+ {
+ "persName":
+ "Emil Heilbut",
+ "ref":
+ "pmb2713"},
+ {
+ "persName":
+ "Rudolf Rittner",
+ "ref":
+ "pmb12530"},
+ {
+ "persName":
+ "Else Bassermann",
+ "ref":
+ "pmb6145"},
+ {
+ "persName":
+ "Albert Bassermann",
+ "ref":
+ "pmb10844"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lessing-Theater",
+ "ref":
+ "pmb18"}
+ ]
+}
+}] 

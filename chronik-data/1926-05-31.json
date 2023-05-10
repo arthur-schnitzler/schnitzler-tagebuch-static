@@ -1,0 +1,151 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-05-31",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-05-31.html",
+ "head":
+ "Tagebuch, 31. Mai 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josef Pohl",
+ "ref":
+ "person_18846"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Franklin Spier",
+ "ref":
+ "person_20263"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Geist im Wort und der Geist in der Tat",
+ "ref":
+ "pmb30051"}
+ ,  {
+ "title":
+ "Spiel im Morgengrauen. Novelle",
+ "ref":
+ "pmb32131"}
+ ,  {
+ "title":
+ "Der Seitensprung ins Glück",
+ "ref":
+ "pmb80535"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02476",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02476.html",
+ "head":
+ "Arthur Schnitzler an Stefan Großmann, 31. 5. 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ "pmb11527"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Bemerkungen",
+ "ref":
+ "pmb47162"}
+ ,  {
+ "title":
+ "Neue Freie Presse",
+ "ref":
+ "pmb36374"}
+ ,  {
+ "title":
+ "Bemerkungen. (Aus dem noch unveröffentlichten „Buch der Sprüche und Bedenken“.)",
+ "ref":
+ "pmb47158"}
+ ,  {
+ "title":
+ "Das Tage-Buch",
+ "ref":
+ "pmb46493"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Das Tage-Buch",
+ "ref":
+ "pmb37544"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00048222",
+ "head":
+ "Schnitzler, Arthur an Oikawa, S. [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

@@ -1,0 +1,64 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1880-03-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1880-03-26.html",
+ "head":
+ "Tagebuch, 26. März 1880",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karl Friedrich Wilhelm Claus",
+ "ref":
+ "person_14228"},
+ {
+ "persName":
+ "Franziska Reich",
+ "ref":
+ "person_17368"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Rom",
+ "ref":
+ "pmb445"}
+ ,  {
+ "placeName":
+ "Naples",
+ "ref":
+ "pmb91330"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

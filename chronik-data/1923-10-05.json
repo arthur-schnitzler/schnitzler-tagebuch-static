@@ -1,0 +1,251 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-10-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-10-05.html",
+ "head":
+ "Tagebuch, 5. Oktober 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Heinrich von Kleist",
+ "ref":
+ "person_16900"},
+ {
+ "persName":
+ "Robert Lichtenstern",
+ "ref":
+ "person_17509"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Hermine Simandt",
+ "ref":
+ "person_20112"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Luisenhof",
+ "ref":
+ "pmb32021"}
+ ,  {
+ "title":
+ "Der junge Medardus",
+ "ref":
+ "pmb32294"}
+ ,  {
+ "title":
+ "Penthesilea. Ein Trauerspiel",
+ "ref":
+ "pmb30221"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gmunden",
+ "ref":
+ "pmb874"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041675",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041675.html",
+ "head":
+ "Olga an Arthur Schnitzler, 5. 10. 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "pmb2238"},
+ {
+ "persName":
+ "Joseph Chapiro",
+ "ref":
+ "pmb11090"},
+ {
+ "persName":
+ "Christiane von Hofmannsthal",
+ "ref":
+ "pmb3220"},
+ {
+ "persName":
+ "Rudolf Kassner",
+ "ref":
+ "pmb5096"},
+ {
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ "pmb11527"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Stefan George",
+ "ref":
+ "pmb2437"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "pmb12870"},
+ {
+ "persName":
+ "Sophie Salz",
+ "ref":
+ "pmb23923"},
+ {
+ "persName":
+ "??",
+ "ref":
+ "pmb27737"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Arthur Salz",
+ "ref":
+ "pmb5091"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Walter Osborne",
+ "ref":
+ "pmb22213"},
+ {
+ "persName":
+ "Johann Georg Rocco",
+ "ref":
+ "pmb23480"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Das Konzert. Lustspiel in drei Akten",
+ "ref":
+ "pmb29933"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Baden-Baden",
+ "ref":
+ "pmb228"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Schweiz",
+ "ref":
+ "pmb43435"}
+ ,  {
+ "placeName":
+ "Insel Hiddensee",
+ "ref":
+ "pmb45270"}
+ ,  {
+ "placeName":
+ "Celerina",
+ "ref":
+ "pmb12589"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Herrmann-Bank",
+ "ref":
+ "pmb29240"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Olga Schnitzler an Arthur Schnitzler, 5.10.1923",
+ "source":
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}] 

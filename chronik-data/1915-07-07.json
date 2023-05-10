@@ -1,0 +1,84 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-07-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-07-07.html",
+ "head":
+ "Tagebuch, 7. Juli 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Alfred Gerasch",
+ "ref":
+ "person_15396"},
+ {
+ "persName":
+ "Viktor von Horsetzky-Hornthal",
+ "ref":
+ "person_16386"},
+ {
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "person_19364"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "person_20714"},
+ {
+ "persName":
+ "Anna Loew",
+ "ref":
+ "person_17633"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kritzendorf",
+ "ref":
+ "pmb91077"}
+ ,  {
+ "placeName":
+ "New Danube",
+ "ref":
+ "pmb90538"}
+ ,  {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

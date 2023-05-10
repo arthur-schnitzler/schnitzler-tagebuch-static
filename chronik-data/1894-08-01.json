@@ -1,0 +1,115 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1894-08-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-08-01.html",
+ "head":
+ "Tagebuch, 1. August 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Bashkirtseff",
+ "ref":
+ "person_13455"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Eugen Deimel",
+ "ref":
+ "person_14386"},
+ {
+ "persName":
+ "Juliane Déry",
+ "ref":
+ "person_14413"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Theodor Stern-Rechfelden",
+ "ref":
+ "person_20419"},
+ {
+ "persName":
+ "Neuberger",
+ "ref":
+ "person_18398"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Witwer",
+ "ref":
+ "pmb30407"}
+ ,  {
+ "title":
+ "Journal",
+ "ref":
+ "pmb79230"}
+ ,  {
+ "title":
+ "D’ Schand’. Volksstück in sechs Bildern",
+ "ref":
+ "pmb78682"}
+ ,  {
+ "title":
+ "David Copperfield",
+ "ref":
+ "pmb33610"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Mönchsberg",
+ "ref":
+ "pmb91270"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/30/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "head":
+ "Salzburg"
+}] 

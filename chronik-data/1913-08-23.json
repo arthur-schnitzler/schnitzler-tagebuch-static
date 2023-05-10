@@ -1,0 +1,254 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-08-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-08-23.html",
+ "head":
+ "Tagebuch, 23. August 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Hermann Jadlowker",
+ "ref":
+ "person_16487"},
+ {
+ "persName":
+ "Alexander Moissi",
+ "ref":
+ "person_18209"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "person_21602"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Lido",
+ "ref":
+ "pmb91143"}
+ ,  {
+ "placeName":
+ "Bonvecchiati",
+ "ref":
+ "pmb92174"}
+ ,  {
+ "placeName":
+ "Padua",
+ "ref":
+ "pmb44156"}
+ ,  {
+ "placeName":
+ "Markusplatz",
+ "ref":
+ "pmb92388"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/462/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/462/",
+ "head":
+ "Venedig"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/258/",
+ "head":
+ "Grand Hotel Venezia"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041354",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041354.html",
+ "head":
+ "Tagebuch von Schnitzler, 23. 8. 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "pmb11324"},
+ {
+ "persName":
+ "Hedwig Fischer",
+ "ref":
+ "pmb2657"},
+ {
+ "persName":
+ "Alexander Moissi",
+ "ref":
+ "pmb12274"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Hermann Jadlowker",
+ "ref":
+ "pmb18746"},
+ {
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "pmb13653"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "pmb27549"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Grand Hotel Venezia",
+ "ref":
+ "pmb258"}
+ ,  {
+ "placeName":
+ "Lido",
+ "ref":
+ "pmb259"}
+ ,  {
+ "placeName":
+ "Hotel Bonvecchiati",
+ "ref":
+ "pmb260"}
+ ,  {
+ "placeName":
+ "Padua",
+ "ref":
+ "pmb44156"}
+ ,  {
+ "placeName":
+ "San Marco",
+ "ref":
+ "pmb261"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041507",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041507.html",
+ "head":
+ "Aufzeichnung von Bahr, 23. 8. 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Milan Begovič",
+ "ref":
+ "pmb13938"},
+ {
+ "persName":
+ "Dora Angel",
+ "ref":
+ "pmb28156"}]
+}
+}] 

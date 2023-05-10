@@ -1,0 +1,128 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1929-03-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-03-27.html",
+ "head":
+ "Tagebuch, 27. März 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Dorothea Albu",
+ "ref":
+ "person_13136"},
+ {
+ "persName":
+ "Else Bassermann",
+ "ref":
+ "person_13458"},
+ {
+ "persName":
+ "Elisabeth Bergner",
+ "ref":
+ "person_13643"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"},
+ {
+ "persName":
+ "Ruth Schnitzler",
+ "ref":
+ "person_13139"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Worte. Drei Einakter",
+ "ref":
+ "pmb30717"}
+ ,  {
+ "title":
+ "Der Zinker",
+ "ref":
+ "pmb81454"}
+ ,  {
+ "title":
+ "Der Marquis von Keith",
+ "ref":
+ "pmb76462"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Leipzig",
+ "ref":
+ "pmb864"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/864/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/864/",
+ "head":
+ "Leipzig"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp676",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp676.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 19.–27. März 1929"
+}] 

@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-01-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-01-29.html",
+ "head":
+ "Tagebuch, 29. Januar 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred Kohn",
+ "ref":
+ "person_16991"},
+ {
+ "persName":
+ "Wladimir Iljitsch Lenin",
+ "ref":
+ "person_17435"},
+ {
+ "persName":
+ "Ferdinand Matras",
+ "ref":
+ "person_17971"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Leo D. Trotzki",
+ "ref":
+ "person_20818"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Der Vorige",
+ "ref":
+ "pmb30781"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

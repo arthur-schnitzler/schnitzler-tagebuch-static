@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1916-02-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-02-15.html",
+ "head":
+ "Tagebuch, 15. Februar 1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jacques Eisenstein",
+ "ref":
+ "person_14690"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Johann Mottl",
+ "ref":
+ "person_18279"},
+ {
+ "persName":
+ "Arnold Rosé",
+ "ref":
+ "person_19351"},
+ {
+ "persName":
+ "Karel Kramář",
+ "ref":
+ "person_17084"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der letzte Brief eines Literaten",
+ "ref":
+ "pmb30893"}
+ ,  {
+ "title":
+ "Lieutenant Gustl. Novelle",
+ "ref":
+ "pmb29853"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sedan",
+ "ref":
+ "pmb44324"}
+ ,  {
+ "placeName":
+ "Longwy",
+ "ref":
+ "pmb91163"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

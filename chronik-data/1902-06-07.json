@@ -1,0 +1,92 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1902-06-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-06-07.html",
+ "head":
+ "Tagebuch, 7. Juni 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julius Bauer",
+ "ref":
+ "person_13471"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Ludwig von Dóczi",
+ "ref":
+ "person_14468"},
+ {
+ "persName":
+ "Kanarson",
+ "ref":
+ "person_16676"},
+ {
+ "persName":
+ "Ernst Gòth",
+ "ref":
+ "person_15581"},
+ {
+ "persName":
+ "Vict. Pichler",
+ "ref":
+ "person_18768"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Lebendige Stunden. Vier Einakter",
+ "ref":
+ "pmb29863"}
+ ,  {
+ "title":
+ "Die griechische Tänzerin. Novellette",
+ "ref":
+ "pmb30167"}
+ ,  {
+ "title":
+ "Die Weissagung",
+ "ref":
+ "pmb30683"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Budapest",
+ "ref":
+ "pmb43471"}
+ ,  {
+ "placeName":
+ "Gellért Hill",
+ "ref":
+ "pmb90360"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/43471/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43471/",
+ "head":
+ "Budapest"
+}] 

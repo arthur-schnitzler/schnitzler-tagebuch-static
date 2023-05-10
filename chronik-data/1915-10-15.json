@@ -1,0 +1,96 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/KDV_K2_H4_0111",
+ "head":
+ "Komödie der Verführung, hsl. Werkniederschrift 4"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-10-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-10-15.html",
+ "head":
+ "Tagebuch, 15. Oktober 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Coenraad Valentyn Bos",
+ "ref":
+ "person_13884"},
+ {
+ "persName":
+ "Julia Bertha Culp",
+ "ref":
+ "person_14318"},
+ {
+ "persName":
+ "Isidor Mautner",
+ "ref":
+ "person_17998"},
+ {
+ "persName":
+ "Emilie Bittner",
+ "ref":
+ "person_13752"},
+ {
+ "persName":
+ "Julius Bittner",
+ "ref":
+ "person_13754"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#v02efeb3-b382-4ed8-a71f-1366a4647e76",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Raoul Auernheimer, 15.10.1915",
+ "source":
+ "The Correspondence of Arthur Schnitzler and Raoul Auernheimer with Raoul Auernheimer’s Aphorism. Edited with introduction and notes by Donald G. Daviau and Jorun B. Johns. Chapel Hill: The University of North Carolina Press, 1972 (University of North Carolina Studies in the Germanic Languages and Literatures, 73)."
+}] 

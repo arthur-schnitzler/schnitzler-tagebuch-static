@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1905-12-14">Donnerstag, 14. Dezember 1905</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1905-12-14">
+               <head>Tagebuch, 14. Dezember 1905</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13193">Hedwig von Andrasffy</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15822">Hugo Haberfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13396">Honoré de Balzac</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15919">Maximilian Harden</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20238">Richard Specht</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb35702">Abendspaziergang</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33344">Lettres à l’étrangère (1833–1842), (1842–1844)</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-12-14.html</idno>
+            </event>
+            <event when-iso="1905-12-14">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1905-12-14">
+               <head>Arthur Schnitzler an Heinrich Teweles, 14.12.1905</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/117296023">Teweles, Heinrich</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Peter Michael
+                    Braunwarth: „Wo wäre ich heute“. In: Die Presse, 4. Mai 2002, Spectrum,
+                    II.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#a83cb8bd-8952-4ade-a8c0-0f6f4ec2733b"/>
+            </event>
+            <event when-iso="1905-12-14">
+               <head>Otto Brahm an Arthur Schnitzler, 14.12.1905</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118514245">Brahm, Otto</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Der Briefwechsel Arthur
+               Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar
+               Seidlin. Tübingen: Niemeyer, 1975.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#ya489e21-54d5-40de-a56d-f4548e894428"/>
+            </event>
+            <event when-iso="1905-12-14">
+               <head>Brief an Heinrich Teweles</head>
+               <desc>1 eigenh. Br.; 2 Bl.<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/126794855">Schnitzler, Arthur (1862-1931)</persName>
+                     </person>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/117296023">Teweles, Heinrich (1856-1927)</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-611-HS-3901861</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

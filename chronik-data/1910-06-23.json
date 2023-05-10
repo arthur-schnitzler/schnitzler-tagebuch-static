@@ -1,0 +1,130 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-06-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-06-23.html",
+ "head":
+ "Tagebuch, 23. Juni 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "person_13624"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Alfred Glogau",
+ "ref":
+ "person_15470"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Margarethe Kainz",
+ "ref":
+ "person_16647"},
+ {
+ "persName":
+ "Felix Markbreiter",
+ "ref":
+ "person_17901"},
+ {
+ "persName":
+ "Julie Markbreiter",
+ "ref":
+ "person_17904"},
+ {
+ "persName":
+ "Isabella Vengerova",
+ "ref":
+ "person_21231"},
+ {
+ "persName":
+ "Zinaida A. Vengerova",
+ "ref":
+ "person_21232"},
+ {
+ "persName":
+ "Ludwig Mandl",
+ "ref":
+ "person_17825"},
+ {
+ "persName":
+ "Leo Feld",
+ "ref":
+ "person_14923"},
+ {
+ "persName":
+ "Heinrich Glücksmann",
+ "ref":
+ "person_15483"},
+ {
+ "persName":
+ "Paul Jonas",
+ "ref":
+ "person_16574"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Zinaida Vengerova, 23. 6. 1910",
+ "source":
+ "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
+}] 

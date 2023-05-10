@@ -1,0 +1,103 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-06-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-06-24.html",
+ "head":
+ "Tagebuch, 24. Juni 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Pedro Antonio de Alarcón y Ariza",
+ "ref":
+ "person_13121"},
+ {
+ "persName":
+ "Jonas Lie",
+ "ref":
+ "person_17512"},
+ {
+ "persName":
+ "Wolfgang Amadeus Mozart",
+ "ref":
+ "person_18282"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Dreispitz",
+ "ref":
+ "pmb79576"}
+ ,  {
+ "title":
+ "Auf Irrwegen",
+ "ref":
+ "pmb79890"}
+ ,  {
+ "title":
+ "Briefe",
+ "ref":
+ "pmb77196"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ratzes",
+ "ref":
+ "pmb92476"}
+ ,  {
+ "placeName":
+ "Seis am Schlern",
+ "ref":
+ "pmb988"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/41156/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/41156/",
+ "head":
+ "Burg Salegg"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/988/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/988/",
+ "head":
+ "Seis am Schlern"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/51945/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/51945/",
+ "head":
+ "Hotel Salegg"
+}] 

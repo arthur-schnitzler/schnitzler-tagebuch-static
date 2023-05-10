@@ -1,0 +1,344 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-05-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-05-15.html",
+ "head":
+ "Tagebuch, 15. Mai 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johann Jakob Bachofen",
+ "ref":
+ "person_13353"},
+ {
+ "persName":
+ "Eugenie Bachrach",
+ "ref":
+ "person_13355"},
+ {
+ "persName":
+ "Herta Boss",
+ "ref":
+ "person_13888"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Helen Gosewisch",
+ "ref":
+ "person_15578"},
+ {
+ "persName":
+ "Ferdinand Gregorovius",
+ "ref":
+ "person_15641"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Elisabeth Kallina",
+ "ref":
+ "person_16667"},
+ {
+ "persName":
+ "Margarete von Klimbacher",
+ "ref":
+ "person_16908"},
+ {
+ "persName":
+ "Béla Kun",
+ "ref":
+ "person_17190"},
+ {
+ "persName":
+ "Hans Licht",
+ "ref":
+ "person_17501"},
+ {
+ "persName":
+ "Zoltan Lippay",
+ "ref":
+ "person_17581"},
+ {
+ "persName":
+ "Maurice Paléologue",
+ "ref":
+ "person_18639"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Paul Wertheimer",
+ "ref":
+ "person_21264"},
+ {
+ "persName":
+ "Georg von Lukács",
+ "ref":
+ "person_17737"},
+ {
+ "persName":
+ "Maxim Gorkij",
+ "ref":
+ "person_15573"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ,  {
+ "title":
+ "Griechische Reise",
+ "ref":
+ "pmb80108"}
+ ,  {
+ "title":
+ "Lebenserinnerungen",
+ "ref":
+ "pmb78193"}
+ ,  {
+ "title":
+ "Athenais",
+ "ref":
+ "pmb80625"}
+ ,  {
+ "title":
+ "Der chinesische Papagei",
+ "ref":
+ "pmb80861"}
+ ,  {
+ "title":
+ "Sittengeschichte Griechenlands",
+ "ref":
+ "pmb80889"}
+ ,  {
+ "title":
+ "Der junge Aar",
+ "ref":
+ "pmb77231"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Breslau",
+ "ref":
+ "pmb677"}
+ ,  {
+ "placeName":
+ "Neuwaldegg",
+ "ref":
+ "pmb170"}
+ ,  {
+ "placeName":
+ "Pressbaum",
+ "ref":
+ "pmb44271"}
+ ,  {
+ "placeName":
+ "Hochroterd",
+ "ref":
+ "pmb90889"}
+ ,  {
+ "placeName":
+ "Heiligenkreuz",
+ "ref":
+ "pmb90845"}
+ ,  {
+ "placeName":
+ "Brühl",
+ "ref":
+ "pmb44413"}
+ ,  {
+ "placeName":
+ "Moscow",
+ "ref":
+ "pmb91304"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Ungarn",
+ "ref":
+ "pmb35512"}
+ ,  {
+ "placeName":
+ "London",
+ "ref":
+ "pmb224"}
+ ,  {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/170/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/170/",
+ "head":
+ "Neuwaldegg"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44271/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44271/",
+ "head":
+ "Pressbaum"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90889/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90889/",
+ "head":
+ "Hochroterd"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90845/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90845/",
+ "head":
+ "Heiligenkreuz"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44413/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44413/",
+ "head":
+ "Brühl"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91530/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91530/",
+ "head":
+ "Prater"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp547",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp547.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 2.–20. Mai 1928"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Stefan Zweig an Arthur Schnitzler, 15.5.1928",
+ "source":
+ "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Heinrich Schnitzler, 15. 5. 1928",
+ "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}] 

@@ -1,0 +1,196 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-02-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-02-04.html",
+ "head":
+ "Tagebuch, 4. Februar 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Oscar Straus",
+ "ref":
+ "person_20490"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"},
+ {
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "person_21109"},
+ {
+ "persName":
+ "Heinrich York-Steiner",
+ "ref":
+ "person_21496"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Bernhard Herzmansky",
+ "ref":
+ "person_16166"},
+ {
+ "persName":
+ "Boris Schatz",
+ "ref":
+ "person_19635"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der tapfere Kassian. Singspiel",
+ "ref":
+ "pmb46124"}
+ ,  {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Der Schleier der Pierrette",
+ "ref":
+ "pmb30215"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Palästina",
+ "ref":
+ "pmb815"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "rue Scribe",
+ "ref":
+ "pmb92501"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Zinaida Vengerova an Arthur Schnitzler, 4. 2. 1910",
+ "source":
+ "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#wbbaa189-e228-4270-9326-f15d55d5a5c5",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Otto Benzon, 4.2.1910",
+ "source":
+ "Ernst-Ullrich Pinkert: Arthur Schnitzlers Briefe nach Dänemark. Roskilde: Roskilde Universitet 2006. (Småskrifter fra CØNK, 19)"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 04. Februar 1910",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043388",
+ "head":
+ "Smetana, Camillo an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00071762",
+ "head":
+ "Bloch, Felix an Neumann, Angelo [Briefe]",
+ "text":
+ "1 Br. 1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Bloch",
+ "ref":
+ "http://d-nb.info/gnd/116202335"},
+ {
+ "persName":
+ "Felix Bloch Erben (1887-)",
+ "ref":
+ "http://d-nb.info/gnd/504859-X"},
+ {
+ "persName":
+ "Angelo (1838-1910) Neumann",
+ "ref":
+ "http://d-nb.info/gnd/116956739"}]
+}
+}] 

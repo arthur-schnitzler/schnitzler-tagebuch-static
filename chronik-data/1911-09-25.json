@@ -1,0 +1,185 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-09-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-09-25.html",
+ "head":
+ "Tagebuch, 25. September 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "person_13624"},
+ {
+ "persName":
+ "Ernst von Dohnányi",
+ "ref":
+ "person_14473"},
+ {
+ "persName":
+ "Herbert Eulenberg",
+ "ref":
+ "person_14821"},
+ {
+ "persName":
+ "Lotte Medelsky",
+ "ref":
+ "person_18035"},
+ {
+ "persName":
+ "Else Wohlgemuth",
+ "ref":
+ "person_21423"},
+ {
+ "persName":
+ "Enrico Caruso",
+ "ref":
+ "person_14144"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Der Schleier der Pierrette",
+ "ref":
+ "pmb30215"}
+ ,  {
+ "title":
+ "Alles um Geld. Ein Stück in fünf Aufzügen",
+ "ref":
+ "pmb31899"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02032",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02032.html",
+ "head":
+ "Thomas Mann an Arthur Schnitzler, 25. 9.  1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "pmb12176"},
+ {
+ "persName":
+ "Heinrich Mann",
+ "ref":
+ "pmb12170"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"},
+ {
+ "persName":
+ "Tilla Durieux",
+ "ref":
+ "pmb11198"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Hirtenflöte. Novelle",
+ "ref":
+ "pmb30213"}
+ ,  {
+ "title":
+ "Die neue Rundschau",
+ "ref":
+ "pmb36156"}
+ ,  {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Schauspielerin",
+ "ref":
+ "pmb33588"}
+ ,  {
+ "title":
+ "Die kleine Stadt",
+ "ref":
+ "pmb33590"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Tölz",
+ "ref":
+ "pmb424"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Thomas Mann Villa",
+ "ref":
+ "pmb1243"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

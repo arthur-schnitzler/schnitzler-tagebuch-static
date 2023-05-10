@@ -1,0 +1,368 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-10-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-10-14.html",
+ "head":
+ "Tagebuch, 14. Oktober 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "",
+ "ref":
+ "person_14790"},
+ {
+ "persName":
+ "Leopold Kramer",
+ "ref":
+ "person_17087"},
+ {
+ "persName":
+ "August von Plappart-Leenherr",
+ "ref":
+ "person_18825"},
+ {
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "person_19364"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Fritz Telmann",
+ "ref":
+ "person_20658"},
+ {
+ "persName":
+ "Adolf Weisse",
+ "ref":
+ "person_21211"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Dora Erl",
+ "ref":
+ "person_14792"},
+ {
+ "persName":
+ "Richard Vallentin",
+ "ref":
+ "person_20914"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Goethe über seine Dichtungen",
+ "ref":
+ "pmb30979"}
+ ,  {
+ "title":
+ "Der zerbrochene Krug",
+ "ref":
+ "pmb30675"}
+ ,  {
+ "title":
+ "Messenhauser",
+ "ref":
+ "pmb30677"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ,  {
+ "placeName":
+ "Meissl &amp; Schadn",
+ "ref":
+ "pmb96"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041482",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041482.html",
+ "head":
+ "Aufzeichnung von Bahr, 14. 10. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "pmb11391"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der zerbrochene Krug",
+ "ref":
+ "pmb30675"}
+ ,  {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041262",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041262.html",
+ "head":
+ "Tagebuch von Schnitzler, 14. 10. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "pmb12556"},
+ {
+ "persName":
+ "August von Plappart-Leenherr",
+ "ref":
+ "pmb3028"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "pmb2315"},
+ {
+ "persName":
+ "Erl",
+ "ref":
+ "pmb62143"},
+ {
+ "persName":
+ "Dora Erl",
+ "ref":
+ "pmb15983"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "pmb11461"},
+ {
+ "persName":
+ "Fritz Telmann",
+ "ref":
+ "pmb12926"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "pmb13058"},
+ {
+ "persName":
+ "Leopold Kramer",
+ "ref":
+ "pmb11981"},
+ {
+ "persName":
+ "Richard Vallentin",
+ "ref":
+ "pmb2235"},
+ {
+ "persName":
+ "Adolf Weisse",
+ "ref":
+ "pmb26880"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Goethe über seine Dichtungen",
+ "ref":
+ "pmb30979"}
+ ,  {
+ "title":
+ "Messenhauser",
+ "ref":
+ "pmb30677"}
+ ,  {
+ "title":
+ "Der zerbrochene Krug",
+ "ref":
+ "pmb30675"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ,  {
+ "placeName":
+ "Meissl &amp; Schadn",
+ "ref":
+ "pmb96"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "T030024",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/T030024.html",
+ "head":
+ "Bahr: Tagebuch. 19. September, 14. 10. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "Tagebuch. 19. September [1905]",
+ "ref":
+ "pmb32081"}
+ ,  {
+ "title":
+ "Der Weg. Wochenschrift für Politik und Kultur",
+ "ref":
+ "pmb43849"}
+ ,  {
+ "title":
+ "Tagebuch [Berlin: Paul Cassirer]",
+ "ref":
+ "pmb29929"}
+ ]
+}
+}] 

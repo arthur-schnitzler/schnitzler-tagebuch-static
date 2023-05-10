@@ -1,0 +1,127 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-04-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-04-08.html",
+ "head":
+ "Tagebuch, 8. April 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustav Charlé",
+ "ref":
+ "person_14183"},
+ {
+ "persName":
+ "Max Devrient",
+ "ref":
+ "person_14434"},
+ {
+ "persName":
+ "Felix Hollaender",
+ "ref":
+ "person_16326"},
+ {
+ "persName":
+ "Eugen Robert",
+ "ref":
+ "person_19294"},
+ {
+ "persName":
+ "Alfred Rotter",
+ "ref":
+ "person_19435"},
+ {
+ "persName":
+ "Fritz Rotter",
+ "ref":
+ "person_19436"},
+ {
+ "persName":
+ "Olga L. Čechowa",
+ "ref":
+ "person_20825"},
+ {
+ "persName":
+ "Anton Wildgans",
+ "ref":
+ "person_21328"},
+ {
+ "persName":
+ "Anton Pavlovič Čechov",
+ "ref":
+ "person_20823"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Drei Schwestern",
+ "ref":
+ "pmb59342"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Moscow",
+ "ref":
+ "pmb91304"}
+ ,  {
+ "placeName":
+ "Tbilisi",
+ "ref":
+ "pmb62002"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,307 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-07-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-07-03.html",
+ "head":
+ "Tagebuch, 3. Juli 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Rudolf Maria Holzapfel",
+ "ref":
+ "person_16337"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Siegfried Lipiner",
+ "ref":
+ "person_17577"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Faust. Eine Tragödie",
+ "ref":
+ "pmb30247"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prein an der Rax",
+ "ref":
+ "pmb49072"}
+ ,  {
+ "placeName":
+ "Dörfl",
+ "ref":
+ "pmb49111"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/470/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/470/",
+ "head":
+ "Edlach"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/714/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/714/",
+ "head":
+ "Hotel Edlacherhof"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041547",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041547.html",
+ "head":
+ "Brahm an Schnitzler, 3. 7. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Paul Schlenther",
+ "ref":
+ "pmb12671"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "pmb11851"},
+ {
+ "persName":
+ "Alfred Gerasch",
+ "ref":
+ "pmb11423"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Richter",
+ "ref":
+ "pmb23351"},
+ {
+ "persName":
+ "Mizzi Veith",
+ "ref":
+ "pmb28629"},
+ {
+ "persName":
+ "Marcell Veith",
+ "ref":
+ "pmb28628"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Das Konzert. Lustspiel in drei Akten",
+ "ref":
+ "pmb29933"}
+ ,  {
+ "title":
+ "Komtesse Mizzi oder Der Familientag",
+ "ref":
+ "pmb29931"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Nauheim",
+ "ref":
+ "pmb648"}
+ ,  {
+ "placeName":
+ "Edlach",
+ "ref":
+ "pmb470"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Bayreuth",
+ "ref":
+ "pmb734"}
+ ,  {
+ "placeName":
+ "Kleines Theater",
+ "ref":
+ "pmb208"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041048",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041048.html",
+ "head":
+ "Tagebuch von Schnitzler, 3. 7. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Rudolf Maria Holzapfel",
+ "ref":
+ "pmb11767"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "pmb12163"},
+ {
+ "persName":
+ "Siegfried Lipiner",
+ "ref":
+ "pmb12088"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Faust",
+ "ref":
+ "pmb30247"}
+ ,  {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prein an der Rax",
+ "ref":
+ "pmb49072"}
+ ,  {
+ "placeName":
+ "Dörfl",
+ "ref":
+ "pmb49111"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 3.7.1909",
+ "source":
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 3.7.1909",
+ "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}] 

@@ -1,0 +1,464 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net",
+ "head":
+ "Der Sekundant, Typoskript",
+ "text":
+ "Publikation in Vorbereitung"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1931-09-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-09-05.html",
+ "head":
+ "Tagebuch, 5. September 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Sekundant",
+ "ref":
+ "pmb30953"}
+ ,  {
+ "title":
+ "Komparserie",
+ "ref":
+ "pmb80399"}
+ ,  {
+ "title":
+ "Das gelbe Haus von Rio",
+ "ref":
+ "pmb30957"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02546",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02546.html",
+ "head":
+ "Arthur Schnitzler an Hermann Bahr, 5. 9. 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Leo Mittler",
+ "ref":
+ "pmb12271"},
+ {
+ "persName":
+ "Victor Schertzinger",
+ "ref":
+ "pmb4609"},
+ {
+ "persName":
+ "Holger-Madsen",
+ "ref":
+ "pmb28938"},
+ {
+ "persName":
+ "August Blom",
+ "ref":
+ "pmb5042"},
+ {
+ "persName":
+ "Jacob Julius Fleck",
+ "ref":
+ "pmb28356"},
+ {
+ "persName":
+ "Luise Fleck",
+ "ref":
+ "pmb11334"},
+ {
+ "persName":
+ "Cecil B. DeMille",
+ "ref":
+ "pmb5045"},
+ {
+ "persName":
+ "Paul Czinner",
+ "ref":
+ "pmb11131"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Konzert. Lustspiel in drei Akten",
+ "ref":
+ "pmb29933"}
+ ,  {
+ "title":
+ "Das Konzert",
+ "ref":
+ "pmb30055"}
+ ,  {
+ "title":
+ "The Concert",
+ "ref":
+ "pmb32330"}
+ ,  {
+ "title":
+ "Fashions in Love",
+ "ref":
+ "pmb32600"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Elskovsleg",
+ "ref":
+ "pmb32800"}
+ ,  {
+ "title":
+ "Liebelei (Film, 1927)",
+ "ref":
+ "pmb32806"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "The Affairs of Anatol",
+ "ref":
+ "pmb32808"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Fräulein Else",
+ "ref":
+ "pmb29941"}
+ ,  {
+ "title":
+ "Fräulein Else (Film)",
+ "ref":
+ "pmb30711"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Riessersee",
+ "ref":
+ "pmb487"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041142",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041142.html",
+ "head":
+ "Schnitzler an Bahr, 5. 9. 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Konzert. Lustspiel in drei Akten",
+ "ref":
+ "pmb29933"}
+ ,  {
+ "title":
+ "Das Konzert",
+ "ref":
+ "pmb30055"}
+ ,  {
+ "title":
+ "The Concert",
+ "ref":
+ "pmb32330"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Fräulein Else",
+ "ref":
+ "pmb29941"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Hotel Riessersee",
+ "ref":
+ "pmb487"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041388",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041388.html",
+ "head":
+ "Tagebuch von Schnitzler, 5. 9. 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "pmb2774"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "pmb22728"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "pmb11324"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Sekundant",
+ "ref":
+ "pmb30953"}
+ ,  {
+ "title":
+ "Das gelbe Haus von Rio",
+ "ref":
+ "pmb30957"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ,  {
+ "placeName":
+ "Gersthof",
+ "ref":
+ "pmb291"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Simon &amp; Schuster",
+ "ref":
+ "pmb29648"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Hedy Kempny, 5.9.1931",
+ "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Heinrich Schnitzler, 5. 9. 1931",
+ "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00080194",
+ "head":
+ "Schnitzler, Arthur: Der Sekundant [Prosa] (Drucktitel)",
+ "text":
+ "Erstes Objekt aus der Mappe. 20 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00080463",
+ "head":
+ "Schnitzler, Arthur: Der Sekundant [Prosa] (Drucktitel)",
+ "text":
+ "Erstes Objekt aus der Mappe. 19 Bl."
+}] 

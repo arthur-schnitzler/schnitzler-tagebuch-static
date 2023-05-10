@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1931-02-14">Samstag, 14. Februar 1931</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1931-02-14">
+               <head>Tagebuch, 14. Februar 1931</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13730">Jean Billiter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14230">Friedrich Carl Clauser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14234">Suzanne Clauser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14482">Ferdinand Donath</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16807">Hedy Kempny</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18064">Rosa Menczel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18079">Albert von Mensdorff-Pouilly-Dietrichstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18137">Dora Michaelis</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18556">Ferdinand Onno</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19139">Georg Reimers</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19756">Paula Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19828">Karl Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21328">Anton Wildgans</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21543">Carl von Zeska</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14481">Anna Donath</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16046">Albert Heine</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19802">Edith Schneider</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19812">Franz Schneiderhan</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19819">Elly Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30775">Der Gang zum Weiher. Dramatische Dichtung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-02-14.html</idno>
+            </event>
+            <event when-iso="1931-02-14">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1931-02-14">
+               <head>Burgtheater</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
+            </event>
+            <event when-iso="1931-02-14">
+               <head>Uraufführung von Der Gang zum Weiher, 14.2.1931</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30775" type="auffuhrung-von-urauffuhrung-von">Der Gang zum Weiher. Dramatische Dichtung</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12498" type="hat-als-teilnehmerin">Georg Reimers</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12435" type="hat-als-teilnehmerin">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12698" type="hat-als-teilnehmerin">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24413" type="hat-als-teilnehmerin">Karl Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24414" type="hat-als-teilnehmerin">Elly Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10821" type="hat-als-arbeitskraft">Ewald Balser</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13149" type="hat-als-arbeitskraft">Else Wohlgemuth</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18879" type="hat-als-arbeitskraft">Ebba Johannsen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12378" type="hat-als-arbeitskraft">Ferdinand Onno</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11654" type="hat-als-arbeitskraft">Fred Hennings</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2743" type="hat-als-arbeitskraft">Albert Heine</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21713" type="hat-als-arbeitskraft">Fritz Müller</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb49709" type="hat-als-arbeitskraft">Erna Michall</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb14" type="veranstaltet-in">Burgtheater</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36247" type="veranstaltet-von">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/35418/</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

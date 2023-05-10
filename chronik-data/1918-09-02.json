@@ -1,0 +1,99 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-09-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-09-02.html",
+ "head":
+ "Tagebuch, 2. September 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Siegmund von Hausegger",
+ "ref":
+ "person_15985"},
+ {
+ "persName":
+ "Max Krell",
+ "ref":
+ "person_17129"},
+ {
+ "persName":
+ "Heinrich Mann",
+ "ref":
+ "person_17834"},
+ {
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "person_17838"},
+ {
+ "persName":
+ "Leopold von Ranke",
+ "ref":
+ "person_19050"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "person_19154"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "person_20509"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Garmisch-Partenkirchen",
+ "ref":
+ "pmb667"}
+ ,  {
+ "placeName":
+ "Potsdam",
+ "ref":
+ "pmb56027"}
+ ,  {
+ "placeName":
+ "Bad Kohlgrub",
+ "ref":
+ "pmb91048"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/667/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/667/",
+ "head":
+ "Garmisch-Partenkirchen"
+}] 

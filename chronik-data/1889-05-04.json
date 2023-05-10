@@ -1,0 +1,70 @@
+[{
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/63085/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/63085/",
+ "head":
+ "Premiere von Der Schierling, Uraufführung von Im Bunde der Dritte, Der Flüchtling, 4.5.1889",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Flüchtling. Lustspiel in einem Aufzug",
+ "ref":
+ "pmb63073"}
+ ,  {
+ "title":
+ "Der Schierling. Lustspiel in 2 Akten",
+ "ref":
+ "pmb63090"}
+ ,  {
+ "title":
+ "Im Bunde der Dritte. Charakterbild in einem Akt",
+ "ref":
+ "pmb63098"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Friedrich Mitterwurzer",
+ "ref":
+ "pmb12265"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ]
+}
+}] 

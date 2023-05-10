@@ -1,0 +1,95 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-07-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-07-03.html",
+ "head":
+ "Tagebuch, 3. Juli 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Haas",
+ "ref":
+ "person_15809"},
+ {
+ "persName":
+ "Ernst Hartmann",
+ "ref":
+ "person_15944"},
+ {
+ "persName":
+ "Anna Kallina",
+ "ref":
+ "person_16666"},
+ {
+ "persName":
+ "Lang",
+ "ref":
+ "person_17293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Ein Attaché",
+ "ref":
+ "pmb33925"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ,  {
+ "placeName":
+ "Mladá Boleslav",
+ "ref":
+ "pmb52694"}
+ ,  {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/652/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/652/",
+ "head":
+ "Prag"
+}] 

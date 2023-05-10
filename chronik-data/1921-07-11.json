@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-07-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-07-11.html",
+ "head":
+ "Tagebuch, 11. Juli 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alban Berg",
+ "ref":
+ "person_13618"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Hugo Kauder",
+ "ref":
+ "person_16765"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "person_17784"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Siegfried Tauber",
+ "ref":
+ "person_20640"},
+ {
+ "persName":
+ "Franz Werfel",
+ "ref":
+ "person_21243"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Cavalleria rusticana",
+ "ref":
+ "pmb30603"}
+ ,  {
+ "title":
+ "Otello (Othello)",
+ "ref":
+ "pmb76697"}
+ ,  {
+ "title":
+ "Parsifal",
+ "ref":
+ "pmb33031"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ,  {
+ "placeName":
+ "Breitenstein am Semmering",
+ "ref":
+ "pmb36503"}
+ ,  {
+ "placeName":
+ "Kreuzberg",
+ "ref":
+ "pmb91067"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91067/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91067/",
+ "head":
+ "Kreuzberg"
+}] 

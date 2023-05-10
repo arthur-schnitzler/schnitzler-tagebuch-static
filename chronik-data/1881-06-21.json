@@ -1,0 +1,64 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1881-06-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1881-06-21.html",
+ "head":
+ "Tagebuch, 21. Juni 1881",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "H.",
+ "ref":
+ "person_15796"},
+ {
+ "persName":
+ "Ida König",
+ "ref":
+ "person_16963"},
+ {
+ "persName":
+ "Franziska Reich",
+ "ref":
+ "person_17368"},
+ {
+ "persName":
+ "Mathilde Schleicher",
+ "ref":
+ "person_19720"},
+ {
+ "persName":
+ "Franziska Mütter",
+ "ref":
+ "person_18320"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

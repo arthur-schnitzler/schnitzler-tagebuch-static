@@ -1,0 +1,90 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1888-01-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-01-28.html",
+ "head":
+ "Tagebuch, 28. Januar 1888",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jeanette Heeger",
+ "ref":
+ "person_16022"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Hochzeit des Reservisten. Posse mit Gesang in 4 Acten",
+ "ref":
+ "pmb77418"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "IV., Wieden",
+ "ref":
+ "pmb54"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/89234/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/89234/",
+ "head":
+ "Premiere von Die Hochzeit des Reservisten, 28.1.1888",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Die Hochzeit des Reservisten. Posse mit Gesang in 4 Acten",
+ "ref":
+ "pmb77418"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Alexander Girardi",
+ "ref":
+ "pmb11441"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Theater an der Wien",
+ "ref":
+ "pmb36996"}
+ ]
+}
+}] 

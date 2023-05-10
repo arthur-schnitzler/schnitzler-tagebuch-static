@@ -1,0 +1,210 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-09-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-09-26.html",
+ "head":
+ "Tagebuch, 26. September 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Else Singer",
+ "ref":
+ "person_19143"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Silvio",
+ "ref":
+ "person_20110"},
+ {
+ "persName":
+ "Max Weinberg",
+ "ref":
+ "person_21163"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gardone Riviera",
+ "ref":
+ "pmb90693"}
+ ,  {
+ "placeName":
+ "Ronacher",
+ "ref":
+ "pmb92490"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00494",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00494.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 26. 9. 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "pmb12618"},
+ {
+ "persName":
+ "Giuseppe Giacosa",
+ "ref":
+ "pmb11431"},
+ {
+ "persName":
+ "Henrik Ibsen",
+ "ref":
+ "pmb11798"},
+ {
+ "persName":
+ "Paul Lindau",
+ "ref":
+ "pmb12078"},
+ {
+ "persName":
+ "Christine Schönberger",
+ "ref":
+ "pmb24686"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Don Karlos, Infant von Spanien",
+ "ref":
+ "pmb33023"}
+ ,  {
+ "title":
+ "Rechte der Seele. Schauspiel in einem Act",
+ "ref":
+ "pmb31711"}
+ ,  {
+ "title":
+ "Das Portrait",
+ "ref":
+ "pmb30285"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Hänsel und Grethel",
+ "ref":
+ "pmb30447"}
+ ,  {
+ "title":
+ "Der Tod Georgs",
+ "ref":
+ "pmb31535"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Gardone Riviera",
+ "ref":
+ "pmb374"}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "Wollzeile",
+ "ref":
+ "pmb338"}
+ ,  {
+ "placeName":
+ "Lago di Garda",
+ "ref":
+ "pmb39975"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ,  {
+ "placeName":
+ "Brühl",
+ "ref":
+ "pmb44413"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,54 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-12-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-12-02.html",
+ "head":
+ "Tagebuch, 2. Dezember 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustav Frid",
+ "ref":
+ "person_15194"},
+ {
+ "persName":
+ "Max von Rosenberg",
+ "ref":
+ "person_19374"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brüssel",
+ "ref":
+ "pmb862"}
+ ,  {
+ "placeName":
+ "Bohemia",
+ "ref":
+ "pmb90376"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

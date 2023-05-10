@@ -1,0 +1,594 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-10-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-10-15.html",
+ "head":
+ "Tagebuch, 15. Oktober 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "person_15306"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Albert Hammerschlag",
+ "ref":
+ "person_15886"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Adolf Weisse",
+ "ref":
+ "person_21211"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Dora Erl",
+ "ref":
+ "person_14792"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ,  {
+ "placeName":
+ "Meissl &amp; Schadn",
+ "ref":
+ "pmb96"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01564",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01564.html",
+ "head":
+ "Arthur Schnitzler an Adalbert Seligmann, 15. 10. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Adalbert Franz Seligmann",
+ "ref":
+ "pmb12769"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041483",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041483.html",
+ "head":
+ "Aufzeichnung von Bahr, 15. 10. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Deutsches Volkstheater. (»Der zerbrochene Krug« von Kleist. »Der grüne Kakadu« von Arthur Schnitzler)",
+ "ref":
+ "pmb31185"}
+ ,  {
+ "title":
+ "Der zerbrochene Krug",
+ "ref":
+ "pmb30675"}
+ ,  {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Der Klub der Erlöser",
+ "ref":
+ "pmb29907"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041263",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041263.html",
+ "head":
+ "Tagebuch von Schnitzler, 15. 10. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "pmb2461"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "pmb2284"},
+ {
+ "persName":
+ "Albert Hammerschlag",
+ "ref":
+ "pmb2434"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"},
+ {
+ "persName":
+ "Erl",
+ "ref":
+ "pmb62143"},
+ {
+ "persName":
+ "Dora Erl",
+ "ref":
+ "pmb15983"},
+ {
+ "persName":
+ "Adolf Weisse",
+ "ref":
+ "pmb26880"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "pmb11851"},
+ {
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "pmb11391"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ,  {
+ "placeName":
+ "Meissl &amp; Schadn",
+ "ref":
+ "pmb96"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Die Zeit",
+ "ref":
+ "pmb29626"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "T030022",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/T030022.html",
+ "head":
+ "Bahr: [»Der zerbrochene Krug« und »Der grüne Kakadu«], 15. 10. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anton Genast",
+ "ref":
+ "pmb28422"},
+ {
+ "persName":
+ "Karl August von Sachsen-Weimar",
+ "ref":
+ "pmb23867"},
+ {
+ "persName":
+ "Luise von Sachsen-Weimar",
+ "ref":
+ "pmb28430"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "pmb11461"},
+ {
+ "persName":
+ "Friedrich Wilhelm Riemer",
+ "ref":
+ "pmb4138"},
+ {
+ "persName":
+ "Heinrich von Kleist",
+ "ref":
+ "pmb11933"},
+ {
+ "persName":
+ "Johannes Falk",
+ "ref":
+ "pmb28904"},
+ {
+ "persName":
+ "Henriette von Knebel",
+ "ref":
+ "pmb4153"},
+ {
+ "persName":
+ "Karl Ludwig von Knebel",
+ "ref":
+ "pmb4158"},
+ {
+ "persName":
+ "Caroline Luise von Sachsen-Weimar-Eisenach",
+ "ref":
+ "pmb4273"},
+ {
+ "persName":
+ "Heinrich Laube",
+ "ref":
+ "pmb2702"},
+ {
+ "persName":
+ "Friedrich von Schiller",
+ "ref":
+ "pmb12654"},
+ {
+ "persName":
+ "Theodor Döring",
+ "ref":
+ "pmb4135"},
+ {
+ "persName":
+ "Carl von La Roche",
+ "ref":
+ "pmb28440"},
+ {
+ "persName":
+ "Franz von Dingelstedt",
+ "ref":
+ "pmb4142"},
+ {
+ "persName":
+ "Siegfried Jacobsohn",
+ "ref":
+ "pmb11813"},
+ {
+ "persName":
+ "Friedrich Ludwig Schmidt",
+ "ref":
+ "pmb4146"},
+ {
+ "persName":
+ "Ludwig Tieck",
+ "ref":
+ "pmb4132"},
+ {
+ "persName":
+ "William Shakespeare",
+ "ref":
+ "pmb2412"},
+ {
+ "persName":
+ "Ermete Novelli",
+ "ref":
+ "pmb2189"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "pmb11851"},
+ {
+ "persName":
+ "Alexander Girardi",
+ "ref":
+ "pmb11441"},
+ {
+ "persName":
+ "Emil Höfer",
+ "ref":
+ "pmb11788"},
+ {
+ "persName":
+ "Kathi Thaller",
+ "ref":
+ "pmb3341"},
+ {
+ "persName":
+ "Emil Birron",
+ "ref":
+ "pmb10940"},
+ {
+ "persName":
+ "Richard Vallentin",
+ "ref":
+ "pmb2235"},
+ {
+ "persName":
+ "Lucie Lissl",
+ "ref":
+ "pmb4176"},
+ {
+ "persName":
+ "Helene Ritscher",
+ "ref":
+ "pmb2303"},
+ {
+ "persName":
+ "Leopold Kramer",
+ "ref":
+ "pmb11981"},
+ {
+ "persName":
+ "Eugen Jensen",
+ "ref":
+ "pmb4179"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der zerbrochene Krug",
+ "ref":
+ "pmb30675"}
+ ,  {
+ "title":
+ "Aus dem Tagebuche eines alten Schauspielers, 1. Band",
+ "ref":
+ "pmb32153"}
+ ,  {
+ "title":
+ "Goethe aus näherm persönlichen Umgange dargestellt",
+ "ref":
+ "pmb32640"}
+ ,  {
+ "title":
+ "Gespräche",
+ "ref":
+ "pmb31249"}
+ ,  {
+ "title":
+ "Das Burgtheater. Ein Beitrag zur Deutschen Theater-Geschichte",
+ "ref":
+ "pmb32310"}
+ ,  {
+ "title":
+ "Neues Kleines Theater",
+ "ref":
+ "pmb32642"}
+ ,  {
+ "title":
+ "Das Wiener Stadt-Theater",
+ "ref":
+ "pmb30095"}
+ ,  {
+ "title":
+ "Dramaturgische Blätter",
+ "ref":
+ "pmb31699"}
+ ,  {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Deutsches Volkstheater. (»Der zerbrochene Krug« von Kleist. »Der grüne Kakadu« von Arthur Schnitzler)",
+ "ref":
+ "pmb31185"}
+ ,  {
+ "title":
+ "Neues Wiener Tagblatt",
+ "ref":
+ "pmb41321"}
+ ,  {
+ "title":
+ "Glossen. Zum Wiener Theater (1903 bis 1906)",
+ "ref":
+ "pmb30685"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ,  {
+ "placeName":
+ "Weimar",
+ "ref":
+ "pmb197"}
+ ,  {
+ "placeName":
+ "Hoftheater Weimar",
+ "ref":
+ "pmb861"}
+ ,  {
+ "placeName":
+ "Dresden",
+ "ref":
+ "pmb866"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Mark Brandenburg",
+ "ref":
+ "pmb646"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Kleines Theater",
+ "ref":
+ "pmb208"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Phöbus",
+ "ref":
+ "pmb29700"}
+ ,  {
+ "orgName":
+ "Lazarus-Orden",
+ "ref":
+ "pmb29818"}
+ ,  {
+ "orgName":
+ "Die Schaubühne / Die Weltbühne",
+ "ref":
+ "pmb29348"}
+ ]
+}
+}] 

@@ -1,0 +1,88 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-11-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-11-12.html",
+ "head":
+ "Tagebuch, 12. November 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Victor Léon",
+ "ref":
+ "person_17448"},
+ {
+ "persName":
+ "Hermann Sudermann",
+ "ref":
+ "person_20563"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Gebildete Menschen",
+ "ref":
+ "pmb80461"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/63356/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/63356/",
+ "head":
+ "Uraufführung von Gebildete Menschen, 12.11.1895",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Gebildete Menschen. Zeitbild in drei Acten",
+ "ref":
+ "pmb32356"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Raimund-Theater",
+ "ref":
+ "pmb77"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Raimund-Theater",
+ "ref":
+ "pmb39666"}
+ ]
+}
+}] 

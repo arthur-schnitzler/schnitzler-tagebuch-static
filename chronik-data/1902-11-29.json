@@ -1,0 +1,207 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1902-11-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-11-29.html",
+ "head":
+ "Tagebuch, 29. November 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "person_15980"},
+ {
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "person_19364"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ,  {
+ "title":
+ "Der arme Heinrich – Eine deutsche Sage",
+ "ref":
+ "pmb31165"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01253",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01253.html",
+ "head":
+ "Gerhart Hauptmann an Arthur Schnitzler, [29. 11. 1902]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hotel Sacher",
+ "ref":
+ "pmb29"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/41434/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/41434/",
+ "head":
+ "Uraufführung Der arme Heinrich, 29.11.1902",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der arme Heinrich – Eine deutsche Sage",
+ "ref":
+ "pmb31165"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ]
+}
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/43494/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43494/",
+ "head":
+ "Uraufführung Der arme Heinrich, 29.11.1902",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der arme Heinrich – Eine deutsche Sage",
+ "ref":
+ "pmb31165"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-1544208",
+ "head":
+ "Brief von Gerhart Hauptmann an Arthur Schnitzler",
+ "text":
+ "Freut sich, dass Schnitzler doch noch kommt [vermutlich zur
+         Erstaufführung des 'Armen Heinrich' im Wiener Burgtheater].1 Billet",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gerhart (1862-1946) Hauptmann",
+ "ref":
+ "http://d-nb.info/gnd/118546937"},
+ {
+ "persName":
+ "Arthur (1862-1931) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/126794855"},
+ {
+ "persName":
+ "Burgtheater Wien (1918-)",
+ "ref":
+ "http://d-nb.info/gnd/38633-9"}]
+}
+}] 

@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-03-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-03-23.html",
+ "head":
+ "Tagebuch, 23. März 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Elisabeth von Erbach-Schönberg",
+ "ref":
+ "person_14780"},
+ {
+ "persName":
+ "Ernst Prinzhorn",
+ "ref":
+ "person_18971"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Paul Zifferer",
+ "ref":
+ "person_21559"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brüssel",
+ "ref":
+ "pmb862"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

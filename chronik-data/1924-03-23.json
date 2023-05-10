@@ -1,0 +1,120 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1924-03-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-03-23.html",
+ "head":
+ "Tagebuch, 23. März 1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Peter Behrens",
+ "ref":
+ "person_13562"},
+ {
+ "persName":
+ "Rudolf Burger",
+ "ref":
+ "person_14076"},
+ {
+ "persName":
+ "Wilhelm Viktor Krausz",
+ "ref":
+ "person_17122"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Philipp Menczel",
+ "ref":
+ "person_18063"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Ferdinand Schmutzer",
+ "ref":
+ "person_19784"},
+ {
+ "persName":
+ "Franz Werfel",
+ "ref":
+ "person_21243"},
+ {
+ "persName":
+ "Joseph Hupka",
+ "ref":
+ "person_16419"},
+ {
+ "persName":
+ "Caroline Burger",
+ "ref":
+ "person_14073"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Frau des Richters. Novelle",
+ "ref":
+ "pmb30751"}
+ ,  {
+ "title":
+ "Spiel im Morgengrauen. Novelle",
+ "ref":
+ "pmb32131"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Stadtpark",
+ "ref":
+ "pmb575"}
+ ,  {
+ "placeName":
+ "Wohllebengasse",
+ "ref":
+ "pmb382"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Gustaf Linden an Arthur Schnitzler, 23.3.1924",
+ "source":
+ "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
+}] 

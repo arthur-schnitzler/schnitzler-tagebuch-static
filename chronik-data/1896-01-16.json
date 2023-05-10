@@ -1,0 +1,207 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-01-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-01-16.html",
+ "head":
+ "Tagebuch, 16. Januar 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00528",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00528.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 16. 1. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Wollzeile",
+ "ref":
+ "pmb338"}
+ ,  {
+ "placeName":
+ "Café Griensteidl",
+ "ref":
+ "pmb34"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02764",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02764.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 16. 1. [1896]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Leopold Sonnemann",
+ "ref":
+ "pmb87771"},
+ {
+ "persName":
+ "Jean Thorel",
+ "ref":
+ "pmb3966"},
+ {
+ "persName":
+ "Fedor Mamroth",
+ "ref":
+ "pmb4986"},
+ {
+ "persName":
+ "Albert Carré",
+ "ref":
+ "pmb14876"},
+ {
+ "persName":
+ "Réjane",
+ "ref":
+ "pmb23784"},
+ {
+ "persName":
+ "Clementine Goldmann",
+ "ref":
+ "pmb17163"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb36344"}
+ ,  {
+ "title":
+ "Schauspielhaus. [Premiere von Liebelei]",
+ "ref":
+ "pmb92950"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ,  {
+ "orgName":
+ "Théâtre du Vaudeville",
+ "ref":
+ "pmb92987"}
+ ,  {
+ "orgName":
+ "Théâtre de l’Œuvre",
+ "ref":
+ "pmb88605"}
+ ,  {
+ "orgName":
+ "Théâtre Libre",
+ "ref":
+ "pmb88609"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "rue Feydeau",
+ "ref":
+ "pmb42671"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ,  {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ,  {
+ "placeName":
+ "Rue de Milan",
+ "ref":
+ "pmb93477"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

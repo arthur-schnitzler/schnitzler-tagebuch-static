@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1928-01-30">Montag, 30. Januar 1928</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1928-01-30">
+               <head>Der Sekundant, Typoskript</head>
+               <desc>Publikation in Vorbereitung</desc>
+               <idno type="Arthur-Schnitzler-digital">https://www.schnitzler-edition.net</idno>
+            </event>
+            <event when-iso="1928-01-30">
+               <head>Tagebuch, 30. Januar 1928</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_16692">Ernst Hartwig Kantorowicz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16900">Heinrich von Kleist</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17901">Felix Markbreiter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19756">Paula Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14525">Dschingis Khan</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15331">John Galsworthy</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18320">Franziska Mütter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19616">Leon Schalit</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21044">Richard Wahle</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30299">Abenteurernovelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30953">Der Sekundant</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30817">Therese. Chronik eines Frauenlebens</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32053">Kaiser Friedrich der Zweite</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb65354">Weltgeschichte</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb81452">Entstehung der Charaktere</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb90593">England</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-01-30.html</idno>
+            </event>
+            <event when-iso="1928-01-30">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1928-01-30">
+               <head>Tagebuch von Clara Katharina Pollaczek, 27. Januar – 2. Februar 1928</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp517.html</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

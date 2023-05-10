@@ -1,0 +1,167 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-07-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-07-25.html",
+ "head":
+ "Tagebuch, 25. Juli 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Elsa von Klarwill",
+ "ref":
+ "person_16872"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "person_20925"},
+ {
+ "persName":
+ "Isabella Vengerova",
+ "ref":
+ "person_21231"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Bacchusfest",
+ "ref":
+ "pmb32097"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sankt Moritz",
+ "ref":
+ "pmb44374"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02188",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02188.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 25. 7. 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Celerina",
+ "ref":
+ "pmb12589"}
+ ,  {
+ "placeName":
+ "Weißenbach am Attersee",
+ "ref":
+ "pmb34344"}
+ ,  {
+ "placeName":
+ "Attersee",
+ "ref":
+ "pmb236"}
+ ,  {
+ "placeName":
+ "Oberösterreich",
+ "ref":
+ "pmb519"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Pontresina",
+ "ref":
+ "pmb34946"}
+ ,  {
+ "placeName":
+ "Cresta Palace",
+ "ref":
+ "pmb1138"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/12589/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/12589/",
+ "head":
+ "Celerina"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/1138/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/1138/",
+ "head":
+ "Cresta Palace"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00033803",
+ "head":
+ "Fabian, Erich an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Erich (1893-1969) Fabian",
+ "ref":
+ "http://d-nb.info/gnd/116360720"}]
+}
+}] 

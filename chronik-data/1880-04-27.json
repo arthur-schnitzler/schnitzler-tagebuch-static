@@ -1,0 +1,54 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1880-04-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1880-04-27.html",
+ "head":
+ "Tagebuch, 27. April 1880",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Gottlieb-Billroth",
+ "ref":
+ "person_15591"},
+ {
+ "persName":
+ "Richard Horn",
+ "ref":
+ "person_16364"},
+ {
+ "persName":
+ "Franziska Reich",
+ "ref":
+ "person_17368"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

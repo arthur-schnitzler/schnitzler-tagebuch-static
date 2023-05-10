@@ -1,0 +1,226 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-08-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-08-13.html",
+ "head":
+ "Tagebuch, 13. August 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Carl Guttmann",
+ "ref":
+ "person_15780"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Carl Fleischmann",
+ "ref":
+ "person_15038"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Carbonin",
+ "ref":
+ "pmb44317"}
+ ,  {
+ "placeName":
+ "Misurina",
+ "ref":
+ "pmb41013"}
+ ,  {
+ "placeName":
+ "Passo Tre Croci",
+ "ref":
+ "pmb91932"}
+ ,  {
+ "placeName":
+ "Cortina d'Ampezzo",
+ "ref":
+ "pmb34199"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01699",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01699.html",
+ "head":
+ "Arthur Schnitzler, Olga Schnitzler an Richard Beer-Hofmann, 13. 8. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Misurina",
+ "ref":
+ "pmb41013"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hasenauerstraße",
+ "ref":
+ "pmb383"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Misurinasee",
+ "ref":
+ "pmb53762"}
+ ,  {
+ "placeName":
+ "Grand Hotel Misurina",
+ "ref":
+ "pmb53764"}
+ ,  {
+ "placeName":
+ "Carbonin",
+ "ref":
+ "pmb44317"}
+ ,  {
+ "placeName":
+ "Cortina d'Ampezzo",
+ "ref":
+ "pmb34199"}
+ ,  {
+ "placeName":
+ "Welsberg-Taisten",
+ "ref":
+ "pmb428"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44317/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44317/",
+ "head":
+ "Carbonin"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/41013/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/41013/",
+ "head":
+ "Misurina"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91932/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91932/",
+ "head":
+ "Passo Tre Croci"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34199/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34199/",
+ "head":
+ "Cortina d'Ampezzo"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-149563",
+ "head":
+ "Brief von Arthur Schnitzler an Frank Wedekind",
+ "text":
+ "1 Br.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Frank (1864-1918) Wedekind",
+ "ref":
+ "http://d-nb.info/gnd/118629867"}]
+}
+}] 

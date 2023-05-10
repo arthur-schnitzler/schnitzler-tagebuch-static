@@ -1,0 +1,148 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1924-04-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-04-01.html",
+ "head":
+ "Tagebuch, 1. April 1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Léon Bazalgette",
+ "ref":
+ "person_13501"},
+ {
+ "persName":
+ "Helene Binder",
+ "ref":
+ "person_13733"},
+ {
+ "persName":
+ "Sybille Binder",
+ "ref":
+ "person_13735"},
+ {
+ "persName":
+ "Pierre Frondaie",
+ "ref":
+ "person_15274"},
+ {
+ "persName":
+ "Philipp Menczel",
+ "ref":
+ "person_18063"},
+ {
+ "persName":
+ "Albert von Mensdorff-Pouilly-Dietrichstein",
+ "ref":
+ "person_18079"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "person_19154"},
+ {
+ "persName":
+ "Moriz Scheyer",
+ "ref":
+ "person_19675"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Helene Thimig",
+ "ref":
+ "person_20712"},
+ {
+ "persName":
+ "Hermann Thimig",
+ "ref":
+ "person_20713"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "person_20714"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Blanche Caline",
+ "ref":
+ "pmb79328"}
+ ,  {
+ "title":
+ "Der Diener zweier Herren",
+ "ref":
+ "pmb80611"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#gc49cd7e-1c35-4af4-808b-831b06a17f3d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Theodor Reik an Arthur Schnitzler, 1.4.1924",
+ "source":
+ "Jeffrey B. Berlin/Hans Ulrich Lindken: Theodor Reiks unveröffentlichte Briefe an Arthur Schnitzler. In: Literatur und Kritik, 1983, H. 173/174, 182-197."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00037544",
+ "head":
+ "Kessner, C. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

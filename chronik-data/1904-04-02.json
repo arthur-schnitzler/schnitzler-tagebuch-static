@@ -1,0 +1,57 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-04-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-04-02.html",
+ "head":
+ "Tagebuch, 2. April 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan George",
+ "ref":
+ "person_15394"},
+ {
+ "persName":
+ "Karl Gustav Vollmoeller",
+ "ref":
+ "person_20986"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Norwegen",
+ "ref":
+ "pmb64465"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

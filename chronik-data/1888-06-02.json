@@ -1,0 +1,84 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1888-06-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-06-02.html",
+ "head":
+ "Tagebuch, 2. Juni 1888",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Markbreiter",
+ "ref":
+ "person_17901"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/224/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/224/",
+ "head":
+ "London"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d2b0f559-bde7-4114-82b9-741a8810c463",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Olga Waissnix an Arthur Schnitzler, 2.6.1888",
+ "source":
+ "Arthur Schnitzler und Waissnix, Olga: Liebe, die starb vor der Zeit. Ein Briefwechsel. Mit einem Vorwort von Hans Weigel. Mit 16 Seiten Kunstdruckbildern. Hg. v. Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d2b0f559-bde7-4114-82b9-741a8810c463",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Olga Waissnix, Anfang Juni",
+ "source":
+ "Arthur Schnitzler und Waissnix, Olga: Liebe, die starb vor der Zeit. Ein Briefwechsel. Mit einem Vorwort von Hans Weigel. Mit 16 Seiten Kunstdruckbildern. Hg. v. Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00036249",
+ "head":
+ "Heeger, Jeanette an Schnitzler, Arthur [Briefe]",
+ "text":
+ "Erstes Objekt aus der Mappe. 42 Br. 96 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jeanette (1865-1903) Heeger",
+ "ref":
+ "http://d-nb.info/gnd/105081309X"}]
+}
+}] 

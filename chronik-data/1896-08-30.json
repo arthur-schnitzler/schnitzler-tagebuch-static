@@ -1,0 +1,142 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-08-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-08-30.html",
+ "head":
+ "Tagebuch, 30. August 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga von Golovin",
+ "ref":
+ "person_15558"},
+ {
+ "persName":
+ "Arthur Klein",
+ "ref":
+ "person_16880"},
+ {
+ "persName":
+ "Nikolaus II. von Russland",
+ "ref":
+ "person_18456"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Johanna Simonetta Sandrock",
+ "ref":
+ "person_19567"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Wera",
+ "ref":
+ "person_21238"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Marienbad",
+ "ref":
+ "pmb772"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00581",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00581.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 30. 8. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Ernst Pinkert",
+ "ref":
+ "pmb42680"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Unter dem Doppel-Adler",
+ "ref":
+ "pmb42691"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Leipzig",
+ "ref":
+ "pmb864"}
+ ,  {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Frankgasse",
+ "ref":
+ "pmb397"}
+ ,  {
+ "placeName":
+ "Zoo",
+ "ref":
+ "pmb42678"}
+ ,  {
+ "placeName":
+ "Baden bei Wien",
+ "ref":
+ "pmb662"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

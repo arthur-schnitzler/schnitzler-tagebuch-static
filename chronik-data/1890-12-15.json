@@ -1,0 +1,55 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1890-12-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1890-12-15.html",
+ "head":
+ "Tagebuch, 15. Dezember 1890",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Leidingers Restauration",
+ "ref":
+ "pmb42"}
+ ,  {
+ "placeName":
+ "Pfob",
+ "ref":
+ "pmb92444"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d2b0f559-bde7-4114-82b9-741a8810c463",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Olga Waissnix an Arthur Schnitzler, zwischen 12.12.1890 und 16.12.1890?",
+ "source":
+ "Arthur Schnitzler und Waissnix, Olga: Liebe, die starb vor der Zeit. Ein Briefwechsel. Mit einem Vorwort von Hans Weigel. Mit 16 Seiten Kunstdruckbildern. Hg. v. Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)"
+}] 

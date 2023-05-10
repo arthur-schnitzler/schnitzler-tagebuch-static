@@ -1,0 +1,127 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-04-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-04-01.html",
+ "head":
+ "Tagebuch, 1. April 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Albert Einstein",
+ "ref":
+ "person_14669"},
+ {
+ "persName":
+ "Sigmund Freud",
+ "ref":
+ "person_15172"},
+ {
+ "persName":
+ "Lucy von Jacobi",
+ "ref":
+ "person_16469"},
+ {
+ "persName":
+ "Grete Paukner",
+ "ref":
+ "person_18679"},
+ {
+ "persName":
+ "Josefine Schipper",
+ "ref":
+ "person_19707"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Thomas Seltzer",
+ "ref":
+ "person_20054"},
+ {
+ "persName":
+ "Hermine Simandt",
+ "ref":
+ "person_20112"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"},
+ {
+ "persName":
+ "Wilhelm Grosz",
+ "ref":
+ "person_15685"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Hirtenflöte (Filmentwurf)",
+ "ref":
+ "pmb36035"}
+ ,  {
+ "title":
+ "Gesammelte Werke",
+ "ref":
+ "pmb30313"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Wien Mauer",
+ "ref":
+ "pmb91217"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,257 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-01-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-01-12.html",
+ "head":
+ "Tagebuch, 12. Januar 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Moritz Coschell",
+ "ref":
+ "person_14283"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00880",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00880.html",
+ "head":
+ "Arthur Schnitzler an Georg Brandes, 12. 1. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"},
+ {
+ "persName":
+ "V. A.",
+ "ref":
+ "pmb29110"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"},
+ {
+ "persName":
+ "Mirjam Beer-Hofmann",
+ "ref":
+ "pmb2668"},
+ {
+ "persName":
+ "Naëmah Beer-Hofmann",
+ "ref":
+ "pmb2534"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Johann III. Sobieski",
+ "ref":
+ "pmb46234"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Berliner Tageblatt",
+ "ref":
+ "pmb41531"}
+ ,  {
+ "title":
+ "Bei Georg Brandes",
+ "ref":
+ "pmb33337"}
+ ,  {
+ "title":
+ "Köllers Erfolge",
+ "ref":
+ "pmb33335"}
+ ,  {
+ "title":
+ "Das Vermächtnis. Schauspiel in drei Akten",
+ "ref":
+ "pmb30219"}
+ ,  {
+ "title":
+ "Die Gefährtin. Schauspiel in einem Akt",
+ "ref":
+ "pmb29845"}
+ ,  {
+ "title":
+ "Paracelsus. Versspiel in einem Akt",
+ "ref":
+ "pmb30403"}
+ ,  {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "Der Tod Georgs",
+ "ref":
+ "pmb31535"}
+ ,  {
+ "title":
+ "Die Juden von Zirndorf",
+ "ref":
+ "pmb33291"}
+ ,  {
+ "title":
+ "Die Frau des Weisen. Novelletten",
+ "ref":
+ "pmb32460"}
+ ,  {
+ "title":
+ "Brandes in Lemberg",
+ "ref":
+ "pmb46237"}
+ ,  {
+ "title":
+ "Polen",
+ "ref":
+ "pmb32065"}
+ ,  {
+ "title":
+ "Ungdomsvers [Jugendgedichte]",
+ "ref":
+ "pmb33293"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Verein Berliner Presse",
+ "ref":
+ "pmb29508"}
+ ,  {
+ "orgName":
+ "Neue Freie Presse",
+ "ref":
+ "pmb29351"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Dänemark",
+ "ref":
+ "pmb43570"}
+ ,  {
+ "placeName":
+ "Nordschleswig",
+ "ref":
+ "pmb1115"}
+ ,  {
+ "placeName":
+ "Preußen",
+ "ref":
+ "pmb206"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Bastille",
+ "ref":
+ "pmb518"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Polen",
+ "ref":
+ "pmb313"}
+ ,  {
+ "placeName":
+ "Lviv",
+ "ref":
+ "pmb46224"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

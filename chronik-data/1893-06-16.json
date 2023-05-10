@@ -1,0 +1,125 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-06-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-06-16.html",
+ "head":
+ "Tagebuch, 16. Juni 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Wilhelm Bölsche",
+ "ref":
+ "person_13838"},
+ {
+ "persName":
+ "Julius Stern",
+ "ref":
+ "person_20416"},
+ {
+ "persName":
+ "August Werthner",
+ "ref":
+ "person_21269"},
+ {
+ "persName":
+ "Ludwig Grünfeld",
+ "ref":
+ "person_15705"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Braut",
+ "ref":
+ "pmb30165"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XIX., Döbling",
+ "ref":
+ "pmb69"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/112524/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/112524/",
+ "head":
+ "Vereinstreffen Saubermänner, 16.6.1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "August Werthner",
+ "ref":
+ "pmb27007"},
+ {
+ "persName":
+ "Julius Stern",
+ "ref":
+ "pmb3162"},
+ {
+ "persName":
+ "Ludwig Grünfeld",
+ "ref":
+ "pmb17480"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Saubermänner",
+ "ref":
+ "pmb29794"}
+ ]
+}
+}] 

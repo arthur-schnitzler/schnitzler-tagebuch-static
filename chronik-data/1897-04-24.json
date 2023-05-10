@@ -1,0 +1,145 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1897-04-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-04-24.html",
+ "head":
+ "Tagebuch, 24. April 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Isidor Fuchs",
+ "ref":
+ "person_15279"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Olympia",
+ "ref":
+ "pmb91399"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00669",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00669.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 24. 4. [1897]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "pmb12435"},
+ {
+ "persName":
+ "Marianne Benedict",
+ "ref":
+ "pmb13970"},
+ {
+ "persName":
+ "Louis Loeb",
+ "ref":
+ "pmb20548"},
+ {
+ "persName":
+ "Regina Loeb",
+ "ref":
+ "pmb28299"},
+ {
+ "persName":
+ "Anna Epstein",
+ "ref":
+ "pmb28285"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "pmb11324"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "pmb11701"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Mimi",
+ "ref":
+ "pmb34096"}
+ ,  {
+ "title":
+ "Freie Bühne für den Entwickelungskampf der Zeit",
+ "ref":
+ "pmb36166"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/182/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/182/",
+ "head":
+ "Paris"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/592/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/592/",
+ "head":
+ "rue de Maubeuge"
+}] 

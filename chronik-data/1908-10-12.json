@@ -1,0 +1,162 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-10-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-10-12.html",
+ "head":
+ "Tagebuch, 12. Oktober 1908",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02585",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02585.html",
+ "head":
+ "Arthur Schnitzler an Auguste Hauschner, 12. 10. 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Auguste Hauschner",
+ "ref":
+ "pmb2524"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Der Weg ins Freie",
+ "ref":
+ "pmb30225"}
+ ,  {
+ "title":
+ "Die Familie Lowositz. Roman",
+ "ref":
+ "pmb65249"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Der Tag",
+ "ref":
+ "pmb29650"}
+ ,  {
+ "orgName":
+ "Nord und Süd",
+ "ref":
+ "pmb34269"}
+ ,  {
+ "orgName":
+ "Westermanns Monatshefte",
+ "ref":
+ "pmb65241"}
+ ,  {
+ "orgName":
+ "Deutsche Revue. Eine Monatsschrift",
+ "ref":
+ "pmb65245"}
+ ,  {
+ "orgName":
+ "Neue Revue. Wochenschrift für das öffentliche Leben",
+ "ref":
+ "pmb65243"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00045358",
+ "head":
+ "Schnitzler, Arthur an Feuchtwanger, Martin [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Martin (1886-1952) Feuchtwanger",
+ "ref":
+ "http://d-nb.info/gnd/118846825"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00045862",
+ "head":
+ "Schnitzler, Arthur an Hauschner, Auguste [Briefe]",
+ "text":
+ "2 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Auguste (1850-1924) Hauschner",
+ "ref":
+ "http://d-nb.info/gnd/116537175"}]
+}
+}] 

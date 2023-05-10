@@ -1,0 +1,90 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-08-31",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-08-31.html",
+ "head":
+ "Tagebuch, 31. August 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred von Montenuovo",
+ "ref":
+ "person_18237"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Johann von Wilczek",
+ "ref":
+ "person_21322"},
+ {
+ "persName":
+ "Mirjam Horwitz",
+ "ref":
+ "person_21546"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Frühlingsluft",
+ "ref":
+ "pmb81170"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ,  {
+ "placeName":
+ "Waldsteingarten",
+ "ref":
+ "pmb92593"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00079267",
+ "head":
+ "Schnitzler, Arthur an Forster, Riccardo [Briefe]",
+ "text":
+ "2 Bl.Durchschl."
+}] 

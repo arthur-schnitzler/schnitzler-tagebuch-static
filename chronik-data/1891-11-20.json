@@ -1,0 +1,75 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1891-11-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-11-20.html",
+ "head":
+ "Tagebuch, 20. November 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/63078/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/63078/",
+ "head":
+ "Uraufführung von Prinzen in Genieland, 20.11.1891",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Prinzen aus Genieland. Lustspiel in 4 Akten",
+ "ref":
+ "pmb63076"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Carl-Theater",
+ "ref":
+ "pmb118"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Carl-Theater",
+ "ref":
+ "pmb63031"}
+ ]
+}
+}] 

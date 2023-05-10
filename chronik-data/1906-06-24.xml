@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1906-06-24">Sonntag, 24. Juni 1906</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1906-06-24">
+               <head>Tagebuch, 24. Juni 1906</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13555">Ludwig van Beethoven</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14632">Otto von Egger-Möllwald</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15833">Else Speidel-Haeberle</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17958">Paul Marx</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20242">Felix Speidel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20872">Agnes Ulmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21334">Johanna Wilheim</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14631">Berta von Egger-Möllwald</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16894">Margot Vallo</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16770">Arthur Kaufmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb77150">Klavierkonzert Nr. 5 Es-Dur op. 73</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80632">Der abenteuerliche Simplicissimus Teutsch</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb113">Türkenschanzpark</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-06-24.html</idno>
+            </event>
+            <event when-iso="1906-06-24">
+               <head>Arthur Schnitzler an Richard Beer-Hofmann, 24. 6. 1906</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb59">IX., Alsergrund</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb173">Rodaun</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40101">Liesingerstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb36300">Kopenhagen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb959">Marienlyst</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb909">Velden</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01603.html</idno>
+            </event>
+            <event when-iso="1906-06-24">
+               <head>Arthur Schnitzler an Hermann Bahr, 24. –25. 6. 1906</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12050">Emil Lessing</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29913">Der Faun</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30001">Der arme Narr</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb36300">Kopenhagen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb959">Marienlyst</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb860">Graz</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01604.html</idno>
+            </event>
+            <event when-iso="1906-06-24">
+               <head>Hugo von Hofmannsthal an Arthur Schnitzler, [zwischen 24. und 27. 6. 1906]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb6596">Ignaz Franz Castelli</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12468">Ferdinand Raimund</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb39512">Hans Pöhnl</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb39510">Memoiren meines Lebens</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb39515">Deutsche Volksbühnenspiele</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb189">Semmering</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb413">Südbahnhotel</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb173">Rodaun</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01605.html</idno>
+            </event>
+            <event when-iso="1906-06-24">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1906-06-24">
+               <head>Schnitzler an Bahr, 24.–25. 6. 1906</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12050">Emil Lessing</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29913">Der Faun</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30001">Der arme Narr</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb36300">Kopenhagen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb959">Marienlyst</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb860">Graz</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041092.html</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

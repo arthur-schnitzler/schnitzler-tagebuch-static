@@ -1,0 +1,112 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-12-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-12-07.html",
+ "head":
+ "Tagebuch, 7. Dezember 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alby Fürth",
+ "ref":
+ "person_15295"},
+ {
+ "persName":
+ "Gustav Gurschner",
+ "ref":
+ "person_15755"},
+ {
+ "persName":
+ "Henrik Ibsen",
+ "ref":
+ "person_16432"},
+ {
+ "persName":
+ "Landesberg",
+ "ref":
+ "person_17273"},
+ {
+ "persName":
+ "Oscar Straus",
+ "ref":
+ "person_20490"},
+ {
+ "persName":
+ "James Eisenberg",
+ "ref":
+ "person_14678"},
+ {
+ "persName":
+ "Božena Bradsky",
+ "ref":
+ "person_13904"},
+ {
+ "persName":
+ "Holger Drachmann",
+ "ref":
+ "person_14506"},
+ {
+ "persName":
+ "Alice Gurschner",
+ "ref":
+ "person_15754"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die griechische Tänzerin. Novellette",
+ "ref":
+ "pmb30167"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Es war einmal",
+ "ref":
+ "pmb80383"}
+ ,  {
+ "title":
+ "Die lustigen Nibelungen",
+ "ref":
+ "pmb77132"}
+ ,  {
+ "title":
+ "Tristan und Isolde",
+ "ref":
+ "pmb29897"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Dänemark",
+ "ref":
+ "pmb43570"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

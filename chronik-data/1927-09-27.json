@@ -1,0 +1,132 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1927-09-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-09-27.html",
+ "head":
+ "Tagebuch, 27. September 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jacob Burckhardt",
+ "ref":
+ "person_14066"},
+ {
+ "persName":
+ "Anna Eisenmenger",
+ "ref":
+ "person_14682"},
+ {
+ "persName":
+ "Camillo Faust",
+ "ref":
+ "person_14896"},
+ {
+ "persName":
+ "Helen Gosewisch",
+ "ref":
+ "person_15578"},
+ {
+ "persName":
+ "Julia K.",
+ "ref":
+ "person_16616"},
+ {
+ "persName":
+ "Margarete von Klimbacher",
+ "ref":
+ "person_16908"},
+ {
+ "persName":
+ "Adolf Lantz",
+ "ref":
+ "person_17324"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Karl Pollak",
+ "ref":
+ "person_18887"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Buch der Sprüche und Bedenken",
+ "ref":
+ "pmb30053"}
+ ,  {
+ "title":
+ "Fräulein Else",
+ "ref":
+ "pmb29941"}
+ ,  {
+ "title":
+ "Die Zeit Constantin’s des Großen",
+ "ref":
+ "pmb59454"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sacher",
+ "ref":
+ "pmb92506"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Schweiz",
+ "ref":
+ "pmb43435"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

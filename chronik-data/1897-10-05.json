@@ -1,0 +1,155 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1897-10-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-10-05.html",
+ "head":
+ "Tagebuch, 5. Oktober 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stanislaus Eichenbaum",
+ "ref":
+ "person_14664"},
+ {
+ "persName":
+ "Otto Eisenschitz",
+ "ref":
+ "person_14686"},
+ {
+ "persName":
+ "Rosa Freudenthal",
+ "ref":
+ "person_15178"},
+ {
+ "persName":
+ "Rudolf Maria Holzapfel",
+ "ref":
+ "person_16337"},
+ {
+ "persName":
+ "Leopold Müller",
+ "ref":
+ "person_18302"},
+ {
+ "persName":
+ "Giacomo Puccini",
+ "ref":
+ "person_18988"},
+ {
+ "persName":
+ "Ladislaus Specht",
+ "ref":
+ "person_20235"},
+ {
+ "persName":
+ "Roberto Bracco",
+ "ref":
+ "person_13902"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ "pmb29899"}
+ ,  {
+ "title":
+ "La Bohème",
+ "ref":
+ "pmb31285"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien Mauer",
+ "ref":
+ "pmb91217"}
+ ,  {
+ "placeName":
+ "Krakow",
+ "ref":
+ "pmb91063"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02828",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02828.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 5. 10. [1897]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Leopold Sonnemann",
+ "ref":
+ "pmb87771"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "rue de la Bourse",
+ "ref":
+ "pmb43397"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,212 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-08-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-08-02.html",
+ "head":
+ "Tagebuch, 2. August 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Markbreiter",
+ "ref":
+ "person_17901"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01062",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01062.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 2. 8. 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Deutsche Alpen",
+ "ref":
+ "pmb40461"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Altaussee",
+ "ref":
+ "pmb34401"}
+ ,  {
+ "placeName":
+ "Mooserboden",
+ "ref":
+ "pmb40339"}
+ ,  {
+ "placeName":
+ "Gerlos",
+ "ref":
+ "pmb40280"}
+ ,  {
+ "placeName":
+ "Jenbach",
+ "ref":
+ "pmb40329"}
+ ,  {
+ "placeName":
+ "Zillertal",
+ "ref":
+ "pmb40471"}
+ ,  {
+ "placeName":
+ "Sterzing",
+ "ref":
+ "pmb40302"}
+ ,  {
+ "placeName":
+ "Gossensass",
+ "ref":
+ "pmb40474"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Zell am Ziller",
+ "ref":
+ "pmb134"}
+ ,  {
+ "placeName":
+ "Mayrhofen",
+ "ref":
+ "pmb40332"}
+ ,  {
+ "placeName":
+ "Zemmgrund",
+ "ref":
+ "pmb40468"}
+ ,  {
+ "placeName":
+ "Schwarzensteingrund",
+ "ref":
+ "pmb40469"}
+ ,  {
+ "placeName":
+ "Pfitscher Joch",
+ "ref":
+ "pmb40470"}
+ ,  {
+ "placeName":
+ "Gasthaus Breitlahner",
+ "ref":
+ "pmb40464"}
+ ,  {
+ "placeName":
+ "Gerlospass",
+ "ref":
+ "pmb40340"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02926",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02926.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 2. 8. [1900]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "pmb11910"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Dessauer Straße",
+ "ref":
+ "pmb40583"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Toblach",
+ "ref":
+ "pmb987"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/414/",
+ "head":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)"
+}] 

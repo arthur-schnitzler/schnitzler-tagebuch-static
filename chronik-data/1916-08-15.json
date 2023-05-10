@@ -1,0 +1,100 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1916-08-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-08-15.html",
+ "head":
+ "Tagebuch, 15. August 1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich von Gentz",
+ "ref":
+ "person_15391"},
+ {
+ "persName":
+ "Johanna Nemetschke",
+ "ref":
+ "person_18388"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Josef Redlich",
+ "ref":
+ "person_19096"},
+ {
+ "persName":
+ "Karl August von Varnhagen-Ense",
+ "ref":
+ "person_20929"},
+ {
+ "persName":
+ "Paul Weingarten",
+ "ref":
+ "person_21171"},
+ {
+ "persName":
+ "Paul Hellmann",
+ "ref":
+ "person_16074"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ,  {
+ "title":
+ "Schicksalsjahre Österreichs 1908-1919. Das politische Tagebuch",
+ "ref":
+ "pmb81150"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ruine Pflindsberg",
+ "ref":
+ "pmb91474"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34401/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34401/",
+ "head":
+ "Altaussee"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34387/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34387/",
+ "head":
+ "Villa Annerl"
+}] 

@@ -1,0 +1,108 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-06-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-06-18.html",
+ "head":
+ "Tagebuch, 18. Juni 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Erhard Buschbeck",
+ "ref":
+ "person_14089"},
+ {
+ "persName":
+ "Oscar Fried",
+ "ref":
+ "person_15204"},
+ {
+ "persName":
+ "Anna Lieser",
+ "ref":
+ "person_17537"},
+ {
+ "persName":
+ "Elisabeth von Zouboff",
+ "ref":
+ "person_21580"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Marcel Dunan",
+ "ref":
+ "person_14551"},
+ {
+ "persName":
+ "Wilhelm Grosz",
+ "ref":
+ "person_15685"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00048824",
+ "head":
+ "Schnitzler, Arthur an Stegmann, H. [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00049981",
+ "head":
+ "Schnitzler, Arthur an Wolf, Josef [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

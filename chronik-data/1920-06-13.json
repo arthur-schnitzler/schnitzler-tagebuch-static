@@ -1,0 +1,295 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-06-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-06-13.html",
+ "head":
+ "Tagebuch, 13. Juni 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Anton Bruckner",
+ "ref":
+ "person_14008"},
+ {
+ "persName":
+ "Paul Dukas",
+ "ref":
+ "person_14543"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "person_15499"},
+ {
+ "persName":
+ "Johanna Herzog-Thullner",
+ "ref":
+ "person_16169"},
+ {
+ "persName":
+ "Gertrude Felice von Landesberger",
+ "ref":
+ "person_19227"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Franz Schmidt",
+ "ref":
+ "person_19760"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Richard Schüller",
+ "ref":
+ "person_19915"},
+ {
+ "persName":
+ "Georg Szell",
+ "ref":
+ "person_20602"},
+ {
+ "persName":
+ "Thullner",
+ "ref":
+ "person_20729"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Brehms Tierleben",
+ "ref":
+ "pmb30011"}
+ ,  {
+ "title":
+ "Symphonie Nr. 6 A-Dur WAB 106",
+ "ref":
+ "pmb30617"}
+ ,  {
+ "title":
+ "Aus meinem Leben. Dichtung und Wahrheit",
+ "ref":
+ "pmb31783"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salmannsdorf",
+ "ref":
+ "pmb91641"}
+ ,  {
+ "placeName":
+ "Randweg",
+ "ref":
+ "pmb92473"}
+ ,  {
+ "placeName":
+ "Neuwaldegg",
+ "ref":
+ "pmb170"}
+ ,  {
+ "placeName":
+ "Ungarn",
+ "ref":
+ "pmb35512"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02342",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02342.html",
+ "head":
+ "Georg Brandes an Arthur Schnitzler, 13. 6. 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Peter Nansen",
+ "ref":
+ "pmb2357"},
+ {
+ "persName":
+ "Rudolf Jeremias Kreutz",
+ "ref":
+ "pmb5521"},
+ {
+ "persName":
+ "Gaius Iulius Caesar",
+ "ref":
+ "pmb14796"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "pmb2238"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ,  {
+ "title":
+ "Die große Phrase",
+ "ref":
+ "pmb33382"}
+ ,  {
+ "title":
+ "Gaius Julius Cæsar",
+ "ref":
+ "pmb33376"}
+ ,  {
+ "title":
+ "Michelangelo Buonarotti",
+ "ref":
+ "pmb33384"}
+ ,  {
+ "title":
+ "Jaákobs Traum. Ein Vorspiel",
+ "ref":
+ "pmb31595"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Budapest",
+ "ref":
+ "pmb43471"}
+ ,  {
+ "placeName":
+ "Sankt Petersburg",
+ "ref":
+ "pmb433"}
+ ,  {
+ "placeName":
+ "Moskau",
+ "ref":
+ "pmb869"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ,  {
+ "placeName":
+ "Istanbul",
+ "ref":
+ "pmb966"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ,  {
+ "placeName":
+ "England",
+ "ref":
+ "pmb254"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ,  {
+ "placeName":
+ "Europa",
+ "ref":
+ "pmb468"}
+ ,  {
+ "placeName":
+ "Skandinavien",
+ "ref":
+ "pmb745"}
+ ,  {
+ "placeName":
+ "Dänemark",
+ "ref":
+ "pmb43570"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,74 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-11-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-11-22.html",
+ "head":
+ "Tagebuch, 22. November 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Sigmund Zeisler",
+ "ref":
+ "person_21527"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bayern",
+ "ref":
+ "pmb314"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00032694",
+ "head":
+ "Burlandt, Louis an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Kte",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Louis (1881-) Burlandt",
+ "ref":
+ "http://d-nb.info/gnd/117174459"}]
+}
+}] 

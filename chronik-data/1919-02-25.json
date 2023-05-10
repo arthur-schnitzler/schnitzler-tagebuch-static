@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-02-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-02-25.html",
+ "head":
+ "Tagebuch, 25. Februar 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Louis Philipp Friedmann",
+ "ref":
+ "person_15229"},
+ {
+ "persName":
+ "Helene Louise Jaeger",
+ "ref":
+ "person_16489"},
+ {
+ "persName":
+ "Franziska Reich",
+ "ref":
+ "person_17368"},
+ {
+ "persName":
+ "Wolfgang Amadeus Mozart",
+ "ref":
+ "person_18282"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Karoline Silberstein",
+ "ref":
+ "person_20102"},
+ {
+ "persName":
+ "Ludwig Stein",
+ "ref":
+ "person_20352"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "person_20925"},
+ {
+ "persName":
+ "Rose Friedmann",
+ "ref":
+ "person_15235"},
+ {
+ "persName":
+ "Franziska Mütter",
+ "ref":
+ "person_18320"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Klavierkonzert Nr. 24 c-Moll KV 491",
+ "ref":
+ "pmb77209"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gürtel",
+ "ref":
+ "pmb40772"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

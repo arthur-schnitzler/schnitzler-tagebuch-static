@@ -1,0 +1,112 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net",
+ "head":
+ "Traumnovelle, Manuskript",
+ "text":
+ "Publikation in Vorbereitung"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-03-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-03-17.html",
+ "head":
+ "Tagebuch, 17. März 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Joseph Jefferson Asch",
+ "ref":
+ "person_13272"},
+ {
+ "persName":
+ "Alexander Barjanski",
+ "ref":
+ "person_13423"},
+ {
+ "persName":
+ "Nils Grevillius",
+ "ref":
+ "person_15654"},
+ {
+ "persName":
+ "Jakob D. Jushni",
+ "ref":
+ "person_16603"},
+ {
+ "persName":
+ "Paul August von Klenau",
+ "ref":
+ "person_16904"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "person_17784"},
+ {
+ "persName":
+ "Rappaport",
+ "ref":
+ "person_19059"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Franz Werfel",
+ "ref":
+ "person_21243"},
+ {
+ "persName":
+ "Egon Friedell",
+ "ref":
+ "person_15210"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"},
+ {
+ "persName":
+ "Heinrich Simon",
+ "ref":
+ "person_20119"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Traumnovelle",
+ "ref":
+ "pmb30851"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

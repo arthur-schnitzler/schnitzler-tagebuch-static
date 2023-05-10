@@ -1,0 +1,96 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1924-02-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-02-04.html",
+ "head":
+ "Tagebuch, 4. Februar 1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Ferdynand Antoni Ossendowski",
+ "ref":
+ "person_18591"},
+ {
+ "persName":
+ "Paula Schmidl",
+ "ref":
+ "person_19756"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aphoristisches",
+ "ref":
+ "pmb35745"}
+ ,  {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Tiere, Menschen und Götter",
+ "ref":
+ "pmb81086"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00041046",
+ "head":
+ "Prinzhorn, Hans an Schnitzler, Arthur [Briefe]",
+ "text":
+ "Erstes Objekt aus der Mappe. 2 Br. 2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans (1886-1933) Prinzhorn",
+ "ref":
+ "http://d-nb.info/gnd/118814125"},
+ {
+ "persName":
+ "Mary (1886-1973) Wigman",
+ "ref":
+ "http://d-nb.info/gnd/118807242"}]
+}
+}] 

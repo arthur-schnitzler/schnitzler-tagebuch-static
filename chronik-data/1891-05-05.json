@@ -1,0 +1,233 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1891-05-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-05-05.html",
+ "head":
+ "Tagebuch, 5. Mai 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Jaques Joachim",
+ "ref":
+ "person_16554"},
+ {
+ "persName":
+ "Friedrich Michael Fels",
+ "ref":
+ "person_14942"},
+ {
+ "persName":
+ "Julius Kulka",
+ "ref":
+ "person_17189"},
+ {
+ "persName":
+ "Falk Schupp",
+ "ref":
+ "person_19945"},
+ {
+ "persName":
+ "Eduard Michael Kafka",
+ "ref":
+ "person_16629"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Alkandi’s Lied",
+ "ref":
+ "pmb31637"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Die drei Elixire",
+ "ref":
+ "pmb31965"}
+ ,  {
+ "title":
+ "Der Sohn. Aus den Papieren eines Arztes",
+ "ref":
+ "pmb30257"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volksgarten",
+ "ref":
+ "pmb103"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00010",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00010.html",
+ "head":
+ "Arthur Schnitzler an Wilhelm Bölsche, [5. 5. 1891]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Wilhelm Bölsche",
+ "ref":
+ "pmb11061"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Sohn. Aus den Papieren eines Arztes",
+ "ref":
+ "pmb30257"}
+ ,  {
+ "title":
+ "Freie Bühne für den Entwickelungskampf der Zeit",
+ "ref":
+ "pmb36166"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Bösendorferstraße",
+ "ref":
+ "pmb542"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00011",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00011.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, [5.? 5. 1891]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Alkandi’s Lied",
+ "ref":
+ "pmb31637"}
+ ,  {
+ "title":
+ "An der schönen blauen Donau",
+ "ref":
+ "pmb35860"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/89199/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/89199/",
+ "head":
+ "Zusammenkunft Jung Wien, 5. 5. 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Falk Schupp",
+ "ref":
+ "pmb12737"},
+ {
+ "persName":
+ "Friedrich Michael Fels",
+ "ref":
+ "pmb2450"},
+ {
+ "persName":
+ "Eduard Michael Kafka",
+ "ref":
+ "pmb2563"},
+ {
+ "persName":
+ "Julius Kulka",
+ "ref":
+ "pmb19832"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Jung Wien",
+ "ref":
+ "pmb89143"}
+ ]
+}
+}] 

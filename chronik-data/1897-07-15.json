@@ -1,0 +1,155 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1897-07-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-07-15.html",
+ "head":
+ "Tagebuch, 15. Juli 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Trenkelbach",
+ "ref":
+ "pmb92569"}
+ ,  {
+ "placeName":
+ "Pfandl",
+ "ref":
+ "pmb91470"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00702",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00702.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, 15. 7. 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "pmb2378"},
+ {
+ "persName":
+ "?? [Totgeborenes Kind von Arthur Schnitzler und Marie Reinhard]",
+ "ref":
+ "pmb42794"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "pmb10765"},
+ {
+ "persName":
+ "Otto Jahn",
+ "ref":
+ "pmb4203"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "W. A. Mozart",
+ "ref":
+ "pmb34255"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Bad Fusch",
+ "ref":
+ "pmb573"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Bad Reichenhall",
+ "ref":
+ "pmb1181"}
+ ,  {
+ "placeName":
+ "Lofer",
+ "ref":
+ "pmb33929"}
+ ,  {
+ "placeName":
+ "Zell am See",
+ "ref":
+ "pmb40336"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/414/",
+ "head":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)"
+}] 

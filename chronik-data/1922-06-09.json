@@ -1,0 +1,276 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-06-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-06-09.html",
+ "head":
+ "Tagebuch, 9. Juni 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rudolf Burger",
+ "ref":
+ "person_14076"},
+ {
+ "persName":
+ "Karl Heinz Dworczak",
+ "ref":
+ "person_14582"},
+ {
+ "persName":
+ "Bruno Ertler",
+ "ref":
+ "person_14808"},
+ {
+ "persName":
+ "Franz Lackner",
+ "ref":
+ "person_17244"},
+ {
+ "persName":
+ "Hugo Oehler",
+ "ref":
+ "person_18519"},
+ {
+ "persName":
+ "Karl Schmelzer",
+ "ref":
+ "person_19747"},
+ {
+ "persName":
+ "Tesswinkel",
+ "ref":
+ "person_20674"},
+ {
+ "persName":
+ "Caroline Burger",
+ "ref":
+ "person_14073"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Weihnachts-Einkäufe",
+ "ref":
+ "pmb30163"}
+ ,  {
+ "title":
+ "Excentric",
+ "ref":
+ "pmb29893"}
+ ,  {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Graz",
+ "ref":
+ "pmb860"}
+ ,  {
+ "placeName":
+ "Trieste",
+ "ref":
+ "pmb91944"}
+ ,  {
+ "placeName":
+ "Stiftingthal",
+ "ref":
+ "pmb92551"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02388",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02388.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 9. 6. 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Salzburger große Welttheater",
+ "ref":
+ "pmb30839"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Salzburger Festspiele",
+ "ref":
+ "pmb29300"}
+ ,  {
+ "orgName":
+ "Kartellverband katholischer deutscher Studentenvereine",
+ "ref":
+ "pmb29301"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Barerstraße",
+ "ref":
+ "pmb161"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Heidelberg",
+ "ref":
+ "pmb882"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/860/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/860/",
+ "head":
+ "Graz"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041347",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041347.html",
+ "head":
+ "Bahr an Schnitzler, 9. 6. 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Barerstraße",
+ "ref":
+ "pmb161"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Heidelberg",
+ "ref":
+ "pmb882"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Heinrich Schnitzler, 9. 6. 1922",
+ "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}] 

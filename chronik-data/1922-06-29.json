@@ -1,0 +1,112 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-06-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-06-29.html",
+ "head":
+ "Tagebuch, 29. Juni 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Sigmund Freud",
+ "ref":
+ "person_15172"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Jakob Kunz",
+ "ref":
+ "person_17199"},
+ {
+ "persName":
+ "Wolfgang Amadeus Mozart",
+ "ref":
+ "person_18282"},
+ {
+ "persName":
+ "Walter Pfund",
+ "ref":
+ "person_18748"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Rudolf Urbantschitsch",
+ "ref":
+ "person_20892"},
+ {
+ "persName":
+ "Fritz Wittels",
+ "ref":
+ "person_21406"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Leonoren-Ouvertüre Nr. 2 C-Dur op. 72",
+ "ref":
+ "pmb77162"}
+ ,  {
+ "title":
+ "Der Kampf um den Reigen",
+ "ref":
+ "pmb33015"}
+ ,  {
+ "title":
+ "Klavierkonzert Nr. 20 d-Moll KV 466",
+ "ref":
+ "pmb77206"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gersthof",
+ "ref":
+ "pmb90705"}
+ ,  {
+ "placeName":
+ "Schafberg (St. Gilgen)",
+ "ref":
+ "pmb59367"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

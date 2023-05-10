@@ -1,0 +1,74 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-06-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-06-04.html",
+ "head":
+ "Tagebuch, 4. Juni 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Albert Speyer",
+ "ref":
+ "person_20247"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Klosterneuburg",
+ "ref":
+ "pmb865"}
+ ,  {
+ "placeName":
+ "Weidlingbach",
+ "ref":
+ "pmb44394"}
+ ,  {
+ "placeName":
+ "Steinriegl",
+ "ref":
+ "pmb49210"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

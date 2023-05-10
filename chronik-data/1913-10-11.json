@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-10-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-10-11.html",
+ "head":
+ "Tagebuch, 11. Oktober 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred Adler",
+ "ref":
+ "person_13092"},
+ {
+ "persName":
+ "Charlotte Roeder",
+ "ref":
+ "person_19317"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Oper in drei Akten",
+ "ref":
+ "pmb31311"}
+ ,  {
+ "title":
+ "Über den nervösen Charakter",
+ "ref":
+ "pmb80073"}
+ ,  {
+ "title":
+ "Raßplata",
+ "ref":
+ "pmb81338"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00077116",
+ "head":
+ "Waas, Ann... an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Kte"
+}] 

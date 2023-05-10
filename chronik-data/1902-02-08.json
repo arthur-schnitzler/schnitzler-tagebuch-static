@@ -1,0 +1,115 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1902-02-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-02-08.html",
+ "head":
+ "Tagebuch, 8. Februar 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Loïe Fuller",
+ "ref":
+ "person_15308"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Sadayakko Kawakami",
+ "ref":
+ "person_19516"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Zwillingsschwester",
+ "ref":
+ "pmb31621"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01201",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01201.html",
+ "head":
+ "Arthur Schnitzler an Joseph Victor Widmann, 8. 2. 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Joseph Victor Widmann",
+ "ref":
+ "pmb3557"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Bund",
+ "ref":
+ "pmb43490"}
+ ,  {
+ "title":
+ "Paracelsus. Versspiel in einem Akt",
+ "ref":
+ "pmb30403"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Bern",
+ "ref":
+ "pmb1223"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/968/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/968/",
+ "head":
+ "Mödling"
+}] 

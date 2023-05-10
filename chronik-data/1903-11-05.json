@@ -1,0 +1,135 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-11-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-11-05.html",
+ "head":
+ "Tagebuch, 5. November 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Salomon Ernst",
+ "ref":
+ "person_14805"},
+ {
+ "persName":
+ "Rudolf Gussmann",
+ "ref":
+ "person_15759"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "T030068",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/T030068.html",
+ "head":
+ "Hermann Bahr beim Ministerpräsidenten, 5. 11. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Ernest von Koerber",
+ "ref":
+ "pmb11955"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Hermann Bahr beim Ministerpräsidenten",
+ "ref":
+ "pmb32149"}
+ ,  {
+ "title":
+ "Illustriertes Wiener Extrablatt",
+ "ref":
+ "pmb41484"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bösendorfer-Saal",
+ "ref":
+ "pmb4"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Niederösterreichische Statthalterei",
+ "ref":
+ "pmb29253"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00032415",
+ "head":
+ "Biermann, Joh. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Kte"
+}] 

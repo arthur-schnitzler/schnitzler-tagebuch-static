@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1927-06-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-06-17.html",
+ "head":
+ "Tagebuch, 17. Juni 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred Abel",
+ "ref":
+ "person_13077"},
+ {
+ "persName":
+ "Arnoldo Cappellini",
+ "ref":
+ "person_14129"},
+ {
+ "persName":
+ "Ludwig Goldscheider",
+ "ref":
+ "person_15534"},
+ {
+ "persName":
+ "Bela Horovitz",
+ "ref":
+ "person_16378"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aphoristisches",
+ "ref":
+ "pmb35745"}
+ ,  {
+ "title":
+ "Buch der Sprüche und Bedenken",
+ "ref":
+ "pmb30053"}
+ ,  {
+ "title":
+ "Die Tragödie eines Verlorenen",
+ "ref":
+ "pmb81351"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Padua",
+ "ref":
+ "pmb44156"}
+ ,  {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ,  {
+ "placeName":
+ "Wurstelprater",
+ "ref":
+ "pmb685"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

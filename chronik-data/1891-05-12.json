@@ -1,0 +1,74 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1891-05-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-05-12.html",
+ "head":
+ "Tagebuch, 12. Mai 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Jaques Joachim",
+ "ref":
+ "person_16554"},
+ {
+ "persName":
+ "Edgar Pierson",
+ "ref":
+ "person_18792"},
+ {
+ "persName":
+ "Bertha von Suttner",
+ "ref":
+ "person_20583"},
+ {
+ "persName":
+ "Balduin Groller",
+ "ref":
+ "person_15672"},
+ {
+ "persName":
+ "Eduard Michael Kafka",
+ "ref":
+ "person_16629"},
+ {
+ "persName":
+ "Carl von Torresani-Lanzenfeld",
+ "ref":
+ "person_20779"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pfob",
+ "ref":
+ "pmb92444"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

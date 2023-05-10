@@ -1,0 +1,253 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-08-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-08-06.html",
+ "head":
+ "Tagebuch, 6. August 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "person_19154"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Haus Delorme. Eine Familienszene",
+ "ref":
+ "pmb31547"}
+ ,  {
+ "title":
+ "Der tapfere Cassian. Puppenspiel in einem Akt",
+ "ref":
+ "pmb30217"}
+ ,  {
+ "title":
+ "Zum großen Wurstel",
+ "ref":
+ "pmb29951"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sofienalpe",
+ "ref":
+ "pmb92533"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01422",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01422.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, 5.–6. 8. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "pmb12698"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Franziska Mütter",
+ "ref":
+ "pmb21766"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das gerettete Venedig. Trauerspiel in fünf Aufzügen",
+ "ref":
+ "pmb31091"}
+ ,  {
+ "title":
+ "Das neue Lied",
+ "ref":
+ "pmb30655"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Ritterlichkeit",
+ "ref":
+ "pmb30287"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Bad Fusch",
+ "ref":
+ "pmb573"}
+ ,  {
+ "placeName":
+ "Reichenau an der Rax",
+ "ref":
+ "pmb483"}
+ ,  {
+ "placeName":
+ "Nasswald",
+ "ref":
+ "pmb40881"}
+ ,  {
+ "placeName":
+ "Rax",
+ "ref":
+ "pmb40884"}
+ ,  {
+ "placeName":
+ "Wienerwald",
+ "ref":
+ "pmb40876"}
+ ,  {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Mauer",
+ "ref":
+ "pmb7728"}
+ ,  {
+ "placeName":
+ "Kalksburg",
+ "ref":
+ "pmb555"}
+ ,  {
+ "placeName":
+ "Kalksburger Straße",
+ "ref":
+ "pmb40935"}
+ ,  {
+ "placeName":
+ "Der rothe Stadl",
+ "ref":
+ "pmb40936"}
+ ,  {
+ "placeName":
+ "Mauerbach",
+ "ref":
+ "pmb942"}
+ ,  {
+ "placeName":
+ "Taormina",
+ "ref":
+ "pmb906"}
+ ,  {
+ "placeName":
+ "Sophienalpe",
+ "ref":
+ "pmb539"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Max Reinhardt an Arthur Schnitzler, 6.8.1904",
+ "source":
+ "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
+}] 

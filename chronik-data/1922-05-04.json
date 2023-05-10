@@ -1,0 +1,193 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-05-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-05-04.html",
+ "head":
+ "Tagebuch, 4. Mai 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Charlotte Pohl",
+ "ref":
+ "person_18844"},
+ {
+ "persName":
+ "Lodewijk Emanuel Tels",
+ "ref":
+ "person_20661"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Delft",
+ "ref":
+ "pmb90517"}
+ ,  {
+ "placeName":
+ "Amsterdam",
+ "ref":
+ "pmb40709"}
+ ,  {
+ "placeName":
+ "Moscow",
+ "ref":
+ "pmb91304"}
+ ,  {
+ "placeName":
+ "Griensteidl",
+ "ref":
+ "pmb92258"}
+ ,  {
+ "placeName":
+ "Den Haag",
+ "ref":
+ "pmb58810"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02379",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02379.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 4. 5. 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Egbertje Alida Brevée",
+ "ref":
+ "pmb14544"},
+ {
+ "persName":
+ "Isaac Brevée",
+ "ref":
+ "pmb14551"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"},
+ {
+ "persName":
+ "Naëmah Beer-Hofmann",
+ "ref":
+ "pmb2534"},
+ {
+ "persName":
+ "Mirjam Beer-Hofmann",
+ "ref":
+ "pmb2668"},
+ {
+ "persName":
+ "Gabriel Beer-Hofmann",
+ "ref":
+ "pmb13923"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Den Haag",
+ "ref":
+ "pmb58810"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Rotterdam",
+ "ref":
+ "pmb44303"}
+ ,  {
+ "placeName":
+ "Amsterdam",
+ "ref":
+ "pmb40709"}
+ ,  {
+ "placeName":
+ "Oosterbeek",
+ "ref":
+ "pmb40725"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/58810/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/58810/",
+ "head":
+ "Den Haag"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90517/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90517/",
+ "head":
+ "Delft"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40709/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40709/",
+ "head":
+ "Amsterdam"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Hedy Kempny, 4.5.1922",
+ "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}] 

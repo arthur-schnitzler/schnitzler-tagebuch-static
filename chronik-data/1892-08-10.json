@@ -1,0 +1,124 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1892-08-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-08-10.html",
+ "head":
+ "Tagebuch, 10. August 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Friedrich Hebbel",
+ "ref":
+ "person_16009"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Friedrich Hebbels Briefwechsel mit Freunden und berühmten Zeitgenossen",
+ "ref":
+ "pmb76687"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02696",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02696.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 10. 8. 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Maria Christina von Österreich",
+ "ref":
+ "pmb89417"},
+ {
+ "persName":
+ "Alfons XIII.",
+ "ref":
+ "pmb89420"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "San Sebastian",
+ "ref":
+ "pmb40165"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Bösendorferstraße",
+ "ref":
+ "pmb542"}
+ ,  {
+ "placeName":
+ "Spanien",
+ "ref":
+ "pmb388"}
+ ,  {
+ "placeName":
+ "Biskaya",
+ "ref":
+ "pmb53337"}
+ ,  {
+ "placeName":
+ "Havana",
+ "ref":
+ "pmb39944"}
+ ,  {
+ "placeName":
+ "Andalusia",
+ "ref":
+ "pmb89424"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,392 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-02-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-02-09.html",
+ "head":
+ "Tagebuch, 9. Februar 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Bauer",
+ "ref":
+ "person_13476"},
+ {
+ "persName":
+ "Berta Fröhlich",
+ "ref":
+ "person_15267"},
+ {
+ "persName":
+ "Michael Hainisch",
+ "ref":
+ "person_15853"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Karl I. von Österreich-Ungarn",
+ "ref":
+ "person_16723"},
+ {
+ "persName":
+ "Raden Mas Pandjo Sosro Kartono",
+ "ref":
+ "person_16743"},
+ {
+ "persName":
+ "Wladimir Iljitsch Lenin",
+ "ref":
+ "person_17435"},
+ {
+ "persName":
+ "Jakob Reumann",
+ "ref":
+ "person_19209"},
+ {
+ "persName":
+ "Ferdinand Schmutzer",
+ "ref":
+ "person_19784"},
+ {
+ "persName":
+ "Karl Schönherr",
+ "ref":
+ "person_19850"},
+ {
+ "persName":
+ "Alice Spielberger",
+ "ref":
+ "person_20259"},
+ {
+ "persName":
+ "Siegfried von Strakosch-Feldringen",
+ "ref":
+ "person_20469"},
+ {
+ "persName":
+ "Franz Werfel",
+ "ref":
+ "person_21243"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"},
+ {
+ "persName":
+ "Johannes Schober",
+ "ref":
+ "person_19835"},
+ {
+ "persName":
+ "Theodor Schnabel",
+ "ref":
+ "person_19795"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Glaube und Heimat",
+ "ref":
+ "pmb80660"}
+ ,  {
+ "title":
+ "Das Wunder des Lebens. Entstehen und Werden in der Natur. Der Jugend erzählt",
+ "ref":
+ "pmb81334"}
+ ,  {
+ "title":
+ "Spiegelmensch",
+ "ref":
+ "pmb76580"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02361",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02361.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 9. 2. 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Josef Popper-Lynkeus",
+ "ref":
+ "pmb2135"},
+ {
+ "persName":
+ "Ernest von Koerber",
+ "ref":
+ "pmb11955"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "pmb2238"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Neues Wiener Journal",
+ "ref":
+ "pmb36376"}
+ ,  {
+ "title":
+ "Tagebuch. 31. Januar, 1. Februar und 3. Februar [1921]",
+ "ref":
+ "pmb32762"}
+ ,  {
+ "title":
+ "Tagebuch [Kolumne im Neuen Wiener Journal]",
+ "ref":
+ "pmb30047"}
+ ,  {
+ "title":
+ "Tagebuch. 20. Februar [1921]",
+ "ref":
+ "pmb32536"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041345",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041345.html",
+ "head":
+ "Bahr an Schnitzler, 9. 2. 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Josef Popper-Lynkeus",
+ "ref":
+ "pmb2135"},
+ {
+ "persName":
+ "Ernest von Koerber",
+ "ref":
+ "pmb11955"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "pmb2238"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch [Kolumne im Neuen Wiener Journal]",
+ "ref":
+ "pmb30047"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neues Wiener Journal",
+ "ref":
+ "pmb29320"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041589",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041589.html",
+ "head":
+ "Aufzeichnung von Bahr, 9. 2. 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Auguste Adler",
+ "ref":
+ "pmb28067"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Zistelalm",
+ "ref":
+ "pmb762"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "The London Mercury",
+ "ref":
+ "pmb29705"}
+ ,  {
+ "orgName":
+ "Commerz- und Privat-Bank AG",
+ "ref":
+ "pmb29211"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00078027",
+ "head":
+ "Wolf, B. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

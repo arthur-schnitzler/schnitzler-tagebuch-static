@@ -1,0 +1,91 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1882-08-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1882-08-08.html",
+ "head":
+ "Tagebuch, 8. August 1882",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Pontresina",
+ "ref":
+ "pmb34946"}
+ ,  {
+ "placeName":
+ "Passo del Bernina",
+ "ref":
+ "pmb90344"}
+ ,  {
+ "placeName":
+ "Poschiavo",
+ "ref":
+ "pmb91514"}
+ ,  {
+ "placeName":
+ "Le Prese",
+ "ref":
+ "pmb49135"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34946/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34946/",
+ "head":
+ "Pontresina"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90342/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90342/",
+ "head":
+ "Bernina (Bezirk)"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91514/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91514/",
+ "head":
+ "Poschiavo"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/49135/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/49135/",
+ "head":
+ "Le Prese"
+}] 

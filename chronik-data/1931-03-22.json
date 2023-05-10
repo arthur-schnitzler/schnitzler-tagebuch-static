@@ -1,0 +1,163 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1931-03-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-03-22.html",
+ "head":
+ "Tagebuch, 22. März 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franz Blei",
+ "ref":
+ "person_13774"},
+ {
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Otto Gebühr",
+ "ref":
+ "person_15362"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Karl Friedrich Pollaczek",
+ "ref":
+ "person_18866"},
+ {
+ "persName":
+ "Magda Pollaczek",
+ "ref":
+ "person_18867"},
+ {
+ "persName":
+ "Erich Maria Remarque",
+ "ref":
+ "person_19180"},
+ {
+ "persName":
+ "Vera Shott",
+ "ref":
+ "person_20087"},
+ {
+ "persName":
+ "Leo D. Trotzki",
+ "ref":
+ "person_20818"},
+ {
+ "persName":
+ "Victor Barnowsky",
+ "ref":
+ "person_13428"},
+ {
+ "persName":
+ "Hermine Porges",
+ "ref":
+ "person_18923"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"},
+ {
+ "persName":
+ "Eva Marie von Friebeisz",
+ "ref":
+ "person_15196"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Erzählung eines Lebens",
+ "ref":
+ "pmb76901"}
+ ,  {
+ "title":
+ "Mein Leben",
+ "ref":
+ "pmb77843"}
+ ,  {
+ "title":
+ "Das Flötenkonzert von Sanssouci",
+ "ref":
+ "pmb81166"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Hartäckerpark",
+ "ref":
+ "pmb92273"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92273/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92273/",
+ "head":
+ "Hartäckerpark"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp894",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp894.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 18.–24. März 1931"
+}] 

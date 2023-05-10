@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1897-04-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-04-13.html",
+ "head":
+ "Tagebuch, 13. April 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Maxime Dethomas",
+ "ref":
+ "person_14422"},
+ {
+ "persName":
+ "Eberstrass",
+ "ref":
+ "person_14599"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Max Graf",
+ "ref":
+ "person_15618"},
+ {
+ "persName":
+ "Ida Van-Jung",
+ "ref":
+ "person_20924"},
+ {
+ "persName":
+ "Charles Lucien Léandre",
+ "ref":
+ "person_17377"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/182/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/182/",
+ "head":
+ "Paris"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/592/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/592/",
+ "head":
+ "rue de Maubeuge"
+}] 

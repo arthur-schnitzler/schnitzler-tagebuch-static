@@ -1,0 +1,155 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-07-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-07-04.html",
+ "head":
+ "Tagebuch, 4. Juli 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johann Sebastian Bach",
+ "ref":
+ "person_13344"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Franz Grillparzer",
+ "ref":
+ "person_15661"},
+ {
+ "persName":
+ "Friedrich Gundolf",
+ "ref":
+ "person_15751"},
+ {
+ "persName":
+ "Paul van Haentjens-Haan",
+ "ref":
+ "person_15836"},
+ {
+ "persName":
+ "Ernst Hartwig Kantorowicz",
+ "ref":
+ "person_16692"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Hans Pietrkowski",
+ "ref":
+ "person_18795"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Karl Friedrich Pollaczek",
+ "ref":
+ "person_18866"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Clara Soltau",
+ "ref":
+ "person_20191"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "person_20509"},
+ {
+ "persName":
+ "Jean-François de Couperin",
+ "ref":
+ "person_14292"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Frau des Richters. Novelle",
+ "ref":
+ "pmb30751"}
+ ,  {
+ "title":
+ "Sterben. Novelle",
+ "ref":
+ "pmb30117"}
+ ,  {
+ "title":
+ "Tanzsuite nach Klavierstücken von François Couperin",
+ "ref":
+ "pmb76847"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Heidelberg",
+ "ref":
+ "pmb882"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp224",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp224.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 1.–4. Juli 1925"
+}] 

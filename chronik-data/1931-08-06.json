@@ -1,0 +1,131 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1931-08-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-08-06.html",
+ "head":
+ "Tagebuch, 6. August 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Ferdinand Donath",
+ "ref":
+ "person_14482"},
+ {
+ "persName":
+ "Wolfgang von Ferstel",
+ "ref":
+ "person_14955"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Gladys Gertrude Shott",
+ "ref":
+ "person_20086"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Gastein",
+ "ref":
+ "pmb521"}
+ ,  {
+ "placeName":
+ "Amstetten",
+ "ref":
+ "pmb90243"}
+ ,  {
+ "placeName":
+ "Linz",
+ "ref":
+ "pmb91153"}
+ ,  {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90243/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90243/",
+ "head":
+ "Amstetten"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91153/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91153/",
+ "head":
+ "Linz"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp943",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp943.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 3.–6. August 1931"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp944",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp944.html",
+ "head":
+ "Ferdinand Donath an Clara Katharina Pollaczek, 6. August 1931"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp946",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp946.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 6. August 1931"
+}] 

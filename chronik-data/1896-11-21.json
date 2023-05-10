@@ -1,0 +1,258 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-11-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-11-21.html",
+ "head":
+ "Tagebuch, 21. November 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Leo Ebermann",
+ "ref":
+ "person_14597"},
+ {
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "person_15306"},
+ {
+ "persName":
+ "Josef Lewinsky",
+ "ref":
+ "person_17493"},
+ {
+ "persName":
+ "Georg Reimers",
+ "ref":
+ "person_19139"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "person_20714"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Sohn des Khalifen. Dramatisches Märchen in vier Aufzügen",
+ "ref":
+ "pmb32314"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02684",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02684.html",
+ "head":
+ "Arthur Schnitzler an Paul Goldmann, 21. 11. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Rena R. Schlein",
+ "ref":
+ "pmb89007"},
+ {
+ "persName":
+ "Leo P. Reckford",
+ "ref":
+ "pmb89004"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Alfred Dreyfus",
+ "ref":
+ "pmb4216"},
+ {
+ "persName":
+ "Lucien Millevoye",
+ "ref":
+ "pmb21481"},
+ {
+ "persName":
+ "Félix Fénéon",
+ "ref":
+ "pmb88979"},
+ {
+ "persName":
+ "Rowland Strong",
+ "ref":
+ "pmb88985"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Enthüllungen über die Affaire Dreyfus",
+ "ref":
+ "pmb88967"}
+ ,  {
+ "title":
+ "Die Affaire Dreyfus",
+ "ref":
+ "pmb88971"}
+ ,  {
+ "title":
+ "Dreyfus, die öffentliche Meinung und die deutsche Regierung",
+ "ref":
+ "pmb88975"}
+ ,  {
+ "title":
+ "Justice!",
+ "ref":
+ "pmb89001"}
+ ,  {
+ "title":
+ "La Patrie. Organe de la défense nationale",
+ "ref":
+ "pmb88998"}
+ ,  {
+ "title":
+ "[Duell Goldmann – Millevoye]",
+ "ref":
+ "pmb88988"}
+ ,  {
+ "title":
+ "Le Petit Parisien. Journal quotidien du soir",
+ "ref":
+ "pmb88993"}
+ ,  {
+ "title":
+ "Wiener Zeitung",
+ "ref":
+ "pmb41265"}
+ ,  {
+ "title":
+ "Ritterlichkeit",
+ "ref":
+ "pmb30287"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "rue Feydeau",
+ "ref":
+ "pmb42671"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02689",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02689.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 21. 11. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Lucien Millevoye",
+ "ref":
+ "pmb21481"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Paul Goldmann, 21. 11. 1896",
+ "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}] 

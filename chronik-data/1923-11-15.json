@@ -1,0 +1,71 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-11-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-11-15.html",
+ "head":
+ "Tagebuch, 15. November 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Nirenstein",
+ "ref":
+ "person_18460"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00032786",
+ "head":
+ "Deutsches Theater Berlin an Chapiro, Joseph [Briefe]",
+ "text":
+ "1 Bl.Abschr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Deutsches Theater Berlin (1849-)",
+ "ref":
+ "http://d-nb.info/gnd/4058252-8"},
+ {
+ "persName":
+ "Joseph (1893-1961) Chapiro",
+ "ref":
+ "http://d-nb.info/gnd/11648828X"}]
+}
+}] 

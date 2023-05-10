@@ -1,0 +1,59 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1901-03-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-03-06.html",
+ "head":
+ "Tagebuch, 6. März 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Freudenthal",
+ "ref":
+ "person_15177"},
+ {
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "person_15306"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Marionetten",
+ "ref":
+ "pmb36093"}
+ ,  {
+ "title":
+ "Die Zwillingsschwester",
+ "ref":
+ "pmb31621"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}] 

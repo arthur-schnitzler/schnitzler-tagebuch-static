@@ -1,0 +1,115 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-03-31",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-03-31.html",
+ "head":
+ "Tagebuch, 31. März 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Friedrich Nietzsche",
+ "ref":
+ "person_18451"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Hermine Simandt",
+ "ref":
+ "person_20112"},
+ {
+ "persName":
+ "Wilhelm Grosz",
+ "ref":
+ "person_15685"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Vom Nutzen und Nachtheil der Historie für das Leben",
+ "ref":
+ "pmb76755"}
+ ,  {
+ "title":
+ "Briefe über Don Carlos",
+ "ref":
+ "pmb77035"}
+ ,  {
+ "title":
+ "Don Karlos, Infant von Spanien",
+ "ref":
+ "pmb33023"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "",
+ "ref":
+ "place_sanatoriumloew"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00032619",
+ "head":
+ "Brettschneider, Rudolf H. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl. Mit 1 Beil. 1 Bl.Dr."
+}] 

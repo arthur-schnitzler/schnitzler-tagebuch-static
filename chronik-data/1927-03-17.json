@@ -1,0 +1,130 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1927-03-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-03-17.html",
+ "head":
+ "Tagebuch, 17. März 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Hartmann",
+ "ref":
+ "person_15945"},
+ {
+ "persName":
+ "Margarete von Klimbacher",
+ "ref":
+ "person_16908"},
+ {
+ "persName":
+ "Luigi Pirandello",
+ "ref":
+ "person_18806"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Heinz Schulbaur",
+ "ref":
+ "person_19925"},
+ {
+ "persName":
+ "Heinrich Studer",
+ "ref":
+ "person_20553"},
+ {
+ "persName":
+ "Conrad Veidt",
+ "ref":
+ "person_20938"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Clotilde Rothmüller",
+ "ref":
+ "person_19428"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aphoristisches",
+ "ref":
+ "pmb35745"}
+ ,  {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ,  {
+ "title":
+ "Der weiße Fächer. Ein Zwischenspiel",
+ "ref":
+ "pmb32069"}
+ ,  {
+ "title":
+ "Die lebende Maske",
+ "ref":
+ "pmb80562"}
+ ,  {
+ "title":
+ "Heinrich IV.",
+ "ref":
+ "pmb81120"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Alserstraße",
+ "ref":
+ "pmb92140"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 17. März 1927",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

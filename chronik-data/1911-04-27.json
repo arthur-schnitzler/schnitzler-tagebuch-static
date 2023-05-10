@@ -1,0 +1,140 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-04-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-04-27.html",
+ "head":
+ "Tagebuch, 27. April 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rudolf Fürst",
+ "ref":
+ "person_15291"},
+ {
+ "persName":
+ "Robert Scheffer",
+ "ref":
+ "person_19641"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"},
+ {
+ "persName":
+ "Rudolf Olden",
+ "ref":
+ "person_18548"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Heinrich Heines Leben Werke und Briefe",
+ "ref":
+ "pmb80558"}
+ ,  {
+ "title":
+ "Les frissonantes",
+ "ref":
+ "pmb79493"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Garmisch-Partenkirchen",
+ "ref":
+ "pmb667"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02017",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02017.html",
+ "head":
+ "Albert Ehrenstein an Arthur Schnitzler, 27. 4. 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "pmb11230"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "pmb11988"},
+ {
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ "pmb11527"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Universität Wien",
+ "ref":
+ "pmb386"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/667/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/667/",
+ "head":
+ "Garmisch-Partenkirchen"
+}] 

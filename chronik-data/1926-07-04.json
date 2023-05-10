@@ -1,0 +1,132 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-07-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-07-04.html",
+ "head":
+ "Tagebuch, 4. Juli 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gabriel Beer-Hofmann",
+ "ref":
+ "person_13547"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Charlotte Horn",
+ "ref":
+ "person_16362"},
+ {
+ "persName":
+ "Philipp Menczel",
+ "ref":
+ "person_18063"},
+ {
+ "persName":
+ "Rosa Menczel",
+ "ref":
+ "person_18064"},
+ {
+ "persName":
+ "Maria Moll",
+ "ref":
+ "person_18220"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aphoristisches",
+ "ref":
+ "pmb35745"}
+ ,  {
+ "title":
+ "Der Geist im Wort und der Geist in der Tat",
+ "ref":
+ "pmb30051"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Donauspitz",
+ "ref":
+ "pmb92215"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp706",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp706.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 28. Juni 1929 – 4. Juli 1926"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00068955",
+ "head":
+ "Schnitzler, Heinrich an Schnitzler, Arthur [Briefe]",
+ "text":
+ "Erstes Objekt aus der Mappe. 30 Br., 14 Ktn 56 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich (1902-1982) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848510"}]
+}
+}] 

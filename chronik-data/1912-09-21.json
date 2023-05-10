@@ -1,0 +1,117 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1912-09-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-09-21.html",
+ "head":
+ "Tagebuch, 21. September 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Hammerschlag",
+ "ref":
+ "person_15886"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Heinrich Glücksmann",
+ "ref":
+ "person_15483"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02089",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02089.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 21. 9. 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Andreas oder Die Vereinigten",
+ "ref":
+ "pmb43924"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sankt Michael",
+ "ref":
+ "pmb40832"}
+ ,  {
+ "placeName":
+ "Eppan an der Weinstraße",
+ "ref":
+ "pmb36485"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Schloss Gandegg",
+ "ref":
+ "pmb36482"}
+ ,  {
+ "placeName":
+ "Südtirol",
+ "ref":
+ "pmb969"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,65 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1902-02-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-02-27.html",
+ "head":
+ "Tagebuch, 27. Februar 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "person_19364"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Henry IV, Part 1",
+ "ref":
+ "pmb30867"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Purkersdorf",
+ "ref":
+ "pmb91552"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00077792",
+ "head":
+ "Reichenbach, Ph... an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

@@ -1,0 +1,109 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-01-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-01-23.html",
+ "head":
+ "Tagebuch, 23. Januar 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Nikolaus von Coudenhove-Kalergi",
+ "ref":
+ "person_14291"},
+ {
+ "persName":
+ "Ernst Hartwig Kantorowicz",
+ "ref":
+ "person_16692"},
+ {
+ "persName":
+ "Harro von Wedderkop",
+ "ref":
+ "person_21126"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Künstler",
+ "ref":
+ "pmb33852"}
+ ,  {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ,  {
+ "title":
+ "Held oder Heiliger",
+ "ref":
+ "pmb78145"}
+ ,  {
+ "title":
+ "Kaiser Friedrich der Zweite",
+ "ref":
+ "pmb32053"}
+ ,  {
+ "title":
+ "Adieu Berlin!",
+ "ref":
+ "pmb81472"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040982",
+ "head":
+ "Pohl, Anna an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00548121",
+ "head":
+ "Schnitzler, Arthur an Wildgans, Anton [Briefe]",
+ "text":
+ "1 Bl. Mit Abschr. 1 Bl. Durchschl. Mit Umschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Anton (1881-1932) Wildgans",
+ "ref":
+ "http://d-nb.info/gnd/118632841"}]
+}
+}] 

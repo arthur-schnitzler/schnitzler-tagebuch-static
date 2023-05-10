@@ -1,0 +1,98 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1929-09-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-09-14.html",
+ "head":
+ "Tagebuch, 14. September 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Rudolf Binding",
+ "ref":
+ "person_13736"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Erlebtes Leben",
+ "ref":
+ "pmb78076"}
+ ,  {
+ "title":
+ "Mitternachtssonne",
+ "ref":
+ "pmb80258"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Marienbad",
+ "ref":
+ "pmb772"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/772/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/772/",
+ "head":
+ "Marienbad"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp721",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp721.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 12.–15. September 1929"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp725",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp725.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 14. September 1929"
+}] 

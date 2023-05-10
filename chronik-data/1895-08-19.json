@@ -1,0 +1,208 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-08-19",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-08-19.html",
+ "head":
+ "Tagebuch, 19. August 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Altmann",
+ "ref":
+ "person_13175"},
+ {
+ "persName":
+ "Alfred Mandl",
+ "ref":
+ "person_17815"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Hellbrunn",
+ "ref":
+ "pmb31"}
+ ,  {
+ "placeName":
+ "Mönchsberg",
+ "ref":
+ "pmb91270"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00475",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00475.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 19. 8. 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Eglmoosgasse",
+ "ref":
+ "pmb766"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02745",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02745.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 19. 8. [1895]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Leopold Sonnemann",
+ "ref":
+ "pmb87771"},
+ {
+ "persName":
+ "Lou Andreas-Salomé",
+ "ref":
+ "pmb10762"},
+ {
+ "persName":
+ "Fedor Mamroth",
+ "ref":
+ "pmb4986"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb36344"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Tölz",
+ "ref":
+ "pmb424"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "rue Feydeau",
+ "ref":
+ "pmb42671"}
+ ,  {
+ "placeName":
+ "Bad Krankenheil",
+ "ref":
+ "pmb92978"}
+ ,  {
+ "placeName":
+ "Villa Carlo",
+ "ref":
+ "pmb92982"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/30/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "head":
+ "Salzburg"
+}] 

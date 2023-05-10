@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1903-08-18">Dienstag, 18. August 1903</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1903-08-18">
+               <head>Tagebuch, 18. August 1903</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15529">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19434">Theodore Rottenberg</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb427">Madonna di Campiglio</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91484">Pinzolo</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91903">Tione di Trento</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90492">Condino</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91848">Storo</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90152">Val d’Ampola</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91480">Pieve di Ledro</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb465">Riva del Garda</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-08-18.html</idno>
+            </event>
+            <event when-iso="1903-08-18">
+               <head>Arthur Schnitzler an Hugo von Hofmannsthal, 18. 8. 1903</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb427">Madonna di Campiglio</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1006">Badgasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb173">Rodaun</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01309.html</idno>
+            </event>
+            <event when-iso="1903-08-18">
+               <head>Madonna di Campiglio</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/427/</idno>
+            </event>
+            <event when-iso="1903-08-18">
+               <head>Tione di Trento</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91903/</idno>
+            </event>
+            <event when-iso="1903-08-18">
+               <head>Val d’Ampola</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90152/</idno>
+            </event>
+            <event when-iso="1903-08-18">
+               <head>Pieve di Ledro</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91480/</idno>
+            </event>
+            <event when-iso="1903-08-18">
+               <head>Riva del Garda</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/465/</idno>
+            </event>
+            <event when-iso="1903-08-18">
+               <head>Palast Hotel Lido</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40808/</idno>
+            </event>
+            <event when-iso="1903-08-18">
+               <head>Brief von Arthur Schnitzler an Hugo von Hofmannsthal</head>
+               <desc>1 Kt., 2 S. (90x138mm)<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/126794855">Schnitzler, Arthur (1862-1931)</persName>
+                     </person>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/118552759">Hofmannsthal, Hugo von (1874-1929)</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-611-HS-1008175</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

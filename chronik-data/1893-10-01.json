@@ -1,0 +1,357 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-10-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-10-01.html",
+ "head":
+ "Tagebuch, 1. Oktober 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustav Frid",
+ "ref":
+ "person_15194"},
+ {
+ "persName":
+ "Else Markbreiter",
+ "ref":
+ "person_17900"},
+ {
+ "persName":
+ "Caroline Piún",
+ "ref":
+ "person_18820"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "person_20925"},
+ {
+ "persName":
+ "Josefine Lydia von Weisswasser",
+ "ref":
+ "person_21214"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "St. Andrä-Wördern",
+ "ref":
+ "pmb1246"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02718",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02718.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, [zwischen 29. 9. und
+                  2. 10. 1893]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Gabriel Engelsmann",
+ "ref":
+ "pmb93093"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Robert Hirschfeld",
+ "ref":
+ "pmb11707"},
+ {
+ "persName":
+ "Carl von Torresani-Lanzenfeld",
+ "ref":
+ "pmb26121"},
+ {
+ "persName":
+ "Julius von Gans-Ludassy",
+ "ref":
+ "pmb11406"},
+ {
+ "persName":
+ "Georges Courteline",
+ "ref":
+ "pmb4865"},
+ {
+ "persName":
+ "Henri Léon Lavedan",
+ "ref":
+ "pmb2488"},
+ {
+ "persName":
+ "Aurélien Scholl",
+ "ref":
+ "pmb4869"},
+ {
+ "persName":
+ "Daniel Spitzer",
+ "ref":
+ "pmb25237"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zola über die Anonymität der Presse",
+ "ref":
+ "pmb93091"}
+ ,  {
+ "title":
+ "Wiener Sonn- und Montagszeitung",
+ "ref":
+ "pmb41479"}
+ ,  {
+ "title":
+ "Zwei Freunde Burckhards",
+ "ref":
+ "pmb30267"}
+ ,  {
+ "title":
+ "Das junge Österreich",
+ "ref":
+ "pmb30271"}
+ ,  {
+ "title":
+ "Deutsche Zeitung",
+ "ref":
+ "pmb41471"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Sonn- und Montagszeitung",
+ "ref":
+ "pmb29525"}
+ ,  {
+ "orgName":
+ "An der schönen blauen Donau",
+ "ref":
+ "pmb29698"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "T030078",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/T030078.html",
+ "head":
+ "Bahr: [Notizen zu den Wiener Spaziergängen?], [Oktober 1893?]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Carl Karlweis",
+ "ref":
+ "pmb13082"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Vincenz Chiavacci",
+ "ref":
+ "pmb2154"},
+ {
+ "persName":
+ "Ottokar Tann-Bergler",
+ "ref":
+ "pmb12920"},
+ {
+ "persName":
+ "Jakob Julius David",
+ "ref":
+ "pmb2416"},
+ {
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "pmb10883"},
+ {
+ "persName":
+ "Ferdinand von Saar",
+ "ref":
+ "pmb12602"},
+ {
+ "persName":
+ "Franz Schlinkert",
+ "ref":
+ "pmb28346"},
+ {
+ "persName":
+ "Bertha von Suttner",
+ "ref":
+ "pmb12906"},
+ {
+ "persName":
+ "Carl von Torresani-Lanzenfeld",
+ "ref":
+ "pmb26121"},
+ {
+ "persName":
+ "Ossip Schubin",
+ "ref":
+ "pmb3853"},
+ {
+ "persName":
+ "Oskar Marmorek",
+ "ref":
+ "pmb3857"},
+ {
+ "persName":
+ "Emil Marriot",
+ "ref":
+ "pmb4223"},
+ {
+ "persName":
+ "Hans Grasberger",
+ "ref":
+ "pmb3971"},
+ {
+ "persName":
+ "Ludwig Hartmann",
+ "ref":
+ "pmb4242"},
+ {
+ "persName":
+ "Karl Rabis",
+ "ref":
+ "pmb28501"},
+ {
+ "persName":
+ "Alexander Peez",
+ "ref":
+ "pmb4246"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Sensationen",
+ "ref":
+ "pmb30171"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}] 

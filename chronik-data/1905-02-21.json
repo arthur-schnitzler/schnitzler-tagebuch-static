@@ -1,0 +1,94 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-02-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-02-21.html",
+ "head":
+ "Tagebuch, 21. Februar 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Artur Fleischer",
+ "ref":
+ "person_15032"},
+ {
+ "persName":
+ "Josef Hoffmann",
+ "ref":
+ "person_16275"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Nina Hoffmann-Matscheko",
+ "ref":
+ "person_16280"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Th. M. Dostojewsky",
+ "ref":
+ "pmb80713"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS01162286",
+ "head":
+ "Hajek, Gisela an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Karte",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gisela (1867-1953) Hajek",
+ "ref":
+ "http://d-nb.info/gnd/1011705532"}]
+}
+}] 

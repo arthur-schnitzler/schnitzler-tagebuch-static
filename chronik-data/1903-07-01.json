@@ -1,0 +1,205 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-07-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-07-01.html",
+ "head":
+ "Tagebuch, 1. Juli 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ober-Sankt-Veit",
+ "ref":
+ "pmb91377"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01301",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01301.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 1. 7. [1903]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "pmb2315"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Pauline Sachsen-Weimar",
+ "ref":
+ "pmb39917"},
+ {
+ "persName":
+ "Harry von Kessler",
+ "ref":
+ "pmb11916"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "pmb11461"},
+ {
+ "persName":
+ "Lili Schalk",
+ "ref":
+ "pmb24048"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Iphigenie auf Tauris",
+ "ref":
+ "pmb32951"}
+ ,  {
+ "title":
+ "Der Tod des Tizian",
+ "ref":
+ "pmb31639"}
+ ,  {
+ "title":
+ "Die drei Musketiere",
+ "ref":
+ "pmb31517"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brenner",
+ "ref":
+ "pmb608"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Gasthof Post",
+ "ref":
+ "pmb36493"}
+ ,  {
+ "placeName":
+ "Stubaital",
+ "ref":
+ "pmb607"}
+ ,  {
+ "placeName":
+ "Matrei in Osttirol",
+ "ref":
+ "pmb364"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ,  {
+ "placeName":
+ "Valle d’Ampezzo",
+ "ref":
+ "pmb34207"}
+ ,  {
+ "placeName":
+ "Vicenza",
+ "ref":
+ "pmb44151"}
+ ,  {
+ "placeName":
+ "Val Sugana",
+ "ref":
+ "pmb39934"}
+ ,  {
+ "placeName":
+ "Weimar",
+ "ref":
+ "pmb197"}
+ ,  {
+ "placeName":
+ "Belvedere",
+ "ref":
+ "pmb195"}
+ ,  {
+ "placeName":
+ "Grundlsee",
+ "ref":
+ "pmb46000"}
+ ,  {
+ "placeName":
+ "Archkogel",
+ "ref":
+ "pmb39908"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

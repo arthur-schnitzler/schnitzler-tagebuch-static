@@ -1,0 +1,144 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1912-12-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-12-09.html",
+ "head":
+ "Tagebuch, 9. Dezember 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Eugenie Bachrach",
+ "ref":
+ "person_13355"},
+ {
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Jacques Eisenstein",
+ "ref":
+ "person_14690"},
+ {
+ "persName":
+ "Alexander Holländer",
+ "ref":
+ "person_16325"},
+ {
+ "persName":
+ "Rudolf Lothar",
+ "ref":
+ "person_17696"},
+ {
+ "persName":
+ "Theodor Meynert",
+ "ref":
+ "person_18132"},
+ {
+ "persName":
+ "P.",
+ "ref":
+ "person_18627"},
+ {
+ "persName":
+ "Marianne Giustiniani",
+ "ref":
+ "person_21600"},
+ {
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "person_21614"},
+ {
+ "persName":
+ "Moriz Károlyi",
+ "ref":
+ "person_16735"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödiantin",
+ "ref":
+ "pmb36101"}
+ ,  {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040294",
+ "head":
+ "Martersteig, Max an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max (1853-1926) Martersteig",
+ "ref":
+ "http://d-nb.info/gnd/118782207"},
+ {
+ "persName":
+ "Bruno (1877-1950) Decarli",
+ "ref":
+ "http://d-nb.info/gnd/116042699"}]
+}
+}] 

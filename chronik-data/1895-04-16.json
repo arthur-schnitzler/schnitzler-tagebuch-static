@@ -1,0 +1,155 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-04-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-04-16.html",
+ "head":
+ "Tagebuch, 16. April 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Moriz Necker",
+ "ref":
+ "person_18372"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Sterben. Novelle",
+ "ref":
+ "pmb30117"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00429",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00429.html",
+ "head":
+ "Laura Marholm an Arthur Schnitzler, 16. 4. 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Laura Marholm",
+ "ref":
+ "pmb12183"},
+ {
+ "persName":
+ "Heinrich Kraft",
+ "ref":
+ "pmb5652"},
+ {
+ "persName":
+ "Havelock Ellis",
+ "ref":
+ "pmb5679"},
+ {
+ "persName":
+ "Ola Hansson",
+ "ref":
+ "pmb4804"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Buch der Frauen",
+ "ref":
+ "pmb33518"}
+ ,  {
+ "title":
+ "Mann und Weib",
+ "ref":
+ "pmb33520"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schliersee",
+ "ref":
+ "pmb936"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Oberbayern",
+ "ref":
+ "pmb1201"}
+ ,  {
+ "placeName":
+ "Straßburg",
+ "ref":
+ "pmb319"}
+ ,  {
+ "placeName":
+ "Universitäts-Frauenklinik",
+ "ref":
+ "pmb1218"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#i9ac725a-7aa1-4b66-9aaa-3fb96c91d495",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Theodor Herzl an Arthur Schnitzler, 16.4.1895",
+ "source":
+ "Theodor Herzl: Briefe und autobiographische Notizen. 1866–1895. Bearbeitet von Johannes Wachten in Zusammenarbeit mit Chaya Harel, Daisy Tycho, Manfred Winkler. Berlin: Propyläen 1983. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps. Erster Band)"
+}] 

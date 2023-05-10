@@ -1,0 +1,80 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1886-09-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1886-09-04.html",
+ "head":
+ "Tagebuch, 4. September 1886",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Markus Benedict",
+ "ref":
+ "person_13582"},
+ {
+ "persName":
+ "Eveline Brandeis-Weikersheim",
+ "ref":
+ "person_13918"},
+ {
+ "persName":
+ "Alfred von Salm-Hoogstraeten",
+ "ref":
+ "person_19534"},
+ {
+ "persName":
+ "Rudolf Pick",
+ "ref":
+ "person_18780"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Gedichte",
+ "ref":
+ "pmb76533"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "H.",
+ "ref":
+ "pmb92265"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/483/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/483/",
+ "head":
+ "Reichenau an der Rax"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/796/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/796/",
+ "head":
+ "Thalhof"
+}] 

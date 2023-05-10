@@ -1,0 +1,59 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-07-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-07-27.html",
+ "head":
+ "Tagebuch, 27. Juli 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Moriz Benedikt",
+ "ref":
+ "person_13595"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Zwölferhorn",
+ "ref":
+ "pmb59384"}
+ ,  {
+ "placeName":
+ "Unterach am Attersee",
+ "ref":
+ "pmb91973"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/33/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/33/",
+ "head":
+ "St. Gilgen"
+}] 

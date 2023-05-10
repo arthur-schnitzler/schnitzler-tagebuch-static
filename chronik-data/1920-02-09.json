@@ -1,0 +1,105 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-02-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-02-09.html",
+ "head":
+ "Tagebuch, 9. Februar 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gottfried Keller",
+ "ref":
+ "person_16794"},
+ {
+ "persName":
+ "Conrad Ferdinand Meyer",
+ "ref":
+ "person_18114"},
+ {
+ "persName":
+ "Theodor Storm",
+ "ref":
+ "person_20463"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Der junge Medardus",
+ "ref":
+ "pmb32294"}
+ ,  {
+ "title":
+ "Madame Dubarry",
+ "ref":
+ "pmb80932"}
+ ,  {
+ "title":
+ "Novellen",
+ "ref":
+ "pmb78999"}
+ ,  {
+ "title":
+ "Der Herr Etatsrat",
+ "ref":
+ "pmb81371"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00078656",
+ "head":
+ "Schnitzler, Arthur an Friedmann, David [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00044588",
+ "head":
+ "Schnitzler, Arthur an Bachmann, Jürgen [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

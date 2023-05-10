@@ -1,0 +1,76 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-05-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-05-13.html",
+ "head":
+ "Tagebuch, 13. Mai 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Brann",
+ "ref":
+ "person_13925"},
+ {
+ "persName":
+ "Karl Lanckoroński",
+ "ref":
+ "person_17266"},
+ {
+ "persName":
+ "Ludwig Wahrmund",
+ "ref":
+ "person_21045"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Englischer Garten",
+ "ref":
+ "pmb90589"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00051524",
+ "head":
+ "Fleischer, Arthur an Schnitzler, Olga [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga (1882-1970) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848723"}]
+}
+}] 

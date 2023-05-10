@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1909-12-11">Samstag, 11. Dezember 1909</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1909-12-11">
+               <head>Tagebuch, 11. Dezember 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16292">Gertrude von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19731">Hans Bernhard Schlesinger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19823">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20242">Felix Speidel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20925">Leo Van-Jung</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13550">Paula Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16770">Arthur Kaufmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30299">Abenteurernovelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29905">Der Ruf des Lebens. Schauspiel in drei Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb96">Meissl &amp; Schadn</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-12-11.html</idno>
+            </event>
+            <event when-iso="1909-12-11">
+               <head>Hermann Bahr an Arthur Schnitzler, 11. 12. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2241">Oskar Bacher</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2238">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27910">Lisa Clarus</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29833">Die Toten schweigen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb48851">Verein »Freie Schule«</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb165">Ober Sankt Veit</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb140">Halle an der Saale</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb141">Weidenplan</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb189">Semmering</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01897.html</idno>
+            </event>
+            <event when-iso="1909-12-11">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1909-12-11">
+               <head>Bahr an Schnitzler, 11. 12. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27910">Lisa Clarus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2241">Oskar Bacher</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2238">Lili Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29833">Die Toten schweigen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb165">Ober Sankt Veit</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb140">Halle an der Saale</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb141">Weidenplan</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb142">Freie Schule</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb189">Semmering</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041324.html</idno>
+            </event>
+            <event when-iso="1909-12-11">
+               <head>Premiere von Der Ruf des Lebens, 11.12.1909</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29905" type="auffuhrung-von-premiere-von">Der Ruf des Lebens. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb46153" type="wird-rezensiert-in">Arthur Schnitzler: Der Ruf des Lebens. Zur ersten Aufführung im Deutschen Volkstheater</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173" type="hat-als-teilnehmerin">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12701" type="hat-als-teilnehmerin">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12698" type="hat-als-teilnehmerin">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24423" type="hat-als-teilnehmerin">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18489" type="hat-als-arbeitskraft">Hans Homma</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb17831" type="hat-als-arbeitskraft">Käthe Hannemann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3341" type="hat-als-arbeitskraft">Kathi Thaller</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21727" type="hat-als-arbeitskraft">Leopoldine Müller</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2868" type="hat-als-arbeitskraft">Victor Kutschera</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11224" type="hat-als-arbeitskraft">Anton Edthofer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26880" type="hat-als-arbeitskraft">Adolf Weisse</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3694" type="hat-als-arbeitskraft">Lili Marberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11981" type="hat-als-arbeitskraft">Leopold Kramer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb8246" type="hat-als-arbeitskraft">Wilhelm Klitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb16860" type="hat-als-arbeitskraft">Jaroslav Fürth</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb20" type="veranstaltet-in">Volkstheater</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36430" type="veranstaltet-von">Volkstheater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/35185/</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

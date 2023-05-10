@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-03-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-03-14.html",
+ "head":
+ "Tagebuch, 14. März 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Egmont Colerus",
+ "ref":
+ "person_14256"},
+ {
+ "persName":
+ "Colleen Moore",
+ "ref":
+ "person_18242"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Franz Rebiczek",
+ "ref":
+ "person_19082"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Politik",
+ "ref":
+ "pmb80318"}
+ ,  {
+ "title":
+ "Moderne Liebesabenteuer",
+ "ref":
+ "pmb81238"}
+ ,  {
+ "title":
+ "Wie heirate ich meinen Chef?",
+ "ref":
+ "pmb81272"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp648",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp648.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 11.–18. März 1928"
+}] 

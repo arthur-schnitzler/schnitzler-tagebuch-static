@@ -1,0 +1,200 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-02-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-02-12.html",
+ "head":
+ "Tagebuch, 12. Februar 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Bernhard Hellmann",
+ "ref":
+ "person_16072"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00175",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00175.html",
+ "head":
+ "Eduard Michael Kafka an Arthur Schnitzler, 12. 2. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eduard Michael Kafka",
+ "ref":
+ "pmb2563"},
+ {
+ "persName":
+ "Josef Simon",
+ "ref":
+ "pmb12781"},
+ {
+ "persName":
+ "Angelo Neumann",
+ "ref":
+ "pmb12341"},
+ {
+ "persName":
+ "Johann Strauss",
+ "ref":
+ "pmb12867"},
+ {
+ "persName":
+ "Josef Jarno",
+ "ref":
+ "pmb2601"},
+ {
+ "persName":
+ "Gilbert Otto Neumann-Hofer",
+ "ref":
+ "pmb12348"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Die Frage an das Schicksal",
+ "ref":
+ "pmb30749"}
+ ,  {
+ "title":
+ "Abschiedssouper",
+ "ref":
+ "pmb30005"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Saisontheater Ischl",
+ "ref":
+ "pmb42649"}
+ ,  {
+ "orgName":
+ "Magazin für die Literatur des Auslandes",
+ "ref":
+ "pmb29625"}
+ ,  {
+ "orgName":
+ "F. und P. Lehmann",
+ "ref":
+ "pmb42660"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Leipzig",
+ "ref":
+ "pmb864"}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Grillparzerstraße",
+ "ref":
+ "pmb412"}
+ ,  {
+ "placeName":
+ "Auerbachs Keller",
+ "ref":
+ "pmb42636"}
+ ,  {
+ "placeName":
+ "Wienerhof",
+ "ref":
+ "pmb42639"}
+ ,  {
+ "placeName":
+ "Marienstraße",
+ "ref":
+ "pmb463"}
+ ,  {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ,  {
+ "placeName":
+ "Raffaelova",
+ "ref":
+ "pmb42644"}
+ ,  {
+ "placeName":
+ "Wilsonova",
+ "ref":
+ "pmb42646"}
+ ,  {
+ "placeName":
+ "Residenztheater Berlin",
+ "ref":
+ "pmb42626"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}] 

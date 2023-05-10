@@ -1,0 +1,57 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1886-01-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1886-01-09.html",
+ "head":
+ "Tagebuch, 9. Januar 1886",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Edmund Markbreiter",
+ "ref":
+ "person_17899"},
+ {
+ "persName":
+ "Johann Strauss",
+ "ref":
+ "person_20505"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Zigeunerbaron",
+ "ref":
+ "pmb52902"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiednertheater",
+ "ref":
+ "pmb92603"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

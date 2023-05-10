@@ -1,0 +1,104 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-05-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-05-10.html",
+ "head":
+ "Tagebuch, 10. Mai 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Walther Eidlitz",
+ "ref":
+ "person_14668"},
+ {
+ "persName":
+ "Leo Greiner",
+ "ref":
+ "person_15643"},
+ {
+ "persName":
+ "Arthur Hellmer",
+ "ref":
+ "person_16075"},
+ {
+ "persName":
+ "Karl Michaelis",
+ "ref":
+ "person_18140"},
+ {
+ "persName":
+ "Neuhauser",
+ "ref":
+ "person_18405"},
+ {
+ "persName":
+ "Lothar Mendes",
+ "ref":
+ "person_18068"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei (Filmplan, 1921)",
+ "ref":
+ "pmb36043"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00063494",
+ "head":
+ "Krell, Max an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max (1887-1962) Krell",
+ "ref":
+ "http://d-nb.info/gnd/116518960"}]
+}
+}] 

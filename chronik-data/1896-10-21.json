@@ -1,0 +1,75 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-10-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-10-21.html",
+ "head":
+ "Tagebuch, 21. Oktober 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Mitterwurzer",
+ "ref":
+ "person_18190"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Räuber",
+ "ref":
+ "pmb31431"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043583",
+ "head":
+ "Sternberg, D. M. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00082464",
+ "head":
+ "Schnitzler, Arthur: Die Gefährtin [Dramatisches] (Drucktitel)",
+ "text":
+ "Erstes Objekt aus der Mappe. 12 Bl."
+}] 

@@ -1,0 +1,69 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-01-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-01-04.html",
+ "head":
+ "Tagebuch, 4. Januar 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo Felix",
+ "ref":
+ "person_14933"},
+ {
+ "persName":
+ "Alexander Krakauer",
+ "ref":
+ "person_17078"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Julius Wittels",
+ "ref":
+ "person_21408"},
+ {
+ "persName":
+ "Sigmund Grünfeld",
+ "ref":
+ "person_15707"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#i9ac725a-7aa1-4b66-9aaa-3fb96c91d495",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Theodor Herzl an Arthur Schnitzler, 4.1.1895",
+ "source":
+ "Theodor Herzl: Briefe und autobiographische Notizen. 1866–1895. Bearbeitet von Johannes Wachten in Zusammenarbeit mit Chaya Harel, Daisy Tycho, Manfred Winkler. Berlin: Propyläen 1983. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps. Erster Band)"
+}] 

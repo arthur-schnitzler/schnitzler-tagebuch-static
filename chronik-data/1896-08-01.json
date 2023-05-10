@@ -1,0 +1,175 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-08-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-08-01.html",
+ "head":
+ "Tagebuch, 1. August 1896",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Göteborg",
+ "ref":
+ "pmb40700"}
+ ,  {
+ "placeName":
+ "Trollhättan",
+ "ref":
+ "pmb91949"}
+ ,  {
+ "placeName":
+ "Schweden",
+ "ref":
+ "pmb44335"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00576",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00576.html",
+ "head":
+ "Hugo von Hofmannsthal, Felix Salten an Arthur Schnitzler, Richard Beer-Hofmann, 1. 8. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Geschichte der beiden Liebespaare",
+ "ref":
+ "pmb34220"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Dänemark",
+ "ref":
+ "pmb43570"}
+ ,  {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40700/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40700/",
+ "head":
+ "Göteborg"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/42675/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/42675/",
+ "head":
+ "Trollhättan-Fälle"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00736729",
+ "head":
+ "Salten, Felix an Schnitzler, Arthur [Briefe]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix (1869-1947) Salten",
+ "ref":
+ "http://d-nb.info/gnd/118840819"},
+ {
+ "persName":
+ "Hugo von (1874-1929) Hofmannsthal",
+ "ref":
+ "http://d-nb.info/gnd/118552759"},
+ {
+ "persName":
+ "Richard (1866-1945) Beer-Hofmann",
+ "ref":
+ "http://d-nb.info/gnd/118654756"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00041221",
+ "head":
+ "Reinhard, Marie an Schnitzler, Arthur [Briefe]",
+ "text":
+ "Erstes Objekt aus der Mappe. 35 Br., 1 Tel. 90 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie (1871-1899) Reinhard",
+ "ref":
+ "http://d-nb.info/gnd/123368790"}]
+}
+}] 

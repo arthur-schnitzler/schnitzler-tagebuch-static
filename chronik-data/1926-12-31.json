@@ -1,0 +1,195 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-12-31",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-12-31.html",
+ "head":
+ "Tagebuch, 31. Dezember 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johann Sebastian Bach",
+ "ref":
+ "person_13344"},
+ {
+ "persName":
+ "Ernst Barlach",
+ "ref":
+ "person_13427"},
+ {
+ "persName":
+ "Eva Marie Goldmann",
+ "ref":
+ "person_15526"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Georg Friedrich Händel",
+ "ref":
+ "person_15835"},
+ {
+ "persName":
+ "Lucie Mannheim",
+ "ref":
+ "person_17841"},
+ {
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Karl Michaelis",
+ "ref":
+ "person_18140"},
+ {
+ "persName":
+ "Lorenz Michaelis",
+ "ref":
+ "person_18141"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Clara Soltau",
+ "ref":
+ "person_20191"},
+ {
+ "persName":
+ "Jürgen Fehling",
+ "ref":
+ "person_14908"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Zum großen Wurstel",
+ "ref":
+ "pmb29951"}
+ ,  {
+ "title":
+ "Traumnovelle",
+ "ref":
+ "pmb30851"}
+ ,  {
+ "title":
+ "Walzer",
+ "ref":
+ "pmb36026"}
+ ,  {
+ "title":
+ "Charley’s Tante",
+ "ref":
+ "pmb81419"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Kurfürstenstraße",
+ "ref":
+ "pmb57525"}
+ ,  {
+ "placeName":
+ "Hamburg",
+ "ref":
+ "pmb506"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp408",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp408.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 31. Dezember 1926"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp409",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp409.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 31. Dezember 1926"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00051014",
+ "head":
+ "Schnitzler, Arthur an Schnitzler, Olga [Briefe]",
+ "text":
+ "Letztes Objekt aus der Mappe. 11 Br., 8 Ktn, 3 Tel. 48 Bl. Mit 9 Umschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga (1882-1970) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848723"}]
+}
+}] 

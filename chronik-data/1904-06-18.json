@@ -1,0 +1,57 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-06-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-06-18.html",
+ "head":
+ "Tagebuch, 18. Juni 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rudolf Lothar",
+ "ref":
+ "person_17696"},
+ {
+ "persName":
+ "Margarethe Manassewitsch",
+ "ref":
+ "person_17804"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Verschwörung des Fiesko zu Genua",
+ "ref":
+ "pmb31181"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ober-Sankt-Veit",
+ "ref":
+ "pmb91377"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

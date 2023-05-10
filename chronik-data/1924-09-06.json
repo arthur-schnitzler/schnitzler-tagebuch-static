@@ -1,0 +1,145 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1924-09-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-09-06.html",
+ "head":
+ "Tagebuch, 6. September 1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Irene Auernheimer",
+ "ref":
+ "person_13304"},
+ {
+ "persName":
+ "Jacques Deval",
+ "ref":
+ "person_14432"},
+ {
+ "persName":
+ "Rosa Freudenthal",
+ "ref":
+ "person_15178"},
+ {
+ "persName":
+ "Karl Lanckoroński",
+ "ref":
+ "person_17266"},
+ {
+ "persName":
+ "Josef Peter",
+ "ref":
+ "person_18722"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Emil Schwarzkopf",
+ "ref":
+ "person_19985"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Max Schwarzkopf",
+ "ref":
+ "person_19987"},
+ {
+ "persName":
+ "Theo Shall",
+ "ref":
+ "person_20079"},
+ {
+ "persName":
+ "Siegfried Geyer",
+ "ref":
+ "person_15415"},
+ {
+ "persName":
+ "Franz Horch",
+ "ref":
+ "person_16355"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fräulein Else",
+ "ref":
+ "pmb29941"}
+ ,  {
+ "title":
+ "Ein schwaches Weib",
+ "ref":
+ "pmb80369"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Freyung",
+ "ref":
+ "pmb92244"}
+ ,  {
+ "placeName":
+ "Wipplingerstraße",
+ "ref":
+ "pmb120"}
+ ,  {
+ "placeName":
+ "Hohenstaufengasse",
+ "ref":
+ "pmb92290"}
+ ,  {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 06. September 1924",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

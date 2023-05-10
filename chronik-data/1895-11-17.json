@@ -1,0 +1,90 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-11-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-11-17.html",
+ "head":
+ "Tagebuch, 17. November 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludmilla Karplus",
+ "ref":
+ "person_16738"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS01251434",
+ "head":
+ "Schnitzler, Arthur an J.-G.-Cotta'sche Buchhandlung Nachfolger &lt;Stuttgart; Berlin&gt; [Briefe]",
+ "text":
+ "2 Blatt",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "J.-G.-Cotta'sche Buchhandlung Nachfolger &lt;Stuttgart; Berlin&gt; (1889-1956)",
+ "ref":
+ "http://d-nb.info/gnd/2036169-5"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-149330",
+ "head":
+ "Brief von Arthur Schnitzler an J. G. Cotta'sche Buchhandlung",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur (1862-1931) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/126794855"},
+ {
+ "persName":
+ "J. G. Cotta'sche Buchhandlung (1659-1888)",
+ "ref":
+ "http://d-nb.info/gnd/5056474-2"}]
+}
+}] 

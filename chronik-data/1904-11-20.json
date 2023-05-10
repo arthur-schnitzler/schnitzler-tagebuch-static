@@ -1,0 +1,159 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-11-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-11-20.html",
+ "head":
+ "Tagebuch, 20. November 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Erwin Baron",
+ "ref":
+ "person_13430"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Alfred Benvenisti",
+ "ref":
+ "person_13606"},
+ {
+ "persName":
+ "Georg Bondi",
+ "ref":
+ "person_13859"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Max Dreyer",
+ "ref":
+ "person_14513"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Robert Hiller",
+ "ref":
+ "person_16201"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "person_16222"},
+ {
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17959"},
+ {
+ "persName":
+ "Elly Petersen",
+ "ref":
+ "person_18728"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "person_19154"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"},
+ {
+ "persName":
+ "Clara Jonas",
+ "ref":
+ "person_16572"},
+ {
+ "persName":
+ "Paul Jonas",
+ "ref":
+ "person_16574"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Die Siebzehnjährigen",
+ "ref":
+ "pmb77356"}
+ ,  {
+ "title":
+ "Madonna",
+ "ref":
+ "pmb80702"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/127/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/127/",
+ "head":
+ "Hotel Bristol"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00075238",
+ "head":
+ "Schott, Richard an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Verein Berliner Presse",
+ "ref":
+ "http://d-nb.info/gnd/115983-5"}]
+}
+}] 

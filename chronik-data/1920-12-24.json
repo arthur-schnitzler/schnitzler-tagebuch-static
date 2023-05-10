@@ -1,0 +1,199 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-12-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-12-24.html",
+ "head":
+ "Tagebuch, 24. Dezember 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Raoul Aslan",
+ "ref":
+ "person_13286"},
+ {
+ "persName":
+ "Gabriel Beer-Hofmann",
+ "ref":
+ "person_13547"},
+ {
+ "persName":
+ "Otto Böttner",
+ "ref":
+ "person_13846"},
+ {
+ "persName":
+ "Karl Ettlinger",
+ "ref":
+ "person_14816"},
+ {
+ "persName":
+ "Gertrud Eysoldt",
+ "ref":
+ "person_14840"},
+ {
+ "persName":
+ "Wilhelm Neumann",
+ "ref":
+ "person_18424"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Werner Schott",
+ "ref":
+ "person_19874"},
+ {
+ "persName":
+ "Franz Schreker",
+ "ref":
+ "person_19886"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Maximilian Sladek",
+ "ref":
+ "person_20161"},
+ {
+ "persName":
+ "Fritz Wittels",
+ "ref":
+ "person_21406"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Die Gezeichneten",
+ "ref":
+ "pmb81277"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS01021322",
+ "head":
+ "Eysoldt, Gertrud an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Telegramm 2 Blatt",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gertrud (1870-1955) Eysoldt",
+ "ref":
+ "http://d-nb.info/gnd/119115522"},
+ {
+ "persName":
+ "Maximilian (1875-1925) Sladek",
+ "ref":
+ "http://d-nb.info/gnd/11742613X"},
+ {
+ "persName":
+ "Hubert (1862-1925) Reusch",
+ "ref":
+ "http://d-nb.info/gnd/116452870"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00037588",
+ "head":
+ "Kirchsteiger, Hans an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans (1852-) Kirchsteiger",
+ "ref":
+ "http://d-nb.info/gnd/116187352"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00078026",
+ "head":
+ "Richter, ... an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

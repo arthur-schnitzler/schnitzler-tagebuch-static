@@ -1,0 +1,100 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1930-02-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-02-05.html",
+ "head":
+ "Tagebuch, 5. Februar 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ernst Benedikt",
+ "ref":
+ "person_13589"},
+ {
+ "persName":
+ "Irma Benedikt",
+ "ref":
+ "person_13591"},
+ {
+ "persName":
+ "Franz Ferdinand von Österreich-Este",
+ "ref":
+ "person_15149"},
+ {
+ "persName":
+ "Pola Negri",
+ "ref":
+ "person_18377"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Gavrilo Princip",
+ "ref":
+ "person_18967"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Dame aus Moskau",
+ "ref":
+ "pmb80159"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Jugoslawien",
+ "ref":
+ "pmb90966"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp763",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp763.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 1.–7. Februar 1930"
+}] 

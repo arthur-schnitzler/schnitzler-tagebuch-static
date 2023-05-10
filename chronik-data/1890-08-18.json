@@ -1,0 +1,245 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1890-08-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1890-08-18.html",
+ "head":
+ "Tagebuch, 18. August 1890",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Friedrich Kapper",
+ "ref":
+ "person_16709"},
+ {
+ "persName":
+ "Matzeneder",
+ "ref":
+ "person_17979"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hainbach",
+ "ref":
+ "pmb90821"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02649",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02649.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 18. 8. 1890",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Fedor Mamroth",
+ "ref":
+ "pmb4986"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "pmb14953"},
+ {
+ "persName":
+ "Elise Pserhofer",
+ "ref":
+ "pmb88290"},
+ {
+ "persName":
+ "Friedrich Kapper",
+ "ref":
+ "pmb19106"},
+ {
+ "persName":
+ "Ignaz Pserhofer",
+ "ref":
+ "pmb22918"},
+ {
+ "persName":
+ "Emma Pserhofer",
+ "ref":
+ "pmb88903"},
+ {
+ "persName":
+ "Betty Ernst",
+ "ref":
+ "pmb88907"},
+ {
+ "persName":
+ "Hermine von Mauthner",
+ "ref":
+ "pmb88911"},
+ {
+ "persName":
+ "Hans Johann von Mauthner",
+ "ref":
+ "pmb88915"},
+ {
+ "persName":
+ "Stephan von Mauthner",
+ "ref":
+ "pmb88919"},
+ {
+ "persName":
+ "Max von Rosenberg",
+ "ref":
+ "pmb23575"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "pmb26392"},
+ {
+ "persName":
+ "Leo N. von Tolstoi",
+ "ref":
+ "pmb3739"},
+ {
+ "persName":
+ "Emil Granichstaedten",
+ "ref":
+ "pmb2586"},
+ {
+ "persName":
+ "Adele Kapper",
+ "ref":
+ "pmb19096"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "pmb2461"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "pmb2284"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Bibel",
+ "ref":
+ "pmb31849"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Weihnachts-Einkäufe",
+ "ref":
+ "pmb30163"}
+ ,  {
+ "title":
+ "Die Kreutzersonate",
+ "ref":
+ "pmb77388"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Josef Eberle Stein-, Buch und Musikaliendruckerei",
+ "ref":
+ "pmb53104"}
+ ,  {
+ "orgName":
+ "An der schönen blauen Donau",
+ "ref":
+ "pmb29698"}
+ ,  {
+ "orgName":
+ "Die Presse",
+ "ref":
+ "pmb29270"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pörtschach",
+ "ref":
+ "pmb44278"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Seidengasse",
+ "ref":
+ "pmb53101"}
+ ,  {
+ "placeName":
+ "Berggasse",
+ "ref":
+ "pmb52510"}
+ ,  {
+ "placeName":
+ "Capua",
+ "ref":
+ "pmb88399"}
+ ,  {
+ "placeName":
+ "Kärnten",
+ "ref":
+ "pmb651"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

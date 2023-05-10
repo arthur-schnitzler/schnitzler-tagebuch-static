@@ -1,0 +1,120 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-06-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-06-21.html",
+ "head":
+ "Tagebuch, 21. Juni 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Fontane",
+ "ref":
+ "person_15073"},
+ {
+ "persName":
+ "Margarete Gelbard",
+ "ref":
+ "person_15374"},
+ {
+ "persName":
+ "Maria Theresia von Österreich",
+ "ref":
+ "person_17880"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Werner Schott",
+ "ref":
+ "person_19874"},
+ {
+ "persName":
+ "Josef II.",
+ "ref":
+ "person_16586"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"},
+ {
+ "persName":
+ "Franz Peter Schubert",
+ "ref":
+ "person_19902"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Kaiser Josef II.",
+ "ref":
+ "pmb30843"}
+ ,  {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Unterm Birnbaum",
+ "ref":
+ "pmb78384"}
+ ,  {
+ "title":
+ "Streichquartett Nr. 9 g-Moll op. ph. D 173",
+ "ref":
+ "pmb77653"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 21. Juni 1918",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00048917",
+ "head":
+ "Schnitzler, Arthur an Teiglmayr, ... [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

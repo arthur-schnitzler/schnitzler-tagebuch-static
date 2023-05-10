@@ -1,0 +1,100 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-11-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-11-22.html",
+ "head":
+ "Tagebuch, 22. November 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jeanette Lustig",
+ "ref":
+ "person_17741"},
+ {
+ "persName":
+ "Wolfgang Amadeus Mozart",
+ "ref":
+ "person_18282"},
+ {
+ "persName":
+ "Adolf Paul",
+ "ref":
+ "person_18680"},
+ {
+ "persName":
+ "Maximilian Lang",
+ "ref":
+ "person_17299"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frau Beate und ihr Sohn. Novelle",
+ "ref":
+ "pmb32133"}
+ ,  {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Der Vorige",
+ "ref":
+ "pmb30781"}
+ ,  {
+ "title":
+ "Die Sprache der Vögel",
+ "ref":
+ "pmb77999"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00081784",
+ "head":
+ "Valois, ... an Schnitzler, Arthur [Briefe]",
+ "text":
+ "4 Bl. Mit 1 Beil."
+}] 

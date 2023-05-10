@@ -1,0 +1,114 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-08-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-08-15.html",
+ "head":
+ "Tagebuch, 15. August 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bern",
+ "ref":
+ "pmb1223"}
+ ,  {
+ "placeName":
+ "Gurnigel, Berghaus",
+ "ref":
+ "pmb90807"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/1223/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/1223/",
+ "head":
+ "Bern"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp380",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp380.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 5.–16. August 1926"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00051014",
+ "head":
+ "Schnitzler, Arthur an Schnitzler, Olga [Briefe]",
+ "text":
+ "Erstes Objekt aus der Mappe. 11 Br., 8 Ktn, 3 Tel. 48 Bl. Mit 9 Umschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga (1882-1970) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848723"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00051012",
+ "head":
+ "Schnitzler, Arthur an Schnitzler, Olga [Briefe]",
+ "text":
+ "Letztes Objekt aus der Mappe. 21 Briefe, davon 1 Visitenkarte, 9 Karten, 1 Telegramm 61 Blatt Mit 13 Umschlägen",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga (1882-1970) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848723"}]
+}
+}] 

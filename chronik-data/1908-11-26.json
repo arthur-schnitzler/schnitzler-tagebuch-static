@@ -1,0 +1,324 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-11-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-11-26.html",
+ "head":
+ "Tagebuch, 26. November 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Benjamin Gomperz",
+ "ref":
+ "person_15562"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "person_16292"},
+ {
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "person_17838"},
+ {
+ "persName":
+ "Oskar Nedbal",
+ "ref":
+ "person_18374"},
+ {
+ "persName":
+ "Moritz Rosenthal",
+ "ref":
+ "person_19394"},
+ {
+ "persName":
+ "Camille Saint-Saëns",
+ "ref":
+ "person_19523"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Klavierkonzert Nr. 2 g-Moll op. 22",
+ "ref":
+ "pmb78417"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzkammergut",
+ "ref":
+ "pmb429"}
+ ,  {
+ "placeName":
+ "Meissl &amp; Schadn",
+ "ref":
+ "pmb96"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01809",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01809.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, 26. 11. 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Gustav Wied",
+ "ref":
+ "pmb13107"},
+ {
+ "persName":
+ "Anton Edthofer",
+ "ref":
+ "pmb11224"},
+ {
+ "persName":
+ "Ernst von Dohnányi",
+ "ref":
+ "pmb11165"},
+ {
+ "persName":
+ "Heinrich Heine",
+ "ref":
+ "pmb11640"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "pmb12176"},
+ {
+ "persName":
+ "Alfred von Winterstein",
+ "ref":
+ "pmb13136"},
+ {
+ "persName":
+ "Oskar Bie",
+ "ref":
+ "pmb2914"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "2 × 2 = 5",
+ "ref":
+ "pmb31985"}
+ ,  {
+ "title":
+ "Caph",
+ "ref":
+ "pmb31987"}
+ ,  {
+ "title":
+ "[Gedichte]",
+ "ref":
+ "pmb41642"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neue Rundschau, Neue Deutsche Rundschau, Freie Bühne",
+ "ref":
+ "pmb29212"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb189"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041451",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041451.html",
+ "head":
+ "Schnitzler an Hofmannsthal, 26. 11. 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Anton Edthofer",
+ "ref":
+ "pmb11224"},
+ {
+ "persName":
+ "Ernst von Dohnányi",
+ "ref":
+ "pmb11165"},
+ {
+ "persName":
+ "Heinrich Heine",
+ "ref":
+ "pmb11640"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "pmb12176"},
+ {
+ "persName":
+ "Alfred von Winterstein",
+ "ref":
+ "pmb13136"},
+ {
+ "persName":
+ "Oskar Bie",
+ "ref":
+ "pmb2914"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "2 × 2 = 5",
+ "ref":
+ "pmb31985"}
+ ,  {
+ "title":
+ "Caph",
+ "ref":
+ "pmb31987"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb189"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neue Rundschau, Neue Deutsche Rundschau, Freie Bühne",
+ "ref":
+ "pmb29212"}
+ ]
+}
+}] 

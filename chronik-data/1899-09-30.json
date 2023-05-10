@@ -1,0 +1,103 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-09-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-09-30.html",
+ "head":
+ "Tagebuch, 30. September 1899",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Rüdesheim",
+ "ref":
+ "pmb920"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00984",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00984.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 30. 9. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sankt Michael",
+ "ref":
+ "pmb40832"}
+ ,  {
+ "placeName":
+ "Rüdesheim",
+ "ref":
+ "pmb920"}
+ ,  {
+ "placeName":
+ "Niederwalddenkmal",
+ "ref":
+ "pmb43126"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/883/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/883/",
+ "head":
+ "Wiesbaden"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/920/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/920/",
+ "head":
+ "Rüdesheim"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/43055/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43055/",
+ "head":
+ "Hôtel du Parc &amp; Bristol"
+}] 

@@ -1,0 +1,455 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-05-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-05-15.html",
+ "head":
+ "Tagebuch, 15. Mai 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Carl Johan Behrens",
+ "ref":
+ "person_13561"},
+ {
+ "persName":
+ "Marie Bisgaard",
+ "ref":
+ "person_13748"},
+ {
+ "persName":
+ "Frands Axel af Brockenhuus-Schack",
+ "ref":
+ "person_13984"},
+ {
+ "persName":
+ "Glad",
+ "ref":
+ "person_15453"},
+ {
+ "persName":
+ "Clara Augusta Hammerich",
+ "ref":
+ "person_15884"},
+ {
+ "persName":
+ "Louis Leonor Hammerich",
+ "ref":
+ "person_15885"},
+ {
+ "persName":
+ "Ihle",
+ "ref":
+ "person_16440"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Marc Kalckar",
+ "ref":
+ "person_16657"},
+ {
+ "persName":
+ "Nina Kalckar",
+ "ref":
+ "person_16658"},
+ {
+ "persName":
+ "Johan August Valdemar Liebmann",
+ "ref":
+ "person_17523"},
+ {
+ "persName":
+ "Sophus Michaëlis",
+ "ref":
+ "person_18142"},
+ {
+ "persName":
+ "Nicolai Neiiendam",
+ "ref":
+ "person_18379"},
+ {
+ "persName":
+ "Viggo Petersen",
+ "ref":
+ "person_18729"},
+ {
+ "persName":
+ "August Goll",
+ "ref":
+ "person_15556"},
+ {
+ "persName":
+ "Elna Jörgen-Jensen",
+ "ref":
+ "person_16558"},
+ {
+ "persName":
+ "Andreas Flensborg",
+ "ref":
+ "person_15044"},
+ {
+ "persName":
+ "Henrik Moritz",
+ "ref":
+ "person_18255"},
+ {
+ "persName":
+ "X",
+ "ref":
+ "person_21492"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Große Szene",
+ "ref":
+ "pmb31429"}
+ ,  {
+ "title":
+ "Lieutenant Gustl. Novelle",
+ "ref":
+ "pmb29853"}
+ ,  {
+ "title":
+ "Napoli oder Der Fischer und seine Braut",
+ "ref":
+ "pmb80220"}
+ ,  {
+ "title":
+ "Verbrecher bei Shakespeare",
+ "ref":
+ "pmb80615"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Roskilde",
+ "ref":
+ "pmb57941"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02399",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02399.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 15. 5. 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "pmb22728"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Magglingen",
+ "ref":
+ "pmb45272"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Biel",
+ "ref":
+ "pmb36477"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/36300/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/36300/",
+ "head":
+ "Kopenhagen"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/57941/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/57941/",
+ "head":
+ "Roskilde"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/58094/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/58094/",
+ "head":
+ "Hotel Phönix"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "T030074",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/T030074.html",
+ "head":
+ "Bahr: [Buchversandliste Selbstbildnis], [Mitte Mai? 1923]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Franziskus Reiter",
+ "ref":
+ "pmb28780"},
+ {
+ "persName":
+ "Ignaz Seipel",
+ "ref":
+ "pmb12762"},
+ {
+ "persName":
+ "Josef Redlich",
+ "ref":
+ "pmb12481"},
+ {
+ "persName":
+ "Erhard Buschbeck",
+ "ref":
+ "pmb11054"},
+ {
+ "persName":
+ "Berthold Litzmann",
+ "ref":
+ "pmb12096"},
+ {
+ "persName":
+ "Ernst Cassirer",
+ "ref":
+ "pmb4723"},
+ {
+ "persName":
+ "Josef Nadler",
+ "ref":
+ "pmb4776"},
+ {
+ "persName":
+ "Konrad Burdach",
+ "ref":
+ "pmb11043"},
+ {
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "pmb12176"},
+ {
+ "persName":
+ "Heinrich Mann",
+ "ref":
+ "pmb12170"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "pmb13212"},
+ {
+ "persName":
+ "Theodor Wolff",
+ "ref":
+ "pmb13163"},
+ {
+ "persName":
+ "Maximilian Harden",
+ "ref":
+ "pmb11581"},
+ {
+ "persName":
+ "Oskar Walzel",
+ "ref":
+ "pmb13048"},
+ {
+ "persName":
+ "Auguste Adler",
+ "ref":
+ "pmb28067"},
+ {
+ "persName":
+ "Wolfgang Heine",
+ "ref":
+ "pmb38364"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Selbstbildnis",
+ "ref":
+ "pmb30813"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Neuer Markt",
+ "ref":
+ "pmb763"}
+ ,  {
+ "placeName":
+ "Tegetthoffstraße",
+ "ref":
+ "pmb764"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Prager Presse",
+ "ref":
+ "pmb29194"}
+ ,  {
+ "orgName":
+ "Berliner Tageblatt",
+ "ref":
+ "pmb29329"}
+ ,  {
+ "orgName":
+ "Kapuziner",
+ "ref":
+ "pmb29219"}
+ ]
+}
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/58640/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/58640/",
+ "head":
+ "Aufführung von Große Szene, 15.5.1923",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Große Szene",
+ "ref":
+ "pmb31429"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Det Kongelige Teater",
+ "ref":
+ "pmb1079"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Hedy Kempny, 15.5.1923",
+ "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040491",
+ "head":
+ "Dansk Forfatterforening an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Dansk Forfatterforening",
+ "ref":
+ "http://d-nb.info/gnd/5129869-7"}]
+}
+}] 

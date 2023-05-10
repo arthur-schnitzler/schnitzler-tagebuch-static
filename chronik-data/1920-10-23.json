@@ -1,0 +1,167 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-10-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-10-23.html",
+ "head":
+ "Tagebuch, 23. Oktober 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "David Josef Bach",
+ "ref":
+ "person_13341"},
+ {
+ "persName":
+ "Alban Berg",
+ "ref":
+ "person_13618"},
+ {
+ "persName":
+ "Gustav Landauer",
+ "ref":
+ "person_17272"},
+ {
+ "persName":
+ "Rosa Luxemburg",
+ "ref":
+ "person_17747"},
+ {
+ "persName":
+ "Gustav Nebehay",
+ "ref":
+ "person_18371"},
+ {
+ "persName":
+ "Christoph Friedrich Nicolai",
+ "ref":
+ "person_18441"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Arnold Schönberg",
+ "ref":
+ "person_19840"},
+ {
+ "persName":
+ "George Bernard Shaw",
+ "ref":
+ "person_20080"},
+ {
+ "persName":
+ "Adolf Vetter",
+ "ref":
+ "person_20957"},
+ {
+ "persName":
+ "Anton von Webern",
+ "ref":
+ "person_21124"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"},
+ {
+ "persName":
+ "Maurice Ravel",
+ "ref":
+ "person_19076"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Revolutionsbriefe",
+ "ref":
+ "pmb78956"}
+ ,  {
+ "title":
+ "Freuden des jungen Werthers",
+ "ref":
+ "pmb80573"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Fritz Endell, 23. 10. 1920",
+ "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00045301",
+ "head":
+ "Schnitzler, Arthur an Endell, Fritz [Briefe]",
+ "text":
+ "1 Bl.Durchschl. Mit 1 weit. Ex. 1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Fritz (1873-1955) Endell",
+ "ref":
+ "http://d-nb.info/gnd/101111797"}]
+}
+}] 

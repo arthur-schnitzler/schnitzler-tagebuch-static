@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1903-06-21">Sonntag, 21. Juni 1903</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1903-06-21">
+               <head>Tagebuch, 21. Juni 1903</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14065">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18524">Oesterr.</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19154">Max Reinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19564">Adele Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb46124">Der tapfere Kassian. Singspiel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29891">Rezensionen. Wiener Theater 1901 bis 1903</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-06-21.html</idno>
+            </event>
+            <event when-iso="1903-06-21">
+               <head>Otto Brahm, Gerhart Hauptmann, Margarete Marschalk an Arthur Schnitzler, 21. 6. 1903</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11621">Margarete Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11617">Gerhart Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb118745">Snĕžne jámy</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34528">Szklarska Poręba</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb59">IX., Alsergrund</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb397">Frankgasse</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02866.html</idno>
+            </event>
+            <event when-iso="1903-06-21">
+               <head>Hermann Bahr an Arthur Schnitzler, [21.?] 6. 1903</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11461">Johann Wolfgang von Goethe</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29891">Rezensionen. Wiener Theater 1901 bis 1903</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31249">Gespräche</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb197">Weimar</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb48759">Erfurt</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01298.html</idno>
+            </event>
+            <event when-iso="1903-06-21">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1903-06-21">
+               <head>Bahr: Widmungsexemplar Rezensionen, [21.?] 6. 1903</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29891">Rezensionen. Wiener Theater 1901 bis 1903</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041580.html</idno>
+            </event>
+            <event when-iso="1903-06-21">
+               <head>Kalendereintrag von Bahr, 21. 6. 1903</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3415">Arthur Krupp</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28185">Karl Lautenschläger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28184">Ferdinand no name provided</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28189">Samuel Moses Ungar</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12481">Josef Redlich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2202">Wilhelm Singer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12460">Eduard Pötzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10875">Moriz Benedikt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28190">Bertha Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11687">Ludwig Hevesi</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3021">Julian Sternberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2570">Rudolf Lothar</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3162">Julius Stern</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11813">Siegfried Jacobsohn</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2953">Wilhelm von Hartel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12671">Paul Schlenther</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3280">Koloman Moser</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27882">Friedrich Waerndorfer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3025">Arthur Kahane</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11916">Harry von Kessler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3368">Joseph Maria Olbrich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3547">Ernst Ludwig von Hessen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28304">Moriz Ring</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11984">Franz Kranewitter</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3319">Ludwig Fischl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12977">Irene Triesch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11617">Gerhart Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12237">Richard M. Meyer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11545">Eugen Guglia</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29891">Rezensionen. Wiener Theater 1901 bis 1903</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb338">Wollzeile</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb415">Bad Aussee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041451.html</idno>
+            </event>
+            <event when-iso="1903-06-21">
+               <head>Aufzeichnung von Bahr, 21. 6. 1903</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12671">Paul Schlenther</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12618">Adele Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11752">Felix Hollaender</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11617">Gerhart Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11284">Gertrud Eysoldt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12968">Siegfried Trebitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23918">Ottilie Salten</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29891">Rezensionen. Wiener Theater 1901 bis 1903</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31033">Der Traum, ein Leben</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30009">Hamlet</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041427.html</idno>
+            </event>
+            <event when-iso="1903-06-21">
+               <head>Tagebuch von Schnitzler, 21. 6. 1903</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12504">Max Reinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12618">Adele Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28036">Oesterreicher</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29891">Rezensionen. Wiener Theater 1901 bis 1903</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30217">Der tapfere Cassian. Puppenspiel in einem Akt</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041218.html</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

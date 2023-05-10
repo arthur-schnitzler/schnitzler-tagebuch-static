@@ -1,0 +1,337 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1917-05-19",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-05-19.html",
+ "head":
+ "Tagebuch, 19. Mai 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugenie Bachrach",
+ "ref":
+ "person_13355"},
+ {
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Gustav Freytag",
+ "ref":
+ "person_15190"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "person_16292"},
+ {
+ "persName":
+ "Karl I. von Österreich-Ungarn",
+ "ref":
+ "person_16723"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Adolf Weisse",
+ "ref":
+ "person_21211"},
+ {
+ "persName":
+ "Fritz Werner",
+ "ref":
+ "person_21251"},
+ {
+ "persName":
+ "Marianne Giustiniani",
+ "ref":
+ "person_21600"},
+ {
+ "persName":
+ "Friedrich Adler",
+ "ref":
+ "person_13096"},
+ {
+ "persName":
+ "Karl Wallner",
+ "ref":
+ "person_21074"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Rudolf Olden",
+ "ref":
+ "person_18548"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "person_21602"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Landsknecht",
+ "ref":
+ "pmb30753"}
+ ,  {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Jacques le fataliste et son maître",
+ "ref":
+ "pmb31657"}
+ ,  {
+ "title":
+ "Geschichte der deutschen Höfe seit der Reformation",
+ "ref":
+ "pmb31315"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041541",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041541.html",
+ "head":
+ "Tagebuch von Schnitzler, 19. 5. 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "pmb2461"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "pmb2284"},
+ {
+ "persName":
+ "Adolf Weisse",
+ "ref":
+ "pmb26880"},
+ {
+ "persName":
+ "Karl Wallner",
+ "ref":
+ "pmb26640"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Friedrich Adler",
+ "ref":
+ "pmb10746"},
+ {
+ "persName":
+ "Karl von Stürgkh",
+ "ref":
+ "pmb12896"},
+ {
+ "persName":
+ "K.",
+ "ref":
+ "pmb18972"},
+ {
+ "persName":
+ "Fritz Werner",
+ "ref":
+ "pmb13100"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Eugenie Bachrach",
+ "ref":
+ "pmb13644"},
+ {
+ "persName":
+ "Marianne Giustiniani",
+ "ref":
+ "pmb2753"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "pmb27549"},
+ {
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "pmb13653"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Rudolf Olden",
+ "ref":
+ "pmb12374"},
+ {
+ "persName":
+ "Gustav Freytag",
+ "ref":
+ "pmb11377"},
+ {
+ "persName":
+ "Karl Eduard Vehse",
+ "ref":
+ "pmb27903"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Landsknecht",
+ "ref":
+ "pmb30753"}
+ ,  {
+ "title":
+ "Jacques le fataliste et son maître",
+ "ref":
+ "pmb31657"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Hotel Regina",
+ "ref":
+ "pmb700"}
+ ,  {
+ "placeName":
+ "Nordbahnhof",
+ "ref":
+ "pmb426"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Der Morgen. Wiener Montagsblatt",
+ "ref":
+ "pmb29398"}
+ ,  {
+ "orgName":
+ "Fremden-Blatt",
+ "ref":
+ "pmb48930"}
+ ,  {
+ "orgName":
+ "Piusverein zur Förderung der katholischen Presse in Österreich",
+ "ref":
+ "pmb29776"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-1695391",
+ "head":
+ "Brief von Arthur Schnitzler an Hans Sterneder",
+ "text":
+ "1 Ansichtskarte, hs., m.e.U.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur (1862-1931) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/126794855"},
+ {
+ "persName":
+ "Hans (1889-1981) Sterneder",
+ "ref":
+ "http://d-nb.info/gnd/117234931"}]
+}
+}] 

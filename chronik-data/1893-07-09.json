@@ -1,0 +1,114 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-07-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-07-09.html",
+ "head":
+ "Tagebuch, 9. Juli 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julius Bauer",
+ "ref":
+ "person_13471"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Marianne Benedict",
+ "ref":
+ "person_13581"},
+ {
+ "persName":
+ "Johannes Brahms",
+ "ref":
+ "person_13914"},
+ {
+ "persName":
+ "Sigmund Flegmann",
+ "ref":
+ "person_15030"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Ludwig? Stahl",
+ "ref":
+ "person_20321"},
+ {
+ "persName":
+ "Emil Löbl",
+ "ref":
+ "person_17617"},
+ {
+ "persName":
+ "Leopold Petter",
+ "ref":
+ "person_18736"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Anzenau",
+ "ref":
+ "pmb90254"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02959",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02959.html",
+ "head":
+ "Arthur Schnitzler an Felix Salten, 9. 7. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl"
+}] 

@@ -1,0 +1,163 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-01-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-01-11.html",
+ "head":
+ "Tagebuch, 11. Januar 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopoldine Müller",
+ "ref":
+ "person_18303"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Tuchlauben",
+ "ref":
+ "pmb790"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02902",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02902.html",
+ "head":
+ "Paul Goldmann, Marie Glümer, Auguste Chlum, Moritz Coschell an Arthur Schnitzler, 11. 1. 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "pmb14953"},
+ {
+ "persName":
+ "Auguste Chlum",
+ "ref":
+ "pmb14948"},
+ {
+ "persName":
+ "Moritz Coschell",
+ "ref":
+ "pmb28645"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Alice Gotthelf",
+ "ref":
+ "pmb142400"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "pmb11324"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Gouvernante",
+ "ref":
+ "pmb33784"}
+ ,  {
+ "title":
+ "Theater, Kunst und Literatur [Gouvernante]",
+ "ref":
+ "pmb142419"}
+ ,  {
+ "title":
+ "Wiener Allgemeine Zeitung",
+ "ref":
+ "pmb39950"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Volkstheater",
+ "ref":
+ "pmb36430"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Frankgasse",
+ "ref":
+ "pmb397"}
+ ,  {
+ "placeName":
+ "Passauerstraße",
+ "ref":
+ "pmb59800"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/790/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/790/",
+ "head":
+ "Tuchlauben"
+}] 

@@ -1,0 +1,83 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-05-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-05-26.html",
+ "head":
+ "Tagebuch, 26. Mai 1914",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Amsterdam",
+ "ref":
+ "pmb40709"}
+ ,  {
+ "placeName":
+ "Kalverstraat",
+ "ref":
+ "pmb92325"}
+ ,  {
+ "placeName":
+ "Haarlem",
+ "ref":
+ "pmb44256"}
+ ,  {
+ "placeName":
+ "Bloemendaal",
+ "ref":
+ "pmb90362"}
+ ,  {
+ "placeName":
+ "Zandvoort",
+ "ref":
+ "pmb49966"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40709/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40709/",
+ "head":
+ "Amsterdam"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44256/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44256/",
+ "head":
+ "Haarlem"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/49966/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/49966/",
+ "head":
+ "Zandvoort"
+}] 

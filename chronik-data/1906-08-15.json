@@ -1,0 +1,100 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1906-08-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-08-15.html",
+ "head":
+ "Tagebuch, 15. August 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "W. Fred",
+ "ref":
+ "person_15158"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Faun",
+ "ref":
+ "pmb29913"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Weimar",
+ "ref":
+ "pmb197"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/197/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/197/",
+ "head":
+ "Weimar"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041273",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041273.html",
+ "head":
+ "Tagebuch von Schnitzler, 15. 8. 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "W. Fred",
+ "ref":
+ "pmb2226"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Faun",
+ "ref":
+ "pmb29913"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Weimar",
+ "ref":
+ "pmb197"}
+ ]
+}
+}] 

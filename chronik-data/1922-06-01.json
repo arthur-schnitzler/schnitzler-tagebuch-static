@@ -1,0 +1,105 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-06-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-06-01.html",
+ "head":
+ "Tagebuch, 1. Juni 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Michael Kertész",
+ "ref":
+ "person_16824"},
+ {
+ "persName":
+ "Ludwig Klinenberger",
+ "ref":
+ "person_16911"},
+ {
+ "persName":
+ "Karl Rosen",
+ "ref":
+ "person_19358"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Niels Thingberg Thomsen",
+ "ref":
+ "person_20724"},
+ {
+ "persName":
+ "Ladislaus Vajda",
+ "ref":
+ "person_20900"},
+ {
+ "persName":
+ "Richard Specht",
+ "ref":
+ "person_20238"},
+ {
+ "persName":
+ "Arnold Pressburger",
+ "ref":
+ "person_18958"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus",
+ "ref":
+ "pmb32294"}
+ ,  {
+ "title":
+ "Arthur Schnitzler. Der Dichter und sein Werk. Eine Studie",
+ "ref":
+ "pmb30837"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00045716",
+ "head":
+ "Schnitzler, Arthur an Hackel, Bertha [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

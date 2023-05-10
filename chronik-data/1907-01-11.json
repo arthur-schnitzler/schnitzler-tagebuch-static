@@ -1,0 +1,283 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-01-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-01-11.html",
+ "head":
+ "Tagebuch, 11. Januar 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Hiller",
+ "ref":
+ "person_16200"},
+ {
+ "persName":
+ "Julius Lehnert",
+ "ref":
+ "person_17410"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Karl Engel",
+ "ref":
+ "person_14755"},
+ {
+ "persName":
+ "Bruno Walter",
+ "ref":
+ "person_21080"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01650",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01650.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 11. 1. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Henrik Ibsen",
+ "ref":
+ "pmb11798"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Margarethe Kainz",
+ "ref":
+ "pmb2273"},
+ {
+ "persName":
+ "W. Fred",
+ "ref":
+ "pmb2226"},
+ {
+ "persName":
+ "Willi Handl",
+ "ref":
+ "pmb2229"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Lisa Clarus",
+ "ref":
+ "pmb27910"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Hedda Gabler",
+ "ref":
+ "pmb29915"}
+ ,  {
+ "title":
+ "Die gelbe Nachtigall",
+ "ref":
+ "pmb30021"}
+ ,  {
+ "title":
+ "Brief an Arthur Schnitzler",
+ "ref":
+ "pmb30049"}
+ ,  {
+ "title":
+ "Grotesken",
+ "ref":
+ "pmb30091"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Ober Sankt Veit",
+ "ref":
+ "pmb165"}
+ ,  {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb189"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041304",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041304.html",
+ "head":
+ "Bahr an Schnitzler, 11. 1. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Lisa Clarus",
+ "ref":
+ "pmb27910"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Margarethe Kainz",
+ "ref":
+ "pmb2273"},
+ {
+ "persName":
+ "W. Fred",
+ "ref":
+ "pmb2226"},
+ {
+ "persName":
+ "Willi Handl",
+ "ref":
+ "pmb2229"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Hedda Gabler",
+ "ref":
+ "pmb29915"}
+ ,  {
+ "title":
+ "Die gelbe Nachtigall",
+ "ref":
+ "pmb30021"}
+ ,  {
+ "title":
+ "Brief an Arthur Schnitzler",
+ "ref":
+ "pmb30049"}
+ ,  {
+ "title":
+ "Grotesken",
+ "ref":
+ "pmb30091"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Ober Sankt Veit",
+ "ref":
+ "pmb165"}
+ ,  {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb189"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00036244",
+ "head":
+ "Hedley, Elsie F. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

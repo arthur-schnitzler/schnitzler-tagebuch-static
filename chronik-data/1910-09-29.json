@@ -1,0 +1,121 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-09-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-09-29.html",
+ "head":
+ "Tagebuch, 29. September 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rosa Albach-Retty",
+ "ref":
+ "person_13123"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Julius Eder",
+ "ref":
+ "person_14616"},
+ {
+ "persName":
+ "Hermann Müller",
+ "ref":
+ "person_18298"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödiantin",
+ "ref":
+ "pmb36101"}
+ ,  {
+ "title":
+ "Theaterroman",
+ "ref":
+ "pmb30321"}
+ ,  {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Spöttelgasse",
+ "ref":
+ "pmb92539"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Erhalt von Zinaida Vengerova an Arthur Schnitzler, 20. 9. 1910",
+ "source":
+ "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00084409",
+ "head":
+ "Schnitzler, Arthur: Komödiantin [Dramatisches] (Drucktitel)",
+ "text":
+ "Erstes Objekt aus der Mappe. 68 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00084406",
+ "head":
+ "Schnitzler, Arthur: Komödiantin [Dramatisches] (Drucktitel)",
+ "text":
+ "62 Bl.Abschr. mit hs. Korr."
+}] 

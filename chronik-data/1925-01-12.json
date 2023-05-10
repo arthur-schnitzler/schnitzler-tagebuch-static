@@ -1,0 +1,164 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-01-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-01-12.html",
+ "head":
+ "Tagebuch, 12. Januar 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Walter Otto Momber",
+ "ref":
+ "person_18230"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Philipp Witkop",
+ "ref":
+ "person_21401"},
+ {
+ "persName":
+ "Philipp Harden-Rauch",
+ "ref":
+ "person_15920"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Große Szene",
+ "ref":
+ "pmb31429"}
+ ,  {
+ "title":
+ "Die letzten Masken",
+ "ref":
+ "pmb29877"}
+ ,  {
+ "title":
+ "Das Tagebuch der Redegonda",
+ "ref":
+ "pmb30349"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Baden-Baden",
+ "ref":
+ "pmb228"}
+ ,  {
+ "placeName":
+ "Oos",
+ "ref":
+ "pmb90292"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Engadin",
+ "ref":
+ "pmb1061"}
+ ,  {
+ "placeName":
+ "Freiburg im Breisgau",
+ "ref":
+ "pmb631"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/631/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/631/",
+ "head":
+ "Freiburg im Breisgau"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp155",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp155.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 12. Januar 1925"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Hedy Kempny an Arthur Schnitzler, 12.1.1925",
+ "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#g14221ae-8633-4ad0-944c-44805d2c1459",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Alfred Kerr an Arthur Schnitzler, 12.1.1925",
+ "source":
+ "Alfred Kerr, Arthur Schnitzler: »Es ist eine sehr seltsame Gefühlsmischung, die Sie erwecken.« Briefwechsel 1896–1925. Hg. Elgin Helmstaedt. In: Sinn und Form, Jg. 69, H. 5, September/Oktober 2017, S. 581–618."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00035896",
+ "head":
+ "Guttmann, Walter an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

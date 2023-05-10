@@ -1,0 +1,67 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1912-08-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-08-15.html",
+ "head":
+ "Tagebuch, 15. August 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franz Colmers",
+ "ref":
+ "person_14259"},
+ {
+ "persName":
+ "Otto Lenz",
+ "ref":
+ "person_17444"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Vorige",
+ "ref":
+ "pmb30781"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Castelier",
+ "ref":
+ "pmb92185"}
+ ,  {
+ "placeName":
+ "Rancon",
+ "ref":
+ "pmb92472"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45260/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45260/",
+ "head":
+ "Brijuni"
+}] 

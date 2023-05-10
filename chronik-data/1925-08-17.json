@@ -1,0 +1,131 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-08-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-08-17.html",
+ "head":
+ "Tagebuch, 17. August 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bozen",
+ "ref":
+ "pmb40260"}
+ ,  {
+ "placeName":
+ "Passo della Mendola",
+ "ref":
+ "pmb91229"}
+ ,  {
+ "placeName":
+ "Fondo",
+ "ref":
+ "pmb90123"}
+ ,  {
+ "placeName":
+ "Malé",
+ "ref":
+ "pmb90126"}
+ ,  {
+ "placeName":
+ "Passo del Tonale",
+ "ref":
+ "pmb91909"}
+ ,  {
+ "placeName":
+ "Ponte di Legno",
+ "ref":
+ "pmb91500"}
+ ,  {
+ "placeName":
+ "Edolo",
+ "ref":
+ "pmb90563"}
+ ,  {
+ "placeName":
+ "Tirano",
+ "ref":
+ "pmb90129"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40260/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40260/",
+ "head":
+ "Bozen"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91229/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91229/",
+ "head":
+ "Passo della Mendola"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90123/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90123/",
+ "head":
+ "Fondo"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90126/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90126/",
+ "head":
+ "Malé"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90129/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90129/",
+ "head":
+ "Tirano"
+}] 

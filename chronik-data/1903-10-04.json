@@ -1,0 +1,49 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-10-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-10-04.html",
+ "head":
+ "Tagebuch, 4. Oktober 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Peter Rotenstern",
+ "ref":
+ "person_19411"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hermannskogel",
+ "ref":
+ "pmb90863"}
+ ,  {
+ "placeName":
+ "Grinzing",
+ "ref":
+ "pmb90771"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

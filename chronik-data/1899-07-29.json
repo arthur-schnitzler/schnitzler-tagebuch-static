@@ -1,0 +1,151 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-07-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-07-29.html",
+ "head":
+ "Tagebuch, 29. Juli 1899",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Villach",
+ "ref":
+ "pmb92011"}
+ ,  {
+ "placeName":
+ "Tarvisio",
+ "ref":
+ "pmb43059"}
+ ,  {
+ "placeName":
+ "Cave del Predil",
+ "ref":
+ "pmb91558"}
+ ,  {
+ "placeName":
+ "Passo del Predil",
+ "ref":
+ "pmb91536"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00952",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00952.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 29. 7. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Villach",
+ "ref":
+ "pmb40454"}
+ ,  {
+ "placeName":
+ "Tarvisio",
+ "ref":
+ "pmb43059"}
+ ,  {
+ "placeName":
+ "Seeboden",
+ "ref":
+ "pmb34824"}
+ ,  {
+ "placeName":
+ "Villa Platzer",
+ "ref":
+ "pmb40788"}
+ ,  {
+ "placeName":
+ "Hotel Mosser",
+ "ref":
+ "pmb43062"}
+ ,  {
+ "placeName":
+ "Spittal an der Drau",
+ "ref":
+ "pmb41052"}
+ ,  {
+ "placeName":
+ "Toblach",
+ "ref":
+ "pmb987"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92011/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92011/",
+ "head":
+ "Villach"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/43059/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43059/",
+ "head":
+ "Tarvisio"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90081/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90081/",
+ "head":
+ "Lago del Predil"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/43062/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43062/",
+ "head":
+ "Hotel Mosser"
+}] 

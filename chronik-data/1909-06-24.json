@@ -1,0 +1,293 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-06-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-06-24.html",
+ "head":
+ "Tagebuch, 24. Juni 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Grete Jacques",
+ "ref":
+ "person_16485"},
+ {
+ "persName":
+ "Hermann Menkes",
+ "ref":
+ "person_18078"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Alfred von Winterstein",
+ "ref":
+ "person_21387"},
+ {
+ "persName":
+ "Mirjam Horwitz",
+ "ref":
+ "person_21546"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Tagebuch [Berlin: Paul Cassirer]",
+ "ref":
+ "pmb29929"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Breslau",
+ "ref":
+ "pmb677"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041618",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041618.html",
+ "head":
+ "Brahm an Bahr, 24. 6. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Emil Lessing",
+ "ref":
+ "pmb12050"},
+ {
+ "persName":
+ "Emanuel Reicher",
+ "ref":
+ "pmb12491"},
+ {
+ "persName":
+ "Heinz Monnard",
+ "ref":
+ "pmb3960"},
+ {
+ "persName":
+ "Else Lehmann",
+ "ref":
+ "pmb2865"},
+ {
+ "persName":
+ "Irene Triesch",
+ "ref":
+ "pmb12977"},
+ {
+ "persName":
+ "Otto Gebühr",
+ "ref":
+ "pmb11409"},
+ {
+ "persName":
+ "Hilde Herterich",
+ "ref":
+ "pmb4693"},
+ {
+ "persName":
+ "Ida Orloff",
+ "ref":
+ "pmb2556"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Konzert. Lustspiel in drei Akten",
+ "ref":
+ "pmb29933"}
+ ,  {
+ "title":
+ "Komtesse Mizzi oder Der Familientag",
+ "ref":
+ "pmb29931"}
+ ,  {
+ "title":
+ "Der Veilchenfresser",
+ "ref":
+ "pmb32218"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Nauheim",
+ "ref":
+ "pmb648"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Lessing-Theater",
+ "ref":
+ "pmb18"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Hotel Hohenzollern",
+ "ref":
+ "pmb732"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041046",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041046.html",
+ "head":
+ "Tagebuch von Schnitzler, 24. 6. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"},
+ {
+ "persName":
+ "Grete Jacques",
+ "ref":
+ "pmb18743"},
+ {
+ "persName":
+ "Mirjam Horwitz",
+ "ref":
+ "pmb2549"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Hermann Menkes",
+ "ref":
+ "pmb2553"},
+ {
+ "persName":
+ "Alfred von Winterstein",
+ "ref":
+ "pmb13136"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Tagebuch [Berlin: Paul Cassirer]",
+ "ref":
+ "pmb29929"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Breslau",
+ "ref":
+ "pmb677"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Restauration Türkenschanz-Park",
+ "ref":
+ "pmb74"}
+ ]
+}
+}] 

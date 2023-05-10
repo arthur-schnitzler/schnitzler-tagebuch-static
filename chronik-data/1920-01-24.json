@@ -1,0 +1,69 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-01-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-01-24.html",
+ "head":
+ "Tagebuch, 24. Januar 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugen Deimel",
+ "ref":
+ "person_14386"},
+ {
+ "persName":
+ "Erich Wolfgang Korngold",
+ "ref":
+ "person_17058"},
+ {
+ "persName":
+ "Gustaf Linden",
+ "ref":
+ "person_17567"},
+ {
+ "persName":
+ "Robert Michel",
+ "ref":
+ "person_18147"},
+ {
+ "persName":
+ "Gustav Seidler",
+ "ref":
+ "person_20030"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Stockholm",
+ "ref":
+ "pmb1119"}
+ ,  {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

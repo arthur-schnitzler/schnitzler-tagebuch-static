@@ -1,0 +1,140 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-12-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-12-08.html",
+ "head":
+ "Tagebuch, 8. Dezember 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Bekker",
+ "ref":
+ "person_13565"},
+ {
+ "persName":
+ "Emil Geyer",
+ "ref":
+ "person_15412"},
+ {
+ "persName":
+ "Ludwig Karpath",
+ "ref":
+ "person_16736"},
+ {
+ "persName":
+ "Friedrich Gustav Piffl",
+ "ref":
+ "person_18796"},
+ {
+ "persName":
+ "Max Schievelkamp",
+ "ref":
+ "person_19679"},
+ {
+ "persName":
+ "Max Schwarzkopf",
+ "ref":
+ "person_19987"},
+ {
+ "persName":
+ "Franz Steiner",
+ "ref":
+ "person_20372"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "person_20509"},
+ {
+ "persName":
+ "Richard Weiskirchner",
+ "ref":
+ "person_21184"},
+ {
+ "persName":
+ "Julius Herzka",
+ "ref":
+ "person_16159"},
+ {
+ "persName":
+ "Rudolf Holzer",
+ "ref":
+ "person_16339"},
+ {
+ "persName":
+ "Carl Arthur Seefeld",
+ "ref":
+ "person_20014"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Eine Alpensymphonie op. 64",
+ "ref":
+ "pmb76840"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Döbling",
+ "ref":
+ "pmb64219"}
+ ,  {
+ "placeName":
+ "Hochschneeberg",
+ "ref":
+ "pmb5836"}
+ ,  {
+ "placeName":
+ "Brünn",
+ "ref":
+ "pmb833"}
+ ,  {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Gustaf Linden an Arthur Schnitzler, 8.12.1915",
+ "source":
+ "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
+}] 

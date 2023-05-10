@@ -1,0 +1,118 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1902-07-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-07-04.html",
+ "head":
+ "Tagebuch, 4. Juli 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Peter Dorner",
+ "ref":
+ "person_14495"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "person_19828"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brenner",
+ "ref":
+ "pmb608"}
+ ,  {
+ "placeName":
+ "Sterzing",
+ "ref":
+ "pmb40302"}
+ ,  {
+ "placeName":
+ "Mühlbach",
+ "ref":
+ "pmb91308"}
+ ,  {
+ "placeName":
+ "Welsberg-Taisten",
+ "ref":
+ "pmb428"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/608/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/608/",
+ "head":
+ "Brenner"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40302/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40302/",
+ "head":
+ "Sterzing"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91308/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91308/",
+ "head":
+ "Mühlbach"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/428/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/428/",
+ "head":
+ "Welsberg-Taisten"
+}] 

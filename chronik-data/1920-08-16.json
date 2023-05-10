@@ -1,0 +1,276 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-08-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-08-16.html",
+ "head":
+ "Tagebuch, 16. August 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lucy von Jacobi",
+ "ref":
+ "person_16469"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Franz Horch",
+ "ref":
+ "person_16355"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Grimmenstein",
+ "ref":
+ "pmb90767"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02353",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02353.html",
+ "head":
+ "Arthur Schnitzler an Georg Brandes, 16. 8. 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "pmb11461"},
+ {
+ "persName":
+ "Voltaire",
+ "ref":
+ "pmb3124"},
+ {
+ "persName":
+ "Gaius Iulius Caesar",
+ "ref":
+ "pmb14796"},
+ {
+ "persName":
+ "?? [Staatsmann aus der Umgebung Renners]",
+ "ref":
+ "pmb44647"},
+ {
+ "persName":
+ "Karl Renner",
+ "ref":
+ "pmb12507"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "pmb2238"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "pmb2284"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "pmb2461"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Wolfgang Goethe",
+ "ref":
+ "pmb32093"}
+ ,  {
+ "title":
+ "Voltaire und sein Jahrhundert",
+ "ref":
+ "pmb33237"}
+ ,  {
+ "title":
+ "Gaius Julius Cæsar",
+ "ref":
+ "pmb33376"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ,  {
+ "placeName":
+ "Ungarn",
+ "ref":
+ "pmb35512"}
+ ,  {
+ "placeName":
+ "Dänemark",
+ "ref":
+ "pmb43570"}
+ ,  {
+ "placeName":
+ "Niederlande",
+ "ref":
+ "pmb44016"}
+ ,  {
+ "placeName":
+ "Schweden",
+ "ref":
+ "pmb44335"}
+ ,  {
+ "placeName":
+ "Amerika",
+ "ref":
+ "pmb175"}
+ ,  {
+ "placeName":
+ "Skandinavien",
+ "ref":
+ "pmb745"}
+ ,  {
+ "placeName":
+ "Florenz",
+ "ref":
+ "pmb263"}
+ ,  {
+ "placeName":
+ "Amsterdam",
+ "ref":
+ "pmb40709"}
+ ,  {
+ "placeName":
+ "Bad Gastein",
+ "ref":
+ "pmb521"}
+ ,  {
+ "placeName":
+ "Altaussee",
+ "ref":
+ "pmb34401"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Salzkammergut",
+ "ref":
+ "pmb429"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Heinrich Schnitzler, 16. 8. 1920",
+ "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00075227",
+ "head":
+ "Ziegler, Hans an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

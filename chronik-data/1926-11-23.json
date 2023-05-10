@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-11-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-11-23.html",
+ "head":
+ "Tagebuch, 23. November 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ernst Benedikt",
+ "ref":
+ "person_13589"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Ernst Erwin Reicher",
+ "ref":
+ "person_19127"},
+ {
+ "persName":
+ "Karl Anton von Rohan",
+ "ref":
+ "person_19328"},
+ {
+ "persName":
+ "Ilse Ross",
+ "ref":
+ "person_19400"},
+ {
+ "persName":
+ "Ignaz Seipel",
+ "ref":
+ "person_20038"},
+ {
+ "persName":
+ "Karl Seitz",
+ "ref":
+ "person_20044"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Hermann Sudermann",
+ "ref":
+ "person_20563"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Geist im Wort und der Geist in der Tat",
+ "ref":
+ "pmb30051"}
+ ,  {
+ "title":
+ "Das Geheimnis einer Stunde",
+ "ref":
+ "pmb81064"}
+ ,  {
+ "title":
+ "Der tolle Professor",
+ "ref":
+ "pmb77266"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Grinzing",
+ "ref":
+ "pmb90771"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

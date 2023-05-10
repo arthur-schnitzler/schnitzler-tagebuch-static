@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1894-10-07">Sonntag, 7. Oktober 1894</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1894-10-07">
+               <head>Tagebuch, 7. Oktober 1894</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15400">Hugo Gerlach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15558">Olga von Golovin</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17108">Karl Kraus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19564">Adele Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19823">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17597">Minnie Littmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20563">Hermann Sudermann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb78262">Lolo’s Vater</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30397">Die Schmetterlingsschlacht. Komödie in 4 Akten</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-10-07.html</idno>
+            </event>
+            <event when-iso="1894-10-07">
+               <head>Richard Beer-Hofmann an Arthur Schnitzler, 7. 10. 1894</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb36340">Die Zeit. Wiener Wochenschrift</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30397">Die Schmetterlingsschlacht. Komödie in 4 Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb769">Hotel Quirinale</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb59">IX., Alsergrund</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41949">Engelsburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41955">Petersdom</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb445">Rom</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb397">Frankgasse</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00378.html</idno>
+            </event>
+            <event when-iso="1894-10-07">
+               <head>Friedrich M. Fels an Arthur Schnitzler, 7. 10. 1894</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2450">Friedrich Michael Fels</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11406">Julius von Gans-Ludassy</persName>
+                     </person>
+                  </listPerson>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29670">Wiener Allgemeine Zeitung</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb59">IX., Alsergrund</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb397">Frankgasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb727">Währinger Gürtel</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00379.html</idno>
+            </event>
+            <event when-iso="1894-10-07">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1894-10-07">
+               <head>Tagebuch von Schnitzler, 7. 10. 1894</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11988">Karl Kraus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2820">Hugo Gerlach</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12618">Adele Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2589">Johanna Simonetta Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2591">Christian Sandrock</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb17222">Olga von Golovin</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12899">Hermann Sudermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12698">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24423">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28680">Hermine Littmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30397">Die Schmetterlingsschlacht</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30399">Lolos Vater</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041115.html</idno>
+            </event>
+            <event when-iso="1894-10-07">
+               <head>Adele Sandrock an Arthur Schnitzler, 7.10.1894</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118605429">Sandrock, Adele</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Renate Wagner
+                    (Hg.): Dilly. Geschichte einer Liebe in Briefen, Bildern und Dokumenten.
+                    Wien/München: Amalthea 1975.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#g21edf0a-7af3-4163-813b-7d55aaaf2eba"/>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

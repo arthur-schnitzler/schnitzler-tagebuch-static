@@ -1,0 +1,73 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1881-07-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1881-07-16.html",
+ "head":
+ "Tagebuch, 16. Juli 1881",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Obervellach",
+ "ref":
+ "pmb91383"}
+ ,  {
+ "placeName":
+ "Winklern",
+ "ref":
+ "pmb92089"}
+ ,  {
+ "placeName":
+ "Heiligenblut am Großglockner",
+ "ref":
+ "pmb90843"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91383/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91383/",
+ "head":
+ "Obervellach"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92089/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92089/",
+ "head":
+ "Winklern"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90843/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90843/",
+ "head":
+ "Heiligenblut am Großglockner"
+}] 

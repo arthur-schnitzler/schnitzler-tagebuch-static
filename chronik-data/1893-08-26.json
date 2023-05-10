@@ -1,0 +1,91 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-08-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-08-26.html",
+ "head":
+ "Tagebuch, 26. August 1893",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Toblach",
+ "ref":
+ "pmb987"}
+ ,  {
+ "placeName":
+ "Lienz",
+ "ref":
+ "pmb897"}
+ ,  {
+ "placeName":
+ "Dellach im Drautal",
+ "ref":
+ "pmb90519"}
+ ,  {
+ "placeName":
+ "Villach",
+ "ref":
+ "pmb92011"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/987/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/987/",
+ "head":
+ "Toblach"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/897/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/897/",
+ "head":
+ "Lienz"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90519/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90519/",
+ "head":
+ "Dellach im Drautal"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92011/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92011/",
+ "head":
+ "Villach"
+}] 

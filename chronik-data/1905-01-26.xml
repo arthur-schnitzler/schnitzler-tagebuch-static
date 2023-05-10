@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1905-01-26">Donnerstag, 26. Januar 1905</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1905-01-26">
+               <head>Tagebuch, 26. Januar 1905</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13914">Johannes Brahms</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15338">Julius von Gans-Ludassy</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13550">Paula Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16293">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19611">Hermine von Schaffgotsch</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29869">Literatur</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30233">Der Graf von Charolais. Ein Trauerspiel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78213">Serenade Nr. 1 D-Dur op. 11</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-01-26.html</idno>
+            </event>
+            <event when-iso="1905-01-26">
+               <head>Arthur Schnitzler an Richard Beer-Hofmann, 26. 1. 1905</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10860">Paula Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb51616">Internationales Reise-Bureau Schenker</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb51619">Hamburg-Amerika-Linie</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb68">XVIII., Währing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb173">Rodaun</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40101">Liesingerstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41016">Mittelmeer</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb506">Hamburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb38495">Dover</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb15227">Lissabon</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb48004">Funchal</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb16330">Teneriffa</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb951">Tanger</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51646">Gibraltar</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51697">Oran</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43991">Algiers</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb48771">Tunis</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb901">Palermo</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45264">Monreale</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb595">Neapel</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51642">Vesuv</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1283">Pompei</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb994">Genua</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51666">Villefranche-sur-Mer</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb926">Nizza</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb5862">Monte Carlo</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb847">Ajaccio</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb6588">Barcelona</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44129">Messina</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb966">Istanbul</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44099">Izmir</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb49145">Piraeus</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb505">Athen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb48769">Syrakus</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41212">Korfu</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb49149">Kotor</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb682">Dubrovnik</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb4231">Split</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb38096">Opatija</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44246">Rijeka</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb873">Triest</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51692">Schloss Miramare</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb462">Venedig</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44053">New York City</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51675">Ponta Delgada</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51673">Santa Cruz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51657">Cagliari</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51695">Porto</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51699">Saint Thomas</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51706">Saint-Pierre</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51682">Fort-de-France</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb39662">San Juan</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51668">Santiago de Cuba</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb39944">Havana</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51639">Nassau</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51654">Bridgetown</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51701">Port of Spain</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51685">Punta Brea</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51690">La Guaira</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51704">Puerto Cabello</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51660">Curaçao</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51671">Kingston</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb46765">Bermuda</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb46462">Malta</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb12515">Alexandria</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb839">Kairo</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb46759">Beirut</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51663">Damascus</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51648">Baalbek</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51650">Jaffa</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb5297">Jerusalem</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51677">Nafplion</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb49147">Elefsina</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51679">Mycenae</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb919">Capri</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb445">Rom</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50493">Schottenring</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01495.html</idno>
+            </event>
+            <event when-iso="1905-01-26">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

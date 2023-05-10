@@ -1,0 +1,110 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-04-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-04-08.html",
+ "head":
+ "Tagebuch, 8. April 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred Bernau",
+ "ref":
+ "person_13663"},
+ {
+ "persName":
+ "Anton Geiringer",
+ "ref":
+ "person_15368"},
+ {
+ "persName":
+ "Alois Haase",
+ "ref":
+ "person_15818"},
+ {
+ "persName":
+ "Isabella Herz",
+ "ref":
+ "person_16146"},
+ {
+ "persName":
+ "Max Leitner",
+ "ref":
+ "person_17425"},
+ {
+ "persName":
+ "Irene Mandl",
+ "ref":
+ "person_17822"},
+ {
+ "persName":
+ "Thaddäus Rittner",
+ "ref":
+ "person_19290"},
+ {
+ "persName":
+ "Friedrich Rosenthal",
+ "ref":
+ "person_19392"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Othello",
+ "ref":
+ "pmb31671"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ,  {
+ "placeName":
+ "Budapest",
+ "ref":
+ "pmb43471"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 08. April 1919",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

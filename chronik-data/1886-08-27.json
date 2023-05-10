@@ -1,0 +1,108 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1886-08-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1886-08-27.html",
+ "head":
+ "Tagebuch, 27. August 1886",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eveline Brandeis-Weikersheim",
+ "ref":
+ "person_13918"},
+ {
+ "persName":
+ "Marie Engländer",
+ "ref":
+ "person_14761"},
+ {
+ "persName":
+ "Harriet",
+ "ref":
+ "person_15930"},
+ {
+ "persName":
+ "Dorothea Kohnberger",
+ "ref":
+ "person_16995"},
+ {
+ "persName":
+ "Signora S.",
+ "ref":
+ "person_19490"},
+ {
+ "persName":
+ "Str.",
+ "ref":
+ "person_20464"},
+ {
+ "persName":
+ "Viktor von Erlanger",
+ "ref":
+ "person_14794"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Gedichte",
+ "ref":
+ "pmb76533"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "",
+ "ref":
+ "pmb91574"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/483/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/483/",
+ "head":
+ "Reichenau an der Rax"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/796/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/796/",
+ "head":
+ "Thalhof"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00033572",
+ "head":
+ "Engländer, ... an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

@@ -1,0 +1,97 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-01-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-01-28.html",
+ "head":
+ "Tagebuch, 28. Januar 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Irene Auernheimer",
+ "ref":
+ "person_13304"},
+ {
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Ella Frankfurter",
+ "ref":
+ "person_15135"},
+ {
+ "persName":
+ "Leonie Guttmann",
+ "ref":
+ "person_15781"},
+ {
+ "persName":
+ "Émile Zola",
+ "ref":
+ "person_21578"},
+ {
+ "persName":
+ "Richard Charmatz",
+ "ref":
+ "person_14186"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Im Spiel der Sommerlüfte. In drei Aufzügen",
+ "ref":
+ "pmb30945"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Im Bauch von Paris",
+ "ref":
+ "pmb77615"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00038444",
+ "head":
+ "Krug, ... an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Tel. 1 Bl."
+}] 

@@ -1,0 +1,348 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1906-05-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-05-04.html",
+ "head":
+ "Tagebuch, 4. Mai 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Bassermann",
+ "ref":
+ "person_13457"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Grethe Hoffmann",
+ "ref":
+ "person_16273"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Rudolf Rittner",
+ "ref":
+ "person_19288"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"},
+ {
+ "persName":
+ "Kurt Stieler",
+ "ref":
+ "person_20436"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Dora Erl",
+ "ref":
+ "person_14792"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"},
+ {
+ "persName":
+ "Hermine von Schaffgotsch",
+ "ref":
+ "person_19611"},
+ {
+ "persName":
+ "Irene Triesch",
+ "ref":
+ "person_20811"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Puppenspieler",
+ "ref":
+ "pmb29873"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Elga",
+ "ref":
+ "pmb30693"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiednertheater",
+ "ref":
+ "pmb92603"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01595",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01595.html",
+ "head":
+ "Stefan Großmann an Arthur Schnitzler, 4. 5. 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ "pmb11527"},
+ {
+ "persName":
+ "Engelbert Pernerstorfer",
+ "ref":
+ "pmb12408"},
+ {
+ "persName":
+ "Richard Vallentin",
+ "ref":
+ "pmb2235"},
+ {
+ "persName":
+ "Robert Hirschfeld",
+ "ref":
+ "pmb11707"},
+ {
+ "persName":
+ "Alfred Polgar",
+ "ref":
+ "pmb2989"},
+ {
+ "persName":
+ "Theodor Antropp",
+ "ref":
+ "pmb10769"},
+ {
+ "persName":
+ "Leopold Winarsky",
+ "ref":
+ "pmb45524"},
+ {
+ "persName":
+ "Karl Höger",
+ "ref":
+ "pmb46089"},
+ {
+ "persName":
+ "Gustav Harpner",
+ "ref":
+ "pmb11590"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Arbeiter-Zeitung",
+ "ref":
+ "pmb29644"}
+ ,  {
+ "orgName":
+ "Volksbühne Berlin",
+ "ref":
+ "pmb36940"}
+ ,  {
+ "orgName":
+ "Wiener Freie Volksbühne",
+ "ref":
+ "pmb29569"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Mariahilferstraße",
+ "ref":
+ "pmb302"}
+ ,  {
+ "placeName":
+ "Graben",
+ "ref":
+ "pmb39599"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041270",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041270.html",
+ "head":
+ "Tagebuch von Schnitzler, 4. 5. 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "pmb2496"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "pmb2646"},
+ {
+ "persName":
+ "Dora Erl",
+ "ref":
+ "pmb15983"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "pmb11851"},
+ {
+ "persName":
+ "Albert Bassermann",
+ "ref":
+ "pmb10844"},
+ {
+ "persName":
+ "Kurt Stieler",
+ "ref":
+ "pmb10733"},
+ {
+ "persName":
+ "Grethe Hoffmann",
+ "ref":
+ "pmb18378"},
+ {
+ "persName":
+ "Rudolf Rittner",
+ "ref":
+ "pmb12530"},
+ {
+ "persName":
+ "Irene Triesch",
+ "ref":
+ "pmb12977"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Rosa Bahr",
+ "ref":
+ "pmb13682"},
+ {
+ "persName":
+ "Hermine von Schaffgotsch",
+ "ref":
+ "pmb24033"},
+ {
+ "persName":
+ "Marianne Benedict",
+ "ref":
+ "pmb13970"},
+ {
+ "persName":
+ "Emma Sachs",
+ "ref":
+ "pmb23836"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Puppenspieler",
+ "ref":
+ "pmb29873"}
+ ,  {
+ "title":
+ "Elga",
+ "ref":
+ "pmb30693"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Theater an der Wien",
+ "ref":
+ "pmb37"}
+ ,  {
+ "placeName":
+ "Lessing-Theater",
+ "ref":
+ "pmb18"}
+ ,  {
+ "placeName":
+ "Café Imperial",
+ "ref":
+ "pmb43"}
+ ]
+}
+}] 

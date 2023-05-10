@@ -1,0 +1,170 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-10-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-10-04.html",
+ "head":
+ "Tagebuch, 4. Oktober 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ernst Benedikt",
+ "ref":
+ "person_13589"},
+ {
+ "persName":
+ "Arnoldo Cappellini",
+ "ref":
+ "person_14129"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Richard Nikolaus von Coudenhove-Kalergi",
+ "ref":
+ "person_14291"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "person_15499"},
+ {
+ "persName":
+ "Habsburg",
+ "ref":
+ "person_15827"},
+ {
+ "persName":
+ "Franz Herterich",
+ "ref":
+ "person_16125"},
+ {
+ "persName":
+ "Hans Liebstöckl",
+ "ref":
+ "person_17526"},
+ {
+ "persName":
+ "Emil Ludwig",
+ "ref":
+ "person_17726"},
+ {
+ "persName":
+ "Hans Müller",
+ "ref":
+ "person_18297"},
+ {
+ "persName":
+ "Napoleon II.",
+ "ref":
+ "person_18357"},
+ {
+ "persName":
+ "Rudolf Ramek",
+ "ref":
+ "person_19044"},
+ {
+ "persName":
+ "Ida Roland",
+ "ref":
+ "person_19331"},
+ {
+ "persName":
+ "Franz Schalk",
+ "ref":
+ "person_19618"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Siegfried von Strakosch-Feldringen",
+ "ref":
+ "person_20469"},
+ {
+ "persName":
+ "Lothar Wallerstein",
+ "ref":
+ "person_21071"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Sophie Clemenceau",
+ "ref":
+ "person_14240"},
+ {
+ "persName":
+ "Rudolf Holzer",
+ "ref":
+ "person_16339"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Geist im Wort und der Geist in der Tat",
+ "ref":
+ "pmb30051"}
+ ,  {
+ "title":
+ "Spiel im Morgengrauen. Novelle",
+ "ref":
+ "pmb32131"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schönbrunn",
+ "ref":
+ "pmb92518"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Stefan Zweig an Arthur Schnitzler, 4.10.1926",
+ "source":
+ "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
+}] 

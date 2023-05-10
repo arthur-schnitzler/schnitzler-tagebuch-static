@@ -1,0 +1,182 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1931-07-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-07-04.html",
+ "head":
+ "Tagebuch, 4. Juli 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Bayer",
+ "ref":
+ "person_13498"},
+ {
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "person_16292"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Karl Pollak",
+ "ref":
+ "person_18887"},
+ {
+ "persName":
+ "Hildegard Rys",
+ "ref":
+ "person_19487"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Egon Wellesz",
+ "ref":
+ "person_21223"},
+ {
+ "persName":
+ "Clemens Krauss",
+ "ref":
+ "person_17117"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "Die Schwestern oder Casanova in Spa",
+ "ref":
+ "pmb35988"}
+ ,  {
+ "title":
+ "Die Bakchantinnen",
+ "ref":
+ "pmb81474"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Thalheim bei Wels",
+ "ref":
+ "pmb91887"}
+ ,  {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ,  {
+ "placeName":
+ "Kaasgraben",
+ "ref":
+ "pmb92316"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92316/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92316/",
+ "head":
+ "Kaasgraben"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp933",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp933.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 30. Juni – 4. Juli 1931"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp934",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp934.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 4.–10. Juli 1931"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00078307",
+ "head":
+ "Schnitzler, Arthur an Durant, Will [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00041473",
+ "head":
+ "Rohmkopf, Emil an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

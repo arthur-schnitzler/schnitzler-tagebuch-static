@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-05-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-05-06.html",
+ "head":
+ "Tagebuch, 6. Mai 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Bertha Brevée",
+ "ref":
+ "person_13968"},
+ {
+ "persName":
+ "Egbertje Alida Brevée",
+ "ref":
+ "person_13969"},
+ {
+ "persName":
+ "Hermine Brevée",
+ "ref":
+ "person_13970"},
+ {
+ "persName":
+ "Isaac Brevée",
+ "ref":
+ "person_13971"},
+ {
+ "persName":
+ "Theodora Brevée",
+ "ref":
+ "person_13972"},
+ {
+ "persName":
+ "Lodewijk Emanuel Tels",
+ "ref":
+ "person_20661"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Den Haag",
+ "ref":
+ "pmb58810"}
+ ,  {
+ "placeName":
+ "Arnhem",
+ "ref":
+ "pmb64585"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/58810/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/58810/",
+ "head":
+ "Den Haag"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40725/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40725/",
+ "head":
+ "Oosterbeek"
+}] 

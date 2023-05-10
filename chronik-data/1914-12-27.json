@@ -1,0 +1,105 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-12-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-12-27.html",
+ "head":
+ "Tagebuch, 27. Dezember 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich von Kleist",
+ "ref":
+ "person_16900"},
+ {
+ "persName":
+ "Emil Reich",
+ "ref":
+ "person_19115"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"},
+ {
+ "persName":
+ "Richard Specht",
+ "ref":
+ "person_20238"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das neue Lied",
+ "ref":
+ "pmb30655"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "Die Hermannsschlacht",
+ "ref":
+ "pmb62349"}
+ ,  {
+ "title":
+ "Prinz Friedrich von Homburg",
+ "ref":
+ "pmb30029"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Homburg",
+ "ref":
+ "pmb54155"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/CH-002121-2-991170467261305501",
+ "head":
+ "Autogrammkarte / von Arthur Schnitzler",
+ "text":
+ "Autogrammkarte (14 x 9 cm)"
+}] 

@@ -1,0 +1,126 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1929-04-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-04-22.html",
+ "head":
+ "Tagebuch, 22. April 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hedwig Sophie Verena Gossman",
+ "ref":
+ "person_15579"},
+ {
+ "persName":
+ "Oliver Gossman",
+ "ref":
+ "person_15580"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Robert Emmet Sherwood",
+ "ref":
+ "person_20084"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Frau des Richters. Novelle",
+ "ref":
+ "pmb30751"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Theaterroman",
+ "ref":
+ "pmb30321"}
+ ,  {
+ "title":
+ "Hannibal ante portas",
+ "ref":
+ "pmb81308"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "England",
+ "ref":
+ "pmb90593"}
+ ,  {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92202/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92202/",
+ "head":
+ "Deutsches Volkstheater"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp681",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp681.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 22.–27. April 1929"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00082196",
+ "head":
+ "Schnitzler, Arthur an Romani, Otto [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

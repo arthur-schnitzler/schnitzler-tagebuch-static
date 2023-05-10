@@ -1,0 +1,110 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-04-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-04-08.html",
+ "head":
+ "Tagebuch, 8. April 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Babette no name provided",
+ "ref":
+ "person_13339"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Dora Fournier",
+ "ref":
+ "person_15087"},
+ {
+ "persName":
+ "Wilhelm Korvin",
+ "ref":
+ "person_17064"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Siegfried J. Rappa",
+ "ref":
+ "person_19057"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Götz von Berlichingen",
+ "ref":
+ "pmb31071"}
+ ,  {
+ "title":
+ "Don Karlos, Infant von Spanien",
+ "ref":
+ "pmb33023"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ,  {
+ "placeName":
+ "VI., Mariahilf",
+ "ref":
+ "pmb56"}
+ ,  {
+ "placeName":
+ "Alleegasse",
+ "ref":
+ "pmb92138"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j4f39377-ae1d-48c1-9afa-6e4618284c9a",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Theodor Herzl an Arthur Schnitzler, 8.4.1896",
+ "source":
+ "Theodor Herzl: Briefe. Anfang Mai 1895 – Anfang Dezember 1898. Bearbeitet von Barbara Schäfer in Zusammenarbeit mit Sofia Gelmann, Chaya Harel, Ines Rubin, Daisy Ticho. Berlin: Propyläen 1990. (Theodor Herzl: Briefe und Tagebücher. Hg. Alex Bein, Hermann Greive, Moshe Schaerf, Julius H. Schoeps, Johannes Wachten. Vierter Band)"
+}] 

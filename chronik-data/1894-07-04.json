@@ -1,0 +1,74 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1894-07-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-07-04.html",
+ "head":
+ "Tagebuch, 4. Juli 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franziska Reich",
+ "ref":
+ "person_17368"},
+ {
+ "persName":
+ "Bernhard Rothenstein",
+ "ref":
+ "person_19423"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "person_20925"},
+ {
+ "persName":
+ "Regine Zeisler",
+ "ref":
+ "person_21526"},
+ {
+ "persName":
+ "Julius Epstein",
+ "ref":
+ "person_14777"},
+ {
+ "persName":
+ "Franziska Mütter",
+ "ref":
+ "person_18320"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Europa",
+ "ref":
+ "pmb468"}
+ ,  {
+ "placeName":
+ "Ringstraße",
+ "ref":
+ "pmb112"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

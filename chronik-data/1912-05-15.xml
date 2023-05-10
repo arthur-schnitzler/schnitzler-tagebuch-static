@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1912-05-15">Mittwoch, 15. Mai 1912</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1912-05-15">
+               <head>Tagebuch, 15. Mai 1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15134">Albert Frankfurter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19273">Rainer Maria Rilke</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19823">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13550">Paula Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15900">Hermine Klara Hanel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16770">Arthur Kaufmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20552">Eduard Stucken</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb462">Venedig</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb901">Palermo</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb65733">Val Gardena</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92388">Markusplatz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91143">Lido</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-05-15.html</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Arthur Schnitzler an Richard Beer-Hofmann, 15. 5. 1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb462">Venedig</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34050">Hotel de l’Europe</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02066.html</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Hermann Bahr an Arthur Schnitzler, 15. 5. 1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02067.html</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Triest</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/91944/</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Venedig</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/462/</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Hotel de l’Europe</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/34050/</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Bahr an Schnitzler, 15. 5. 1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041353.html</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Stefan Zweig an Arthur Schnitzler, 15.5.1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118637479">Zweig, Stefan</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Stefan Zweig:
+                    Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur
+                    Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater.
+                    Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#d43bae78-6be4-4898-b4e5-86e3d9bc9f34"/>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Unbekannt &lt;Dichter&gt; an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl. in Versen</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00071787</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Unbekannte an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl. in Versen</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00071784</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Wassermann, Jakob an Schnitzler, Arthur [Briefe]</head>
+               <desc>2 Bl.<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/118629387">Wassermann, Jakob (1873-1934)</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00063386</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Samuely, ... an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00077365</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Askonas, Rudolf an Schnitzler, Arthur [Briefe]</head>
+               <desc>2 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00070676</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Bruell, Emil an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/1268411426">Bruell, Emil (1861-1930)</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00070835</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Szigeti, Gera an Schnitzler, Arthur [Briefe]</head>
+               <desc>2 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00072736</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>S..., Else an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00075721</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Marcuse, Julian an Schnitzler, Arthur [Briefe]</head>
+               <desc>2 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00077057</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Schmid, F. O. an Schnitzler, Arthur [Briefe]</head>
+               <desc>2 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00077074</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Naumann, Fritz an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00077296</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Gaschler, Josef an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00077360</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Bütow, Heinrich an Schnitzler, Arthur [Briefe]</head>
+               <desc>2 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00081804</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Salkind, Alexander an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/1028998090">Salkind, Alexander (1887-1940)</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00077366</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Teichmann, Erich an Schnitzler, Arthur [Briefe]</head>
+               <desc>2 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00077369</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Frick, Wilhelm an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00077428</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Molnàr, Mela an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00072709</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Deutsch-Österreichischer Verlag &lt;Wien, Leipzig&gt; an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00075431</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Antiquitäten Stern &lt;Wien&gt; an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00076647</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Israelitische Kultusgemeinde &lt;Wien&gt; an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/123152-2">Israelitische Kultusgemeinde &lt;Wien&gt;</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00077855</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Steif, Max an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00073133</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Verein Jüdischer Hochschüler (Bar Kochba) &lt;Prag&gt; an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/3038783-8">Verein Jüdischer Hochschüler (Bar Kochba) &lt;Prag&gt;</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00075426</idno>
+            </event>
+            <event when-iso="1912-05-15">
+               <head>Wenized, Al. an Schnitzler, Arthur [Briefe]</head>
+               <desc>2 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00075442</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

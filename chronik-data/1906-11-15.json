@@ -1,0 +1,179 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1906-11-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-11-15.html",
+ "head":
+ "Tagebuch, 15. November 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "person_13162"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "person_15306"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Margarethe Kainz",
+ "ref":
+ "person_16647"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Wort. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30615"}
+ ,  {
+ "title":
+ "Der heimliche König",
+ "ref":
+ "pmb76635"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91735/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91735/",
+ "head":
+ "Semmering"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041493",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041493.html",
+ "head":
+ "Bahr: [Buchversandliste Der arme Narr?], [Mitte November? 1906]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Maximilian Harden",
+ "ref":
+ "pmb11581"},
+ {
+ "persName":
+ "Theodor Wolff",
+ "ref":
+ "pmb13163"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "pmb11910"},
+ {
+ "persName":
+ "Aurélien-Marie Lugné-Poe",
+ "ref":
+ "pmb3690"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Ermete Novelli",
+ "ref":
+ "pmb2189"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Willi Handl",
+ "ref":
+ "pmb2229"},
+ {
+ "persName":
+ "Leo Feld",
+ "ref":
+ "pmb18308"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "pmb11851"},
+ {
+ "persName":
+ "Albert Bassermann",
+ "ref":
+ "pmb10844"},
+ {
+ "persName":
+ "Arthur Kahane",
+ "ref":
+ "pmb3025"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"},
+ {
+ "persName":
+ "Otto Julius Bierbaum",
+ "ref":
+ "pmb10928"},
+ {
+ "persName":
+ "Richard Dehmel",
+ "ref":
+ "pmb11148"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Grotesken",
+ "ref":
+ "pmb30091"}
+ ]
+}
+}] 

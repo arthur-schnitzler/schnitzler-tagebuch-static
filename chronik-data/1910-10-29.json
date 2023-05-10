@@ -1,0 +1,206 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-10-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-10-29.html",
+ "head":
+ "Tagebuch, 29. Oktober 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gabriele von Haugwitz",
+ "ref":
+ "person_15977"},
+ {
+ "persName":
+ "Franziska Schneider",
+ "ref":
+ "person_19804"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "person_21047"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die dreifache Warnung",
+ "ref":
+ "pmb33061"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Mantova",
+ "ref":
+ "pmb48637"}
+ ,  {
+ "placeName":
+ "Cremona",
+ "ref":
+ "pmb90500"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01972",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01972.html",
+ "head":
+ "Robert Adam an Arthur Schnitzler, 29. 10. 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Geschichte des Alî ibn Bekkâr mit Schams an-Nahâr",
+ "ref":
+ "pmb33578"}
+ ,  {
+ "title":
+ "Neidhard",
+ "ref":
+ "pmb33580"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Meidlinger Hauptstraße",
+ "ref":
+ "pmb1239"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01973",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01973.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, [29. 10. 1910]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "pmb10866"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Symphonie Nr. 3 es-Dur op. 55 »Eroica«",
+ "ref":
+ "pmb30809"}
+ ,  {
+ "title":
+ "Der Rosenkavalier",
+ "ref":
+ "pmb30341"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hradec nad Moravicí",
+ "ref":
+ "pmb36534"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Schloss Grätz",
+ "ref":
+ "pmb36542"}
+ ,  {
+ "placeName":
+ "Opava",
+ "ref":
+ "pmb36539"}
+ ,  {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040444",
+ "head":
+ "Meyer, Semi an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

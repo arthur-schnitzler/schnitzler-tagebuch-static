@@ -1,0 +1,81 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1892-09-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-09-03.html",
+ "head":
+ "Tagebuch, 3. September 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Hütteneckalm",
+ "ref":
+ "pmb90915"}
+ ,  {
+ "placeName":
+ "Sandling",
+ "ref":
+ "pmb91653"}
+ ,  {
+ "placeName":
+ "Loser",
+ "ref":
+ "pmb52428"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00036441",
+ "head":
+ "Henze von Starorypinski, Max an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max (1871-1903) Henze von Starorypinski",
+ "ref":
+ "http://d-nb.info/gnd/116723157"}]
+}
+}] 

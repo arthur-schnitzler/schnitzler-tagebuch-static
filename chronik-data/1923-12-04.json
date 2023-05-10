@@ -1,0 +1,89 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-12-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-12-04.html",
+ "head":
+ "Tagebuch, 4. Dezember 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rudolf Maria Holzapfel",
+ "ref":
+ "person_16337"},
+ {
+ "persName":
+ "Alexander Moissi",
+ "ref":
+ "person_18209"},
+ {
+ "persName":
+ "Maria Orska",
+ "ref":
+ "person_18582"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Werner Schott",
+ "ref":
+ "person_19874"},
+ {
+ "persName":
+ "George Bernard Shaw",
+ "ref":
+ "person_20080"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Die Jüdin von Toledo",
+ "ref":
+ "pmb34284"}
+ ,  {
+ "title":
+ "Panideal",
+ "ref":
+ "pmb80718"}
+ ,  {
+ "title":
+ "Der Teufelsschüler",
+ "ref":
+ "pmb77096"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

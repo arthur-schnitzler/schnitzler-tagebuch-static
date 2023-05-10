@@ -1,0 +1,159 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1898-08-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-21.html",
+ "head":
+ "Tagebuch, 21. August 1898",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Gletsch",
+ "ref":
+ "pmb90725"}
+ ,  {
+ "placeName":
+ "Furka Pass",
+ "ref":
+ "pmb90677"}
+ ,  {
+ "placeName":
+ "Göschenen",
+ "ref":
+ "pmb90745"}
+ ,  {
+ "placeName":
+ "Luzern",
+ "ref":
+ "pmb967"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00835",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00835.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 21. 8. 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lugano",
+ "ref":
+ "pmb885"}
+ ,  {
+ "placeName":
+ "Luzern",
+ "ref":
+ "pmb967"}
+ ,  {
+ "placeName":
+ "Schweiz",
+ "ref":
+ "pmb43435"}
+ ,  {
+ "placeName":
+ "Hôtel du Parc",
+ "ref":
+ "pmb513"}
+ ,  {
+ "placeName":
+ "Zermatt",
+ "ref":
+ "pmb34007"}
+ ,  {
+ "placeName":
+ "Simplon",
+ "ref":
+ "pmb34011"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90725/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90725/",
+ "head":
+ "Gletsch"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90677/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90677/",
+ "head":
+ "Furka Pass"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90745/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90745/",
+ "head":
+ "Göschenen"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/967/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/967/",
+ "head":
+ "Luzern"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00032889",
+ "head":
+ "Deimel, Hugo A. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

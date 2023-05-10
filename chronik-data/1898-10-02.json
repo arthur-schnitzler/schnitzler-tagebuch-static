@@ -1,0 +1,193 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1898-10-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-10-02.html",
+ "head":
+ "Tagebuch, 2. Oktober 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Beatrice Dovsky",
+ "ref":
+ "person_14501"},
+ {
+ "persName":
+ "Édouard Dujardin",
+ "ref":
+ "person_14542"},
+ {
+ "persName":
+ "Hermann Faber",
+ "ref":
+ "person_14847"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Benvenuto Cellini",
+ "ref":
+ "person_14166"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Les lauriers sont coupés",
+ "ref":
+ "pmb32676"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00849",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00849.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 2. 10. [1898]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Augusto Marseille",
+ "ref":
+ "pmb34144"},
+ {
+ "persName":
+ "Hugo August von Hofmannsthal",
+ "ref":
+ "pmb11737"},
+ {
+ "persName":
+ "Anna von Hofmannsthal",
+ "ref":
+ "pmb18404"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Gabriele D’Annunzio",
+ "ref":
+ "pmb2142"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Vermächtnis. Schauspiel in drei Akten",
+ "ref":
+ "pmb30219"}
+ ,  {
+ "title":
+ "Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter",
+ "ref":
+ "pmb32562"}
+ ,  {
+ "title":
+ "Der Abenteurer und die Sängerin oder Die Geschenke des Lebens",
+ "ref":
+ "pmb32512"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hotel de l’Europe",
+ "ref":
+ "pmb34050"}
+ ,  {
+ "placeName":
+ "Canal Grande",
+ "ref":
+ "pmb34052"}
+ ,  {
+ "placeName":
+ "Neuenburgersee",
+ "ref":
+ "pmb34061"}
+ ,  {
+ "placeName":
+ "Bologna",
+ "ref":
+ "pmb896"}
+ ,  {
+ "placeName":
+ "Florenz",
+ "ref":
+ "pmb263"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 2.10.1898",
+ "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}] 

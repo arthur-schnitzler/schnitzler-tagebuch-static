@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1930-10-30">Donnerstag, 30. Oktober 1930</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1930-10-30">
+               <head>Der Sekundant, Typoskript</head>
+               <desc>Publikation in Vorbereitung</desc>
+               <idno type="Arthur-Schnitzler-digital">https://www.schnitzler-edition.net</idno>
+            </event>
+            <event when-iso="1930-10-30">
+               <head>Tagebuch, 30. Oktober 1930</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13137">Eugen Albu</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13547">Gabriel Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13704">Martin Beyer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14232">Rosina Maria Clauser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14234">Suzanne Clauser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14762">Victor Engländer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14877">Renée Falconetti</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15229">Louis Philipp Friedmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15414">Georg Geyer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16044">Otto Hein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16807">Hedy Kempny</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17038">Marianne Koppel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17096">Eduard Kratky</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18396">Martin Netke</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19067">Josef Karl Ratislav</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19182">Maurice Rémon</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19688">Joseph Schildkraut</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19823">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20523">Anna Sikora</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20524">Elisabeth Strial</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21220">Friedrich Weleminsky</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21243">Franz Werfel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21328">Anton Wildgans</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21600">Marianne Giustiniani</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14652">Robert Ehrhart von Ehrhartstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19802">Edith Schneider</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16277">Norbert Hoffmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16293">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17037">Louise Koppel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18881">Frieda Pollak</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19704">Otto Paul Schinnerer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21602">Victor Zuckerkandl</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30863">Flucht in die Finsternis</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30953">Der Sekundant</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30945">Im Spiel der Sommerlüfte. In drei Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32131">Spiel im Morgengrauen. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30117">Sterben. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32049">Zug der Schatten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76571">Das Reich Gottes in Böhmen</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb43406">Vereinigte Staaten von Amerika (USA)</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44053">New York City</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb318">Japan</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92168">Blaasstraße</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-10-30.html</idno>
+            </event>
+            <event when-iso="1930-10-30">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1930-10-30">
+               <head>Blaasstraße</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/92168/</idno>
+            </event>
+            <event when-iso="1930-10-30">
+               <head>Tagebuch von Clara Katharina Pollaczek, 28. Oktober – 4. November 1930</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp843.html</idno>
+            </event>
+            <event when-iso="1930-10-30">
+               <head>Traum vom 30. Oktober 1930</head>
+               <desc>
+                  <bibl>Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)</bibl>
+               </desc>
+               <idno type="schnitzler-traeume" subtype="#ISBN978-3-8353-1029-2"/>
+            </event>
+            <event when-iso="1930-10-30">
+               <head>Hirsch, Bruno an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl. Vis.kte</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00036671</idno>
+            </event>
+            <event when-iso="1930-10-30">
+               <head>Schnitzler, Arthur: Der Sekundant [Prosa] (Drucktitel)</head>
+               <desc>Letztes Objekt aus der Mappe. 58 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00080193</idno>
+            </event>
+            <event when-iso="1930-10-30">
+               <head>Schnitzler, Arthur: Der Sekundant [Prosa] (Drucktitel)</head>
+               <desc>Letztes Objekt aus der Mappe. ca 56 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00080461</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

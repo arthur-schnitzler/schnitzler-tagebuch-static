@@ -1,0 +1,128 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1929-03-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-03-07.html",
+ "head":
+ "Tagebuch, 7. März 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Büchner",
+ "ref":
+ "person_14047"},
+ {
+ "persName":
+ "Franz Theodor Csokor",
+ "ref":
+ "person_14316"},
+ {
+ "persName":
+ "Leonhard Frank",
+ "ref":
+ "person_15127"},
+ {
+ "persName":
+ "Ivan Mosjoukine",
+ "ref":
+ "person_18268"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Franz Horch",
+ "ref":
+ "person_16355"},
+ {
+ "persName":
+ "Hermann Heinz Ortner",
+ "ref":
+ "person_18583"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Wort. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30615"}
+ ,  {
+ "title":
+ "Die Dreigroschenoper",
+ "ref":
+ "pmb53718"}
+ ,  {
+ "title":
+ "Der Adjutant des Zaren",
+ "ref":
+ "pmb81380"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00079264",
+ "head":
+ "Schnitzler, Arthur an Dauli, Gian [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00044541",
+ "head":
+ "Schnitzler, Arthur an Arbeiter-Krankenversicherung &lt;Wien&gt; [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

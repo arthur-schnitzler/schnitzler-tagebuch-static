@@ -1,0 +1,303 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-05-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-05-03.html",
+ "head":
+ "Tagebuch, 3. Mai 1893"
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00208",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00208.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 3. 5. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "pmb12695"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"},
+ {
+ "persName":
+ "Johanna Willheim",
+ "ref":
+ "pmb41373"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "pmb12698"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "pmb2461"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "pmb2284"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "M. Engel und Söhne",
+ "ref":
+ "pmb41364"}
+ ,  {
+ "orgName":
+ "Allgemeine Poliklinik",
+ "ref":
+ "pmb41367"}
+ ,  {
+ "orgName":
+ "Dannebrogorden",
+ "ref":
+ "pmb41395"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lichtenfelsgasse",
+ "ref":
+ "pmb95"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Wollzeile",
+ "ref":
+ "pmb338"}
+ ,  {
+ "placeName":
+ "Dänemark",
+ "ref":
+ "pmb43570"}
+ ,  {
+ "placeName":
+ "Burgring",
+ "ref":
+ "pmb274"}
+ ,  {
+ "placeName":
+ "Wiener Zentralfriedhof",
+ "ref":
+ "pmb41376"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00209",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00209.html",
+ "head":
+ "Arthur von Suttner an Arthur Schnitzler, 3. 5. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur Gundaccar von Suttner",
+ "ref":
+ "pmb4149"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "pmb12695"},
+ {
+ "persName":
+ "Bertha von Suttner",
+ "ref":
+ "pmb12906"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Harmannsdorf",
+ "ref":
+ "pmb49283"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Schloss Harmannsdorf",
+ "ref":
+ "pmb49303"}
+ ,  {
+ "placeName":
+ "Eggenburg",
+ "ref":
+ "pmb49301"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00210",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00210.html",
+ "head":
+ "Bertha von Suttner an Arthur Schnitzler, 3. 5. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Bertha von Suttner",
+ "ref":
+ "pmb12906"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "pmb12695"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Harmannsdorf",
+ "ref":
+ "pmb49283"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d2b0f559-bde7-4114-82b9-741a8810c463",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Olga Waissnix an Arthur Schnitzler, 3.5.1893",
+ "source":
+ "Arthur Schnitzler und Waissnix, Olga: Liebe, die starb vor der Zeit. Ein Briefwechsel. Mit einem Vorwort von Hans Weigel. Mit 16 Seiten Kunstdruckbildern. Hg. v. Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d2b0f559-bde7-4114-82b9-741a8810c463",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Olga Waissnix an Arthur Schnitzler, 3.5.1893",
+ "source":
+ "Arthur Schnitzler und Waissnix, Olga: Liebe, die starb vor der Zeit. Ein Briefwechsel. Mit einem Vorwort von Hans Weigel. Mit 16 Seiten Kunstdruckbildern. Hg. v. Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040256",
+ "head":
+ "Marmorek, Oskar an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00077452",
+ "head":
+ "Riewzi, Helene von an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00064905",
+ "head":
+ "Suttner, A. G. von an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

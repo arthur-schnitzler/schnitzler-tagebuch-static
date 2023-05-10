@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1923-12-29">Samstag, 29. Dezember 1923</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1923-12-29">
+               <head>Tagebuch, 29. Dezember 1923</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30205">Komödie der Verführung. In drei Akten</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-12-29.html</idno>
+            </event>
+            <event when-iso="1923-12-29">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1923-12-29">
+               <head>Olga an Arthur Schnitzler, 29. 12. 1923</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28991">Salzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28992">Salzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23923">Sophie Salz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11187">Georges Duhamel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2315">Elisabeth Steinrück</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12524">Erwin Rieger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11806">Lucy von Jacobi</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11930">Ludwig Klages</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5091">Arthur Salz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5101">Édouard Schuré</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28692">Pythagoras</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4336">Platon</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26411">Rahel von Varnhagen-Ense</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28982">Ferdynand Antoni Ossendowski</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28987">Roman von Ungern-Sternberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb20346">Josef Lesowsky</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2238">Lili Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32886">Die Gnade</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32888">Georges Duhamel. Zu seinem Wiener Vortrag am 7. Dezember</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32848">Theater, Kunst und Literatur. Carl-Theater [Duse als Hedda Gabler]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32894">Vom kosmogonischen Eros</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32896">Die Großen Eingeweihten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32890">Rahel. Ein Buch des Andenkens für ihre Freunde</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32884">Tiere, Menschen und Götter</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb228">Baden-Baden</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1019">Asien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb468">Europa</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1020">Tschita</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43435">Schweiz</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29387">Die weißen Blätter</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29388">Ignaz Bittmann</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041676.html</idno>
+            </event>
+            <event when-iso="1923-12-29">
+               <head>Olga Schnitzler an Arthur Schnitzler, 29.12.1923</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116848723">Schnitzler, Olga</persName>
+                     </person>
+                  </listPerson>
+                  <bibl> Hermann
+                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
+                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
+                    Verlag 2018 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
+            </event>
+            <event when-iso="1923-12-29">
+               <head>Schnitzler, Arthur an Marmorek, Nelly [Briefe]</head>
+               <desc>1 Bl.Durchschl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00047644</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

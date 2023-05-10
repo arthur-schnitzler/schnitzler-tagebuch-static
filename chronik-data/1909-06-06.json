@@ -1,0 +1,120 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-06-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-06-06.html",
+ "head":
+ "Tagebuch, 6. Juni 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ernst von Dohnányi",
+ "ref":
+ "person_14473"},
+ {
+ "persName":
+ "Erna Fleischer",
+ "ref":
+ "person_15033"},
+ {
+ "persName":
+ "Felix Mendelssohn-Bartholdy",
+ "ref":
+ "person_18066"},
+ {
+ "persName":
+ "Friedrich von Oppeln-Bronikowski",
+ "ref":
+ "person_18559"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Ernst von Schuch",
+ "ref":
+ "person_19906"},
+ {
+ "persName":
+ "Stendhal",
+ "ref":
+ "person_20397"},
+ {
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "person_21109"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Der Schleier der Pierrette",
+ "ref":
+ "pmb30215"}
+ ,  {
+ "title":
+ "Henriette Jacoby",
+ "ref":
+ "pmb78824"}
+ ,  {
+ "title":
+ "Italienische Novellen",
+ "ref":
+ "pmb77817"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Währing",
+ "ref":
+ "pmb90546"}
+ ,  {
+ "placeName":
+ "Dresden",
+ "ref":
+ "pmb90550"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00045197",
+ "head":
+ "Schnitzler, Arthur an Desoff, Albert [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

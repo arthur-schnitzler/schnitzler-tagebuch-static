@@ -1,0 +1,117 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-01-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-01-28.html",
+ "head":
+ "Tagebuch, 28. Januar 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Edmund Pietrkowski",
+ "ref":
+ "person_18793"},
+ {
+ "persName":
+ "Max Scheler",
+ "ref":
+ "person_19643"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Louise Koppel",
+ "ref":
+ "person_17037"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sankt Moritz",
+ "ref":
+ "pmb44374"}
+ ,  {
+ "placeName":
+ "Chantarella",
+ "ref":
+ "pmb92186"}
+ ,  {
+ "placeName":
+ "Campfer",
+ "ref":
+ "pmb90434"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44374/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44374/",
+ "head":
+ "Sankt Moritz"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Hedy Kempny an Arthur Schnitzler, 28.1.1925",
+ "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00070079",
+ "head":
+ "Schnitzler, Arthur an Kerr, Alfred [Briefe]",
+ "text":
+ "7 Bl.Kopie",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred (1867-1948) Kerr",
+ "ref":
+ "http://d-nb.info/gnd/11856157X"}]
+}
+}] 

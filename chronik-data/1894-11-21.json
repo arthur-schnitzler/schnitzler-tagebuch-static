@@ -1,0 +1,145 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1894-11-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-11-21.html",
+ "head":
+ "Tagebuch, 21. November 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Guy de Maupassant",
+ "ref":
+ "person_17985"},
+ {
+ "persName":
+ "Hans Sachs",
+ "ref":
+ "person_19503"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Augustinerstraße",
+ "ref":
+ "pmb55097"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00403",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00403.html",
+ "head":
+ "Arthur Schnitzler an Max Burckhard, 21. 11. 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karl Glossy",
+ "ref":
+ "pmb11447"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "pmb12618"},
+ {
+ "persName":
+ "Stella Hohenfels",
+ "ref":
+ "pmb2850"},
+ {
+ "persName":
+ "Agnes Sorma",
+ "ref":
+ "pmb2299"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Schnitzlers Einzug ins Burgtheater",
+ "ref":
+ "pmb33434"}
+ ,  {
+ "title":
+ "Neue Freie Presse",
+ "ref":
+ "pmb36374"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 21. November 1894",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

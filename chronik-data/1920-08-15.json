@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-08-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-08-15.html",
+ "head":
+ "Tagebuch, 15. August 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "person_15499"},
+ {
+ "persName":
+ "Felix Kopetzky",
+ "ref":
+ "person_17034"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Sophie Dorothea",
+ "ref":
+ "person_20214"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Brehms Tierleben",
+ "ref":
+ "pmb30011"}
+ ,  {
+ "title":
+ "Geschichte der Frau Marquise von Cremy, von ihr selbst geschrieben",
+ "ref":
+ "pmb79295"}
+ ,  {
+ "title":
+ "Annalen",
+ "ref":
+ "pmb76786"}
+ ,  {
+ "title":
+ "Professor Unrat oder Das Ende eines Tyrannen. Roman",
+ "ref":
+ "pmb76567"}
+ ,  {
+ "title":
+ "Caroline",
+ "ref":
+ "pmb81261"}
+ ,  {
+ "title":
+ "Memoiren",
+ "ref":
+ "pmb81330"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Dornbacher Park",
+ "ref":
+ "pmb176"}
+ ,  {
+ "placeName":
+ "Salmannsdorf",
+ "ref":
+ "pmb91641"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1912-06-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-06-18.html",
+ "head":
+ "Tagebuch, 18. Juni 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jacques Fürst",
+ "ref":
+ "person_15288"},
+ {
+ "persName":
+ "Franz Reinhard",
+ "ref":
+ "person_19148"},
+ {
+ "persName":
+ "Therese Reinhard",
+ "ref":
+ "person_19151"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "person_20925"},
+ {
+ "persName":
+ "Isabella Vengerova",
+ "ref":
+ "person_21231"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Mörderin",
+ "ref":
+ "pmb33792"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Seegasse",
+ "ref":
+ "pmb92526"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

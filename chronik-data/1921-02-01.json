@@ -1,0 +1,191 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-02-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-02-01.html",
+ "head":
+ "Tagebuch, 1. Februar 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred Bernau",
+ "ref":
+ "person_13663"},
+ {
+ "persName":
+ "Erich Wolfgang Korngold",
+ "ref":
+ "person_17058"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "rue de Maubeuge",
+ "ref":
+ "pmb592"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/35092/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/35092/",
+ "head":
+ "Premiere von Reigen. Zehn Dialoge, 1.2.1921",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "pmb12698"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "pmb24423"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "pmb24420"},
+ {
+ "persName":
+ "Nelly Hochwald",
+ "ref":
+ "pmb18348"},
+ {
+ "persName":
+ "Marietta Olly",
+ "ref":
+ "pmb22156"},
+ {
+ "persName":
+ "Heinz Schulbaur",
+ "ref":
+ "pmb10736"},
+ {
+ "persName":
+ "Leopold Iwald",
+ "ref":
+ "pmb18710"},
+ {
+ "persName":
+ "Oskar Sima",
+ "ref":
+ "pmb24941"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kammerspiele des Deutschen Volkstheaters",
+ "ref":
+ "pmb43303"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Kammerspiele Wien",
+ "ref":
+ "pmb37179"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00037646",
+ "head":
+ "Klimont, J. M. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

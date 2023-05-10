@@ -1,0 +1,57 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1890-12-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1890-12-05.html",
+ "head":
+ "Tagebuch, 5. Dezember 1890",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Friedrich Schik",
+ "ref":
+ "person_19685"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Lieder des Mirza Schaffy",
+ "ref":
+ "pmb81218"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Streitberger",
+ "ref":
+ "pmb92556"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

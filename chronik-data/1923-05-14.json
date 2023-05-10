@@ -1,0 +1,177 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-05-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-05-14.html",
+ "head":
+ "Tagebuch, 14. Mai 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Viggo Louis Cavling",
+ "ref":
+ "person_14164"},
+ {
+ "persName":
+ "Louis Leonor Hammerich",
+ "ref":
+ "person_15885"},
+ {
+ "persName":
+ "Marc Kalckar",
+ "ref":
+ "person_16657"},
+ {
+ "persName":
+ "von Kooge",
+ "ref":
+ "person_17029"},
+ {
+ "persName":
+ "Bertel Thorvaldsen",
+ "ref":
+ "person_20727"},
+ {
+ "persName":
+ "Harald Frost",
+ "ref":
+ "person_15276"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Weihnachts-Einkäufe",
+ "ref":
+ "pmb30163"}
+ ,  {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Elskovsleg",
+ "ref":
+ "pmb32800"}
+ ,  {
+ "title":
+ "Das Schicksal des Freiherrn von Leisenbohg. Novellette",
+ "ref":
+ "pmb30057"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Thorvaldsen-Museum",
+ "ref":
+ "pmb92567"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/36300/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/36300/",
+ "head":
+ "Kopenhagen"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/58094/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/58094/",
+ "head":
+ "Hotel Phönix"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp062",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp062.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 8.–14. Mai 1923"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/62185/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/62185/",
+ "head":
+ "Vorlesung von Leisenbohg, Weihnachts-Einkäufe, Der grüne Kakadu, 14.5.1923",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Das Schicksal des Freiherrn von Leisenbohg. Novellette",
+ "ref":
+ "pmb30057"}
+ ,  {
+ "title":
+ "Weihnachts-Einkäufe",
+ "ref":
+ "pmb30163"}
+ ,  {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Politiken",
+ "ref":
+ "pmb29628"}
+ ]
+}
+}] 

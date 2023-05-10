@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1917-05-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-05-10.html",
+ "head":
+ "Tagebuch, 10. Mai 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Immanuel Kant",
+ "ref":
+ "person_16688"},
+ {
+ "persName":
+ "Paul Weingarten",
+ "ref":
+ "person_21171"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der letzte Brief eines Literaten",
+ "ref":
+ "pmb30893"}
+ ,  {
+ "title":
+ "Jacques le fataliste et son maître",
+ "ref":
+ "pmb31657"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Weidlingbach",
+ "ref":
+ "pmb44394"}
+ ,  {
+ "placeName":
+ "Hermannskogel",
+ "ref":
+ "pmb90863"}
+ ,  {
+ "placeName":
+ "Döbling",
+ "ref":
+ "pmb64219"}
+ ,  {
+ "placeName":
+ "Weidling",
+ "ref":
+ "pmb44392"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

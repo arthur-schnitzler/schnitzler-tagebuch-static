@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1896-11-03">Dienstag, 3. November 1896</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1896-11-03">
+               <head>Tagebuch, 3. November 1896</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13859">Georg Bondi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13913">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16819">Alfred Kerr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17789">Paul Mahn</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17834">Heinrich Mann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19288">Rudolf Rittner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19724">Paul Schlenther</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19759">Erich Schmidt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20219">Agnes Sorma</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16574">Paul Jonas</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb90466">Charlottenburg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-11-03.html</idno>
+            </event>
+            <event when-iso="1896-11-03">
+               <head>Berlin</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+            </event>
+            <event when-iso="1896-11-03">
+               <head>Uraufführung von Freiwild. Schauspiel in 3 Akten, 3.11.1896</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29899" type="auffuhrung-von-urauffuhrung-von">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb118011" type="wird-rezensiert-in">Courrier des Théatres [Freiwild in Berlin und Liebelei]</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2193" type="hat-als-arbeitskraft">Oskar Sauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21985" type="hat-als-arbeitskraft">Hermann Nissen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb16275" type="hat-als-arbeitskraft">Hanns Friedrich Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12491" type="hat-als-arbeitskraft">Emanuel Reicher</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb62954" type="hat-als-arbeitskraft">Guido Thielscher</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb62956" type="hat-als-arbeitskraft">Hermann Müller</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12504" type="hat-als-arbeitskraft">Max Reinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10925" type="hat-als-arbeitskraft">Paul Biensfeldt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb15622" type="hat-als-arbeitskraft">Paula Eberty</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2235" type="hat-als-arbeitskraft">Richard Vallentin</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12050" type="hat-als-arbeitskraft">Emil Lessing</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb3" type="veranstaltet-in">Deutsches Theater Berlin</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb35597" type="veranstaltet-von">Deutsches Theater Berlin</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/35152/</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

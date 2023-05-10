@@ -1,0 +1,115 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-11-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-11-04.html",
+ "head":
+ "Tagebuch, 4. November 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Angelo Neumann",
+ "ref":
+ "person_18413"},
+ {
+ "persName":
+ "Heinrich Teweles",
+ "ref":
+ "person_20682"},
+ {
+ "persName":
+ "Friedrich Adler",
+ "ref":
+ "person_13097"},
+ {
+ "persName":
+ "Alois Weinert",
+ "ref":
+ "person_21169"},
+ {
+ "persName":
+ "Charlotte Bondy",
+ "ref":
+ "person_13860"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Tagebuch einer Verlorenen. Von einer Toten",
+ "ref":
+ "pmb78653"}
+ ,  {
+ "title":
+ "Er, sie und er",
+ "ref":
+ "pmb76622"}
+ ,  {
+ "title":
+ "Herbst",
+ "ref":
+ "pmb81267"}
+ ,  {
+ "title":
+ "Die Medaille",
+ "ref":
+ "pmb77316"}
+ ,  {
+ "title":
+ "Der dankbare Julien",
+ "ref":
+ "pmb79519"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/652/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/652/",
+ "head":
+ "Prag"
+}] 

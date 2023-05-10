@@ -1,0 +1,177 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net",
+ "head":
+ "Traumnovelle, Typoskript, 11.01.1923 oder 18.01.1923",
+ "text":
+ "Publikation in Vorbereitung"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-01-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-01-18.html",
+ "head":
+ "Tagebuch, 18. Januar 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rudolf Beer",
+ "ref":
+ "person_13545"},
+ {
+ "persName":
+ "Alfred Bernau",
+ "ref":
+ "person_13663"},
+ {
+ "persName":
+ "Waldemar Bonsels",
+ "ref":
+ "person_13870"},
+ {
+ "persName":
+ "Arnold Korff",
+ "ref":
+ "person_17046"},
+ {
+ "persName":
+ "Robert Lichtenstern",
+ "ref":
+ "person_17509"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Arthur Markus",
+ "ref":
+ "person_17915"},
+ {
+ "persName":
+ "Alfred Savoir",
+ "ref":
+ "person_19593"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Siegfried Geyer",
+ "ref":
+ "person_15415"},
+ {
+ "persName":
+ "Geza Silberer",
+ "ref":
+ "person_20108"},
+ {
+ "persName":
+ "Alfred Bloch",
+ "ref":
+ "person_13785"},
+ {
+ "persName":
+ "Otto Eirich",
+ "ref":
+ "person_14674"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fräulein Else",
+ "ref":
+ "pmb29941"}
+ ,  {
+ "title":
+ "Die Frau des Richters. Novelle",
+ "ref":
+ "pmb30751"}
+ ,  {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Traumnovelle",
+ "ref":
+ "pmb30851"}
+ ,  {
+ "title":
+ "Die Biene Maja und ihre Abenteuer",
+ "ref":
+ "pmb80212"}
+ ,  {
+ "title":
+ "Banco!",
+ "ref":
+ "pmb81249"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Riemergasse",
+ "ref":
+ "pmb51922"}
+ ,  {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00050071",
+ "head":
+ "Schnitzler, Arthur an Stadttheater &lt;Zürich&gt; [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stadttheater &lt;Zürich&gt;",
+ "ref":
+ "http://d-nb.info/gnd/504479-0"}]
+}
+}] 

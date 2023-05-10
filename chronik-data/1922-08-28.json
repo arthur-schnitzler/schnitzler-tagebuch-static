@@ -1,0 +1,89 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-08-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-08-28.html",
+ "head":
+ "Tagebuch, 28. August 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Lisa Mautner",
+ "ref":
+ "person_18001"},
+ {
+ "persName":
+ "Franz Pollaczek",
+ "ref":
+ "person_18864"},
+ {
+ "persName":
+ "Marianne Pollaczek",
+ "ref":
+ "person_18868"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berchtesgaden",
+ "ref":
+ "pmb797"}
+ ,  {
+ "placeName":
+ "Doktorberg",
+ "ref":
+ "pmb92208"}
+ ,  {
+ "placeName":
+ "Lockstein",
+ "ref":
+ "pmb92379"}
+ ,  {
+ "placeName":
+ "Königsseestraße",
+ "ref":
+ "pmb92342"}
+ ,  {
+ "placeName":
+ "Schönau am Königsee",
+ "ref":
+ "pmb91693"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/797/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/797/",
+ "head":
+ "Berchtesgaden"
+}] 

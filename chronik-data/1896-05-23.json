@@ -1,0 +1,242 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-05-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-05-23.html",
+ "head":
+ "Tagebuch, 23. Mai 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "person_20714"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"},
+ {
+ "persName":
+ "Anton Bettelheim",
+ "ref":
+ "person_13699"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Zerrissene",
+ "ref":
+ "pmb41412"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00546",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00546.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, 23. 5. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "pmb11461"},
+ {
+ "persName":
+ "Gotthold Ephraim Lessing",
+ "ref":
+ "pmb12053"},
+ {
+ "persName":
+ "Friedrich Hebbel",
+ "ref":
+ "pmb2404"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"},
+ {
+ "persName":
+ "Hippolyte Taine",
+ "ref":
+ "pmb12913"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ "pmb29899"}
+ ,  {
+ "title":
+ "Poesie und Leben. Aus einem Vortrage",
+ "ref":
+ "pmb39977"}
+ ,  {
+ "title":
+ "Die Revolution",
+ "ref":
+ "pmb41409"}
+ ,  {
+ "title":
+ "Ollapatrida des durchgetriebenen Fuchsmundi",
+ "ref":
+ "pmb36728"}
+ ,  {
+ "title":
+ "West-östlicher Divan",
+ "ref":
+ "pmb33937"}
+ ,  {
+ "title":
+ "?? [Englischer Kriminalroman]",
+ "ref":
+ "pmb39981"}
+ ,  {
+ "title":
+ "Die Frau des Weisen. Erzählung",
+ "ref":
+ "pmb30075"}
+ ,  {
+ "title":
+ "Der Zerrissene",
+ "ref":
+ "pmb41412"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Tlumatsch",
+ "ref":
+ "pmb636"}
+ ,  {
+ "placeName":
+ "Norwegen",
+ "ref":
+ "pmb64465"}
+ ,  {
+ "placeName":
+ "Schweden",
+ "ref":
+ "pmb44335"}
+ ,  {
+ "placeName":
+ "Dänemark",
+ "ref":
+ "pmb43570"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/41414/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/41414/",
+ "head":
+ "Premiere von Der Zerrissene, 23.5.1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Anton Bettelheim",
+ "ref":
+ "pmb10912"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "pmb12948"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Raimund-Theater",
+ "ref":
+ "pmb77"}
+ ]
+}
+}] 

@@ -1,0 +1,83 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-01-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-01-18.html",
+ "head":
+ "Tagebuch, 18. Januar 1905"
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01491",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01491.html",
+ "head":
+ "Arthur Schnitzler an Gerhart Hauptmann, 18. 1. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"},
+ {
+ "persName":
+ "Margarete Hauptmann",
+ "ref":
+ "pmb11621"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Elga",
+ "ref":
+ "pmb30693"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Franz-Grillparzer-Preis",
+ "ref":
+ "pmb29677"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

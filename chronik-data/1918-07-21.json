@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-07-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-07-21.html",
+ "head":
+ "Tagebuch, 21. Juli 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich Abel",
+ "ref":
+ "person_13078"},
+ {
+ "persName":
+ "Jeanette Heeger",
+ "ref":
+ "person_16022"},
+ {
+ "persName":
+ "Arthur Johannes Scholz",
+ "ref":
+ "person_19860"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "person_20925"},
+ {
+ "persName":
+ "Marianne Giustiniani",
+ "ref":
+ "person_21600"},
+ {
+ "persName":
+ "Otto Zuckerkandl",
+ "ref":
+ "person_21601"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Aida",
+ "ref":
+ "pmb30365"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gutenstein",
+ "ref":
+ "pmb1036"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

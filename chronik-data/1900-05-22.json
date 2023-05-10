@@ -1,0 +1,90 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-05-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-05-22.html",
+ "head":
+ "Tagebuch, 22. Mai 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Helene Chudzikiewicz",
+ "ref":
+ "person_14213"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "person_16222"},
+ {
+ "persName":
+ "Leopoldine Müller",
+ "ref":
+ "person_18303"},
+ {
+ "persName":
+ "Josefine Lydia von Weisswasser",
+ "ref":
+ "person_21214"},
+ {
+ "persName":
+ "Lotte Witt",
+ "ref":
+ "person_21403"},
+ {
+ "persName":
+ "Ida d’Albert",
+ "ref":
+ "person_13131"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Pauline",
+ "ref":
+ "pmb39796"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040798",
+ "head":
+ "S..., Risa an Müller, Leopoldine [Briefe]",
+ "text":
+ "1 Kte"
+}] 

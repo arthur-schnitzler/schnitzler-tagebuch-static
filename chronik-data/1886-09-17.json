@@ -1,0 +1,74 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1886-09-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1886-09-17.html",
+ "head":
+ "Tagebuch, 17. September 1886",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Anton Holitscher",
+ "ref":
+ "person_16322"},
+ {
+ "persName":
+ "Dorothea Kohnberger",
+ "ref":
+ "person_16995"},
+ {
+ "persName":
+ "Lolotte",
+ "ref":
+ "person_17670"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "person_21047"},
+ {
+ "persName":
+ "Rudolf Pick",
+ "ref":
+ "person_18780"},
+ {
+ "persName":
+ "Anna Holitscher",
+ "ref":
+ "person_16321"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Gmunden",
+ "ref":
+ "pmb874"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

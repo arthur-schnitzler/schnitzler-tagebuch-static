@@ -1,0 +1,80 @@
+[{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00909",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00909.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, [23. 3. 1899]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "pmb2378"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Hochzeit der Sobeide",
+ "ref":
+ "pmb29849"}
+ ,  {
+ "title":
+ "Der Abenteurer und die Sängerin oder Die Geschenke des Lebens",
+ "ref":
+ "pmb32512"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb35597"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hotel Windsor",
+ "ref":
+ "pmb34806"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

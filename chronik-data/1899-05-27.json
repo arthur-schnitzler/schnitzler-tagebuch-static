@@ -1,0 +1,118 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-05-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-05-27.html",
+ "head":
+ "Tagebuch, 27. Mai 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Bjørn Bjørnson",
+ "ref":
+ "person_13759"},
+ {
+ "persName":
+ "Arturo Lambri",
+ "ref":
+ "person_17260"},
+ {
+ "persName":
+ "Franziska Reich",
+ "ref":
+ "person_17368"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Richter von Zalamea",
+ "ref":
+ "pmb42941"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/49056/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/49056/",
+ "head":
+ "Aufführung von Der Richter von Zalamea, 27.5.1899",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Richter von Zalamea",
+ "ref":
+ "pmb42941"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#sb5b8e07-e0c8-47e6-8add-494150f56e37",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Franziska Lawner an Arthur Schnitzler, 27.5.1899",
+ "source":
+ "Arthur Schnitzler: Frau Bertha Garlan. Historisch-kritische Ausgabe. Herausgegeben von Gerhard Hubmann und Isabella Schwentner und Mitarbeit von Anna Lindner und Martin Anton Müller. Berlin, Boston: De Gruyter 2015 (Arthur Schnitzler: Werke in historisch-kritischen Ausgaben. Herausgegeben von Konstanze Fliedl), S. 281–298."
+}] 

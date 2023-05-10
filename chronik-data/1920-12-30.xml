@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1920-12-30">Donnerstag, 30. Dezember 1920</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1920-12-30">
+               <head>Tagebuch, 30. Dezember 1920</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14130">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15854">Gisela Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21594">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19246">Werner Richter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20238">Richard Specht</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18881">Frieda Pollak</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb81322">Goldfieber</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76858">Richard Strauss und sein Werk</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb431">Mariazell</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91574"/>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-12-30.html</idno>
+            </event>
+            <event when-iso="1920-12-30">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1920-12-30">
+               <head>Schnitzler an Werner Richter, 30. 12. 1920</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb4391">Werner Richter</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12504">Max Reinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11752">Felix Hollaender</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23307">Hubert Reusch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4441">Maximilian Sladek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11284">Gertrud Eysoldt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12678">Erich Schmidt</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30819">Die Schwestern oder Casanova in Spa. Lustspiel in Versen</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb151">Deutschland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43471">Budapest</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34438">Russland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb12">Kammerspiele Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb598">Kleines Schauspielhaus</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29636">Wiener Verlag</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29265">Akademisch-dramatischer Verein München</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29779">Die elf Scharfrichter</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041452.html</idno>
+            </event>
+            <event when-iso="1920-12-30">
+               <head>Arthur Schnitzler an Werner Richter, 30.12.1920</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/132563894">Richter, Werner</persName>
+                     </person>
+                  </listPerson>
+                  <bibl> Hermann
+                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
+                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
+                    Verlag 2018 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
+            </event>
+            <event when-iso="1920-12-30">
+               <head>Arthur Schnitzler an Werner Richter, 30. 12. 1920</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118745034">Richter, Werner</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne
+                    Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter:
+                    https://schnitzler-briefe.acdh.oeaw.ac.at/)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3"/>
+            </event>
+            <event when-iso="1920-12-30">
+               <head>Fritz Unruh an Arthur Schnitzler, 30.12.1920</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118625527">Unruh, Fritz</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Ulrich K.
+                    Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern
+                    Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#dc95034c-3e70-47e1-9072-3fc75d84b47a"/>
+            </event>
+            <event when-iso="1920-12-30">
+               <head>Schnitzler, Arthur an Richter, Werner [Briefe]</head>
+               <desc>6 Bl.Durchschl.<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/132563894">Richter, Werner (1887-1960)</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00077640</idno>
+            </event>
+            <event when-iso="1920-12-30">
+               <head>Bruck, Lotte an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00032639</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

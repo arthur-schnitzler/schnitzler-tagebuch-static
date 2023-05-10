@@ -1,0 +1,241 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-02-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-02-10.html",
+ "head":
+ "Tagebuch, 10. Februar 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Unser Käthchen. Lustspiel in 4 Acten",
+ "ref":
+ "pmb31581"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00888",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00888.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 10. 2. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Isidor Singer",
+ "ref":
+ "pmb12790"},
+ {
+ "persName":
+ "Heinrich Kanner",
+ "ref":
+ "pmb11867"},
+ {
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "pmb11673"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Premièren. (Zur Première des Lustspiels »Unser Käthchen« von Theodor Herzl im Deutschen Volkstheater am 4. Februar 1898)",
+ "ref":
+ "pmb31343"}
+ ,  {
+ "title":
+ "Unser Käthchen. Lustspiel in 4 Acten",
+ "ref":
+ "pmb31581"}
+ ,  {
+ "title":
+ "Die Zeit. Wiener Wochenschrift",
+ "ref":
+ "pmb36340"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Die Zeit. Wiener Wochenschrift",
+ "ref":
+ "pmb29209"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Günthergasse",
+ "ref":
+ "pmb296"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041224",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041224.html",
+ "head":
+ "Bahr an Schnitzler, 10. 2. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Isidor Singer",
+ "ref":
+ "pmb12790"},
+ {
+ "persName":
+ "Heinrich Kanner",
+ "ref":
+ "pmb11867"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Premièren. (Zur Première des Lustspiels »Unser Käthchen« von Theodor Herzl im Deutschen Volkstheater am 4. Februar 1898)",
+ "ref":
+ "pmb31343"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Günthergasse",
+ "ref":
+ "pmb296"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Die Zeit. Wiener Wochenschrift",
+ "ref":
+ "pmb29209"}
+ ]
+}
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/43275/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43275/",
+ "head":
+ "Aufführung Unser Käthchen, 10.2.1899",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Unser Käthchen. Lustspiel in 4 Acten",
+ "ref":
+ "pmb31581"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Volkstheater",
+ "ref":
+ "pmb36430"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00081889",
+ "head":
+ "Schnitzler, Arthur: Der Schleier der Beatrice [Dramatisches] (Drucktitel)",
+ "text":
+ "1 Mappe"
+}] 

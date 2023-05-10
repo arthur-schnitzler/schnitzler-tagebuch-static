@@ -1,0 +1,95 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-08-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-08-20.html",
+ "head":
+ "Tagebuch, 20. August 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lou Andreas-Salomé",
+ "ref":
+ "person_13196"},
+ {
+ "persName":
+ "Elisabeth Hruby",
+ "ref":
+ "person_16398"},
+ {
+ "persName":
+ "Josef Klein",
+ "ref":
+ "person_16889"},
+ {
+ "persName":
+ "Karl Langkammer",
+ "ref":
+ "person_17312"},
+ {
+ "persName":
+ "Margarete Langkammer",
+ "ref":
+ "person_17313"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berchtesgaden",
+ "ref":
+ "pmb797"}
+ ,  {
+ "placeName":
+ "Königssee",
+ "ref":
+ "pmb91054"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/30/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "head":
+ "Salzburg"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/797/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/797/",
+ "head":
+ "Berchtesgaden"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91054/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91054/",
+ "head":
+ "Königssee"
+}] 

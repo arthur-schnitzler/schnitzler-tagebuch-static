@@ -1,0 +1,62 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1894-12-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-12-05.html",
+ "head":
+ "Tagebuch, 5. Dezember 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Eckstein",
+ "ref":
+ "person_14612"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Sterben. Novelle",
+ "ref":
+ "pmb30117"}
+ ,  {
+ "title":
+ "Tata-Toto",
+ "ref":
+ "pmb38879"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

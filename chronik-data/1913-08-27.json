@@ -1,0 +1,152 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-08-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-08-27.html",
+ "head":
+ "Tagebuch, 27. August 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"},
+ {
+ "persName":
+ "Giovanni Segantini",
+ "ref":
+ "person_20020"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Maloja District",
+ "ref":
+ "pmb91199"}
+ ,  {
+ "placeName":
+ "Val Bregaglia",
+ "ref":
+ "pmb90334"}
+ ,  {
+ "placeName":
+ "Sils-Segl Maria",
+ "ref":
+ "pmb91753"}
+ ,  {
+ "placeName":
+ "Sankt Moritz",
+ "ref":
+ "pmb44374"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02150",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02150.html",
+ "head":
+ "Arthur Schnitzler, Olga Schnitzler an Richard Beer-Hofmann, Paula Beer-Hofmann, 27. 8. 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Hugo Schlagenhauff",
+ "ref":
+ "pmb55168"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Maloja Palace",
+ "ref":
+ "pmb55166"}
+ ,  {
+ "placeName":
+ "Maloja",
+ "ref":
+ "pmb34108"}
+ ,  {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Lido",
+ "ref":
+ "pmb259"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Grand Hotel des Bains",
+ "ref":
+ "pmb40983"}
+ ,  {
+ "placeName":
+ "Engadin",
+ "ref":
+ "pmb1061"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44374/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44374/",
+ "head":
+ "Sankt Moritz"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34108/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34108/",
+ "head":
+ "Maloja"
+}] 

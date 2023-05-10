@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-02-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-02-25.html",
+ "head":
+ "Tagebuch, 25. Februar 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Lucy von Jacobi",
+ "ref":
+ "person_16469"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Wolfgang Amadeus Mozart",
+ "ref":
+ "person_18282"},
+ {
+ "persName":
+ "Walter Pfund",
+ "ref":
+ "person_18748"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Frau des Richters. Novelle",
+ "ref":
+ "pmb30751"}
+ ,  {
+ "title":
+ "Brandenburgische Konzerte BWV 1046-1051",
+ "ref":
+ "pmb77119"}
+ ,  {
+ "title":
+ "Quintett für Klavier, Oboe, Klarinette, Horn und Fagott Es-Dur op. 16",
+ "ref":
+ "pmb77167"}
+ ,  {
+ "title":
+ "Klavierkonzert Nr. 24 c-Moll KV 491",
+ "ref":
+ "pmb77209"}
+ ,  {
+ "title":
+ "Symphonie Nr. 36 C-Dur KV 425",
+ "ref":
+ "pmb77223"}
+ ,  {
+ "title":
+ "Nana",
+ "ref":
+ "pmb32892"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Grinzing",
+ "ref":
+ "pmb90771"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

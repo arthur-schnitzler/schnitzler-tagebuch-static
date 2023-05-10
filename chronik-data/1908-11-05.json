@@ -1,0 +1,217 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-11-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-11-05.html",
+ "head":
+ "Tagebuch, 5. November 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emil Ertl",
+ "ref":
+ "person_14807"},
+ {
+ "persName":
+ "Anna Roussel",
+ "ref":
+ "person_19440"},
+ {
+ "persName":
+ "Raoul Markbreiter",
+ "ref":
+ "person_17909"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Die Leute vom blauen Guguckshaus. Roman",
+ "ref":
+ "pmb78715"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Karawanken",
+ "ref":
+ "pmb90997"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01797",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01797.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 5. 11. 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Hasenauerstraße",
+ "ref":
+ "pmb383"}
+ ,  {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb189"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041497",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041497.html",
+ "head":
+ "Aufzeichnung von Bahr, 5. 11. 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Richard Baum",
+ "ref":
+ "pmb13846"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "pmb11461"},
+ {
+ "persName":
+ "Friedrich von Thiersch",
+ "ref":
+ "pmb3504"},
+ {
+ "persName":
+ "Elisabeth Mentzel",
+ "ref":
+ "pmb3508"},
+ {
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"},
+ {
+ "persName":
+ "Voltaire",
+ "ref":
+ "pmb3124"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Continental",
+ "ref":
+ "pmb321"}
+ ,  {
+ "placeName":
+ "Vereinshaus",
+ "ref":
+ "pmb322"}
+ ,  {
+ "placeName":
+ "Großer Hirschgraben",
+ "ref":
+ "pmb323"}
+ ,  {
+ "placeName":
+ "Goethe-Haus",
+ "ref":
+ "pmb324"}
+ ,  {
+ "placeName":
+ "Bockenheim",
+ "ref":
+ "pmb49778"}
+ ,  {
+ "placeName":
+ "Festhalle",
+ "ref":
+ "pmb326"}
+ ,  {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ,  {
+ "placeName":
+ "Malcesine",
+ "ref":
+ "pmb932"}
+ ]
+}
+}] 

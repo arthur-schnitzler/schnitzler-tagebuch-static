@@ -1,0 +1,97 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-01-31",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-01-31.html",
+ "head":
+ "Tagebuch, 31. Januar 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Hans Duhan",
+ "ref":
+ "person_14541"},
+ {
+ "persName":
+ "Eugen von Savoyen",
+ "ref":
+ "person_14818"},
+ {
+ "persName":
+ "Johann Bernhard Fischer von Erlach",
+ "ref":
+ "person_15011"},
+ {
+ "persName":
+ "Robert Kugel",
+ "ref":
+ "person_17175"},
+ {
+ "persName":
+ "Lotte Lehmann",
+ "ref":
+ "person_17406"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Heinrich Sikora",
+ "ref":
+ "person_20098"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "person_20509"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Bürger als Edelmann op. 60",
+ "ref":
+ "pmb76837"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "St. Gilgen",
+ "ref":
+ "pmb33"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

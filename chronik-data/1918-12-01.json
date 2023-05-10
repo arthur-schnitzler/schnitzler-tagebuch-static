@@ -1,0 +1,196 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-12-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-12-01.html",
+ "head":
+ "Tagebuch, 1. Dezember 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hanna Askonas",
+ "ref":
+ "person_13282"},
+ {
+ "persName":
+ "Rudolf Askonas",
+ "ref":
+ "person_13285"},
+ {
+ "persName":
+ "Joseph Haydn",
+ "ref":
+ "person_15999"},
+ {
+ "persName":
+ "Laura Hilgermann",
+ "ref":
+ "person_16195"},
+ {
+ "persName":
+ "Julius von Landesberger",
+ "ref":
+ "person_17278"},
+ {
+ "persName":
+ "Amalia Markbreiter",
+ "ref":
+ "person_17894"},
+ {
+ "persName":
+ "Philipp Markbreiter",
+ "ref":
+ "person_17908"},
+ {
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Circusgasse",
+ "ref":
+ "pmb92189"}
+ ,  {
+ "placeName":
+ "Praterstraße",
+ "ref":
+ "pmb92460"}
+ ,  {
+ "placeName":
+ "Grinzing",
+ "ref":
+ "pmb90771"}
+ ,  {
+ "placeName":
+ "Kahlenberg",
+ "ref":
+ "pmb574"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02313",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02313.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, [Anfang Dezember
+                  1918]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "pmb22728"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Stallburggasse",
+ "ref":
+ "pmb34024"}
+ ,  {
+ "placeName":
+ "Hofmannsthal-Schlössl",
+ "ref":
+ "pmb40297"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 01. Dezember 1918",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

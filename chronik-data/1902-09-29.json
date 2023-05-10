@@ -1,0 +1,90 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1902-09-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-09-29.html",
+ "head":
+ "Tagebuch, 29. September 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Henri Berény",
+ "ref":
+ "person_13616"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Emilie Sigmund",
+ "ref":
+ "person_20096"},
+ {
+ "persName":
+ "Camilla Theimer",
+ "ref":
+ "person_20693"},
+ {
+ "persName":
+ "Charlotte Wiehe",
+ "ref":
+ "person_21299"},
+ {
+ "persName":
+ "Émile Zola",
+ "ref":
+ "person_21578"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Abschiedssouper",
+ "ref":
+ "pmb30005"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brühl",
+ "ref":
+ "pmb44413"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00071066",
+ "head":
+ "Némai, ... an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

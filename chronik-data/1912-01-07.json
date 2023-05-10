@@ -1,0 +1,173 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1912-01-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-01-07.html",
+ "head":
+ "Tagebuch, 7. Januar 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugenie Bachrach",
+ "ref":
+ "person_13355"},
+ {
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Ernst Lothar",
+ "ref":
+ "person_17694"},
+ {
+ "persName":
+ "Hans Müller",
+ "ref":
+ "person_18297"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Im Spiel der Sommerlüfte. In drei Aufzügen",
+ "ref":
+ "pmb30945"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schafberg (St. Gilgen)",
+ "ref":
+ "pmb59367"}
+ ,  {
+ "placeName":
+ "Neuwaldegg",
+ "ref":
+ "pmb170"}
+ ,  {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "T030088",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/T030088.html",
+ "head":
+ "Bahr: [Verzeichnis der Glückwünsche zum Tänzchen], [nach dem 7. 1.
+                     1912]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Lisa Clarus",
+ "ref":
+ "pmb27910"},
+ {
+ "persName":
+ "Julian Sternberg",
+ "ref":
+ "pmb3021"},
+ {
+ "persName":
+ "Moriz Benedikt",
+ "ref":
+ "pmb10875"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"},
+ {
+ "persName":
+ "Wolfgang Heine",
+ "ref":
+ "pmb38364"},
+ {
+ "persName":
+ "Richard Kralik",
+ "ref":
+ "pmb3731"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "pmb12870"},
+ {
+ "persName":
+ "Arthur Kahane",
+ "ref":
+ "pmb3025"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Tänzchen. Lustspiel in drei Akten",
+ "ref":
+ "pmb30085"}
+ ]
+}
+}] 

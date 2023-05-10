@@ -1,0 +1,55 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-08-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-08-18.html",
+ "head":
+ "Tagebuch, 18. August 1900",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Schruns",
+ "ref":
+ "pmb91697"}
+ ,  {
+ "placeName":
+ "Gargellen",
+ "ref":
+ "pmb90695"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91697/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91697/",
+ "head":
+ "Schruns"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90695/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90695/",
+ "head":
+ "Gargellen"
+}] 

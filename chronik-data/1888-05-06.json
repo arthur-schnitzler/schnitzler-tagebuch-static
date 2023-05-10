@@ -1,0 +1,64 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1888-05-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-05-06.html",
+ "head":
+ "Tagebuch, 6. Mai 1888",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Eysler",
+ "ref":
+ "person_14835"},
+ {
+ "persName":
+ "Jeanette Heeger",
+ "ref":
+ "person_16022"},
+ {
+ "persName":
+ "Ernst von Rosenberg",
+ "ref":
+ "person_19368"},
+ {
+ "persName":
+ "Wally",
+ "ref":
+ "person_21075"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00032804",
+ "head":
+ "Cohn, Hermann an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

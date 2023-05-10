@@ -1,0 +1,155 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-07-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-07-17.html",
+ "head":
+ "Tagebuch, 17. Juli 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "person_21047"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"},
+ {
+ "persName":
+ "Egon Kornauth",
+ "ref":
+ "person_17053"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Mariazell",
+ "ref":
+ "pmb431"}
+ ,  {
+ "placeName":
+ "Kiew",
+ "ref":
+ "pmb45594"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02289",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02289.html",
+ "head":
+ "Robert Adam an Arthur Schnitzler, 17. 7. 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"},
+ {
+ "persName":
+ "Hintermayer",
+ "ref":
+ "pmb27757"},
+ {
+ "persName":
+ "Hintermayer",
+ "ref":
+ "pmb27758"},
+ {
+ "persName":
+ "Charles I von England",
+ "ref":
+ "pmb5790"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "David Copperfield",
+ "ref":
+ "pmb33610"}
+ ,  {
+ "title":
+ "Siebenkäs",
+ "ref":
+ "pmb33612"}
+ ,  {
+ "title":
+ "Robert",
+ "ref":
+ "pmb33656"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Andorf",
+ "ref":
+ "pmb1248"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Innviertel",
+ "ref":
+ "pmb718"}
+ ,  {
+ "placeName":
+ "Schärding",
+ "ref":
+ "pmb44322"}
+ ,  {
+ "placeName":
+ "Bayern",
+ "ref":
+ "pmb314"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

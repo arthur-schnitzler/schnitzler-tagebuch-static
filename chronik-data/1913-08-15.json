@@ -1,0 +1,123 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-08-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-08-15.html",
+ "head":
+ "Tagebuch, 15. August 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Emma Gütersloh",
+ "ref":
+ "person_15736"},
+ {
+ "persName":
+ "Emil Orlik",
+ "ref":
+ "person_18576"},
+ {
+ "persName":
+ "Jakob Račič",
+ "ref":
+ "person_19021"},
+ {
+ "persName":
+ "Otto Zuckerkandl",
+ "ref":
+ "person_21601"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Omiš",
+ "ref":
+ "pmb90221"}
+ ,  {
+ "placeName":
+ "Zadvarje",
+ "ref":
+ "pmb90554"}
+ ,  {
+ "placeName":
+ "Solin",
+ "ref":
+ "pmb91643"}
+ ,  {
+ "placeName":
+ "Trogir",
+ "ref":
+ "pmb91924"}
+ ,  {
+ "placeName":
+ "Kaštela",
+ "ref":
+ "pmb91737"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91780/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91780/",
+ "head":
+ "Split"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90221/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90221/",
+ "head":
+ "Omiš"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91924/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91924/",
+ "head":
+ "Trogir"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040353",
+ "head":
+ "Meidner, S. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

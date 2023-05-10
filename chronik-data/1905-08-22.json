@@ -1,0 +1,137 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-08-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-08-22.html",
+ "head":
+ "Tagebuch, 22. August 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Helene Horak",
+ "ref":
+ "person_16351"},
+ {
+ "persName":
+ "Arthur Kahane",
+ "ref":
+ "person_16632"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "person_19154"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Agnes Ulmann",
+ "ref":
+ "person_20872"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Kahane an Arthur Schnitzler, 22.8.1905",
+ "source":
+ "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Otto Brahm, 22.8.1905",
+ "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00046586",
+ "head":
+ "Schnitzler, Arthur - Brahm, Otto [Br. Wechsel]",
+ "text":
+ "Letztes Objekt aus der Mappe. 105 Br., 1 Kte, 6 Tel. 208 Bl.Abschr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto (1856-1912) Brahm",
+ "ref":
+ "http://d-nb.info/gnd/118514245"},
+ {
+ "persName":
+ "Deutsches Theater Berlin (1849-)",
+ "ref":
+ "http://d-nb.info/gnd/4058252-8"},
+ {
+ "persName":
+ "Otto (1856-1912) Brahm",
+ "ref":
+ "http://d-nb.info/gnd/118514245"},
+ {
+ "persName":
+ "Deutsches Theater Berlin (1849-)",
+ "ref":
+ "http://d-nb.info/gnd/4058252-8"}]
+}
+}] 

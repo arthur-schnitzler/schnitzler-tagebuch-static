@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1911-10-20">Freitag, 20. Oktober 1911</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1911-10-20">
+               <head>Tagebuch, 20. Oktober 1911</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13127">Desiderata d’Albert</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13129">Eugen d’Albert</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13355">Eugenie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13913">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15854">Gisela Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13131">Ida d’Albert</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16910">Gustav Klimt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17425">Max Leitner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15493">Carl Godlewski</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16038">Emilie Heim</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30215">Der Schleier der Pierrette</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92436">Pappenheimstr.</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-10-20.html</idno>
+            </event>
+            <event when-iso="1911-10-20">
+               <head>Arthur Schnitzler an Felix Salten, 20. 10. 1911</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23458">André Rivoire</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32400">Burgtheater (»Das weite Land«, Tragikkomödie in fünf Akten von Arthur Schnitzler. – Zum erstenmal am 14. Oktober 1911)</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142702">Burgtheater. »Das weite Land.« Tragikomödie von Arthur Schnitzler</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb35935">Die Zeit</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb52212">Pester Lloyd</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142698">Der gute König Dagobert. Lustspiel in vier Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80174">Le Bon Roi Dagobert</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb35597">Deutsches Theater Berlin</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb175">Amerika</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb652">Prag</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb866">Dresden</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb506">Hamburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb20">Volkstheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02949.html</idno>
+            </event>
+            <event when-iso="1911-10-20">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1911-10-20">
+               <head>Arthur Schnitzler an Samuel Fischer, 20. 10. 1911</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118691406">Fischer, Samuel</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am
+                    Main: S. Fischer 1981.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
+            </event>
+            <event when-iso="1911-10-20">
+               <head>Arthur Schnitzler an Felix Salten, 20. 10. 1911</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118840819">Salten, Felix</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am
+                    Main: S. Fischer 1981.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
+            </event>
+            <event when-iso="1911-10-20">
+               <head>Otto Brahm an Arthur Schnitzler, 20.10.1911?</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118514245">Brahm, Otto</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Der Briefwechsel Arthur
+               Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar
+               Seidlin. Tübingen: Niemeyer, 1975.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#ya489e21-54d5-40de-a56d-f4548e894428"/>
+            </event>
+            <event when-iso="1911-10-20">
+               <head>Otto Brahm an Arthur Schnitzler, 20.10.1911?</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118514245">Brahm, Otto</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Der Briefwechsel Arthur
+               Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar
+               Seidlin. Tübingen: Niemeyer, 1975.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#ya489e21-54d5-40de-a56d-f4548e894428"/>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

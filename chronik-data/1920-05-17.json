@@ -1,0 +1,172 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-05-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-05-17.html",
+ "head":
+ "Tagebuch, 17. Mai 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karl Oskar Alwin",
+ "ref":
+ "person_13176"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Elisabeth Schumann",
+ "ref":
+ "person_19938"},
+ {
+ "persName":
+ "Georg Szell",
+ "ref":
+ "person_20602"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Marianne Giustiniani",
+ "ref":
+ "person_21600"},
+ {
+ "persName":
+ "Sophie Clemenceau",
+ "ref":
+ "person_14240"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "person_21602"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Till Eulenspiegels lustige Streiche op. 28",
+ "ref":
+ "pmb76848"}
+ ,  {
+ "title":
+ "Variationen über ein eigenes Thema für Orchester op. 4",
+ "ref":
+ "pmb81400"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#i0c57881-43a7-490c-bcb6-a0ffc7ee2749",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Egon Friedell, 17.5.1920",
+ "source":
+ "Egon Friedell: Briefe. Ausgewählt und herausgegeben von Walther Schneider. Wien: Georg Prachner 1954. (nur der eine Brief von Schnitzler erfasst)"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#wfc5c16f-4da0-48c1-b8ab-b48bf2a6fece",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Egon Friedell, 17.5.1920",
+ "source":
+ "Peter Michael Braunwarth: In Reife und Überreife. In: Die Presse, 25.9.2004, Spectrum, IV."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-1438411",
+ "head":
+ "Brief von Arthur Schnitzler an Egon Friedell",
+ "text":
+ "1 Br.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Egon (1878-1938) Friedell",
+ "ref":
+ "http://d-nb.info/gnd/118535560"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00045408",
+ "head":
+ "Schnitzler, Arthur an Friedell, Egon [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Egon (1878-1938) Friedell",
+ "ref":
+ "http://d-nb.info/gnd/118535560"}]
+}
+}] 

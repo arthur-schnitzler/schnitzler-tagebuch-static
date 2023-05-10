@@ -1,0 +1,120 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-02-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-02-01.html",
+ "head":
+ "Tagebuch, 1. Februar 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Arnold Bermann",
+ "ref":
+ "person_13657"},
+ {
+ "persName":
+ "Ernst von Dombrowski",
+ "ref":
+ "person_14475"},
+ {
+ "persName":
+ "Wolfgang Amadeus Mozart",
+ "ref":
+ "person_18282"},
+ {
+ "persName":
+ "Njegosch Nikolaus I.",
+ "ref":
+ "person_18455"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Theodor Reik",
+ "ref":
+ "person_19135"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"},
+ {
+ "persName":
+ "Max von Millenkovich",
+ "ref":
+ "person_18168"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Abenteurer",
+ "ref":
+ "pmb35724"}
+ ,  {
+ "title":
+ "Geschwister",
+ "ref":
+ "pmb30211"}
+ ,  {
+ "title":
+ "Kaiser Josef II.",
+ "ref":
+ "pmb30843"}
+ ,  {
+ "title":
+ "Ehelegende",
+ "ref":
+ "pmb78422"}
+ ,  {
+ "title":
+ "Die Geschwister",
+ "ref":
+ "pmb33933"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Montenegro",
+ "ref":
+ "pmb366"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#dc95034c-3e70-47e1-9072-3fc75d84b47a",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Fritz Unruh an Arthur Schnitzler, 1.2.1918",
+ "source":
+ "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."
+}] 

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1904-09-02">Freitag, 2. September 1904</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1904-09-02">
+               <head>Zum großen Wurstel, K4 erschl. msl. Werkniederschrift 2, Vom 2. September 1904 bis
+            9. Oktober 1904</head>
+               <desc/>
+               <idno type="Arthur-Schnitzler-digital">https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/WUR_K4_*T2</idno>
+            </event>
+            <event when-iso="1904-09-02">
+               <head>Tagebuch, 2. September 1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15715">Ida Grünwald</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20796">Siegfried Trebitsch</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29951">Zum großen Wurstel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-09-02.html</idno>
+            </event>
+            <event when-iso="1904-09-02">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1904-09-02">
+               <head>Aufzeichnung von Bahr, 2. 9. 1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11527">Stefan Großmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3603">Anton Pavlovič Čechov</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3050">Theodor Beer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3612">Adolf Loos</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3618">Adolf Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13915">Laura Beer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11617">Gerhart Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11941">Gustav Klimt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3622">Franz Stelzhamer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11621">Margarete Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11613">Benvenuto Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21176">Géza von Mattachich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27933">Luise von Sachsen-Coburg und Gotha</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28241">Ignaz Karl von Korwin-Milewski</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28242">Emanuel Bruno Barber</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11581">Maximilian Harden</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11284">Gertrud Eysoldt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27910">Lisa Clarus</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31149">Die Gasse</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30065">Dialog vom Marsyas</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32814">Dialog vom Tragischen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29851">Der Franzl. Fünf Bilder aus dem Leben eines guten Mannes</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb372">Holzplatz der Firma Peter Geiger</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb77">Raimund-Theater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43406">Vereinigte Staaten von Amerika (USA)</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb63">XIII., Hietzing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb369">Akropolis</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb370">Attika</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb505">Athen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb173">Rodaun</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb186">Lueg am Wolfgangsee</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29414">Neues Wiener Tagblatt</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29212">Neue Rundschau, Neue Deutsche Rundschau, Freie Bühne</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041467.html</idno>
+            </event>
+            <event when-iso="1904-09-02">
+               <head>Bahr: [Notizen zur Lektüre von Hofmannsthals Das gerettete Venedig?], [2.–3.
+                     9. 1904?]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11201">Eleonora Duse</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041569.html</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,123 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-10-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-10-06.html",
+ "head":
+ "Tagebuch, 6. Oktober 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eleonora Duse",
+ "ref":
+ "person_14574"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Irmgard Kaufmann",
+ "ref":
+ "person_16449"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Gleitenden",
+ "ref":
+ "pmb33780"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/41447/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/41447/",
+ "head":
+ "Gastspiel Eleonora Duse in Kameliendame, 6.10.1904",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Die Kameliendame. Drama in fünf Akten",
+ "ref":
+ "pmb30641"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Eleonora Duse",
+ "ref":
+ "pmb11201"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Theater an der Wien",
+ "ref":
+ "pmb37"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Theater an der Wien",
+ "ref":
+ "pmb36996"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 06. Oktober 1904",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

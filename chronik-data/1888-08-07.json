@@ -1,0 +1,54 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1888-08-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-08-07.html",
+ "head":
+ "Tagebuch, 7. August 1888",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie",
+ "ref":
+ "person_17882"},
+ {
+ "persName":
+ "Heinrich Knepler",
+ "ref":
+ "person_16934"},
+ {
+ "persName":
+ "Sophie Lösch",
+ "ref":
+ "person_17627"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ostend",
+ "ref":
+ "pmb91417"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91417/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91417/",
+ "head":
+ "Ostend"
+}] 

@@ -1,0 +1,149 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-02-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-02-04.html",
+ "head":
+ "Tagebuch, 4. Februar 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Dorothea? Breisach",
+ "ref":
+ "person_13946"},
+ {
+ "persName":
+ "Eduard? Breisach",
+ "ref":
+ "person_13947"},
+ {
+ "persName":
+ "Leonie Guttmann",
+ "ref":
+ "person_15781"},
+ {
+ "persName":
+ "Irene Hellmann",
+ "ref":
+ "person_16073"},
+ {
+ "persName":
+ "Ernst Lothar",
+ "ref":
+ "person_17694"},
+ {
+ "persName":
+ "Wilhelm Müller-Hofmann",
+ "ref":
+ "person_18312"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Erich von Troll-Obergfell",
+ "ref":
+ "person_20815"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Paul Hellmann",
+ "ref":
+ "person_16074"},
+ {
+ "persName":
+ "Emil Kraft",
+ "ref":
+ "person_17077"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Abenteurernovelle",
+ "ref":
+ "pmb30299"}
+ ,  {
+ "title":
+ "Das Wort. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30615"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00068996",
+ "head":
+ "Propyläen-Verlag an Schnitzler, Heinrich [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Propyläen-Verlag (1919-)",
+ "ref":
+ "http://d-nb.info/gnd/39569-9"},
+ {
+ "persName":
+ "Heinrich (1902-1982) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848510"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00077753",
+ "head":
+ "Schnitzler, Arthur an Goldschmidt, Max [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

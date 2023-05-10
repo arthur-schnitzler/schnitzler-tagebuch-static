@@ -1,0 +1,73 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1881-07-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1881-07-18.html",
+ "head":
+ "Tagebuch, 18. Juli 1881",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Kals am Großglockner",
+ "ref":
+ "pmb90981"}
+ ,  {
+ "placeName":
+ "Huben",
+ "ref":
+ "pmb90911"}
+ ,  {
+ "placeName":
+ "Lienz",
+ "ref":
+ "pmb897"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90981/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90981/",
+ "head":
+ "Kals am Großglockner"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90911/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90911/",
+ "head":
+ "Huben"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/897/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/897/",
+ "head":
+ "Lienz"
+}] 

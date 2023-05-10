@@ -1,0 +1,111 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-06-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-06-25.html",
+ "head":
+ "Tagebuch, 25. Juni 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "person_21047"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Meran",
+ "ref":
+ "pmb43520"}
+ ,  {
+ "placeName":
+ "Gilfpromenade",
+ "ref":
+ "pmb92255"}
+ ,  {
+ "placeName":
+ "Bozen",
+ "ref":
+ "pmb40260"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40260/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40260/",
+ "head":
+ "Bozen"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp222",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp222.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 24.–25. Juni 1925"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp223",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp223.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 25. Juni – 1. Juli 1925"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00041525",
+ "head":
+ "Rosenfeld, Valentin an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043215",
+ "head":
+ "Schwerdtner, Hugo an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

@@ -1,0 +1,132 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1930-06-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-06-30.html",
+ "head":
+ "Tagebuch, 30. Juni 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Geneviève Bianquis",
+ "ref":
+ "person_13710"},
+ {
+ "persName":
+ "Emma Cabire",
+ "ref":
+ "person_14103"},
+ {
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Frank Harris",
+ "ref":
+ "person_15931"},
+ {
+ "persName":
+ "Émile Lutz",
+ "ref":
+ "person_17744"},
+ {
+ "persName":
+ "Minna Stangl",
+ "ref":
+ "person_18181"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zug der Schatten",
+ "ref":
+ "pmb32049"}
+ ,  {
+ "title":
+ "My Life and Loves",
+ "ref":
+ "pmb33245"}
+ ,  {
+ "title":
+ "Das Fräulein von Corday d'Armont",
+ "ref":
+ "pmb78319"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp782",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp782.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 24. Juni – 1. Juli 1930"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00069157",
+ "head":
+ "Schnitzler, Heinrich an Schnitzler, Arthur [Briefe]",
+ "text":
+ "Letztes Objekt aus der Mappe. 22 Br., davon 1 Vis.kte, 27 Ktn 81 Bl. Mit 1 Beil. 1 Bl. Mit 49 Abschr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich (1902-1982) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848510"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00047073",
+ "head":
+ "Schnitzler, Arthur an Karlfriedrich, Joachim [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

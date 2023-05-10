@@ -1,0 +1,69 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-09-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-09-12.html",
+ "head":
+ "Tagebuch, 12. September 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rudolf Kassner",
+ "ref":
+ "person_16749"},
+ {
+ "persName":
+ "Theodor Mommsen",
+ "ref":
+ "person_18231"},
+ {
+ "persName":
+ "Rainer Maria Rilke",
+ "ref":
+ "person_19273"},
+ {
+ "persName":
+ "Moses Stöckel",
+ "ref":
+ "person_20446"},
+ {
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "person_21614"},
+ {
+ "persName":
+ "Émile Verhaeren",
+ "ref":
+ "person_20944"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Leben und die Abenteuer des armen Mannes im Tockenburg",
+ "ref":
+ "pmb79177"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

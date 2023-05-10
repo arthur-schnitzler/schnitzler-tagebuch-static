@@ -1,0 +1,207 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-02-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-02-25.html",
+ "head":
+ "Tagebuch, 25. Februar 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "W. Fred",
+ "ref":
+ "person_15158"},
+ {
+ "persName":
+ "Emil Heilbut",
+ "ref":
+ "person_16036"},
+ {
+ "persName":
+ "Siegfried Jacobsohn",
+ "ref":
+ "person_16477"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "person_16819"},
+ {
+ "persName":
+ "Hans Prinzhorn",
+ "ref":
+ "person_18973"},
+ {
+ "persName":
+ "Hanny Huldschiner",
+ "ref":
+ "person_16413"},
+ {
+ "persName":
+ "Clara Jonas",
+ "ref":
+ "person_16572"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"},
+ {
+ "persName":
+ "Eduard Stucken",
+ "ref":
+ "person_20552"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Kinder. Eine Komödie in drei Akten",
+ "ref":
+ "pmb30269"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041066",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041066.html",
+ "head":
+ "Tagebuch von Schnitzler, 25. 2. 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Eduard Stucken",
+ "ref":
+ "pmb12886"},
+ {
+ "persName":
+ "Ania Stucken",
+ "ref":
+ "pmb25696"},
+ {
+ "persName":
+ "Hanny Huldschiner",
+ "ref":
+ "pmb18616"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Emma Abrahamson",
+ "ref":
+ "pmb27806"},
+ {
+ "persName":
+ "Clara Jonas",
+ "ref":
+ "pmb18900"},
+ {
+ "persName":
+ "W. Fred",
+ "ref":
+ "pmb2226"},
+ {
+ "persName":
+ "Siegfried Jacobsohn",
+ "ref":
+ "pmb11813"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "pmb11910"},
+ {
+ "persName":
+ "Hans Prinzhorn",
+ "ref":
+ "pmb12450"},
+ {
+ "persName":
+ "Eva Prinzhorn",
+ "ref":
+ "pmb22889"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "pmb11324"},
+ {
+ "persName":
+ "Hedwig Fischer",
+ "ref":
+ "pmb2657"},
+ {
+ "persName":
+ "Emil Heilbut",
+ "ref":
+ "pmb2713"},
+ {
+ "persName":
+ "Emma Heilbut",
+ "ref":
+ "pmb27807"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Kinder. Eine Komödie in drei Akten",
+ "ref":
+ "pmb30269"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Palasthotel Berlin",
+ "ref":
+ "pmb88"}
+ ]
+}
+}] 

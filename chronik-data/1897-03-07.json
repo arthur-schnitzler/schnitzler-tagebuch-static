@@ -1,0 +1,125 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1897-03-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-03-07.html",
+ "head":
+ "Tagebuch, 7. März 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "person_16165"},
+ {
+ "persName":
+ "Louis Loeb",
+ "ref":
+ "person_17610"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Das Tschaperl",
+ "ref":
+ "pmb29829"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp015",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp015.html",
+ "head":
+ "Tagebuch von Arthur Schnitzler, 21. Februar – 29. November 1897"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041522",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041522.html",
+ "head":
+ "Tagebuch von Schnitzler, 7. 3. 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Louis Loeb",
+ "ref":
+ "pmb20548"},
+ {
+ "persName":
+ "Regina Loeb",
+ "ref":
+ "pmb28299"},
+ {
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "pmb11673"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Das Tschaperl",
+ "ref":
+ "pmb29829"}
+ ,  {
+ "title":
+ "»Jung-Oesterreich«",
+ "ref":
+ "pmb31341"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}] 

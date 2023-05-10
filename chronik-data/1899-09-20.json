@@ -1,0 +1,114 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-09-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-09-20.html",
+ "head":
+ "Tagebuch, 20. September 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "H. von Halle",
+ "ref":
+ "person_15865"},
+ {
+ "persName":
+ "Otto? Liebmann",
+ "ref":
+ "person_17524"},
+ {
+ "persName":
+ "Max von Rosenberg",
+ "ref":
+ "person_19374"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00979",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00979.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 2[0?]. 9. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ,  {
+ "placeName":
+ "Vahrn",
+ "ref":
+ "pmb946"}
+ ,  {
+ "placeName":
+ "Brixen",
+ "ref":
+ "pmb43040"}
+ ,  {
+ "placeName":
+ "Tirol",
+ "ref":
+ "pmb423"}
+ ,  {
+ "placeName":
+ "Roßmarkt",
+ "ref":
+ "pmb43121"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/146/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/146/",
+ "head":
+ "Frankfurt am Main"
+}] 

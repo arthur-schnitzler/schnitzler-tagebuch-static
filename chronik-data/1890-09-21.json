@@ -1,0 +1,44 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1890-09-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1890-09-21.html",
+ "head":
+ "Tagebuch, 21. September 1890",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Pekarek",
+ "ref":
+ "person_18700"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hellbrunn",
+ "ref":
+ "pmb31"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/30/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "head":
+ "Salzburg"
+}] 

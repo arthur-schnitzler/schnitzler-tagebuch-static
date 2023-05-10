@@ -1,0 +1,167 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1889-09-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1889-09-08.html",
+ "head":
+ "Tagebuch, 8. September 1889",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "person_13162"},
+ {
+ "persName":
+ "Helene Binder",
+ "ref":
+ "person_13733"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Johann Hartl",
+ "ref":
+ "person_15940"},
+ {
+ "persName":
+ "Jeanette Heeger",
+ "ref":
+ "person_16022"},
+ {
+ "persName":
+ "Jens Peter Jacobsen",
+ "ref":
+ "person_16472"},
+ {
+ "persName":
+ "Alfred de Musset",
+ "ref":
+ "person_18334"},
+ {
+ "persName":
+ "Max von Rosenberg",
+ "ref":
+ "person_19374"},
+ {
+ "persName":
+ "Anton Schey",
+ "ref":
+ "person_19661"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Carl Johann Spielter",
+ "ref":
+ "person_20262"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "person_21047"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"},
+ {
+ "persName":
+ "Carl Waissnix",
+ "ref":
+ "person_21046"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Alkandi’s Lied",
+ "ref":
+ "pmb31637"}
+ ,  {
+ "title":
+ "Die Frage an das Schicksal",
+ "ref":
+ "pmb30749"}
+ ,  {
+ "title":
+ "Episode",
+ "ref":
+ "pmb31357"}
+ ,  {
+ "title":
+ "Die Blasierten",
+ "ref":
+ "pmb33768"}
+ ,  {
+ "title":
+ "Gedichte",
+ "ref":
+ "pmb76533"}
+ ,  {
+ "title":
+ "Reichtum. Erzählung",
+ "ref":
+ "pmb30277"}
+ ,  {
+ "title":
+ "Der Sohn. Aus den Papieren eines Arztes",
+ "ref":
+ "pmb30257"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Marie Glümer, 8. 9. 1889",
+ "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}] 

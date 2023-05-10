@@ -1,0 +1,97 @@
+[{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00116",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00116.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 22. 8. 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Spanisches Strandleben",
+ "ref":
+ "pmb41537"}
+ ,  {
+ "title":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb36344"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Grazer Straße",
+ "ref":
+ "pmb1220"}
+ ,  {
+ "placeName":
+ "Kreuzplatz",
+ "ref":
+ "pmb40845"}
+ ,  {
+ "placeName":
+ "Opernring",
+ "ref":
+ "pmb717"}
+ ,  {
+ "placeName":
+ "Kärntnerring",
+ "ref":
+ "pmb501"}
+ ,  {
+ "placeName":
+ "Bösendorferstraße",
+ "ref":
+ "pmb542"}
+ ,  {
+ "placeName":
+ "San Sebastian",
+ "ref":
+ "pmb40165"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,132 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-01-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-01-25.html",
+ "head":
+ "Tagebuch, 25. Januar 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Felix Dörmann",
+ "ref":
+ "person_14472"},
+ {
+ "persName":
+ "Julius von Gans-Ludassy",
+ "ref":
+ "person_15338"},
+ {
+ "persName":
+ "Felix Hollaender",
+ "ref":
+ "person_16326"},
+ {
+ "persName":
+ "Martha Honig",
+ "ref":
+ "person_16344"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Ernst von Schuch",
+ "ref":
+ "person_19906"},
+ {
+ "persName":
+ "Nikolaus von Seebach",
+ "ref":
+ "person_20011"},
+ {
+ "persName":
+ "Zinaida A. Vengerova",
+ "ref":
+ "person_21232"},
+ {
+ "persName":
+ "Ella Naschauer",
+ "ref":
+ "person_18358"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "Der Schleier der Pierrette",
+ "ref":
+ "pmb30215"}
+ ,  {
+ "title":
+ "Der gute König Dagobert",
+ "ref":
+ "pmb80174"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Dresden",
+ "ref":
+ "pmb90550"}
+ ,  {
+ "placeName":
+ "Pfob",
+ "ref":
+ "pmb92444"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

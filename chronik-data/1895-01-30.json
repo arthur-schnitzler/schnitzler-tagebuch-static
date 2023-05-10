@@ -1,0 +1,225 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-01-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-01-30.html",
+ "head":
+ "Tagebuch, 30. Januar 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Josef Giampietro",
+ "ref":
+ "person_15422"},
+ {
+ "persName":
+ "L.",
+ "ref":
+ "person_17231"},
+ {
+ "persName":
+ "Georg Reimers",
+ "ref":
+ "person_19139"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Eduard Sandrock",
+ "ref":
+ "person_19566"},
+ {
+ "persName":
+ "Carl von Zeska",
+ "ref":
+ "person_21543"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Die Kameraden. Lustspiel in drei Aufzügen",
+ "ref":
+ "pmb30425"}
+ ,  {
+ "title":
+ "Excelsior",
+ "ref":
+ "pmb80953"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041135",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041135.html",
+ "head":
+ "Tagebuch von Schnitzler, 30. 1. 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "pmb12618"},
+ {
+ "persName":
+ "Carl von Zeska",
+ "ref":
+ "pmb13180"},
+ {
+ "persName":
+ "Georg Reimers",
+ "ref":
+ "pmb12498"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Wilhelmine Sandrock",
+ "ref":
+ "pmb12621"},
+ {
+ "persName":
+ "Johanna Simonetta Sandrock",
+ "ref":
+ "pmb2589"},
+ {
+ "persName":
+ "Christian Sandrock",
+ "ref":
+ "pmb2591"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "pmb2378"},
+ {
+ "persName":
+ "Eduard Lanner",
+ "ref":
+ "pmb28283"},
+ {
+ "persName":
+ "Ottilie Lanner",
+ "ref":
+ "pmb28751"},
+ {
+ "persName":
+ "Josef Giampietro",
+ "ref":
+ "pmb2847"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Die Kameraden. Lustspiel in drei Aufzügen",
+ "ref":
+ "pmb30425"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ,  {
+ "placeName":
+ "Hotel Excelsior",
+ "ref":
+ "pmb109"}
+ ,  {
+ "placeName":
+ "Zum rothen Rössel",
+ "ref":
+ "pmb110"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Theodor Herzl, 30. 1. 1895",
+ "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}] 

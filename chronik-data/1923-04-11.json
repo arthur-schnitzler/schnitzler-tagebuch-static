@@ -1,0 +1,85 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/ELS_H1_0269",
+ "head":
+ "Fräulein Else, hsl. Werkniederschrift, 10.04.1923 o. 11.04.1923"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-04-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-04-11.html",
+ "head":
+ "Tagebuch, 11. April 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans Altmann",
+ "ref":
+ "person_13171"},
+ {
+ "persName":
+ "Konstantin von Economo",
+ "ref":
+ "person_14613"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Karel Frederik Wenckebach",
+ "ref":
+ "person_21229"},
+ {
+ "persName":
+ "Josef Wesicowsky",
+ "ref":
+ "person_21272"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fräulein Else",
+ "ref":
+ "pmb29941"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

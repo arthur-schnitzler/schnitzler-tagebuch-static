@@ -1,0 +1,158 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1898-07-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-07-23.html",
+ "head":
+ "Tagebuch, 23. Juli 1898",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Prossau",
+ "ref":
+ "pmb92466"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00826",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00826.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, 23. 7. 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Hugo August von Hofmannsthal",
+ "ref":
+ "pmb11737"},
+ {
+ "persName":
+ "Anna von Hofmannsthal",
+ "ref":
+ "pmb18404"},
+ {
+ "persName":
+ "Paula Schmidl",
+ "ref":
+ "pmb24292"},
+ {
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "pmb13058"},
+ {
+ "persName":
+ "Agnes Ulmann",
+ "ref":
+ "pmb27942"},
+ {
+ "persName":
+ "Emilie Sgal",
+ "ref":
+ "pmb24860"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "pmb2774"},
+ {
+ "persName":
+ "Sophie Knepler",
+ "ref":
+ "pmb19466"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Gastein",
+ "ref":
+ "pmb521"}
+ ,  {
+ "placeName":
+ "Mödling",
+ "ref":
+ "pmb968"}
+ ,  {
+ "placeName":
+ "Tschortkiw",
+ "ref":
+ "pmb45274"}
+ ,  {
+ "placeName":
+ "Hotel Weilguni",
+ "ref":
+ "pmb36229"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/521/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/521/",
+ "head":
+ "Bad Gastein"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34014/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34014/",
+ "head":
+ "Villa Dr. Wassing"
+}] 

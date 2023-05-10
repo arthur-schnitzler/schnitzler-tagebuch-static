@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1914-09-09">Mittwoch, 9. September 1914</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1914-09-09">
+               <head>Tagebuch, 9. September 1914</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13359">Stefanie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15855">Markus Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17423">Karoline Leitner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17425">Max Leitner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19150">Marie Reinhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19254">Oscar Rie</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-09-09.html</idno>
+            </event>
+            <event when-iso="1914-09-09">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1914-09-09">
+               <head>Stefan Zweig an Bahr, [9. 9. 1914?]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb13212">Stefan Zweig</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23452">Thaddäus Rittner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12011">Jaroslav Kvapil</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4226">Ivo Vojnović</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4230">Lujo Vojnović</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30815">[Gedicht]</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb728">Kochgasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb24">Ministerium für Unterricht</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb366">Montenegro</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb264">Serbien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34438">Russland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb365">Hotel Imperial</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45359">Arad</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb468">Europa</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041648.html</idno>
+            </event>
+            <event when-iso="1914-09-09">
+               <head>Arthur Schnitzler an Samuel Fischer, 9.9.1914</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118691406">Fischer, Samuel</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Samuel Fischer,
+                    Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main:
+                    1989. (nur Korrespondenz mit Arthur Schnitzler)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#y8d39a2f-76d4-4426-8799-986c8bf5bc60"/>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

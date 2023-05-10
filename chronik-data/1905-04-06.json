@@ -1,0 +1,94 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-04-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-04-06.html",
+ "head":
+ "Tagebuch, 6. April 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johann Sebastian Bach",
+ "ref":
+ "person_13344"},
+ {
+ "persName":
+ "Jakob Baechtold",
+ "ref":
+ "person_13369"},
+ {
+ "persName":
+ "Anton Bruckner",
+ "ref":
+ "person_14008"},
+ {
+ "persName":
+ "Étienne Jacques Macdonald",
+ "ref":
+ "person_17766"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Hermann Stehr",
+ "ref":
+ "person_20343"},
+ {
+ "persName":
+ "Fanny Lubelsky",
+ "ref":
+ "person_17709"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "Gottfried Kellers Leben. Seine Briefe und Tagebücher",
+ "ref":
+ "pmb80111"}
+ ,  {
+ "title":
+ "Symphonie Nr. 8 c-Moll WAB 108",
+ "ref":
+ "pmb30701"}
+ ,  {
+ "title":
+ "Memoiren des Marschalls Macdonald",
+ "ref":
+ "pmb80943"}
+ ,  {
+ "title":
+ "Meta Konegen. Drama",
+ "ref":
+ "pmb78477"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,98 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-09-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-09-11.html",
+ "head":
+ "Tagebuch, 11. September 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Fjodor Mihajlovič Dostojevskij",
+ "ref":
+ "person_14500"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Erniedrigte und Beleidigte",
+ "ref":
+ "pmb77739"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lochau",
+ "ref":
+ "pmb91159"}
+ ,  {
+ "placeName":
+ "Konstanz",
+ "ref":
+ "pmb849"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91159/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91159/",
+ "head":
+ "Lochau"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/849/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/849/",
+ "head":
+ "Konstanz"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp098",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp098.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 11. September 1923"
+}] 

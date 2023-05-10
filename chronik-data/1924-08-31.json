@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1924-08-31",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-08-31.html",
+ "head":
+ "Tagebuch, 31. August 1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Efraim Frisch",
+ "ref":
+ "person_15253"},
+ {
+ "persName":
+ "Robert Lichtenstern",
+ "ref":
+ "person_17509"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Ernst Strasser",
+ "ref":
+ "person_20476"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lugano",
+ "ref":
+ "pmb885"}
+ ,  {
+ "placeName":
+ "Locarno",
+ "ref":
+ "pmb49781"}
+ ,  {
+ "placeName":
+ "Monte Sasso",
+ "ref":
+ "pmb92410"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/885/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/885/",
+ "head":
+ "Lugano"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/49781/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/49781/",
+ "head":
+ "Locarno"
+}] 

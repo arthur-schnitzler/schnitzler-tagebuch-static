@@ -1,0 +1,98 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-08-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-08-24.html",
+ "head":
+ "Tagebuch, 24. August 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Frankfurter",
+ "ref":
+ "person_15134"},
+ {
+ "persName":
+ "Agnes Ulmann",
+ "ref":
+ "person_20872"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Monte Bullaccia",
+ "ref":
+ "pmb91550"}
+ ,  {
+ "placeName":
+ "Schlern",
+ "ref":
+ "pmb39874"}
+ ,  {
+ "placeName":
+ "Burg Salegg",
+ "ref":
+ "pmb41156"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/988/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/988/",
+ "head":
+ "Seis am Schlern"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/467/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/467/",
+ "head":
+ "Villa Heufler"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00082660",
+ "head":
+ "Schnitzler, Arthur: Das weite Land [Dramatisches] (Drucktitel)",
+ "text":
+ "Letztes Objekt aus der Mappe. ca 95 Bl.paginiert 1-91"
+}] 

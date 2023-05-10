@@ -1,0 +1,619 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-12-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-12-02.html",
+ "head":
+ "Tagebuch, 2. Dezember 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Heinrich Kadelburg",
+ "ref":
+ "person_16621"},
+ {
+ "persName":
+ "Robert Nhil",
+ "ref":
+ "person_18438"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Friedrich Schütz",
+ "ref":
+ "person_19921"},
+ {
+ "persName":
+ "Emil Granichstaedten",
+ "ref":
+ "person_15624"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00285",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00285.html",
+ "head":
+ "Arthur Schnitzler an Hermann Bahr, 2. 12. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Carl Pietzner",
+ "ref":
+ "pmb2374"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Arthur Schnitzler (1893)",
+ "ref":
+ "pmb93194"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041002",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041002.html",
+ "head":
+ "Schnitzler an Bahr, 2. 12. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Carl Pietzner",
+ "ref":
+ "pmb2374"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Mariahilferstraße",
+ "ref":
+ "pmb302"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041094",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041094.html",
+ "head":
+ "Tagebuch von Schnitzler, 2. 12. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Friedrich Schütz",
+ "ref":
+ "pmb2583"},
+ {
+ "persName":
+ "Emil Granichstaedten",
+ "ref":
+ "pmb2586"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "pmb12618"},
+ {
+ "persName":
+ "Heinrich Kadelburg",
+ "ref":
+ "pmb11848"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"},
+ {
+ "persName":
+ "Robert Nhil",
+ "ref":
+ "pmb12355"},
+ {
+ "persName":
+ "Wilhelmine Sandrock",
+ "ref":
+ "pmb12621"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb30463"}
+ ,  {
+ "title":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb30449"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "T030010",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/T030010.html",
+ "head":
+ "Bahr: Das Märchen, 2. 12. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Francisque Sarcey",
+ "ref":
+ "pmb4120"},
+ {
+ "persName":
+ "Friedrich Hebbel",
+ "ref":
+ "pmb2404"},
+ {
+ "persName":
+ "Gaston Salandri",
+ "ref":
+ "pmb28421"},
+ {
+ "persName":
+ "Alexandre père Dumas",
+ "ref":
+ "pmb11190"},
+ {
+ "persName":
+ "Alexandre fils Dumas",
+ "ref":
+ "pmb15512"},
+ {
+ "persName":
+ "Pierre Augustin Caron de Beaumarchais",
+ "ref":
+ "pmb10857"},
+ {
+ "persName":
+ "Denis Diderot",
+ "ref":
+ "pmb11157"},
+ {
+ "persName":
+ "Molière",
+ "ref":
+ "pmb3272"},
+ {
+ "persName":
+ "William Shakespeare",
+ "ref":
+ "pmb2412"},
+ {
+ "persName":
+ "Titus Maccius Plautus",
+ "ref":
+ "pmb4083"},
+ {
+ "persName":
+ "Publius Terentius Afer",
+ "ref":
+ "pmb28417"},
+ {
+ "persName":
+ "Henri Becque",
+ "ref":
+ "pmb13897"},
+ {
+ "persName":
+ "Henri Léon Lavedan",
+ "ref":
+ "pmb2488"},
+ {
+ "persName":
+ "Georges de Porto-Riche",
+ "ref":
+ "pmb22824"},
+ {
+ "persName":
+ "Gustav Kadelburg",
+ "ref":
+ "pmb11845"},
+ {
+ "persName":
+ "Maximilian Harden",
+ "ref":
+ "pmb11581"},
+ {
+ "persName":
+ "Oskar Blumenthal",
+ "ref":
+ "pmb14328"},
+ {
+ "persName":
+ "Decimus Junius Juvenalis",
+ "ref":
+ "pmb28420"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "pmb12618"},
+ {
+ "persName":
+ "Adalbert Stifter",
+ "ref":
+ "pmb12851"},
+ {
+ "persName":
+ "Gustav Pechwill",
+ "ref":
+ "pmb28493"},
+ {
+ "persName":
+ "Josef Giampietro",
+ "ref":
+ "pmb2847"},
+ {
+ "persName":
+ "Victor Kutschera",
+ "ref":
+ "pmb2868"},
+ {
+ "persName":
+ "Robert Nhil",
+ "ref":
+ "pmb12355"},
+ {
+ "persName":
+ "Franz Tewele",
+ "ref":
+ "pmb12929"},
+ {
+ "persName":
+ "Adolf Weisse",
+ "ref":
+ "pmb26880"},
+ {
+ "persName":
+ "Otto Eppens",
+ "ref":
+ "pmb4124"},
+ {
+ "persName":
+ "Julius Meixner",
+ "ref":
+ "pmb4127"},
+ {
+ "persName":
+ "Leopoldine Berg",
+ "ref":
+ "pmb28443"},
+ {
+ "persName":
+ "Marie Griebl",
+ "ref":
+ "pmb4073"},
+ {
+ "persName":
+ "Adele Hell",
+ "ref":
+ "pmb28446"},
+ {
+ "persName":
+ "Anna Bock",
+ "ref":
+ "pmb14338"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Maria Magdalena",
+ "ref":
+ "pmb29953"}
+ ,  {
+ "title":
+ "Othello",
+ "ref":
+ "pmb31671"}
+ ,  {
+ "title":
+ "Le Grappin",
+ "ref":
+ "pmb31739"}
+ ,  {
+ "title":
+ "Fernande",
+ "ref":
+ "pmb32358"}
+ ,  {
+ "title":
+ "Denise",
+ "ref":
+ "pmb31893"}
+ ,  {
+ "title":
+ "Die Jungfrauen",
+ "ref":
+ "pmb31891"}
+ ,  {
+ "title":
+ "Die neuen Menschen. Ein Schauspiel",
+ "ref":
+ "pmb31707"}
+ ,  {
+ "title":
+ "Eine Palastrevolution",
+ "ref":
+ "pmb31709"}
+ ,  {
+ "title":
+ "Mauerblümchen",
+ "ref":
+ "pmb31741"}
+ ,  {
+ "title":
+ "Das Märchen (Schauspiel in drei Aufzügen von Arthur Schnitzler)",
+ "ref":
+ "pmb31563"}
+ ,  {
+ "title":
+ "Deutsche Zeitung",
+ "ref":
+ "pmb41471"}
+ ,  {
+ "title":
+ "Wiener Theater (1892–1898)",
+ "ref":
+ "pmb31839"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Théâtre libre",
+ "ref":
+ "pmb560"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Verlags-Magazin (J. Schabelitz)",
+ "ref":
+ "pmb29367"}
+ ]
+}
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/63509/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/63509/",
+ "head":
+ "2. (und letzte) Aufführung Das Märchen, 2.12.1893",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Volkstheater",
+ "ref":
+ "pmb36430"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#g21edf0a-7af3-4163-813b-7d55aaaf2eba",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Adele Sandrock an Arthur Schnitzler, 2.12.1893",
+ "source":
+ "Renate Wagner (Hg.): Dilly. Geschichte einer Liebe in Briefen, Bildern und Dokumenten. Wien/München: Amalthea 1975."
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d2b0f559-bde7-4114-82b9-741a8810c463",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Olga Waissnix an Arthur Schnitzler, 2.12.1893",
+ "source":
+ "Arthur Schnitzler und Waissnix, Olga: Liebe, die starb vor der Zeit. Ein Briefwechsel. Mit einem Vorwort von Hans Weigel. Mit 16 Seiten Kunstdruckbildern. Hg. v. Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)"
+}] 

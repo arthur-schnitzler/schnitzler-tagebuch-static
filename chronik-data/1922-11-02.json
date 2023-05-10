@@ -1,0 +1,112 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-11-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-11-02.html",
+ "head":
+ "Tagebuch, 2. November 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor? Bach",
+ "ref":
+ "person_13348"},
+ {
+ "persName":
+ "Emil Hamburger",
+ "ref":
+ "person_15881"},
+ {
+ "persName":
+ "Emma Löwenstamm",
+ "ref":
+ "person_17650"},
+ {
+ "persName":
+ "Julius Schnabel",
+ "ref":
+ "person_19791"},
+ {
+ "persName":
+ "Peter Schnabel",
+ "ref":
+ "person_19793"},
+ {
+ "persName":
+ "Josef Standthartner",
+ "ref":
+ "person_20324"},
+ {
+ "persName":
+ "Ernst Schwedeler-Meyer",
+ "ref":
+ "person_19994"},
+ {
+ "persName":
+ "Ernst Victor Zenker",
+ "ref":
+ "person_21538"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Weihnachts-Einkäufe",
+ "ref":
+ "pmb30163"}
+ ,  {
+ "title":
+ "Excentric",
+ "ref":
+ "pmb29893"}
+ ,  {
+ "title":
+ "Die letzten Masken",
+ "ref":
+ "pmb29877"}
+ ,  {
+ "title":
+ "Die dreifache Warnung",
+ "ref":
+ "pmb33061"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Liberec",
+ "ref":
+ "pmb47966"}
+ ,  {
+ "placeName":
+ "Jablonec nad Nisou",
+ "ref":
+ "pmb37592"}
+ ,  {
+ "placeName":
+ "Volksgarten",
+ "ref":
+ "pmb103"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/47966/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/47966/",
+ "head":
+ "Liberec"
+}] 

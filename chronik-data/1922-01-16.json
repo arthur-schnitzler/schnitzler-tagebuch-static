@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-01-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-01-16.html",
+ "head":
+ "Tagebuch, 16. Januar 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Anna Sikora",
+ "ref":
+ "person_20523"},
+ {
+ "persName":
+ "August Strindberg",
+ "ref":
+ "person_20530"},
+ {
+ "persName":
+ "Scofield Thayer",
+ "ref":
+ "person_20692"},
+ {
+ "persName":
+ "Béla Bartók",
+ "ref":
+ "person_13443"},
+ {
+ "persName":
+ "Paul Wegener",
+ "ref":
+ "person_21135"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Totentanz",
+ "ref":
+ "pmb77080"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

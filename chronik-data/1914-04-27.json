@@ -1,0 +1,196 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-04-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-04-27.html",
+ "head":
+ "Tagebuch, 27. April 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Tristan Bernard",
+ "ref":
+ "person_13661"},
+ {
+ "persName":
+ "Oskar Bie",
+ "ref":
+ "person_13715"},
+ {
+ "persName":
+ "Gustav Meyrink",
+ "ref":
+ "person_18133"},
+ {
+ "persName":
+ "Marie Schey",
+ "ref":
+ "person_19664"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Gustav Maran",
+ "ref":
+ "person_17849"},
+ {
+ "persName":
+ "Paul Apel",
+ "ref":
+ "person_13238"},
+ {
+ "persName":
+ "Paul Jonas",
+ "ref":
+ "person_16574"},
+ {
+ "persName":
+ "Rudolf Olden",
+ "ref":
+ "person_18548"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Marionetten. Drei Einakter",
+ "ref":
+ "pmb29859"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Hans Sonnenstößers Höllenfahrt",
+ "ref":
+ "pmb78148"}
+ ,  {
+ "title":
+ "Les deux canards",
+ "ref":
+ "pmb77835"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Josefsplatz",
+ "ref":
+ "pmb92310"}
+ ,  {
+ "placeName":
+ "Praterstraße",
+ "ref":
+ "pmb92460"}
+ ,  {
+ "placeName":
+ "VIII., Josefstadt",
+ "ref":
+ "pmb58"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 27. April 1914",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00041045",
+ "head":
+ "Pringsheim, Klaus an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Klaus (1883-1972) Pringsheim",
+ "ref":
+ "http://d-nb.info/gnd/116290676"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00047836",
+ "head":
+ "Schnitzler, Arthur an Meyrink, Gustav [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustav (1868-1932) Meyrink",
+ "ref":
+ "http://d-nb.info/gnd/118582046"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043342",
+ "head":
+ "Singer, Isidor an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Isidor (1857-1927) Singer",
+ "ref":
+ "http://d-nb.info/gnd/117402273"}]
+}
+}] 

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1925-01-16">Freitag, 16. Januar 1925</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1925-01-16">
+               <head>Tagebuch, 16. Januar 1925</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15737">Werner Johannes Guggenheim</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15943">Bruno Hartmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17721">Alfred Ludin-Schnurrenberger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20035">Otto Seiler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18100">Arnold Mettler-Specker</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29951">Zum großen Wurstel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29877">Die letzten Masken</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33061">Die dreifache Warnung</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb1223">Bern</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40655">St. Gallen</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-01-16.html</idno>
+            </event>
+            <event when-iso="1925-01-16">
+               <head>Bern</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/1223/</idno>
+            </event>
+            <event when-iso="1925-01-16">
+               <head>St. Gallen</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/40655/</idno>
+            </event>
+            <event when-iso="1925-01-16">
+               <head>Arthur Schnitzler an Hedy Kempny, 16.1.1925</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/11872181X">Kempny, Hedy</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Hedy Kempny und
+                    Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz
+                    ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer
+                    Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt
+                    1984. (Neue Frau)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#n0827e77-245d-4359-a0b0-5b601a5370ee"/>
+            </event>
+            <event when-iso="1925-01-16">
+               <head>Hedy Kempny an Arthur Schnitzler, 16.1.1925</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/11872181X">Kempny, Hedy</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Hedy Kempny und
+                    Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz
+                    ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer
+                    Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt
+                    1984. (Neue Frau)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#n0827e77-245d-4359-a0b0-5b601a5370ee"/>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-05-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-05-16.html",
+ "head":
+ "Tagebuch, 16. Mai 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Herbert Eulenberg",
+ "ref":
+ "person_14821"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Lili Waerndorfer",
+ "ref":
+ "person_21016"},
+ {
+ "persName":
+ "Alfred von Winterstein",
+ "ref":
+ "person_21387"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Alles um Geld. Ein Stück in fünf Aufzügen",
+ "ref":
+ "pmb31899"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Erhalt von Isabella Vengerova an Arthur Schnitzler, 14. 5. [1913]",
+ "source":
+ "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
+}] 

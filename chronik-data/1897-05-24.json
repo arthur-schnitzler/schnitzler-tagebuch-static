@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1897-05-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-05-24.html",
+ "head":
+ "Tagebuch, 24. Mai 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Hauser",
+ "ref":
+ "person_15986"},
+ {
+ "persName":
+ "Amelia Margaret Markbreiter",
+ "ref":
+ "person_17895"},
+ {
+ "persName":
+ "Charles Gustavus Markbreiter",
+ "ref":
+ "person_17898"},
+ {
+ "persName":
+ "Felix Markbreiter",
+ "ref":
+ "person_17901"},
+ {
+ "persName":
+ "Herbert Philip Markbreiter",
+ "ref":
+ "person_17903"},
+ {
+ "persName":
+ "Julie Markbreiter",
+ "ref":
+ "person_17904"},
+ {
+ "persName":
+ "Otto Markbreiter",
+ "ref":
+ "person_17906"},
+ {
+ "persName":
+ "Andrée Marie Markbreiter",
+ "ref":
+ "person_17896"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "London",
+ "ref":
+ "pmb224"}
+ ,  {
+ "placeName":
+ "Herne Hill",
+ "ref":
+ "pmb90865"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/182/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/182/",
+ "head":
+ "Paris"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/224/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/224/",
+ "head":
+ "London"
+}] 

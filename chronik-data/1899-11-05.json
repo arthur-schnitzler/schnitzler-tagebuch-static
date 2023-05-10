@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-11-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-11-05.html",
+ "head":
+ "Tagebuch, 5. November 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Paul Schlenther",
+ "ref":
+ "person_19724"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#sb5b8e07-e0c8-47e6-8add-494150f56e37",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Franziska Lawner an Arthur Schnitzler, 5.11.1899",
+ "source":
+ "Arthur Schnitzler: Frau Bertha Garlan. Historisch-kritische Ausgabe. Herausgegeben von Gerhard Hubmann und Isabella Schwentner und Mitarbeit von Anna Lindner und Martin Anton Müller. Berlin, Boston: De Gruyter 2015 (Arthur Schnitzler: Werke in historisch-kritischen Ausgaben. Herausgegeben von Konstanze Fliedl), S. 281–298."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040612",
+ "head":
+ "Morgenstern, Robert an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

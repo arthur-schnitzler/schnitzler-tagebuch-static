@@ -1,0 +1,120 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-06-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-06-17.html",
+ "head":
+ "Tagebuch, 17. Juni 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Elisabeth Bergner",
+ "ref":
+ "person_13643"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Werra? John",
+ "ref":
+ "person_16565"},
+ {
+ "persName":
+ "Josef Pohl",
+ "ref":
+ "person_18846"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Eugen Robert",
+ "ref":
+ "person_19294"},
+ {
+ "persName":
+ "Victor Barnowsky",
+ "ref":
+ "person_13428"},
+ {
+ "persName":
+ "Viola Gabriele Schlesinger",
+ "ref":
+ "person_19738"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Gespräche mit Heine",
+ "ref":
+ "pmb80722"}
+ ,  {
+ "title":
+ "Der Nachsommer",
+ "ref":
+ "pmb81363"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lido",
+ "ref":
+ "pmb91143"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00048757",
+ "head":
+ "Schnitzler, Arthur an Schubart, ... [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

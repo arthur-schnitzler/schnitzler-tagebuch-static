@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-09-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-09-24.html",
+ "head":
+ "Tagebuch, 24. September 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hedwig Bleibtreu",
+ "ref":
+ "person_13776"},
+ {
+ "persName":
+ "Leo Greiner",
+ "ref":
+ "person_15643"},
+ {
+ "persName":
+ "Irmgard Kaufmann",
+ "ref":
+ "person_16449"},
+ {
+ "persName":
+ "Maria Mayer",
+ "ref":
+ "person_18020"},
+ {
+ "persName":
+ "Rudolf Ergas",
+ "ref":
+ "person_14786"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"},
+ {
+ "persName":
+ "Jürgen Fehling",
+ "ref":
+ "person_14908"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Stunde des Erkennens",
+ "ref":
+ "pmb31447"}
+ ,  {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Chinesische Abende",
+ "ref":
+ "pmb80628"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Neuwaldegg",
+ "ref":
+ "pmb170"}
+ ,  {
+ "placeName":
+ "Opava",
+ "ref":
+ "pmb36539"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

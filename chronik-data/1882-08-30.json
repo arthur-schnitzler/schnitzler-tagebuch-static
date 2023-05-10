@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1882-08-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1882-08-30.html",
+ "head":
+ "Tagebuch, 30. August 1882",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eduard Albert",
+ "ref":
+ "person_13128"},
+ {
+ "persName":
+ "Gustav Frieberger",
+ "ref":
+ "person_15199"},
+ {
+ "persName":
+ "Julius von Gans-Ludassy",
+ "ref":
+ "person_15338"},
+ {
+ "persName":
+ "Michael Pallester",
+ "ref":
+ "person_18644"},
+ {
+ "persName":
+ "Jacques Pichler",
+ "ref":
+ "person_18766"},
+ {
+ "persName":
+ "Friedrich Schik",
+ "ref":
+ "person_19685"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"},
+ {
+ "persName":
+ "Heinrich Auspitz",
+ "ref":
+ "person_13313"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Für einen Andern",
+ "ref":
+ "pmb35733"}
+ ,  {
+ "title":
+ "Diagnostik der chirurgischen Krankheiten in zwanzig Vorlesungen",
+ "ref":
+ "pmb80074"}
+ ,  {
+ "title":
+ "Der letzte Flittertag",
+ "ref":
+ "pmb80544"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volksgarten",
+ "ref":
+ "pmb103"}
+ ,  {
+ "placeName":
+ "Litoměřice",
+ "ref":
+ "pmb39368"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,383 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-08-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-08-09.html",
+ "head":
+ "Tagebuch, 9. August 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Henriette Tallian",
+ "ref":
+ "person_20627"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Grinzing",
+ "ref":
+ "pmb90771"}
+ ,  {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ,  {
+ "placeName":
+ "",
+ "ref":
+ "pmb91574"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01424",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01424.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, 9. 8. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "pmb11673"},
+ {
+ "persName":
+ "Karl Eduard Vehse",
+ "ref":
+ "pmb27903"},
+ {
+ "persName":
+ "Karl V.",
+ "ref":
+ "pmb3986"},
+ {
+ "persName":
+ "William Shakespeare",
+ "ref":
+ "pmb2412"},
+ {
+ "persName":
+ "Friedrich Hebbel",
+ "ref":
+ "pmb2404"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Geschichte der deutschen Höfe seit der Reformation",
+ "ref":
+ "pmb31315"}
+ ,  {
+ "title":
+ "Tagebücher",
+ "ref":
+ "pmb30609"}
+ ,  {
+ "title":
+ "Das Los der Juden",
+ "ref":
+ "pmb30377"}
+ ,  {
+ "title":
+ "Der Graf von Charolais. Ein Trauerspiel",
+ "ref":
+ "pmb30233"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041526",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041526.html",
+ "head":
+ "Beer-Hofmann an Bahr, 9. 8. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Theophrast von Eresos",
+ "ref":
+ "pmb10739"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Leonardo da Vinci",
+ "ref":
+ "pmb20315"},
+ {
+ "persName":
+ "Gabriel Séailles",
+ "ref":
+ "pmb4521"},
+ {
+ "persName":
+ "Matteo Bandello",
+ "ref":
+ "pmb13707"},
+ {
+ "persName":
+ "Mirjam Beer-Hofmann",
+ "ref":
+ "pmb2668"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Sanna. Schauspiel in fünf Aufzügen",
+ "ref":
+ "pmb29901"}
+ ,  {
+ "title":
+ "Dialog vom Marsyas",
+ "ref":
+ "pmb30065"}
+ ,  {
+ "title":
+ "Aufzeichnungen zu »Ariadne auf Kreta« und »Ariadne auf Naxos«",
+ "ref":
+ "pmb32213"}
+ ,  {
+ "title":
+ "Léonard de Vinci",
+ "ref":
+ "pmb32226"}
+ ,  {
+ "title":
+ "Faust",
+ "ref":
+ "pmb30247"}
+ ,  {
+ "title":
+ "Das letzte Abendmahl",
+ "ref":
+ "pmb32228"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Griechenland",
+ "ref":
+ "pmb44293"}
+ ,  {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041393",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041393.html",
+ "head":
+ "Schnitzler an Hofmannsthal, 9. 8. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "pmb11673"},
+ {
+ "persName":
+ "Karl Eduard Vehse",
+ "ref":
+ "pmb27903"},
+ {
+ "persName":
+ "Karl V.",
+ "ref":
+ "pmb3986"},
+ {
+ "persName":
+ "William Shakespeare",
+ "ref":
+ "pmb2412"},
+ {
+ "persName":
+ "Friedrich Hebbel",
+ "ref":
+ "pmb2404"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Geschichte der deutschen Höfe seit der Reformation",
+ "ref":
+ "pmb31315"}
+ ,  {
+ "title":
+ "Tagebücher",
+ "ref":
+ "pmb30609"}
+ ,  {
+ "title":
+ "Das Los der Juden",
+ "ref":
+ "pmb30377"}
+ ,  {
+ "title":
+ "Der Graf von Charolais. Ein Trauerspiel",
+ "ref":
+ "pmb30233"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ]
+}
+}] 

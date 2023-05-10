@@ -1,0 +1,253 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-04-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-04-20.html",
+ "head":
+ "Tagebuch, 20. April 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Hollaender",
+ "ref":
+ "person_16326"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "person_19154"},
+ {
+ "persName":
+ "Gisela Springer",
+ "ref":
+ "person_20295"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Mirjam Horwitz",
+ "ref":
+ "person_21546"},
+ {
+ "persName":
+ "August von Platen",
+ "ref":
+ "person_18827"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Torquato Tasso",
+ "ref":
+ "pmb30031"}
+ ,  {
+ "title":
+ "Tagebücher",
+ "ref":
+ "pmb30713"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041286",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041286.html",
+ "head":
+ "Tagebuch von Schnitzler, 20. 4. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "pmb12504"},
+ {
+ "persName":
+ "Felix Hollaender",
+ "ref":
+ "pmb11752"},
+ {
+ "persName":
+ "Mirjam Horwitz",
+ "ref":
+ "pmb2549"},
+ {
+ "persName":
+ "Gisela Springer",
+ "ref":
+ "pmb25275"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "pmb2315"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "August von Platen",
+ "ref":
+ "pmb12424"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Das Nibelungenlied",
+ "ref":
+ "pmb30709"}
+ ,  {
+ "title":
+ "Torquato Tasso",
+ "ref":
+ "pmb30031"}
+ ,  {
+ "title":
+ "Tagebücher",
+ "ref":
+ "pmb30713"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Kammerspiele Berlin",
+ "ref":
+ "pmb12"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Kleines Theater",
+ "ref":
+ "pmb208"}
+ ,  {
+ "placeName":
+ "Restauration Türkenschanz-Park",
+ "ref":
+ "pmb74"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043711",
+ "head":
+ "Strunz, Franz an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

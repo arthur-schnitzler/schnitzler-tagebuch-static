@@ -1,0 +1,181 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-03-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-03-13.html",
+ "head":
+ "Tagebuch, 13. März 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Aurelie Haberfeld",
+ "ref":
+ "person_15821"},
+ {
+ "persName":
+ "Julie Markbreiter",
+ "ref":
+ "person_17904"},
+ {
+ "persName":
+ "Bernhard Scharrer",
+ "ref":
+ "person_19633"},
+ {
+ "persName":
+ "Leon Schalit",
+ "ref":
+ "person_19616"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Frage an das Schicksal",
+ "ref":
+ "pmb30749"}
+ ,  {
+ "title":
+ "Episode",
+ "ref":
+ "pmb31357"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ,  {
+ "placeName":
+ "Polen",
+ "ref":
+ "pmb313"}
+ ,  {
+ "placeName":
+ "Brazil",
+ "ref":
+ "pmb36553"}
+ ,  {
+ "placeName":
+ "England",
+ "ref":
+ "pmb90593"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp649",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp649.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 13. März 1922 – 14. März
+                  1929"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#r622db06-4f0b-4c00-a846-4d10842e4354",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Björkman-Goldschmidt,
+                        Elsa, 13.3.1922",
+ "source":
+ "Bernd Kürschner: Arthur Schnitzler und die schwedische Kinderhilfsorganisation Rädda Barnen. In: Text &amp; Kontext. Jahrbuch für germanistische Literaturforschung in Skandinavien, Jg. 36, 2014, 151–172."
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Gustaf Linden, 13.3.1922",
+ "source":
+ "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Leo Greiner, 13. 3. 1922",
+ "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00892247",
+ "head":
+ "Schnitzler, Arthur an Hollaender, Felix [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix (1867-1931) Hollaender",
+ "ref":
+ "http://d-nb.info/gnd/116961805"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00079477",
+ "head":
+ "Schnitzler, Arthur an Björkman-Goldschmidt, Edith [Briefe]",
+ "text":
+ "1 Bl.Durchschl. Mit 1 weit. Ex. 1 Bl.Durchschl."
+}] 

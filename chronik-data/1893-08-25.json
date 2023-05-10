@@ -1,0 +1,81 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-08-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-08-25.html",
+ "head":
+ "Tagebuch, 25. August 1893",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Artifex",
+ "ref":
+ "pmb29821"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pieve di Cadore",
+ "ref":
+ "pmb34112"}
+ ,  {
+ "placeName":
+ "Carbonin",
+ "ref":
+ "pmb44317"}
+ ,  {
+ "placeName":
+ "Toblach",
+ "ref":
+ "pmb987"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34112/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34112/",
+ "head":
+ "Pieve di Cadore"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44317/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44317/",
+ "head":
+ "Carbonin"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/987/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/987/",
+ "head":
+ "Toblach"
+}] 

@@ -1,0 +1,154 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-11-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-11-29.html",
+ "head":
+ "Tagebuch, 29. November 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Henne am Rhyn",
+ "ref":
+ "person_16088"},
+ {
+ "persName":
+ "Nikolai M. Karamsin",
+ "ref":
+ "person_16714"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Rudolf Lothar",
+ "ref":
+ "person_17696"},
+ {
+ "persName":
+ "Josef Popper-Lynkeus",
+ "ref":
+ "person_18916"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Paul von Zsolnay",
+ "ref":
+ "person_21586"},
+ {
+ "persName":
+ "Gustave Flaubert",
+ "ref":
+ "person_15025"},
+ {
+ "persName":
+ "Otto Pick",
+ "ref":
+ "person_18779"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Gesammelte Werke",
+ "ref":
+ "pmb30313"}
+ ,  {
+ "title":
+ "Ägypten (Tagebuch aus Aegypten)",
+ "ref":
+ "pmb77886"}
+ ,  {
+ "title":
+ "Kulturgeschichte des deutschen Volkes",
+ "ref":
+ "pmb80684"}
+ ,  {
+ "title":
+ "Briefe eines reisenden Russen",
+ "ref":
+ "pmb80771"}
+ ,  {
+ "title":
+ "Deutsche Erzähler aus der Tschechoslowakei",
+ "ref":
+ "pmb81112"}
+ ,  {
+ "title":
+ "Über Religion",
+ "ref":
+ "pmb78109"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Hohe Warte",
+ "ref":
+ "pmb92292"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00046292",
+ "head":
+ "Schnitzler, Arthur an Hildenbrandt, Fred [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Fred (1892-1963) Hildenbrandt",
+ "ref":
+ "http://d-nb.info/gnd/118551000"}]
+}
+}] 

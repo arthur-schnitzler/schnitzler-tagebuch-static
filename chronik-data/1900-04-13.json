@@ -1,0 +1,114 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-04-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-04-13.html",
+ "head":
+ "Tagebuch, 13. April 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Speyer",
+ "ref":
+ "person_20247"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02910",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02910.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 13. 4. [1900]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Agnes Sorma",
+ "ref":
+ "pmb2299"},
+ {
+ "persName":
+ "Eberhard König",
+ "ref":
+ "pmb141535"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Gevatter Tod. Ein Märchen von der Menschheit. Drama in fünf Aufzügen",
+ "ref":
+ "pmb141538"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Dessauer Straße",
+ "ref":
+ "pmb40583"}
+ ,  {
+ "placeName":
+ "Lessing-Theater",
+ "ref":
+ "pmb18"}
+ ,  {
+ "placeName":
+ "Schauspielhaus",
+ "ref":
+ "pmb784"}
+ ,  {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

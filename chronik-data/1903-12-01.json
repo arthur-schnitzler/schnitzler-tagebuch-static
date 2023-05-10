@@ -1,0 +1,234 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-12-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-12-01.html",
+ "head":
+ "Tagebuch, 1. Dezember 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "person_19364"},
+ {
+ "persName":
+ "Paul Schlenther",
+ "ref":
+ "person_19724"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Pierrette",
+ "ref":
+ "pmb30215"}
+ ,  {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041455",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041455.html",
+ "head":
+ "Kalendereintrag von Bahr, [Adressnotizen], Dezember 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Oskar Bie",
+ "ref":
+ "pmb2914"},
+ {
+ "persName":
+ "Felix Dörmann",
+ "ref":
+ "pmb2425"},
+ {
+ "persName":
+ "Jenny Rauch",
+ "ref":
+ "pmb28205"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "pmb12504"},
+ {
+ "persName":
+ "Gertrud Eysoldt",
+ "ref":
+ "pmb11284"},
+ {
+ "persName":
+ "Gustav Landauer",
+ "ref":
+ "pmb12031"},
+ {
+ "persName":
+ "Sigmund Wessely",
+ "ref":
+ "pmb28201"},
+ {
+ "persName":
+ "Max Lesser",
+ "ref":
+ "pmb28151"},
+ {
+ "persName":
+ "Richard Melcher",
+ "ref":
+ "pmb28225"},
+ {
+ "persName":
+ "Harry von Kessler",
+ "ref":
+ "pmb11916"},
+ {
+ "persName":
+ "Léon Goldschmidt",
+ "ref":
+ "pmb28223"},
+ {
+ "persName":
+ "Leopold Jacobson",
+ "ref":
+ "pmb3579"},
+ {
+ "persName":
+ "Carl Karlweis",
+ "ref":
+ "pmb13082"},
+ {
+ "persName":
+ "Adolf Goldenzweig",
+ "ref":
+ "pmb28226"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Potsdamerstraße",
+ "ref":
+ "pmb362"}
+ ,  {
+ "placeName":
+ "Meinekestraße",
+ "ref":
+ "pmb343"}
+ ,  {
+ "placeName":
+ "Alexanderufer",
+ "ref":
+ "pmb352"}
+ ,  {
+ "placeName":
+ "Fontanestraße",
+ "ref":
+ "pmb344"}
+ ,  {
+ "placeName":
+ "Bornimer Straße",
+ "ref":
+ "pmb346"}
+ ,  {
+ "placeName":
+ "Hermsdorf",
+ "ref":
+ "pmb348"}
+ ,  {
+ "placeName":
+ "Lerchenfelderstraße",
+ "ref":
+ "pmb345"}
+ ,  {
+ "placeName":
+ "Alexanderplatz",
+ "ref":
+ "pmb363"}
+ ,  {
+ "placeName":
+ "Grand Hotel Alexanderplatz",
+ "ref":
+ "pmb627"}
+ ,  {
+ "placeName":
+ "Knesebeckstraße",
+ "ref":
+ "pmb357"}
+ ,  {
+ "placeName":
+ "Mühlgasse",
+ "ref":
+ "pmb358"}
+ ,  {
+ "placeName":
+ "Köthenerstraße",
+ "ref":
+ "pmb359"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Bleichenbrücke",
+ "ref":
+ "pmb361"}
+ ,  {
+ "placeName":
+ "Rembrandtstraße",
+ "ref":
+ "pmb360"}
+ ]
+}
+}] 

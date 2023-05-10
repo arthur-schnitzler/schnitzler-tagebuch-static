@@ -1,0 +1,59 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1889-11-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1889-11-01.html",
+ "head":
+ "Tagebuch, 1. November 1889",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Helene Binder",
+ "ref":
+ "person_13733"},
+ {
+ "persName":
+ "Josef Binder",
+ "ref":
+ "person_13734"},
+ {
+ "persName":
+ "Innozenz Kohnberger",
+ "ref":
+ "person_16996"},
+ {
+ "persName":
+ "Adele Spitzer",
+ "ref":
+ "person_20274"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Andere. Aus dem Tagebuch eines Hinterbliebenen",
+ "ref":
+ "pmb33746"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

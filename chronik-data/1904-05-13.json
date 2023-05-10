@@ -1,0 +1,62 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-05-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-05-13.html",
+ "head":
+ "Tagebuch, 13. Mai 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karl Gustav Vollmoeller",
+ "ref":
+ "person_20986"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Naples",
+ "ref":
+ "pmb91330"}
+ ,  {
+ "placeName":
+ "Sorrent",
+ "ref":
+ "pmb629"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91330/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91330/",
+ "head":
+ "Neapel"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/629/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/629/",
+ "head":
+ "Sorrent"
+}] 

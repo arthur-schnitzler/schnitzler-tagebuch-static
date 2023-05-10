@@ -1,0 +1,135 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-04-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-04-14.html",
+ "head":
+ "Tagebuch, 14. April 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Camilla Gerzhofer",
+ "ref":
+ "person_15405"},
+ {
+ "persName":
+ "Mizi Hornsberger",
+ "ref":
+ "person_16374"},
+ {
+ "persName":
+ "Josef Jarno",
+ "ref":
+ "person_16517"},
+ {
+ "persName":
+ "Anna Kallina",
+ "ref":
+ "person_16666"},
+ {
+ "persName":
+ "Victor Kutschera",
+ "ref":
+ "person_17223"},
+ {
+ "persName":
+ "Roger Laederich",
+ "ref":
+ "person_17247"},
+ {
+ "persName":
+ "Alfred von Salm-Hoogstraeten",
+ "ref":
+ "person_19534"},
+ {
+ "persName":
+ "Agnes Sorma",
+ "ref":
+ "person_20219"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "person_21047"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Heinrich V.",
+ "ref":
+ "pmb41439"}
+ ,  {
+ "title":
+ "Richard III.",
+ "ref":
+ "pmb76823"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ringstraße",
+ "ref":
+ "pmb112"}
+ ,  {
+ "placeName":
+ "Café Kremser",
+ "ref":
+ "pmb46"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 14. April 1896",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

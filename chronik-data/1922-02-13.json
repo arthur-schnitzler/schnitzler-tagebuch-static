@@ -1,0 +1,288 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-02-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-02-13.html",
+ "head":
+ "Tagebuch, 13. Februar 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julius von Gans-Ludassy",
+ "ref":
+ "person_15338"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Erotikon",
+ "ref":
+ "pmb62328"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041672",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041672.html",
+ "head":
+ "Olga an Arthur Schnitzler, 13. 2. 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "??",
+ "ref":
+ "pmb27735"},
+ {
+ "persName":
+ "Bruno Frank",
+ "ref":
+ "pmb4057"},
+ {
+ "persName":
+ "Max Dauthendey",
+ "ref":
+ "pmb27849"},
+ {
+ "persName":
+ "Franz Werfel",
+ "ref":
+ "pmb13094"},
+ {
+ "persName":
+ "Helene Flöge",
+ "ref":
+ "pmb27674"},
+ {
+ "persName":
+ "Pauline Flöge",
+ "ref":
+ "pmb27677"},
+ {
+ "persName":
+ "Emilie Flöge",
+ "ref":
+ "pmb2972"},
+ {
+ "persName":
+ "Friederike Stößler",
+ "ref":
+ "pmb27990"},
+ {
+ "persName":
+ "von Korff",
+ "ref":
+ "pmb19609"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "pmb2238"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "pmb2315"},
+ {
+ "persName":
+ "Franz Ledwinka",
+ "ref":
+ "pmb5085"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Isabella Vengerova",
+ "ref":
+ "pmb3068"},
+ {
+ "persName":
+ "Conrad Van Boos",
+ "ref":
+ "pmb28975"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Moriz Benedikt",
+ "ref":
+ "pmb10875"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Helene von Thienen",
+ "ref":
+ "pmb28700"},
+ {
+ "persName":
+ "Franz von Dubsky",
+ "ref":
+ "pmb11183"},
+ {
+ "persName":
+ "Friedrich Gundolf",
+ "ref":
+ "pmb3824"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "pmb11461"},
+ {
+ "persName":
+ "Stefan George",
+ "ref":
+ "pmb2437"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Goldene",
+ "ref":
+ "pmb32872"}
+ ,  {
+ "title":
+ "Die Hochzeit des »Nagels der Erde«",
+ "ref":
+ "pmb32874"}
+ ,  {
+ "title":
+ "Theater",
+ "ref":
+ "pmb32870"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Schnitzler’s »Reigen« in Paris",
+ "ref":
+ "pmb32878"}
+ ,  {
+ "title":
+ "Goethe",
+ "ref":
+ "pmb32876"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Maria Plain",
+ "ref":
+ "pmb49120"}
+ ,  {
+ "placeName":
+ "England",
+ "ref":
+ "pmb254"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Darmstadt",
+ "ref":
+ "pmb834"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neue Freie Presse",
+ "ref":
+ "pmb29351"}
+ ,  {
+ "orgName":
+ "Neues Wiener Journal",
+ "ref":
+ "pmb29320"}
+ ,  {
+ "orgName":
+ "Carl Spängler &amp; Co.",
+ "ref":
+ "pmb29385"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Olga Schnitzler an Arthur Schnitzler, 13.2.1922",
+ "source":
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}] 

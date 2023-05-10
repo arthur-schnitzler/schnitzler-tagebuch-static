@@ -1,0 +1,180 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-09-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-09-27.html",
+ "head":
+ "Tagebuch, 27. September 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emma Altmann",
+ "ref":
+ "person_13169"},
+ {
+ "persName":
+ "Hans Altmann",
+ "ref":
+ "person_13171"},
+ {
+ "persName":
+ "E. Andrews",
+ "ref":
+ "person_13200"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "person_13624"},
+ {
+ "persName":
+ "Valerie von Brenneis",
+ "ref":
+ "person_13955"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Hermann John",
+ "ref":
+ "person_16563"},
+ {
+ "persName":
+ "Philippine Russeck",
+ "ref":
+ "person_19477"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Gustav Davis",
+ "ref":
+ "person_14365"},
+ {
+ "persName":
+ "Elisabeth Marbury",
+ "ref":
+ "person_17853"},
+ {
+ "persName":
+ "Bruno Walter",
+ "ref":
+ "person_21080"},
+ {
+ "persName":
+ "Olga Weede",
+ "ref":
+ "person_21133"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lido",
+ "ref":
+ "pmb91143"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01711",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01711.html",
+ "head":
+ "Stefan Großmann an Arthur Schnitzler, 27. 9. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ "pmb11527"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Freie Volksbühne",
+ "ref":
+ "pmb29569"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Mariahilferstraße",
+ "ref":
+ "pmb302"}
+ ,  {
+ "placeName":
+ "Graben",
+ "ref":
+ "pmb39599"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

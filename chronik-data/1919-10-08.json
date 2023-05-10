@@ -1,0 +1,278 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-10-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-10-08.html",
+ "head":
+ "Tagebuch, 8. Oktober 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Kaplan",
+ "ref":
+ "person_16701"},
+ {
+ "persName":
+ "Karl Kobald",
+ "ref":
+ "person_16947"},
+ {
+ "persName":
+ "Ignaz Lustig",
+ "ref":
+ "person_17740"},
+ {
+ "persName":
+ "Guy de Maupassant",
+ "ref":
+ "person_17985"},
+ {
+ "persName":
+ "Richard Robert",
+ "ref":
+ "person_19296"},
+ {
+ "persName":
+ "Mileva Antonia Roller",
+ "ref":
+ "person_19335"},
+ {
+ "persName":
+ "Arnold Rosé",
+ "ref":
+ "person_19351"},
+ {
+ "persName":
+ "Georg von Seybel",
+ "ref":
+ "person_20071"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "person_20509"},
+ {
+ "persName":
+ "Alfred von Winterstein",
+ "ref":
+ "person_21387"},
+ {
+ "persName":
+ "Gabriele D’Annunzio",
+ "ref":
+ "person_13222"},
+ {
+ "persName":
+ "Francesco Durante",
+ "ref":
+ "person_14565"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Franz Peter Schubert",
+ "ref":
+ "person_19902"},
+ {
+ "persName":
+ "Fritz von Unruh",
+ "ref":
+ "person_20885"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Frau ohne Schatten. Erzählung",
+ "ref":
+ "pmb39853"}
+ ,  {
+ "title":
+ "La main gauche",
+ "ref":
+ "pmb77859"}
+ ,  {
+ "title":
+ "Die Frau ohne Schatten. Oper in drei Akten",
+ "ref":
+ "pmb40638"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Messina",
+ "ref":
+ "pmb44129"}
+ ,  {
+ "placeName":
+ "Taormina",
+ "ref":
+ "pmb906"}
+ ,  {
+ "placeName":
+ "Rijeka",
+ "ref":
+ "pmb44246"}
+ ,  {
+ "placeName":
+ "Zürich",
+ "ref":
+ "pmb484"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02328",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02328.html",
+ "head":
+ "Robert Adam an Arthur Schnitzler, 8. 10. 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Märchenkomödie",
+ "ref":
+ "pmb33666"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/47820/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/47820/",
+ "head":
+ "Generalprobe Die Frau ohne Schatten, 8.10.1919",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Die Frau ohne Schatten. Oper in drei Akten",
+ "ref":
+ "pmb40638"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Fritz von Unruh",
+ "ref":
+ "pmb12993"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "pmb12870"},
+ {
+ "persName":
+ "Karl Kobald",
+ "ref":
+ "pmb19477"},
+ {
+ "persName":
+ "Arnold Rosé",
+ "ref":
+ "pmb12570"},
+ {
+ "persName":
+ "Mileva Antonia Roller",
+ "ref":
+ "pmb23505"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Oper",
+ "ref":
+ "pmb15"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Staatsoper",
+ "ref":
+ "pmb36687"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00050852",
+ "head":
+ "Hellmer, Arthur an Schnitzler, Olga [Briefe]",
+ "text":
+ "1 Kte",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur (1880-1961) Hellmer",
+ "ref":
+ "http://d-nb.info/gnd/116687800"},
+ {
+ "persName":
+ "Olga (1882-1970) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848723"}]
+}
+}] 

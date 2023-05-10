@@ -1,0 +1,84 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-02-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-02-15.html",
+ "head":
+ "Tagebuch, 15. Februar 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugen Brüll",
+ "ref":
+ "person_14012"},
+ {
+ "persName":
+ "Paul Horn",
+ "ref":
+ "person_16363"},
+ {
+ "persName":
+ "Ernst Kris",
+ "ref":
+ "person_17142"},
+ {
+ "persName":
+ "Adolph Mathias",
+ "ref":
+ "person_17967"},
+ {
+ "persName":
+ "Paul Schiff",
+ "ref":
+ "person_19683"},
+ {
+ "persName":
+ "Josefine Lydia von Weisswasser",
+ "ref":
+ "person_21214"},
+ {
+ "persName":
+ "Bernhard Wetzler",
+ "ref":
+ "person_21285"},
+ {
+ "persName":
+ "Maximilian von Weiss-Wellenstein",
+ "ref":
+ "person_21209"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}] 

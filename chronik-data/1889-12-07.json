@@ -1,0 +1,144 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1889-12-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1889-12-07.html",
+ "head":
+ "Tagebuch, 7. Dezember 1889",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Helene Binder",
+ "ref":
+ "person_13733"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Leopold Rosenberg",
+ "ref":
+ "person_19372"},
+ {
+ "persName":
+ "Wilhelm Herz",
+ "ref":
+ "person_16149"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02645",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02645.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 7. 12. 1889",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Fedor Mamroth",
+ "ref":
+ "pmb4986"},
+ {
+ "persName":
+ "?? [Frau, die mit Goldmann in der Straßenbahn spricht, Ende November 1889]",
+ "ref":
+ "pmb88860"},
+ {
+ "persName":
+ "?? [Mann, der Gespräch über Schnitzler in der Straßenbahn belauscht, Ende November 1889]",
+ "ref":
+ "pmb88864"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "pmb2453"},
+ {
+ "persName":
+ "Jeanette Heeger",
+ "ref":
+ "pmb18007"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "pmb14953"},
+ {
+ "persName":
+ "Helene Binder",
+ "ref":
+ "pmb14218"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "pmb12698"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Josef Eberle Stein-, Buch und Musikaliendruckerei",
+ "ref":
+ "pmb53104"}
+ ,  {
+ "orgName":
+ "An der schönen blauen Donau",
+ "ref":
+ "pmb29698"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Seidengasse",
+ "ref":
+ "pmb53101"}
+ ,  {
+ "placeName":
+ "Berggasse",
+ "ref":
+ "pmb52510"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,125 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-05-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-05-02.html",
+ "head":
+ "Tagebuch, 2. Mai 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "George Bernard Shaw",
+ "ref":
+ "person_20080"},
+ {
+ "persName":
+ "Ludwig Wahrmund",
+ "ref":
+ "person_21045"},
+ {
+ "persName":
+ "Margot Vallo",
+ "ref":
+ "person_16894"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"},
+ {
+ "persName":
+ "Karl Berger",
+ "ref":
+ "person_13632"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Der Vorige",
+ "ref":
+ "pmb30781"}
+ ,  {
+ "title":
+ "Weiberfeinde",
+ "ref":
+ "pmb78516"}
+ ,  {
+ "title":
+ "Wilhelm Bienner. Kanzler von Tirol",
+ "ref":
+ "pmb30671"}
+ ,  {
+ "title":
+ "Die Ehe",
+ "ref":
+ "pmb77098"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Purkersdorf",
+ "ref":
+ "pmb91552"}
+ ,  {
+ "placeName":
+ "Deutschwald",
+ "ref":
+ "pmb90523"}
+ ,  {
+ "placeName":
+ "Bozen",
+ "ref":
+ "pmb40260"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Erhalt von Zinaida Vengerova an Arthur Schnitzler, 28. 4. 1910",
+ "source":
+ "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
+}] 

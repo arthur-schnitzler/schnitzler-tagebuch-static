@@ -1,0 +1,197 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1891-08-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-08-01.html",
+ "head":
+ "Tagebuch, 1. August 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"},
+ {
+ "persName":
+ "Falk Schupp",
+ "ref":
+ "person_19945"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00026",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00026.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, [Anfang August] 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Robert Hirschfeld",
+ "ref":
+ "pmb11707"},
+ {
+ "persName":
+ "Olga Hirschfeld",
+ "ref":
+ "pmb29189"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"},
+ {
+ "persName":
+ "Boris Van-Jung",
+ "ref":
+ "pmb26388"},
+ {
+ "persName":
+ "Wolfgang Amadeus Mozart",
+ "ref":
+ "pmb12303"},
+ {
+ "persName":
+ "Charles Augustin de Sainte-Beuve",
+ "ref":
+ "pmb12608"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Maurice Barrès",
+ "ref":
+ "pmb3892"},
+ {
+ "persName":
+ "Hugh Conway",
+ "ref":
+ "pmb5860"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Allgemeine Kunst-Chronik",
+ "ref":
+ "pmb41466"}
+ ,  {
+ "title":
+ "Die Mozart-Centenarfeier in Salzburg",
+ "ref":
+ "pmb31947"}
+ ,  {
+ "title":
+ "Gestern. Dramatische Studie in einem Akt in Versen",
+ "ref":
+ "pmb30141"}
+ ,  {
+ "title":
+ "Maurice Barrès",
+ "ref":
+ "pmb33668"}
+ ,  {
+ "title":
+ "Moderne Rundschau",
+ "ref":
+ "pmb35942"}
+ ,  {
+ "title":
+ "Age of Innocence",
+ "ref":
+ "pmb32272"}
+ ,  {
+ "title":
+ "Englisches Leben",
+ "ref":
+ "pmb33670"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "S. Fischer Verlag",
+ "ref":
+ "pmb29639"}
+ ,  {
+ "orgName":
+ "Mozart Zentenarfeier 14.–17. 7. 1891",
+ "ref":
+ "pmb29608"}
+ ,  {
+ "orgName":
+ "»Freie Bühne« Verein für moderne Literatur",
+ "ref":
+ "pmb29781"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ,  {
+ "placeName":
+ "England",
+ "ref":
+ "pmb254"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

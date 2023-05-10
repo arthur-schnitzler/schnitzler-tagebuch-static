@@ -1,0 +1,59 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-06-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-06-21.html",
+ "head":
+ "Tagebuch, 21. Juni 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Meyer",
+ "ref":
+ "person_18110"},
+ {
+ "persName":
+ "Paul von Sonnenthal",
+ "ref":
+ "person_20208"},
+ {
+ "persName":
+ "Felix von Sonnenthal",
+ "ref":
+ "person_20205"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "",
+ "ref":
+ "pmb91574"}
+ ,  {
+ "placeName":
+ "Kaiserbrunn",
+ "ref":
+ "pmb90973"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/483/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/483/",
+ "head":
+ "Reichenau an der Rax"
+}] 

@@ -1,0 +1,315 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1924-10-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-10-11.html",
+ "head":
+ "Tagebuch, 11. Oktober 1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Else Berger",
+ "ref":
+ "person_13626"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Franz Herterich",
+ "ref":
+ "person_16125"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Hans Liebstöckl",
+ "ref":
+ "person_17526"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "person_17784"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "person_19828"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Hermine Simandt",
+ "ref":
+ "person_20112"},
+ {
+ "persName":
+ "Clara Soltau",
+ "ref":
+ "person_20191"},
+ {
+ "persName":
+ "Franz Werfel",
+ "ref":
+ "person_21243"},
+ {
+ "persName":
+ "Carl von Zeska",
+ "ref":
+ "person_21543"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"},
+ {
+ "persName":
+ "Anton Kuh",
+ "ref":
+ "person_17179"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Gesammelte Werke",
+ "ref":
+ "pmb30313"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hollabrunn",
+ "ref":
+ "pmb36639"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/35361/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/35361/",
+ "head":
+ "Uraufführung von Komödie der Verführung, 11.10.1924",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Else Wohlgemuth",
+ "ref":
+ "pmb13149"},
+ {
+ "persName":
+ "Vilma Aknay",
+ "ref":
+ "pmb13274"},
+ {
+ "persName":
+ "Maria Mayen",
+ "ref":
+ "pmb12211"},
+ {
+ "persName":
+ "Karl Günther",
+ "ref":
+ "pmb17634"},
+ {
+ "persName":
+ "Fred Hennings",
+ "ref":
+ "pmb11654"},
+ {
+ "persName":
+ "Ludwig Andersen",
+ "ref":
+ "pmb13387"},
+ {
+ "persName":
+ "Franz Höbling",
+ "ref":
+ "pmb7954"},
+ {
+ "persName":
+ "Hans Marr",
+ "ref":
+ "pmb12192"},
+ {
+ "persName":
+ "Rosa Albach-Retty",
+ "ref":
+ "pmb10752"},
+ {
+ "persName":
+ "Georg Reimers",
+ "ref":
+ "pmb12498"},
+ {
+ "persName":
+ "Lotte Witt",
+ "ref":
+ "pmb27259"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Hedy Kempny an Arthur Schnitzler, 11.10.1924",
+ "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00050591",
+ "head":
+ "Schnitzler, Arthur an Schnitzler, Heinrich [Briefe]",
+ "text":
+ "Erstes Objekt aus der Mappe. 10 Br., 5 Ktn 26 Bl., davon 3 Bl.Kopie Mit 10 Umschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich (1902-1982) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848510"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00036528",
+ "head":
+ "Hesse, Hermann an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Kte 1 Bl.Abschr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann (1877-1962) Hesse",
+ "ref":
+ "http://d-nb.info/gnd/11855042X"}]
+}
+}] 

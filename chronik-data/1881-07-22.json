@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1881-07-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1881-07-22.html",
+ "head":
+ "Tagebuch, 22. Juli 1881",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig August von Frankl-Hochwart",
+ "ref":
+ "person_15145"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Villach",
+ "ref":
+ "pmb92011"}
+ ,  {
+ "placeName":
+ "Pörtschach",
+ "ref":
+ "pmb44278"}
+ ,  {
+ "placeName":
+ "Wörthersee",
+ "ref":
+ "pmb430"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92011/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92011/",
+ "head":
+ "Villach"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44278/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44278/",
+ "head":
+ "Pörtschach"
+}] 

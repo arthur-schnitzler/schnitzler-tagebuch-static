@@ -1,0 +1,92 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-10-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-10-09.html",
+ "head":
+ "Tagebuch, 9. Oktober 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ferenc Ernst Arányi",
+ "ref":
+ "person_13243"},
+ {
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "person_14643"},
+ {
+ "persName":
+ "Walter Hasenclever",
+ "ref":
+ "person_15961"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Paul Zifferer",
+ "ref":
+ "person_21559"},
+ {
+ "persName":
+ "Fritz von Unruh",
+ "ref":
+ "person_20885"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Dornbacher Park",
+ "ref":
+ "pmb176"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00075971",
+ "head":
+ "Viola, Wilhelm an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

@@ -1,0 +1,73 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1885-08-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1885-08-17.html",
+ "head":
+ "Tagebuch, 17. August 1885",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Zürich",
+ "ref":
+ "pmb484"}
+ ,  {
+ "placeName":
+ "Arth",
+ "ref":
+ "pmb90264"}
+ ,  {
+ "placeName":
+ "Rigi Kulm",
+ "ref":
+ "pmb91598"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/484/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/484/",
+ "head":
+ "Zürich"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90264/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90264/",
+ "head":
+ "Arth"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91598/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91598/",
+ "head":
+ "Rigi Kulm"
+}] 

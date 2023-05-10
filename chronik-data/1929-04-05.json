@@ -1,0 +1,89 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1929-04-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-04-05.html",
+ "head":
+ "Tagebuch, 5. April 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Liebermann",
+ "ref":
+ "person_17517"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Im Spiel der Sommerlüfte. In drei Aufzügen",
+ "ref":
+ "pmb30945"}
+ ,  {
+ "title":
+ "Die Dreigroschenoper",
+ "ref":
+ "pmb53718"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp678",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp678.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 2.–8. April 1929"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/CH-002121-2-991170499353805501",
+ "head":
+ "2 Briefe an Christoph Bernoulli-Meisel / von Heinz Schnitzler",
+ "text":
+ "Erstes Objekt aus der Mappe.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Christoph (1897-1981) Bernoulli",
+ "ref":
+ "http://d-nb.info/gnd/118509934"}]
+}
+}] 

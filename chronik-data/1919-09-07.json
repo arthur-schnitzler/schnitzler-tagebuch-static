@@ -1,0 +1,615 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-09-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-09-07.html",
+ "head":
+ "Tagebuch, 7. September 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marianne Giustiniani",
+ "ref":
+ "person_21600"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "person_21602"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Neuwaldegg",
+ "ref":
+ "pmb170"}
+ ,  {
+ "placeName":
+ "Salmannsdorf",
+ "ref":
+ "pmb91641"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041662",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041662.html",
+ "head":
+ "Olga an Arthur Schnitzler, 7. 9. 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Bernhard Paumgartner",
+ "ref":
+ "pmb12402"},
+ {
+ "persName":
+ "Wilhelm Grosz",
+ "ref":
+ "pmb3112"},
+ {
+ "persName":
+ "Emmerich Unger",
+ "ref":
+ "pmb28967"},
+ {
+ "persName":
+ "Iphigenie Zotos",
+ "ref":
+ "pmb28815"},
+ {
+ "persName":
+ "Bianca Bianchi",
+ "ref":
+ "pmb28968"},
+ {
+ "persName":
+ "Lilli Lehmann",
+ "ref":
+ "pmb28827"},
+ {
+ "persName":
+ "Paul Prechner",
+ "ref":
+ "pmb22855"},
+ {
+ "persName":
+ "Johannes Brahms",
+ "ref":
+ "pmb10989"},
+ {
+ "persName":
+ "Felix Albrecht Harta",
+ "ref":
+ "pmb11602"},
+ {
+ "persName":
+ "Elisabeth Harta",
+ "ref":
+ "pmb28961"},
+ {
+ "persName":
+ "Helene Herrmann",
+ "ref":
+ "pmb18170"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "pmb2312"},
+ {
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "pmb13212"},
+ {
+ "persName":
+ "Friderike Maria Zweig",
+ "ref":
+ "pmb4829"},
+ {
+ "persName":
+ "Gilbert Lehner",
+ "ref":
+ "pmb2677"},
+ {
+ "persName":
+ "Oskar Kokoschka",
+ "ref":
+ "pmb11958"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "pmb12160"},
+ {
+ "persName":
+ "Jacopo Palma",
+ "ref":
+ "pmb5107"},
+ {
+ "persName":
+ "Leo N. von Tolstoi",
+ "ref":
+ "pmb3739"},
+ {
+ "persName":
+ "Siddhartha Gautama",
+ "ref":
+ "pmb28993"},
+ {
+ "persName":
+ "Karl Eugen Neumann",
+ "ref":
+ "pmb5104"},
+ {
+ "persName":
+ "Eva Maria Harta",
+ "ref":
+ "pmb28959"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "pmb2238"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "??",
+ "ref":
+ "pmb27732"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"},
+ {
+ "persName":
+ "Emil Alphons Rheinhardt",
+ "ref":
+ "pmb12518"},
+ {
+ "persName":
+ "Else Heims",
+ "ref":
+ "pmb11636"},
+ {
+ "persName":
+ "Wolfgang Reinhardt",
+ "ref":
+ "pmb5082"},
+ {
+ "persName":
+ "Gottfried Reinhardt",
+ "ref":
+ "pmb28964"},
+ {
+ "persName":
+ "Helene Thimig",
+ "ref":
+ "pmb12942"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "pmb12504"},
+ {
+ "persName":
+ "Lily Mirel Feiks",
+ "ref":
+ "pmb16123"},
+ {
+ "persName":
+ "Franz Steiner",
+ "ref":
+ "pmb25405"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Bildnis einer Sängerin [Porträt Olga Schnitzler]",
+ "ref":
+ "pmb31423"}
+ ,  {
+ "title":
+ "Die Frau mit dem Dolche",
+ "ref":
+ "pmb29865"}
+ ,  {
+ "title":
+ "Reden",
+ "ref":
+ "pmb32898"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Mirabell",
+ "ref":
+ "pmb180"}
+ ,  {
+ "placeName":
+ "Mozarteum",
+ "ref":
+ "pmb798"}
+ ,  {
+ "placeName":
+ "Griechenland",
+ "ref":
+ "pmb44293"}
+ ,  {
+ "placeName":
+ "Großgmain",
+ "ref":
+ "pmb837"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ,  {
+ "placeName":
+ "Spanien",
+ "ref":
+ "pmb388"}
+ ,  {
+ "placeName":
+ "Morzg",
+ "ref":
+ "pmb49756"}
+ ,  {
+ "placeName":
+ "Hellbrunn",
+ "ref":
+ "pmb31"}
+ ,  {
+ "placeName":
+ "Amerika",
+ "ref":
+ "pmb175"}
+ ,  {
+ "placeName":
+ "Hotel Bristol",
+ "ref":
+ "pmb40384"}
+ ,  {
+ "placeName":
+ "Aschau im Chiemgau",
+ "ref":
+ "pmb800"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Reichenau an der Rax",
+ "ref":
+ "pmb483"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Wassermann",
+ "ref":
+ "pmb29232"}
+ ,  {
+ "orgName":
+ "Wiener Allgemeine Zeitung",
+ "ref":
+ "pmb29670"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041652",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041652.html",
+ "head":
+ "Arthur an Olga Schnitzler, 7. 9. 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Arthur Foges",
+ "ref":
+ "pmb16374"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "pmb2315"},
+ {
+ "persName":
+ "Lily Mirel Feiks",
+ "ref":
+ "pmb16123"},
+ {
+ "persName":
+ "Robert Lichtenstern",
+ "ref":
+ "pmb20398"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "pmb20400"},
+ {
+ "persName":
+ "Eugenie Bachrach",
+ "ref":
+ "pmb13644"},
+ {
+ "persName":
+ "Marianne Giustiniani",
+ "ref":
+ "pmb2753"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "pmb27549"},
+ {
+ "persName":
+ "Hermine Simandt",
+ "ref":
+ "pmb24945"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Richard Robert",
+ "ref":
+ "pmb4843"},
+ {
+ "persName":
+ "Lotte Mandl",
+ "ref":
+ "pmb20908"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "pmb2238"},
+ {
+ "persName":
+ "Elisabeth Jacobus",
+ "ref":
+ "pmb18732"},
+ {
+ "persName":
+ "Emil Alphons Rheinhardt",
+ "ref":
+ "pmb12518"},
+ {
+ "persName":
+ "Margarethe Kainz",
+ "ref":
+ "pmb2273"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Carmen",
+ "ref":
+ "pmb30627"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Hotel Bristol",
+ "ref":
+ "pmb40384"}
+ ,  {
+ "placeName":
+ "Reichenau an der Rax",
+ "ref":
+ "pmb483"}
+ ,  {
+ "placeName":
+ "Strobl",
+ "ref":
+ "pmb895"}
+ ,  {
+ "placeName":
+ "Garmisch-Partenkirchen",
+ "ref":
+ "pmb667"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Budapest",
+ "ref":
+ "pmb43471"}
+ ,  {
+ "placeName":
+ "Ungarn",
+ "ref":
+ "pmb35512"}
+ ,  {
+ "placeName":
+ "Thalhof",
+ "ref":
+ "pmb796"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Rzeszów",
+ "ref":
+ "pmb816"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Wassermann",
+ "ref":
+ "pmb29232"}
+ ,  {
+ "orgName":
+ "Allgemeine Bodencreditanstalt",
+ "ref":
+ "pmb29244"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Olga Schnitzler an Arthur Schnitzler, 7.9.1919",
+ "source":
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Olga Schnitzler, 7.9.1919",
+ "source":
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}] 

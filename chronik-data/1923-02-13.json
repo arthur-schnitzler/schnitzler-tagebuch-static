@@ -1,0 +1,97 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-02-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-02-13.html",
+ "head":
+ "Tagebuch, 13. Februar 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alban Berg",
+ "ref":
+ "person_13618"},
+ {
+ "persName":
+ "Franz Lehár",
+ "ref":
+ "person_17401"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "person_17784"},
+ {
+ "persName":
+ "Gilbert Vivian Seldes",
+ "ref":
+ "person_20045"},
+ {
+ "persName":
+ "Scofield Thayer",
+ "ref":
+ "person_20692"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Frau des Richters. Novelle",
+ "ref":
+ "pmb30751"}
+ ,  {
+ "title":
+ "Die gelbe Jacke",
+ "ref":
+ "pmb78511"}
+ ,  {
+ "title":
+ "Lieder",
+ "ref":
+ "pmb80946"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiednertheater",
+ "ref":
+ "pmb92603"}
+ ,  {
+ "placeName":
+ "Sacher",
+ "ref":
+ "pmb92506"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

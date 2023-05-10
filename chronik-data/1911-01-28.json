@@ -1,0 +1,70 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/GRA_SH3'_0001",
+ "head":
+ "Doktor Gräsler, Badearzt, hsl. Skizze 3, 28.01.1911 – 03.02.1911 (unsicher)"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-01-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-01-28.html",
+ "head":
+ "Tagebuch, 28. Januar 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Fritz Reuter",
+ "ref":
+ "person_19213"},
+ {
+ "persName":
+ "Gabriele Reuter",
+ "ref":
+ "person_19214"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Doktor Gräsler, Badearzt",
+ "ref":
+ "pmb30201"}
+ ,  {
+ "title":
+ "Der Mörder. Novelle",
+ "ref":
+ "pmb33754"}
+ ,  {
+ "title":
+ "Aus der Franzosenzeit",
+ "ref":
+ "pmb81175"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,430 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1930-03-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-03-20.html",
+ "head":
+ "Tagebuch, 20. März 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "person_16819"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"},
+ {
+ "persName":
+ "Egon Friedell",
+ "ref":
+ "person_15210"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "person_21602"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "IV., Wieden",
+ "ref":
+ "pmb54"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02534",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02534.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 20. 3. 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Alois Bahr",
+ "ref":
+ "pmb2132"},
+ {
+ "persName":
+ "Ignaz Seipel",
+ "ref":
+ "pmb12762"},
+ {
+ "persName":
+ "Julius Bauer",
+ "ref":
+ "pmb2150"},
+ {
+ "persName":
+ "Isidor Fuchs",
+ "ref":
+ "pmb16781"},
+ {
+ "persName":
+ "Camillo Walzel",
+ "ref":
+ "pmb26666"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Wienerstadt in Wort und Bild",
+ "ref":
+ "pmb32003"}
+ ,  {
+ "title":
+ "Die Wienerstadt in Wort und Bild",
+ "ref":
+ "pmb32005"}
+ ,  {
+ "title":
+ "Die Wienerstadt in Wort und Bild",
+ "ref":
+ "pmb32007"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Akademie der Tonkunst",
+ "ref":
+ "pmb29279"}
+ ,  {
+ "orgName":
+ "Akademische Hochschule für Musik",
+ "ref":
+ "pmb43988"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Barerstraße",
+ "ref":
+ "pmb161"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Hochschule und Akademie für Musik und Darstellende Kunst",
+ "ref":
+ "pmb25"}
+ ,  {
+ "placeName":
+ "Ministerium für Unterricht",
+ "ref":
+ "pmb24"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/54/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/54/",
+ "head":
+ "IV., Wieden"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041351",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041351.html",
+ "head":
+ "Bahr an Schnitzler, 20. 3. 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Alois Bahr",
+ "ref":
+ "pmb2132"},
+ {
+ "persName":
+ "Ignaz Seipel",
+ "ref":
+ "pmb12762"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Barerstraße",
+ "ref":
+ "pmb161"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Akademische Hochschule für Musik",
+ "ref":
+ "pmb23"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Hochschule und Akademie für Musik und Darstellende Kunst",
+ "ref":
+ "pmb25"}
+ ,  {
+ "placeName":
+ "Ministerium für Unterricht",
+ "ref":
+ "pmb24"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Akademie der Tonkunst",
+ "ref":
+ "pmb29279"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041603",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041603.html",
+ "head":
+ "Aufzeichnung von Bahr, 20. 3. 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Paula von Preradović",
+ "ref":
+ "pmb4716"},
+ {
+ "persName":
+ "Petar Preradović",
+ "ref":
+ "pmb4764"},
+ {
+ "persName":
+ "Georges Clemenceau",
+ "ref":
+ "pmb4719"},
+ {
+ "persName":
+ "Lucy von Moÿ de Sons",
+ "ref":
+ "pmb28777"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch. 12. März [1930]",
+ "ref":
+ "pmb30361"}
+ ,  {
+ "title":
+ "Tagebuch. 20. März [1930]",
+ "ref":
+ "pmb30409"}
+ ,  {
+ "title":
+ "Tagebuch. 22. März [1930]",
+ "ref":
+ "pmb30423"}
+ ,  {
+ "title":
+ "Les émigrés russes en France",
+ "ref":
+ "pmb30263"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Fronleichnamskapelle",
+ "ref":
+ "pmb707"}
+ ,  {
+ "placeName":
+ "St. Ludwig (München)",
+ "ref":
+ "pmb711"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Heinz Salfner, 20. 3. 1930",
+ "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00041167",
+ "head":
+ "Reichenberger-Griechenbeisl &lt;Wien&gt; an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00048607",
+ "head":
+ "Schnitzler, Arthur an Salfner, Heinz [Briefe]",
+ "text":
+ "1 Bl.Durchschl. Mit 1 weit. Ex. 2 Bl.Durchschl."
+}] 

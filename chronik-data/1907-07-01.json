@@ -1,0 +1,85 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-07-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-07-01.html",
+ "head":
+ "Tagebuch, 1. Juli 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Bachrach",
+ "ref":
+ "person_13358"},
+ {
+ "persName":
+ "Julius Friedländer",
+ "ref":
+ "person_15221"},
+ {
+ "persName":
+ "Grete Jacques",
+ "ref":
+ "person_16485"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Občina Bled",
+ "ref":
+ "pmb92003"}
+ ,  {
+ "placeName":
+ "Villach",
+ "ref":
+ "pmb92011"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92091/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92091/",
+ "head":
+ "Lake Bohinj"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92003/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92003/",
+ "head":
+ "Občina Bled"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92011/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92011/",
+ "head":
+ "Villach"
+}] 

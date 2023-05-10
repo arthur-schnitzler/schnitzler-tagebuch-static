@@ -1,0 +1,170 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-03-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-03-01.html",
+ "head":
+ "Tagebuch, 1. März 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Wladimir Astrow",
+ "ref":
+ "person_13293"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Else Speidel-Haeberle",
+ "ref":
+ "person_15833"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Kraus",
+ "ref":
+ "person_17102"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Rudolf Maria Holzapfel",
+ "ref":
+ "pmb80095"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "China",
+ "ref":
+ "pmb1108"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01915",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01915.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 1. 3. 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Anna Amalia von Sachsen-Weimar und Eisenach",
+ "ref":
+ "pmb44758"},
+ {
+ "persName":
+ "Johann Gottfried von Herder",
+ "ref":
+ "pmb4996"},
+ {
+ "persName":
+ "Luise Ernestine Christiane Juliane von Göchhausen",
+ "ref":
+ "pmb44759"},
+ {
+ "persName":
+ "Angelika Kauffmann",
+ "ref":
+ "pmb44760"},
+ {
+ "persName":
+ "Johann Georg Schütz",
+ "ref":
+ "pmb44761"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anna Amalia und ihre Begleiter im Garten der Villa d’Este zu Tivoli",
+ "ref":
+ "pmb46586"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Weimar",
+ "ref":
+ "pmb197"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Villa d’Este",
+ "ref":
+ "pmb44762"}
+ ,  {
+ "placeName":
+ "Schloss Tiefurt",
+ "ref":
+ "pmb194"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

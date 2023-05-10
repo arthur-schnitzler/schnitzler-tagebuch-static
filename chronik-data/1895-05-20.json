@@ -1,0 +1,209 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-05-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-05-20.html",
+ "head":
+ "Tagebuch, 20. Mai 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lou Andreas-Salomé",
+ "ref":
+ "person_13196"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Melk",
+ "ref":
+ "pmb91223"}
+ ,  {
+ "placeName":
+ "Wachau",
+ "ref":
+ "pmb531"}
+ ,  {
+ "placeName":
+ "Krems",
+ "ref":
+ "pmb36545"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00444",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00444.html",
+ "head":
+ "Friedrich M. Fels an Arthur Schnitzler, 20. 5. 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Michael Fels",
+ "ref":
+ "pmb2450"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Fanny Gröger",
+ "ref":
+ "pmb17465"},
+ {
+ "persName":
+ "Robert Hirschfeld",
+ "ref":
+ "pmb11707"},
+ {
+ "persName":
+ "Raoul Bourse",
+ "ref":
+ "pmb14456"},
+ {
+ "persName":
+ "Gaspard Vallette",
+ "ref":
+ "pmb40665"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Adhimukti",
+ "ref":
+ "pmb41994"}
+ ,  {
+ "title":
+ "Sterben. Novelle",
+ "ref":
+ "pmb30117"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Frankgasse",
+ "ref":
+ "pmb397"}
+ ,  {
+ "placeName":
+ "Ossiacher See",
+ "ref":
+ "pmb40374"}
+ ,  {
+ "placeName":
+ "Währinger Gürtel",
+ "ref":
+ "pmb727"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91223/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91223/",
+ "head":
+ "Melk"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/531/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/531/",
+ "head":
+ "Wachau"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/36545/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/36545/",
+ "head":
+ "Krems"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#w6429315-92be-4f82-b2f1-926125f9bfa5",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Eugen Deimel an Arthur Schnitzler, 20.5.1895?",
+ "source":
+ "Heinz P. Adamek (Hg.): In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen Verlag: Wien 2003"
+}] 

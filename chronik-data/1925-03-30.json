@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-03-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-03-30.html",
+ "head":
+ "Tagebuch, 30. März 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Sári Fedák",
+ "ref":
+ "person_14903"},
+ {
+ "persName":
+ "Melchior Lengyel",
+ "ref":
+ "person_17433"},
+ {
+ "persName":
+ "Limek Scholl",
+ "ref":
+ "person_17551"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Arnold Pressburger",
+ "ref":
+ "person_18958"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Antonia",
+ "ref":
+ "pmb80178"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00078431",
+ "head":
+ "Schnitzler, Arthur an Kemmis, Beresford [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

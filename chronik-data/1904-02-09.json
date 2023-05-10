@@ -1,0 +1,308 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-02-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-02-09.html",
+ "head":
+ "Tagebuch, 9. Februar 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rosa Freudenthal",
+ "ref":
+ "person_15178"},
+ {
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Erich Ziegel",
+ "ref":
+ "person_21545"},
+ {
+ "persName":
+ "Mirjam Horwitz",
+ "ref":
+ "person_21546"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ,  {
+ "title":
+ "König Lear",
+ "ref":
+ "pmb31623"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schillertheater",
+ "ref":
+ "pmb334"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041572",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041572.html",
+ "head":
+ "Salten an Bahr, 9. 2. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Isidor Singer",
+ "ref":
+ "pmb12790"},
+ {
+ "persName":
+ "Heinrich Kanner",
+ "ref":
+ "pmb11867"},
+ {
+ "persName":
+ "Norbert von Ortner-Rodenstätt",
+ "ref":
+ "pmb2216"},
+ {
+ "persName":
+ "Franz Blei",
+ "ref":
+ "pmb10955"},
+ {
+ "persName":
+ "Oskar Hornung",
+ "ref":
+ "pmb18548"},
+ {
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "pmb10883"},
+ {
+ "persName":
+ "Josef Jarno",
+ "ref":
+ "pmb2601"},
+ {
+ "persName":
+ "Maurice Maeterlinck",
+ "ref":
+ "pmb12156"},
+ {
+ "persName":
+ "Henrik Ibsen",
+ "ref":
+ "pmb11798"},
+ {
+ "persName":
+ "Theodor Antropp",
+ "ref":
+ "pmb10769"},
+ {
+ "persName":
+ "Max Graf",
+ "ref":
+ "pmb11512"},
+ {
+ "persName":
+ "Rudolf Holzer",
+ "ref":
+ "pmb11771"},
+ {
+ "persName":
+ "Edgar von Spiegl-Thurnsee",
+ "ref":
+ "pmb25196"},
+ {
+ "persName":
+ "Natalie Bruck-Auffenberg",
+ "ref":
+ "pmb4576"},
+ {
+ "persName":
+ "Sigmund Ehrlich",
+ "ref":
+ "pmb28114"},
+ {
+ "persName":
+ "Arthur Wilhelm",
+ "ref":
+ "pmb27143"},
+ {
+ "persName":
+ "Lippold",
+ "ref":
+ "pmb28746"},
+ {
+ "persName":
+ "Wilhelm Singer",
+ "ref":
+ "pmb2202"},
+ {
+ "persName":
+ "Ottilie Salten",
+ "ref":
+ "pmb23918"},
+ {
+ "persName":
+ "Paul Salten",
+ "ref":
+ "pmb2922"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Wenn wir Toten erwachen",
+ "ref":
+ "pmb31403"}
+ ,  {
+ "title":
+ "Schwester Beatrix",
+ "ref":
+ "pmb32288"}
+ ,  {
+ "title":
+ "Der tapfere Cassian. Puppenspiel in einem Akt",
+ "ref":
+ "pmb30217"}
+ ,  {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ,  {
+ "title":
+ "Arthur Schnitzler und sein Reigen",
+ "ref":
+ "pmb31401"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Hans Kohlhase",
+ "ref":
+ "pmb32270"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Wipplingerstraße",
+ "ref":
+ "pmb120"}
+ ,  {
+ "placeName":
+ "Sanatorium Schloss Marbach am Bodensee",
+ "ref":
+ "pmb219"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Kairo",
+ "ref":
+ "pmb839"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Die Zeit",
+ "ref":
+ "pmb29626"}
+ ,  {
+ "orgName":
+ "Akademischer Verein für Kunst und Literatur",
+ "ref":
+ "pmb29767"}
+ ,  {
+ "orgName":
+ "Concordia",
+ "ref":
+ "pmb29752"}
+ ,  {
+ "orgName":
+ "Österreichischer Journalistenbund",
+ "ref":
+ "pmb29800"}
+ ]
+}
+}] 

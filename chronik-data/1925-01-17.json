@@ -1,0 +1,110 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-01-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-01-17.html",
+ "head":
+ "Tagebuch, 17. Januar 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Hans Bodmer",
+ "ref":
+ "person_13824"},
+ {
+ "persName":
+ "Paul Schaffner",
+ "ref":
+ "person_19613"},
+ {
+ "persName":
+ "Rudolf Borchardt",
+ "ref":
+ "person_13872"},
+ {
+ "persName":
+ "Herbert Steiner",
+ "ref":
+ "person_20373"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Zürich",
+ "ref":
+ "pmb484"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Winterthur",
+ "ref":
+ "pmb50002"}
+ ,  {
+ "placeName":
+ "Luzern",
+ "ref":
+ "pmb967"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40655/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40655/",
+ "head":
+ "St. Gallen"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/484/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/484/",
+ "head":
+ "Zürich"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp164",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp164.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 17. Januar 1925"
+}] 

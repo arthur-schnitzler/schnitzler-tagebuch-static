@@ -1,0 +1,256 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-01-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-01-30.html",
+ "head":
+ "Tagebuch, 30. Januar 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "person_13920"},
+ {
+ "persName":
+ "Gustav Hartung",
+ "ref":
+ "person_15954"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Georg Szell",
+ "ref":
+ "person_20602"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Lyrische Ouvertüre für großes Orchester op. 5",
+ "ref":
+ "pmb81399"}
+ ,  {
+ "title":
+ "Otello (Othello)",
+ "ref":
+ "pmb76697"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Darmstadt",
+ "ref":
+ "pmb834"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02376",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02376.html",
+ "head":
+ "Arthur Schnitzler an Georg Brandes, 30. 1. 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"},
+ {
+ "persName":
+ "Julius Bangert",
+ "ref":
+ "pmb13714"},
+ {
+ "persName":
+ "Joseph Gollomb",
+ "ref":
+ "pmb11494"},
+ {
+ "persName":
+ "Giacomo Girolamo Casanova",
+ "ref":
+ "pmb3145"},
+ {
+ "persName":
+ "Ernst Toller",
+ "ref":
+ "pmb12961"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "William Shakespeare",
+ "ref":
+ "pmb2412"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "pmb2238"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "?? [nicht ermitteltes dänisches Interview]",
+ "ref":
+ "pmb59230"}
+ ,  {
+ "title":
+ "Dr. Arthur Schnitzler on the Vienna of To-day",
+ "ref":
+ "pmb33223"}
+ ,  {
+ "title":
+ "Evening Post",
+ "ref":
+ "pmb41576"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Berichtigung. Ein paar Worte zum Gutachten Maximilian Hardens über den »Reigen«",
+ "ref":
+ "pmb33205"}
+ ,  {
+ "title":
+ "Neues Wiener Journal",
+ "ref":
+ "pmb36376"}
+ ,  {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ,  {
+ "title":
+ "Casanovas Heimfahrt",
+ "ref":
+ "pmb30971"}
+ ,  {
+ "title":
+ "Aus meinem Leben",
+ "ref":
+ "pmb33394"}
+ ,  {
+ "title":
+ "Eine Kundgebung für Toller",
+ "ref":
+ "pmb44659"}
+ ,  {
+ "title":
+ "Maß für Maß",
+ "ref":
+ "pmb30595"}
+ ,  {
+ "title":
+ "Die Jungfrau von Orleans",
+ "ref":
+ "pmb30755"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Wanderbühne des österreichischen Volksbildungsamtes",
+ "ref":
+ "pmb29815"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Dänemark",
+ "ref":
+ "pmb43570"}
+ ,  {
+ "placeName":
+ "Amerika",
+ "ref":
+ "pmb175"}
+ ,  {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Nationalbibliothek",
+ "ref":
+ "pmb828"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00075468",
+ "head":
+ "Tügerl, J. A. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

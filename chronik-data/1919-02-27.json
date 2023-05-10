@@ -1,0 +1,210 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-02-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-02-27.html",
+ "head":
+ "Tagebuch, 27. Februar 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "person_13162"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Irmgard Kaufmann",
+ "ref":
+ "person_16449"},
+ {
+ "persName":
+ "Marie Christine Olden",
+ "ref":
+ "person_18546"},
+ {
+ "persName":
+ "Josef Popper-Lynkeus",
+ "ref":
+ "person_18916"},
+ {
+ "persName":
+ "Franz Schalk",
+ "ref":
+ "person_19618"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Fritz Zuckerkandl",
+ "ref":
+ "person_21597"},
+ {
+ "persName":
+ "Gertrude Zuckerkandl",
+ "ref":
+ "person_21598"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Hans Christian Andersen",
+ "ref":
+ "person_13188"},
+ {
+ "persName":
+ "Egon Friedell",
+ "ref":
+ "person_15210"},
+ {
+ "persName":
+ "Wilhelm Grosz",
+ "ref":
+ "person_15685"},
+ {
+ "persName":
+ "Rudolf Olden",
+ "ref":
+ "person_18548"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Palestrina. Musikalische Legende in drei Akten",
+ "ref":
+ "pmb31681"}
+ ,  {
+ "title":
+ "Phantasien eines Realisten",
+ "ref":
+ "pmb78107"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02321",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02321.html",
+ "head":
+ "Georg Engländer an Arthur Schnitzler, 27. 2. 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Engländer",
+ "ref":
+ "pmb2260"},
+ {
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "pmb2147"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Nussdorfer Straße",
+ "ref":
+ "pmb1270"}
+ ,  {
+ "placeName":
+ "Konzerthaus",
+ "ref":
+ "pmb240"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/47813/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/47813/",
+ "head":
+ "Generalprobe von Palestrina, 27.2.1919",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Palestrina. Musikalische Legende in drei Akten",
+ "ref":
+ "pmb31681"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Oper",
+ "ref":
+ "pmb15"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Staatsoper",
+ "ref":
+ "pmb36687"}
+ ]
+}
+}] 

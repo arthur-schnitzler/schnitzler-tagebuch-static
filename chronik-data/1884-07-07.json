@@ -1,0 +1,64 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1884-07-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1884-07-07.html",
+ "head":
+ "Tagebuch, 7. Juli 1884",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Samuel Heit",
+ "ref":
+ "person_16053"},
+ {
+ "persName":
+ "Franziska Reich",
+ "ref":
+ "person_17368"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Else von Kolschitzky",
+ "ref":
+ "person_17014"},
+ {
+ "persName":
+ "Charlotte Heller",
+ "ref":
+ "person_16064"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Vöslau",
+ "ref":
+ "pmb992"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

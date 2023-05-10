@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1905-11-21">Dienstag, 21. November 1905</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1905-11-21">
+               <head>Tagebuch, 21. November 1905</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13913">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14847">Hermann Faber</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15306">Ludwig Fulda</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15529">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15978">Benvenuto Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15980">Gerhart Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20796">Siegfried Trebitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16572">Clara Jonas</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13909">Brahm</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29971">Die Wildente</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-11-21.html</idno>
+            </event>
+            <event when-iso="1905-11-21">
+               <head>Berlin</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+            </event>
+            <event when-iso="1905-11-21">
+               <head>Olga an Arthur Schnitzler, 21. 11. 1905</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12163">Gustav Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24239">Hans Bernhard Schlesinger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24233">Franziska Schlesinger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2292">Gertrude von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10860">Paula Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28827">Lilli Lehmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11346">Grete Forst</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28823">Willy Hesch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3956">Friedrich Weidemann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4812">Erik Schmedes</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28861">Hermann Winkelmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12277">Carl Moll</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21540">Anna Sofie Moll</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12701">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27713">??</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12698">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4879">Carl Faust</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2513">Franz Joseph I. von Österreich-Ungarn</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21591">Antonie Morberger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21599">Risa Morberger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21595">Karoline Morberger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb62143">Erl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2303">Helene Ritscher</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13041">Bruno Walter</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10844">Albert Bassermann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32011">Fidelio</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32141">Volkshymne</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32139">Defilier-Marsch (Armeemarsch II-168)</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31883">Cosi fan tutte</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb274">Burgring</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34438">Russland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb577">Irland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb813">Schweizerhof</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb85">Löwelstraße</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29250">Josef Migotti. Hoflieferant für Knabenkleider</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29246">Burgmusik</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29227">Kehlendorfer</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041659.html</idno>
+            </event>
+            <event when-iso="1905-11-21">
+               <head>Olga Schnitzler an Arthur Schnitzler, 21.11.1905</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116848723">Schnitzler, Olga</persName>
+                     </person>
+                  </listPerson>
+                  <bibl> Hermann
+                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
+                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
+                    Verlag 2018 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

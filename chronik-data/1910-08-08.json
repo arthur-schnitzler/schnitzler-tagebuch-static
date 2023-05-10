@@ -1,0 +1,120 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-08-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-08-08.html",
+ "head":
+ "Tagebuch, 8. August 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Wilhelm Bauer",
+ "ref":
+ "person_13478"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Felix Philippi",
+ "ref":
+ "person_18753"},
+ {
+ "persName":
+ "Maurice Rémon",
+ "ref":
+ "person_19182"},
+ {
+ "persName":
+ "Clara Jonas",
+ "ref":
+ "person_16572"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Der Mörder. Novelle",
+ "ref":
+ "pmb33754"}
+ ,  {
+ "title":
+ "Die Mörderin",
+ "ref":
+ "pmb33792"}
+ ,  {
+ "title":
+ "Pariser Schattenspiel",
+ "ref":
+ "pmb77436"}
+ ,  {
+ "title":
+ "Götz Krafft. Die Geschichte einer Jungend",
+ "ref":
+ "pmb60890"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ,  {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb91735"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00083519",
+ "head":
+ "Schnitzler, Arthur: Der Mörder [Prosa] (Drucktitel)",
+ "text":
+ "Erstes Objekt aus der Mappe. ca 66 Bl."
+}] 

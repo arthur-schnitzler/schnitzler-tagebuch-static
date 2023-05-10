@@ -1,0 +1,95 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-03-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-03-10.html",
+ "head":
+ "Tagebuch, 10. März 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johannes Brahms",
+ "ref":
+ "person_13914"},
+ {
+ "persName":
+ "Theodor Entsch",
+ "ref":
+ "person_14766"},
+ {
+ "persName":
+ "Ernst Finger",
+ "ref":
+ "person_14982"},
+ {
+ "persName":
+ "Arthur Horner",
+ "ref":
+ "person_16371"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Maurice Vaucaire",
+ "ref":
+ "person_20931"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Abschiedssouper",
+ "ref":
+ "pmb30005"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Nizza",
+ "ref":
+ "pmb926"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00048850",
+ "head":
+ "Schnitzler, Arthur an Strauch, Gottfried [Briefe]",
+ "text":
+ "2 Bl.Durchschl."
+}] 

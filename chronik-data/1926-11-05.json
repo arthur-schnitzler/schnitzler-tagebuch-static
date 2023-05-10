@@ -1,0 +1,64 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-11-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-11-05.html",
+ "head":
+ "Tagebuch, 5. November 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ben Jonson",
+ "ref":
+ "person_16579"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "person_21614"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Geist im Wort und der Geist in der Tat",
+ "ref":
+ "pmb30051"}
+ ,  {
+ "title":
+ "Volpone oder Der Fuchs",
+ "ref":
+ "pmb80753"}
+ ,  {
+ "title":
+ "Faust – eine deutsche Volkssage",
+ "ref":
+ "pmb81034"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

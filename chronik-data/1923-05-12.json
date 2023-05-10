@@ -1,0 +1,323 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-05-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-05-12.html",
+ "head":
+ "Tagebuch, 12. Mai 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Carl Johan Behrens",
+ "ref":
+ "person_13561"},
+ {
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "person_13920"},
+ {
+ "persName":
+ "George Gordon Noël Lord Byron",
+ "ref":
+ "person_14101"},
+ {
+ "persName":
+ "Glad",
+ "ref":
+ "person_15453"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Clara Augusta Hammerich",
+ "ref":
+ "person_15884"},
+ {
+ "persName":
+ "Louis Leonor Hammerich",
+ "ref":
+ "person_15885"},
+ {
+ "persName":
+ "Ihle",
+ "ref":
+ "person_16440"},
+ {
+ "persName":
+ "Jean Jaurès",
+ "ref":
+ "person_16521"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Sophus Michaëlis",
+ "ref":
+ "person_18142"},
+ {
+ "persName":
+ "Jacob Christian? Normann",
+ "ref":
+ "person_18476"},
+ {
+ "persName":
+ "Viggo Petersen",
+ "ref":
+ "person_18729"},
+ {
+ "persName":
+ "Gertrud Rung",
+ "ref":
+ "person_19470"},
+ {
+ "persName":
+ "Albrecht Elvinus Schmidt",
+ "ref":
+ "person_19758"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Valdemar Meisen",
+ "ref":
+ "person_18051"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"},
+ {
+ "persName":
+ "von Clasen",
+ "ref":
+ "person_14226"},
+ {
+ "persName":
+ "Axel Fraenkel",
+ "ref":
+ "person_15098"},
+ {
+ "persName":
+ "Henrik Moritz",
+ "ref":
+ "person_18255"},
+ {
+ "persName":
+ "Carl Nordberger",
+ "ref":
+ "person_18473"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Zum großen Wurstel",
+ "ref":
+ "pmb29951"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "Die letzten Masken",
+ "ref":
+ "pmb29877"}
+ ,  {
+ "title":
+ "Die dreifache Warnung",
+ "ref":
+ "pmb33061"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Kastelsvej",
+ "ref":
+ "pmb92331"}
+ ,  {
+ "placeName":
+ "Alleegade",
+ "ref":
+ "pmb92137"}
+ ,  {
+ "placeName":
+ "Spanien",
+ "ref":
+ "pmb388"}
+ ,  {
+ "placeName":
+ "Dänemark",
+ "ref":
+ "pmb43570"}
+ ,  {
+ "placeName":
+ "Stockholm",
+ "ref":
+ "pmb1119"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/36300/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/36300/",
+ "head":
+ "Kopenhagen"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/58094/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/58094/",
+ "head":
+ "Hotel Phönix"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/62177/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/62177/",
+ "head":
+ "Vorlesung von Dreifache Warnung, Letzte Masken, Weg ins Freie, Zum großen Wurstl, 12.5.1923",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Die dreifache Warnung",
+ "ref":
+ "pmb33061"}
+ ,  {
+ "title":
+ "Die letzten Masken",
+ "ref":
+ "pmb29877"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Zum großen Wurstel",
+ "ref":
+ "pmb29951"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Studentersamfundet",
+ "ref":
+ "pmb29482"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Gustaf Linden an Arthur Schnitzler, 12.5.1923",
+ "source":
+ "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Hedy Kempny an Arthur Schnitzler, 12.5.1923",
+ "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 12. Mai 1923",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

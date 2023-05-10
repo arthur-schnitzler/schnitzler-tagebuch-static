@@ -1,0 +1,136 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-08-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-08-03.html",
+ "head":
+ "Tagebuch, 3. August 1903",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der tapfere Kassian. Singspiel",
+ "ref":
+ "pmb46124"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ,  {
+ "placeName":
+ "Meissl &amp; Schadn",
+ "ref":
+ "pmb96"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041432",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041432.html",
+ "head":
+ "Aufzeichnung von Bahr, 3. 8. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Lukian von Samosata",
+ "ref":
+ "pmb20643"},
+ {
+ "persName":
+ "Lafcadio Hearn",
+ "ref":
+ "pmb3425"},
+ {
+ "persName":
+ "Gertrud Eysoldt",
+ "ref":
+ "pmb11284"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Stray Leaves from Strange Literature",
+ "ref":
+ "pmb31059"}
+ ,  {
+ "title":
+ "Dialog vom Laster",
+ "ref":
+ "pmb31037"}
+ ,  {
+ "title":
+ "Dialoge",
+ "ref":
+ "pmb31051"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hannover",
+ "ref":
+ "pmb890"}
+ ,  {
+ "placeName":
+ "Bremen",
+ "ref":
+ "pmb891"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00038479",
+ "head":
+ "Külley, Djalma von an Schnitzler, Arthur [Briefe]",
+ "text":
+ "4 Bl. Mit 1 Vis.kte"
+}] 

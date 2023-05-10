@@ -1,0 +1,122 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-04-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-04-21.html",
+ "head":
+ "Tagebuch, 21. April 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Auguste Chlum",
+ "ref":
+ "person_14199"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Lucy von Jacobi",
+ "ref":
+ "person_16469"},
+ {
+ "persName":
+ "von Korff",
+ "ref":
+ "person_17044"},
+ {
+ "persName":
+ "Hans Martin",
+ "ref":
+ "person_17943"},
+ {
+ "persName":
+ "Johanna Nemetschke",
+ "ref":
+ "person_18388"},
+ {
+ "persName":
+ "Emil Alphons Rheinhardt",
+ "ref":
+ "person_19226"},
+ {
+ "persName":
+ "Tilly Waldegg",
+ "ref":
+ "person_21057"},
+ {
+ "persName":
+ "Tilly Wedekind",
+ "ref":
+ "person_21131"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Weihnachts-Einkäufe",
+ "ref":
+ "pmb30163"}
+ ,  {
+ "title":
+ "Excentric",
+ "ref":
+ "pmb29893"}
+ ,  {
+ "title":
+ "Lebendige Stunden",
+ "ref":
+ "pmb29957"}
+ ,  {
+ "title":
+ "Die Mütter. Schauspiel in vier Acten",
+ "ref":
+ "pmb31737"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Pschorrbräu",
+ "ref":
+ "pmb92467"}
+ ,  {
+ "placeName":
+ "Rissersee",
+ "ref":
+ "pmb92487"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München"
+}] 

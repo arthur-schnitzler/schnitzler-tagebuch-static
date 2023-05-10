@@ -1,0 +1,122 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-10-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-10-30.html",
+ "head":
+ "Tagebuch, 30. Oktober 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Moritz Bárd",
+ "ref":
+ "person_13414"},
+ {
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Karl Ettlinger",
+ "ref":
+ "person_14816"},
+ {
+ "persName":
+ "Felix Hollaender",
+ "ref":
+ "person_16326"},
+ {
+ "persName":
+ "Bruno Klein",
+ "ref":
+ "person_16883"},
+ {
+ "persName":
+ "Karl Menger",
+ "ref":
+ "person_18075"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Emil Steininger",
+ "ref":
+ "person_20380"},
+ {
+ "persName":
+ "Hans Thimig",
+ "ref":
+ "person_20711"},
+ {
+ "persName":
+ "Franz Löwy",
+ "ref":
+ "person_17662"},
+ {
+ "persName":
+ "Napoleon Bonaparte",
+ "ref":
+ "person_18356"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Streichquartett Nr. 6 B-Dur op. 18,6",
+ "ref":
+ "pmb77181"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ,  {
+ "placeName":
+ "Niederlande",
+ "ref":
+ "pmb44016"}
+ ,  {
+ "placeName":
+ "Schweden",
+ "ref":
+ "pmb44335"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

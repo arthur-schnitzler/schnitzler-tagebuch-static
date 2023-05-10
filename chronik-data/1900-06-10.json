@@ -1,0 +1,84 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-06-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-06-10.html",
+ "head":
+ "Tagebuch, 10. Juni 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Leopoldine Müller",
+ "ref":
+ "person_18303"},
+ {
+ "persName":
+ "Leo Schmidt",
+ "ref":
+ "person_19765"},
+ {
+ "persName":
+ "Adolf von Sonnenthal",
+ "ref":
+ "person_20204"},
+ {
+ "persName":
+ "Agnes Ulmann",
+ "ref":
+ "person_20872"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Purkersdorf",
+ "ref":
+ "pmb91552"}
+ ,  {
+ "placeName":
+ "Laab im Walde",
+ "ref":
+ "pmb91091"}
+ ,  {
+ "placeName":
+ "Kalksburg",
+ "ref":
+ "pmb90979"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Augarten",
+ "ref":
+ "pmb124"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,137 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-05-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-05-15.html",
+ "head":
+ "Tagebuch, 15. Mai 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00441",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00441.html",
+ "head":
+ "Laura Marholm an Arthur Schnitzler, 15. 5. 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Laura Marholm",
+ "ref":
+ "pmb12183"},
+ {
+ "persName":
+ "Jules-Amédée Barbey d’Aurevilly",
+ "ref":
+ "pmb4266"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Moderner Musen-Almanach auf das Jahr 1894. Ein Jahrbuch deutscher Kunst",
+ "ref":
+ "pmb32252"}
+ ,  {
+ "title":
+ "Der Dichter des Weibmysteriums",
+ "ref":
+ "pmb33524"}
+ ,  {
+ "title":
+ "Weiße Fläche",
+ "ref":
+ "pmb33526"}
+ ,  {
+ "title":
+ "Neue Freie Presse",
+ "ref":
+ "pmb36374"}
+ ,  {
+ "title":
+ "Wir Frauen und unsere Dichter",
+ "ref":
+ "pmb33522"}
+ ,  {
+ "title":
+ "Die Zukunft",
+ "ref":
+ "pmb40042"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schliersee",
+ "ref":
+ "pmb936"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Oberbayern",
+ "ref":
+ "pmb1201"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,125 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-04-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-04-21.html",
+ "head":
+ "Tagebuch, 21. April 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Anna Eisenmenger",
+ "ref":
+ "person_14682"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Clara Soltau",
+ "ref":
+ "person_20191"},
+ {
+ "persName":
+ "Henny Porten",
+ "ref":
+ "person_18926"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Symphonie Nr. 5 c-Moll op. 67",
+ "ref":
+ "pmb77188"}
+ ,  {
+ "title":
+ "Faust. Eine Tragödie",
+ "ref":
+ "pmb30247"}
+ ,  {
+ "title":
+ "Gräfin Donelli",
+ "ref":
+ "pmb80470"}
+ ,  {
+ "title":
+ "Charley’s Tante",
+ "ref":
+ "pmb81419"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bellagio",
+ "ref":
+ "pmb90322"}
+ ,  {
+ "placeName":
+ "Meran",
+ "ref":
+ "pmb43520"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00076707",
+ "head":
+ "Schnitzler, Arthur an Meyer, Johanna [Briefe]",
+ "text":
+ "1 Kte"
+}] 

@@ -1,0 +1,105 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-05-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-05-26.html",
+ "head":
+ "Tagebuch, 26. Mai 1900",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Puchberg am Schneeberg",
+ "ref":
+ "pmb48761"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01041",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01041.html",
+ "head":
+ "Arthur Schnitzler, Felix Salten, Ottilie Salten an Richard Beer-Hofmann, 26. 5. 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Ottilie Salten",
+ "ref":
+ "pmb23918"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Puchberg am Schneeberg",
+ "ref":
+ "pmb48761"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Wollzeile",
+ "ref":
+ "pmb338"}
+ ,  {
+ "placeName":
+ "Schneeberg",
+ "ref":
+ "pmb27068"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/48761/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/48761/",
+ "head":
+ "Puchberg am Schneeberg"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00050079",
+ "head":
+ "Mewes, Ad. an Marius, Dina [Briefe]",
+ "text":
+ "1 Kte Mit 1 Umschl."
+}] 

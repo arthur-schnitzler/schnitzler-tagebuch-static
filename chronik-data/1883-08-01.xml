@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1883-08-01">Mittwoch, 1. August 1883</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1883-08-01">
+               <head>Tagebuch, 1. August 1883</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13606">Alfred Benvenisti</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14705">Jakob Eissler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14706">Josefine Eissler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14895">Antonie Faust</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16364">Richard Horn</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16371">Arthur Horner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16372">Betty Horner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16612">K.</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17124">Kray</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17147">Kron</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17368">Franziska Reich</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17905">Marie Markbreiter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18195">Mizi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18319">Eduard Mütter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18600">Wilhelm Ostersetzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18759"/>
+                     </person>
+                     <person>
+                        <persName ref="person_19394">Moritz Rosenthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19720">Mathilde Schleicher</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19956">Schwarz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20643">Richard Tausenau</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20668">Ludwig Tennenbaum</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20694">Eduard Theimer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14989">Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18322">Joseph Mütter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20306">Bertha St.</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20681">Franz Tewele</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14707">Laura Eissler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14898">Minna Faust</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15722">Johann Gschirhakl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18320">Franziska Mütter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21163">Max Weinberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21463">Charlotte Wolter</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb35915">Du fühlst dich glücklich, wunderschönes Kind</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb35940">Du reizend Schöne, Tolle, Wilde</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb415">Bad Aussee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91973">Unterach am Attersee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34344">Weißenbach am Attersee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90975">Kaiserebersdorf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb92490">Ronacher</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb103">Volksgarten</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1883-08-01.html</idno>
+            </event>
+            <event when-iso="1883-08-01">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

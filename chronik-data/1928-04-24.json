@@ -1,0 +1,165 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-04-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-04-24.html",
+ "head":
+ "Tagebuch, 24. April 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alexander der Große",
+ "ref":
+ "person_13146"},
+ {
+ "persName":
+ "Arnoldo Cappellini",
+ "ref":
+ "person_14129"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Richard Krum",
+ "ref":
+ "person_17154"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Wilhelm Liepmann",
+ "ref":
+ "person_17535"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Ludwig Sachs",
+ "ref":
+ "person_19505"},
+ {
+ "persName":
+ "Marie Krum",
+ "ref":
+ "person_17153"},
+ {
+ "persName":
+ "Wilhelm Radwaner",
+ "ref":
+ "person_19026"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Istanbul",
+ "ref":
+ "pmb966"}
+ ,  {
+ "placeName":
+ "Bosporus",
+ "ref":
+ "pmb90386"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/966/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/966/",
+ "head":
+ "Istanbul"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90386/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90386/",
+ "head":
+ "Bosporus"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp537",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp537.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 24. April 1928"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00032461",
+ "head":
+ "Blunck, Hans Friedrich an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans Friedrich (1888-1961) Blunck",
+ "ref":
+ "http://d-nb.info/gnd/118512099"}]
+}
+}] 

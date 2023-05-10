@@ -1,0 +1,144 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-02-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-02-27.html",
+ "head":
+ "Tagebuch, 27. Februar 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Maximilian Lang",
+ "ref":
+ "person_17299"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041694",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041694.html",
+ "head":
+ "Leopold von Andrian an Robert Michel, 27. 2. 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "pmb10765"},
+ {
+ "persName":
+ "Robert Michel",
+ "ref":
+ "pmb12254"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "pmb11701"},
+ {
+ "persName":
+ "Franz Servaes",
+ "ref":
+ "pmb12772"},
+ {
+ "persName":
+ "Alfred Gold",
+ "ref":
+ "pmb11469"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Vom Podvelež",
+ "ref":
+ "pmb32652"}
+ ,  {
+ "title":
+ "Die drei Musikanten",
+ "ref":
+ "pmb32646"}
+ ,  {
+ "title":
+ "Osmanbegović",
+ "ref":
+ "pmb32648"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "Mostar",
+ "ref":
+ "pmb999"}
+ ,  {
+ "placeName":
+ "Bosnien und Herzegowina",
+ "ref":
+ "pmb1000"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Ministerium für Äußeres",
+ "ref":
+ "pmb713"}
+ ]
+}
+}] 

@@ -1,0 +1,195 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-06-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-06-30.html",
+ "head":
+ "Tagebuch, 30. Juni 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Bauer",
+ "ref":
+ "person_13473"},
+ {
+ "persName":
+ "Eduard von Bauernfeld",
+ "ref":
+ "person_13480"},
+ {
+ "persName":
+ "Friedrich Hebbel",
+ "ref":
+ "person_16009"},
+ {
+ "persName":
+ "Ferdinand Kürnberger",
+ "ref":
+ "person_17169"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "person_19828"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Anna Sikora",
+ "ref":
+ "person_20523"},
+ {
+ "persName":
+ "Mark Twain",
+ "ref":
+ "person_20846"},
+ {
+ "persName":
+ "Oscar Wilde",
+ "ref":
+ "person_21325"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Schicksal des Freiherrn von Leisenbohg. Novellette",
+ "ref":
+ "pmb30057"}
+ ,  {
+ "title":
+ "Aus Bauernfelds Tagebüchern",
+ "ref":
+ "pmb32650"}
+ ,  {
+ "title":
+ "Tagebücher",
+ "ref":
+ "pmb30609"}
+ ,  {
+ "title":
+ "Siegelringe",
+ "ref":
+ "pmb78124"}
+ ,  {
+ "title":
+ "König Lear",
+ "ref":
+ "pmb31623"}
+ ,  {
+ "title":
+ "Ausgewählte Skizzen",
+ "ref":
+ "pmb81432"}
+ ,  {
+ "title":
+ "Das Bildnis des Dorian Gray",
+ "ref":
+ "pmb77594"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Graz",
+ "ref":
+ "pmb860"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01412",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01412.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, 30. 6. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Kunst und Künstler",
+ "ref":
+ "pmb39939"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XXIII., Liesing",
+ "ref":
+ "pmb73"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

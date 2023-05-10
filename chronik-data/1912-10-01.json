@@ -1,0 +1,152 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1912-10-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-10-01.html",
+ "head":
+ "Tagebuch, 1. Oktober 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"},
+ {
+ "persName":
+ "Hugo Ganz",
+ "ref":
+ "person_15345"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei (Filmplan, 1912)",
+ "ref":
+ "pmb36041"}
+ ,  {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Nemirowitsch-Dantschenko,
+                        Wladimir, 1. 10. 1912",
+ "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 1.10.1912",
+ "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00046653",
+ "head":
+ "Schnitzler, Arthur - Brahm, Otto [Br. Wechsel]",
+ "text":
+ "Letztes Objekt aus der Mappe. 100 Br., 1 Kte, 9 Tel. 197 Bl.Abschr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto (1856-1912) Brahm",
+ "ref":
+ "http://d-nb.info/gnd/118514245"},
+ {
+ "persName":
+ "Otto (1856-1912) Brahm",
+ "ref":
+ "http://d-nb.info/gnd/118514245"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00048013",
+ "head":
+ "Schnitzler, Arthur an Nemirovič-Dančenko, Vladimir I. [Briefe]",
+ "text":
+ "1 Bl.Durchschl. Mit 1 weit. Ex. 1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Vladimir I. (1858-1943) Nemirovič-Dančenko",
+ "ref":
+ "http://d-nb.info/gnd/118785885"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00078730",
+ "head":
+ "Schnitzler, Arthur an Nemirovič-Dančenko, Vladimir I. [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Vladimir I. (1858-1943) Nemirovič-Dančenko",
+ "ref":
+ "http://d-nb.info/gnd/118785885"}]
+}
+}] 

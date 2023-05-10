@@ -1,0 +1,157 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-11-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-11-27.html",
+ "head":
+ "Tagebuch, 27. November 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "person_15306"},
+ {
+ "persName":
+ "Else Speidel-Haeberle",
+ "ref":
+ "person_15833"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Margarethe Kainz",
+ "ref":
+ "person_16647"},
+ {
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "person_19364"},
+ {
+ "persName":
+ "Maria Mell",
+ "ref":
+ "person_18056"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Dummkopf",
+ "ref":
+ "pmb76634"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01735",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01735.html",
+ "head":
+ "Wilhelm von Wymetal, Detlev von Liliencron, Paul Stefan, Hedwig Kurzweil, Alfred Markowitz, E. Goldschmied an Arthur Schnitzler, 27. 11. [1907]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Wilhelm von Wymetal",
+ "ref":
+ "pmb2725"},
+ {
+ "persName":
+ "Detlev von Liliencron",
+ "ref":
+ "pmb12071"},
+ {
+ "persName":
+ "Paul Stefan",
+ "ref":
+ "pmb12826"},
+ {
+ "persName":
+ "Hedwig Kurzweil",
+ "ref":
+ "pmb29183"},
+ {
+ "persName":
+ "Alfred Markowitz",
+ "ref":
+ "pmb5819"},
+ {
+ "persName":
+ "E. Goldschmied",
+ "ref":
+ "pmb29182"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Ansorge-Verein",
+ "ref":
+ "pmb29596"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Schloß Schönbrunn",
+ "ref":
+ "pmb21799"}
+ ,  {
+ "placeName":
+ "Gewerbevereinssaal",
+ "ref":
+ "pmb563"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

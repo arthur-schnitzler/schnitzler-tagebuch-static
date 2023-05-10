@@ -1,0 +1,69 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-01-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-01-21.html",
+ "head":
+ "Tagebuch, 21. Januar 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Joseph Haydn",
+ "ref":
+ "person_15999"},
+ {
+ "persName":
+ "Grete Jacques",
+ "ref":
+ "person_16485"},
+ {
+ "persName":
+ "Julius Lehnert",
+ "ref":
+ "person_17410"},
+ {
+ "persName":
+ "Rudolf Braun",
+ "ref":
+ "person_13937"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komtesse Mizzi oder Der Familientag",
+ "ref":
+ "pmb29931"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Marionettentreue",
+ "ref":
+ "pmb80226"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

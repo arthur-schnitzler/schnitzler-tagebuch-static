@@ -1,0 +1,253 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-09-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-09-29.html",
+ "head":
+ "Tagebuch, 29. September 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Devrient",
+ "ref":
+ "person_14434"},
+ {
+ "persName":
+ "",
+ "ref":
+ "person_14790"},
+ {
+ "persName":
+ "Albert Hammerschlag",
+ "ref":
+ "person_15886"},
+ {
+ "persName":
+ "Sándor Jaray",
+ "ref":
+ "person_16515"},
+ {
+ "persName":
+ "Arnold Korff",
+ "ref":
+ "person_17046"},
+ {
+ "persName":
+ "Heinrich Lefler",
+ "ref":
+ "person_17397"},
+ {
+ "persName":
+ "Lotte Medelsky",
+ "ref":
+ "person_18035"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "person_19828"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Josef Urban",
+ "ref":
+ "person_20889"},
+ {
+ "persName":
+ "Mirjam Horwitz",
+ "ref":
+ "person_21546"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"},
+ {
+ "persName":
+ "Alexander Demetrius Goltz",
+ "ref":
+ "person_15559"},
+ {
+ "persName":
+ "Dora Erl",
+ "ref":
+ "person_14792"},
+ {
+ "persName":
+ "Moriz Károlyi",
+ "ref":
+ "person_16735"},
+ {
+ "persName":
+ "Gilbert Lehner",
+ "ref":
+ "person_17409"},
+ {
+ "persName":
+ "Tini",
+ "ref":
+ "person_20751"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Gefährtin. Schauspiel in einem Akt",
+ "ref":
+ "pmb29845"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ,  {
+ "placeName":
+ "Volksgarten",
+ "ref":
+ "pmb103"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/143145/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/143145/",
+ "head":
+ "Aufführung von Liebelei, 29.9.1905",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Dora Erl",
+ "ref":
+ "pmb15983"},
+ {
+ "persName":
+ "Erl",
+ "ref":
+ "pmb62143"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "pmb2315"},
+ {
+ "persName":
+ "Mirjam Horwitz",
+ "ref":
+ "pmb2549"},
+ {
+ "persName":
+ "Lotte Medelsky",
+ "ref":
+ "pmb2252"},
+ {
+ "persName":
+ "Arnold Korff",
+ "ref":
+ "pmb2249"},
+ {
+ "persName":
+ "Max Devrient",
+ "ref":
+ "pmb2446"},
+ {
+ "persName":
+ "Tini",
+ "ref":
+ "pmb26071"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ]
+}
+}] 

@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-08-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-08-21.html",
+ "head":
+ "Tagebuch, 21. August 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Anton Mandl",
+ "ref":
+ "person_17813"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Vorige",
+ "ref":
+ "pmb30781"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Maria Schutz",
+ "ref":
+ "pmb45277"}
+ ,  {
+ "placeName":
+ "Schlagl",
+ "ref":
+ "pmb91683"}
+ ,  {
+ "placeName":
+ "Raach am Hochgebirge",
+ "ref":
+ "pmb91556"}
+ ,  {
+ "placeName":
+ "Syhrnthal",
+ "ref":
+ "pmb92561"}
+ ,  {
+ "placeName":
+ "Gloggnitz",
+ "ref":
+ "pmb90727"}
+ ,  {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb91735"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91735/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91735/",
+ "head":
+ "Semmering"
+}] 

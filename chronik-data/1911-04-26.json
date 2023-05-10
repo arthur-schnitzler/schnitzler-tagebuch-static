@@ -1,0 +1,117 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-04-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-04-26.html",
+ "head":
+ "Tagebuch, 26. April 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friederike Ergas",
+ "ref":
+ "person_14784"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Herta von Hagen",
+ "ref":
+ "person_15842"},
+ {
+ "persName":
+ "Agnes Ulmann",
+ "ref":
+ "person_20872"},
+ {
+ "persName":
+ "Gustav Waldau",
+ "ref":
+ "person_21050"},
+ {
+ "persName":
+ "Tilly Waldegg",
+ "ref":
+ "person_21057"},
+ {
+ "persName":
+ "Frank Wedekind",
+ "ref":
+ "person_21130"},
+ {
+ "persName":
+ "Tilly Wedekind",
+ "ref":
+ "person_21131"},
+ {
+ "persName":
+ "Rudolf Ergas",
+ "ref":
+ "person_14786"},
+ {
+ "persName":
+ "Rolf Randolf",
+ "ref":
+ "person_19047"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"},
+ {
+ "persName":
+ "Margarethe Swoboda",
+ "ref":
+ "person_20596"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Abschiedssouper",
+ "ref":
+ "pmb30005"}
+ ,  {
+ "title":
+ "Anatols Hochzeitsmorgen",
+ "ref":
+ "pmb30033"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München"
+}] 

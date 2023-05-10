@@ -1,0 +1,100 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-10-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-10-03.html",
+ "head":
+ "Tagebuch, 3. Oktober 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Joseph Anton Christ",
+ "ref":
+ "person_14206"},
+ {
+ "persName":
+ "Alexander Mandl",
+ "ref":
+ "person_17814"},
+ {
+ "persName":
+ "Amalia Markbreiter",
+ "ref":
+ "person_17894"},
+ {
+ "persName":
+ "Philipp Markbreiter",
+ "ref":
+ "person_17908"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Bacchusfest",
+ "ref":
+ "pmb32097"}
+ ,  {
+ "title":
+ "Schauspielerleben im achtzehnten Jahrhundert. Erinnerungen. Zum ersten Male veröffentlicht von Rudolf Schirmer",
+ "ref":
+ "pmb78670"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgring",
+ "ref":
+ "pmb274"}
+ ,  {
+ "placeName":
+ "Circusgasse",
+ "ref":
+ "pmb92189"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 03. Oktober 1913",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

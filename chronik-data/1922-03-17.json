@@ -1,0 +1,242 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-03-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-03-17.html",
+ "head":
+ "Tagebuch, 17. März 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Joseph Haydn",
+ "ref":
+ "person_15999"},
+ {
+ "persName":
+ "Stefano Infessura",
+ "ref":
+ "person_16446"},
+ {
+ "persName":
+ "Gabriele Reuter",
+ "ref":
+ "person_19214"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Hans Schwarz",
+ "ref":
+ "person_19971"},
+ {
+ "persName":
+ "Johannes Scherr",
+ "ref":
+ "person_19655"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"},
+ {
+ "persName":
+ "Walt Whitman",
+ "ref":
+ "person_21290"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aphoristisches",
+ "ref":
+ "pmb35745"}
+ ,  {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Symphonie Nr. 92 G-Dur H. I 92 (Oxford)",
+ "ref":
+ "pmb78496"}
+ ,  {
+ "title":
+ "Festschrift zum 60. Geburtstag Gerhart Hauptmanns",
+ "ref":
+ "pmb62664"}
+ ,  {
+ "title":
+ "Römisches Tagebuch",
+ "ref":
+ "pmb79561"}
+ ,  {
+ "title":
+ "Vom Kinde zum Menschen. Die Geschichte meiner Jugend",
+ "ref":
+ "pmb77573"}
+ ,  {
+ "title":
+ "Deutsche Kultur- und Sittengeschichte",
+ "ref":
+ "pmb81255"}
+ ,  {
+ "title":
+ "Gesang von mir selbst",
+ "ref":
+ "pmb81484"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02377",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02377.html",
+ "head":
+ "Arthur Schnitzler an Gerhart Hauptmann, 17. 3. 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Cambridge University Library",
+ "ref":
+ "pmb29355"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb189"}
+ ,  {
+ "placeName":
+ "Agnetendorf",
+ "ref":
+ "pmb735"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00079878",
+ "head":
+ "Schnitzler, Arthur an Hauptmann, Gerhart [Briefe]",
+ "text":
+ "1 Br. 7 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gerhart (1862-1946) Hauptmann",
+ "ref":
+ "http://d-nb.info/gnd/118546937"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00045831",
+ "head":
+ "Schnitzler, Arthur an Hauptmann, Gerhart [Briefe]",
+ "text":
+ "3 Bl.Abschr.Kopie",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gerhart (1862-1946) Hauptmann",
+ "ref":
+ "http://d-nb.info/gnd/118546937"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00078500",
+ "head":
+ "Schnitzler, Arthur an Recht, Georg [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

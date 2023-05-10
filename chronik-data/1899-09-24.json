@@ -1,0 +1,141 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-09-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-09-24.html",
+ "head":
+ "Tagebuch, 24. September 1899",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Undine",
+ "ref":
+ "pmb80917"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiesbaden",
+ "ref":
+ "pmb883"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00980",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00980.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 24. 9. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiesbaden",
+ "ref":
+ "pmb883"}
+ ,  {
+ "placeName":
+ "Vahrn",
+ "ref":
+ "pmb946"}
+ ,  {
+ "placeName":
+ "Brixen",
+ "ref":
+ "pmb43040"}
+ ,  {
+ "placeName":
+ "Tirol",
+ "ref":
+ "pmb423"}
+ ,  {
+ "placeName":
+ "Nerobergbahn",
+ "ref":
+ "pmb43124"}
+ ,  {
+ "placeName":
+ "Hôtel du Parc &amp; Bristol",
+ "ref":
+ "pmb43055"}
+ ,  {
+ "placeName":
+ "Florenz",
+ "ref":
+ "pmb263"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/146/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/146/",
+ "head":
+ "Frankfurt am Main"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/883/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/883/",
+ "head":
+ "Wiesbaden"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/43055/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43055/",
+ "head":
+ "Hôtel du Parc &amp; Bristol"
+}] 

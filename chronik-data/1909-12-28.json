@@ -1,0 +1,415 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-12-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-12-28.html",
+ "head":
+ "Tagebuch, 28. Dezember 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "person_13202"},
+ {
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Julius Bab",
+ "ref":
+ "person_13337"},
+ {
+ "persName":
+ "Rudolf Hans Bartsch",
+ "ref":
+ "person_13447"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Friedrich Hebbel",
+ "ref":
+ "person_16009"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"},
+ {
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "person_21614"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "person_13376"},
+ {
+ "persName":
+ "Ottilie Salten",
+ "ref":
+ "person_19543"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "Das Konzert. Lustspiel in drei Akten",
+ "ref":
+ "pmb29933"}
+ ,  {
+ "title":
+ "Gedichte",
+ "ref":
+ "pmb30305"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ober-Sankt-Veit",
+ "ref":
+ "pmb91377"}
+ ,  {
+ "placeName":
+ "Bucharest",
+ "ref":
+ "pmb90411"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041553",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041553.html",
+ "head":
+ "Brahm an Schnitzler, 28. 12. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Paul Schlenther",
+ "ref":
+ "pmb12671"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "pmb12504"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Konzert. Lustspiel in drei Akten",
+ "ref":
+ "pmb29933"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041054",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041054.html",
+ "head":
+ "Tagebuch von Schnitzler, 28. 12. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "pmb12698"},
+ {
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "pmb10765"},
+ {
+ "persName":
+ "Friedrich Hebbel",
+ "ref":
+ "pmb2404"},
+ {
+ "persName":
+ "Julius Bab",
+ "ref":
+ "pmb10799"},
+ {
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "pmb13212"},
+ {
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "pmb10788"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Ottilie Salten",
+ "ref":
+ "pmb23918"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "pmb2496"},
+ {
+ "persName":
+ "Rudolf Hans Bartsch",
+ "ref":
+ "pmb10836"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "pmb12968"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Konzert. Lustspiel in drei Akten",
+ "ref":
+ "pmb29933"}
+ ,  {
+ "title":
+ "Gedichte",
+ "ref":
+ "pmb30305"}
+ ,  {
+ "title":
+ "Einleitung [Hebbel: Gedichte]",
+ "ref":
+ "pmb30961"}
+ ,  {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ober Sankt Veit",
+ "ref":
+ "pmb165"}
+ ,  {
+ "placeName":
+ "Bukarest",
+ "ref":
+ "pmb993"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041498",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041498.html",
+ "head":
+ "Aufzeichnung von Bahr, 28. 12. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Heinrich Friedjung",
+ "ref":
+ "pmb11384"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "pmb11324"},
+ {
+ "persName":
+ "Paul Wilhelm von Keppler",
+ "ref":
+ "pmb3698"},
+ {
+ "persName":
+ "Otmar Müller",
+ "ref":
+ "pmb21730"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anfang vom Ende",
+ "ref":
+ "pmb30181"}
+ ,  {
+ "title":
+ "Mehr Freude",
+ "ref":
+ "pmb31209"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sankt Paul im Lavanttal",
+ "ref":
+ "pmb329"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Stefan Zweig, 28.12.1909",
+ "source":
+ "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 28.12.1909",
+ "source":
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 28.12.1909",
+ "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}] 

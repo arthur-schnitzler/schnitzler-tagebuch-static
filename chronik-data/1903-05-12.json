@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-05-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-05-12.html",
+ "head":
+ "Tagebuch, 12. Mai 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Camilla Gerzhofer",
+ "ref":
+ "person_15405"},
+ {
+ "persName":
+ "Emilie Sigmund",
+ "ref":
+ "person_20096"},
+ {
+ "persName":
+ "Hans Wagner",
+ "ref":
+ "person_21027"},
+ {
+ "persName":
+ "Maxim Gorkij",
+ "ref":
+ "person_15573"},
+ {
+ "persName":
+ "Max Otto",
+ "ref":
+ "person_18616"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Auferstehung",
+ "ref":
+ "pmb80123"}
+ ,  {
+ "title":
+ "Die Waise aus Lowood",
+ "ref":
+ "pmb31279"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schauspielschule Otto",
+ "ref":
+ "pmb92514"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

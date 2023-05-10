@@ -1,0 +1,146 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-01-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-01-04.html",
+ "head":
+ "Tagebuch, 4. Januar 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02980",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02980.html",
+ "head":
+ "Arthur Schnitzler an Felix Salten, 4. 1. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01262",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01262.html",
+ "head":
+ "Paula Dehmel an Arthur Schnitzler, 4. 1. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paula Dehmel",
+ "ref":
+ "pmb2281"},
+ {
+ "persName":
+ "Johannes Schlaf",
+ "ref":
+ "pmb12664"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wilmersdorf",
+ "ref":
+ "pmb593"}
+ ,  {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Wilhelmsaue",
+ "ref":
+ "pmb594"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00061868",
+ "head":
+ "Dehmel, Paula an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Kte 1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paula (1862-1918) Dehmel",
+ "ref":
+ "http://d-nb.info/gnd/116054522"}]
+}
+}] 

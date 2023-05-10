@@ -1,0 +1,118 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1930-11-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-11-01.html",
+ "head":
+ "Tagebuch, 1. November 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans Brunner",
+ "ref":
+ "person_14026"},
+ {
+ "persName":
+ "Ferdinand Donath",
+ "ref":
+ "person_14482"},
+ {
+ "persName":
+ "Franz Lehár",
+ "ref":
+ "person_17401"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Vera Schwarz",
+ "ref":
+ "person_19981"},
+ {
+ "persName":
+ "Richard Tauber",
+ "ref":
+ "person_20641"},
+ {
+ "persName":
+ "Hubert Marischka",
+ "ref":
+ "person_17891"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Flucht in die Finsternis",
+ "ref":
+ "pmb30863"}
+ ,  {
+ "title":
+ "Das Land des Lächelns",
+ "ref":
+ "pmb78509"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiednertheater",
+ "ref":
+ "pmb92603"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92603/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92603/",
+ "head":
+ "Wiednertheater"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp843",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp843.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 28. Oktober – 4. November 1930"
+}] 

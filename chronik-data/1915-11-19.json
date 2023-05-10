@@ -1,0 +1,98 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/KDV_K2_H4_0179",
+ "head":
+ "Komödie der Verführung, hsl. Werkniederschrift 4"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-11-19",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-11-19.html",
+ "head":
+ "Tagebuch, 19. November 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Detlev von Liliencron",
+ "ref":
+ "person_17547"},
+ {
+ "persName":
+ "Maria Mayer",
+ "ref":
+ "person_18020"},
+ {
+ "persName":
+ "Molière",
+ "ref":
+ "person_18214"},
+ {
+ "persName":
+ "Anton Bettelheim",
+ "ref":
+ "person_13699"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aphoristisches",
+ "ref":
+ "pmb35745"}
+ ,  {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Götz von Berlichingen",
+ "ref":
+ "pmb31071"}
+ ,  {
+ "title":
+ "Don Juan oder Der steinerne Gast",
+ "ref":
+ "pmb76776"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00082888",
+ "head":
+ "Schnitzler, Arthur: Komödie der Verführung [Dramatisches] (Drucktitel)",
+ "text":
+ "Letztes Objekt aus der Mappe. ca 190 Bl.paginiert 1-179, 189-200"
+}] 

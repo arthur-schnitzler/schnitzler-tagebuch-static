@@ -1,0 +1,85 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1930-02-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-02-17.html",
+ "head":
+ "Tagebuch, 17. Februar 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Greta Garbo",
+ "ref":
+ "person_15348"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Lewis Stone",
+ "ref":
+ "person_20461"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Oberstabsarzt",
+ "ref":
+ "pmb33756"}
+ ,  {
+ "title":
+ "Tropenglut",
+ "ref":
+ "pmb80534"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp764",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp764.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 7.–17. Februar 1930"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp766",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp766.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 17.–26. Februar 1930"
+}] 

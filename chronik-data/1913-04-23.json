@@ -1,0 +1,246 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-04-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-04-23.html",
+ "head":
+ "Tagebuch, 23. April 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Les civilisés",
+ "ref":
+ "pmb78292"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Baden bei Wien",
+ "ref":
+ "pmb662"}
+ ,  {
+ "placeName":
+ "Neuhaus",
+ "ref":
+ "pmb47414"}
+ ,  {
+ "placeName":
+ "Bad Vöslau",
+ "ref":
+ "pmb992"}
+ ,  {
+ "placeName":
+ "Einöde",
+ "ref":
+ "pmb90569"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02130",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02130.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 23. 4. 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "pmb2147"},
+ {
+ "persName":
+ "Richard Wagner",
+ "ref":
+ "pmb13024"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Koloman Moser",
+ "ref":
+ "pmb3280"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Götterdämmerung",
+ "ref":
+ "pmb29987"}
+ ,  {
+ "title":
+ "Tristan und Isolde",
+ "ref":
+ "pmb29897"}
+ ,  {
+ "title":
+ "Das Phantom",
+ "ref":
+ "pmb30083"}
+ ,  {
+ "title":
+ "[Stammbuch-Spruch]",
+ "ref":
+ "pmb32694"}
+ ,  {
+ "title":
+ "Selbstinventur",
+ "ref":
+ "pmb32542"}
+ ,  {
+ "title":
+ "Die neue Rundschau",
+ "ref":
+ "pmb36156"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "S. Fischer Verlag",
+ "ref":
+ "pmb29639"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Oper",
+ "ref":
+ "pmb15"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/47414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/47414/",
+ "head":
+ "Neuhaus"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041338",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041338.html",
+ "head":
+ "Bahr an Schnitzler, 23. 4. 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "pmb2147"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Götterdämmerung",
+ "ref":
+ "pmb29987"}
+ ,  {
+ "title":
+ "Tristan und Isolde",
+ "ref":
+ "pmb29897"}
+ ,  {
+ "title":
+ "Das Phantom",
+ "ref":
+ "pmb30083"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}] 

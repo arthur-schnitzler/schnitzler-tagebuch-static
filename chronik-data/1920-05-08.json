@@ -1,0 +1,115 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-05-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-05-08.html",
+ "head":
+ "Tagebuch, 8. Mai 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred Hermann Fried",
+ "ref":
+ "person_15202"},
+ {
+ "persName":
+ "Philipp Menczel",
+ "ref":
+ "person_18063"},
+ {
+ "persName":
+ "Robert Michel",
+ "ref":
+ "person_18147"},
+ {
+ "persName":
+ "Leopold Oppenheimer",
+ "ref":
+ "person_18570"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Alice Schmutzer",
+ "ref":
+ "person_19783"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Siegfried von Strakosch-Feldringen",
+ "ref":
+ "person_20469"},
+ {
+ "persName":
+ "Bertha von Suttner",
+ "ref":
+ "person_20583"},
+ {
+ "persName":
+ "Eleonore Tressler",
+ "ref":
+ "person_20802"},
+ {
+ "persName":
+ "Fjodor Mihajlovič Dostojevskij",
+ "ref":
+ "person_14500"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Dämonen",
+ "ref":
+ "pmb77735"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Niederlande",
+ "ref":
+ "pmb44016"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Pierre Loving, 8. 5. 1920",
+ "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}] 

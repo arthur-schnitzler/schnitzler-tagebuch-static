@@ -1,0 +1,89 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-04-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-04-13.html",
+ "head":
+ "Tagebuch, 13. April 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Oscar Fried",
+ "ref":
+ "person_15204"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Franz Schreker",
+ "ref":
+ "person_19886"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "person_20509"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Felix Braun",
+ "ref":
+ "person_13929"},
+ {
+ "persName":
+ "Alexander Brauner",
+ "ref":
+ "person_13939"},
+ {
+ "persName":
+ "Émile Verhaeren",
+ "ref":
+ "person_20944"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Ein Walzertraum",
+ "ref":
+ "pmb56883"}
+ ,  {
+ "title":
+ "Auswanderer",
+ "ref":
+ "pmb80546"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

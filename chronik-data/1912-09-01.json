@@ -1,0 +1,813 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1912-09-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-09-01.html",
+ "head":
+ "Tagebuch, 1. September 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "W. Fred",
+ "ref":
+ "person_15158"},
+ {
+ "persName":
+ "Heinrich Mann",
+ "ref":
+ "person_17834"},
+ {
+ "persName":
+ "Hermann von Pückler-Muskau",
+ "ref":
+ "person_18991"},
+ {
+ "persName":
+ "Albert von Speidel",
+ "ref":
+ "person_20240"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Feldafing",
+ "ref":
+ "pmb53150"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02088",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02088.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 1. 9. 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "pmb2315"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "pmb12837"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Tutzing",
+ "ref":
+ "pmb44493"}
+ ,  {
+ "placeName":
+ "Starnberger See",
+ "ref":
+ "pmb52262"}
+ ,  {
+ "placeName":
+ "Hotel Simson",
+ "ref":
+ "pmb51937"}
+ ,  {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44493/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44493/",
+ "head":
+ "Tutzing"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/51937/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/51937/",
+ "head":
+ "Hotel Simson"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "T030072",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/T030072.html",
+ "head":
+ "Bahr: [Buchversandliste Inventur], [Anfang September 1912]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Leopold Jacobson",
+ "ref":
+ "pmb3579"},
+ {
+ "persName":
+ "František Zavřel",
+ "ref":
+ "pmb3885"},
+ {
+ "persName":
+ "Berthold Litzmann",
+ "ref":
+ "pmb12096"},
+ {
+ "persName":
+ "Wilhelm Ostwald",
+ "ref":
+ "pmb3923"},
+ {
+ "persName":
+ "Oskar Walzel",
+ "ref":
+ "pmb13048"},
+ {
+ "persName":
+ "Heribert Holzapfel",
+ "ref":
+ "pmb3888"},
+ {
+ "persName":
+ "Wolfgang Heine",
+ "ref":
+ "pmb38364"},
+ {
+ "persName":
+ "Maurice Barrès",
+ "ref":
+ "pmb3892"},
+ {
+ "persName":
+ "Gustav Landauer",
+ "ref":
+ "pmb12031"},
+ {
+ "persName":
+ "Richard Kralik",
+ "ref":
+ "pmb3731"},
+ {
+ "persName":
+ "Ida Roland",
+ "ref":
+ "pmb12540"},
+ {
+ "persName":
+ "Wilhelm Jerusalem",
+ "ref":
+ "pmb11832"},
+ {
+ "persName":
+ "Carl Jentsch",
+ "ref":
+ "pmb28518"},
+ {
+ "persName":
+ "Josef Hofmiller",
+ "ref":
+ "pmb3861"},
+ {
+ "persName":
+ "Friedrich Wilhelm Foerster",
+ "ref":
+ "pmb4234"},
+ {
+ "persName":
+ "Walther Rathenau",
+ "ref":
+ "pmb12471"},
+ {
+ "persName":
+ "Fritz Mauthner",
+ "ref":
+ "pmb3386"},
+ {
+ "persName":
+ "Hans Eibl",
+ "ref":
+ "pmb4270"},
+ {
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "pmb13212"},
+ {
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ "pmb11527"},
+ {
+ "persName":
+ "Victor Adler",
+ "ref":
+ "pmb10749"},
+ {
+ "persName":
+ "Georg Simmel",
+ "ref":
+ "pmb12778"},
+ {
+ "persName":
+ "Rudolf Goldscheid",
+ "ref":
+ "pmb11488"},
+ {
+ "persName":
+ "Richard Dehmel",
+ "ref":
+ "pmb11148"},
+ {
+ "persName":
+ "Charles William Wendte",
+ "ref":
+ "pmb4628"},
+ {
+ "persName":
+ "Otto Bahr",
+ "ref":
+ "pmb28495"},
+ {
+ "persName":
+ "Anna Buz",
+ "ref":
+ "pmb28124"},
+ {
+ "persName":
+ "Radel",
+ "ref":
+ "pmb28498"},
+ {
+ "persName":
+ "Friedrich Gundolf",
+ "ref":
+ "pmb3824"},
+ {
+ "persName":
+ "Peter Rosegger",
+ "ref":
+ "pmb12551"},
+ {
+ "persName":
+ "Egon Friedell",
+ "ref":
+ "pmb2771"},
+ {
+ "persName":
+ "Gustav Wyneken",
+ "ref":
+ "pmb13173"},
+ {
+ "persName":
+ "Franz Oppenheimer",
+ "ref":
+ "pmb3975"},
+ {
+ "persName":
+ "Gabriele D’Annunzio",
+ "ref":
+ "pmb2142"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"},
+ {
+ "persName":
+ "Ludwig von Hofmann",
+ "ref":
+ "pmb3869"},
+ {
+ "persName":
+ "Maurice Maeterlinck",
+ "ref":
+ "pmb12156"},
+ {
+ "persName":
+ "Émile Verhaeren",
+ "ref":
+ "pmb26435"},
+ {
+ "persName":
+ "Alfred Gold",
+ "ref":
+ "pmb11469"},
+ {
+ "persName":
+ "Max von Baden",
+ "ref":
+ "pmb3919"},
+ {
+ "persName":
+ "Hermann Burte",
+ "ref":
+ "pmb11049"},
+ {
+ "persName":
+ "Heinrich Dietzel",
+ "ref":
+ "pmb3940"},
+ {
+ "persName":
+ "Paul Deussen",
+ "ref":
+ "pmb3827"},
+ {
+ "persName":
+ "Houston Stewart Chamberlain",
+ "ref":
+ "pmb11086"},
+ {
+ "persName":
+ "Eugen Kühnemann",
+ "ref":
+ "pmb3896"},
+ {
+ "persName":
+ "Richter",
+ "ref":
+ "pmb23352"},
+ {
+ "persName":
+ "Enrica von Handel-Mazzetti",
+ "ref":
+ "pmb11575"},
+ {
+ "persName":
+ "Kurt Hielscher",
+ "ref":
+ "pmb3943"},
+ {
+ "persName":
+ "Frank Wedekind",
+ "ref":
+ "pmb13068"},
+ {
+ "persName":
+ "Gustav Manz",
+ "ref":
+ "pmb3930"},
+ {
+ "persName":
+ "Oszkár Jászi",
+ "ref":
+ "pmb3839"},
+ {
+ "persName":
+ "Paul Siebertz",
+ "ref":
+ "pmb3831"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "pmb11910"},
+ {
+ "persName":
+ "Richard Muther",
+ "ref":
+ "pmb12319"},
+ {
+ "persName":
+ "Jaroslav Kvapil",
+ "ref":
+ "pmb12011"},
+ {
+ "persName":
+ "Willi Handl",
+ "ref":
+ "pmb2229"},
+ {
+ "persName":
+ "Ernst Schweninger",
+ "ref":
+ "pmb3835"},
+ {
+ "persName":
+ "Wickham Henry Steed",
+ "ref":
+ "pmb3844"},
+ {
+ "persName":
+ "Ernst Decsey",
+ "ref":
+ "pmb11145"},
+ {
+ "persName":
+ "Franz Pühringer",
+ "ref":
+ "pmb28499"},
+ {
+ "persName":
+ "Maximilian Harden",
+ "ref":
+ "pmb11581"},
+ {
+ "persName":
+ "Paul Sabatier",
+ "ref":
+ "pmb4238"},
+ {
+ "persName":
+ "Johannes Müller",
+ "ref":
+ "pmb3849"},
+ {
+ "persName":
+ "Hans Vaihinger",
+ "ref":
+ "pmb3564"},
+ {
+ "persName":
+ "Koloman Moser",
+ "ref":
+ "pmb3280"},
+ {
+ "persName":
+ "Karl Glossy",
+ "ref":
+ "pmb11447"},
+ {
+ "persName":
+ "Alfred Roller",
+ "ref":
+ "pmb12548"},
+ {
+ "persName":
+ "Konrad von Hohenlohe-Schillingsfürst",
+ "ref":
+ "pmb2686"},
+ {
+ "persName":
+ "Ema Destinová",
+ "ref":
+ "pmb3573"},
+ {
+ "persName":
+ "Theodor Wolff",
+ "ref":
+ "pmb13163"},
+ {
+ "persName":
+ "Ferdinand Avenarius",
+ "ref":
+ "pmb10795"},
+ {
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "pmb10883"},
+ {
+ "persName":
+ "Franz Blei",
+ "ref":
+ "pmb10955"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Moriz Benedikt",
+ "ref":
+ "pmb10875"},
+ {
+ "persName":
+ "Wilhelm Singer",
+ "ref":
+ "pmb2202"},
+ {
+ "persName":
+ "Josef Redlich",
+ "ref":
+ "pmb12481"},
+ {
+ "persName":
+ "Rudolf Freisauff von Neudegg",
+ "ref":
+ "pmb3576"},
+ {
+ "persName":
+ "Eugen Diederichs",
+ "ref":
+ "pmb11161"},
+ {
+ "persName":
+ "Hermann Kutter",
+ "ref":
+ "pmb3582"},
+ {
+ "persName":
+ "Josef Simon",
+ "ref":
+ "pmb28217"},
+ {
+ "persName":
+ "Reginald John Cambell",
+ "ref":
+ "pmb28219"},
+ {
+ "persName":
+ "Johannes Eckardt",
+ "ref":
+ "pmb28459"},
+ {
+ "persName":
+ "Paul Wilhelm von Keppler",
+ "ref":
+ "pmb3698"},
+ {
+ "persName":
+ "Borello",
+ "ref":
+ "pmb28500"},
+ {
+ "persName":
+ "Gottfried Traub",
+ "ref":
+ "pmb3900"},
+ {
+ "persName":
+ "Heinrich Driesmans",
+ "ref":
+ "pmb3357"},
+ {
+ "persName":
+ "Elizabeth Duncan",
+ "ref":
+ "pmb3775"},
+ {
+ "persName":
+ "Émile Jaques-Dalcroze",
+ "ref":
+ "pmb3933"},
+ {
+ "persName":
+ "Wolf Dohrn",
+ "ref":
+ "pmb3936"},
+ {
+ "persName":
+ "Bertha von Suttner",
+ "ref":
+ "pmb12906"},
+ {
+ "persName":
+ "Ernst Mach",
+ "ref":
+ "pmb12147"},
+ {
+ "persName":
+ "Siegfried Wagner",
+ "ref":
+ "pmb13027"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Wiltfeber der ewige Deutsche",
+ "ref":
+ "pmb31501"}
+ ,  {
+ "title":
+ "Inventur",
+ "ref":
+ "pmb30035"}
+ ,  {
+ "title":
+ "Die Philosophie des Als Ob",
+ "ref":
+ "pmb31115"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Dresden",
+ "ref":
+ "pmb866"}
+ ,  {
+ "placeName":
+ "Jacquingasse",
+ "ref":
+ "pmb407"}
+ ,  {
+ "placeName":
+ "Hamburg",
+ "ref":
+ "pmb506"}
+ ,  {
+ "placeName":
+ "Leipzig",
+ "ref":
+ "pmb864"}
+ ,  {
+ "placeName":
+ "Bonn",
+ "ref":
+ "pmb913"}
+ ,  {
+ "placeName":
+ "Kiel",
+ "ref":
+ "pmb907"}
+ ,  {
+ "placeName":
+ "Breslau",
+ "ref":
+ "pmb677"}
+ ,  {
+ "placeName":
+ "Krietern",
+ "ref":
+ "pmb49108"}
+ ,  {
+ "placeName":
+ "Jena",
+ "ref":
+ "pmb876"}
+ ,  {
+ "placeName":
+ "Stargard",
+ "ref":
+ "pmb409"}
+ ,  {
+ "placeName":
+ "Kollergasse",
+ "ref":
+ "pmb406"}
+ ,  {
+ "placeName":
+ "Budapest",
+ "ref":
+ "pmb43471"}
+ ,  {
+ "placeName":
+ "Halle an der Saale",
+ "ref":
+ "pmb140"}
+ ,  {
+ "placeName":
+ "Mittelstraße",
+ "ref":
+ "pmb339"}
+ ,  {
+ "placeName":
+ "Bayreuth",
+ "ref":
+ "pmb734"}
+ ,  {
+ "placeName":
+ "Rottenburg",
+ "ref":
+ "pmb49141"}
+ ,  {
+ "placeName":
+ "San Domenico",
+ "ref":
+ "pmb857"}
+ ,  {
+ "placeName":
+ "Dortmund",
+ "ref":
+ "pmb915"}
+ ,  {
+ "placeName":
+ "Pariser Straße",
+ "ref":
+ "pmb514"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Sozialistische Monatshefte",
+ "ref":
+ "pmb29701"}
+ ,  {
+ "orgName":
+ "The Christian Commonwealth",
+ "ref":
+ "pmb29710"}
+ ,  {
+ "orgName":
+ "Gideon Carl Sarasin",
+ "ref":
+ "pmb29690"}
+ ,  {
+ "orgName":
+ "Tägliche Rundschau",
+ "ref":
+ "pmb29691"}
+ ,  {
+ "orgName":
+ "Vaterland",
+ "ref":
+ "pmb29791"}
+ ,  {
+ "orgName":
+ "Soziologische Gesellschaft",
+ "ref":
+ "pmb29765"}
+ ,  {
+ "orgName":
+ "The Times",
+ "ref":
+ "pmb29792"}
+ ,  {
+ "orgName":
+ "Corriere della sera",
+ "ref":
+ "pmb29658"}
+ ,  {
+ "orgName":
+ "Salzburger Chronik",
+ "ref":
+ "pmb29656"}
+ ]
+}
+}] 

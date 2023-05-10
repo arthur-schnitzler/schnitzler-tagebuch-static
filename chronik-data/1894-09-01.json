@@ -1,0 +1,99 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1894-09-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-09-01.html",
+ "head":
+ "Tagebuch, 1. September 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jenny Bally",
+ "ref":
+ "person_13391"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Else Singer",
+ "ref":
+ "person_19143"},
+ {
+ "persName":
+ "Irene Szekely",
+ "ref":
+ "person_20600"},
+ {
+ "persName":
+ "Leo Szeps",
+ "ref":
+ "person_20605"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "I Pagliacci (Der Bajazzo)",
+ "ref":
+ "pmb77417"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00069463",
+ "head":
+ "Sandrock, Adele an Schnitzler, Arthur [Briefe]",
+ "text":
+ "Erstes Objekt aus der Mappe. 42 Br., 2 Tel. 86 Bl. Mit 44 Abschr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Adele (1863-1937) Sandrock",
+ "ref":
+ "http://d-nb.info/gnd/118605429"}]
+}
+}] 

@@ -1,0 +1,262 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/ELS_H1_0023",
+ "head":
+ "Fräulein Else, hsl. Werkniederschrift, 26.12.1922, 29.12.1922 o. 01.01.1923"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-01-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-01-01.html",
+ "head":
+ "Tagebuch, 1. Januar 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Helene Binder",
+ "ref":
+ "person_13733"},
+ {
+ "persName":
+ "Sybille Binder",
+ "ref":
+ "person_13735"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Antonín Dvořák",
+ "ref":
+ "person_14579"},
+ {
+ "persName":
+ "Stefan Eggeler",
+ "ref":
+ "person_14629"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "person_15499"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Eugen Klöpfer",
+ "ref":
+ "person_16918"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "person_17784"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Hermine Simandt",
+ "ref":
+ "person_20112"},
+ {
+ "persName":
+ "Alois Stockmann",
+ "ref":
+ "person_20445"},
+ {
+ "persName":
+ "Rudolf Wantoch",
+ "ref":
+ "person_21093"},
+ {
+ "persName":
+ "Josef Wesicowsky",
+ "ref":
+ "person_21272"},
+ {
+ "persName":
+ "Alexander Baumgartner",
+ "ref":
+ "person_13494"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"},
+ {
+ "persName":
+ "Karen Stampe-Bendix",
+ "ref":
+ "person_20323"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fräulein Else",
+ "ref":
+ "pmb29941"}
+ ,  {
+ "title":
+ "Die Frau des Richters. Novelle",
+ "ref":
+ "pmb30751"}
+ ,  {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Kaiser Josef II.",
+ "ref":
+ "pmb30843"}
+ ,  {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Theaterroman",
+ "ref":
+ "pmb30321"}
+ ,  {
+ "title":
+ "Traumnovelle",
+ "ref":
+ "pmb30851"}
+ ,  {
+ "title":
+ "Goethe. Sein Leben und seine Werke",
+ "ref":
+ "pmb80134"}
+ ,  {
+ "title":
+ "Symphonie Nr. 9 (5) e-Moll op. 95 »Aus der neuen Welt«",
+ "ref":
+ "pmb32009"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Teplice",
+ "ref":
+ "pmb955"}
+ ,  {
+ "placeName":
+ "Gersthof",
+ "ref":
+ "pmb90705"}
+ ,  {
+ "placeName":
+ "Hollabrunn",
+ "ref":
+ "pmb36639"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043614",
+ "head":
+ "Theater &lt;Stralsund&gt; an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theater &lt;Stralsund&gt;",
+ "ref":
+ "http://d-nb.info/gnd/2121915-1"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00032782",
+ "head":
+ "Castle, Eduard an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eduard (1875-1959) Castle",
+ "ref":
+ "http://d-nb.info/gnd/118667440"}]
+}
+}] 

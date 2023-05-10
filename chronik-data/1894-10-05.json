@@ -1,0 +1,277 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1894-10-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-10-05.html",
+ "head":
+ "Tagebuch, 5. Oktober 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga von Golovin",
+ "ref":
+ "person_15558"},
+ {
+ "persName":
+ "Alfred Grünfeld",
+ "ref":
+ "person_15702"},
+ {
+ "persName":
+ "Adolf Rauch",
+ "ref":
+ "person_19069"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00376",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00376.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 5. 10. 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Guercino",
+ "ref":
+ "pmb4613"},
+ {
+ "persName":
+ "Wilhelm Lübke",
+ "ref":
+ "pmb39896"},
+ {
+ "persName":
+ "Gaius Iulius Caesar",
+ "ref":
+ "pmb14796"},
+ {
+ "persName":
+ "Karl Ploetz",
+ "ref":
+ "pmb9298"},
+ {
+ "persName":
+ "Guy de Maupassant",
+ "ref":
+ "pmb12201"},
+ {
+ "persName":
+ "Julius von Gans-Ludassy",
+ "ref":
+ "pmb11406"},
+ {
+ "persName":
+ "Karl Rosenkranz",
+ "ref":
+ "pmb9577"},
+ {
+ "persName":
+ "Denis Diderot",
+ "ref":
+ "pmb11157"},
+ {
+ "persName":
+ "Otto Keller",
+ "ref":
+ "pmb8168"},
+ {
+ "persName":
+ "Leo Ebermann",
+ "ref":
+ "pmb2157"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Verstoßung der Hagar",
+ "ref":
+ "pmb32368"}
+ ,  {
+ "title":
+ "Grundriß der Kunstgeschichte",
+ "ref":
+ "pmb39899"}
+ ,  {
+ "title":
+ "Auszug aus der alten, mittleren und neueren Geschichte",
+ "ref":
+ "pmb39893"}
+ ,  {
+ "title":
+ "Die Schwestern Rondoli",
+ "ref":
+ "pmb39882"}
+ ,  {
+ "title":
+ "Die Schmetterlingsschlacht. Komödie in 4 Akten",
+ "ref":
+ "pmb30397"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Diderots Leben und Werke",
+ "ref":
+ "pmb39886"}
+ ,  {
+ "title":
+ "Geschichte der Musik",
+ "ref":
+ "pmb39887"}
+ ,  {
+ "title":
+ "Die Athenerin",
+ "ref":
+ "pmb30417"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Allgemeine Zeitung",
+ "ref":
+ "pmb29670"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "Rom",
+ "ref":
+ "pmb445"}
+ ,  {
+ "placeName":
+ "Hotel Quirinale",
+ "ref":
+ "pmb769"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Frankgasse",
+ "ref":
+ "pmb397"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ,  {
+ "placeName":
+ "Mailand",
+ "ref":
+ "pmb886"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00377",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00377.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 5. 10. 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rom",
+ "ref":
+ "pmb445"}
+ ,  {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Frankgasse",
+ "ref":
+ "pmb397"}
+ ,  {
+ "placeName":
+ "Florenz",
+ "ref":
+ "pmb263"}
+ ,  {
+ "placeName":
+ "Santa Croce",
+ "ref":
+ "pmb41957"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-04-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-04-28.html",
+ "head":
+ "Tagebuch, 28. April 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "person_15306"},
+ {
+ "persName":
+ "Josef Ganser",
+ "ref":
+ "person_15344"},
+ {
+ "persName":
+ "Milena Gnad",
+ "ref":
+ "person_15487"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Friedrich Uhl",
+ "ref":
+ "person_20855"},
+ {
+ "persName":
+ "Marie Weyr",
+ "ref":
+ "person_21287"},
+ {
+ "persName":
+ "Wilhelm König",
+ "ref":
+ "person_16972"},
+ {
+ "persName":
+ "Frida Strindberg",
+ "ref":
+ "person_20531"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Spöttelgasse",
+ "ref":
+ "pmb92539"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

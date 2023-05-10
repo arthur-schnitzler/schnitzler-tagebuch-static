@@ -1,0 +1,89 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1917-12-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-12-21.html",
+ "head":
+ "Tagebuch, 21. Dezember 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Géza Baracs",
+ "ref":
+ "person_13406"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "person_15980"},
+ {
+ "persName":
+ "Gottfried Keller",
+ "ref":
+ "person_16794"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"},
+ {
+ "persName":
+ "Friedrich von Schiller",
+ "ref":
+ "person_19694"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Sprüche in Versen",
+ "ref":
+ "pmb35760"}
+ ,  {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Nos contemporains",
+ "ref":
+ "pmb78679"}
+ ,  {
+ "title":
+ "Pariser Selbsterlebnisse während des Krieges",
+ "ref":
+ "pmb78680"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

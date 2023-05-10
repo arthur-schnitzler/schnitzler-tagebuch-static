@@ -1,0 +1,247 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-05-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-05-03.html",
+ "head":
+ "Tagebuch, 3. Mai 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopoldine Müller",
+ "ref":
+ "person_18303"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01034",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01034.html",
+ "head":
+ "Arthur Schnitzler an Georg Brandes, 3. 5. 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"},
+ {
+ "persName":
+ "Henrik Ibsen",
+ "ref":
+ "pmb11798"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "pmb11461"},
+ {
+ "persName":
+ "Friedrich von Schiller",
+ "ref":
+ "pmb12654"},
+ {
+ "persName":
+ "Paul Bourget",
+ "ref":
+ "pmb4026"},
+ {
+ "persName":
+ "Karl Lanckoroński",
+ "ref":
+ "pmb5435"},
+ {
+ "persName":
+ "Dante Alighieri",
+ "ref":
+ "pmb3326"},
+ {
+ "persName":
+ "Karl Federn",
+ "ref":
+ "pmb11301"},
+ {
+ "persName":
+ "Ralph Waldo Emerson",
+ "ref":
+ "pmb5438"},
+ {
+ "persName":
+ "Edward Gibbon",
+ "ref":
+ "pmb5442"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Personal-Nachrichten [Dr. Georg Brandes]",
+ "ref":
+ "pmb33311"}
+ ,  {
+ "title":
+ "Neue Freie Presse",
+ "ref":
+ "pmb36374"}
+ ,  {
+ "title":
+ "Ein recht ungezogener Mensch",
+ "ref":
+ "pmb41204"}
+ ,  {
+ "title":
+ "Arbeiter-Zeitung",
+ "ref":
+ "pmb41202"}
+ ,  {
+ "title":
+ "Frau Bertha Garlan. Roman",
+ "ref":
+ "pmb30486"}
+ ,  {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "Familiendramen",
+ "ref":
+ "pmb33309"}
+ ,  {
+ "title":
+ "Rund um die Erde 1888–89",
+ "ref":
+ "pmb33303"}
+ ,  {
+ "title":
+ "Don Quijote",
+ "ref":
+ "pmb31515"}
+ ,  {
+ "title":
+ "Dante",
+ "ref":
+ "pmb33307"}
+ ,  {
+ "title":
+ "Essays",
+ "ref":
+ "pmb33305"}
+ ,  {
+ "title":
+ "Verfall und Untergang des Römischen Reiches",
+ "ref":
+ "pmb36238"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Kommunehospitalet",
+ "ref":
+ "pmb1109"}
+ ,  {
+ "placeName":
+ "Opatija",
+ "ref":
+ "pmb38096"}
+ ,  {
+ "placeName":
+ "Dalmatien",
+ "ref":
+ "pmb265"}
+ ,  {
+ "placeName":
+ "Dubrovnik",
+ "ref":
+ "pmb682"}
+ ,  {
+ "placeName":
+ "Solin",
+ "ref":
+ "pmb453"}
+ ,  {
+ "placeName":
+ "Budapest",
+ "ref":
+ "pmb43471"}
+ ,  {
+ "placeName":
+ "Dänemark",
+ "ref":
+ "pmb43570"}
+ ,  {
+ "placeName":
+ "Leopoldstädter Kasino",
+ "ref":
+ "pmb36236"}
+ ,  {
+ "placeName":
+ "Ungarn",
+ "ref":
+ "pmb35512"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

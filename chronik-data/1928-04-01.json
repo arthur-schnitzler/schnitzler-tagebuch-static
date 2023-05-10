@@ -1,0 +1,305 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-04-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-04-01.html",
+ "head":
+ "Tagebuch, 1. April 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Charlotte Horn",
+ "ref":
+ "person_16362"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Abenteurernovelle",
+ "ref":
+ "pmb30299"}
+ ,  {
+ "title":
+ "Im Spiel der Sommerlüfte. In drei Aufzügen",
+ "ref":
+ "pmb30945"}
+ ,  {
+ "title":
+ "Theaterroman",
+ "ref":
+ "pmb30321"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/113/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/113/",
+ "head":
+ "Türkenschanzpark"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "T030047",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/T030047.html",
+ "head":
+ "Schnitzler: Therese, Rezensionsexemplare für Autoren, [April] 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Alice Berend",
+ "ref":
+ "pmb14041"},
+ {
+ "persName":
+ "Gottfried Bermann Fischer",
+ "ref":
+ "pmb10889"},
+ {
+ "persName":
+ "Oskar Bie",
+ "ref":
+ "pmb2914"},
+ {
+ "persName":
+ "Ida Dehmel",
+ "ref":
+ "pmb4358"},
+ {
+ "persName":
+ "Alfred Döblin",
+ "ref":
+ "pmb11205"},
+ {
+ "persName":
+ "Julie Elias",
+ "ref":
+ "pmb4370"},
+ {
+ "persName":
+ "Arthur Eloesser",
+ "ref":
+ "pmb11250"},
+ {
+ "persName":
+ "Otto Flake",
+ "ref":
+ "pmb11327"},
+ {
+ "persName":
+ "Leo Greiner",
+ "ref":
+ "pmb11515"},
+ {
+ "persName":
+ "Wenzel Goldbaum",
+ "ref":
+ "pmb11472"},
+ {
+ "persName":
+ "Klaus Hauptmann",
+ "ref":
+ "pmb4382"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"},
+ {
+ "persName":
+ "Gertrud Heimann",
+ "ref":
+ "pmb2662"},
+ {
+ "persName":
+ "Hermann Hesse",
+ "ref":
+ "pmb11679"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Arthur Holitscher",
+ "ref":
+ "pmb11749"},
+ {
+ "persName":
+ "Felix Hollaender",
+ "ref":
+ "pmb11752"},
+ {
+ "persName":
+ "Johannes Vilhelm Jensen",
+ "ref":
+ "pmb11820"},
+ {
+ "persName":
+ "Rudolf Kayser",
+ "ref":
+ "pmb11891"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "pmb11910"},
+ {
+ "persName":
+ "Annette Kolb",
+ "ref":
+ "pmb4351"},
+ {
+ "persName":
+ "Oskar Loerke",
+ "ref":
+ "pmb3878"},
+ {
+ "persName":
+ "Aage Madelung",
+ "ref":
+ "pmb4354"},
+ {
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "pmb12176"},
+ {
+ "persName":
+ "Konrad Maril",
+ "ref":
+ "pmb4374"},
+ {
+ "persName":
+ "Julius Meier-Graefe",
+ "ref":
+ "pmb12217"},
+ {
+ "persName":
+ "Hans Meisel",
+ "ref":
+ "pmb4474"},
+ {
+ "persName":
+ "Laura von Moellendorf",
+ "ref":
+ "pmb28556"},
+ {
+ "persName":
+ "Hans Reisinger",
+ "ref":
+ "pmb28560"},
+ {
+ "persName":
+ "Gabriele Reuter",
+ "ref":
+ "pmb12514"},
+ {
+ "persName":
+ "Samuel Saenger",
+ "ref":
+ "pmb4387"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Hugo Simon",
+ "ref":
+ "pmb4362"},
+ {
+ "persName":
+ "Albert Steffen",
+ "ref":
+ "pmb28552"},
+ {
+ "persName":
+ "Emil Strauss",
+ "ref":
+ "pmb12864"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "pmb12968"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Ernst Wolfgang Freissler",
+ "ref":
+ "pmb4378"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ]
+}
+}] 

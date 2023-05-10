@@ -1,0 +1,100 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-11-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-11-22.html",
+ "head":
+ "Tagebuch, 22. November 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Erich Freund",
+ "ref":
+ "person_15181"},
+ {
+ "persName":
+ "Theodor Loewe",
+ "ref":
+ "person_17643"},
+ {
+ "persName":
+ "Gustav Pick",
+ "ref":
+ "person_18776"},
+ {
+ "persName":
+ "Woldemar Runge",
+ "ref":
+ "person_19472"},
+ {
+ "persName":
+ "Theodor Steinar",
+ "ref":
+ "person_20359"},
+ {
+ "persName":
+ "Armer",
+ "ref":
+ "person_13253"},
+ {
+ "persName":
+ "Felix? Auerbach",
+ "ref":
+ "person_13302"},
+ {
+ "persName":
+ "L. Albert Neisser",
+ "ref":
+ "person_18380"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Über unsere Kraft",
+ "ref":
+ "pmb29883"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Breslau",
+ "ref":
+ "pmb677"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90392/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90392/",
+ "head":
+ "Breslau"
+}] 

@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-03-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-03-30.html",
+ "head":
+ "Tagebuch, 30. März 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Katharina Breuer",
+ "ref":
+ "person_13962"},
+ {
+ "persName":
+ "Robert Breuer",
+ "ref":
+ "person_13965"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Hans Breuer",
+ "ref":
+ "person_13960"},
+ {
+ "persName":
+ "Carl Fleischmann",
+ "ref":
+ "person_15038"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Doktor Gräsler, Badearzt",
+ "ref":
+ "pmb30201"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Meran",
+ "ref":
+ "pmb43520"}
+ ,  {
+ "placeName":
+ "Rothschild-Spital",
+ "ref":
+ "pmb92496"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

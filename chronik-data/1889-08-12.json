@@ -1,0 +1,83 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1889-08-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1889-08-12.html",
+ "head":
+ "Tagebuch, 12. August 1889",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Grundlsee",
+ "ref":
+ "pmb90787"}
+ ,  {
+ "placeName":
+ "Gössl",
+ "ref":
+ "pmb90749"}
+ ,  {
+ "placeName":
+ "Lake Toplitz",
+ "ref":
+ "pmb91912"}
+ ,  {
+ "placeName":
+ "Kammer See",
+ "ref":
+ "pmb90072"}
+ ,  {
+ "placeName":
+ "Vorderer Lahngangsee",
+ "ref":
+ "pmb91097"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90787/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90787/",
+ "head":
+ "Grundlsee"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90749/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90749/",
+ "head":
+ "Gössl"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90072/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90072/",
+ "head":
+ "Kammer See"
+}] 

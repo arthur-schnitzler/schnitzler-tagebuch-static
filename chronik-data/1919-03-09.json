@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-03-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-03-09.html",
+ "head":
+ "Tagebuch, 9. März 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Salomon Auber",
+ "ref":
+ "person_13298"},
+ {
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Ladislaus von Gutmann-Gelse",
+ "ref":
+ "person_15777"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Georg Szell",
+ "ref":
+ "person_20602"},
+ {
+ "persName":
+ "Pjotr Iljitsch Tschaikowski",
+ "ref":
+ "person_20822"},
+ {
+ "persName":
+ "Josef Zimbler",
+ "ref":
+ "person_21562"},
+ {
+ "persName":
+ "Otto Zuckerkandl",
+ "ref":
+ "person_21601"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Klaviertrio Nr. 5 D-Dur op. 70,1 (Geister-Trio)",
+ "ref":
+ "pmb77157"}
+ ,  {
+ "title":
+ "Till Eulenspiegels lustige Streiche op. 28",
+ "ref":
+ "pmb76848"}
+ ,  {
+ "title":
+ "Klaviertrio a-Moll op. 50",
+ "ref":
+ "pmb30681"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,101 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-10-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-10-14.html",
+ "head":
+ "Tagebuch, 14. Oktober 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Richard Skowronnek",
+ "ref":
+ "person_20154"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Eine Palastrevolution",
+ "ref":
+ "pmb31709"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/90033/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90033/",
+ "head":
+ "Wiener Premiere von Eine Palastrevolution",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Eine Palastrevolution",
+ "ref":
+ "pmb31709"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Volkstheater",
+ "ref":
+ "pmb36430"}
+ ]
+}
+}] 

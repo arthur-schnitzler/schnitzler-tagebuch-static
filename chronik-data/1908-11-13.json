@@ -1,0 +1,177 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-11-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-11-13.html",
+ "head":
+ "Tagebuch, 13. November 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johanna Bergmeister",
+ "ref":
+ "person_13641"},
+ {
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "person_14643"},
+ {
+ "persName":
+ "Nina Kipiani",
+ "ref":
+ "person_16845"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Dora von Stockert-Meynert",
+ "ref":
+ "person_20444"},
+ {
+ "persName":
+ "Friedrich Wärndorfer",
+ "ref":
+ "person_21014"},
+ {
+ "persName":
+ "Anna? Rossi",
+ "ref":
+ "person_19403"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Die Blinde",
+ "ref":
+ "pmb81366"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041295",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041295.html",
+ "head":
+ "Tagebuch von Schnitzler, 13. 11. 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Waerndorfer",
+ "ref":
+ "pmb27882"},
+ {
+ "persName":
+ "Anna Rossi",
+ "ref":
+ "pmb27956"},
+ {
+ "persName":
+ "Johanna Bergmeister",
+ "ref":
+ "pmb14082"},
+ {
+ "persName":
+ "Dora von Stockert-Meynert",
+ "ref":
+ "pmb12855"},
+ {
+ "persName":
+ "Nina Kipiani",
+ "ref":
+ "pmb27800"},
+ {
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "pmb11230"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Tagebuch. 10. Juni [1908]",
+ "ref":
+ "pmb30089"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Der Morgen. Wiener Montagsblatt",
+ "ref":
+ "pmb29398"}
+ ]
+}
+}] 

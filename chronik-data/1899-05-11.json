@@ -1,0 +1,225 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-05-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-05-11.html",
+ "head":
+ "Tagebuch, 11. Mai 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Oscar Stoerk",
+ "ref":
+ "person_20449"},
+ {
+ "persName":
+ "Ottilie Salten",
+ "ref":
+ "person_19543"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00916",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00916.html",
+ "head":
+ "Georg Brandes an Arthur Schnitzler, 11. 5. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"},
+ {
+ "persName":
+ "Peter Nansen",
+ "ref":
+ "pmb2357"},
+ {
+ "persName":
+ "Jeanne Marni",
+ "ref":
+ "pmb5459"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Adolf Paul",
+ "ref":
+ "pmb5464"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Samlede Skrifter [Gesammelte Werke]",
+ "ref":
+ "pmb33295"}
+ ,  {
+ "title":
+ "Das Dänentum in Südjütland",
+ "ref":
+ "pmb33333"}
+ ,  {
+ "title":
+ "Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter",
+ "ref":
+ "pmb32562"}
+ ,  {
+ "title":
+ "Das Vermächtnis. Schauspiel in drei Akten",
+ "ref":
+ "pmb30219"}
+ ,  {
+ "title":
+ "Från Berlins teatrar",
+ "ref":
+ "pmb33341"}
+ ,  {
+ "title":
+ "Svenska Dagbladet",
+ "ref":
+ "pmb41547"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Die Zukunft",
+ "ref":
+ "pmb29631"}
+ ,  {
+ "orgName":
+ "Neue Freie Presse",
+ "ref":
+ "pmb29351"}
+ ,  {
+ "orgName":
+ "Die Zeit. Wiener Wochenschrift",
+ "ref":
+ "pmb29209"}
+ ,  {
+ "orgName":
+ "L’Aurore",
+ "ref":
+ "pmb29514"}
+ ,  {
+ "orgName":
+ "Le Siècle",
+ "ref":
+ "pmb29515"}
+ ,  {
+ "orgName":
+ "Svensk Dagbladet",
+ "ref":
+ "pmb29517"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Preußen",
+ "ref":
+ "pmb206"}
+ ,  {
+ "placeName":
+ "Skandinavien",
+ "ref":
+ "pmb745"}
+ ,  {
+ "placeName":
+ "Südschleswig",
+ "ref":
+ "pmb1114"}
+ ,  {
+ "placeName":
+ "Finnland",
+ "ref":
+ "pmb44244"}
+ ,  {
+ "placeName":
+ "Europa",
+ "ref":
+ "pmb468"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ,  {
+ "placeName":
+ "Schweden",
+ "ref":
+ "pmb44335"}
+ ,  {
+ "placeName":
+ "Stockholm",
+ "ref":
+ "pmb1119"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

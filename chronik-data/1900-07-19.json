@@ -1,0 +1,97 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-07-19",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-07-19.html",
+ "head":
+ "Tagebuch, 19. Juli 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Louis Philipp Friedmann",
+ "ref":
+ "person_15229"},
+ {
+ "persName":
+ "R.",
+ "ref":
+ "person_19007"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Lieutenant Gustl. Novelle",
+ "ref":
+ "pmb29853"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/483/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/483/",
+ "head":
+ "Reichenau an der Rax"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44982/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44982/",
+ "head":
+ "Kurhaus Rudolfsbad"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040529",
+ "head":
+ "Moenckeberg, Carl an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.Vis.kte",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Carl (1873-1939) Moenckeberg",
+ "ref":
+ "http://d-nb.info/gnd/117087475"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00083446",
+ "head":
+ "Schnitzler, Arthur: Leutnant Gustl [Prosa] (Drucktitel)",
+ "text":
+ "Letztes Objekt aus der Mappe. 1 Mappe"
+}] 

@@ -1,0 +1,153 @@
+[{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00963",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00963.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 23. 8. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Isidor Singer",
+ "ref":
+ "pmb12790"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Tod Georgs. Fragment",
+ "ref":
+ "pmb43046"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kaltenbach",
+ "ref":
+ "pmb43015"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Seeboden",
+ "ref":
+ "pmb34824"}
+ ,  {
+ "placeName":
+ "Villa Platzer",
+ "ref":
+ "pmb40788"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02591",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02591.html",
+ "head":
+ "Marie Herzfeld an Arthur Schnitzler, 23. 8. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Herzfeld",
+ "ref":
+ "pmb11666"},
+ {
+ "persName":
+ "Marie Schey",
+ "ref":
+ "pmb24118"},
+ {
+ "persName":
+ "Alfred Spitzer",
+ "ref":
+ "pmb65479"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Ischler Cur-Liste",
+ "ref":
+ "pmb65482"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hallstätter See",
+ "ref":
+ "pmb65265"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Steeg",
+ "ref":
+ "pmb65485"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Ungarn",
+ "ref":
+ "pmb35512"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/414/",
+ "head":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)"
+}] 

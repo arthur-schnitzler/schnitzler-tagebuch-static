@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1904-02-12">Freitag, 12. Februar 1904</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1904-02-12">
+               <head>Tagebuch, 12. Februar 1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13913">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14199">Auguste Chlum</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14717">Julie Elias</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14925">Mara Feldern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17779">Maurice Maeterlinck</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20080">George Bernard Shaw</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20796">Siegfried Trebitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16574">Paul Jonas</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76827">Beatrix</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29841">Der Schlachtenlenker</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb146">Frankfurt am Main</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb145">Köln</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-02-12.html</idno>
+            </event>
+            <event when-iso="1904-02-12">
+               <head>Hermann Bahr an Arthur Schnitzler, 12. 2. 1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12530">Rudolf Rittner</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb849">Konstanz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb399">Hotel Continental</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb307">Schumannstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb452">Konzilgebäude</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01372.html</idno>
+            </event>
+            <event when-iso="1904-02-12">
+               <head>Berlin</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+            </event>
+            <event when-iso="1904-02-12">
+               <head>Bahr an Schnitzler, 12. 2. 1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12530">Rudolf Rittner</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb849">Konstanz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb452">Konzilgebäude</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb399">Hotel Continental</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb307">Schumannstraße</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041271.html</idno>
+            </event>
+            <event when-iso="1904-02-12">
+               <head>Traum vom 12. Februar 1904</head>
+               <desc>
+                  <bibl>Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)</bibl>
+               </desc>
+               <idno type="schnitzler-traeume" subtype="#ISBN978-3-8353-1029-2"/>
+            </event>
+            <event when-iso="1904-02-12">
+               <head>Suppé, Claire von an Schnitzler, Arthur [Briefe]</head>
+               <desc>3 Br. 5 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00043743</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

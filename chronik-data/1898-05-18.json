@@ -1,0 +1,135 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1898-05-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-05-18.html",
+ "head":
+ "Tagebuch, 18. Mai 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00796",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00796.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, [18. 5. 1898]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Emil Schiff",
+ "ref":
+ "pmb34173"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Fritz Engel",
+ "ref":
+ "pmb7000"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Frau im Fenster",
+ "ref":
+ "pmb32067"}
+ ,  {
+ "title":
+ "Berliner Tageblatt",
+ "ref":
+ "pmb41531"}
+ ,  {
+ "title":
+ "?? [Rezension von Madonna Dianora]",
+ "ref":
+ "pmb33726"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Freie Bühne",
+ "ref":
+ "pmb29561"}
+ ,  {
+ "orgName":
+ "Berliner Börsen-Courier",
+ "ref":
+ "pmb29406"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Café Arkaden",
+ "ref":
+ "pmb104"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb3"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

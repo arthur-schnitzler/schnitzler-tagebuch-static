@@ -1,0 +1,50 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-07-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-20.html",
+ "head":
+ "Tagebuch, 20. Juli 1896",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Lyngenfjorden",
+ "ref":
+ "pmb91181"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91181/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91181/",
+ "head":
+ "Lyngenfjorden"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#q0f31f7c-c385-4bdd-b199-e671f4a30389",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Marie Reinhard, 20.7.1896",
+ "source":
+ "Therese Nickl: Arthur Schnitzler an Marie Reinhard (1896). In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 22–68 (verfügbar auf: http://www.jstor.org/stable/24645882)"
+}] 

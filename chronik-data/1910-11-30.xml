@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1910-11-30">Mittwoch, 30. November 1910</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1910-11-30">
+               <head>Tagebuch, 30. November 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13099">Hedwig Adler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15324">Elsa Marguerite Galafrès</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15469">Josefine Glöckner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15902">Käthe Hannemann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17087">Leopold Kramer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17245">Hans Lackner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18306">Paula Müller</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30749">Die Frage an das Schicksal</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30163">Weihnachts-Einkäufe</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30033">Anatols Hochzeitsmorgen</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb224">London</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-11-30.html</idno>
+            </event>
+            <event when-iso="1910-11-30">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1910-11-30">
+               <head>Arthur Schnitzler an Isabella Vengerova, Ende November 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/119401215">Vengerova, Isabella</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Die
+                    Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida
+                    Vengerova. Herausgegeben von Konstantin Asadowski und Martin
+                    Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30
+                    (2022), S. 7–91.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86"/>
+            </event>
+            <event when-iso="1910-11-30">
+               <head>Arthur Schnitzler an Samuel Fischer, 30. 11. 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118691406">Fischer, Samuel</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am
+                    Main: S. Fischer 1981.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
+            </event>
+            <event when-iso="1910-11-30">
+               <head>Arthur Schnitzler an Otto Brahm, 30.11.1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118514245">Brahm, Otto</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Der Briefwechsel Arthur
+               Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar
+               Seidlin. Tübingen: Niemeyer, 1975.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#ya489e21-54d5-40de-a56d-f4548e894428"/>
+            </event>
+            <event when-iso="1910-11-30">
+               <head>Schnitzler, Arthur an Metzl, Richard [Briefe]</head>
+               <desc>1 Bl.Durchschl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00047829</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

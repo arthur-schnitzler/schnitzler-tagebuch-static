@@ -1,0 +1,67 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-02-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-02-16.html",
+ "head":
+ "Tagebuch, 16. Februar 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Beer",
+ "ref":
+ "person_13543"},
+ {
+ "persName":
+ "Leopoldine Müller",
+ "ref":
+ "person_18303"},
+ {
+ "persName":
+ "Wilhelm König",
+ "ref":
+ "person_16972"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Unsere Gusti",
+ "ref":
+ "pmb81143"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "H.gasse",
+ "ref":
+ "pmb92266"}
+ ,  {
+ "placeName":
+ "VIII., Josefstadt",
+ "ref":
+ "pmb58"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

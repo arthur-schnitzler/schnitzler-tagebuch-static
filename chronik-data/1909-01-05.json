@@ -1,0 +1,258 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-01-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-01-05.html",
+ "head":
+ "Tagebuch, 5. Januar 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Käthe Hannemann",
+ "ref":
+ "person_15902"},
+ {
+ "persName":
+ "Wilhelm Klitsch",
+ "ref":
+ "person_16914"},
+ {
+ "persName":
+ "Victor Kutschera",
+ "ref":
+ "person_17223"},
+ {
+ "persName":
+ "Moritz Rosenthal",
+ "ref":
+ "person_19394"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Agnes Ulmann",
+ "ref":
+ "person_20872"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "person_20925"},
+ {
+ "persName":
+ "Isabella Vengerova",
+ "ref":
+ "person_21231"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komtesse Mizzi oder Der Familientag",
+ "ref":
+ "pmb29931"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Symphonische Etüden op. 13",
+ "ref":
+ "pmb78463"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Meissl &amp; Schadn",
+ "ref":
+ "pmb96"}
+ ,  {
+ "placeName":
+ "Bösendorfer-Saal",
+ "ref":
+ "pmb4"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/35215/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/35215/",
+ "head":
+ "Premiere von Liebelei, deutschsprachige Uraufführung von Komtesse Mizzi, 5.1.1909",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Komtesse Mizzi oder Der Familientag",
+ "ref":
+ "pmb29931"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "pmb24423"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "pmb12698"},
+ {
+ "persName":
+ "Victor Kutschera",
+ "ref":
+ "pmb2868"},
+ {
+ "persName":
+ "Käthe Hannemann",
+ "ref":
+ "pmb17831"},
+ {
+ "persName":
+ "Charlotte Waldow",
+ "ref":
+ "pmb26610"},
+ {
+ "persName":
+ "Kathi Thaller",
+ "ref":
+ "pmb3341"},
+ {
+ "persName":
+ "Anton Edthofer",
+ "ref":
+ "pmb11224"},
+ {
+ "persName":
+ "Wilhelm Klitsch",
+ "ref":
+ "pmb8246"},
+ {
+ "persName":
+ "Wilhelm Thaller",
+ "ref":
+ "pmb12936"},
+ {
+ "persName":
+ "Elsa Marguerite Galafrès",
+ "ref":
+ "pmb11394"},
+ {
+ "persName":
+ "Josefine Glöckner",
+ "ref":
+ "pmb17109"},
+ {
+ "persName":
+ "Hans Lackner",
+ "ref":
+ "pmb12025"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Volkstheater",
+ "ref":
+ "pmb36430"}
+ ]
+}
+}] 

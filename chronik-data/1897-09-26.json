@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1897-09-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-09-26.html",
+ "head":
+ "Tagebuch, 26. September 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ermete Zacconi",
+ "ref":
+ "person_21506"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Gefährtin. Schauspiel in einem Akt",
+ "ref":
+ "pmb29845"}
+ ,  {
+ "title":
+ "La morte civile",
+ "ref":
+ "pmb80584"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien Mauer",
+ "ref":
+ "pmb91217"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/45821/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45821/",
+ "head":
+ "Aufführung von Morte Civile, 26.9.1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ermete Zacconi",
+ "ref":
+ "pmb3787"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Carl-Theater",
+ "ref":
+ "pmb118"}
+ ]
+}
+}] 

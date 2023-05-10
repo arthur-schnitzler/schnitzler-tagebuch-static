@@ -1,0 +1,394 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1912-05-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-05-23.html",
+ "head":
+ "Tagebuch, 23. Mai 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Anzengruber",
+ "ref":
+ "person_13237"},
+ {
+ "persName":
+ "Marianne Benedict",
+ "ref":
+ "person_13581"},
+ {
+ "persName":
+ "Theodor Gomperz",
+ "ref":
+ "person_15566"},
+ {
+ "persName":
+ "Irene Hellmann",
+ "ref":
+ "person_16073"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Hans Müller",
+ "ref":
+ "person_18297"},
+ {
+ "persName":
+ "Heinrich Paschkis",
+ "ref":
+ "person_18664"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"},
+ {
+ "persName":
+ "Max Oppenheimer",
+ "ref":
+ "person_18572"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Anton Bettelheim",
+ "ref":
+ "person_13699"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"},
+ {
+ "persName":
+ "Egon Friedell",
+ "ref":
+ "person_15210"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Heptameron",
+ "ref":
+ "pmb78149"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02069",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02069.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 23. 5. 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02070",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02070.html",
+ "head":
+ "Hugo von Hofmannsthal, Gerty von Hofmannsthal an Arthur Schnitzler, 23. 5. 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Anton Sieß",
+ "ref":
+ "pmb44815"},
+ {
+ "persName":
+ "Franz Paul Kleewein",
+ "ref":
+ "pmb47424"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zunftfahne der Bäcker und Müller mit den Heiligen Elisabeth, Sebastian und Agnes",
+ "ref":
+ "pmb47422"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sterzing",
+ "ref":
+ "pmb40302"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Alte Post",
+ "ref":
+ "pmb44816"}
+ ,  {
+ "placeName":
+ "Welsberg-Taisten",
+ "ref":
+ "pmb428"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041081",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041081.html",
+ "head":
+ "Tagebuch von Schnitzler, 23. 5. 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Irene Hellmann",
+ "ref":
+ "pmb18084"},
+ {
+ "persName":
+ "Hans Müller",
+ "ref":
+ "pmb12327"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "pmb12968"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "pmb2315"},
+ {
+ "persName":
+ "Marianne Benedict",
+ "ref":
+ "pmb13970"},
+ {
+ "persName":
+ "Markus Benedikt",
+ "ref":
+ "pmb28697"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "pmb22728"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Egon Friedell",
+ "ref":
+ "pmb2771"},
+ {
+ "persName":
+ "Benjamin Gomperz",
+ "ref":
+ "pmb2612"},
+ {
+ "persName":
+ "Karl Bauer",
+ "ref":
+ "pmb4941"},
+ {
+ "persName":
+ "Ludwig Anzengruber",
+ "ref":
+ "pmb10772"},
+ {
+ "persName":
+ "Anton Bettelheim",
+ "ref":
+ "pmb10912"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "pmb11324"},
+ {
+ "persName":
+ "Max Oppenheimer",
+ "ref":
+ "pmb12384"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "pmb2774"},
+ {
+ "persName":
+ "Heinrich Paschkis",
+ "ref":
+ "pmb12396"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Hermann Bahr",
+ "ref":
+ "pmb32530"}
+ ,  {
+ "title":
+ "Kriegssegen",
+ "ref":
+ "pmb32528"}
+ ,  {
+ "title":
+ "Heptameron",
+ "ref":
+ "pmb30367"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Erhalt von Isabella Vengerova an Arthur Schnitzler, 21. 5. [1912]",
+ "source":
+ "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043599",
+ "head":
+ "Stock, P. V. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

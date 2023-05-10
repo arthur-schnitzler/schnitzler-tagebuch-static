@@ -1,0 +1,105 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-05-31",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-05-31.html",
+ "head":
+ "Tagebuch, 31. Mai 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alexander Moissi",
+ "ref":
+ "person_18209"},
+ {
+ "persName":
+ "Wolfgang Amadeus Mozart",
+ "ref":
+ "person_18282"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Martha Wassermann",
+ "ref":
+ "person_21110"},
+ {
+ "persName":
+ "Leo N. von Tolstoi",
+ "ref":
+ "person_20772"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Symphonie Nr. 36 C-Dur KV 425",
+ "ref":
+ "pmb77223"}
+ ,  {
+ "title":
+ "Der lebende Leichnam",
+ "ref":
+ "pmb77386"}
+ ,  {
+ "title":
+ "Die Insel der Diana",
+ "ref":
+ "pmb81466"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burggarten",
+ "ref":
+ "pmb90422"}
+ ,  {
+ "placeName":
+ "Sächsische Schweiz",
+ "ref":
+ "pmb91636"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040324",
+ "head":
+ "May-Paul, Else an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

@@ -1,0 +1,386 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-10-31",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-10-31.html",
+ "head":
+ "Tagebuch, 31. Oktober 1903"
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01332",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01332.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 31. 10. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Dialog vom Tragischen",
+ "ref":
+ "pmb32814"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "S. Fischer Verlag",
+ "ref":
+ "pmb29639"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01333",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01333.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, [31. 10. 1903]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Dialog vom Tragischen",
+ "ref":
+ "pmb32814"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neues Wiener Tagblatt",
+ "ref":
+ "pmb29414"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Steyrerhof",
+ "ref":
+ "pmb683"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041576",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041576.html",
+ "head":
+ "Bahr: Widmungsexemplar Dialog vom Tragischen, 31. 10. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Dialog vom Tragischen",
+ "ref":
+ "pmb32814"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "S. Fischer Verlag",
+ "ref":
+ "pmb29639"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041261",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041261.html",
+ "head":
+ "Bahr an Schnitzler, [31. 10. 1903]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Dialog vom Tragischen",
+ "ref":
+ "pmb32814"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Steyrerhof",
+ "ref":
+ "pmb683"}
+ ,  {
+ "placeName":
+ "Rotenturmstraße",
+ "ref":
+ "pmb709"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neues Wiener Tagblatt",
+ "ref":
+ "pmb29414"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041437",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041437.html",
+ "head":
+ "Aufzeichnung von Bahr, 31. 10. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Molière",
+ "ref":
+ "pmb3272"},
+ {
+ "persName":
+ "Constant Coquelin",
+ "ref":
+ "pmb3275"},
+ {
+ "persName":
+ "Friedrich Waerndorfer",
+ "ref":
+ "pmb27882"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Koloman Moser",
+ "ref":
+ "pmb3280"},
+ {
+ "persName":
+ "Gustav Klimt",
+ "ref":
+ "pmb11941"},
+ {
+ "persName":
+ "Ludwig Hevesi",
+ "ref":
+ "pmb11687"},
+ {
+ "persName":
+ "Moriz Benedikt",
+ "ref":
+ "pmb10875"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Gertrud Eysoldt",
+ "ref":
+ "pmb11284"},
+ {
+ "persName":
+ "Irene Triesch",
+ "ref":
+ "pmb12977"},
+ {
+ "persName":
+ "Felix Dörmann",
+ "ref":
+ "pmb2425"},
+ {
+ "persName":
+ "Julius Bauer",
+ "ref":
+ "pmb2150"},
+ {
+ "persName":
+ "Julian Sternberg",
+ "ref":
+ "pmb3021"},
+ {
+ "persName":
+ "Ottokar Tann-Bergler",
+ "ref":
+ "pmb12920"},
+ {
+ "persName":
+ "Wilhelm Singer",
+ "ref":
+ "pmb2202"},
+ {
+ "persName":
+ "Arthur Kahane",
+ "ref":
+ "pmb3025"},
+ {
+ "persName":
+ "Friederike Stößler",
+ "ref":
+ "pmb27990"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "pmb12504"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Bürger als Edelmann",
+ "ref":
+ "pmb31075"}
+ ,  {
+ "title":
+ "Les Précieuses ridicules",
+ "ref":
+ "pmb31077"}
+ ,  {
+ "title":
+ "Dialog vom Tragischen",
+ "ref":
+ "pmb32814"}
+ ,  {
+ "title":
+ "Elektra. Tragödie in einem Aufzug",
+ "ref":
+ "pmb30633"}
+ ]
+}
+}] 

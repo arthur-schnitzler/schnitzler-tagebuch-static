@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1898-01-04">Dienstag, 4. Januar 1898</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1898-01-04">
+               <head>Tagebuch, 4. Januar 1898</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13202">Leopold von Andrian-Werburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17368">Franziska Reich</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17827">Richard Mandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19150">Marie Reinhard</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30181">Anfang vom Ende</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31511">Hanneles Himmelfahrt. Traumdichtung in zwei Teilen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb65626">König Ödipus</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-01-04.html</idno>
+            </event>
+            <event when-iso="1898-01-04">
+               <head>Arthur Schnitzler an Richard Beer-Hofmann, 4. 1. 1898</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb338">Wollzeile</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00758.html</idno>
+            </event>
+            <event when-iso="1898-01-04">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1898-01-04">
+               <head>Schnitzler an Otto Brahm, 4. 1. 1898</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11036">Max Eugen Burckhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12740">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12671">Paul Schlenther</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10992">Georg Brandes</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2299">Agnes Sorma</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11701">Georg Hirschfeld</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30219">Das Vermächtnis. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32240">Der Kaiser und die Hexe</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32067">Die Frau im Fenster</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32069">Der weiße Fächer. Ein Zwischenspiel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32296">Johannes</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb118">Carl-Theater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041540.html</idno>
+            </event>
+            <event when-iso="1898-01-04">
+               <head>Arthur Schnitzler an Otto Brahm, 4.1.1898</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118514245">Brahm, Otto</persName>
+                     </person>
+                  </listPerson>
+                  <bibl> Hermann
+                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
+                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
+                    Verlag 2018 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
+            </event>
+            <event when-iso="1898-01-04">
+               <head>Eugen Deimel an Arthur Schnitzler, 4.1.1898</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/124896847">Deimel, Eugen</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Heinz P. Adamek (Hg.):
+               In die Neue Welt... Arthur Schnitzler - Eugen Deimel. Briefwechsel. Holzhausen
+               Verlag: Wien 2003</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#w6429315-92be-4f82-b2f1-926125f9bfa5"/>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

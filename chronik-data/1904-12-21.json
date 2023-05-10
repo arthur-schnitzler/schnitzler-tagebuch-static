@@ -1,0 +1,215 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-12-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-12-21.html",
+ "head":
+ "Tagebuch, 21. Dezember 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johannes Brahms",
+ "ref":
+ "person_13914"},
+ {
+ "persName":
+ "Ernst Hartmann",
+ "ref":
+ "person_15944"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Josef Lewinsky",
+ "ref":
+ "person_17493"},
+ {
+ "persName":
+ "Ignaz Schnitzer",
+ "ref":
+ "person_19815"},
+ {
+ "persName":
+ "Adolf von Sonnenthal",
+ "ref":
+ "person_20204"},
+ {
+ "persName":
+ "Theodor Streicher",
+ "ref":
+ "person_20519"},
+ {
+ "persName":
+ "Gustav Walter",
+ "ref":
+ "person_21083"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041684",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041684.html",
+ "head":
+ "Ludwig Fulda an Schnitzler, 21. 12. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "pmb11391"},
+ {
+ "persName":
+ "Carl Anton Fulda",
+ "ref":
+ "pmb28891"},
+ {
+ "persName":
+ "Clementine Fulda",
+ "ref":
+ "pmb28892"},
+ {
+ "persName":
+ "Maximilian Harden",
+ "ref":
+ "pmb11581"},
+ {
+ "persName":
+ "Siegfried Jacobsohn",
+ "ref":
+ "pmb11813"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Otto Ernst",
+ "ref":
+ "pmb11260"},
+ {
+ "persName":
+ "??",
+ "ref":
+ "pmb27714"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Märchen-Kalender für das Jahr",
+ "ref":
+ "pmb32476"}
+ ,  {
+ "title":
+ "Aus der Werkstatt",
+ "ref":
+ "pmb32480"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Der kleine Jacobsohn",
+ "ref":
+ "pmb32418"}
+ ,  {
+ "title":
+ "Bannermann (Schauspiel in drei Aufzügen von Otto Ernst. Zum erstenmal aufgeführt im Burgtheater am 26. November 1904)",
+ "ref":
+ "pmb30045"}
+ ,  {
+ "title":
+ "Bannermann",
+ "ref":
+ "pmb32416"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Kettenhofweg",
+ "ref":
+ "pmb825"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Salzburg (Land)",
+ "ref":
+ "pmb697"}
+ ]
+}
+}] 

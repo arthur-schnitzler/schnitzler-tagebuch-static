@@ -1,0 +1,154 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-01-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-01-24.html",
+ "head":
+ "Tagebuch, 24. Januar 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Margarethe Manassewitsch",
+ "ref":
+ "person_17804"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "person_19828"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Haus Delorme. Eine Familienszene",
+ "ref":
+ "pmb31547"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01363",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01363.html",
+ "head":
+ "Arthur Schnitzler an Michael Georg Conrad, 24. 1. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Michael Georg Conrad",
+ "ref":
+ "pmb11098"},
+ {
+ "persName":
+ "Marie Knorr-Schmidt",
+ "ref":
+ "pmb5757"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Evoë! Ein Schritt zur Lichtung des Seelenlebens",
+ "ref":
+ "pmb33562"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Steinsdorfstraße",
+ "ref":
+ "pmb1231"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-1438409",
+ "head":
+ "Brief von Arthur Schnitzler an Michael Georg Conrad",
+ "text":
+ "1 Br.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Michael Georg (1846-1927) Conrad",
+ "ref":
+ "http://d-nb.info/gnd/118669915"}]
+}
+}] 

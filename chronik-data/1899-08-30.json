@@ -1,0 +1,110 @@
+[{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02885",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02885.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 30. 8. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Edgar Demange",
+ "ref":
+ "pmb142361"},
+ {
+ "persName":
+ "Alfred Dreyfus",
+ "ref":
+ "pmb4216"},
+ {
+ "persName":
+ "Alice Ziegler",
+ "ref":
+ "pmb118324"},
+ {
+ "persName":
+ "Charlotte Bondy",
+ "ref":
+ "pmb14384"},
+ {
+ "persName":
+ "Vít Šalomoun Bondy",
+ "ref":
+ "pmb14392"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Conseil de guerre de la Xe région militaire de Rennes",
+ "ref":
+ "pmb142365"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rennes",
+ "ref":
+ "pmb55293"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+ "ref":
+ "pmb414"}
+ ,  {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/414/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/414/",
+ "head":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)"
+}] 

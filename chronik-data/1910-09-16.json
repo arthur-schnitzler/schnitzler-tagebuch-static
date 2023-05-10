@@ -1,0 +1,92 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-09-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-09-16.html",
+ "head":
+ "Tagebuch, 16. September 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Jensen",
+ "ref":
+ "person_16539"},
+ {
+ "persName":
+ "Franz Neumann",
+ "ref":
+ "person_18416"},
+ {
+ "persName":
+ "Willy Strecker",
+ "ref":
+ "person_20517"},
+ {
+ "persName":
+ "Arthur Bauer",
+ "ref":
+ "person_13465"},
+ {
+ "persName":
+ "Ludwig Strecker",
+ "ref":
+ "person_20515"},
+ {
+ "persName":
+ "Ludwig Strecker",
+ "ref":
+ "person_20516"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Liebelei. Oper in drei Akten",
+ "ref":
+ "pmb31311"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Dresden",
+ "ref":
+ "pmb90550"}
+ ,  {
+ "placeName":
+ "Bad Homburg",
+ "ref":
+ "pmb54155"}
+ ,  {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/146/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/146/",
+ "head":
+ "Frankfurt am Main"
+}] 

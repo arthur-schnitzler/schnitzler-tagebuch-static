@@ -1,0 +1,97 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-08-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-08-07.html",
+ "head":
+ "Tagebuch, 7. August 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julian Schmidt",
+ "ref":
+ "person_19763"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Robert Schumann",
+ "ref":
+ "person_19942"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Karl August von Varnhagen-Ense",
+ "ref":
+ "person_20929"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Mörderin",
+ "ref":
+ "pmb33792"}
+ ,  {
+ "title":
+ "Kreisleriana op. 16",
+ "ref":
+ "pmb78452"}
+ ,  {
+ "title":
+ "Novelletten op. 21",
+ "ref":
+ "pmb78454"}
+ ,  {
+ "title":
+ "Tagebücher",
+ "ref":
+ "pmb30297"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kahlenberg",
+ "ref":
+ "pmb574"}
+ ,  {
+ "placeName":
+ "Leopoldsberg",
+ "ref":
+ "pmb59364"}
+ ,  {
+ "placeName":
+ "Kahlenbergerdorf",
+ "ref":
+ "pmb90969"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

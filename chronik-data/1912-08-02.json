@@ -1,0 +1,207 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1912-08-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-08-02.html",
+ "head":
+ "Tagebuch, 2. August 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Heinrich Eduard Jacob",
+ "ref":
+ "person_16463"},
+ {
+ "persName":
+ "Auguste Kupelwieser",
+ "ref":
+ "person_17203"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Wilhelm von Wymetal",
+ "ref":
+ "person_21486"},
+ {
+ "persName":
+ "Julius Bittner",
+ "ref":
+ "person_13754"},
+ {
+ "persName":
+ "Hans Gregor",
+ "ref":
+ "person_15637"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"},
+ {
+ "persName":
+ "Bruno Walter",
+ "ref":
+ "person_21080"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Im Spiel der Sommerlüfte. In drei Aufzügen",
+ "ref":
+ "pmb30945"}
+ ,  {
+ "title":
+ "Bergsee",
+ "ref":
+ "pmb78125"}
+ ,  {
+ "title":
+ "Das Leichenbegängnis der Gemma Ebria",
+ "ref":
+ "pmb80732"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rancon",
+ "ref":
+ "pmb92472"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02081",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02081.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 2. 8. 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "pmb26392"},
+ {
+ "persName":
+ "Isabella Vengerova",
+ "ref":
+ "pmb3068"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "pmb2496"},
+ {
+ "persName":
+ "Naëmah Beer-Hofmann",
+ "ref":
+ "pmb2534"},
+ {
+ "persName":
+ "Gabriel Beer-Hofmann",
+ "ref":
+ "pmb13923"},
+ {
+ "persName":
+ "Mirjam Beer-Hofmann",
+ "ref":
+ "pmb2668"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sankt Moritz",
+ "ref":
+ "pmb44374"}
+ ,  {
+ "placeName":
+ "Brijuni",
+ "ref":
+ "pmb45260"}
+ ,  {
+ "placeName":
+ "Adriatisches Meer",
+ "ref":
+ "pmb568"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Dnepr",
+ "ref":
+ "pmb52254"}
+ ,  {
+ "placeName":
+ "Celerina",
+ "ref":
+ "pmb12589"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Lueg am Wolfgangsee",
+ "ref":
+ "pmb186"}
+ ,  {
+ "placeName":
+ "St. Gilgen",
+ "ref":
+ "pmb33"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45260/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45260/",
+ "head":
+ "Brijuni"
+}] 

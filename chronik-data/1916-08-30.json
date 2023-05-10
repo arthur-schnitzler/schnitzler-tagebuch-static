@@ -1,0 +1,110 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1916-08-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-08-30.html",
+ "head":
+ "Tagebuch, 30. August 1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Julius von Landesberger",
+ "ref":
+ "person_17278"},
+ {
+ "persName":
+ "Johanna Nemetschke",
+ "ref":
+ "person_18388"},
+ {
+ "persName":
+ "Adolf von Sonnenthal",
+ "ref":
+ "person_20204"},
+ {
+ "persName":
+ "Paul Weingarten",
+ "ref":
+ "person_21171"},
+ {
+ "persName":
+ "Fritz Rothschild",
+ "ref":
+ "person_19431"},
+ {
+ "persName":
+ "Moritz? Güdemann",
+ "ref":
+ "person_15727"},
+ {
+ "persName":
+ "Paul Hellmann",
+ "ref":
+ "person_16074"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ruine Pflindsberg",
+ "ref":
+ "pmb91474"}
+ ,  {
+ "placeName":
+ "Moosberg",
+ "ref":
+ "pmb92411"}
+ ,  {
+ "placeName":
+ "Sandling",
+ "ref":
+ "pmb91653"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34401/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34401/",
+ "head":
+ "Altaussee"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34387/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34387/",
+ "head":
+ "Villa Annerl"
+}] 

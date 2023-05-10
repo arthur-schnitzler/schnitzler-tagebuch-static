@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-01-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-01-21.html",
+ "head":
+ "Tagebuch, 21. Januar 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans Brahm",
+ "ref":
+ "person_13911"},
+ {
+ "persName":
+ "Egbertje Alida Brevée",
+ "ref":
+ "person_13969"},
+ {
+ "persName":
+ "Margarete von Klimbacher",
+ "ref":
+ "person_16908"},
+ {
+ "persName":
+ "Rosa Menczel",
+ "ref":
+ "person_18064"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Spiel im Morgengrauen. Novelle",
+ "ref":
+ "pmb32131"}
+ ,  {
+ "title":
+ "Romeo und Julia",
+ "ref":
+ "pmb31213"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Hammerand",
+ "ref":
+ "pmb585"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

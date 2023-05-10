@@ -1,0 +1,64 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1882-09-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1882-09-01.html",
+ "head":
+ "Tagebuch, 1. September 1882",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Armin Petschek",
+ "ref":
+ "person_18735"},
+ {
+ "persName":
+ "Jacques Pichler",
+ "ref":
+ "person_18766"},
+ {
+ "persName":
+ "Richard Tausenau",
+ "ref":
+ "person_20643"},
+ {
+ "persName":
+ "Ludwig Mandl",
+ "ref":
+ "person_17825"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ringstraße",
+ "ref":
+ "pmb112"}
+ ,  {
+ "placeName":
+ "Volksgarten",
+ "ref":
+ "pmb103"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

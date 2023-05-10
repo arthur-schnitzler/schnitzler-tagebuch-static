@@ -1,0 +1,150 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-03-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-03-05.html",
+ "head":
+ "Tagebuch, 5. März 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Gustav Charlé",
+ "ref":
+ "person_14183"},
+ {
+ "persName":
+ "Leo Fall",
+ "ref":
+ "person_14881"},
+ {
+ "persName":
+ "Theodor Lessing",
+ "ref":
+ "person_17475"},
+ {
+ "persName":
+ "Samuel Lublinski",
+ "ref":
+ "person_17714"},
+ {
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "person_17838"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Eduard Liberius Schiff",
+ "ref":
+ "person_19682"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Adolf Steinert",
+ "ref":
+ "person_20377"},
+ {
+ "persName":
+ "Oscar Straus",
+ "ref":
+ "person_20490"},
+ {
+ "persName":
+ "Claire Wallentin",
+ "ref":
+ "person_21068"},
+ {
+ "persName":
+ "Hans Ziegler",
+ "ref":
+ "person_21550"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"},
+ {
+ "persName":
+ "Jenny Mautner",
+ "ref":
+ "person_17999"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Frage an das Schicksal",
+ "ref":
+ "pmb30749"}
+ ,  {
+ "title":
+ "Brüderlein fein",
+ "ref":
+ "pmb80454"}
+ ,  {
+ "title":
+ "Venus im Grünen",
+ "ref":
+ "pmb56900"}
+ ,  {
+ "title":
+ "Ein Walzertraum",
+ "ref":
+ "pmb56883"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 5.3.1910",
+ "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}] 

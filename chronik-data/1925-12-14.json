@@ -1,0 +1,191 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-12-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-12-14.html",
+ "head":
+ "Tagebuch, 14. Dezember 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Raoul Aslan",
+ "ref":
+ "person_13286"},
+ {
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Maurice Delarüe Caron de Beaumarchais",
+ "ref":
+ "person_13504"},
+ {
+ "persName":
+ "Joseph Chapiro",
+ "ref":
+ "person_14178"},
+ {
+ "persName":
+ "Franz Herterich",
+ "ref":
+ "person_16125"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Albert von Mensdorff-Pouilly-Dietrichstein",
+ "ref":
+ "person_18079"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Emil Schneider",
+ "ref":
+ "person_19803"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Firmin Gémier",
+ "ref":
+ "person_15384"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Viktor Prüger",
+ "ref":
+ "person_18983"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Geist im Wort und der Geist in der Tat",
+ "ref":
+ "pmb30051"}
+ ,  {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Gespräche mit Gerhart Hauptmann",
+ "ref":
+ "pmb80292"}
+ ,  {
+ "title":
+ "Pariser Maitressen",
+ "ref":
+ "pmb80300"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02458",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02458.html",
+ "head":
+ "Felix Braun an Arthur Schnitzler, 14. 12. 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Braun",
+ "ref":
+ "pmb11002"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Frau des Richters. Novelle",
+ "ref":
+ "pmb30751"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Propyläen Verlag",
+ "ref":
+ "pmb29377"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00047214",
+ "head":
+ "Schnitzler, Arthur an Kossinna, ... [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

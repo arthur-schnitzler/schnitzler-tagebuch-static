@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1923-05-25">Freitag, 25. Mai 1923</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1923-05-25">
+               <head>Tagebuch, 25. Mai 1923</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14730">Arthur Eloesser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14912">Franz Karl Feilchenfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15005">Hedwig Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15643">Leo Greiner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15957">Benjamin Harz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17289">Ludwig Landshoff</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18137">Dora Michaelis</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18140">Karl Michaelis</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19435">Alfred Rotter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19436">Fritz Rotter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15009">Samuel Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16786">Rudolf Kayser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17625">Oskar Loerke</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb35745">Aphoristisches</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31489">John Gabriel Borkman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb81429">Die Juden</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-05-25.html</idno>
+            </event>
+            <event when-iso="1923-05-25">
+               <head>Berlin</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+            </event>
+            <event when-iso="1923-05-25">
+               <head>Tagebuch von Schnitzler, 25. 5. 1923</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11324">Samuel Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11515">Leo Greiner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11891">Rudolf Kayser</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11250">Arthur Eloesser</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb17899">Benjamin Harz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23675">Alfred Rotter</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3876">Fritz Rotter</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2774">Dora Michaelis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3064">Karl Michaelis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb19509">Dorothea Kohnberger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb16125">Franz Karl Feilchenfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2657">Hedwig Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3878">Oskar Loerke</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3882">Ludwig Landshoff</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32348">Bemerkungen zum Thema »Kunst und Kritik«</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31489">John Gabriel Borkman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31491">Die Juden. Schauspiel in drei Aufzügen</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb492">Deutsche Bank</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb493">Bank für Auswärtigen Handel</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29212">Neue Rundschau, Neue Deutsche Rundschau, Freie Bühne</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29337">Schutzverband deutscher Schriftsteller</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041535.html</idno>
+            </event>
+            <event when-iso="1923-05-25">
+               <head>Traum vom 25. Mai 1923</head>
+               <desc>
+                  <bibl>Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)</bibl>
+               </desc>
+               <idno type="schnitzler-traeume" subtype="#ISBN978-3-8353-1029-2"/>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

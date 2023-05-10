@@ -1,0 +1,77 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-07-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-07-10.html",
+ "head":
+ "Tagebuch, 10. Juli 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johan Bojer",
+ "ref":
+ "person_13850"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Fritz Zuckerkandl",
+ "ref":
+ "person_21597"},
+ {
+ "persName":
+ "Carl Sternheim",
+ "ref":
+ "person_20427"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Leben",
+ "ref":
+ "pmb79802"}
+ ,  {
+ "title":
+ "Die Hose. Ein bürgerliches Lustspiel",
+ "ref":
+ "pmb32087"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Philippines",
+ "ref":
+ "pmb40095"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1900-10-04">Donnerstag, 4. Oktober 1900</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1900-10-04">
+               <head>Tagebuch, 4. Oktober 1900</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb36093">Marionetten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-10-04.html</idno>
+            </event>
+            <event when-iso="1900-10-04">
+               <head>Hugo von Hofmannsthal an Arthur Schnitzler, 4. 10. 1900</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb36464">Ouchy</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb59">IX., Alsergrund</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb397">Frankgasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43984">Beau-Rivage Palace</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40481">Schloss Chillon</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40483">Glion</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01075.html</idno>
+            </event>
+            <event when-iso="1900-10-04">
+               <head>Paul Goldmann an Arthur Schnitzler, 4. 10. [1900]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb141828">Wilhelm Ernst Oswalt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11605">Otto Erich Hartleben</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14328">Oskar Blumenthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12101">Siegfried Loewy</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12358">Friedrich Nietzsche</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb141847">Malwida von Meysenbug</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10992">Georg Brandes</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24452">Maria Stona</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb141823">Ein Sommer in China. Reisebilder. Zweite, durchgesehene und vermehrte
+                  Auflage</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33346">Ein Sommer in China. Reisebilder</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31767">Rosenmontag</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb141842">Kritische Tagebuchblätter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41531">Berliner Tageblatt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29885">Wienerinnen. Lustspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb52605">Vossische Zeitung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142443">Theater und Musik [Wienerinnen]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142447">Theaterchronik [Wienerinnen]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41289">Berliner Börsen-Courier</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142451">[Rezension von Wienerinnen von Siegfried Loewy]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb141850">Der erste Nietzsche</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36374">Neue Freie Presse</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29309">Rütten &amp; Loening</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb146">Frankfurt am Main</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb20">Volkstheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb166">Frankreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb59370">Donau</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb866">Dresden</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02934.html</idno>
+            </event>
+            <event when-iso="1900-10-04">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1900-10-04">
+               <head>Schnitzler, Arthur: Der Weg ins Freie [Dramatisches] (Drucktitel)</head>
+               <desc>2 Bl.Abschr.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00083203</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

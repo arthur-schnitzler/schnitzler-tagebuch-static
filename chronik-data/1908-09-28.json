@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-09-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-09-28.html",
+ "head":
+ "Tagebuch, 28. September 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Hermann Menkes",
+ "ref":
+ "person_18078"},
+ {
+ "persName":
+ "May O’Callaghan",
+ "ref":
+ "person_18516"},
+ {
+ "persName":
+ "Anna Roussel",
+ "ref":
+ "person_19440"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Maria Zlamal",
+ "ref":
+ "person_21572"},
+ {
+ "persName":
+ "Raoul Markbreiter",
+ "ref":
+ "person_17909"},
+ {
+ "persName":
+ "Franz Peter Schubert",
+ "ref":
+ "person_19902"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Streichtrio Nr. 2 D-Dur op. 8 (Serenade)",
+ "ref":
+ "pmb77185"}
+ ,  {
+ "title":
+ "Streichquartett Nr. 10 Es-Dur op. 125,1 D 87",
+ "ref":
+ "pmb77649"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00036741",
+ "head":
+ "Holubowsky, Anton an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

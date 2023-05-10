@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-02-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-02-13.html",
+ "head":
+ "Tagebuch, 13. Februar 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franz Ferdinand von Österreich-Este",
+ "ref":
+ "person_15149"},
+ {
+ "persName":
+ "Robert Gund",
+ "ref":
+ "person_15750"},
+ {
+ "persName":
+ "Laura Robert",
+ "ref":
+ "person_19295"},
+ {
+ "persName":
+ "Houston Stewart Chamberlain",
+ "ref":
+ "person_14173"},
+ {
+ "persName":
+ "Hugo Ganz",
+ "ref":
+ "person_15345"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aphoristisches",
+ "ref":
+ "pmb35745"}
+ ,  {
+ "title":
+ "Kriegsaufsätze",
+ "ref":
+ "pmb80288"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1902-11-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-11-01.html",
+ "head":
+ "Tagebuch, 1. November 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ida Grünwald",
+ "ref":
+ "person_15715"},
+ {
+ "persName":
+ "Edmund von Gutmann-Gelse",
+ "ref":
+ "person_15776"},
+ {
+ "persName":
+ "Anna von Hofmannsthal",
+ "ref":
+ "person_16289"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "David Wolffsohn",
+ "ref":
+ "person_21453"},
+ {
+ "persName":
+ "Alice Gurschner",
+ "ref":
+ "person_15754"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die griechische Tänzerin. Novellette",
+ "ref":
+ "pmb30167"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gauermanng.",
+ "ref":
+ "pmb92251"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

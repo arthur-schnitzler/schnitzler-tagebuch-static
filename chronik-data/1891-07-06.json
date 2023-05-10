@@ -1,0 +1,77 @@
+[{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00022",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00022.html",
+ "head":
+ "Jaques Joachim, Eduard Michael Kafka an Arthur Schnitzler, 6. 7. 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jaques Joachim",
+ "ref":
+ "pmb18870"},
+ {
+ "persName":
+ "Eduard Michael Kafka",
+ "ref":
+ "pmb2563"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "»Freie Bühne« Verein für moderne Literatur",
+ "ref":
+ "pmb29781"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wipplingerstraße",
+ "ref":
+ "pmb120"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Bösendorferstraße",
+ "ref":
+ "pmb542"}
+ ,  {
+ "placeName":
+ "Hotel de France",
+ "ref":
+ "pmb337"}
+ ,  {
+ "placeName":
+ "Maria-Theresienstraße",
+ "ref":
+ "pmb40992"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

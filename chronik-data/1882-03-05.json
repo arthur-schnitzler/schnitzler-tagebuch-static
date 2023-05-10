@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1882-03-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1882-03-05.html",
+ "head":
+ "Tagebuch, 5. März 1882",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gisella Berger",
+ "ref":
+ "person_13629"},
+ {
+ "persName":
+ "Robert Friedländer",
+ "ref":
+ "person_15224"},
+ {
+ "persName":
+ "Samuel Heit",
+ "ref":
+ "person_16053"},
+ {
+ "persName":
+ "Alfred? Kadisch",
+ "ref":
+ "person_16623"},
+ {
+ "persName":
+ "Ferdinand Neumann",
+ "ref":
+ "person_18415"},
+ {
+ "persName":
+ "Anton Rückauf",
+ "ref":
+ "person_19460"},
+ {
+ "persName":
+ "Hans Sachs",
+ "ref":
+ "person_19503"},
+ {
+ "persName":
+ "Ernst von Rosenberg",
+ "ref":
+ "person_19368"},
+ {
+ "persName":
+ "Charlotte Heller",
+ "ref":
+ "person_16064"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Johannes-Passion BWV 245",
+ "ref":
+ "pmb77121"}
+ ,  {
+ "title":
+ "Der tote Mann",
+ "ref":
+ "pmb77938"}
+ ,  {
+ "title":
+ "Julius Caesar",
+ "ref":
+ "pmb31417"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

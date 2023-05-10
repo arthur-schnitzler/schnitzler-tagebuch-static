@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1880-05-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1880-05-22.html",
+ "head":
+ "Tagebuch, 22. Mai 1880",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugen Deimel",
+ "ref":
+ "person_14386"},
+ {
+ "persName":
+ "Gstrein",
+ "ref":
+ "person_15724"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Georg König",
+ "ref":
+ "person_16961"},
+ {
+ "persName":
+ "Ida König",
+ "ref":
+ "person_16963"},
+ {
+ "persName":
+ "Laura König",
+ "ref":
+ "person_16968"},
+ {
+ "persName":
+ "Karl von Langer-Edenberg",
+ "ref":
+ "person_17309"},
+ {
+ "persName":
+ "Franziska Reich",
+ "ref":
+ "person_17368"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Robert Schumann",
+ "ref":
+ "person_19942"},
+ {
+ "persName":
+ "Joseph Mütter",
+ "ref":
+ "person_18322"},
+ {
+ "persName":
+ "Johann Pollak",
+ "ref":
+ "person_18885"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Klaviertrio Nr. 1 d-Moll op. 63",
+ "ref":
+ "pmb78450"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ringstraße",
+ "ref":
+ "pmb112"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

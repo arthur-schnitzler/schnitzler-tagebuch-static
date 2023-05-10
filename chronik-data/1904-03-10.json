@@ -1,0 +1,64 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-03-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-03-10.html",
+ "head":
+ "Tagebuch, 10. März 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albertine von Gutmann-Gelse",
+ "ref":
+ "person_15774"},
+ {
+ "persName":
+ "Edmund von Gutmann-Gelse",
+ "ref":
+ "person_15776"},
+ {
+ "persName":
+ "Ernst Gòth",
+ "ref":
+ "person_15581"},
+ {
+ "persName":
+ "Franziska Mütter",
+ "ref":
+ "person_18320"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Budapest",
+ "ref":
+ "pmb43471"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

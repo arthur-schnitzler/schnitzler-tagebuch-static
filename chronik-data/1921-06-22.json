@@ -1,0 +1,97 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-06-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-06-22.html",
+ "head":
+ "Tagebuch, 22. Juni 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leo Baerwald",
+ "ref":
+ "person_13371"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Luise Hohorst",
+ "ref":
+ "person_16314"},
+ {
+ "persName":
+ "Hans Jacob",
+ "ref":
+ "person_16462"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Voltaire",
+ "ref":
+ "person_20987"},
+ {
+ "persName":
+ "Wilhelm Grosz",
+ "ref":
+ "person_15685"},
+ {
+ "persName":
+ "Alfred Karl Mayer",
+ "ref":
+ "person_18011"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Mein Aufenthalt in Berlin",
+ "ref":
+ "pmb77113"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "London",
+ "ref":
+ "pmb224"}
+ ,  {
+ "placeName":
+ "Englischer Garten",
+ "ref":
+ "pmb90589"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München"
+}] 

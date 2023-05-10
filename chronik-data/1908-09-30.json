@@ -1,0 +1,69 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-09-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-09-30.html",
+ "head":
+ "Tagebuch, 30. September 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Kurt Münzer",
+ "ref":
+ "person_18317"},
+ {
+ "persName":
+ "Hermann von Pückler-Muskau",
+ "ref":
+ "person_18991"},
+ {
+ "persName":
+ "Agnes Ulmann",
+ "ref":
+ "person_20872"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "Abenteuer der Seele",
+ "ref":
+ "pmb79013"}
+ ,  {
+ "title":
+ "Briefwechsel und Tagebücher",
+ "ref":
+ "pmb80846"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

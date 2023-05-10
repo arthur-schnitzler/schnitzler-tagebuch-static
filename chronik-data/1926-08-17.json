@@ -1,0 +1,115 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-08-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-08-17.html",
+ "head":
+ "Tagebuch, 17. August 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Bertil Wetzelsberger",
+ "ref":
+ "person_21284"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Oper in drei Akten",
+ "ref":
+ "pmb31311"}
+ ,  {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brig",
+ "ref":
+ "pmb90400"}
+ ,  {
+ "placeName":
+ "Zermatt",
+ "ref":
+ "pmb34007"}
+ ,  {
+ "placeName":
+ "Nürnberg",
+ "ref":
+ "pmb44172"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90400/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90400/",
+ "head":
+ "Brig"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34007/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34007/",
+ "head":
+ "Zermatt"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp381",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp381.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 16.–23. August 1926"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00035504",
+ "head":
+ "Greiner, Leo an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Kte",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leo (1876-1928) Greiner",
+ "ref":
+ "http://d-nb.info/gnd/116830980"}]
+}
+}] 

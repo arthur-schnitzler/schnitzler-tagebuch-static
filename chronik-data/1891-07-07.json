@@ -1,0 +1,165 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1891-07-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-07-07.html",
+ "head":
+ "Tagebuch, 7. Juli 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Richard Tausenau",
+ "ref":
+ "person_20643"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Baden bei Wien",
+ "ref":
+ "pmb662"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/662/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/662/",
+ "head":
+ "Baden bei Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/40995/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40995/",
+ "head":
+ "Gründungsveranstaltung Freie Bühne, Verein für moderne Literatur, 7.7.1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Edmund Wengraf",
+ "ref":
+ "pmb13088"},
+ {
+ "persName":
+ "Friedrich Michael Fels",
+ "ref":
+ "pmb2450"},
+ {
+ "persName":
+ "Hermann Fürst",
+ "ref":
+ "pmb28894"},
+ {
+ "persName":
+ "Eduard Michael Kafka",
+ "ref":
+ "pmb2563"},
+ {
+ "persName":
+ "Jaques Joachim",
+ "ref":
+ "pmb18870"},
+ {
+ "persName":
+ "Julius Kulka",
+ "ref":
+ "pmb19832"},
+ {
+ "persName":
+ "Hugo August von Hofmannsthal",
+ "ref":
+ "pmb11737"},
+ {
+ "persName":
+ "Engelbert Pernerstorfer",
+ "ref":
+ "pmb12408"},
+ {
+ "persName":
+ "Ernst Lohwag",
+ "ref":
+ "pmb89296"},
+ {
+ "persName":
+ "Robert Fischer",
+ "ref":
+ "pmb16288"},
+ {
+ "persName":
+ "Wilhelm Vita",
+ "ref":
+ "pmb10371"},
+ {
+ "persName":
+ "Heinrich Osten",
+ "ref":
+ "pmb2509"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Emil Mark",
+ "ref":
+ "pmb89310"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hotel de France",
+ "ref":
+ "pmb337"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "»Freie Bühne« Verein für moderne Literatur",
+ "ref":
+ "pmb29781"}
+ ]
+}
+}] 

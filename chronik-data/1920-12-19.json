@@ -1,0 +1,177 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-12-19",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-12-19.html",
+ "head":
+ "Tagebuch, 19. Dezember 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Gabriel Beer-Hofmann",
+ "ref":
+ "person_13547"},
+ {
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Richard Nikolaus von Coudenhove-Kalergi",
+ "ref":
+ "person_14291"},
+ {
+ "persName":
+ "Erich Wolfgang Korngold",
+ "ref":
+ "person_17058"},
+ {
+ "persName":
+ "Ernst Löwy",
+ "ref":
+ "person_17660"},
+ {
+ "persName":
+ "Josef Popper-Lynkeus",
+ "ref":
+ "person_18916"},
+ {
+ "persName":
+ "Ida Roland",
+ "ref":
+ "person_19331"},
+ {
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "person_19364"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Oskar Walzel",
+ "ref":
+ "person_21089"},
+ {
+ "persName":
+ "Marie Wilt",
+ "ref":
+ "person_21358"},
+ {
+ "persName":
+ "Ludwig Winter",
+ "ref":
+ "person_21377"},
+ {
+ "persName":
+ "Louise von Ehrenstein",
+ "ref":
+ "person_14647"},
+ {
+ "persName":
+ "Heinrich Glücksmann",
+ "ref":
+ "person_15483"},
+ {
+ "persName":
+ "Kory Elisabeth Rosenbaum",
+ "ref":
+ "person_19363"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"},
+ {
+ "persName":
+ "Bruno Walter",
+ "ref":
+ "person_21080"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 19. Dezember 1920",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00892276",
+ "head":
+ "Schnitzler, Arthur an Zimmer, Heinrich [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich (1890-1943) Zimmer",
+ "ref":
+ "http://d-nb.info/gnd/119211351"},
+ {
+ "persName":
+ "Christiane (1902-1987) Zimmer",
+ "ref":
+ "http://d-nb.info/gnd/118975803"}]
+}
+}] 

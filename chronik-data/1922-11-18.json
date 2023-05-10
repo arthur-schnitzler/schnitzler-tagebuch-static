@@ -1,0 +1,173 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-11-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-11-18.html",
+ "head":
+ "Tagebuch, 18. November 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "person_13162"},
+ {
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Wilhelm Adolf Bauer",
+ "ref":
+ "person_13479"},
+ {
+ "persName":
+ "Ernst Benedikt",
+ "ref":
+ "person_13589"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "person_14643"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Arnold Korff",
+ "ref":
+ "person_17046"},
+ {
+ "persName":
+ "Marianne Rie",
+ "ref":
+ "person_19253"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Moriz Striberny",
+ "ref":
+ "person_20526"},
+ {
+ "persName":
+ "Rudolf Wantoch",
+ "ref":
+ "person_21093"},
+ {
+ "persName":
+ "Maria Karsten",
+ "ref":
+ "person_16742"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"},
+ {
+ "persName":
+ "Eugenie Schwarzwald",
+ "ref":
+ "person_19991"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Angelo Soliman",
+ "ref":
+ "pmb80130"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Afrika",
+ "ref":
+ "pmb49098"}
+ ,  {
+ "placeName":
+ "Teplice",
+ "ref":
+ "pmb955"}
+ ,  {
+ "placeName":
+ "Rotenturmstraße",
+ "ref":
+ "pmb709"}
+ ,  {
+ "placeName":
+ "Gürtel",
+ "ref":
+ "pmb40772"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 18. November 1922",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00038066",
+ "head":
+ "Kossak, M. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "4 Bl."
+}] 

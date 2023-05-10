@@ -1,0 +1,159 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1892-01-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-01-18.html",
+ "head":
+ "Tagebuch, 18. Januar 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00063",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00063.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 18. 1. 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00064",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00064.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 18. 1. 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Ferry Bératon",
+ "ref":
+ "pmb14756"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Kärntnerring",
+ "ref":
+ "pmb501"}
+ ,  {
+ "placeName":
+ "Akademisches Gymnasium",
+ "ref":
+ "pmb1273"}
+ ,  {
+ "placeName":
+ "Hotel Kummer",
+ "ref":
+ "pmb1274"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/89316/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/89316/",
+ "head":
+ "Letzte Generalversammlung Freie Bühne, 18.1.1892",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Wiener Brief",
+ "ref":
+ "pmb89545"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Friedrich Michael Fels",
+ "ref":
+ "pmb2450"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "»Freie Bühne« Verein für moderne Literatur",
+ "ref":
+ "pmb29781"}
+ ]
+}
+}] 

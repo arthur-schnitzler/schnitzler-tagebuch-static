@@ -1,0 +1,167 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-12-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-12-23.html",
+ "head":
+ "Tagebuch, 23. Dezember 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02724",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02724.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 23. 12. [1893]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"},
+ {
+ "persName":
+ "Auguste Vaillant",
+ "ref":
+ "pmb93187"},
+ {
+ "persName":
+ "Carl Pietzner",
+ "ref":
+ "pmb2374"},
+ {
+ "persName":
+ "Jean Thorel",
+ "ref":
+ "pmb3966"},
+ {
+ "persName":
+ "?? [Mitarbeiterin von La Vie Parisienne]",
+ "ref":
+ "pmb93196"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Arthur Schnitzler (1893)",
+ "ref":
+ "pmb93194"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Sterben. Novelle",
+ "ref":
+ "pmb30117"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Deutsche Zeitung",
+ "ref":
+ "pmb41471"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Nationalversammlung",
+ "ref":
+ "pmb93192"}
+ ,  {
+ "orgName":
+ "La Vie Parisienne",
+ "ref":
+ "pmb93197"}
+ ,  {
+ "orgName":
+ "Deutsche Zeitung",
+ "ref":
+ "pmb29424"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

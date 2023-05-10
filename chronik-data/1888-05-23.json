@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1888-05-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-05-23.html",
+ "head":
+ "Tagebuch, 23. Mai 1888",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Markbreiter",
+ "ref":
+ "person_17901"},
+ {
+ "persName":
+ "Otto Markbreiter",
+ "ref":
+ "person_17906"},
+ {
+ "persName":
+ "Felix Semon",
+ "ref":
+ "person_20056"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Herne Hill",
+ "ref":
+ "pmb90865"}
+ ,  {
+ "placeName":
+ "City of London",
+ "ref":
+ "pmb90486"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/224/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/224/",
+ "head":
+ "London"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Johann Schnitzler, Louise Schnitzler, 23. 5. 1888",
+ "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}] 

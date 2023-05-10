@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1910-04-28">Donnerstag, 28. April 1910</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1910-04-28">
+               <head>Tagebuch, 28. April 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15352">Josef Gaschler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18218">Carl Moll</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18884">Jacob Pollak</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19351">Arnold Rosé</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19352">Justine Rosé</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19823">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17786">Gustav Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21080">Bruno Walter</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-04-28.html</idno>
+            </event>
+            <event when-iso="1910-04-28">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1910-04-28">
+               <head>Brahm an Arthur und Olga Schnitzler, 28. 4. 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28632">Else Beck</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28633">Elisabeth Beck</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12050">Emil Lessing</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11273">Herbert Eulenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26132">Hermann Traeger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2238">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29933">Das Konzert. Lustspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29923">Der Weg ins Freie. Roman</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32258">Ein halber Held. Tragödie</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041554.html</idno>
+            </event>
+            <event when-iso="1910-04-28">
+               <head>Zinaida Vengerova an Arthur Schnitzler, 28. 4. 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName>Vengerova, Zinaida</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Die
+                    Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida
+                    Vengerova. Herausgegeben von Konstantin Asadowski und Martin
+                    Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30
+                    (2022), S. 7–91.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86"/>
+            </event>
+            <event when-iso="1910-04-28">
+               <head>Otto Brahm an Arthur Schnitzler, Olga Schnitzler, 28.4.1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118514245">Brahm, Otto</persName>
+                     </person>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116848723">Schnitzler, Olga</persName>
+                     </person>
+                  </listPerson>
+                  <bibl> Hermann
+                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
+                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
+                    Verlag 2018 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
+            </event>
+            <event when-iso="1910-04-28">
+               <head>Arthur Schnitzler an Gustaf Linden, 28.4.1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/117024562">Linden, Gustaf</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler,
+                    Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005
+                    (Wechselbeziehungen Österreich-Norden, Band 7).</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#m5ca120f-450d-4a59-9a44-d5822a34aee9"/>
+            </event>
+            <event when-iso="1910-04-28">
+               <head>Otto Brahm an Arthur Schnitzler, Olga Schnitzler, 28.4.1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118514245">Brahm, Otto</persName>
+                     </person>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116848723">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Der Briefwechsel Arthur
+               Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar
+               Seidlin. Tübingen: Niemeyer, 1975.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#ya489e21-54d5-40de-a56d-f4548e894428"/>
+            </event>
+            <event when-iso="1910-04-28">
+               <head>Schnitzler, Arthur an Weinberg, Alma [Briefe]</head>
+               <desc>1 Bl.Durchschl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00079497</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

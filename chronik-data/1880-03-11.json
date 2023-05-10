@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1880-03-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1880-03-11.html",
+ "head":
+ "Tagebuch, 11. März 1880",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugen Deimel",
+ "ref":
+ "person_14386"},
+ {
+ "persName":
+ "Julius von Gans-Ludassy",
+ "ref":
+ "person_15338"},
+ {
+ "persName":
+ "Franziska Reich",
+ "ref":
+ "person_17368"},
+ {
+ "persName":
+ "Jacques Pichler",
+ "ref":
+ "person_18766"},
+ {
+ "persName":
+ "Rudolf von Österreich-Ungarn",
+ "ref":
+ "person_19455"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Prinz Julius",
+ "ref":
+ "pmb35972"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00083182",
+ "head":
+ "Schnitzler, Arthur: Prinz Julius. Eine Faschingstragödie [Dramatisches] (Manuskripttitel)",
+ "text":
+ "Erstes Objekt aus der Mappe. 15 Bl.Abschr."
+}] 

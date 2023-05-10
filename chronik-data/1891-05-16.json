@@ -1,0 +1,182 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1891-05-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-05-16.html",
+ "head":
+ "Tagebuch, 16. Mai 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Anton Lechner",
+ "ref":
+ "person_17380"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02663",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02663.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 16. 5. 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Julius Kulka",
+ "ref":
+ "pmb19832"},
+ {
+ "persName":
+ "Falk Schupp",
+ "ref":
+ "pmb12737"},
+ {
+ "persName":
+ "Jaques Joachim",
+ "ref":
+ "pmb18870"},
+ {
+ "persName":
+ "Boris Van-Jung",
+ "ref":
+ "pmb26388"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "pmb26392"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "pmb2453"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb36344"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Jung Wien",
+ "ref":
+ "pmb89143"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brüssel",
+ "ref":
+ "pmb862"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Joseph G. Wieninger, Weinhandlung",
+ "ref":
+ "pmb43528"}
+ ,  {
+ "placeName":
+ "Baden bei Wien",
+ "ref":
+ "pmb662"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Halle an der Saale",
+ "ref":
+ "pmb140"}
+ ,  {
+ "placeName":
+ "Belgien",
+ "ref":
+ "pmb710"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

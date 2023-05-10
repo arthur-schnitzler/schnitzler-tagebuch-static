@@ -1,0 +1,64 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1882-12-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1882-12-01.html",
+ "head":
+ "Tagebuch, 1. Dezember 1882",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franz Chvostek",
+ "ref":
+ "person_14214"},
+ {
+ "persName":
+ "Moritz Rosenthal",
+ "ref":
+ "person_19394"},
+ {
+ "persName":
+ "Nathan Weinstein",
+ "ref":
+ "person_21178"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Belastet",
+ "ref":
+ "pmb35765"}
+ ,  {
+ "title":
+ "Ein Festmahl",
+ "ref":
+ "pmb35794"}
+ ,  {
+ "title":
+ "Fragmente eines modernen Jugendlebens",
+ "ref":
+ "pmb35796"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

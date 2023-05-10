@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-07-31",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-31.html",
+ "head":
+ "Tagebuch, 31. Juli 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto David Ellstätter",
+ "ref":
+ "person_14727"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Stockholm",
+ "ref":
+ "pmb1119"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00575",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00575.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 31. 7. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schweden",
+ "ref":
+ "pmb44335"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Hotel König von Dänemark",
+ "ref":
+ "pmb40903"}
+ ,  {
+ "placeName":
+ "Trollhättan-Fälle",
+ "ref":
+ "pmb42675"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/1119/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/1119/",
+ "head":
+ "Stockholm"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40705/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40705/",
+ "head":
+ "Grand Hotel Stockholm"
+}] 

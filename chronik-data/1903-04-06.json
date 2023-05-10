@@ -1,0 +1,223 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-04-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-04-06.html",
+ "head":
+ "Tagebuch, 6. April 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Staal",
+ "ref":
+ "person_20312"},
+ {
+ "persName":
+ "Anna Sikora",
+ "ref":
+ "person_20523"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01287",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01287.html",
+ "head":
+ "Arthur Schnitzler an Hermann Bahr, 6. 4. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Alfred Deutsch-German",
+ "ref":
+ "pmb2288"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "pmb2284"},
+ {
+ "persName":
+ "Isidor Singer",
+ "ref":
+ "pmb12790"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Rezensionen. Wiener Theater 1901 bis 1903",
+ "ref":
+ "pmb29891"}
+ ,  {
+ "title":
+ "Neues Wiener Journal",
+ "ref":
+ "pmb36376"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Die Zeit",
+ "ref":
+ "pmb35935"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neues Wiener Journal",
+ "ref":
+ "pmb29320"}
+ ,  {
+ "orgName":
+ "Die Zeit. Wiener Wochenschrift",
+ "ref":
+ "pmb29209"}
+ ,  {
+ "orgName":
+ "Die Zeit",
+ "ref":
+ "pmb29626"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Kuranstalt Dr. Konried",
+ "ref":
+ "pmb80"}
+ ,  {
+ "placeName":
+ "Reichenau an der Rax",
+ "ref":
+ "pmb483"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041055",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041055.html",
+ "head":
+ "Schnitzler an Bahr, 6. 4. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Alfred Deutsch-German",
+ "ref":
+ "pmb2288"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "pmb2284"},
+ {
+ "persName":
+ "Isidor Singer",
+ "ref":
+ "pmb12790"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Rezensionen. Wiener Theater 1901 bis 1903",
+ "ref":
+ "pmb29891"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Reichenau an der Rax",
+ "ref":
+ "pmb483"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neues Wiener Journal",
+ "ref":
+ "pmb29320"}
+ ,  {
+ "orgName":
+ "Die Zeit",
+ "ref":
+ "pmb29626"}
+ ]
+}
+}] 

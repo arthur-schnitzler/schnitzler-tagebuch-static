@@ -1,0 +1,177 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-06-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-06-29.html",
+ "head":
+ "Tagebuch, 29. Juni 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Alois Dominik von Stefenelli",
+ "ref":
+ "person_20340"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bozen",
+ "ref":
+ "pmb40260"}
+ ,  {
+ "placeName":
+ "Carezza",
+ "ref":
+ "pmb91003"}
+ ,  {
+ "placeName":
+ "San Martino di Castrozza",
+ "ref":
+ "pmb44311"}
+ ,  {
+ "placeName":
+ "Canazei",
+ "ref":
+ "pmb40307"}
+ ,  {
+ "placeName":
+ "Passo Pordoi",
+ "ref":
+ "pmb91504"}
+ ,  {
+ "placeName":
+ "Arabba",
+ "ref":
+ "pmb40354"}
+ ,  {
+ "placeName":
+ "Passo di Falzarego",
+ "ref":
+ "pmb90613"}
+ ,  {
+ "placeName":
+ "Cortina d'Ampezzo",
+ "ref":
+ "pmb34199"}
+ ,  {
+ "placeName":
+ "Toblach",
+ "ref":
+ "pmb987"}
+ ,  {
+ "placeName":
+ "Brixen",
+ "ref":
+ "pmb43040"}
+ ,  {
+ "placeName":
+ "Vahrn",
+ "ref":
+ "pmb946"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40260/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40260/",
+ "head":
+ "Bozen"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90613/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90613/",
+ "head":
+ "Passo di Falzarego"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp223",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp223.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 25. Juni – 1. Juli 1925"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00071874",
+ "head":
+ "Schnitzler, Lili an Schnitzler, Arthur [Briefe]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili (1909-1928) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/131362089"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00076282",
+ "head":
+ "Liebmann, R. W. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Werk-Verlag &lt;Berlin&gt;",
+ "ref":
+ "http://d-nb.info/gnd/10116029-X"}]
+}
+}] 

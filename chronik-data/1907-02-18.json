@@ -1,0 +1,92 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-02-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-02-18.html",
+ "head":
+ "Tagebuch, 18. Februar 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ferdinand Kürnberger",
+ "ref":
+ "person_17169"},
+ {
+ "persName":
+ "Hans Müller",
+ "ref":
+ "person_18297"},
+ {
+ "persName":
+ "Franz Nabl",
+ "ref":
+ "person_18344"},
+ {
+ "persName":
+ "August von Platen",
+ "ref":
+ "person_18827"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Sterben. Novelle",
+ "ref":
+ "pmb30117"}
+ ,  {
+ "title":
+ "Das Wort. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30615"}
+ ,  {
+ "title":
+ "50 Feuilletons",
+ "ref":
+ "pmb78119"}
+ ,  {
+ "title":
+ "Weihe",
+ "ref":
+ "pmb79027"}
+ ,  {
+ "title":
+ "Tagebücher",
+ "ref":
+ "pmb30713"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00037654",
+ "head":
+ "Knepel, Elise an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

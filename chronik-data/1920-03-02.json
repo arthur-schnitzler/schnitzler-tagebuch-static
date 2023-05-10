@@ -1,0 +1,74 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-03-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-03-02.html",
+ "head":
+ "Tagebuch, 2. März 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "David Josef Bach",
+ "ref":
+ "person_13341"},
+ {
+ "persName":
+ "Franz Werfel",
+ "ref":
+ "person_21243"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Thaddäus Rittner",
+ "ref":
+ "person_19290"},
+ {
+ "persName":
+ "Stefan Hock",
+ "ref":
+ "person_16247"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Tragödie des Eumenes",
+ "ref":
+ "pmb77452"}
+ ,  {
+ "title":
+ "Spiegelmensch",
+ "ref":
+ "pmb76580"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

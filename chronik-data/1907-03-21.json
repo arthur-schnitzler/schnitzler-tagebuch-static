@@ -1,0 +1,112 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-03-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-03-21.html",
+ "head":
+ "Tagebuch, 21. März 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Anton Bum",
+ "ref":
+ "person_14061"},
+ {
+ "persName":
+ "Paul Cézanne",
+ "ref":
+ "person_14170"},
+ {
+ "persName":
+ "Paul Gauguin",
+ "ref":
+ "person_15358"},
+ {
+ "persName":
+ "Eva Marie Goldmann",
+ "ref":
+ "person_15526"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Irene Mandl",
+ "ref":
+ "person_17821"},
+ {
+ "persName":
+ "Oskar Mayer",
+ "ref":
+ "person_18021"},
+ {
+ "persName":
+ "Carl Moll",
+ "ref":
+ "person_18218"},
+ {
+ "persName":
+ "Steiner",
+ "ref":
+ "person_20366"},
+ {
+ "persName":
+ "Gustav Klimt",
+ "ref":
+ "person_16910"},
+ {
+ "persName":
+ "Irene Mandl",
+ "ref":
+ "person_17822"},
+ {
+ "persName":
+ "Ludwig Mandl",
+ "ref":
+ "person_17825"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Wort. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30615"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bangkok",
+ "ref":
+ "pmb90307"}
+ ,  {
+ "placeName":
+ "Meran",
+ "ref":
+ "pmb43520"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

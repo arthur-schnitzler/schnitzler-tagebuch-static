@@ -1,0 +1,105 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-06-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-06-01.html",
+ "head":
+ "Tagebuch, 1. Juni 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Bettina von Arnim",
+ "ref":
+ "person_13260"},
+ {
+ "persName":
+ "Pierre Bourdeille de Brantôme",
+ "ref":
+ "person_13927"},
+ {
+ "persName":
+ "Johannes Vilhelm Jensen",
+ "ref":
+ "person_16538"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Goethes Briefwechsel mit einem Kinde",
+ "ref":
+ "pmb78113"}
+ ,  {
+ "title":
+ "Madame d'Ora. Roman",
+ "ref":
+ "pmb78065"}
+ ,  {
+ "title":
+ "Goethes Unterhaltungen mit Friedrich Soret",
+ "ref":
+ "pmb81331"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Heiligenkreuz",
+ "ref":
+ "pmb90845"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/75/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/75/",
+ "head":
+ "Hinterbrühl"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44510/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44510/",
+ "head":
+ "Hotel Radetzky"
+}] 

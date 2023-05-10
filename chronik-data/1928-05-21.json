@@ -1,0 +1,100 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-05-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-05-21.html",
+ "head":
+ "Tagebuch, 21. Mai 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "person_21109"},
+ {
+ "persName":
+ "Martha Wassermann",
+ "ref":
+ "person_21110"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Abenteurernovelle",
+ "ref":
+ "pmb30299"}
+ ,  {
+ "title":
+ "Aphoristisches",
+ "ref":
+ "pmb35745"}
+ ,  {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ,  {
+ "title":
+ "Der Fall Maurizius",
+ "ref":
+ "pmb76938"}
+ ,  {
+ "title":
+ "Das lebendige Herz",
+ "ref":
+ "pmb81463"}
+ ,  {
+ "title":
+ "Eine Frau reist durch Amerika",
+ "ref":
+ "pmb81467"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Seis am Schlern",
+ "ref":
+ "pmb988"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp548",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp548.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 21. Mai – 5. Juni 1928"
+}] 

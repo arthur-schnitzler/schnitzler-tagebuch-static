@@ -1,0 +1,192 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/KDV_K2_T5_0506",
+ "head":
+ "Komödie der Verführung, msl. Werkniederschrift 5"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-02-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-02-02.html",
+ "head":
+ "Tagebuch, 2. Februar 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"},
+ {
+ "persName":
+ "August Richter",
+ "ref":
+ "person_19236"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Leben und Taten des scharfsinnigen Edlen Don Quixote von la Mancha",
+ "ref":
+ "pmb77915"}
+ ,  {
+ "title":
+ "Hamlet",
+ "ref":
+ "pmb30009"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041570",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041570.html",
+ "head":
+ "Josef Redlich an Bahr, 2. 2. 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josef Redlich",
+ "ref":
+ "pmb12481"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Walther Rathenau",
+ "ref":
+ "pmb12471"},
+ {
+ "persName":
+ "Ernst von Seidler-Feuchtenegg",
+ "ref":
+ "pmb2530"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die neue Wirtschaft",
+ "ref":
+ "pmb32378"}
+ ,  {
+ "title":
+ "Tagebuch. 27. Januar [1918]",
+ "ref":
+ "pmb32290"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Armbrustergasse",
+ "ref":
+ "pmb722"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Preußen",
+ "ref":
+ "pmb206"}
+ ,  {
+ "placeName":
+ "England",
+ "ref":
+ "pmb254"}
+ ,  {
+ "placeName":
+ "Ukraine",
+ "ref":
+ "pmb666"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neues Wiener Journal",
+ "ref":
+ "pmb29320"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00074889",
+ "head":
+ "Würz, Richard an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00082897",
+ "head":
+ "Schnitzler, Arthur: Komödie der Verführung [Dramatisches] (Drucktitel)",
+ "text":
+ "Letztes Objekt aus der Mappe. ca 50 Bl."
+}] 

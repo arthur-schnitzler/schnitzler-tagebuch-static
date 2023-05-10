@@ -1,0 +1,70 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1916-06-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-06-21.html",
+ "head":
+ "Tagebuch, 21. Juni 1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ,  {
+ "title":
+ "Hidalla",
+ "ref":
+ "pmb76464"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Alpen",
+ "ref":
+ "pmb117"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00073532",
+ "head":
+ "Wiegand, J. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Kte 1 Bl."
+}] 

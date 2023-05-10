@@ -1,0 +1,296 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-08-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-08-11.html",
+ "head":
+ "Tagebuch, 11. August 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Entsch",
+ "ref":
+ "person_14766"},
+ {
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "person_17108"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00250",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00250.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 11. 8. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Marianne Benedict",
+ "ref":
+ "pmb13970"},
+ {
+ "persName":
+ "Markus Benedict",
+ "ref":
+ "pmb13973"},
+ {
+ "persName":
+ "Bertha Flegmann",
+ "ref":
+ "pmb16312"},
+ {
+ "persName":
+ "Josef Jarno",
+ "ref":
+ "pmb2601"},
+ {
+ "persName":
+ "Grethe Wreden",
+ "ref":
+ "pmb27355"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Camelias",
+ "ref":
+ "pmb30177"}
+ ,  {
+ "title":
+ "Der Tod Georgs",
+ "ref":
+ "pmb31535"}
+ ,  {
+ "title":
+ "Wiener Abendpost",
+ "ref":
+ "pmb41264"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Literatur. »Bunte Reihe.« Ein Geschichtenbuch von Moritz Goldschmidt. »Anatol« von Arthur Schnitzler",
+ "ref":
+ "pmb34223"}
+ ,  {
+ "title":
+ "Ischler Wochenblatt",
+ "ref":
+ "pmb42152"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Freund &amp; Jeckel",
+ "ref":
+ "pmb39772"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00251",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00251.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, 11. 8. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Gabriele D’Annunzio",
+ "ref":
+ "pmb2142"},
+ {
+ "persName":
+ "Florentine Galliny",
+ "ref":
+ "pmb7331"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Eduard Michael Kafka",
+ "ref":
+ "pmb2563"},
+ {
+ "persName":
+ "Friedrich Michael Fels",
+ "ref":
+ "pmb2450"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Gabriele d’Annunzio",
+ "ref":
+ "pmb31873"}
+ ,  {
+ "title":
+ "Literatur. »Bunte Reihe.« Ein Geschichtenbuch von Moritz Goldschmidt. »Anatol« von Arthur Schnitzler",
+ "ref":
+ "pmb34223"}
+ ,  {
+ "title":
+ "Einleitung",
+ "ref":
+ "pmb30967"}
+ ,  {
+ "title":
+ "Die kleine Komödie",
+ "ref":
+ "pmb31975"}
+ ,  {
+ "title":
+ "Artifex",
+ "ref":
+ "pmb29821"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Alexanderzug",
+ "ref":
+ "pmb34227"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Abendpost",
+ "ref":
+ "pmb29622"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Pustertal",
+ "ref":
+ "pmb724"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ,  {
+ "placeName":
+ "Ägypten",
+ "ref":
+ "pmb211"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}] 

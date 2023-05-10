@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-07-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-07-21.html",
+ "head":
+ "Tagebuch, 21. Juli 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Mathilde Cronbach",
+ "ref":
+ "person_14308"},
+ {
+ "persName":
+ "Hermine Delia",
+ "ref":
+ "person_14397"},
+ {
+ "persName":
+ "Sacha Guitry",
+ "ref":
+ "person_15747"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Deburau",
+ "ref":
+ "pmb80638"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kreuzberg",
+ "ref":
+ "pmb91067"}
+ ,  {
+ "placeName":
+ "Payerbachgraben",
+ "ref":
+ "pmb92440"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91067/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91067/",
+ "head":
+ "Kreuzberg"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00037438",
+ "head":
+ "Kappstein, Theodor an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor (1870-1960) Kappstein",
+ "ref":
+ "http://d-nb.info/gnd/116053887"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00041458",
+ "head":
+ "Rheinhardt, Gertrude an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1917-06-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-06-12.html",
+ "head":
+ "Tagebuch, 12. Juni 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Habsburg",
+ "ref":
+ "person_15827"},
+ {
+ "persName":
+ "Karl VI.",
+ "ref":
+ "person_16725"},
+ {
+ "persName":
+ "Maria Theresia von Österreich",
+ "ref":
+ "person_17880"},
+ {
+ "persName":
+ "Franz I.",
+ "ref":
+ "person_15148"},
+ {
+ "persName":
+ "Josef II.",
+ "ref":
+ "person_16586"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Die Frau des Richters. Novelle",
+ "ref":
+ "pmb30751"}
+ ,  {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Kaiser Josef II.",
+ "ref":
+ "pmb30843"}
+ ,  {
+ "title":
+ "Landsknecht",
+ "ref":
+ "pmb30753"}
+ ,  {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/521/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/521/",
+ "head":
+ "Bad Gastein"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34014/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34014/",
+ "head":
+ "Villa Dr. Wassing"
+}] 

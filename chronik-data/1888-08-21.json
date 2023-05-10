@@ -1,0 +1,44 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1888-08-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-08-21.html",
+ "head":
+ "Tagebuch, 21. August 1888",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Adele Spitzer",
+ "ref":
+ "person_20274"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brüssel",
+ "ref":
+ "pmb862"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/862/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/862/",
+ "head":
+ "Brüssel"
+}] 

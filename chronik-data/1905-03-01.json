@@ -1,0 +1,296 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-03-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-03-01.html",
+ "head":
+ "Tagebuch, 1. März 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Edmund von Gutmann-Gelse",
+ "ref":
+ "person_15776"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Markbreiter",
+ "ref":
+ "person_17893"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01503",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01503.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, [1.?] 3. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Mathilde Wesendonck",
+ "ref":
+ "pmb2266"},
+ {
+ "persName":
+ "Richard Wagner",
+ "ref":
+ "pmb13024"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Börsenblatt für den deutschen Buchhandel",
+ "ref":
+ "pmb47979"}
+ ,  {
+ "title":
+ "Sanna. Schauspiel in fünf Aufzügen",
+ "ref":
+ "pmb29901"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "S. Fischer Verlag",
+ "ref":
+ "pmb29639"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041579",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041579.html",
+ "head":
+ "Bahr: Widmungsexemplar Sanna, März 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Sanna. Schauspiel in fünf Aufzügen",
+ "ref":
+ "pmb29901"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "S. Fischer Verlag",
+ "ref":
+ "pmb29639"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "T030052",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/T030052.html",
+ "head":
+ "Schnitzler: [Leseliste], [frühestens März 1905]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die neuen Menschen. Ein Schauspiel",
+ "ref":
+ "pmb31707"}
+ ,  {
+ "title":
+ "Die gute Schule. Seelenstände",
+ "ref":
+ "pmb31991"}
+ ,  {
+ "title":
+ "Die große Sünde",
+ "ref":
+ "pmb32244"}
+ ,  {
+ "title":
+ "Die Mutter. In drei Acten",
+ "ref":
+ "pmb30963"}
+ ,  {
+ "title":
+ "Russische Reise",
+ "ref":
+ "pmb30175"}
+ ,  {
+ "title":
+ "Studien zur Kritik der Moderne",
+ "ref":
+ "pmb31275"}
+ ,  {
+ "title":
+ "Zur Kritik der Moderne",
+ "ref":
+ "pmb32440"}
+ ,  {
+ "title":
+ "Die Überwindung des Naturalismus",
+ "ref":
+ "pmb31945"}
+ ,  {
+ "title":
+ "Fin de Siècle",
+ "ref":
+ "pmb32246"}
+ ,  {
+ "title":
+ "Neben der Liebe",
+ "ref":
+ "pmb32248"}
+ ,  {
+ "title":
+ "Theater. Ein Wiener Roman",
+ "ref":
+ "pmb31999"}
+ ,  {
+ "title":
+ "Wirkung in die Ferne und Anderes",
+ "ref":
+ "pmb29947"}
+ ,  {
+ "title":
+ "Der Krampus",
+ "ref":
+ "pmb29881"}
+ ,  {
+ "title":
+ "Der Franzl. Fünf Bilder aus dem Leben eines guten Mannes",
+ "ref":
+ "pmb29851"}
+ ,  {
+ "title":
+ "Sanna. Schauspiel in fünf Aufzügen",
+ "ref":
+ "pmb29901"}
+ ,  {
+ "title":
+ "[Leseliste]",
+ "ref":
+ "pmb32276"}
+ ]
+}
+}] 

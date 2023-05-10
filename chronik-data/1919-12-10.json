@@ -1,0 +1,121 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-12-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-12-10.html",
+ "head":
+ "Tagebuch, 10. Dezember 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Bauer",
+ "ref":
+ "person_13476"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "person_17838"},
+ {
+ "persName":
+ "Karl Renner",
+ "ref":
+ "person_19190"},
+ {
+ "persName":
+ "Romain Rolland",
+ "ref":
+ "person_19333"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Karl Seitz",
+ "ref":
+ "person_20044"},
+ {
+ "persName":
+ "Wilhelm II. von Preußen",
+ "ref":
+ "person_21338"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Fiorenza",
+ "ref":
+ "pmb76545"}
+ ,  {
+ "title":
+ "Herr und Hund",
+ "ref":
+ "pmb76547"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00044539",
+ "head":
+ "Schnitzler, Arthur an Anzengruber, Karl [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karl (1876-1927) Anzengruber",
+ "ref":
+ "http://d-nb.info/gnd/116315776"}]
+}
+}] 

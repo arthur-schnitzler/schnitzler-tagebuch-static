@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-01-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-01-13.html",
+ "head":
+ "Tagebuch, 13. Januar 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johannes Brahms",
+ "ref":
+ "person_13914"},
+ {
+ "persName":
+ "Friedrich Buxbaum",
+ "ref":
+ "person_14097"},
+ {
+ "persName":
+ "Ludwig Hirschfeld",
+ "ref":
+ "person_16225"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Franz Mairecker",
+ "ref":
+ "person_17795"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Streichsextett Nr. 1 B-Dur op. 18",
+ "ref":
+ "pmb78219"}
+ ,  {
+ "title":
+ "Streichsextett Nr. 2 G-Dur op. 36",
+ "ref":
+ "pmb78220"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kitzbühel",
+ "ref":
+ "pmb61439"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

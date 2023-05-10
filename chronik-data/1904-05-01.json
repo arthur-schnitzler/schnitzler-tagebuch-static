@@ -1,0 +1,55 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-05-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-05-01.html",
+ "head":
+ "Tagebuch, 1. Mai 1904",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Rijeka",
+ "ref":
+ "pmb44246"}
+ ,  {
+ "placeName":
+ "Opatija",
+ "ref":
+ "pmb38096"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44246/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44246/",
+ "head":
+ "Rijeka"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/38096/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/38096/",
+ "head":
+ "Opatija"
+}] 

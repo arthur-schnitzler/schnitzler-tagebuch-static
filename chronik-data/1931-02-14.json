@@ -1,0 +1,278 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1931-02-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-02-14.html",
+ "head":
+ "Tagebuch, 14. Februar 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jean Billiter",
+ "ref":
+ "person_13730"},
+ {
+ "persName":
+ "Friedrich Carl Clauser",
+ "ref":
+ "person_14230"},
+ {
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Ferdinand Donath",
+ "ref":
+ "person_14482"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Rosa Menczel",
+ "ref":
+ "person_18064"},
+ {
+ "persName":
+ "Albert von Mensdorff-Pouilly-Dietrichstein",
+ "ref":
+ "person_18079"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Ferdinand Onno",
+ "ref":
+ "person_18556"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Georg Reimers",
+ "ref":
+ "person_19139"},
+ {
+ "persName":
+ "Paula Schmidl",
+ "ref":
+ "person_19756"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "person_19828"},
+ {
+ "persName":
+ "Anton Wildgans",
+ "ref":
+ "person_21328"},
+ {
+ "persName":
+ "Carl von Zeska",
+ "ref":
+ "person_21543"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"},
+ {
+ "persName":
+ "Albert Heine",
+ "ref":
+ "person_16046"},
+ {
+ "persName":
+ "Edith Schneider",
+ "ref":
+ "person_19802"},
+ {
+ "persName":
+ "Franz Schneiderhan",
+ "ref":
+ "person_19812"},
+ {
+ "persName":
+ "Elly Schnitzler",
+ "ref":
+ "person_19819"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/14/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/14/",
+ "head":
+ "Burgtheater"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/35418/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/35418/",
+ "head":
+ "Uraufführung von Der Gang zum Weiher, 14.2.1931",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Georg Reimers",
+ "ref":
+ "pmb12498"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "pmb12435"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "pmb12698"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "pmb24413"},
+ {
+ "persName":
+ "Elly Schnitzler",
+ "ref":
+ "pmb24414"},
+ {
+ "persName":
+ "Ewald Balser",
+ "ref":
+ "pmb10821"},
+ {
+ "persName":
+ "Else Wohlgemuth",
+ "ref":
+ "pmb13149"},
+ {
+ "persName":
+ "Ebba Johannsen",
+ "ref":
+ "pmb18879"},
+ {
+ "persName":
+ "Ferdinand Onno",
+ "ref":
+ "pmb12378"},
+ {
+ "persName":
+ "Fred Hennings",
+ "ref":
+ "pmb11654"},
+ {
+ "persName":
+ "Albert Heine",
+ "ref":
+ "pmb2743"},
+ {
+ "persName":
+ "Fritz Müller",
+ "ref":
+ "pmb21713"},
+ {
+ "persName":
+ "Erna Michall",
+ "ref":
+ "pmb49709"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ]
+}
+}] 

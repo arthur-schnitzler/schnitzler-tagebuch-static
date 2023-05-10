@@ -1,0 +1,169 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-08-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-08-08.html",
+ "head":
+ "Tagebuch, 8. August 1899",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Caprile",
+ "ref":
+ "pmb90446"}
+ ,  {
+ "placeName":
+ "Fedaia",
+ "ref":
+ "pmb90084"}
+ ,  {
+ "placeName":
+ "Alba-Penia",
+ "ref":
+ "pmb90208"}
+ ,  {
+ "placeName":
+ "Campitello di Fassa",
+ "ref":
+ "pmb90436"}
+ ,  {
+ "placeName":
+ "Vigo di Fassa",
+ "ref":
+ "pmb40362"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02883",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02883.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 8. 8. 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rennes",
+ "ref":
+ "pmb55293"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Frankgasse",
+ "ref":
+ "pmb397"}
+ ,  {
+ "placeName":
+ "Centre pénitentiaire pour femmes de Rennes",
+ "ref":
+ "pmb142350"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90446/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90446/",
+ "head":
+ "Caprile"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90084/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90084/",
+ "head":
+ "Fedaia"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90208/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90208/",
+ "head":
+ "Alba-Penia"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90436/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90436/",
+ "head":
+ "Campitello di Fassa"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40362/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40362/",
+ "head":
+ "Vigo di Fassa"
+}] 

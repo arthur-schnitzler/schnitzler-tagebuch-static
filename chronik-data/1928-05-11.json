@@ -1,0 +1,169 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-05-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-05-11.html",
+ "head":
+ "Tagebuch, 11. Mai 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Sami Weinstein’s Erbschaft",
+ "ref":
+ "pmb81378"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02500",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02500.html",
+ "head":
+ "Robert Adam an Arthur Schnitzler, 11. 5. 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"},
+ {
+ "persName":
+ "Arthur Schopenhauer",
+ "ref":
+ "pmb5787"},
+ {
+ "persName":
+ "Henrik Ibsen",
+ "ref":
+ "pmb11798"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ,  {
+ "title":
+ "Upanishaden",
+ "ref":
+ "pmb33620"}
+ ,  {
+ "title":
+ "Ein Leben",
+ "ref":
+ "pmb33622"}
+ ,  {
+ "title":
+ "Märchenkomödie",
+ "ref":
+ "pmb33666"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Volksgarten",
+ "ref":
+ "pmb103"}
+ ,  {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb8"}
+ ,  {
+ "placeName":
+ "Schloß Schönbrunn",
+ "ref":
+ "pmb21799"}
+ ,  {
+ "placeName":
+ "Jardin du Luxembourg",
+ "ref":
+ "pmb1257"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00039007",
+ "head":
+ "Lipschütz, Leopold an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopold (1870-1939) Lipschütz",
+ "ref":
+ "http://d-nb.info/gnd/1019772751"}]
+}
+}] 

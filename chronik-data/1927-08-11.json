@@ -1,0 +1,80 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1927-08-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-08-11.html",
+ "head":
+ "Tagebuch, 11. August 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Abel Bonnard",
+ "ref":
+ "person_13868"},
+ {
+ "persName":
+ "Hermann Hesse",
+ "ref":
+ "person_16171"},
+ {
+ "persName":
+ "Alois Dominik von Stefenelli",
+ "ref":
+ "person_20340"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "La vie amoureuse d'Henri Beyle (Stendhal)",
+ "ref":
+ "pmb80208"}
+ ,  {
+ "title":
+ "Der Steppenwolf",
+ "ref":
+ "pmb78499"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Vahrn",
+ "ref":
+ "pmb946"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40260/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40260/",
+ "head":
+ "Bozen"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Hedy Kempny an Arthur Schnitzler, 11.8.1927",
+ "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}] 

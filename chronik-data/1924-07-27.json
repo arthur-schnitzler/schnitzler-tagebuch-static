@@ -1,0 +1,77 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1924-07-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-07-27.html",
+ "head":
+ "Tagebuch, 27. Juli 1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leonid Nikolaevič Andreev",
+ "ref":
+ "person_13198"},
+ {
+ "persName":
+ "Cesare Battisti",
+ "ref":
+ "person_13461"},
+ {
+ "persName":
+ "Joseph Chapiro",
+ "ref":
+ "person_14178"},
+ {
+ "persName":
+ "Otto König",
+ "ref":
+ "person_16971"},
+ {
+ "persName":
+ "Maurice Schwartz",
+ "ref":
+ "person_19955"},
+ {
+ "persName":
+ "Victor Frisch",
+ "ref":
+ "person_15255"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Geschichte von den sieben Gehenkten",
+ "ref":
+ "pmb76780"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Türkenschanzpark",
+ "ref":
+ "pmb113"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

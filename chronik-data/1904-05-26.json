@@ -1,0 +1,75 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-05-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-05-26.html",
+ "head":
+ "Tagebuch, 26. Mai 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alexander Fleischer",
+ "ref":
+ "person_15031"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Naples",
+ "ref":
+ "pmb91330"}
+ ,  {
+ "placeName":
+ "Pompei",
+ "ref":
+ "pmb1283"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91330/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91330/",
+ "head":
+ "Neapel"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/1283/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/1283/",
+ "head":
+ "Pompei"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#g14221ae-8633-4ad0-944c-44805d2c1459",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Alfred Kerr an Arthur Schnitzler, 26.5.1904",
+ "source":
+ "Alfred Kerr, Arthur Schnitzler: »Es ist eine sehr seltsame Gefühlsmischung, die Sie erwecken.« Briefwechsel 1896–1925. Hg. Elgin Helmstaedt. In: Sinn und Form, Jg. 69, H. 5, September/Oktober 2017, S. 581–618."
+}] 

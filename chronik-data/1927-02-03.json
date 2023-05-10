@@ -1,0 +1,169 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1927-02-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-02-03.html",
+ "head":
+ "Tagebuch, 3. Februar 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Franz Rebiczek",
+ "ref":
+ "person_19082"},
+ {
+ "persName":
+ "Harry Piel",
+ "ref":
+ "person_18787"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ,  {
+ "title":
+ "Die große Zirkusattraktion",
+ "ref":
+ "pmb81116"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02480",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02480.html",
+ "head":
+ "Emil Ludwig an Arthur Schnitzler, 3. 2. 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emil Ludwig",
+ "ref":
+ "pmb12126"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Geist im Wort und der Geist in der Tat",
+ "ref":
+ "pmb30051"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "S. Fischer Verlag",
+ "ref":
+ "pmb29639"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ascona",
+ "ref":
+ "pmb49872"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Bülowstraße",
+ "ref":
+ "pmb659"}
+ ,  {
+ "placeName":
+ "Isole di Brissago",
+ "ref":
+ "pmb50619"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00080747",
+ "head":
+ "Winterstein, Alfred von an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.Abschr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred von (1885-1961) Winterstein",
+ "ref":
+ "http://d-nb.info/gnd/121575616"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040043",
+ "head":
+ "Ludwig, Emil an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Tel. 1 Bl.Abschr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emil (1881-1948) Ludwig",
+ "ref":
+ "http://d-nb.info/gnd/118780778"}]
+}
+}] 

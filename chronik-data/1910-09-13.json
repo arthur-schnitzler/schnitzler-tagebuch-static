@@ -1,0 +1,191 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-09-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-09-13.html",
+ "head":
+ "Tagebuch, 13. September 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Moriz Benedikt",
+ "ref":
+ "person_13595"},
+ {
+ "persName":
+ "Leo Birinski",
+ "ref":
+ "person_13739"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Béla M. Felsenburg",
+ "ref":
+ "person_14945"},
+ {
+ "persName":
+ "Alfred Glogau",
+ "ref":
+ "person_15470"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Margarethe Kainz",
+ "ref":
+ "person_16647"},
+ {
+ "persName":
+ "Anna Larssen",
+ "ref":
+ "person_17332"},
+ {
+ "persName":
+ "J. Paul",
+ "ref":
+ "person_18683"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Max Schwarzkopf",
+ "ref":
+ "person_19987"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"},
+ {
+ "persName":
+ "Irene Mandl",
+ "ref":
+ "person_17822"},
+ {
+ "persName":
+ "Jenny Mautner",
+ "ref":
+ "person_17999"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Steglitz",
+ "ref":
+ "pmb91830"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02580",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02580.html",
+ "head":
+ "Marie von Ebner-Eschenbach an Arthur Schnitzler, 13. 9. 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie von Ebner-Eschenbach",
+ "ref":
+ "pmb11216"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Zdislavice",
+ "ref":
+ "pmb65192"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00033358",
+ "head":
+ "Ebner-Eschenbach, Marie von an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Blatt Druck in Versen",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie von (1830-1916) Ebner-Eschenbach",
+ "ref":
+ "http://d-nb.info/gnd/118528661"}]
+}
+}] 

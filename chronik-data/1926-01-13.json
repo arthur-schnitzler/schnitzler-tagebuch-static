@@ -1,0 +1,67 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-01-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-01-13.html",
+ "head":
+ "Tagebuch, 13. Januar 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Helene Binder",
+ "ref":
+ "person_13733"},
+ {
+ "persName":
+ "Josef Pohl",
+ "ref":
+ "person_18846"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Erwin Stranik",
+ "ref":
+ "person_20471"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Phantom der Oper",
+ "ref":
+ "pmb80758"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Colling.",
+ "ref":
+ "pmb92190"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

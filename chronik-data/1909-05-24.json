@@ -1,0 +1,85 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-05-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-05-24.html",
+ "head":
+ "Tagebuch, 24. Mai 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Adolf Lantz",
+ "ref":
+ "person_17324"},
+ {
+ "persName":
+ "Leo Stein",
+ "ref":
+ "person_20351"},
+ {
+ "persName":
+ "Alfred Fekete",
+ "ref":
+ "person_14922"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol. Operettenplan",
+ "ref":
+ "pmb36053"}
+ ,  {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "Die Verhüllte",
+ "ref":
+ "pmb80487"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00075681",
+ "head":
+ "Levetus, A. S. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.Mit 1 Beil. 1 Bl."
+}] 

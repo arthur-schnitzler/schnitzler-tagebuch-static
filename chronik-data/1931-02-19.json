@@ -1,0 +1,178 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1931-02-19",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-02-19.html",
+ "head":
+ "Tagebuch, 19. Februar 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georgette Boner",
+ "ref":
+ "person_13864"},
+ {
+ "persName":
+ "Horace de Carbuccia",
+ "ref":
+ "person_14134"},
+ {
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Maurice Delamain",
+ "ref":
+ "person_14394"},
+ {
+ "persName":
+ "Anna Eisenmenger",
+ "ref":
+ "person_14682"},
+ {
+ "persName":
+ "Louis Gillet",
+ "ref":
+ "person_15430"},
+ {
+ "persName":
+ "Harley Granville-Barker",
+ "ref":
+ "person_15627"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Albin Michel",
+ "ref":
+ "person_18145"},
+ {
+ "persName":
+ "Lucien Quinet",
+ "ref":
+ "person_19002"},
+ {
+ "persName":
+ "Maurice Rémon",
+ "ref":
+ "person_19182"},
+ {
+ "persName":
+ "Jean Rioux",
+ "ref":
+ "person_19279"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "André Mauprey",
+ "ref":
+ "person_17986"},
+ {
+ "persName":
+ "Firmin Gémier",
+ "ref":
+ "person_15384"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ,  {
+ "title":
+ "Krankheit der Jugend",
+ "ref":
+ "pmb79157"}
+ ,  {
+ "title":
+ "Die Drei von der Tankstelle",
+ "ref":
+ "pmb81413"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp889",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp889.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 18.–23. Februar 1931"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d43bae78-6be4-4898-b4e5-86e3d9bc9f34",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Stefan Zweig, 19.2.1931",
+ "source":
+ "Stefan Zweig: Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater. Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)"
+}] 

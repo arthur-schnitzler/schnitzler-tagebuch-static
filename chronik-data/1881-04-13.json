@@ -1,0 +1,54 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1881-04-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1881-04-13.html",
+ "head":
+ "Tagebuch, 13. April 1881",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ida König",
+ "ref":
+ "person_16963"},
+ {
+ "persName":
+ "Jacques Pichler",
+ "ref":
+ "person_18766"},
+ {
+ "persName":
+ "Karl Zucker",
+ "ref":
+ "person_21591"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volksgarten",
+ "ref":
+ "pmb103"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

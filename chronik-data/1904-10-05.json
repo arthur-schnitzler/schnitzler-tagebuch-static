@@ -1,0 +1,379 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-10-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-10-05.html",
+ "head":
+ "Tagebuch, 5. Oktober 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Eleonora Duse",
+ "ref":
+ "person_14574"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Karl Langkammer",
+ "ref":
+ "person_17312"},
+ {
+ "persName":
+ "Rudolf Lothar",
+ "ref":
+ "person_17696"},
+ {
+ "persName":
+ "Ernst Mach",
+ "ref":
+ "person_17768"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "person_21109"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Puppenspieler",
+ "ref":
+ "pmb29873"}
+ ,  {
+ "title":
+ "Literatur",
+ "ref":
+ "pmb29869"}
+ ,  {
+ "title":
+ "Die letzten Masken",
+ "ref":
+ "pmb29877"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Dialog vom Marsyas",
+ "ref":
+ "pmb30065"}
+ ,  {
+ "title":
+ "Herzogin Crevette. Schauspiel in fünf Acten",
+ "ref":
+ "pmb30643"}
+ ,  {
+ "title":
+ "Geschichte der deutschen Höfe seit der Reformation",
+ "ref":
+ "pmb31315"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ,  {
+ "placeName":
+ "VIII., Josefstadt",
+ "ref":
+ "pmb58"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01452",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01452.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 5. 10. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Rembrandt van Rijn",
+ "ref":
+ "pmb5428"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "De Staalmesters",
+ "ref":
+ "pmb51330"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Amsterdam",
+ "ref":
+ "pmb40709"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041241",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041241.html",
+ "head":
+ "Tagebuch von Schnitzler, 5. 10. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "pmb11851"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "pmb13058"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Karl Eduard Vehse",
+ "ref":
+ "pmb27903"},
+ {
+ "persName":
+ "Karl Langkammer",
+ "ref":
+ "pmb12037"},
+ {
+ "persName":
+ "Rudolf Lothar",
+ "ref":
+ "pmb2570"},
+ {
+ "persName":
+ "Eleonora Duse",
+ "ref":
+ "pmb11201"},
+ {
+ "persName":
+ "Ernst Mach",
+ "ref":
+ "pmb12147"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Puppenspieler",
+ "ref":
+ "pmb29873"}
+ ,  {
+ "title":
+ "Die letzten Masken",
+ "ref":
+ "pmb29877"}
+ ,  {
+ "title":
+ "Literatur",
+ "ref":
+ "pmb29869"}
+ ,  {
+ "title":
+ "Der Graf von Charolais. Ein Trauerspiel",
+ "ref":
+ "pmb30233"}
+ ,  {
+ "title":
+ "Dialog vom Marsyas",
+ "ref":
+ "pmb30065"}
+ ,  {
+ "title":
+ "Die Kameliendame. Drama in fünf Akten",
+ "ref":
+ "pmb30641"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Herzogin Crevette. Schauspiel in fünf Acten",
+ "ref":
+ "pmb30643"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ,  {
+ "placeName":
+ "Theater in der Josefstadt",
+ "ref":
+ "pmb40"}
+ ,  {
+ "placeName":
+ "Riedhof",
+ "ref":
+ "pmb44"}
+ ]
+}
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/45067/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45067/",
+ "head":
+ "Aufführung von Herzogin Crevette, 5.10.1904",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Herzogin Crevette. Schauspiel in fünf Acten",
+ "ref":
+ "pmb30643"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Gustav Maran",
+ "ref":
+ "pmb12179"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Theater in der Josefstadt",
+ "ref":
+ "pmb40"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Theater in der Josefstadt",
+ "ref":
+ "pmb39689"}
+ ]
+}
+}] 

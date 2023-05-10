@@ -1,0 +1,67 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-05-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-05-24.html",
+ "head":
+ "Tagebuch, 24. Mai 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ignaz Lustig",
+ "ref":
+ "person_17740"},
+ {
+ "persName":
+ "Alexander Fleischer",
+ "ref":
+ "person_15031"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Taormina",
+ "ref":
+ "pmb906"}
+ ,  {
+ "placeName":
+ "Messina",
+ "ref":
+ "pmb44129"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/906/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/906/",
+ "head":
+ "Taormina"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44129/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44129/",
+ "head":
+ "Messina"
+}] 

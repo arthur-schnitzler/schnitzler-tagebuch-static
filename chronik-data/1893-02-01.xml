@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1893-02-01">Mittwoch, 1. Februar 1893</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1893-02-01">
+               <head>Tagebuch, 1. Februar 1893</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21214">Josefine Lydia von Weisswasser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17114">Oscar Kraus</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb40841">Madame Mongodin</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-02-01.html</idno>
+            </event>
+            <event when-iso="1893-02-01">
+               <head>Arthur Schnitzler an Richard Beer-Hofmann, 1. 2. [1893?]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb40841">Madame Mongodin</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51">I., Innere Stadt</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb338">Wollzeile</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb118">Carl-Theater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00169.html</idno>
+            </event>
+            <event when-iso="1893-02-01">
+               <head>Arthur Schnitzler an Hugo von Hofmannsthal, [1. 2. 1893]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2450">Friedrich Michael Fels</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2147">Peter Altenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2420">Friedrich Schik</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4937">Ede Telcs</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31157">Baumeister Solness</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33698">Hugo von Hofmannsthal</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30195">Familie</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33243">Tagebuch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31975">Die kleine Komödie</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29614">Wiener Akademische Vereinigung</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29716">Bibliographisches Bureau</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29616">Houghton Library</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb83">Österreichisches Museum für Kunst und Industrie</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1283">Pompei</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44172">Nürnberg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb15">Oper</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00170.html</idno>
+            </event>
+            <event when-iso="1893-02-01">
+               <head>Hugo von Hofmannsthal an Arthur Schnitzler, 1. 2. [1893]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2450">Friedrich Michael Fels</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4326">Robert Ehrhart-Ehrhartstein</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30117">Sterben. Novelle</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29424">Deutsche Zeitung</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb566">Siebenbrunnengasse</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00171.html</idno>
+            </event>
+            <event when-iso="1893-02-01">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1893-02-01">
+               <head>Grillparzerstraße</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/412/</idno>
+            </event>
+            <event when-iso="1893-02-01">
+               <head>Glümer, Marie an Schnitzler, Arthur [Briefe]</head>
+               <desc>Erstes Objekt aus der Mappe. 24 Br., 1 Tel. 43 Bl.<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/128385022">Glümer, Marie (1873-1925)</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00034828</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

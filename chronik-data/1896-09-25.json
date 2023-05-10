@@ -1,0 +1,68 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-09-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-09-25.html",
+ "head":
+ "Tagebuch, 25. September 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alfred Robitsek",
+ "ref":
+ "person_19303"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Annie Kalmar",
+ "ref":
+ "person_16670"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00530888",
+ "head":
+ "Schnitzler, Arthur an S. Fischer-Verlag [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Samuel (1859-1934) Fischer",
+ "ref":
+ "http://d-nb.info/gnd/118691406"}]
+}
+}] 

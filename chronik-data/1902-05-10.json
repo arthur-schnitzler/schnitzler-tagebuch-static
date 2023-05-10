@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1902-05-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-05-10.html",
+ "head":
+ "Tagebuch, 10. Mai 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Else Lehmann",
+ "ref":
+ "person_17404"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Stefan Vacano",
+ "ref":
+ "person_20898"},
+ {
+ "persName":
+ "Ottilie Salten",
+ "ref":
+ "person_19543"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Hoffnung",
+ "ref":
+ "pmb79860"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00085716",
+ "head":
+ "Schnitzler, Arthur an Sternay, Hannah [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

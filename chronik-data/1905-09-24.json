@@ -1,0 +1,178 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-09-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-09-24.html",
+ "head":
+ "Tagebuch, 24. September 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Bertha Bauer",
+ "ref":
+ "person_19275"},
+ {
+ "persName":
+ "Dora Erl",
+ "ref":
+ "person_14792"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Le lys rouge",
+ "ref":
+ "pmb78231"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sonnwendstein",
+ "ref":
+ "pmb91776"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02579",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02579.html",
+ "head":
+ "Leo Van-Jung, Franziska Mütter, Richard Beer-Hofmann an Arthur Schnitzler, Olga Schnitzler, [24. 9.?] 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "pmb26392"},
+ {
+ "persName":
+ "Franziska Mütter",
+ "ref":
+ "pmb21766"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Tizian",
+ "ref":
+ "pmb26079"},
+ {
+ "persName":
+ "Isabella Vengerova",
+ "ref":
+ "pmb3068"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "pmb2496"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "La presentazione della Vergine al Tempio",
+ "ref":
+ "pmb59953"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Accademia di belle arti di Venezia",
+ "ref":
+ "pmb44602"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lido",
+ "ref":
+ "pmb259"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Bozen",
+ "ref":
+ "pmb40260"}
+ ,  {
+ "placeName":
+ "Grand Hotel des Bains",
+ "ref":
+ "pmb40983"}
+ ,  {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91735/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91735/",
+ "head":
+ "Semmering"
+}] 

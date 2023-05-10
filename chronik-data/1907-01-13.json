@@ -1,0 +1,245 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-01-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-01-13.html",
+ "head":
+ "Tagebuch, 13. Januar 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Willi Handl",
+ "ref":
+ "person_15898"},
+ {
+ "persName":
+ "Wera Fjodorowna Komissarževskaja",
+ "ref":
+ "person_17018"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "person_17784"},
+ {
+ "persName":
+ "Hans Pfitzner",
+ "ref":
+ "person_18745"},
+ {
+ "persName":
+ "Edmund Reinhardt",
+ "ref":
+ "person_19152"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "person_19154"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "person_20509"},
+ {
+ "persName":
+ "Elsa Walter",
+ "ref":
+ "person_21081"},
+ {
+ "persName":
+ "Isabella Vengerova",
+ "ref":
+ "person_21231"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"},
+ {
+ "persName":
+ "Max Reger",
+ "ref":
+ "person_19103"},
+ {
+ "persName":
+ "Bruno Walter",
+ "ref":
+ "person_21080"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ,  {
+ "placeName":
+ "Baku",
+ "ref":
+ "pmb90304"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041281",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041281.html",
+ "head":
+ "Tagebuch von Schnitzler, 13. 1. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Willi Handl",
+ "ref":
+ "pmb2229"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "pmb12504"},
+ {
+ "persName":
+ "Edmund Reinhardt",
+ "ref":
+ "pmb2984"},
+ {
+ "persName":
+ "Isabella Vengerova",
+ "ref":
+ "pmb3068"},
+ {
+ "persName":
+ "Zinaida A. Vengerova",
+ "ref":
+ "pmb26937"},
+ {
+ "persName":
+ "Wera Fjodorowna Komissarževskaja",
+ "ref":
+ "pmb19554"},
+ {
+ "persName":
+ "Yulia Leonidovna Slonimsky",
+ "ref":
+ "pmb27699"},
+ {
+ "persName":
+ "Bruno Walter",
+ "ref":
+ "pmb13041"},
+ {
+ "persName":
+ "Elsa Walter",
+ "ref":
+ "pmb26650"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "pmb12870"},
+ {
+ "persName":
+ "Max Reger",
+ "ref":
+ "pmb12484"},
+ {
+ "persName":
+ "Hans Pfitzner",
+ "ref":
+ "pmb2674"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "pmb12163"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "pmb12160"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ,  {
+ "placeName":
+ "Baku",
+ "ref":
+ "pmb922"}
+ ]
+}
+}] 

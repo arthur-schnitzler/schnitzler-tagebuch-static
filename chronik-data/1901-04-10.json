@@ -1,0 +1,77 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1901-04-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-04-10.html",
+ "head":
+ "Tagebuch, 10. April 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Alexander Jaray",
+ "ref":
+ "person_16513"},
+ {
+ "persName":
+ "Ellen Key",
+ "ref":
+ "person_16829"},
+ {
+ "persName":
+ "Helge Rode",
+ "ref":
+ "person_19310"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Vatican City",
+ "ref":
+ "pmb91997"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/445/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/445/",
+ "head":
+ "Rom"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00072937",
+ "head":
+ "Wolfbauer, Franz an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

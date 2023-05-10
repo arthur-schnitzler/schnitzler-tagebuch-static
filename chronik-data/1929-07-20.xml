@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1929-07-20">Samstag, 20. Juli 1929</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1929-07-20">
+               <head>Tagebuch, 20. Juli 1929</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14129">Arnoldo Cappellini</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14926">Jakob Feldhammer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16788">Buster Keaton</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18137">Dora Michaelis</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18846">Josef Pohl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13953">Hugo Breitner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19738">Viola Gabriele Schlesinger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13139">Ruth Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18881">Frieda Pollak</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19704">Otto Paul Schinnerer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33784">Die Gouvernante</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31547">Das Haus Delorme. Eine Familienszene</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30625">Die Quellen des Nil</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30945">Im Spiel der Sommerlüfte. In drei Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb80331">Der Seefahrer</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb44311">San Martino di Castrozza</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40306">Italien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-07-20.html</idno>
+            </event>
+            <event when-iso="1929-07-20">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1929-07-20">
+               <head>Tagebuch von Clara Katharina Pollaczek, 17.–21. Juli 1929</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp709.html</idno>
+            </event>
+            <event when-iso="1929-07-20">
+               <head>Arthur Schnitzler an Olga Schnitzler, 20. 7. 1929</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116848723">Schnitzler, Olga</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne
+                    Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter:
+                    https://schnitzler-briefe.acdh.oeaw.ac.at/)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3"/>
+            </event>
+            <event when-iso="1929-07-20">
+               <head>Schnitzler, Arthur an Deutsches Schauspielhaus &lt;Hamburg&gt; [Briefe]</head>
+               <desc>1 Bl.Durchschl.<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/2008884-X">Deutsches Schauspielhaus &lt;Hamburg&gt;</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00045761</idno>
+            </event>
+            <event when-iso="1929-07-20">
+               <head>Schnitzler, Arthur an Balogh, Vilma [Briefe]</head>
+               <desc>1 Bl.Durchschl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00078801</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

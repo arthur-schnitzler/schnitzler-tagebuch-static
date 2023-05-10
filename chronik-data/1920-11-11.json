@@ -1,0 +1,89 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-11-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-11-11.html",
+ "head":
+ "Tagebuch, 11. November 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karl Menger",
+ "ref":
+ "person_18075"},
+ {
+ "persName":
+ "Giacomo Puccini",
+ "ref":
+ "person_18988"},
+ {
+ "persName":
+ "Erich Paul Stekel",
+ "ref":
+ "person_20390"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Triptychon",
+ "ref":
+ "pmb78247"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Dora Michaelis, 11. 11. 1920",
+ "source":
+ "Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter: https://schnitzler-briefe.acdh.oeaw.ac.at/)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00037802",
+ "head":
+ "Kola, Richard an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard (1872-1939) Kola",
+ "ref":
+ "http://d-nb.info/gnd/1013738721"}]
+}
+}] 

@@ -1,0 +1,122 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-10-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-10-01.html",
+ "head":
+ "Tagebuch, 1. Oktober 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Moriz Benedikt",
+ "ref":
+ "person_13595"},
+ {
+ "persName":
+ "Sigmund Freud",
+ "ref":
+ "person_15172"},
+ {
+ "persName":
+ "Julius von Gans-Ludassy",
+ "ref":
+ "person_15338"},
+ {
+ "persName":
+ "Olga von Gans-Ludassy",
+ "ref":
+ "person_15340"},
+ {
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "person_16165"},
+ {
+ "persName":
+ "Margarethe Manassewitsch",
+ "ref":
+ "person_17804"},
+ {
+ "persName":
+ "Max Milrath",
+ "ref":
+ "person_18176"},
+ {
+ "persName":
+ "Karl Pollak",
+ "ref":
+ "person_18887"},
+ {
+ "persName":
+ "Gertrude Felice von Landesberger",
+ "ref":
+ "person_19227"},
+ {
+ "persName":
+ "Irene Schlemmer-Ambros",
+ "ref":
+ "person_19723"},
+ {
+ "persName":
+ "Oswald Spengler",
+ "ref":
+ "person_20246"},
+ {
+ "persName":
+ "Paul Wertheimer",
+ "ref":
+ "person_21264"},
+ {
+ "persName":
+ "Alfred von Winterstein",
+ "ref":
+ "person_21387"},
+ {
+ "persName":
+ "Richard Specht",
+ "ref":
+ "person_20238"},
+ {
+ "persName":
+ "Elisabeth Melanie von Gans-Ludassy",
+ "ref":
+ "person_15337"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Arthur Schnitzler. Der Dichter und sein Werk. Eine Studie",
+ "ref":
+ "pmb30837"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1913-04-26">Samstag, 26. April 1913</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1913-04-26">
+               <head>Tagebuch, 26. April 1913</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13355">Eugenie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13359">Stefanie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18399">Margarete Neudörfer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19846">Hugo Schönbrunn</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20242">Felix Speidel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20532">Alberto Stringa</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21600">Marianne Giustiniani</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92518">Schönbrunn</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb662">Baden bei Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-04-26.html</idno>
+            </event>
+            <event when-iso="1913-04-26">
+               <head>Peter Altenberg an Arthur Schnitzler, [26. 4. 1913]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2147">Peter Altenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23360">Karl Richter</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2260">Georg Engländer</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb153">Otto-Wagner-Spital</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02133.html</idno>
+            </event>
+            <event when-iso="1913-04-26">
+               <head>Arno Holz an Arthur Schnitzler, 26. 4. 1913</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11763">Arno Holz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5708">Hans Baluschek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10869">Peter Behrens</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10992">Georg Brandes</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5711">Josef Collin</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11148">Richard Dehmel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11391">Ludwig Fulda</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5713">Cornelius Gurlitt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11581">Maximilian Harden</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11711">Georg Hirth</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11795">Georg von Hülsen-Haeseler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5717">Otto Eduard Lessing</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3403">Alfred Lichtwark</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12068">Max Liebermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12078">Paul Lindau</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12147">Ernst Mach</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12170">Heinrich Mann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12176">Thomas Mann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5720">Kurt von Mutzenbecher</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5723">Franz Muncker</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5726">Hermann Muthesius</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3923">Wilhelm Ostwald</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28808">Joachim Gans zu Putlitz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5730">Georg Reicke</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12772">Franz Servaes</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12899">Hermann Sudermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5733">Henry Thode</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4557">Hans Thoma</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5736">Ferdinand Vetter</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13027">Siegfried Wagner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5741">Eugen Wolff</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33542">Ignoramibus</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29649">Der Kunstwart</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1222">Blasewitz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb910">Gießen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1225">University of Illinois</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1223">Bern</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb907">Kiel</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02134.html</idno>
+            </event>
+            <event when-iso="1913-04-26">
+               <head>Baden bei Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/662/</idno>
+            </event>
+            <event when-iso="1913-04-26">
+               <head>Grüner Baum</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/53850/</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,78 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1882-08-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1882-08-09.html",
+ "head":
+ "Tagebuch, 9. August 1882",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Le Prese",
+ "ref":
+ "pmb49135"}
+ ,  {
+ "placeName":
+ "Bolladore",
+ "ref":
+ "pmb90132"}
+ ,  {
+ "placeName":
+ "Bormio",
+ "ref":
+ "pmb49343"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/49135/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/49135/",
+ "head":
+ "Le Prese"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90132/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90132/",
+ "head":
+ "Bolladore"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/49343/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/49343/",
+ "head":
+ "Bormio"
+}] 

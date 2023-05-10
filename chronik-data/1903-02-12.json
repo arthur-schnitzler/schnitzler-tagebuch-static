@@ -1,0 +1,194 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-02-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-02-12.html",
+ "head":
+ "Tagebuch, 12. Februar 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Margarethe Manassewitsch",
+ "ref":
+ "person_17804"},
+ {
+ "persName":
+ "Helene Odilon",
+ "ref":
+ "person_18518"},
+ {
+ "persName":
+ "Marie Schuster",
+ "ref":
+ "person_19948"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Adolf Weisse",
+ "ref":
+ "person_21211"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "I Pagliacci (Der Bajazzo)",
+ "ref":
+ "pmb77417"}
+ ,  {
+ "title":
+ "Cavalleria rusticana",
+ "ref":
+ "pmb30603"}
+ ,  {
+ "title":
+ "Pan",
+ "ref":
+ "pmb78359"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041425",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041425.html",
+ "head":
+ "Aufzeichnung von Bahr, 12. 2. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Marie Schuster",
+ "ref":
+ "pmb24575"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"}]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041211",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041211.html",
+ "head":
+ "Tagebuch von Schnitzler, 12. 2. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Margarethe Manassewitsch",
+ "ref":
+ "pmb20861"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Marie Schuster",
+ "ref":
+ "pmb24575"},
+ {
+ "persName":
+ "Adolf Weisse",
+ "ref":
+ "pmb26880"},
+ {
+ "persName":
+ "Helene Odilon",
+ "ref":
+ "pmb22098"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "pmb2315"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Cavalleria rusticana",
+ "ref":
+ "pmb30603"}
+ ,  {
+ "title":
+ "Das Exempel",
+ "ref":
+ "pmb30307"}
+ ,  {
+ "title":
+ "Pan. Mythologisches Divertissement in 1 Act",
+ "ref":
+ "pmb30607"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Oper",
+ "ref":
+ "pmb15"}
+ ]
+}
+}] 

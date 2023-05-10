@@ -1,0 +1,123 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1930-08-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-08-03.html",
+ "head":
+ "Tagebuch, 3. August 1930",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franz Goldstein",
+ "ref":
+ "person_15551"},
+ {
+ "persName":
+ "Oskar Koplowitz",
+ "ref":
+ "person_17036"},
+ {
+ "persName":
+ "Emil Ludwig",
+ "ref":
+ "person_17726"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Edmond Fleury Sachs",
+ "ref":
+ "person_19500"},
+ {
+ "persName":
+ "Emma Sachs",
+ "ref":
+ "person_19501"},
+ {
+ "persName":
+ "Bruno Walter",
+ "ref":
+ "person_21080"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Schliemann",
+ "ref":
+ "pmb78103"}
+ ,  {
+ "title":
+ "Aus meiner Werkstatt",
+ "ref":
+ "pmb78100"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sankt Moritz",
+ "ref":
+ "pmb44374"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ,  {
+ "placeName":
+ "Katowice",
+ "ref":
+ "pmb49137"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44374/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44374/",
+ "head":
+ "Sankt Moritz"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp805",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp805.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 2.–7. August 1930"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp820",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp820.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 3. August 1930"
+}] 

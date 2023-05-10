@@ -1,0 +1,93 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-10-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-10-30.html",
+ "head":
+ "Tagebuch, 30. Oktober 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Dora Fournier",
+ "ref":
+ "person_15087"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Anton Bettelheim",
+ "ref":
+ "person_13699"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Frau des Weisen. Erzählung",
+ "ref":
+ "pmb30075"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00083414",
+ "head":
+ "Schnitzler, Arthur: Die Frau des Weisen [Prosa] (Drucktitel)",
+ "text":
+ "4 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00081895",
+ "head":
+ "Schnitzler, Arthur: Freiwild [Dramatisches] (Drucktitel)",
+ "text":
+ "Erstes Objekt aus der Mappe. 1 Mappe"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00077107",
+ "head":
+ "Reichmann, Armin an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

@@ -1,0 +1,183 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-07-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-07-08.html",
+ "head":
+ "Tagebuch, 8. Juli 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugenie Bachrach",
+ "ref":
+ "person_13355"},
+ {
+ "persName":
+ "Emma Gütersloh",
+ "ref":
+ "person_15736"},
+ {
+ "persName":
+ "Kohn",
+ "ref":
+ "person_16990"},
+ {
+ "persName":
+ "Ignaz Kohn",
+ "ref":
+ "person_16993"},
+ {
+ "persName":
+ "Jacob Pollak",
+ "ref":
+ "person_18884"},
+ {
+ "persName":
+ "Lilly Roth",
+ "ref":
+ "person_19418"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Emil Schwarz",
+ "ref":
+ "person_19965"},
+ {
+ "persName":
+ "Josef Simon",
+ "ref":
+ "person_20120"},
+ {
+ "persName":
+ "Isabella Vengerova",
+ "ref":
+ "person_21231"},
+ {
+ "persName":
+ "Alfred von Winterstein",
+ "ref":
+ "person_21387"},
+ {
+ "persName":
+ "Louise Wolff",
+ "ref":
+ "person_21447"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Mizzi Zwerenz",
+ "ref":
+ "person_21616"},
+ {
+ "persName":
+ "Helene Burger",
+ "ref":
+ "person_14074"},
+ {
+ "persName":
+ "Theodor Reik",
+ "ref":
+ "person_19135"},
+ {
+ "persName":
+ "Lina Woiwode",
+ "ref":
+ "person_21425"},
+ {
+ "persName":
+ "Johanna Feizlmayr",
+ "ref":
+ "person_14921"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"},
+ {
+ "persName":
+ "Hanns Sachs",
+ "ref":
+ "person_19502"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "person_21602"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Abschiedssouper",
+ "ref":
+ "pmb30005"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Brijuni",
+ "ref":
+ "pmb45260"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 08. Juli 1913",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00076158",
+ "head":
+ "Ronai, Armin an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

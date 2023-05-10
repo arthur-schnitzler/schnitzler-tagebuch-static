@@ -1,0 +1,248 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1927-01-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-01-17.html",
+ "head":
+ "Tagebuch, 17. Januar 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arnoldo Cappellini",
+ "ref":
+ "person_14129"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041571",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041571.html",
+ "head":
+ "Bahr an Josef Redlich, 17. 1. 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Josef Redlich",
+ "ref":
+ "pmb12481"},
+ {
+ "persName":
+ "Max Liebermann",
+ "ref":
+ "pmb12068"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Franz Joseph I. von Österreich-Ungarn",
+ "ref":
+ "pmb2513"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "pmb12160"},
+ {
+ "persName":
+ "Franz Werfel",
+ "ref":
+ "pmb13094"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Alice Leo",
+ "ref":
+ "pmb28111"},
+ {
+ "persName":
+ "Hans Ferdinand Redlich",
+ "ref":
+ "pmb12478"},
+ {
+ "persName":
+ "Gertrud Redlich",
+ "ref":
+ "pmb28656"},
+ {
+ "persName":
+ "Rosemarie Redlich",
+ "ref":
+ "pmb28658"},
+ {
+ "persName":
+ "Eleonore Redlich",
+ "ref":
+ "pmb28662"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Elektra (op. 58)",
+ "ref":
+ "pmb29925"}
+ ,  {
+ "title":
+ "Elektra. Tragödie in einem Aufzug",
+ "ref":
+ "pmb30633"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Garmisch-Partenkirchen",
+ "ref":
+ "pmb667"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Städtische Oper",
+ "ref":
+ "pmb695"}
+ ,  {
+ "placeName":
+ "Hochschule für Musik und Darstellende Kunst",
+ "ref":
+ "pmb696"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ,  {
+ "placeName":
+ "Altaussee",
+ "ref":
+ "pmb34401"}
+ ,  {
+ "placeName":
+ "Bayerische Staatsoper",
+ "ref":
+ "pmb669"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Preußische Akademie (Sektion für Dichtkunst)",
+ "ref":
+ "pmb29761"}
+ ,  {
+ "orgName":
+ "Neue Freie Presse",
+ "ref":
+ "pmb29351"}
+ ,  {
+ "orgName":
+ "Neues Wiener Journal",
+ "ref":
+ "pmb29320"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#y8d39a2f-76d4-4426-8799-986c8bf5bc60",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Samuel Fischer an Arthur Schnitzler, 17.1.1927",
+ "source":
+ "Samuel Fischer, Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main: 1989. (nur Korrespondenz mit Arthur Schnitzler)"
+}] 

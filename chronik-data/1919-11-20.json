@@ -1,0 +1,112 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-11-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-11-20.html",
+ "head":
+ "Tagebuch, 20. November 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Oscar Berl",
+ "ref":
+ "person_13647"},
+ {
+ "persName":
+ "Alfred Bernau",
+ "ref":
+ "person_13663"},
+ {
+ "persName":
+ "Paul Cohn",
+ "ref":
+ "person_14252"},
+ {
+ "persName":
+ "Thomas Andrew Cuninghame",
+ "ref":
+ "person_14320"},
+ {
+ "persName":
+ "Anton Geiringer",
+ "ref":
+ "person_15368"},
+ {
+ "persName":
+ "Hans Homma",
+ "ref":
+ "person_16342"},
+ {
+ "persName":
+ "Hermann Kesser",
+ "ref":
+ "person_16825"},
+ {
+ "persName":
+ "Ida Roland",
+ "ref":
+ "person_19331"},
+ {
+ "persName":
+ "Wilhelm Grosz",
+ "ref":
+ "person_15685"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ,  {
+ "title":
+ "Kaiserin Messalina",
+ "ref":
+ "pmb78896"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Zürich",
+ "ref":
+ "pmb484"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

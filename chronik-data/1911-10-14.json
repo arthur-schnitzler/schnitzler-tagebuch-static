@@ -1,0 +1,308 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-10-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-10-14.html",
+ "head":
+ "Tagebuch, 14. Oktober 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugenie Bachrach",
+ "ref":
+ "person_13355"},
+ {
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Guy de Maupassant",
+ "ref":
+ "person_17985"},
+ {
+ "persName":
+ "Georg Reimers",
+ "ref":
+ "person_19139"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Hugo Schmidl",
+ "ref":
+ "person_19755"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"},
+ {
+ "persName":
+ "Marianne Giustiniani",
+ "ref":
+ "person_21600"},
+ {
+ "persName":
+ "Max Leitner",
+ "ref":
+ "person_17425"},
+ {
+ "persName":
+ "Emil Rhiseos Rhankabes",
+ "ref":
+ "person_19224"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Monsieur Parent",
+ "ref":
+ "pmb77869"}
+ ,  {
+ "title":
+ "Erinnerungen aus dem deutsch-französischen Krieg 1870-71 von einem Griechen in preussischen Diensten",
+ "ref":
+ "pmb81180"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/88534/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/88534/",
+ "head":
+ "Premiere von Das weite Land, 14.10.1911 [I.]",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Schnitzlers »Weites Land«. Erste Aufführung im Burgtheater",
+ "ref":
+ "pmb46196"}
+ ,  {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Burgtheater. »Das weite Land.« Tragikomödie von Arthur Schnitzler",
+ "ref":
+ "pmb142702"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Arnold Korff",
+ "ref":
+ "pmb2249"},
+ {
+ "persName":
+ "Lili Marberg",
+ "ref":
+ "pmb3694"},
+ {
+ "persName":
+ "Hedwig Bleibtreu",
+ "ref":
+ "pmb10959"},
+ {
+ "persName":
+ "Marie Hofteufel",
+ "ref":
+ "pmb18420"},
+ {
+ "persName":
+ "Albert Heine",
+ "ref":
+ "pmb2743"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "pmb12948"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Georg Reimers",
+ "ref":
+ "pmb12498"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "pmb12698"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "pmb24423"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "pmb12948"},
+ {
+ "persName":
+ "Alfred Gerasch",
+ "ref":
+ "pmb11423"},
+ {
+ "persName":
+ "Max Devrient",
+ "ref":
+ "pmb2446"},
+ {
+ "persName":
+ "Babette Reinhold",
+ "ref":
+ "pmb4200"},
+ {
+ "persName":
+ "Max Paulsen",
+ "ref":
+ "pmb12399"},
+ {
+ "persName":
+ "Franz Höbling",
+ "ref":
+ "pmb7954"},
+ {
+ "persName":
+ "Otto Tressler",
+ "ref":
+ "pmb12971"},
+ {
+ "persName":
+ "Camilla Gerzhofer",
+ "ref":
+ "pmb17000"},
+ {
+ "persName":
+ "Carl von Zeska",
+ "ref":
+ "pmb13180"},
+ {
+ "persName":
+ "Alexander Elmhorst",
+ "ref":
+ "pmb15874"},
+ {
+ "persName":
+ "Robert von Balajthy",
+ "ref":
+ "pmb2246"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00032463",
+ "head":
+ "Neues Stadt-Theater &lt;Bochum&gt; an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

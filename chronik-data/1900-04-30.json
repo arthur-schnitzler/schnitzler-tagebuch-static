@@ -1,0 +1,173 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-04-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-04-30.html",
+ "head":
+ "Tagebuch, 30. April 1900"
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01033",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01033.html",
+ "head":
+ "Georg Brandes an Arthur Schnitzler, 30. 4. 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Theodor Gomperz",
+ "ref":
+ "pmb11497"},
+ {
+ "persName":
+ "Karl Lanckoroński",
+ "ref":
+ "pmb5435"},
+ {
+ "persName":
+ "Paul Bourget",
+ "ref":
+ "pmb4026"},
+ {
+ "persName":
+ "Wilhelm Hegeler",
+ "ref":
+ "pmb5475"},
+ {
+ "persName":
+ "Honoré de Balzac",
+ "ref":
+ "pmb10825"},
+ {
+ "persName":
+ "Ewelina Hańska",
+ "ref":
+ "pmb5480"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Familiendramen",
+ "ref":
+ "pmb33309"}
+ ,  {
+ "title":
+ "Ingenieur Horstmann",
+ "ref":
+ "pmb33342"}
+ ,  {
+ "title":
+ "Lettres à l’étrangère (1833–1842), (1842–1844)",
+ "ref":
+ "pmb33344"}
+ ,  {
+ "title":
+ "Rund um die Erde 1888–89",
+ "ref":
+ "pmb33303"}
+ ,  {
+ "title":
+ "Ein Sommer in China",
+ "ref":
+ "pmb33346"}
+ ,  {
+ "title":
+ "Samlede Skrifter [Gesammelte Werke]",
+ "ref":
+ "pmb33295"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Liberaler Club",
+ "ref":
+ "pmb29519"}
+ ,  {
+ "orgName":
+ "Calmann-Lévy",
+ "ref":
+ "pmb29521"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kommunehospitalet",
+ "ref":
+ "pmb1109"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Ungarn",
+ "ref":
+ "pmb35512"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Skandinavien",
+ "ref":
+ "pmb745"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

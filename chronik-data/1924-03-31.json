@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1924-03-31",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-03-31.html",
+ "head":
+ "Tagebuch, 31. März 1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Anna Epstein",
+ "ref":
+ "person_14772"},
+ {
+ "persName":
+ "Moritz Horowitz",
+ "ref":
+ "person_16384"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Frau des Richters. Novelle",
+ "ref":
+ "pmb30751"}
+ ,  {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Alt-Heidelberg",
+ "ref":
+ "pmb80138"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bregenz",
+ "ref":
+ "pmb40321"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

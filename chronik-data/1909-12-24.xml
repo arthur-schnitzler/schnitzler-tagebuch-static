@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1909-12-24">Freitag, 24. Dezember 1909</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1909-12-24">
+               <head>Tagebuch, 24. Dezember 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13169">Emma Altmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16228">Robert Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16394">Henry Houssaye</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19154">Max Reinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19821">Hans Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19823">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19828">Karl Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20653">Carl Franz Techet</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20622">Hippolyte Taine</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16770">Arthur Kaufmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb46124">Der tapfere Kassian. Singspiel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb79158">Fern von Europa. Kurze Geschichten aus finsteren Breiten mit 34 Bildern nach Zeichnungen von Eugenie Dumtsa und vom Autor</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb423">Tirol</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1012">Kufstein</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-12-24.html</idno>
+            </event>
+            <event when-iso="1909-12-24">
+               <head>Hermann Bahr an Arthur Schnitzler, 24. 12. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2238">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27910">Lisa Clarus</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29939">O Mensch!</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb165">Ober Sankt Veit</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01908.html</idno>
+            </event>
+            <event when-iso="1909-12-24">
+               <head>Frank Wedekind an Arthur Schnitzler, 24. 12. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb13068">Frank Wedekind</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5405">Tilly Wedekind</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4404">Pamela Wedekind</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb860">Graz</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01909.html</idno>
+            </event>
+            <event when-iso="1909-12-24">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1909-12-24">
+               <head>Schnitzler an Max Reinhardt, 24. 12. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12504">Max Reinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3025">Arthur Kahane</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11752">Felix Hollaender</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2299">Agnes Sorma</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11165">Ernst von Dohnányi</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12861">Oscar Straus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28293">Jan Śliwiński</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3801">Bernhard (jun.) Herzmansky</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12968">Siegfried Trebitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10844">Albert Bassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2315">Elisabeth Steinrück</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29843">Der grüne Kakadu. Groteske in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30005">Abschiedssouper</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30217">Der tapfere Cassian. Puppenspiel in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31547">Das Haus Delorme. Eine Familienszene</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29951">Zum großen Wurstel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29905">Der Ruf des Lebens. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29931">Komtesse Mizzi oder Der Familientag</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30215">Der Schleier der Pierrette</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb20">Volkstheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb208">Kleines Theater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb12">Kammerspiele Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb18">Lessing-Theater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb189">Semmering</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041397.html</idno>
+            </event>
+            <event when-iso="1909-12-24">
+               <head>Bahr an Schnitzler, 24. 12. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27910">Lisa Clarus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2238">Lili Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29939">O Mensch!</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb165">Ober Sankt Veit</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041326.html</idno>
+            </event>
+            <event when-iso="1909-12-24">
+               <head>Arthur Schnitzler an Max Reinhardt, 24.12.1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118599380">Reinhardt, Max</persName>
+                     </person>
+                  </listPerson>
+                  <bibl> Hermann
+                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
+                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
+                    Verlag 2018 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
+            </event>
+            <event when-iso="1909-12-24">
+               <head>Arthur Schnitzler an Max Reinhardt, 24. 12. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118599380">Reinhardt, Max</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am
+                    Main: S. Fischer 1981.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,323 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-01-31",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-01-31.html",
+ "head":
+ "Tagebuch, 31. Januar 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eugen d’Albert",
+ "ref":
+ "person_13129"},
+ {
+ "persName":
+ "Julius Bauer",
+ "ref":
+ "person_13471"},
+ {
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "person_15306"},
+ {
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "person_16165"},
+ {
+ "persName":
+ "Nina Kipiani",
+ "ref":
+ "person_16845"},
+ {
+ "persName":
+ "Kurt von Manteuffel",
+ "ref":
+ "person_17846"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Antonie Trebitsch",
+ "ref":
+ "person_20793"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"},
+ {
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "person_21109"},
+ {
+ "persName":
+ "Otto Weininger",
+ "ref":
+ "person_21174"},
+ {
+ "persName":
+ "Zinaida A. Vengerova",
+ "ref":
+ "person_21232"},
+ {
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "person_21614"},
+ {
+ "persName":
+ "Ida d’Albert",
+ "ref":
+ "person_13131"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Leo Feld",
+ "ref":
+ "person_14923"},
+ {
+ "persName":
+ "Hugo Ganz",
+ "ref":
+ "person_15345"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Das Exempel",
+ "ref":
+ "pmb30307"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041055",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041055.html",
+ "head":
+ "Tagebuch von Schnitzler, 31. 1. 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "pmb11391"},
+ {
+ "persName":
+ "Julius Bauer",
+ "ref":
+ "pmb2150"},
+ {
+ "persName":
+ "Hugo Ganz",
+ "ref":
+ "pmb2618"},
+ {
+ "persName":
+ "Leo Feld",
+ "ref":
+ "pmb18308"},
+ {
+ "persName":
+ "Zinaida A. Vengerova",
+ "ref":
+ "pmb26937"},
+ {
+ "persName":
+ "Nina Kipiani",
+ "ref":
+ "pmb27800"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Georg von Manteuffel-Szoege",
+ "ref":
+ "pmb2625"},
+ {
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "pmb11673"},
+ {
+ "persName":
+ "Otto Weininger",
+ "ref":
+ "pmb2630"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "pmb12968"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "pmb13058"},
+ {
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "pmb13212"},
+ {
+ "persName":
+ "Antonie Trebitsch",
+ "ref":
+ "pmb26159"},
+ {
+ "persName":
+ "Eugen d’Albert",
+ "ref":
+ "pmb27633"},
+ {
+ "persName":
+ "Ida d’Albert",
+ "ref":
+ "pmb2537"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Exempel",
+ "ref":
+ "pmb30307"}
+ ,  {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Concordia",
+ "ref":
+ "pmb29752"}
+ ]
+}
+}] 

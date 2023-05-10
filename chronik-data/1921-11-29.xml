@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1921-11-29">Dienstag, 29. November 1921</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1921-11-29">
+               <head>Tagebuch, 29. November 1921</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15854">Gisela Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16003">Max Hayek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17510">Vilma Lichtenstern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18308">Rudolf Müller</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19654">Rafael Schermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb541">Taborstraße</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-11-29.html</idno>
+            </event>
+            <event when-iso="1921-11-29">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1921-11-29">
+               <head>Arthur an Olga Schnitzler, 29. 11. 1921</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27990">Friederike Stößler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2238">Lili Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12160">Alma Maria Mahler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2312">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13094">Franz Werfel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4424">Marie Mann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12170">Heinrich Mann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3119">Philipp Menczel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21304">Rosa Menczel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23918">Ottilie Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11646">Hugo Heller</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13122">Anton Wildgans</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11458">Christiane von Goethe</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12378">Ferdinand Onno</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4431">Karl Forest</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11842">Egon von Jordan</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12368">Aurel Nowotny</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12025">Hans Lackner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28585">Erika Wagner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12841">Annemarie Steinsieck</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10736">Heinz Schulbaur</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4279">Anatole France</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10969">Wilhelm Bode</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11461">Johann Wolfgang von Goethe</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4448">August von Goethe</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11617">Gerhart Hauptmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11948">Eugen Klöpfer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23452">Thaddäus Rittner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2284">Markus Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4427">Rafael Schermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11628">Max Hayek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb22372">Ernestine Patak</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb19220">Irmgard Kaufmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2249">Arnold Korff</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23675">Alfred Rotter</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3876">Fritz Rotter</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb20400">Vilma Lichtenstern</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29863">Lebendige Stunden. Vier Einakter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29957">Lebendige Stunden</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29865">Die Frau mit dem Dolche</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29877">Die letzten Masken</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29869">Literatur</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32013">Komödiantengeschichte</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32103">Goethe’s Sohn</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30825">Peter Brauer</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29983">Der Meister</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29917">Liebelei. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb652">Prag</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb197">Weimar</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb151">Deutschland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb546">Altes Allgemeines Krankenhaus</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb337">Hotel de France</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb492">Deutsche Bank</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb415">Bad Aussee</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29815">Wanderbühne des österreichischen Volksbildungsamtes</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041457.html</idno>
+            </event>
+            <event when-iso="1921-11-29">
+               <head>Arthur Schnitzler an Olga Schnitzler, 29.11.1921</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116848723">Schnitzler, Olga</persName>
+                     </person>
+                  </listPerson>
+                  <bibl> Hermann
+                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
+                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
+                    Verlag 2018 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
+            </event>
+            <event when-iso="1921-11-29">
+               <head>Arthur Schnitzler an Ludwig Fulda, 29. 11. 1921</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118840452">Fulda, Ludwig</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne
+                    Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter:
+                    https://schnitzler-briefe.acdh.oeaw.ac.at/)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3"/>
+            </event>
+            <event when-iso="1921-11-29">
+               <head>Arthur Schnitzler an Olga Schnitzler, 29. 11. 1921</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116848723">Schnitzler, Olga</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne
+                    Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter:
+                    https://schnitzler-briefe.acdh.oeaw.ac.at/)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3"/>
+            </event>
+            <event when-iso="1921-11-29">
+               <head>..., Lucy an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00068865</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

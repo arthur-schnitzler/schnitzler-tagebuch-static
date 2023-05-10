@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1930-02-06">Donnerstag, 6. Februar 1930</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1930-02-06">
+               <head>Tagebuch, 6. Februar 1930</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14234">Suzanne Clauser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14908">Jürgen Fehling</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19704">Otto Paul Schinnerer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30321">Theaterroman</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-02-06.html</idno>
+            </event>
+            <event when-iso="1930-02-06">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1930-02-06">
+               <head>Tagebuch von Clara Katharina Pollaczek, 1.–7. Februar 1930</head>
+               <desc/>
+               <idno type="pollaczek">https://pollaczek.acdh.oeaw.ac.at/ckp763.html</idno>
+            </event>
+            <event when-iso="1930-02-06">
+               <head>Schnitzler an Otto P. Schinnerer, 6. 2. 1930</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb4412">Otto Paul Schinnerer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11975">Fritz Kortner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10833">Victor Barnowsky</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12274">Alexander Moissi</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24577">Max Lincoln Schuster</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12785">Richard Leo Simon</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb25465">Benjamin Horace Stern</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24825">Thomas Seltzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb20624">Edward Pierre Loving</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13204">Hermynia Zur Mühlen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11374">Fritz Freund</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10886">Elisabeth Bergner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb19421">Robert Klein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12435">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb22728">Frieda Pollak</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30403">Paracelsus</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29843">Der grüne Kakadu. Groteske in einem Akt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31429">Große Szene</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30945">Im Spiel der Sommerlüfte. In drei Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29941">Fräulein Else</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32133">Frau Beate und ihr Sohn. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32131">Spiel im Morgengrauen. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30851">Traumnovelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29853">Lieutenant Gustl. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32135">Introduction [Viennese Novelettes]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32137">The Literary Apprenticeship of Arthur Schnitzler</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30971">Casanovas Heimfahrt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30717">Komödie der Worte. Drei Einakter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32057">Time Robs Schnitzler of Anatole</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32143">Ende und Anfang. Ein Lebensbuch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29903">Zwischenspiel. Komödie in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29931">Komtesse Mizzi oder Der Familientag</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30201">Doktor Gräsler, Badearzt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30213">Die Hirtenflöte. Novelle</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29855">Reigen. Zehn Dialoge</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31401">Arthur Schnitzler und sein Reigen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32151">The History of Schnitzlers »Reigen«</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32061">The Loves of Ariane</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32157">Daybreak</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb151">Deutschland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb146">Frankfurt am Main</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb910">Gießen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb609">Guild Theatre</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43406">Vereinigte Staaten von Amerika (USA)</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb166">Frankreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40306">Italien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43435">Schweiz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb224">London</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29648">Simon &amp; Schuster</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29743">The Germanic Review</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29744">Stewart Kidd</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29736">Evening Post</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29433">Mitchell Kennerley</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29746">Constable &amp; Co</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29626">Die Zeit</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29253">Niederösterreichische Statthalterei</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29383">Österreichische Film-Zeitung</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29375">PMLA</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29748">Metro Goldwyn Mayer Filmgesellschaft</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041462.html</idno>
+            </event>
+            <event when-iso="1930-02-06">
+               <head>Arthur Schnitzler an Otto P. Schinnerer, 6.2.1930</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName>Schinnerer, Otto P.</persName>
+                     </person>
+                  </listPerson>
+                  <bibl> Hermann
+                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
+                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
+                    Verlag 2018 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
+            </event>
+            <event when-iso="1930-02-06">
+               <head>Arthur Schnitzler an Otto P. Schinnerer, 6. 2. 1930</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/105204042X">Schinnerer, Otto P.</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne
+                    Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter:
+                    https://schnitzler-briefe.acdh.oeaw.ac.at/)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3"/>
+            </event>
+            <event when-iso="1930-02-06">
+               <head>Arthur Schnitzler an Heinrich Schnitzler, 6. 2. 1930</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116848510">Schnitzler, Heinrich</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne
+                    Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter:
+                    https://schnitzler-briefe.acdh.oeaw.ac.at/)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3"/>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

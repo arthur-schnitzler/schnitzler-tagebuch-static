@@ -1,0 +1,54 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-04-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-04-30.html",
+ "head":
+ "Tagebuch, 30. April 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Franziska Mütter",
+ "ref":
+ "person_18320"},
+ {
+ "persName":
+ "Josefine Rothenstein",
+ "ref":
+ "person_19424"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Streichquartett Nr. 15 a-Moll op. 132",
+ "ref":
+ "pmb77175"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

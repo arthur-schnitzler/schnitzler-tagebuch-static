@@ -1,0 +1,365 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1892-12-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-12-24.html",
+ "head":
+ "Tagebuch, 24. Dezember 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Else Berger",
+ "ref":
+ "person_13626"},
+ {
+ "persName":
+ "Julius von Gans-Ludassy",
+ "ref":
+ "person_15338"},
+ {
+ "persName":
+ "Ludwig Mandl",
+ "ref":
+ "person_17826"},
+ {
+ "persName":
+ "Leopold Rosenberg",
+ "ref":
+ "person_19372"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Ignaz Mandl",
+ "ref":
+ "person_17820"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02704",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02704.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 24. 12. [1892]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Friedrich Michael Fels",
+ "ref":
+ "pmb2450"},
+ {
+ "persName":
+ "Jakob Julius David",
+ "ref":
+ "pmb2416"},
+ {
+ "persName":
+ "Julius von Gans-Ludassy",
+ "ref":
+ "pmb11406"},
+ {
+ "persName":
+ "Julius Bauer",
+ "ref":
+ "pmb2150"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "pmb12695"},
+ {
+ "persName":
+ "Clemens Sokal",
+ "ref":
+ "pmb25076"},
+ {
+ "persName":
+ "Marco Brociner",
+ "ref":
+ "pmb3442"},
+ {
+ "persName":
+ "Alfred Nossig",
+ "ref":
+ "pmb22025"},
+ {
+ "persName":
+ "Kurt Eisner",
+ "ref":
+ "pmb11240"},
+ {
+ "persName":
+ "August Stein",
+ "ref":
+ "pmb89794"},
+ {
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "pmb11673"},
+ {
+ "persName":
+ "Heinrich Kanner",
+ "ref":
+ "pmb11867"},
+ {
+ "persName":
+ "Leopold Sonnemann",
+ "ref":
+ "pmb87771"},
+ {
+ "persName":
+ "Jaques Joachim",
+ "ref":
+ "pmb18870"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "pmb12698"},
+ {
+ "persName":
+ "Friedrich Kapper",
+ "ref":
+ "pmb19106"},
+ {
+ "persName":
+ "Else Singer",
+ "ref":
+ "pmb2581"},
+ {
+ "persName":
+ "Hilda von Mitis",
+ "ref":
+ "pmb65913"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "[Mit unſerer öſterreichiſchen Literatur]",
+ "ref":
+ "pmb89493"}
+ ,  {
+ "title":
+ "Berliner Neueste Nachrichten",
+ "ref":
+ "pmb41512"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "»Anatol.« Von Arthur Schnitzler",
+ "ref":
+ "pmb92804"}
+ ,  {
+ "title":
+ "Allgemeine Kunst-Chronik",
+ "ref":
+ "pmb41466"}
+ ,  {
+ "title":
+ "Probleme",
+ "ref":
+ "pmb89499"}
+ ,  {
+ "title":
+ "Bücher",
+ "ref":
+ "pmb89507"}
+ ,  {
+ "title":
+ "Fremden-Blatt",
+ "ref":
+ "pmb40003"}
+ ,  {
+ "title":
+ "* [Im Verlage von Freund und Jeckel…]",
+ "ref":
+ "pmb89511"}
+ ,  {
+ "title":
+ "Illustrirtes Wiener Extrablatt",
+ "ref":
+ "pmb41484"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Neues Wiener Tagblatt",
+ "ref":
+ "pmb41321"}
+ ,  {
+ "title":
+ "Wiener Tagblatt",
+ "ref":
+ "pmb42146"}
+ ,  {
+ "title":
+ "Wiener Autoren",
+ "ref":
+ "pmb92811"}
+ ,  {
+ "title":
+ "Vom Lesetische. Österreichische Autoren",
+ "ref":
+ "pmb89516"}
+ ,  {
+ "title":
+ "Neues Wiener Abendblatt",
+ "ref":
+ "pmb65921"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Sterben. Novelle",
+ "ref":
+ "pmb30117"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Volkstheater",
+ "ref":
+ "pmb36430"}
+ ,  {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ,  {
+ "orgName":
+ "Neues Deutsches Theater",
+ "ref":
+ "pmb37080"}
+ ,  {
+ "orgName":
+ "Lessing-Theater",
+ "ref":
+ "pmb35053"}
+ ,  {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ,  {
+ "placeName":
+ "Galatz",
+ "ref":
+ "pmb36202"}
+ ,  {
+ "placeName":
+ "Rumänien",
+ "ref":
+ "pmb378"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}] 

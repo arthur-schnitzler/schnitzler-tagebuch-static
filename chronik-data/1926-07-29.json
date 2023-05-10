@@ -1,0 +1,114 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-07-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-07-29.html",
+ "head":
+ "Tagebuch, 29. Juli 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Klaus Mann",
+ "ref":
+ "person_17836"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Spiel im Morgengrauen. Novelle",
+ "ref":
+ "pmb32131"}
+ ,  {
+ "title":
+ "Der Vorige",
+ "ref":
+ "pmb30781"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Adelboden",
+ "ref":
+ "pmb90188"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90188/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90188/",
+ "head":
+ "Adelboden"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp342",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp342.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 26.–29. Juli 1926"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp343",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp343.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 29.–31. Juli 1926"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp347",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp347.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 29. Juli 1926"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp349",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp349.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 29. Juli 1926"
+}] 

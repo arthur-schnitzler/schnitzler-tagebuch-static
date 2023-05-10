@@ -1,0 +1,80 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1929-09-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-09-22.html",
+ "head":
+ "Tagebuch, 22. September 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Feher",
+ "ref":
+ "person_14907"},
+ {
+ "persName":
+ "Franz Liszt",
+ "ref":
+ "person_17593"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Spiel im Morgengrauen. Novelle",
+ "ref":
+ "pmb32131"}
+ ,  {
+ "title":
+ "Tasso",
+ "ref":
+ "pmb80897"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Franzensbad",
+ "ref":
+ "pmb390"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/390/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/390/",
+ "head":
+ "Franzensbad"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp735",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp735.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 21.–26. September 1929"
+}] 

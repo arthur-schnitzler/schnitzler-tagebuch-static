@@ -1,0 +1,172 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-09-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-09-14.html",
+ "head":
+ "Tagebuch, 14. September 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Blankenberg",
+ "ref":
+ "person_13769"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Raymond Radiguet",
+ "ref":
+ "person_19023"},
+ {
+ "persName":
+ "Johann Ress",
+ "ref":
+ "person_19197"},
+ {
+ "persName":
+ "John Galsworthy",
+ "ref":
+ "person_15331"},
+ {
+ "persName":
+ "Louise Koppel",
+ "ref":
+ "person_17037"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Patrizier",
+ "ref":
+ "pmb80563"}
+ ,  {
+ "title":
+ "Le bal du Comte d'Orgel",
+ "ref":
+ "pmb79450"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Forte dei Marmi",
+ "ref":
+ "pmb44248"}
+ ,  {
+ "placeName":
+ "Viareggio",
+ "ref":
+ "pmb1174"}
+ ,  {
+ "placeName":
+ "Florenz",
+ "ref":
+ "pmb263"}
+ ,  {
+ "placeName":
+ "Viale dei colli",
+ "ref":
+ "pmb92582"}
+ ,  {
+ "placeName":
+ "San Miniato",
+ "ref":
+ "pmb91630"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44248/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44248/",
+ "head":
+ "Forte dei Marmi"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/263/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/263/",
+ "head":
+ "Florenz"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp266",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp266.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 14. September 1925"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp267",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp267.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 14. September 1925"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Hedy Kempny an Arthur Schnitzler, 14.9.1925",
+ "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040246",
+ "head":
+ "Marischka-Karczag, Hubert an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

@@ -1,0 +1,139 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-03-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-03-17.html",
+ "head":
+ "Tagebuch, 17. März 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Kreglinger",
+ "ref":
+ "person_17125"},
+ {
+ "persName":
+ "Ernst Kreglinger",
+ "ref":
+ "person_17126"},
+ {
+ "persName":
+ "Salomon",
+ "ref":
+ "person_19537"},
+ {
+ "persName":
+ "Emanuel Spiro",
+ "ref":
+ "person_20270"},
+ {
+ "persName":
+ "Karl Szigeti",
+ "ref":
+ "person_20607"},
+ {
+ "persName":
+ "Wasels",
+ "ref":
+ "person_21097"},
+ {
+ "persName":
+ "W. Wasels",
+ "ref":
+ "person_21098"},
+ {
+ "persName":
+ "Justizrat Salomon",
+ "ref":
+ "person_19538"},
+ {
+ "persName":
+ "H. Brunswig",
+ "ref":
+ "person_14029"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Opatija",
+ "ref":
+ "pmb38096"}
+ ,  {
+ "placeName":
+ "Stuttgart",
+ "ref":
+ "pmb872"}
+ ,  {
+ "placeName":
+ "Magdeburg",
+ "ref":
+ "pmb91187"}
+ ,  {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ,  {
+ "placeName":
+ "Rijeka",
+ "ref":
+ "pmb44246"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/38096/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/38096/",
+ "head":
+ "Opatija"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44246/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44246/",
+ "head":
+ "Rijeka"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00050834",
+ "head":
+ "Schnitzler, Arthur an Schnitzler, Olga [Briefe] (Manuskripttitel)",
+ "text":
+ "Letztes Objekt aus der Mappe. 9 Briefe, 13 Karten, 3 Telegramme 47 Blatt. Mit Abschrift 18 Blatt. Mit Durchschlag 18 Blatt",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga (1882-1970) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848723"}]
+}
+}] 

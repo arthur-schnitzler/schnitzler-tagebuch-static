@@ -1,0 +1,65 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1898-07-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-07-28.html",
+ "head":
+ "Tagebuch, 28. Juli 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Tod Georgs",
+ "ref":
+ "pmb31535"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Mönchsberg",
+ "ref":
+ "pmb91270"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/30/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "head":
+ "Salzburg"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#z7240971-fbf6-453b-9f97-eb6aaa8f59ae",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Peter Nansen, 28.7.1898",
+ "source":
+ "Peter Nansen - Arthur Schnitzler: Ein Briefwechsel zweier Geistsverwandter. Hg. Karin Bang. In: Småskrifter fra CØNK, Nr. 9, 2005, S. 1-60."
+}] 

@@ -1,0 +1,57 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-05-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-05-15.html",
+ "head":
+ "Tagebuch, 15. Mai 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Hebbel",
+ "ref":
+ "person_16009"},
+ {
+ "persName":
+ "Trütschler",
+ "ref":
+ "person_20821"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebücher",
+ "ref":
+ "pmb30609"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Palermo",
+ "ref":
+ "pmb901"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/901/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/901/",
+ "head":
+ "Palermo"
+}] 

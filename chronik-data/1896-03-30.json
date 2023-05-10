@@ -1,0 +1,207 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-03-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-03-30.html",
+ "head":
+ "Tagebuch, 30. März 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ida Falk",
+ "ref":
+ "person_14878"},
+ {
+ "persName":
+ "Dora Fournier",
+ "ref":
+ "person_15087"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ "pmb29899"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041391",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041391.html",
+ "head":
+ "Kalendereintrag von Bahr, 30. 3. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Otto Stoessl",
+ "ref":
+ "pmb12858"},
+ {
+ "persName":
+ "Paul Wertheimer",
+ "ref":
+ "pmb2888"},
+ {
+ "persName":
+ "Alfons von Glaser",
+ "ref":
+ "pmb28080"},
+ {
+ "persName":
+ "Jakob von Winternitz",
+ "ref":
+ "pmb13132"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Isidor Singer",
+ "ref":
+ "pmb12790"},
+ {
+ "persName":
+ "Ernst Gettke",
+ "ref":
+ "pmb2164"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Raimund-Theater",
+ "ref":
+ "pmb77"}
+ ,  {
+ "placeName":
+ "Elberfeld",
+ "ref":
+ "pmb903"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041160",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041160.html",
+ "head":
+ "Tagebuch von Schnitzler, 30. 3. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Dora Fournier",
+ "ref":
+ "pmb16420"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "pmb14953"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Ida Falk",
+ "ref":
+ "pmb16083"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Karl Werner",
+ "ref":
+ "pmb28677"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ "pmb29899"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sankt Petersburg",
+ "ref":
+ "pmb433"}
+ ]
+}
+}] 

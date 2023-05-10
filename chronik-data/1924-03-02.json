@@ -1,0 +1,178 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1924-03-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-03-02.html",
+ "head":
+ "Tagebuch, 2. März 1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Irene Auernheimer",
+ "ref":
+ "person_13304"},
+ {
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Ernst Ludwig Bachstez",
+ "ref":
+ "person_13361"},
+ {
+ "persName":
+ "Ernst Benedikt",
+ "ref":
+ "person_13589"},
+ {
+ "persName":
+ "Leopold von Chlumecký",
+ "ref":
+ "person_14202"},
+ {
+ "persName":
+ "Paul Géraldy",
+ "ref":
+ "person_15395"},
+ {
+ "persName":
+ "Yvette Guilbert",
+ "ref":
+ "person_15741"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Ernst Lothar",
+ "ref":
+ "person_17694"},
+ {
+ "persName":
+ "Max Schiller",
+ "ref":
+ "person_19695"},
+ {
+ "persName":
+ "Antonie Trebitsch",
+ "ref":
+ "person_20793"},
+ {
+ "persName":
+ "Grete von Urbanitzky-Passini",
+ "ref":
+ "person_20890"},
+ {
+ "persName":
+ "Martha Wassermann",
+ "ref":
+ "person_21110"},
+ {
+ "persName":
+ "Alfred von Winterstein",
+ "ref":
+ "person_21387"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"},
+ {
+ "persName":
+ "Germaine Léontine Angélique Lubin",
+ "ref":
+ "person_17710"},
+ {
+ "persName":
+ "Hermann Romberg",
+ "ref":
+ "person_19341"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Marcel Dunan",
+ "ref":
+ "person_14551"},
+ {
+ "persName":
+ "Edith Kadivec",
+ "ref":
+ "person_16624"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#m5ca120f-450d-4a59-9a44-d5822a34aee9",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Gustaf Linden an Arthur Schnitzler, 2.3.1924",
+ "source":
+ "Arthur Schnitzler, Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005 (Wechselbeziehungen Österreich-Norden, Band 7)."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00077743",
+ "head":
+ "Ozoroczy, Amand an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

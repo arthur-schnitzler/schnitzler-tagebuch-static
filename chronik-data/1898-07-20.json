@@ -1,0 +1,134 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1898-07-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-07-20.html",
+ "head":
+ "Tagebuch, 20. Juli 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Anton Wassing",
+ "ref":
+ "person_21112"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Fusch an der Großglocknerstraße",
+ "ref":
+ "pmb34194"}
+ ,  {
+ "placeName":
+ "Bruck an der Mur",
+ "ref":
+ "pmb840"}
+ ,  {
+ "placeName":
+ "Lend",
+ "ref":
+ "pmb91131"}
+ ,  {
+ "placeName":
+ "Bad Gastein",
+ "ref":
+ "pmb521"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34194/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34194/",
+ "head":
+ "Fusch an der Großglocknerstraße"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/840/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/840/",
+ "head":
+ "Bruck an der Mur"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91131/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91131/",
+ "head":
+ "Lend"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/521/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/521/",
+ "head":
+ "Bad Gastein"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34014/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34014/",
+ "head":
+ "Villa Dr. Wassing"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00032556",
+ "head":
+ "Brand, Erna an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

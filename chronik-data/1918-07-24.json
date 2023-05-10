@@ -1,0 +1,162 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-07-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-07-24.html",
+ "head":
+ "Tagebuch, 24. Juli 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich Abel",
+ "ref":
+ "person_13078"},
+ {
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "person_13202"},
+ {
+ "persName":
+ "Stephan von Burián-Rajecz",
+ "ref":
+ "person_14079"},
+ {
+ "persName":
+ "Joseph von Hunyady-Kéthely",
+ "ref":
+ "person_16418"},
+ {
+ "persName":
+ "Karl I. von Österreich-Ungarn",
+ "ref":
+ "person_16723"},
+ {
+ "persName":
+ "Julius Szeps",
+ "ref":
+ "person_20604"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "person_21047"},
+ {
+ "persName":
+ "Marianne Giustiniani",
+ "ref":
+ "person_21600"},
+ {
+ "persName":
+ "Siegfried Geyer",
+ "ref":
+ "person_15415"},
+ {
+ "persName":
+ "Victor Zuckerkandl",
+ "ref":
+ "person_21602"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02290",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02290.html",
+ "head":
+ "Arthur Schnitzler an Robert Adam, 24. 7. 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Andorf",
+ "ref":
+ "pmb1248"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Innviertel",
+ "ref":
+ "pmb718"}
+ ,  {
+ "placeName":
+ "Bayern",
+ "ref":
+ "pmb314"}
+ ,  {
+ "placeName":
+ "Passau",
+ "ref":
+ "pmb5907"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Partenkirchen",
+ "ref":
+ "pmb2318"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

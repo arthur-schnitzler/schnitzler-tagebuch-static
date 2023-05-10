@@ -1,0 +1,84 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-09-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-09-20.html",
+ "head":
+ "Tagebuch, 20. September 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Moriz Reichenfeld",
+ "ref":
+ "person_19124"},
+ {
+ "persName":
+ "Richard Weiskirchner",
+ "ref":
+ "person_21184"},
+ {
+ "persName":
+ "Franz von Conrad-Hötzendorf",
+ "ref":
+ "person_14266"},
+ {
+ "persName":
+ "Herbert von Conrad-Hötzendorf",
+ "ref":
+ "person_14267"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Silbergasse",
+ "ref":
+ "pmb92531"}
+ ,  {
+ "placeName":
+ "Beethovengang",
+ "ref":
+ "pmb158"}
+ ,  {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

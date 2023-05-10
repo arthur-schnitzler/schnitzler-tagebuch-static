@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1891-03-17">Dienstag, 17. März 1891</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1891-03-17">
+               <head>Tagebuch, 17. März 1891</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14472">Felix Dörmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15529">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16282">Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16554">Jaques Joachim</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16730">Carl Karlweis</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17047">Heinrich von Korff</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17448">Victor Léon</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19685">Friedrich Schik</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19986">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21053">Heinrich von Waldberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17189">Julius Kulka</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19945">Falk Schupp</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20238">Richard Specht</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16293">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16629">Eduard Michael Kafka</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb41775"/>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-03-17.html</idno>
+            </event>
+            <event when-iso="1891-03-17">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1891-03-17">
+               <head>Gründungstreffen Jung Wien, 17.3.1891</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12740" type="hat-als-teilnehmerin">Gustav Schwarzkopf</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12737" type="hat-als-teilnehmerin">Falk Schupp</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2563" type="hat-als-teilnehmerin">Eduard Michael Kafka</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18870" type="hat-als-teilnehmerin">Jaques Joachim</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18396" type="hat-als-teilnehmerin">Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11485" type="hat-als-teilnehmerin">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb19832" type="hat-als-teilnehmerin">Julius Kulka</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb19610" type="hat-als-teilnehmerin">Heinrich von Korff</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2456" type="hat-als-teilnehmerin">Richard Specht</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2425" type="hat-als-teilnehmerin">Felix Dörmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740" type="hat-als-teilnehmerin">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167" type="hat-als-teilnehmerin">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2337" type="hat-als-teilnehmerin">Victor Léon</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26602" type="hat-als-teilnehmerin">Heinrich von Waldberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2420" type="hat-als-teilnehmerin">Friedrich Schik</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb43528" type="veranstaltet-in">Joseph G. Wieninger, Weinhandlung</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/89146/</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

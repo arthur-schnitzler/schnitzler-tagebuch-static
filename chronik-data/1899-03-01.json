@@ -1,0 +1,295 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-03-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-03-01.html",
+ "head":
+ "Tagebuch, 1. März 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Ernst Hartmann",
+ "ref":
+ "person_15944"},
+ {
+ "persName":
+ "Oskar Mayer",
+ "ref":
+ "person_18021"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "person_20925"},
+ {
+ "persName":
+ "Ludwig Wolff",
+ "ref":
+ "person_21448"},
+ {
+ "persName":
+ "Paul Naschauer",
+ "ref":
+ "person_18360"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Richard Specht",
+ "ref":
+ "person_20238"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Gefährtin. Schauspiel in einem Akt",
+ "ref":
+ "pmb29845"}
+ ,  {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Paracelsus. Versspiel in einem Akt",
+ "ref":
+ "pmb30403"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/35479/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/35479/",
+ "head":
+ "Uraufführung von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 1.3.1899",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter",
+ "ref":
+ "pmb32562"}
+ ,  {
+ "title":
+ "Aus ungleichen Tagen",
+ "ref":
+ "pmb44774"}
+ ,  {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Paracelsus. Versspiel in einem Akt",
+ "ref":
+ "pmb30403"}
+ ,  {
+ "title":
+ "Die Gefährtin. Schauspiel in einem Akt",
+ "ref":
+ "pmb29845"}
+ ,  {
+ "title":
+ "Burgtheater. (»Paracelsus«, Schauspiel in einem Act. – »Die Gefährtin«, Schauspiel in einem Act. – »Der grüne Kakadu«, Groteske in einem Act von Arthur Schnitzler. Erste Aufführung am 1. März 1899.)",
+ "ref":
+ "pmb135048"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Fritz Krastel",
+ "ref":
+ "pmb8330"},
+ {
+ "persName":
+ "Katharina Schratt",
+ "ref":
+ "pmb2680"},
+ {
+ "persName":
+ "Else Speidel-Haeberle",
+ "ref":
+ "pmb2642"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "pmb12948"},
+ {
+ "persName":
+ "Emerich Robert",
+ "ref":
+ "pmb12534"},
+ {
+ "persName":
+ "Eugen Frank",
+ "ref":
+ "pmb16458"},
+ {
+ "persName":
+ "Adolf von Sonnenthal",
+ "ref":
+ "pmb12809"},
+ {
+ "persName":
+ "Carl von Zeska",
+ "ref":
+ "pmb13180"},
+ {
+ "persName":
+ "Oskar Gimnig",
+ "ref":
+ "pmb11438"},
+ {
+ "persName":
+ "Hedwig Bleibtreu",
+ "ref":
+ "pmb10959"},
+ {
+ "persName":
+ "Rudolf Sommer",
+ "ref":
+ "pmb25094"},
+ {
+ "persName":
+ "Georg Reimers",
+ "ref":
+ "pmb12498"},
+ {
+ "persName":
+ "Max Paulsen",
+ "ref":
+ "pmb12399"},
+ {
+ "persName":
+ "Otto Tressler",
+ "ref":
+ "pmb12971"},
+ {
+ "persName":
+ "Wilhelmine Mitterwurzer",
+ "ref":
+ "pmb12268"},
+ {
+ "persName":
+ "Ernst Hartmann",
+ "ref":
+ "pmb11610"},
+ {
+ "persName":
+ "Alexander Römpler",
+ "ref":
+ "pmb12595"},
+ {
+ "persName":
+ "Oskar Hofmeister",
+ "ref":
+ "pmb18412"},
+ {
+ "persName":
+ "Danny Gürtler",
+ "ref":
+ "pmb4697"},
+ {
+ "persName":
+ "Lou Brion",
+ "ref":
+ "pmb2881"},
+ {
+ "persName":
+ "Lotte Witt",
+ "ref":
+ "pmb27259"},
+ {
+ "persName":
+ "Josef Moser",
+ "ref":
+ "pmb21626"},
+ {
+ "persName":
+ "Jakob Schreiner",
+ "ref":
+ "pmb12714"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ]
+}
+}] 

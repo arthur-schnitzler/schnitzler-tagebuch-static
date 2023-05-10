@@ -1,0 +1,239 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1894-05-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-05-01.html",
+ "head":
+ "Tagebuch, 1. Mai 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marco Brociner",
+ "ref":
+ "person_13983"},
+ {
+ "persName":
+ "Vincenz Chiavacci",
+ "ref":
+ "person_14195"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02619",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02619.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 1. 5. [1894]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Leopold Sonnemann",
+ "ref":
+ "pmb87771"},
+ {
+ "persName":
+ "Henri Albert",
+ "ref":
+ "pmb2801"},
+ {
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "pmb11673"},
+ {
+ "persName":
+ "Fedor Mamroth",
+ "ref":
+ "pmb4986"},
+ {
+ "persName":
+ "Moriz Benedikt",
+ "ref":
+ "pmb10875"},
+ {
+ "persName":
+ "Ludwig Schwitzer",
+ "ref":
+ "pmb87963"},
+ {
+ "persName":
+ "Rudolf Lothar",
+ "ref":
+ "pmb2570"},
+ {
+ "persName":
+ "Édouard Pailleron",
+ "ref":
+ "pmb3991"},
+ {
+ "persName":
+ "Paul Verlaine",
+ "ref":
+ "pmb13011"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Mercure de France",
+ "ref":
+ "pmb36349"}
+ ,  {
+ "title":
+ "Journaux et Revues",
+ "ref":
+ "pmb88204"}
+ ,  {
+ "title":
+ "Die überspannte Person",
+ "ref":
+ "pmb30391"}
+ ,  {
+ "title":
+ "Halb Zwei",
+ "ref":
+ "pmb30389"}
+ ,  {
+ "title":
+ "Les Emplettes de Noël",
+ "ref":
+ "pmb88052"}
+ ,  {
+ "title":
+ "Die Glosse. Lustspiel in einem Act",
+ "ref":
+ "pmb30393"}
+ ,  {
+ "title":
+ "Neue Freie Presse",
+ "ref":
+ "pmb36374"}
+ ,  {
+ "title":
+ "Sterben. Novelle",
+ "ref":
+ "pmb30117"}
+ ,  {
+ "title":
+ "Neue Deutsche Rundschau",
+ "ref":
+ "pmb36152"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ,  {
+ "orgName":
+ "Neue Freie Presse",
+ "ref":
+ "pmb29351"}
+ ,  {
+ "orgName":
+ "S. Fischer Verlag",
+ "ref":
+ "pmb29639"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "rue Feydeau",
+ "ref":
+ "pmb42671"}
+ ,  {
+ "placeName":
+ "rue Jacob",
+ "ref":
+ "pmb34189"}
+ ,  {
+ "placeName":
+ "Hamburg",
+ "ref":
+ "pmb506"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041520",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041520.html",
+ "head":
+ "Aufzeichnung von Bahr, [Mai 1894?]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"}]
+}
+}] 

@@ -1,0 +1,169 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-02-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-02-17.html",
+ "head":
+ "Tagebuch, 17. Februar 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hedwig Bleibtreu",
+ "ref":
+ "person_13776"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Oskar Friedrich Eirich",
+ "ref":
+ "person_14673"},
+ {
+ "persName":
+ "Berthold Oppenheim",
+ "ref":
+ "person_18563"},
+ {
+ "persName":
+ "Alexander Römpler",
+ "ref":
+ "person_19321"},
+ {
+ "persName":
+ "Adolf Sliwinski",
+ "ref":
+ "person_20167"},
+ {
+ "persName":
+ "Oscar Straus",
+ "ref":
+ "person_20490"},
+ {
+ "persName":
+ "Bernhard Herzmansky",
+ "ref":
+ "person_16166"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Frau Beate und ihr Sohn. Novelle",
+ "ref":
+ "pmb32133"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ,  {
+ "placeName":
+ "Budapest",
+ "ref":
+ "pmb43471"}
+ ,  {
+ "placeName":
+ "Olomouc",
+ "ref":
+ "pmb44176"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00038035",
+ "head":
+ "Konstantin, Leopoldine an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopoldine (1886-1965) Konstantin",
+ "ref":
+ "http://d-nb.info/gnd/116331577"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040535",
+ "head":
+ "Mocrousoff, Eugen an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00035533",
+ "head":
+ "Grohé, Oskar an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Oskar (1859-1920) Grohé",
+ "ref":
+ "http://d-nb.info/gnd/116861835"},
+ {
+ "persName":
+ "Ferdinand (1870-1928) Gregori",
+ "ref":
+ "http://d-nb.info/gnd/116829931"}]
+}
+}] 

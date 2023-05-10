@@ -1,0 +1,79 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-10-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-10-04.html",
+ "head":
+ "Tagebuch, 4. Oktober 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ernst Mach",
+ "ref":
+ "person_17768"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Robert Schumann",
+ "ref":
+ "person_19942"},
+ {
+ "persName":
+ "Heinrich Teweles",
+ "ref":
+ "person_20682"},
+ {
+ "persName":
+ "Raoul Markbreiter",
+ "ref":
+ "person_17909"},
+ {
+ "persName":
+ "Franziska Mütter",
+ "ref":
+ "person_18320"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Streichquartett Nr. 2 F-Dur op. 41,2",
+ "ref":
+ "pmb78458"}
+ ,  {
+ "title":
+ "Harzreise und andere Fahrten",
+ "ref":
+ "pmb79166"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

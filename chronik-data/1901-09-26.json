@@ -1,0 +1,131 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1901-09-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-09-26.html",
+ "head":
+ "Tagebuch, 26. September 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Drucker",
+ "ref":
+ "person_14524"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02581",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02581.html",
+ "head":
+ "Marie von Ebner-Eschenbach an Arthur Schnitzler, 26. 9. 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie von Ebner-Eschenbach",
+ "ref":
+ "pmb11216"},
+ {
+ "persName":
+ "Friedrich Düsel",
+ "ref":
+ "pmb11212"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Lieutenant Gustl. Novelle",
+ "ref":
+ "pmb29853"}
+ ,  {
+ "title":
+ "Frau Bertha Garlan. Roman",
+ "ref":
+ "pmb30486"}
+ ,  {
+ "title":
+ "Westermanns Monatshefte",
+ "ref":
+ "pmb65201"}
+ ,  {
+ "title":
+ "Romane und Novellen",
+ "ref":
+ "pmb65202"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Zdislavice",
+ "ref":
+ "pmb65192"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Schloss Zdislavice",
+ "ref":
+ "pmb65195"}
+ ,  {
+ "placeName":
+ "Zdounky",
+ "ref":
+ "pmb65198"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00062680",
+ "head":
+ "Ebner-Eschenbach, Marie von an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.Kopie. Mit Negativkopie",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie von (1830-1916) Ebner-Eschenbach",
+ "ref":
+ "http://d-nb.info/gnd/118528661"}]
+}
+}] 

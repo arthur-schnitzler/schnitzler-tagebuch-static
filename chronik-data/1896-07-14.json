@@ -1,0 +1,258 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-07-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-14.html",
+ "head":
+ "Tagebuch, 14. Juli 1896",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Nes",
+ "ref":
+ "pmb91318"}
+ ,  {
+ "placeName":
+ "Romsdal",
+ "ref":
+ "pmb91612"}
+ ,  {
+ "placeName":
+ "Molde",
+ "ref":
+ "pmb91263"}
+ ,  {
+ "placeName":
+ "Kristiansund",
+ "ref":
+ "pmb91075"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02781",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02781.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 14. 7. [1896]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Leopold Sonnemann",
+ "ref":
+ "pmb87771"},
+ {
+ "persName":
+ "Félix Faure",
+ "ref":
+ "pmb57436"},
+ {
+ "persName":
+ "duc d’Orléans
+                
+                  Louis Philippe Robert d’Orléans",
+ "ref":
+ "pmb5617"},
+ {
+ "persName":
+ "Jean Thorel",
+ "ref":
+ "pmb3966"},
+ {
+ "persName":
+ "Pierre Loti",
+ "ref":
+ "pmb12114"},
+ {
+ "persName":
+ "André Antoine",
+ "ref":
+ "pmb2211"},
+ {
+ "persName":
+ "Friedrich von Schiller",
+ "ref":
+ "pmb12654"},
+ {
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "pmb2147"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb36344"}
+ ,  {
+ "title":
+ "Wallenstein",
+ "ref":
+ "pmb77041"}
+ ,  {
+ "title":
+ "Don Karlos, Infant von Spanien",
+ "ref":
+ "pmb33023"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Amourette. Pièce en trois actes",
+ "ref":
+ "pmb92876"}
+ ,  {
+ "title":
+ "Wie ich es sehe",
+ "ref":
+ "pmb30965"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Oslo",
+ "ref":
+ "pmb36296"}
+ ,  {
+ "placeName":
+ "rue Feydeau",
+ "ref":
+ "pmb42671"}
+ ,  {
+ "placeName":
+ "Norwegen",
+ "ref":
+ "pmb64465"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ,  {
+ "placeName":
+ "Orléans",
+ "ref":
+ "pmb53818"}
+ ,  {
+ "placeName":
+ "Dänemark",
+ "ref":
+ "pmb43570"}
+ ,  {
+ "placeName":
+ "Spanien",
+ "ref":
+ "pmb388"}
+ ,  {
+ "placeName":
+ "Hendaye",
+ "ref":
+ "pmb64640"}
+ ,  {
+ "placeName":
+ "Nordkap",
+ "ref":
+ "pmb41072"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91318/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91318/",
+ "head":
+ "Nes"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#g21edf0a-7af3-4163-813b-7d55aaaf2eba",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Adele Sandrock an Arthur Schnitzler, 14.7.1896",
+ "source":
+ "Renate Wagner (Hg.): Dilly. Geschichte einer Liebe in Briefen, Bildern und Dokumenten. Wien/München: Amalthea 1975."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00069469",
+ "head":
+ "Reiter, Emil an Sandrock, Adele [Briefe]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Adele (1863-1937) Sandrock",
+ "ref":
+ "http://d-nb.info/gnd/118605429"}]
+}
+}] 

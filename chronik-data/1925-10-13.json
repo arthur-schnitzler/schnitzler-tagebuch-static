@@ -1,0 +1,235 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1925-10-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1925-10-13.html",
+ "head":
+ "Tagebuch, 13. Oktober 1925",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur Hellmer",
+ "ref":
+ "person_16075"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Karl Michaelis",
+ "ref":
+ "person_18140"},
+ {
+ "persName":
+ "Gerda Müller",
+ "ref":
+ "person_18295"},
+ {
+ "persName":
+ "Emil Rameau",
+ "ref":
+ "person_19042"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Victor Barnowsky",
+ "ref":
+ "person_13428"},
+ {
+ "persName":
+ "Christian Dietrich Grabbe",
+ "ref":
+ "person_15605"},
+ {
+ "persName":
+ "Jürgen Fehling",
+ "ref":
+ "person_14908"},
+ {
+ "persName":
+ "Berthold Viertel",
+ "ref":
+ "person_20964"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Weihnachts-Einkäufe",
+ "ref":
+ "pmb30163"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Don Juan und Faust",
+ "ref":
+ "pmb78340"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Schillertheater",
+ "ref":
+ "pmb334"}
+ ,  {
+ "placeName":
+ "Dahlem",
+ "ref":
+ "pmb90508"}
+ ,  {
+ "placeName":
+ "Königgrätzerstr.",
+ "ref":
+ "pmb92340"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/245/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/245/",
+ "head":
+ "Hotel Esplanade"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp273",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp273.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 13. Oktober 1925"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp274",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp274.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 13.–14. Oktober 1925"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp279",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp279.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 13. Oktober 1925"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/48242/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/48242/",
+ "head":
+ "Generalprobe von Liebelei, 13.10.1925",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Jürgen Fehling",
+ "ref":
+ "pmb7102"},
+ {
+ "persName":
+ "Richard Duschinsky",
+ "ref":
+ "pmb6889"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schillertheater",
+ "ref":
+ "pmb334"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00074869",
+ "head":
+ "Röchling, Alexander an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

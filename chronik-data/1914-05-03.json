@@ -1,0 +1,76 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-05-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-05-03.html",
+ "head":
+ "Tagebuch, 3. Mai 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Friederike Ergas",
+ "ref":
+ "person_14784"},
+ {
+ "persName":
+ "Rudolf Ergas",
+ "ref":
+ "person_14786"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Florenz",
+ "ref":
+ "pmb263"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/263/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/263/",
+ "head":
+ "Florenz"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040534",
+ "head":
+ "Moll, Carl an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Br., 1 Kte 3 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Carl (1861-1945) Moll",
+ "ref":
+ "http://d-nb.info/gnd/118882368"}]
+}
+}] 

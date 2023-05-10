@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-06-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-06-05.html",
+ "head":
+ "Tagebuch, 5. Juni 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Wilhelm Haas",
+ "ref":
+ "person_15815"},
+ {
+ "persName":
+ "Knut Hamsun",
+ "ref":
+ "person_15894"},
+ {
+ "persName":
+ "Wilhelm Herzog",
+ "ref":
+ "person_16168"},
+ {
+ "persName":
+ "Charles Emil Maylan",
+ "ref":
+ "person_18027"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Unter Herbststernen. Die Erzählung eines Wanderers",
+ "ref":
+ "pmb78053"}
+ ,  {
+ "title":
+ "Vom Teufel geholt",
+ "ref":
+ "pmb78056"}
+ ,  {
+ "title":
+ "Victoria. Die Geschichte einer Liebe",
+ "ref":
+ "pmb78055"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kochel",
+ "ref":
+ "pmb60711"}
+ ,  {
+ "placeName":
+ "Lake Walchen",
+ "ref":
+ "pmb92033"}
+ ,  {
+ "placeName":
+ "Seefeld in Tirol",
+ "ref":
+ "pmb91719"}
+ ,  {
+ "placeName":
+ "Tirol",
+ "ref":
+ "pmb423"}
+ ,  {
+ "placeName":
+ "Scharnitz",
+ "ref":
+ "pmb91673"}
+ ,  {
+ "placeName":
+ "Tutzing",
+ "ref":
+ "pmb44493"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44493/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44493/",
+ "head":
+ "Tutzing"
+}] 

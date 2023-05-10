@@ -1,0 +1,155 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-02-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-02-15.html",
+ "head":
+ "Tagebuch, 15. Februar 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "person_16222"},
+ {
+ "persName":
+ "Leopoldine Müller",
+ "ref":
+ "person_18303"},
+ {
+ "persName":
+ "Ida d’Albert",
+ "ref":
+ "person_13131"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Letzte Liebe",
+ "ref":
+ "pmb80377"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01013",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01013.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 15. 2. 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Andrea Mantegna",
+ "ref":
+ "pmb20935"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Fedor Mamroth",
+ "ref":
+ "pmb4986"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Madonna mit den Cherubin",
+ "ref":
+ "pmb44643"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pegli",
+ "ref":
+ "pmb41022"}
+ ,  {
+ "placeName":
+ "Genua",
+ "ref":
+ "pmb994"}
+ ,  {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Frankgasse",
+ "ref":
+ "pmb397"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Mailand",
+ "ref":
+ "pmb886"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/CH-002121-2-991170467261405501",
+ "head":
+ "Briefkarte an [Georg Hirschfeld] / von Arthur Sch[nitzler]",
+ "text":
+ "Transkription: 'lieber Georg, bitte speisen Sie Donnerstg Mittag ½ 2 bei uns, Frau Fulda kommt auch. Ich sehe Sie vielleicht morgen Vormittg. Herzlichst Ihr Arthur Sch' (Freundliche Mitteilung von Martin Anton Müller, Wien, 28.09.2020). Karte (1 Seite beschrieben) (7 x 11,5 cm)"
+}] 

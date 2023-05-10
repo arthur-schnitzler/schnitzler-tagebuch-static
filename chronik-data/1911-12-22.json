@@ -1,0 +1,113 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-12-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-12-22.html",
+ "head":
+ "Tagebuch, 22. Dezember 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00063058",
+ "head":
+ "Sternheim, Carl an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.Kopie. Mit Negativkopie",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Carl (1878-1942) Sternheim",
+ "ref":
+ "http://d-nb.info/gnd/118617958"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043509",
+ "head":
+ "Stein, Ludwig an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00076873",
+ "head":
+ "Sternheim, Carl an Schnitzler, Arthur [Briefe]",
+ "text":
+ "Beilage: Sternheim Carl: Aufruhr gegen Zensur. 1 Blatt Rundschreiben. Mit 1 Blatt Beilage",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Carl (1878-1942) Sternheim",
+ "ref":
+ "http://d-nb.info/gnd/118617958"},
+ {
+ "persName":
+ "Frank (1864-1918) Wedekind",
+ "ref":
+ "http://d-nb.info/gnd/118629867"},
+ {
+ "persName":
+ "Herbert (1876-1949) Eulenberg",
+ "ref":
+ "http://d-nb.info/gnd/118682636"},
+ {
+ "persName":
+ "Otto (1874-1916) Borngräber",
+ "ref":
+ "http://d-nb.info/gnd/116255536"}]
+}
+}] 

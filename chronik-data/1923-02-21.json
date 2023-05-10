@@ -1,0 +1,121 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/ELS_H1_0161",
+ "head":
+ "Fräulein Else, hsl. Werkniederschrift"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-02-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-02-21.html",
+ "head":
+ "Tagebuch, 21. Februar 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Biach",
+ "ref":
+ "person_13708"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Schütz",
+ "ref":
+ "person_19920"},
+ {
+ "persName":
+ "Ludwig Zerkovitz",
+ "ref":
+ "person_21541"},
+ {
+ "persName":
+ "Zifferer",
+ "ref":
+ "person_21558"},
+ {
+ "persName":
+ "Josef Schnitzler",
+ "ref":
+ "person_19826"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fräulein Else",
+ "ref":
+ "pmb29941"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Edlach",
+ "ref":
+ "pmb470"}
+ ,  {
+ "placeName":
+ "Grossau",
+ "ref":
+ "pmb90775"}
+ ,  {
+ "placeName":
+ "Nagykanizsa",
+ "ref":
+ "pmb45549"}
+ ,  {
+ "placeName":
+ "Budapest",
+ "ref":
+ "pmb43471"}
+ ,  {
+ "placeName":
+ "Payerbach",
+ "ref":
+ "pmb948"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/470/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/470/",
+ "head":
+ "Edlach"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/714/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/714/",
+ "head":
+ "Hotel Edlacherhof"
+}] 

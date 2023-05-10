@@ -1,0 +1,85 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-03-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-03-08.html",
+ "head":
+ "Tagebuch, 8. März 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jakob Baechtold",
+ "ref":
+ "person_13369"},
+ {
+ "persName":
+ "Ernst Theodor Amadeus Hoffmann",
+ "ref":
+ "person_16272"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Große Szene",
+ "ref":
+ "pmb31429"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Gottfried Kellers Leben. Seine Briefe und Tagebücher",
+ "ref":
+ "pmb80111"}
+ ,  {
+ "title":
+ "Der goldne Topf",
+ "ref":
+ "pmb77789"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Naples",
+ "ref":
+ "pmb91330"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91330/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91330/",
+ "head":
+ "Neapel"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00082816",
+ "head":
+ "Schnitzler, Arthur: Die grosse Szene [Dramatisches] (Drucktitel)",
+ "text":
+ "46 Bl."
+}] 

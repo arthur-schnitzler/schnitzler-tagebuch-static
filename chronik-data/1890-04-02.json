@@ -1,0 +1,191 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1890-04-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1890-04-02.html",
+ "head":
+ "Tagebuch, 2. April 1890",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Helene Binder",
+ "ref":
+ "person_13733"},
+ {
+ "persName":
+ "Josef Binder",
+ "ref":
+ "person_13734"},
+ {
+ "persName":
+ "Max Breitenstein",
+ "ref":
+ "person_13950"},
+ {
+ "persName":
+ "Julius von Gans-Ludassy",
+ "ref":
+ "person_15338"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Hugo Klein",
+ "ref":
+ "person_16886"},
+ {
+ "persName":
+ "Fritz Lemmermayer",
+ "ref":
+ "person_17430"},
+ {
+ "persName":
+ "Guido von List",
+ "ref":
+ "person_17591"},
+ {
+ "persName":
+ "Josef Calasanz Poestion",
+ "ref":
+ "person_18840"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "person_21047"},
+ {
+ "persName":
+ "Viktor Wodiczka",
+ "ref":
+ "person_21417"},
+ {
+ "persName":
+ "Wilhelm Zierer",
+ "ref":
+ "person_21556"},
+ {
+ "persName":
+ "Alfred Nossig",
+ "ref":
+ "person_18483"},
+ {
+ "persName":
+ "Rudolf Steiner",
+ "ref":
+ "person_20376"},
+ {
+ "persName":
+ "Ludwig Gelber",
+ "ref":
+ "person_15376"},
+ {
+ "persName":
+ "Clemens Sokal",
+ "ref":
+ "person_20186"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/118221/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/118221/",
+ "head":
+ "Planung eines Vereins Jung-Wien, 2.4.1890",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Guido von List",
+ "ref":
+ "pmb8676"},
+ {
+ "persName":
+ "Josef Calasanz Poestion",
+ "ref":
+ "pmb22649"},
+ {
+ "persName":
+ "Fritz Lemmermayer",
+ "ref":
+ "pmb8565"},
+ {
+ "persName":
+ "Rudolf Steiner",
+ "ref":
+ "pmb12832"},
+ {
+ "persName":
+ "Viktor Wodiczka",
+ "ref":
+ "pmb27279"},
+ {
+ "persName":
+ "Julius von Gans-Ludassy",
+ "ref":
+ "pmb11406"},
+ {
+ "persName":
+ "Max Breitenstein",
+ "ref":
+ "pmb14511"},
+ {
+ "persName":
+ "Hugo Klein",
+ "ref":
+ "pmb8236"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}] 

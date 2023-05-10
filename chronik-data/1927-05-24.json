@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1927-05-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-05-24.html",
+ "head":
+ "Tagebuch, 24. Mai 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Goldscheider",
+ "ref":
+ "person_15534"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Bela Horovitz",
+ "ref":
+ "person_16378"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Arthur Klein",
+ "ref":
+ "person_16881"},
+ {
+ "persName":
+ "Fjodor I. Schaljapin",
+ "ref":
+ "person_19617"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Norbert Hoffmann",
+ "ref":
+ "person_16277"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Buch der Sprüche und Bedenken",
+ "ref":
+ "pmb30053"}
+ ,  {
+ "title":
+ "Margarethe. Oper in fünf Akten",
+ "ref":
+ "pmb77990"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u02092b4-47df-42e7-a68c-556d17f8d217",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Franz Nabl, 24.5.1927",
+ "source":
+ "Reinhard Urbach: Arthur Schnitzler – Franz Nabl. Briefwechsel. In: Studium Generale, Jg. 24, 1971, S. 1256-1270."
+}] 

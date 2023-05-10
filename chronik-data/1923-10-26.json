@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-10-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-10-26.html",
+ "head":
+ "Tagebuch, 26. Oktober 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Mohr",
+ "ref":
+ "person_18206"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Ernst Reclam",
+ "ref":
+ "person_19088"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Alice Schalek",
+ "ref":
+ "person_19615"},
+ {
+ "persName":
+ "Paula Schmidl",
+ "ref":
+ "person_19756"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Agnes Ulmann",
+ "ref":
+ "person_20872"},
+ {
+ "persName":
+ "Hugo Wolf",
+ "ref":
+ "person_21432"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Improvisationen im Juni",
+ "ref":
+ "pmb81022"}
+ ,  {
+ "title":
+ "Penthesilea",
+ "ref":
+ "pmb78171"}
+ ,  {
+ "title":
+ "Italienische Serenade g-Dur",
+ "ref":
+ "pmb30773"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Japan",
+ "ref":
+ "pmb318"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

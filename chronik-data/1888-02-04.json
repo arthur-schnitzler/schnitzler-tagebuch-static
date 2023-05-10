@@ -1,0 +1,112 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1888-02-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-02-04.html",
+ "head":
+ "Tagebuch, 4. Februar 1888",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Oskar Friedrich Eirich",
+ "ref":
+ "person_14673"},
+ {
+ "persName":
+ "Jeanette Heeger",
+ "ref":
+ "person_16022"},
+ {
+ "persName":
+ "Rosa Hochsinger",
+ "ref":
+ "person_16245"},
+ {
+ "persName":
+ "Rudolf Lothar",
+ "ref":
+ "person_17696"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "person_21047"},
+ {
+ "persName":
+ "Adolf Weizmann",
+ "ref":
+ "person_21217"},
+ {
+ "persName":
+ "Joseph Weinlechner",
+ "ref":
+ "person_21176"},
+ {
+ "persName":
+ "Charlotte Heller",
+ "ref":
+ "person_16064"},
+ {
+ "persName":
+ "Hermine von Schaffgotsch",
+ "ref":
+ "person_19611"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Abenteuer seines Lebens. Ein einaktiges Lustspiel",
+ "ref":
+ "pmb30143"}
+ ,  {
+ "title":
+ "Sprüche in Versen",
+ "ref":
+ "pmb35760"}
+ ,  {
+ "title":
+ "Walzer",
+ "ref":
+ "pmb36026"}
+ ,  {
+ "title":
+ "Die Tantaliden",
+ "ref":
+ "pmb76674"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d2b0f559-bde7-4114-82b9-741a8810c463",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Olga Waissnix, 4.2.1888?",
+ "source":
+ "Arthur Schnitzler und Waissnix, Olga: Liebe, die starb vor der Zeit. Ein Briefwechsel. Mit einem Vorwort von Hans Weigel. Mit 16 Seiten Kunstdruckbildern. Hg. v. Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)"
+}] 

@@ -1,0 +1,115 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-01-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-01-20.html",
+ "head":
+ "Tagebuch, 20. Januar 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Brann",
+ "ref":
+ "person_13925"},
+ {
+ "persName":
+ "Theo Drill-Oridge",
+ "ref":
+ "person_14515"},
+ {
+ "persName":
+ "Richard Mandl",
+ "ref":
+ "person_17827"},
+ {
+ "persName":
+ "Paul Schmedes",
+ "ref":
+ "person_19745"},
+ {
+ "persName":
+ "Ida d’Albert",
+ "ref":
+ "person_13131"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Andalusia",
+ "ref":
+ "pmb89424"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01825",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01825.html",
+ "head":
+ "Arthur Schnitzler an Albert Ehrenstein, 20. 1. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "pmb11230"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tai-Gin",
+ "ref":
+ "pmb33456"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Österreichische Rundschau",
+ "ref":
+ "pmb29496"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

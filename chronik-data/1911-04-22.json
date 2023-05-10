@@ -1,0 +1,55 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-04-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-04-22.html",
+ "head":
+ "Tagebuch, 22. April 1911",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Menton",
+ "ref":
+ "pmb36456"}
+ ,  {
+ "placeName":
+ "Castellar",
+ "ref":
+ "pmb90456"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/36456/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/36456/",
+ "head":
+ "Menton"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u02092b4-47df-42e7-a68c-556d17f8d217",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Franz Nabl, 22.4.1911",
+ "source":
+ "Reinhard Urbach: Arthur Schnitzler – Franz Nabl. Briefwechsel. In: Studium Generale, Jg. 24, 1971, S. 1256-1270."
+}] 

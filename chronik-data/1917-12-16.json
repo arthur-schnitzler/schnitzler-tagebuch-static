@@ -1,0 +1,92 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1917-12-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1917-12-16.html",
+ "head":
+ "Tagebuch, 16. Dezember 1917",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johannes Brahms",
+ "ref":
+ "person_13914"},
+ {
+ "persName":
+ "Friedrich Dlabač",
+ "ref":
+ "person_14465"},
+ {
+ "persName":
+ "Emil Hertzka",
+ "ref":
+ "person_16136"},
+ {
+ "persName":
+ "Karl Pollak",
+ "ref":
+ "person_18887"},
+ {
+ "persName":
+ "Margarete Lewith",
+ "ref":
+ "person_17496"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Frau des Richters. Novelle",
+ "ref":
+ "pmb30751"}
+ ,  {
+ "title":
+ "Horntrio Es-Dur op. 40",
+ "ref":
+ "pmb78199"}
+ ,  {
+ "title":
+ "Klarinettentrio a-Moll op. 114",
+ "ref":
+ "pmb78201"}
+ ,  {
+ "title":
+ "Sextett Nr. 1 B-Dur op. 18",
+ "ref":
+ "pmb78215"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kahlenberg",
+ "ref":
+ "pmb574"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

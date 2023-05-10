@@ -1,0 +1,92 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1924-08-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-08-29.html",
+ "head":
+ "Tagebuch, 29. August 1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan von Auspitz-Artenegg",
+ "ref":
+ "person_13316"},
+ {
+ "persName":
+ "Brigitte Bermann Fischer",
+ "ref":
+ "person_13658"},
+ {
+ "persName":
+ "Efraim Frisch",
+ "ref":
+ "person_15253"},
+ {
+ "persName":
+ "Hermann Hesse",
+ "ref":
+ "person_16171"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lugano",
+ "ref":
+ "pmb885"}
+ ,  {
+ "placeName":
+ "Ponte Tresa",
+ "ref":
+ "pmb91502"}
+ ,  {
+ "placeName":
+ "Stresa",
+ "ref":
+ "pmb91850"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/885/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/885/",
+ "head":
+ "Lugano"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91850/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91850/",
+ "head":
+ "Stresa"
+}] 

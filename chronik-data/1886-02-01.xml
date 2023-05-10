@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1886-02-01">Montag, 1. Februar 1886</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1886-02-01">
+               <head>Tagebuch, 1. Februar 1886</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13360">Sigmund Bachrich</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13606">Alfred Benvenisti</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13707">Josef von Bezecný</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13733">Helene Binder</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15002">Gisela Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15193">Gisela Frid</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15194">Gustav Frid</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15229">Louis Philipp Friedmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15231">Max Friedmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15287">Friedrich Fürst</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15340">Olga von Gans-Ludassy</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15854">Gisela Hajek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16061">Heli</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16165">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16364">Richard Horn</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16626">Käthchen</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16709">Friedrich Kapper</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17147">Kron</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17368">Franziska Reich</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17814">Alexander Mandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17900">Else Markbreiter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17906">Otto Markbreiter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17931">Godfried Marschall</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18079">Albert von Mensdorff-Pouilly-Dietrichstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18190">Friedrich Mitterwurzer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18466">Gabor Nobl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18486">Hermann Nothnagel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19450">Anton Rubinstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19512">Ferdinand von Sachsen-Coburg-Gotha</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20204">Adolf von Sonnenthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20324">Josef Standthartner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20562">Eduard Suchanek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20577">Peter von Suppè</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20643">Richard Tausenau</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21427">Wolf</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13594">Moritz Benedikt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19824">Johann Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14011">Emil Brüll</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17508">Max Lichtenstern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17909">Raoul Markbreiter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18320">Franziska Mütter</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20910">Valeska</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21163">Max Weinberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21463">Charlotte Wolter</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb35765">Belastet</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30797">Jubiläums-Festspiel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33243">Tagebuch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76501">Tabarin. Schauspiel in einem Act. Frei nach Catulle Mendès</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb42423">Łódź</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb42">Leidingers Restauration</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44053">New York City</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1886-02-01.html</idno>
+            </event>
+            <event when-iso="1886-02-01">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1909-08-24">Dienstag, 24. August 1909</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1909-08-24">
+               <head>Tagebuch, 24. August 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14199">Auguste Chlum</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17324">Adolf Lantz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18623">Frederick Diller Owsley</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19326">Carl Rössler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20219">Agnes Sorma</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19824">Johann Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20383">Albert Steinrück</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb77547">Hinterm Zaun</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb90589">Englischer Garten</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb577">Irland</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-08-24.html</idno>
+            </event>
+            <event when-iso="1909-08-24">
+               <head>Albert Ehrenstein an Arthur Schnitzler, 24. 8. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11230">Albert Ehrenstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10788">Raoul Auernheimer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27755">
+                  ?? [Studienkollege von Albert Ehrenstein]
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5643">Gaius Duilius</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5626">
+                  Theoderich der Große
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5629">
+                  Gustav II. Adolf von Schweden
+               </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33478">?? [Dissertation]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33452">Tubutsch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33454">Tod des Zehir eddin Muhammed Baber</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33482">Apaturien</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb44146">Mixnitz</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb470">Edlach</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb462">Venedig</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01867.html</idno>
+            </event>
+            <event when-iso="1909-08-24">
+               <head>München</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/45258/</idno>
+            </event>
+            <event when-iso="1909-08-24">
+               <head>Arthur Schnitzler an Olga Schnitzler, 24. 8. 1909</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116848723">Schnitzler, Olga</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am
+                    Main: S. Fischer 1981.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

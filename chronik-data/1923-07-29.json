@@ -1,0 +1,88 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-07-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-07-29.html",
+ "head":
+ "Tagebuch, 29. Juli 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Alexander Barjanski",
+ "ref":
+ "person_13423"},
+ {
+ "persName":
+ "Richard Dehmel",
+ "ref":
+ "person_14383"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Ausgewählte Briefe aus den Jahren 1883-1902",
+ "ref":
+ "pmb76969"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Salmannsdorf",
+ "ref":
+ "pmb91641"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp092",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp092.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 29. Juli 1923"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00073540",
+ "head":
+ "Willert, Grete an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

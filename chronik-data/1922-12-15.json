@@ -1,0 +1,97 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-12-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-12-15.html",
+ "head":
+ "Tagebuch, 15. Dezember 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rudolf Askonas",
+ "ref":
+ "person_13285"},
+ {
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Paul Weingarten",
+ "ref":
+ "person_21171"},
+ {
+ "persName":
+ "Alfred von Winterstein",
+ "ref":
+ "person_21387"},
+ {
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "person_21614"},
+ {
+ "persName":
+ "Richard Specht",
+ "ref":
+ "person_20238"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"},
+ {
+ "persName":
+ "Fritz von Unruh",
+ "ref":
+ "person_20885"},
+ {
+ "persName":
+ "Erika Wagner",
+ "ref":
+ "person_21024"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Lustspielnovellen",
+ "ref":
+ "pmb76899"}
+ ,  {
+ "title":
+ "Louis Ferdinand, Prinz von Preußen. Ein Drama",
+ "ref":
+ "pmb76584"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

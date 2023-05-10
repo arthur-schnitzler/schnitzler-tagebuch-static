@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1885-10-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1885-10-05.html",
+ "head":
+ "Tagebuch, 5. Oktober 1885",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Moritz von Gans-Ludassy",
+ "ref":
+ "person_15339"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Josef Standthartner",
+ "ref":
+ "person_20324"},
+ {
+ "persName":
+ "Richard Tausenau",
+ "ref":
+ "person_20643"},
+ {
+ "persName":
+ "Moritz Benedikt",
+ "ref":
+ "person_13594"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"},
+ {
+ "persName":
+ "Charlotte Heller",
+ "ref":
+ "person_16064"},
+ {
+ "persName":
+ "Rudolf Latzko",
+ "ref":
+ "person_17354"},
+ {
+ "persName":
+ "Franziska Mütter",
+ "ref":
+ "person_18320"},
+ {
+ "persName":
+ "Eleonore Scharf",
+ "ref":
+ "person_19630"},
+ {
+ "persName":
+ "Max Weinberg",
+ "ref":
+ "person_21163"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "",
+ "ref":
+ "pmb91574"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

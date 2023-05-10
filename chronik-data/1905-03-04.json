@@ -1,0 +1,124 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-03-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-03-04.html",
+ "head":
+ "Tagebuch, 4. März 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emanuel Spiro",
+ "ref":
+ "person_20270"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Genua",
+ "ref":
+ "pmb994"}
+ ,  {
+ "placeName":
+ "Pegli",
+ "ref":
+ "pmb41022"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01504",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01504.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 4. 3. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pegli",
+ "ref":
+ "pmb41022"}
+ ,  {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/994/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/994/",
+ "head":
+ "Genua"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/41022/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/41022/",
+ "head":
+ "Pegli"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00050834",
+ "head":
+ "Schnitzler, Arthur an Schnitzler, Olga [Briefe] (Manuskripttitel)",
+ "text":
+ "Erstes Objekt aus der Mappe. 9 Briefe, 13 Karten, 3 Telegramme 47 Blatt. Mit Abschrift 18 Blatt. Mit Durchschlag 18 Blatt",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga (1882-1970) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848723"}]
+}
+}] 

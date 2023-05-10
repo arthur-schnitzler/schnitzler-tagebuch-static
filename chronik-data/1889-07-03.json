@@ -1,0 +1,79 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1889-07-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1889-07-03.html",
+ "head":
+ "Tagebuch, 3. Juli 1889",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Arthur Freund",
+ "ref":
+ "person_15182"},
+ {
+ "persName":
+ "Theodor Friedmann",
+ "ref":
+ "person_15237"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Jeanette Heeger",
+ "ref":
+ "person_16022"},
+ {
+ "persName":
+ "Arthur Horner",
+ "ref":
+ "person_16371"},
+ {
+ "persName":
+ "Betty Horner",
+ "ref":
+ "person_16372"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Augartenbrücke",
+ "ref":
+ "pmb90280"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XIX., Döbling",
+ "ref":
+ "pmb69"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

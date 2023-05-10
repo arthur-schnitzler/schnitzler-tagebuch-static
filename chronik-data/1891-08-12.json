@@ -1,0 +1,301 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1891-08-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-08-12.html",
+ "head":
+ "Tagebuch, 12. August 1891",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Hüttenbesitzer",
+ "ref":
+ "pmb31303"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Baden bei Wien",
+ "ref":
+ "pmb662"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00031",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00031.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 12. 8. 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "pmb26392"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00032",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00032.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 12. 8. 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Franz Joseph I. von Österreich-Ungarn",
+ "ref":
+ "pmb2513"},
+ {
+ "persName":
+ "König Alexander I. Serbien",
+ "ref":
+ "pmb40223"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Strobl",
+ "ref":
+ "pmb895"}
+ ,  {
+ "placeName":
+ "VI., Mariahilf",
+ "ref":
+ "pmb56"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Kärntnerring",
+ "ref":
+ "pmb501"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041646",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041646.html",
+ "head":
+ "E. M. Kafka an Bahr, 12. 8. 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Eduard Michael Kafka",
+ "ref":
+ "pmb2563"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Jaques Joachim",
+ "ref":
+ "pmb18870"},
+ {
+ "persName":
+ "Jakob Julius David",
+ "ref":
+ "pmb2416"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die schamhafte Gräfin",
+ "ref":
+ "pmb31297"}
+ ,  {
+ "title":
+ "Russische Reise",
+ "ref":
+ "pmb30175"}
+ ,  {
+ "title":
+ "»Zur Kritik der Moderne«",
+ "ref":
+ "pmb31375"}
+ ,  {
+ "title":
+ "Der neueste Bahr",
+ "ref":
+ "pmb31383"}
+ ,  {
+ "title":
+ "Zur Kritik der Moderne",
+ "ref":
+ "pmb32440"}
+ ,  {
+ "title":
+ "Die Überwindung des Naturalismus",
+ "ref":
+ "pmb31945"}
+ ,  {
+ "title":
+ "Hagars Sohn. Schauspiel in vier Acten",
+ "ref":
+ "pmb31371"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Das Friedensfest",
+ "ref":
+ "pmb30019"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brünn",
+ "ref":
+ "pmb833"}
+ ,  {
+ "placeName":
+ "Buchfeldgasse",
+ "ref":
+ "pmb789"}
+ ,  {
+ "placeName":
+ "Tuchlauben",
+ "ref":
+ "pmb790"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hybešova",
+ "ref":
+ "pmb788"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Moderne Dichtung/Moderne Rundschau",
+ "ref":
+ "pmb29417"}
+ ,  {
+ "orgName":
+ "Leopold Weiss",
+ "ref":
+ "pmb29220"}
+ ,  {
+ "orgName":
+ "Moderner Musen-Almanach",
+ "ref":
+ "pmb29374"}
+ ,  {
+ "orgName":
+ "Gesellschaft für modernes Leben",
+ "ref":
+ "pmb29372"}
+ ,  {
+ "orgName":
+ "E. Pierson’s Verlag",
+ "ref":
+ "pmb29771"}
+ ,  {
+ "orgName":
+ "»Freie Bühne« Verein für moderne Literatur",
+ "ref":
+ "pmb29781"}
+ ]
+}
+}] 

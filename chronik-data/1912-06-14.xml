@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1912-06-14">Freitag, 14. Juni 1912</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1912-06-14">
+               <head>Tagebuch, 14. Juni 1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13624">Alfred von Berger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13861">Fritz Bondy</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14626">Paul Eger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15898">Willi Handl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16426">Alfred Huttig</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18034">Hermine Medelsky</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18968">Klaus Pringsheim</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19364">Richard Rosenbaum</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19547">Hugo Salus</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20682">Heinrich Teweles</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13097">Friedrich Adler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13860">Charlotte Bondy</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16302">Stella Hohenfels</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19287">Alfred Rittig</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29823">Das Märchen. Schauspiel in drei Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30203">Professor Bernhardi. Komödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb652">Prag</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-06-14.html</idno>
+            </event>
+            <event when-iso="1912-06-14">
+               <head>Prag</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/652/</idno>
+            </event>
+            <event when-iso="1912-06-14">
+               <head>Palasthotel Prag</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90/</idno>
+            </event>
+            <event when-iso="1912-06-14">
+               <head>Premiere von Der einsame Weg, 14.6.1912</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29985" type="auffuhrung-von-premiere-von">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb23447" type="hat-als-arbeitskraft">Alfred Rittig</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb8883" type="hat-als-arbeitskraft">Hermine Medelsky</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb27" type="veranstaltet-in">Ständetheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91" type="veranstaltet-in">Neues Deutsches Theater</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb37080" type="veranstaltet-von">Neues Deutsches Theater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/47451/</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

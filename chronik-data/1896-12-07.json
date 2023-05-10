@@ -1,0 +1,129 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-12-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-12-07.html",
+ "head":
+ "Tagebuch, 7. Dezember 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Auguste Chlum",
+ "ref":
+ "person_14199"},
+ {
+ "persName":
+ "Leo Ebermann",
+ "ref":
+ "person_14597"},
+ {
+ "persName":
+ "Helene Holitscher",
+ "ref":
+ "person_16324"},
+ {
+ "persName":
+ "Karolini Pollatschek",
+ "ref":
+ "person_18854"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Anna Holitscher",
+ "ref":
+ "person_16321"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das letzte Ideal",
+ "ref":
+ "pmb79299"}
+ ,  {
+ "title":
+ "Die Romantischen",
+ "ref":
+ "pmb77232"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00626",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00626.html",
+ "head":
+ "Detlev von Liliencron, Marcell Salzer an Arthur Schnitzler, 7. 12. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Detlev von Liliencron",
+ "ref":
+ "pmb12071"},
+ {
+ "persName":
+ "Marcell Salzer",
+ "ref":
+ "pmb12614"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Altona",
+ "ref":
+ "pmb1259"}
+ ,  {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Hamburg",
+ "ref":
+ "pmb506"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Frankgasse",
+ "ref":
+ "pmb397"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

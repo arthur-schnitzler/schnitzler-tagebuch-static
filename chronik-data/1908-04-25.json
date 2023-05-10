@@ -1,0 +1,74 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-04-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-04-25.html",
+ "head":
+ "Tagebuch, 25. April 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ferdinand Kürnberger",
+ "ref":
+ "person_17169"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Ferdinand Kürnbergers Briefe an eine Freundin (1859-1879)",
+ "ref":
+ "pmb78122"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Dolomites",
+ "ref":
+ "pmb90533"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00046454",
+ "head":
+ "Schnitzler, Arthur an Holzer, Marie [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie (1874-1924) Holzer",
+ "ref":
+ "http://d-nb.info/gnd/1027728154"}]
+}
+}] 

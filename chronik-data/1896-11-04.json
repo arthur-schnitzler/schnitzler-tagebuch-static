@@ -1,0 +1,255 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-11-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-11-04.html",
+ "head":
+ "Tagebuch, 4. November 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Theodor Entsch",
+ "ref":
+ "person_14766"},
+ {
+ "persName":
+ "Siegmund Feldmann",
+ "ref":
+ "person_14929"},
+ {
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "person_15306"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "person_16819"},
+ {
+ "persName":
+ "Max Nordau",
+ "ref":
+ "person_18472"},
+ {
+ "persName":
+ "Rudolf Rittner",
+ "ref":
+ "person_19288"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Hermann Sudermann",
+ "ref":
+ "person_20563"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ "pmb29899"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00615",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00615.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, [4. 11. 1896]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"},
+ {
+ "persName":
+ "Max Schwarzkopf",
+ "ref":
+ "pmb24648"},
+ {
+ "persName":
+ "Emil Schwarzkopf",
+ "ref":
+ "pmb24645"},
+ {
+ "persName":
+ "Victor Léon",
+ "ref":
+ "pmb2337"},
+ {
+ "persName":
+ "Leo Feld",
+ "ref":
+ "pmb18308"},
+ {
+ "persName":
+ "Alexander Engel",
+ "ref":
+ "pmb11253"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00616",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00616.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 4. 11. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Krejči",
+ "ref":
+ "pmb42737"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"},
+ {
+ "persName":
+ "Max Schwarzkopf",
+ "ref":
+ "pmb24648"},
+ {
+ "persName":
+ "Emil Schwarzkopf",
+ "ref":
+ "pmb24645"},
+ {
+ "persName":
+ "Victor Léon",
+ "ref":
+ "pmb2337"},
+ {
+ "persName":
+ "Leo Feld",
+ "ref":
+ "pmb18308"},
+ {
+ "persName":
+ "Alexander Engel",
+ "ref":
+ "pmb11253"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Wollzeile",
+ "ref":
+ "pmb338"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043476",
+ "head":
+ "Staglé, Helene an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

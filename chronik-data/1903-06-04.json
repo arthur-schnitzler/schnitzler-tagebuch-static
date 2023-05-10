@@ -1,0 +1,57 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-06-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-06-04.html",
+ "head":
+ "Tagebuch, 4. Juni 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Bernardino Luini",
+ "ref":
+ "person_17736"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Mailand",
+ "ref":
+ "pmb886"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/886/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/886/",
+ "head":
+ "Mailand"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00035210",
+ "head":
+ "Good, Hans an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

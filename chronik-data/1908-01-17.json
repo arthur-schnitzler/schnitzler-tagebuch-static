@@ -1,0 +1,201 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-01-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-01-17.html",
+ "head":
+ "Tagebuch, 17. Januar 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Moriz Breuer",
+ "ref":
+ "person_13964"},
+ {
+ "persName":
+ "Arthur Foges",
+ "ref":
+ "person_15066"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01752",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01752.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, [17. 1. 1908]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Jakob Minor",
+ "ref":
+ "pmb12258"},
+ {
+ "persName":
+ "Naëmah Beer-Hofmann",
+ "ref":
+ "pmb2534"},
+ {
+ "persName":
+ "Gabriel Beer-Hofmann",
+ "ref":
+ "pmb13923"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Die Verleihung des Grillparzer-Preises",
+ "ref":
+ "pmb46399"}
+ ,  {
+ "title":
+ "Neue Freie Presse",
+ "ref":
+ "pmb36374"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Franz-Grillparzer-Preis",
+ "ref":
+ "pmb29677"}
+ ,  {
+ "orgName":
+ "Neue Freie Presse",
+ "ref":
+ "pmb29351"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01753",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01753.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 17. 1. 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Karl Werkmann",
+ "ref":
+ "pmb13097"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Zeit",
+ "ref":
+ "pmb35935"}
+ ,  {
+ "title":
+ "Verleihung des Grillparzer-Preises an Artur Schnitzler",
+ "ref":
+ "pmb33041"}
+ ,  {
+ "title":
+ "Oedipus und die Sphinx. Tragödie in drei Aufzügen",
+ "ref":
+ "pmb31189"}
+ ,  {
+ "title":
+ "Und Pippa tanzt!",
+ "ref":
+ "pmb33043"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Franz-Grillparzer-Preis",
+ "ref":
+ "pmb29677"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

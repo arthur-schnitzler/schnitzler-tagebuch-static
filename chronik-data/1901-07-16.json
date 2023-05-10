@@ -1,0 +1,93 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1901-07-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-07-16.html",
+ "head":
+ "Tagebuch, 16. Juli 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Claudio Schmid",
+ "ref":
+ "person_19749"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Waidbruck",
+ "ref":
+ "pmb92031"}
+ ,  {
+ "placeName":
+ "Bad Dreikirchen",
+ "ref":
+ "pmb90151"}
+ ,  {
+ "placeName":
+ "Vahrn",
+ "ref":
+ "pmb946"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/946/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/946/",
+ "head":
+ "Vahrn"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/43040/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43040/",
+ "head":
+ "Brixen"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92031/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92031/",
+ "head":
+ "Waidbruck"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90151/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90151/",
+ "head":
+ "Bad Dreikirchen"
+}] 

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1930-03-20">Donnerstag, 20. März 1930</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1930-03-20">
+               <head>Tagebuch, 20. März 1930</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14234">Suzanne Clauser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16819">Alfred Kerr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18863">Clara Katharina Pollaczek</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21594">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15009">Samuel Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15210">Egon Friedell</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21602">Victor Zuckerkandl</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb54">IV., Wieden</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1930-03-20.html</idno>
+            </event>
+            <event when-iso="1930-03-20">
+               <head>Hermann Bahr an Arthur Schnitzler, 20. 3. 1930</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2132">Alois Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12762">Ignaz Seipel</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2150">Julius Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb16781">Isidor Fuchs</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26666">Camillo Walzel</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32003">Die Wienerstadt in Wort und Bild</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32005">Die Wienerstadt in Wort und Bild</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32007">Die Wienerstadt in Wort und Bild</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29279">Akademie der Tonkunst</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb43988">Akademische Hochschule für Musik</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb161">Barerstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb151">Deutschland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb25">Hochschule und Akademie für Musik und Darstellende Kunst</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb24">Ministerium für Unterricht</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02534.html</idno>
+            </event>
+            <event when-iso="1930-03-20">
+               <head>IV., Wieden</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/54/</idno>
+            </event>
+            <event when-iso="1930-03-20">
+               <head>Bahr an Schnitzler, 20. 3. 1930</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2132">Alois Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12762">Ignaz Seipel</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb161">Barerstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb151">Deutschland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb23">Akademische Hochschule für Musik</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb25">Hochschule und Akademie für Musik und Darstellende Kunst</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb24">Ministerium für Unterricht</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29279">Akademie der Tonkunst</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041351.html</idno>
+            </event>
+            <event when-iso="1930-03-20">
+               <head>Aufzeichnung von Bahr, 20. 3. 1930</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4716">Paula von Preradović</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4764">Petar Preradović</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4719">Georges Clemenceau</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28777">Lucy von Moÿ de Sons</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30361">Tagebuch. 12. März [1930]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30409">Tagebuch. 20. März [1930]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30423">Tagebuch. 22. März [1930]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30263">Les émigrés russes en France</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb707">Fronleichnamskapelle</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb711">St. Ludwig (München)</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041603.html</idno>
+            </event>
+            <event when-iso="1930-03-20">
+               <head>Arthur Schnitzler an Heinz Salfner, 20. 3. 1930</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/1061251942">Salfner, Heinz</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth, Richard Miklin, Susanne
+                    Pertlik und Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1984. (PDF unter:
+                    https://schnitzler-briefe.acdh.oeaw.ac.at/)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#jf7cbca5-b0b6-4bcf-adbf-38e94eed3cb3"/>
+            </event>
+            <event when-iso="1930-03-20">
+               <head>Reichenberger-Griechenbeisl &lt;Wien&gt; an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00041167</idno>
+            </event>
+            <event when-iso="1930-03-20">
+               <head>Schnitzler, Arthur an Salfner, Heinz [Briefe]</head>
+               <desc>1 Bl.Durchschl. Mit 1 weit. Ex. 2 Bl.Durchschl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00048607</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

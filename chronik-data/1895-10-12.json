@@ -1,0 +1,310 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-10-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-10-12.html",
+ "head":
+ "Tagebuch, 12. Oktober 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Jakob Julius David",
+ "ref":
+ "person_14363"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Ein Regentag. Charakterbild",
+ "ref":
+ "pmb31905"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00505",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00505.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, [12. 10. 1895]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "T030011",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/T030011.html",
+ "head":
+ "Bahr: [Liebelei], 12. 10. 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Giuseppe Giacosa",
+ "ref":
+ "pmb11431"},
+ {
+ "persName":
+ "Karl Borromäus Lindau",
+ "ref":
+ "pmb20456"},
+ {
+ "persName":
+ "Leopold Krenn",
+ "ref":
+ "pmb11999"},
+ {
+ "persName":
+ "Heinrich Laube",
+ "ref":
+ "pmb2702"},
+ {
+ "persName":
+ "Eduard von Bauernfeld",
+ "ref":
+ "pmb10854"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "pmb12618"},
+ {
+ "persName":
+ "Carl von Zeska",
+ "ref":
+ "pmb13180"},
+ {
+ "persName":
+ "Victor Kutschera",
+ "ref":
+ "pmb2868"},
+ {
+ "persName":
+ "Otto Eisenschitz",
+ "ref":
+ "pmb4076"},
+ {
+ "persName":
+ "Ernst Hartmann",
+ "ref":
+ "pmb11610"},
+ {
+ "persName":
+ "Stella Hohenfels",
+ "ref":
+ "pmb2850"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Rechte der Seele",
+ "ref":
+ "pmb31711"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Das arme Mädel",
+ "ref":
+ "pmb32630"}
+ ,  {
+ "title":
+ "Der Nazi",
+ "ref":
+ "pmb31745"}
+ ,  {
+ "title":
+ "Das Burgtheater. Ein Beitrag zur Deutschen Theater-Geschichte",
+ "ref":
+ "pmb32310"}
+ ,  {
+ "title":
+ "Burgtheater (Liebelei, Schauspiel in drei Acten von Arthur Schnitzler. Rechte der Seele, Schauspiel in einem Act von Guiseppe Giacosa. Zum ersten Mal aufgeführt am 9. October)",
+ "ref":
+ "pmb31565"}
+ ,  {
+ "title":
+ "Die Zeit. Wiener Wochenschrift",
+ "ref":
+ "pmb36340"}
+ ,  {
+ "title":
+ "Wiener Theater (1892–1898)",
+ "ref":
+ "pmb31839"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Türkei",
+ "ref":
+ "pmb773"}
+ ,  {
+ "placeName":
+ "Theater an der Wien",
+ "ref":
+ "pmb37"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Burgmusik",
+ "ref":
+ "pmb29246"}
+ ]
+}
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/43136/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43136/",
+ "head":
+ "Uraufführung von Ein Regentag, 12.10.1895",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Ein Regentag. Charakterbild",
+ "ref":
+ "pmb31905"}
+ ,  {
+ "title":
+ "Theater- und Kunstnachrichten. [Deutsches Volkstheater.] [Ein Regentag]",
+ "ref":
+ "pmb93304"}
+ ,  {
+ "title":
+ "Deutsches Volkstheater. (»Ein Regentag«, Charakterbild von J. J. David.)",
+ "ref":
+ "pmb93300"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Volkstheater",
+ "ref":
+ "pmb36430"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00081894",
+ "head":
+ "Schnitzler, Arthur: Freiwild [Dramatisches] (Drucktitel)",
+ "text":
+ "Letztes Objekt aus der Mappe. 1 Mappe"
+}] 

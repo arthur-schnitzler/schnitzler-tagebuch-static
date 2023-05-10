@@ -1,0 +1,128 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1901-06-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-06-16.html",
+ "head":
+ "Tagebuch, 16. Juni 1901"
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01129",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01129.html",
+ "head":
+ "Georg Brandes an Arthur Schnitzler, 16. 6. 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"},
+ {
+ "persName":
+ "Gustave Flaubert",
+ "ref":
+ "pmb11330"},
+ {
+ "persName":
+ "Arno Holz",
+ "ref":
+ "pmb11763"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Georges Clemenceau",
+ "ref":
+ "pmb4719"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Sanfte",
+ "ref":
+ "pmb33317"}
+ ,  {
+ "title":
+ "Die Versuchung des heiligen Antonius",
+ "ref":
+ "pmb33350"}
+ ,  {
+ "title":
+ "Les lauriers sont coupés",
+ "ref":
+ "pmb32676"}
+ ,  {
+ "title":
+ "Die Geschichte der jungen Renate Fuchs",
+ "ref":
+ "pmb33348"}
+ ,  {
+ "title":
+ "Die Kunst. Ihr Wesen und ihre Gesetze",
+ "ref":
+ "pmb36290"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "La revue indépendante",
+ "ref":
+ "pmb29522"}
+ ,  {
+ "orgName":
+ "Wilhelm Issleib Verlagsbuchhandlung und Buchdruckerei",
+ "ref":
+ "pmb36287"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Karlsbad",
+ "ref":
+ "pmb842"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/30/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "head":
+ "Salzburg"
+}] 

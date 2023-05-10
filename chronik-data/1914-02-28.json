@@ -1,0 +1,69 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-02-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-02-28.html",
+ "head":
+ "Tagebuch, 28. Februar 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hanna Askonas",
+ "ref":
+ "person_13282"},
+ {
+ "persName":
+ "Eberhard Buchner",
+ "ref":
+ "person_14042"},
+ {
+ "persName":
+ "Karl Friedrich von Klöden",
+ "ref":
+ "person_16916"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Das Neueste von gestern",
+ "ref":
+ "pmb80254"}
+ ,  {
+ "title":
+ "Jugenderinnerungen Karl Friedrich’s von Klöden",
+ "ref":
+ "pmb78917"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

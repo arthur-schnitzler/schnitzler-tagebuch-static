@@ -1,0 +1,142 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1885-07-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1885-07-02.html",
+ "head":
+ "Tagebuch, 2. Juli 1885",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Charlotte Bodorfi",
+ "ref":
+ "person_13825"},
+ {
+ "persName":
+ "Eugen Deimel",
+ "ref":
+ "person_14386"},
+ {
+ "persName":
+ "Louis Philipp Friedmann",
+ "ref":
+ "person_15229"},
+ {
+ "persName":
+ "Paul Heyse",
+ "ref":
+ "person_16186"},
+ {
+ "persName":
+ "Richard Horn",
+ "ref":
+ "person_16364"},
+ {
+ "persName":
+ "Josefine",
+ "ref":
+ "person_16587"},
+ {
+ "persName":
+ "Franziska Reich",
+ "ref":
+ "person_17368"},
+ {
+ "persName":
+ "Alexander Mandl",
+ "ref":
+ "person_17814"},
+ {
+ "persName":
+ "Armin Petschek",
+ "ref":
+ "person_18735"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Richard Tausenau",
+ "ref":
+ "person_20643"},
+ {
+ "persName":
+ "Ludwig Mandl",
+ "ref":
+ "person_17825"},
+ {
+ "persName":
+ "Carl Heller",
+ "ref":
+ "person_16063"},
+ {
+ "persName":
+ "Charlotte Heller",
+ "ref":
+ "person_16064"},
+ {
+ "persName":
+ "Leopold Réthi",
+ "ref":
+ "person_19202"},
+ {
+ "persName":
+ "Valeska",
+ "ref":
+ "person_20910"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Budapest",
+ "ref":
+ "pmb43471"}
+ ,  {
+ "placeName":
+ "Balaton",
+ "ref":
+ "pmb56475"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/43471/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43471/",
+ "head":
+ "Budapest"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

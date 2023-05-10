@@ -1,0 +1,75 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1891-03-31",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-03-31.html",
+ "head":
+ "Tagebuch, 31. März 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/89169/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/89169/",
+ "head":
+ "Zusammenkunft Jung Wien, 31.3.1891",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Joseph G. Wieninger, Weinhandlung",
+ "ref":
+ "pmb43528"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Jung Wien",
+ "ref":
+ "pmb89143"}
+ ]
+}
+}] 

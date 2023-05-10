@@ -1,0 +1,139 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-03-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-03-11.html",
+ "head":
+ "Tagebuch, 11. März 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emanuel Spiro",
+ "ref":
+ "person_20270"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Messina",
+ "ref":
+ "pmb44129"}
+ ,  {
+ "placeName":
+ "Korfu",
+ "ref":
+ "pmb41212"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01506",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01506.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, 11. 3. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Messina",
+ "ref":
+ "pmb44129"}
+ ,  {
+ "placeName":
+ "Badgasse",
+ "ref":
+ "pmb1006"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "S. Gregorio",
+ "ref":
+ "pmb1278"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44129/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44129/",
+ "head":
+ "Messina"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/41212/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/41212/",
+ "head":
+ "Korfu"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-1008170",
+ "head":
+ "Brief von Arthur Schnitzler an Hugo von Hofmannsthal",
+ "text":
+ "1 Kt., 2 S. (140x90mm)",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur (1862-1931) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/126794855"},
+ {
+ "persName":
+ "Hugo von (1874-1929) Hofmannsthal",
+ "ref":
+ "http://d-nb.info/gnd/118552759"}]
+}
+}] 

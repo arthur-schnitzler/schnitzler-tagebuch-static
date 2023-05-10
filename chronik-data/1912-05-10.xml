@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1912-05-10">Freitag, 10. Mai 1912</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1912-05-10">
+               <head>Tagebuch, 10. Mai 1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13355">Eugenie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15833">Else Speidel-Haeberle</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19756">Paula Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19976">Karl Johannes Schwarz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20872">Agnes Ulmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20238">Richard Specht</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-05-10.html</idno>
+            </event>
+            <event when-iso="1912-05-10">
+               <head>Peter Altenberg an Arthur Schnitzler, [10.? 5. 1912]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2147">Peter Altenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb53386">Anton Bulling</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3287">
+                  Franz Ferdinand von Österreich-Este
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb19126">
+                  Karl I. von Österreich-Ungarn
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb19131">
+                  Karl Stephan von Österreich
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb6560">Bernhard von Bülow</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb53388">Franz Panhans</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33758">Der Tod des Junggesellen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33243">Tagebuch</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32816">Masken und Wunder. Novellen</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb53383">Österreichischer Wintersport-Klub</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb189">Semmering</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb204">Hotel Panhans</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb634">Hotel Erzherzog Johann</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb53381">Kirche zur heiligen Familie</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb842">Karlsbad</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb772">Marienbad</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb390">Franzensbad</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb955">Teplice</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb38096">Opatija</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb53379">Grado</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb521">Bad Gastein</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50166">Piešťany</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb892">Davos</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb873">Triest</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02062.html</idno>
+            </event>
+            <event when-iso="1912-05-10">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1912-05-10">
+               <head>Braun, Bernhard an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00070792</idno>
+            </event>
+            <event when-iso="1912-05-10">
+               <head>Ginsberg-Plessner, Elsa an Schnitzler, Arthur [Briefe]</head>
+               <desc>1 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00077066</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

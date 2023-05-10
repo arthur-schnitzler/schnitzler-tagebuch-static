@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1911-10-19">Donnerstag, 19. Oktober 1911</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1911-10-19">
+               <head>Tagebuch, 19. Oktober 1911</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13624">Alfred von Berger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14161">Fernand Caudrelier</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15149">Franz Ferdinand von Österreich-Este</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16891">Karola Klein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19755">Hugo Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19840">Arnold Schönberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21594">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17786">Gustav Mahler</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb45260">Brijuni</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-10-19.html</idno>
+            </event>
+            <event when-iso="1911-10-19">
+               <head>Georg Brandes an Arthur Schnitzler, 19. 10. 1911</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10992">Georg Brandes</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb29117">Grete Prozor</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11497">Theodor Gomperz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13055">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb29102">Emilie Brandes</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33243">Tagebuch</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb43570">Dänemark</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1111">Havnegade</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb151">Deutschland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb254">England</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02040.html</idno>
+            </event>
+            <event when-iso="1911-10-19">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1911-10-19">
+               <head>Brahm an Bahr, 19. 10. 1911</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12491">Emanuel Reicher</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2865">Else Lehmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12111">Lina Lossen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28757">Paula Somary</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10733">Kurt Stieler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4431">Karl Forest</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12192">Hans Marr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4693">Hilde Herterich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12050">Emil Lessing</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28750">Lore Busch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11933">Heinrich von Kleist</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2193">Oskar Sauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4704">Gustav Rickelt</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30375">Das Prinzip</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29939">O Mensch!</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30085">Das Tänzchen. Lustspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29931">Komtesse Mizzi oder Der Familientag</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29933">Das Konzert. Lustspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31157">Baumeister Solness</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb18">Lessing-Theater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041626.html</idno>
+            </event>
+            <event when-iso="1911-10-19">
+               <head>Schnitzler, Arthur an Unbekannt &lt;Freund&gt; [Briefe]</head>
+               <desc>1 Br. 5 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00080012</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

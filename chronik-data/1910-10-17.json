@@ -1,0 +1,70 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-10-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-10-17.html",
+ "head":
+ "Tagebuch, 17. Oktober 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johan Bojer",
+ "ref":
+ "person_13850"},
+ {
+ "persName":
+ "Josef Dangl",
+ "ref":
+ "person_14353"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Unser Reich",
+ "ref":
+ "pmb79803"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Steinhaus am Semmering",
+ "ref":
+ "pmb91838"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91735/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91735/",
+ "head":
+ "Semmering"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/413/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/413/",
+ "head":
+ "Südbahnhotel"
+}] 

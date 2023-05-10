@@ -1,0 +1,132 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1898-07-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-07-24.html",
+ "head":
+ "Tagebuch, 24. Juli 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich Prechtler",
+ "ref":
+ "person_18950"},
+ {
+ "persName":
+ "Anton Door",
+ "ref":
+ "person_14488"},
+ {
+ "persName":
+ "Lothar Amadeus von Frankl-Hochwart",
+ "ref":
+ "person_15144"},
+ {
+ "persName":
+ "Ferdinande Schmittlein",
+ "ref":
+ "person_19778"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Nassfeld",
+ "ref":
+ "pmb91324"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00827",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00827.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 24. 7. 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Gastein",
+ "ref":
+ "pmb521"}
+ ,  {
+ "placeName":
+ "Steindorf am Ossiacher See",
+ "ref":
+ "pmb34860"}
+ ,  {
+ "placeName":
+ "Ossiacher See",
+ "ref":
+ "pmb40374"}
+ ,  {
+ "placeName":
+ "Kärnten",
+ "ref":
+ "pmb651"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Hotel Bristol",
+ "ref":
+ "pmb40384"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/521/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/521/",
+ "head":
+ "Bad Gastein"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34014/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34014/",
+ "head":
+ "Villa Dr. Wassing"
+}] 

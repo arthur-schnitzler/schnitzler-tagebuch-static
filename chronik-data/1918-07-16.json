@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-07-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-07-16.html",
+ "head":
+ "Tagebuch, 16. Juli 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich Abel",
+ "ref":
+ "person_13078"},
+ {
+ "persName":
+ "David Feuchtwang",
+ "ref":
+ "person_14959"},
+ {
+ "persName":
+ "Karl I. von Österreich-Ungarn",
+ "ref":
+ "person_16723"},
+ {
+ "persName":
+ "Peter Rosegger",
+ "ref":
+ "person_19354"},
+ {
+ "persName":
+ "Leo Van-Jung",
+ "ref":
+ "person_20925"},
+ {
+ "persName":
+ "Antonie Werndorff",
+ "ref":
+ "person_21248"},
+ {
+ "persName":
+ "Zita Habsburg-Lothringen",
+ "ref":
+ "person_21571"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Mariazell",
+ "ref":
+ "pmb431"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

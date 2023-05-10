@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1900-12-09">Sonntag, 9. Dezember 1900</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1900-12-09">
+               <head>Tagebuch, 9. Dezember 1900</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14213">Helene Chudzikiewicz</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15790">H. P.</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19832">Olga Schnitzler</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-12-09.html</idno>
+            </event>
+            <event when-iso="1900-12-09">
+               <head>Paul Goldmann an Arthur Schnitzler, 9. 12. [1900]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14953">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21119">Paul Martin Marton</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12977">Irene Triesch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3554">Erich Freund</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2739">Hugo Wittmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4823">
+                  Friedrich II. von Preußen
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb142640">Henri de Catt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10969">Wilhelm Bode</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2941">Theodor Loewe</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31187">Orestie</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142636">Feuilleton. Burgtheater [Orestie]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36374">Neue Freie Presse</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142644">Gespräche Friedrichs des Großen mit Henri de Catt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142651">Grenzboten-Sammlung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78117">Goethes Lebenskunst</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142599">Theater- und Kunstnachrichten [Uraufführung von Schleier der Beatrice]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41289">Berliner Börsen-Courier</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142663">[Rezension von Erich Freund über Schleier der Beatrice]</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb142554">Secessionsbühne</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb36430">Volkstheater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb142646">Fr. Wilh. Grunow</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb142656">Ernst Siegfried Mittler &amp; Sohn</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40583">Dessauer Straße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb677">Breslau</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb36247">Burgtheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb864">Leipzig</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb142660">Tadeusz-Kościuszko-Platz</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02944.html</idno>
+            </event>
+            <event when-iso="1900-12-09">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

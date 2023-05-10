@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-07-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-07-01.html",
+ "head":
+ "Tagebuch, 1. Juli 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Wolfgang Amadeus Mozart",
+ "ref":
+ "person_18282"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Karl Zeiß",
+ "ref":
+ "person_21528"},
+ {
+ "persName":
+ "Max von Millenkovich",
+ "ref":
+ "person_18168"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Leonoren-Ouvertüre Nr. 3 C-Dur op. 72a",
+ "ref":
+ "pmb77163"}
+ ,  {
+ "title":
+ "Streichquartett Nr. 20 D-Dur KV 499",
+ "ref":
+ "pmb77219"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Hammerand",
+ "ref":
+ "pmb585"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

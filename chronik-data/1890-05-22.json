@@ -1,0 +1,153 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1890-05-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1890-05-22.html",
+ "head":
+ "Tagebuch, 22. Mai 1890",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Ringstraße",
+ "ref":
+ "pmb112"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00003",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00003.html",
+ "head":
+ "Michael Konstantin an Arthur Schnitzler, 22. 5. 1890",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Michael Konstantin",
+ "ref":
+ "pmb41355"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Moderne Dichtung. Monatsschrift für Literatur und Kritik",
+ "ref":
+ "pmb35950"}
+ ,  {
+ "title":
+ "Die Frage an das Schicksal",
+ "ref":
+ "pmb30749"}
+ ,  {
+ "title":
+ "Budapester Tagblatt",
+ "ref":
+ "pmb41715"}
+ ,  {
+ "title":
+ "Anatols Hochzeitsmorgen",
+ "ref":
+ "pmb30033"}
+ ,  {
+ "title":
+ "Der Apostel",
+ "ref":
+ "pmb31877"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Moderne Dichtung/Moderne Rundschau",
+ "ref":
+ "pmb29417"}
+ ,  {
+ "orgName":
+ "Budapester Tagblatt",
+ "ref":
+ "pmb41718"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brünn",
+ "ref":
+ "pmb833"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Bösendorferstraße",
+ "ref":
+ "pmb542"}
+ ,  {
+ "placeName":
+ "Výstaviště",
+ "ref":
+ "pmb41352"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00038034",
+ "head":
+ "Konstantin, Michal an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Kte"
+}] 

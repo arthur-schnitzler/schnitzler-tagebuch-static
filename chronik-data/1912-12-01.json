@@ -1,0 +1,154 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1912-12-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-12-01.html",
+ "head":
+ "Tagebuch, 1. Dezember 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lorenz Adlon",
+ "ref":
+ "person_13112"},
+ {
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Franz Blei",
+ "ref":
+ "person_13774"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "person_15980"},
+ {
+ "persName":
+ "Emanuel Reicher",
+ "ref":
+ "person_19126"},
+ {
+ "persName":
+ "Paul Schlenther",
+ "ref":
+ "person_19724"},
+ {
+ "persName":
+ "Victor Barnowsky",
+ "ref":
+ "person_13428"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"},
+ {
+ "persName":
+ "Georg von Hülsen-Haeseler",
+ "ref":
+ "person_16407"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin Hauptbahnhof",
+ "ref":
+ "pmb91127"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02106",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02106.html",
+ "head":
+ "Peter Altenberg an Arthur Schnitzler, 1. 12. 191[2]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "pmb2147"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb189"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/1090/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/1090/",
+ "head":
+ "Hotel Adlon"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00051194",
+ "head":
+ "Schnitzler, Arthur an Gussmann, Elisabeth [Briefe]",
+ "text":
+ "Letztes Objekt aus der Mappe. 40 Br., 14 Ktn 98 Bl., davon 2 Bl.Durchschl. Mit 7 Umschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Elisabeth (1885-1920) Gussmann",
+ "ref":
+ "http://d-nb.info/gnd/117263958"}]
+}
+}] 

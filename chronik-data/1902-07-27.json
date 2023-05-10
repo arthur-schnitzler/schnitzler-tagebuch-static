@@ -1,0 +1,64 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1902-07-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-07-27.html",
+ "head":
+ "Tagebuch, 27. Juli 1902",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Raphael Löwenfeld",
+ "ref":
+ "person_17649"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gießhübl",
+ "ref":
+ "pmb90721"}
+ ,  {
+ "placeName":
+ "Predigerstuhl",
+ "ref":
+ "pmb91534"}
+ ,  {
+ "placeName":
+ "Kaltenleutgeben",
+ "ref":
+ "pmb44102"}
+ ,  {
+ "placeName":
+ "Sulz im Wienerwald",
+ "ref":
+ "pmb91857"}
+ ,  {
+ "placeName":
+ "Brühl",
+ "ref":
+ "pmb44413"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

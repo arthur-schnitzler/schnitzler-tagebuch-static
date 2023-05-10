@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1910-01-31">Montag, 31. Januar 1910</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1910-01-31">
+               <head>Tagebuch, 31. Januar 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13129">Eugen d’Albert</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13471">Julius Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15306">Ludwig Fulda</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16165">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16845">Nina Kipiani</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17846">Kurt von Manteuffel</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20793">Antonie Trebitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20796">Siegfried Trebitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21109">Julie Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21174">Otto Weininger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21232">Zinaida A. Vengerova</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21614">Stefan Zweig</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13131">Ida d’Albert</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21107">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14923">Leo Feld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15345">Hugo Ganz</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30307">Das Exempel</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92202">Deutsches Volkstheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34438">Russland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb63">XIII., Hietzing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-01-31.html</idno>
+            </event>
+            <event when-iso="1910-01-31">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1910-01-31">
+               <head>Tagebuch von Schnitzler, 31. 1. 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11391">Ludwig Fulda</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2150">Julius Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2618">Hugo Ganz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18308">Leo Feld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26937">Zinaida A. Vengerova</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27800">Nina Kipiani</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2625">Georg von Manteuffel-Szoege</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2630">Otto Weininger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12968">Siegfried Trebitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13055">Jakob Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13058">Julie Wassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13212">Stefan Zweig</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26159">Antonie Trebitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27633">Eugen d’Albert</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2537">Ida d’Albert</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30307">Das Exempel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30207">Das weite Land. Tragikomödie in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb20">Volkstheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34438">Russland</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb63">XIII., Hietzing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29752">Concordia</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041055.html</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,144 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-03-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-03-24.html",
+ "head":
+ "Tagebuch, 24. März 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Wilhelm Barthold",
+ "ref":
+ "person_13442"},
+ {
+ "persName":
+ "Leopold Heinrich Leóstér",
+ "ref":
+ "person_17461"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Anna Sikora",
+ "ref":
+ "person_20523"},
+ {
+ "persName":
+ "Otto von Bismarck",
+ "ref":
+ "person_13749"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"},
+ {
+ "persName":
+ "Charles Samaran",
+ "ref":
+ "person_19553"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Flucht in die Finsternis",
+ "ref":
+ "pmb30863"}
+ ,  {
+ "title":
+ "Der blinde Geronimo und sein Bruder",
+ "ref":
+ "pmb30649"}
+ ,  {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "Die letzten Masken",
+ "ref":
+ "pmb29877"}
+ ,  {
+ "title":
+ "Die geschichtlichen Persönlichkeiten in Jacob Casanova’s Memoiren",
+ "ref":
+ "pmb78623"}
+ ,  {
+ "title":
+ "Jacques Casanova, Vénetien",
+ "ref":
+ "pmb81229"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ,  {
+ "placeName":
+ "England",
+ "ref":
+ "pmb90593"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00079909",
+ "head":
+ "Schnitzler, Arthur: Salten, Felix: Die klingende Schelle [Prosa. Rezensionen] (Titel von Bearbeiter/in)",
+ "text":
+ "12 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix (1869-1947) Salten",
+ "ref":
+ "http://d-nb.info/gnd/118840819"}]
+}
+}] 

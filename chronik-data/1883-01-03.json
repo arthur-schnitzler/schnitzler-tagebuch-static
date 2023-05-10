@@ -1,0 +1,97 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1883-01-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1883-01-03.html",
+ "head":
+ "Tagebuch, 3. Januar 1883",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Svatopluk Čech",
+ "ref":
+ "person_14165"},
+ {
+ "persName":
+ "Karl Costa",
+ "ref":
+ "person_14285"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Emil Konrad",
+ "ref":
+ "person_17023"},
+ {
+ "persName":
+ "Felix Markbreiter",
+ "ref":
+ "person_17901"},
+ {
+ "persName":
+ "Mucki",
+ "ref":
+ "person_18283"},
+ {
+ "persName":
+ "Rössler",
+ "ref":
+ "person_19324"},
+ {
+ "persName":
+ "Schossberger",
+ "ref":
+ "person_19869"},
+ {
+ "persName":
+ "Ludwig Mandl",
+ "ref":
+ "person_17825"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Unter Büchern und Menschen",
+ "ref":
+ "pmb80286"}
+ ,  {
+ "title":
+ "Ein Blitzmädel",
+ "ref":
+ "pmb77049"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Café Kremser",
+ "ref":
+ "pmb46"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

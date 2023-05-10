@@ -1,0 +1,303 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-07-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-07-01.html",
+ "head":
+ "Tagebuch, 1. Juli 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Lederer",
+ "ref":
+ "person_17385"},
+ {
+ "persName":
+ "Maria Karsten",
+ "ref":
+ "person_16742"},
+ {
+ "persName":
+ "Sophie Salz",
+ "ref":
+ "person_19549"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Baden-Baden",
+ "ref":
+ "pmb228"}
+ ,  {
+ "placeName":
+ "Fremersberg",
+ "ref":
+ "pmb90651"}
+ ,  {
+ "placeName":
+ "Luftkurhotel Früh",
+ "ref":
+ "pmb92382"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Karlsruhe",
+ "ref":
+ "pmb871"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/228/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/228/",
+ "head":
+ "Baden-Baden"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp068",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp068.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 1. Juli 1923"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "T030031",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/T030031.html",
+ "head":
+ "Bahr: Selbstbildnis, Juli 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Ferry Bératon",
+ "ref":
+ "pmb14756"},
+ {
+ "persName":
+ "Maurice Maeterlinck",
+ "ref":
+ "pmb12156"},
+ {
+ "persName":
+ "Richard Ulbing",
+ "ref":
+ "pmb28473"},
+ {
+ "persName":
+ "Anton Otto Stauffer",
+ "ref":
+ "pmb28470"},
+ {
+ "persName":
+ "Adalbert von Goldschmidt",
+ "ref":
+ "pmb11491"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Willi Handl",
+ "ref":
+ "pmb2229"},
+ {
+ "persName":
+ "Arthur Kahane",
+ "ref":
+ "pmb3025"},
+ {
+ "persName":
+ "Julius Bauer",
+ "ref":
+ "pmb2150"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "L’Intruse",
+ "ref":
+ "pmb30189"}
+ ,  {
+ "title":
+ "Die sieben Todsünden",
+ "ref":
+ "pmb31761"}
+ ,  {
+ "title":
+ "Gaea",
+ "ref":
+ "pmb31763"}
+ ,  {
+ "title":
+ "Selbstbildnis",
+ "ref":
+ "pmb30813"}
+ ,  {
+ "title":
+ "Das Neue Reich. Wochenschrift für Kultur, Politik und Volkswirtschaft",
+ "ref":
+ "pmb43848"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Theater in der Josefstadt",
+ "ref":
+ "pmb40"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Café Griensteidl",
+ "ref":
+ "pmb34"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "T030044",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/T030044.html",
+ "head":
+ "Schnitzler: [Brief an Bahr], [Anfang Juli] 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch. 29. April [1922]",
+ "ref":
+ "pmb31485"}
+ ,  {
+ "title":
+ "Der Puppenspieler",
+ "ref":
+ "pmb29873"}
+ ,  {
+ "title":
+ "[Hermann Bahrs sechzigster Geburtstag]",
+ "ref":
+ "pmb30811"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neues Wiener Journal",
+ "ref":
+ "pmb29320"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00068916",
+ "head":
+ "Schnitzler, Heinrich an Schnitzler, Olga [Briefe]",
+ "text":
+ "1 Kte",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Heinrich (1902-1982) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848510"},
+ {
+ "persName":
+ "Olga (1882-1970) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848723"}]
+}
+}] 

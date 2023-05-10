@@ -1,0 +1,106 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-09-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-09-17.html",
+ "head":
+ "Tagebuch, 17. September 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Sandor Rosenberg",
+ "ref":
+ "person_19377"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"},
+ {
+ "persName":
+ "Moriz Károlyi",
+ "ref":
+ "person_16735"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-MUS-853418-Z0112417",
+ "head":
+ "Brief",
+ "text":
+ "Verf. entschuldigt sich bei der Adr. für das sporadische Schreiben und bedankt sich für ihr Verständnis; Verf. bespricht Arthur Schnitzlers Buch 'Weg ins Freie' und nennt seine Meinung zu Schnitzler generell; Verf. spricht er über Bekannte, über Stendhal und seine Pläne mit Weigand und schließt mit persönlichen Eindrücken zu seiner Situation. 2 Bl. 21,7 x 28 cm",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur (1870-1929) Schurig",
+ "ref":
+ "http://d-nb.info/gnd/117311340"},
+ {
+ "persName":
+ "Albertine (1857-1946) Zehme",
+ "ref":
+ "http://d-nb.info/gnd/116968818"},
+ {
+ "persName":
+ "Guy de (1850-1893) Maupassant",
+ "ref":
+ "http://d-nb.info/gnd/118579207"},
+ {
+ "persName":
+ "Bernhard (1856-1919) Münz",
+ "ref":
+ "http://d-nb.info/gnd/117178942"},
+ {
+ "persName":
+ "Wilhelm (1862-1949) Weigand",
+ "ref":
+ "http://d-nb.info/gnd/117241849"}]
+}
+}] 

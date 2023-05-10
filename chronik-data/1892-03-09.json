@@ -1,0 +1,73 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1892-03-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1892-03-09.html",
+ "head":
+ "Tagebuch, 9. März 1892",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emma Adler",
+ "ref":
+ "person_13095"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Ottilie Kallay",
+ "ref":
+ "person_16665"},
+ {
+ "persName":
+ "Adele Kapper",
+ "ref":
+ "person_16706"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00034080",
+ "head":
+ "F. Fontane &amp; Co. (Berlin) an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "F. Fontane &amp; Co. (Berlin) (1891-)",
+ "ref":
+ "http://d-nb.info/gnd/1072899310"}]
+}
+}] 

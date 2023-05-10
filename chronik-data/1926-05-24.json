@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-05-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-05-24.html",
+ "head":
+ "Tagebuch, 24. Mai 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Paul Liebesny",
+ "ref":
+ "person_17518"},
+ {
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "person_17838"},
+ {
+ "persName":
+ "Philipp Menczel",
+ "ref":
+ "person_18063"},
+ {
+ "persName":
+ "Rosa Menczel",
+ "ref":
+ "person_18064"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"},
+ {
+ "persName":
+ "Oskar Loerke",
+ "ref":
+ "person_17625"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Währing",
+ "ref":
+ "pmb90546"}
+ ,  {
+ "placeName":
+ "Galitzinberg",
+ "ref":
+ "pmb90687"}
+ ,  {
+ "placeName":
+ "XVI., Ottakring",
+ "ref":
+ "pmb66"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#v149ca80-1848-4eff-991d-4c2560c2e17b",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Sigmund Freud an Arthur Schnitzler, 24.5.1926",
+ "source":
+ "Freud, Sigmund: Briefe an Arthur Schnitzler. Hg. v. Heinrich Schnitzler. In: Neue deutsche Rundschau, Jg. 66/1(1955), S. 95–106. https://shared.acdh.oeaw.ac.at/schnitzler-briefe/1955_Freud-an-Schnitzler.pdf"
+}] 

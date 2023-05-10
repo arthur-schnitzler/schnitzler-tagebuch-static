@@ -1,0 +1,170 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-06-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-06-08.html",
+ "head":
+ "Tagebuch, 8. Juni 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rudolf Burger",
+ "ref":
+ "person_14076"},
+ {
+ "persName":
+ "Karl Heinz Dworczak",
+ "ref":
+ "person_14582"},
+ {
+ "persName":
+ "Bruno Ertler",
+ "ref":
+ "person_14808"},
+ {
+ "persName":
+ "Else Fürth",
+ "ref":
+ "person_15298"},
+ {
+ "persName":
+ "Georg Fürth",
+ "ref":
+ "person_15299"},
+ {
+ "persName":
+ "Giesswein",
+ "ref":
+ "person_15427"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Hugo Oehler",
+ "ref":
+ "person_18519"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Caroline Burger",
+ "ref":
+ "person_14073"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Weihnachts-Einkäufe",
+ "ref":
+ "pmb30163"}
+ ,  {
+ "title":
+ "Komödie der Verführung. In drei Akten",
+ "ref":
+ "pmb30205"}
+ ,  {
+ "title":
+ "Zum großen Wurstel",
+ "ref":
+ "pmb29951"}
+ ,  {
+ "title":
+ "Das Schicksal des Freiherrn von Leisenbohg. Novellette",
+ "ref":
+ "pmb30057"}
+ ,  {
+ "title":
+ "Die dreifache Warnung",
+ "ref":
+ "pmb33061"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Graz",
+ "ref":
+ "pmb860"}
+ ,  {
+ "placeName":
+ "Stadtpark",
+ "ref":
+ "pmb575"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/860/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/860/",
+ "head":
+ "Graz"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#v149ca80-1848-4eff-991d-4c2560c2e17b",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Sigmund Freud an Arthur Schnitzler, 8.6.1922",
+ "source":
+ "Freud, Sigmund: Briefe an Arthur Schnitzler. Hg. v. Heinrich Schnitzler. In: Neue deutsche Rundschau, Jg. 66/1(1955), S. 95–106. https://shared.acdh.oeaw.ac.at/schnitzler-briefe/1955_Freud-an-Schnitzler.pdf"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00085497",
+ "head":
+ "..., Hans an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00063470",
+ "head":
+ "Eipper, Paul an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul (1891-1964) Eipper",
+ "ref":
+ "http://d-nb.info/gnd/118529595"}]
+}
+}] 

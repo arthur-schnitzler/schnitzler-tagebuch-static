@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-01-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-01-12.html",
+ "head":
+ "Tagebuch, 12. Januar 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Henri Berény",
+ "ref":
+ "person_13616"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Maximilian Sladek",
+ "ref":
+ "person_20161"},
+ {
+ "persName":
+ "Ernst Stern",
+ "ref":
+ "person_20408"},
+ {
+ "persName":
+ "Charlotte Wiehe",
+ "ref":
+ "person_21299"},
+ {
+ "persName":
+ "Maximilian Harden",
+ "ref":
+ "person_15919"},
+ {
+ "persName":
+ "Marcel Dunan",
+ "ref":
+ "person_14551"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Ringstraße",
+ "ref":
+ "pmb112"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Stadtpark",
+ "ref":
+ "pmb575"}
+ ,  {
+ "placeName":
+ "Indien",
+ "ref":
+ "pmb55724"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,296 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-06-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-06-05.html",
+ "head":
+ "Tagebuch, 5. Juni 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Lucie Höflich",
+ "ref":
+ "person_16255"},
+ {
+ "persName":
+ "Heinrich Mann",
+ "ref":
+ "person_17834"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "person_19154"},
+ {
+ "persName":
+ "Agnes Sorma",
+ "ref":
+ "person_20219"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"},
+ {
+ "persName":
+ "Johann Seidl",
+ "ref":
+ "person_20027"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Sanna. Schauspiel in fünf Aufzügen",
+ "ref":
+ "pmb29901"}
+ ,  {
+ "title":
+ "Der Graf von Charolais. Ein Trauerspiel",
+ "ref":
+ "pmb30233"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Brühl",
+ "ref":
+ "pmb44413"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041525",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041525.html",
+ "head":
+ "Tagebuch von Schnitzler, 5. 6. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "pmb2315"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "pmb12837"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Heinrich Mann",
+ "ref":
+ "pmb12170"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "pmb12504"},
+ {
+ "persName":
+ "Lucie Höflich",
+ "ref":
+ "pmb11791"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Agnes Sorma",
+ "ref":
+ "pmb2299"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "pmb12968"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Graf von Charolais. Ein Trauerspiel",
+ "ref":
+ "pmb30233"}
+ ,  {
+ "title":
+ "Sanna. Schauspiel in fünf Aufzügen",
+ "ref":
+ "pmb29901"}
+ ,  {
+ "title":
+ "Zwischenspiel. Komödie in drei Akten",
+ "ref":
+ "pmb29903"}
+ ,  {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hinterbrühl",
+ "ref":
+ "pmb75"}
+ ,  {
+ "placeName":
+ "Vorderbrühl",
+ "ref":
+ "pmb957"}
+ ,  {
+ "placeName":
+ "Restaurant zur Bellaria (Inh. Johann Seidel)",
+ "ref":
+ "pmb460"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ]
+}
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/35170/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/35170/",
+ "head":
+ "Premiere von Sanna, 5.6.1906",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Sanna. Schauspiel in fünf Aufzügen",
+ "ref":
+ "pmb29901"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Lucie Höflich",
+ "ref":
+ "pmb11791"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Hans Pagay",
+ "ref":
+ "pmb2232"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Theater an der Wien",
+ "ref":
+ "pmb37"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Reinhardt-Bühnen",
+ "ref":
+ "pmb45417"}
+ ,  {
+ "orgName":
+ "Kleines Theater",
+ "ref":
+ "pmb45430"}
+ ,  {
+ "orgName":
+ "Neues Theater",
+ "ref":
+ "pmb45434"}
+ ]
+}
+}] 

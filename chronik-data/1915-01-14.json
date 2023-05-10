@@ -1,0 +1,90 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-01-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-01-14.html",
+ "head":
+ "Tagebuch, 14. Januar 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paula von Coudenhove",
+ "ref":
+ "person_14290"},
+ {
+ "persName":
+ "Irmgard Kaufmann",
+ "ref":
+ "person_16449"},
+ {
+ "persName":
+ "Rudolf Kaufmann",
+ "ref":
+ "person_16777"},
+ {
+ "persName":
+ "Hans Horst Meyer",
+ "ref":
+ "person_18116"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Flucht in die Finsternis",
+ "ref":
+ "pmb30863"}
+ ,  {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Przemyśl",
+ "ref":
+ "pmb91546"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u76a6932-a288-44db-a5d5-8eba12ba4b14",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Ernst Hardt, 14.1.1915",
+ "source":
+ "Briefe an Ernst Hardt. Eine Auswahl aus den Jahren 1898–1947. In Verbindung mit Tilla Goetz-Hardt hrsg. von Jochen Meyer. Marbach am Neckar: Deutsches Literaturarchiv 1975 (Marbacher Schriften, 10)"
+}] 

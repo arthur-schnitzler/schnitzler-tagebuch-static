@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-01-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-01-22.html",
+ "head":
+ "Tagebuch, 22. Januar 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lilli Lehmann",
+ "ref":
+ "person_17405"},
+ {
+ "persName":
+ "Oskar Mayer",
+ "ref":
+ "person_18021"},
+ {
+ "persName":
+ "Carl Moll",
+ "ref":
+ "person_18218"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Ein Erfolg",
+ "ref":
+ "pmb33808"}
+ ,  {
+ "title":
+ "Zum großen Wurstel",
+ "ref":
+ "pmb29951"}
+ ,  {
+ "title":
+ "Fidelio op. 72",
+ "ref":
+ "pmb77145"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Grinzing",
+ "ref":
+ "pmb90771"}
+ ,  {
+ "placeName":
+ "Heiligenstadt",
+ "ref":
+ "pmb90847"}
+ ,  {
+ "placeName":
+ "Hohe Warte",
+ "ref":
+ "pmb92292"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

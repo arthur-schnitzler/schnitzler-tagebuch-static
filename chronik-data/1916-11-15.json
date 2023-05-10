@@ -1,0 +1,142 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1916-11-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-11-15.html",
+ "head":
+ "Tagebuch, 15. November 1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Kasimir Edschmid",
+ "ref":
+ "person_14619"},
+ {
+ "persName":
+ "Lily Mirel Feiks",
+ "ref":
+ "person_14910"},
+ {
+ "persName":
+ "Sven Hedin",
+ "ref":
+ "person_16018"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Moritz Bermann",
+ "ref":
+ "person_13656"},
+ {
+ "persName":
+ "Alexandre père Dumas",
+ "ref":
+ "person_14547"},
+ {
+ "persName":
+ "Josef II.",
+ "ref":
+ "person_16586"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ,  {
+ "title":
+ "Streichquartett Nr. 8 e-Moll op. 59,2 (Rasumofsky)",
+ "ref":
+ "pmb77183"}
+ ,  {
+ "title":
+ "Maria Theresia und Kaiser Josef II. in ihrem Leben und Wirken",
+ "ref":
+ "pmb80165"}
+ ,  {
+ "title":
+ "Mémoires d’un médecin",
+ "ref":
+ "pmb77784"}
+ ,  {
+ "title":
+ "Vierzig Jahre aus dem Leben eines Todten",
+ "ref":
+ "pmb80549"}
+ ,  {
+ "title":
+ "Im Herzen von Asien. 1000. Kilometer auf unbekannten Pfaden",
+ "ref":
+ "pmb78821"}
+ ,  {
+ "title":
+ "Briefe",
+ "ref":
+ "pmb80756"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Schafberg (St. Gilgen)",
+ "ref":
+ "pmb59367"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00051246",
+ "head":
+ "Schnitzler, Arthur an Gussmann, Elisabeth [Briefe]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Elisabeth (1885-1920) Gussmann",
+ "ref":
+ "http://d-nb.info/gnd/117263958"}]
+}
+}] 

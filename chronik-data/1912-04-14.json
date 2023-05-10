@@ -1,0 +1,122 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1912-04-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-04-14.html",
+ "head":
+ "Tagebuch, 14. April 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Theodor Billroth",
+ "ref":
+ "person_13731"},
+ {
+ "persName":
+ "Moritz Heitler",
+ "ref":
+ "person_16054"},
+ {
+ "persName":
+ "Theodor Mommsen",
+ "ref":
+ "person_18231"},
+ {
+ "persName":
+ "Wolfgang Amadeus Mozart",
+ "ref":
+ "person_18282"},
+ {
+ "persName":
+ "Karl August von Varnhagen-Ense",
+ "ref":
+ "person_20929"},
+ {
+ "persName":
+ "Charles de Coster",
+ "ref":
+ "person_14288"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"},
+ {
+ "persName":
+ "Friedrich von Schiller",
+ "ref":
+ "person_19694"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Briefe",
+ "ref":
+ "pmb78643"}
+ ,  {
+ "title":
+ "Tyll Ulenspiegel und Lamm Goedzak",
+ "ref":
+ "pmb33636"}
+ ,  {
+ "title":
+ "Schiller in Briefen und Gesprächen",
+ "ref":
+ "pmb77039"}
+ ,  {
+ "title":
+ "Tagebücher",
+ "ref":
+ "pmb30297"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Döbling",
+ "ref":
+ "pmb64219"}
+ ,  {
+ "placeName":
+ "Hochschneeberg",
+ "ref":
+ "pmb5836"}
+ ,  {
+ "placeName":
+ "Ötscher",
+ "ref":
+ "pmb91422"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

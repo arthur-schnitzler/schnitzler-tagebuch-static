@@ -1,0 +1,55 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1916-04-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-04-25.html",
+ "head":
+ "Tagebuch, 25. April 1916",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Die schöne Helena",
+ "ref":
+ "pmb77020"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Piraeus",
+ "ref":
+ "pmb49145"}
+ ,  {
+ "placeName":
+ "Korinth",
+ "ref":
+ "pmb61016"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

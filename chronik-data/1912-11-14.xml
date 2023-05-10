@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1912-11-14">Donnerstag, 14. November 1912</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1912-11-14">
+               <head>Tagebuch, 14. November 1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13355">Eugenie Bachrach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-11-14.html</idno>
+            </event>
+            <event when-iso="1912-11-14">
+               <head>Peter Altenberg an Arthur Schnitzler, [zwischen 9. und
+                  15. 11. 1912?]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2147">Peter Altenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb189">Semmering</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02095.html</idno>
+            </event>
+            <event when-iso="1912-11-14">
+               <head>Lou Andreas-Salomé an Arthur Schnitzler, [vor dem 15. 11. 1912?]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10762">Lou Andreas-Salomé</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5416">Ellen Delp</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02097.html</idno>
+            </event>
+            <event when-iso="1912-11-14">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1912-11-14">
+               <head>Arthur Schnitzler an Stefan Zweig, 14.11.1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118637479">Zweig, Stefan</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Stefan Zweig:
+                    Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur
+                    Schnitzler. Hgg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater.
+                    Berlin: S. Fischer 1987. (Nur Briefe an Bahr und Schnitzler erfasst)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#d43bae78-6be4-4898-b4e5-86e3d9bc9f34"/>
+            </event>
+            <event when-iso="1912-11-14">
+               <head>Arthur Schnitzler an Isabella Vengerova, 14. 11. 1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/119401215">Vengerova, Isabella</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Die
+                    Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida
+                    Vengerova. Herausgegeben von Konstantin Asadowski und Martin
+                    Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30
+                    (2022), S. 7–91.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86"/>
+            </event>
+            <event when-iso="1912-11-14">
+               <head>Arthur Schnitzler an Gustaf Linden, 14.11.1912</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/117024562">Linden, Gustaf</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler,
+                    Gustaf Linden: Ein Briefwechsel. 1907–1929, Wien: Edition Praesens 2005
+                    (Wechselbeziehungen Österreich-Norden, Band 7).</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#m5ca120f-450d-4a59-9a44-d5822a34aee9"/>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

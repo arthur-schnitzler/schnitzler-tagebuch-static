@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-11-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-11-20.html",
+ "head":
+ "Tagebuch, 20. November 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Hansi Niese",
+ "ref":
+ "person_18450"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tannhäuser",
+ "ref":
+ "pmb77432"}
+ ,  {
+ "title":
+ "Zehn Mädchen und kein Mann",
+ "ref":
+ "pmb81391"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Vegagasse",
+ "ref":
+ "pmb92580"}
+ ,  {
+ "placeName":
+ "Meissl &amp; Schadn",
+ "ref":
+ "pmb96"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

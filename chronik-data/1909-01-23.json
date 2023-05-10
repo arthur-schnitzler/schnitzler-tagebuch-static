@@ -1,0 +1,163 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-01-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-01-23.html",
+ "head":
+ "Tagebuch, 23. Januar 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Julius Bierbaum",
+ "ref":
+ "person_13726"},
+ {
+ "persName":
+ "Richard von Schaukal",
+ "ref":
+ "person_19637"},
+ {
+ "persName":
+ "Georg Müller",
+ "ref":
+ "person_18294"},
+ {
+ "persName":
+ "Johannes Schlaf",
+ "ref":
+ "person_19711"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Nussdorf",
+ "ref":
+ "pmb91367"}
+ ,  {
+ "placeName":
+ "New Danube",
+ "ref":
+ "pmb90538"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02583",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02583.html",
+ "head":
+ "Arthur Schnitzler an Auguste Hauschner, 23. 1. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Auguste Hauschner",
+ "ref":
+ "pmb2524"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "pmb11324"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie",
+ "ref":
+ "pmb30225"}
+ ,  {
+ "title":
+ "Die Hilfe. Zeitschrift für Politik, Wirtschaft und geistige Bewegung",
+ "ref":
+ "pmb63597"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "[Brief an Auguste Hauschner, 23.1.1909]",
+ "ref":
+ "pmb63589"}
+ ,  {
+ "title":
+ "Briefe an Auguste Hauschner",
+ "ref":
+ "pmb63583"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#j7685005-64da-4e31-99b6-b4641aa1628c",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Auguste Hauschner, 23. 1. 1909",
+ "source":
+ "Arthur Schnitzler: Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am Main: S. Fischer 1981."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00034039",
+ "head":
+ "Flemminger, Josef an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Br. 4 Bl."
+}] 

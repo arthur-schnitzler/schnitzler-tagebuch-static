@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-02-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-02-29.html",
+ "head":
+ "Tagebuch, 29. Februar 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "W. Fred",
+ "ref":
+ "person_15158"},
+ {
+ "persName":
+ "Hugo Haberfeld",
+ "ref":
+ "person_15822"},
+ {
+ "persName":
+ "Margarethe Manassewitsch",
+ "ref":
+ "person_17804"},
+ {
+ "persName":
+ "Carl Moll",
+ "ref":
+ "person_18218"},
+ {
+ "persName":
+ "Alexander Sigmund Pordes-Milo",
+ "ref":
+ "person_18920"},
+ {
+ "persName":
+ "Francisco de Goya",
+ "ref":
+ "person_15600"},
+ {
+ "persName":
+ "Irene Mandl",
+ "ref":
+ "person_17822"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Um eine Stunde",
+ "ref":
+ "pmb33872"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Spanien",
+ "ref":
+ "pmb388"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

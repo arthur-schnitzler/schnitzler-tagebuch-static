@@ -1,0 +1,268 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-02-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-02-12.html",
+ "head":
+ "Tagebuch, 12. Februar 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Auguste Chlum",
+ "ref":
+ "person_14199"},
+ {
+ "persName":
+ "Julie Elias",
+ "ref":
+ "person_14717"},
+ {
+ "persName":
+ "Mara Feldern",
+ "ref":
+ "person_14925"},
+ {
+ "persName":
+ "Maurice Maeterlinck",
+ "ref":
+ "person_17779"},
+ {
+ "persName":
+ "George Bernard Shaw",
+ "ref":
+ "person_20080"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"},
+ {
+ "persName":
+ "Paul Jonas",
+ "ref":
+ "person_16574"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ,  {
+ "title":
+ "Beatrix",
+ "ref":
+ "pmb76827"}
+ ,  {
+ "title":
+ "Der Schlachtenlenker",
+ "ref":
+ "pmb29841"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ,  {
+ "placeName":
+ "Köln",
+ "ref":
+ "pmb145"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01372",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01372.html",
+ "head":
+ "Hermann Bahr an Arthur Schnitzler, 12. 2. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Rudolf Rittner",
+ "ref":
+ "pmb12530"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Konstanz",
+ "ref":
+ "pmb849"}
+ ,  {
+ "placeName":
+ "Hotel Continental",
+ "ref":
+ "pmb399"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb3"}
+ ,  {
+ "placeName":
+ "Schumannstraße",
+ "ref":
+ "pmb307"}
+ ,  {
+ "placeName":
+ "Konzilgebäude",
+ "ref":
+ "pmb452"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041271",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041271.html",
+ "head":
+ "Bahr an Schnitzler, 12. 2. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "pmb10986"},
+ {
+ "persName":
+ "Rudolf Rittner",
+ "ref":
+ "pmb12530"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Konstanz",
+ "ref":
+ "pmb849"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Konzilgebäude",
+ "ref":
+ "pmb452"}
+ ,  {
+ "placeName":
+ "Hotel Continental",
+ "ref":
+ "pmb399"}
+ ,  {
+ "placeName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb3"}
+ ,  {
+ "placeName":
+ "Schumannstraße",
+ "ref":
+ "pmb307"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 12. Februar 1904",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043743",
+ "head":
+ "Suppé, Claire von an Schnitzler, Arthur [Briefe]",
+ "text":
+ "3 Br. 5 Bl."
+}] 

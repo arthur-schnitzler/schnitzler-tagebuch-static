@@ -1,0 +1,173 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1897-10-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-10-03.html",
+ "head":
+ "Tagebuch, 3. Oktober 1897",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Stellvertreter. Schwank in 3 Acten",
+ "ref":
+ "pmb42786"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien Mauer",
+ "ref":
+ "pmb91217"}
+ ,  {
+ "placeName":
+ "Circusgasse",
+ "ref":
+ "pmb92189"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00728",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00728.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 3. 10. [1897]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Ermete Zacconi",
+ "ref":
+ "pmb3787"},
+ {
+ "persName":
+ "Hugo August von Hofmannsthal",
+ "ref":
+ "pmb11737"},
+ {
+ "persName":
+ "Anna von Hofmannsthal",
+ "ref":
+ "pmb18404"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "pmb2378"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "König Lear",
+ "ref":
+ "pmb31623"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hinterbrühl",
+ "ref":
+ "pmb75"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Carl-Theater",
+ "ref":
+ "pmb118"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/42789/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/42789/",
+ "head":
+ "Aufführung von Der Stellvertreter, 3.10.1897",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Stellvertreter. Schwank in 3 Acten",
+ "ref":
+ "pmb42786"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "pmb14953"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00033989",
+ "head":
+ "Finkelburg, ... an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

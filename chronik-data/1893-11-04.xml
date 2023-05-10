@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1893-11-04">Samstag, 4. November 1893</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1893-11-04">
+               <head>Tagebuch, 4. November 1893</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31861">Der Talisman. Dramatisches Märchen</title>
+                     </bibl>
+                  </listBibl>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-11-04.html</idno>
+            </event>
+            <event when-iso="1893-11-04">
+               <head>Paul Goldmann an Arthur Schnitzler, 4. 11. [1893]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23593">Josef Rosengart</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3690">Aurélien-Marie Lugné-Poe</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24565">Marcel Schulz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5156">Paul Zifferer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb9941">Theodor von Sosnosky</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb89980">h. k.</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4986">Fedor Mamroth</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11673">Theodor Herzl</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb89875">Agenda médical</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36063">Internationale klinische Rundschau</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29823">Das Märchen. Schauspiel in drei Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29877">Die letzten Masken</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb89964">Pariser Theater</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36344">Frankfurter Zeitung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32832">Novellen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30271">Das junge Österreich</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb89968">Ridicula</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb35860">An der schönen blauen Donau</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb89977">Neue Bücher</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36430">Volkstheater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb88605">Théâtre de l’Œuvre</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb89971">Eduard Trewendt</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29681">Ullstein Verlag</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29377">Propyläen Verlag</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb166">Frankreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb146">Frankfurt am Main</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb89880">Roßmarkt</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02719.html</idno>
+            </event>
+            <event when-iso="1893-11-04">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1893-11-04">
+               <head>Grillparzerstraße</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/412/</idno>
+            </event>
+            <event when-iso="1893-11-04">
+               <head>Glümer, Marie an Schnitzler, Arthur [Briefe]</head>
+               <desc>Erstes Objekt aus der Mappe. 21 Br., 1 Tel. 36 Bl. Mit 1 Beil. 1 Bl.beschädigt<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/128385022">Glümer, Marie (1873-1925)</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00034833</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

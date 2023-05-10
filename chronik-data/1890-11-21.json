@@ -1,0 +1,68 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1890-11-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1890-11-21.html",
+ "head":
+ "Tagebuch, 21. November 1890",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Innozenz Kohnberger",
+ "ref":
+ "person_16996"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "person_21047"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-149374",
+ "head":
+ "Brief von Arthur Schnitzler an Paul Heyse",
+ "text":
+ "1 Br., 1 S., 8'",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur (1862-1931) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/126794855"},
+ {
+ "persName":
+ "Paul (1830-1914) Heyse",
+ "ref":
+ "http://d-nb.info/gnd/118550772"}]
+}
+}] 

@@ -1,0 +1,116 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1915-02-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1915-02-27.html",
+ "head":
+ "Tagebuch, 27. Februar 1915",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Salomon Auber",
+ "ref":
+ "person_13298"},
+ {
+ "persName":
+ "Alexander P. Borodin",
+ "ref":
+ "person_13882"},
+ {
+ "persName":
+ "Ernst von Dohnányi",
+ "ref":
+ "person_14473"},
+ {
+ "persName":
+ "Joseph Haydn",
+ "ref":
+ "person_15999"},
+ {
+ "persName":
+ "Wolfgang Amadeus Mozart",
+ "ref":
+ "person_18282"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "person_19828"},
+ {
+ "persName":
+ "Alois Strasser",
+ "ref":
+ "person_20475"},
+ {
+ "persName":
+ "Ernst Strasser",
+ "ref":
+ "person_20476"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Flucht in die Finsternis",
+ "ref":
+ "pmb30863"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00049660",
+ "head":
+ "Deutsches Volkstheater &lt;Wien&gt; an Vaerturg, Marie [Briefe]",
+ "text":
+ "1 Bl.Abschr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Deutsches Volkstheater &lt;Wien&gt;",
+ "ref":
+ "http://d-nb.info/gnd/146313-5"}]
+}
+}] 

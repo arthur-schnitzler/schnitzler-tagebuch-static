@@ -1,0 +1,71 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-11-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-11-07.html",
+ "head":
+ "Tagebuch, 7. November 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Sabatino Lopez",
+ "ref":
+ "person_17680"},
+ {
+ "persName":
+ "Harry Walden",
+ "ref":
+ "person_21059"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der dritte Gatte",
+ "ref":
+ "pmb80915"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040588",
+ "head":
+ "Morawe und Scheffelt &lt;Berlin&gt; an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Morawe und Scheffelt &lt;Berlin&gt;",
+ "ref":
+ "http://d-nb.info/gnd/65640-9"}]
+}
+}] 

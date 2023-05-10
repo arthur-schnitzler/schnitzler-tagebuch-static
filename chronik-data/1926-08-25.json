@@ -1,0 +1,93 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-08-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-08-25.html",
+ "head":
+ "Tagebuch, 25. August 1926",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Zermatt",
+ "ref":
+ "pmb34007"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34007/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34007/",
+ "head":
+ "Zermatt"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp382",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp382.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 23.–25. August 1926"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp383",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp383.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 25.–28. August 1926"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/CH-000015-0-1233871",
+ "head":
+ "Journal de Zermatt et Liste des Etrangers du Haut-Valais an Marti, Hugo; Korrespondenz, Zermatt (Titel)",
+ "text":
+ "1 Bl., 4°, Dr., gef.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "-",
+ "ref":
+ "http://d-nb.info/gnd/118731254"}]
+}
+}] 

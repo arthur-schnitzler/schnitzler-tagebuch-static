@@ -1,0 +1,125 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-02-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-02-28.html",
+ "head":
+ "Tagebuch, 28. Februar 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Blumenthal",
+ "ref":
+ "person_13807"},
+ {
+ "persName":
+ "Rosa Hochsinger",
+ "ref":
+ "person_16245"},
+ {
+ "persName":
+ "Edgar von Karg-Bebenburg",
+ "ref":
+ "person_16717"},
+ {
+ "persName":
+ "Hannibal von Karg-Bebenburg",
+ "ref":
+ "person_16718"},
+ {
+ "persName":
+ "Arnold Rosé",
+ "ref":
+ "person_19351"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Karl Gustav Vollmoeller",
+ "ref":
+ "person_20986"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"},
+ {
+ "persName":
+ "Franziska Mütter",
+ "ref":
+ "person_18320"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Der Wöchner",
+ "ref":
+ "pmb80314"}
+ ,  {
+ "title":
+ "Das Nachtmahl der Kardinäle",
+ "ref":
+ "pmb80356"}
+ ,  {
+ "title":
+ "Don Giovanni KV 527, Ouvertüre",
+ "ref":
+ "pmb77202"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00039977",
+ "head":
+ "Luchsinger, Ed. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

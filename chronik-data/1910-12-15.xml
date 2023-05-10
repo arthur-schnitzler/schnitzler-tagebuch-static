@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1910-12-15">Donnerstag, 15. Dezember 1910</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1910-12-15">
+               <head>Tagebuch, 15. Dezember 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_21047">Olga Waissnix</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19902">Franz Peter Schubert</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33754">Der Mörder. Novelle</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb113">Türkenschanzpark</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-12-15.html</idno>
+            </event>
+            <event when-iso="1910-12-15">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1910-12-15">
+               <head>S. Fischer an Schnitzler, 15. 12. 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11324">Samuel Fischer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12504">Max Reinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2989">Alfred Polgar</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14182">László Beöthy</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29937">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb659">Bülowstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb68">XVIII., Währing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb35512">Ungarn</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb719">Königstheater</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29639">S. Fischer Verlag</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041565.html</idno>
+            </event>
+            <event when-iso="1910-12-15">
+               <head>Samuel Fischer an Arthur Schnitzler, 15.12.1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118691406">Fischer, Samuel</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Samuel Fischer,
+                    Hedwig Fischer: Briefwechsel mit Autoren. S. Fischer Verlag, Frankfurt am Main:
+                    1989. (nur Korrespondenz mit Arthur Schnitzler)</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#y8d39a2f-76d4-4426-8799-986c8bf5bc60"/>
+            </event>
+            <event when-iso="1910-12-15">
+               <head>Samuel Fischer an Arthur Schnitzler, 15.12.1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118691406">Fischer, Samuel</persName>
+                     </person>
+                  </listPerson>
+                  <bibl> Hermann
+                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
+                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
+                    Verlag 2018 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
+            </event>
+            <event when-iso="1910-12-15">
+               <head>Arthur Schnitzler an Elise Gomperz, 15. 12. 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/116765712">Gomperz, Elise</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am
+                    Main: S. Fischer 1981.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
+            </event>
+            <event when-iso="1910-12-15">
+               <head>Arthur Schnitzler an Theodor Gomperz, 15. 12. 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118540661">Gomperz, Theodor</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Arthur Schnitzler:
+                    Briefe 1875–1912. Hrsg. v. Therese Nickl u. Heinrich Schnitzler. Frankfurt am
+                    Main: S. Fischer 1981.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#j7685005-64da-4e31-99b6-b4641aa1628c"/>
+            </event>
+            <event when-iso="1910-12-15">
+               <head>Schnitzler, Arthur an Gomperz, Elise [Briefe]</head>
+               <desc>1 Bl.Durchschl. Mit 1 weit. Ex. 1 Bl.Durchschl.<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/116765712">Gomperz, Elise (1848-1929)</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00045589</idno>
+            </event>
+            <event when-iso="1910-12-15">
+               <head>Schnitzler, Arthur an Gomperz, Theodor [Briefe]</head>
+               <desc>1 Bl.Durchschl. Mit 1 weit. Ex. 2 Bl.Durchschl.<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/118540661">Gomperz, Theodor (1832-1912)</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00045590</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

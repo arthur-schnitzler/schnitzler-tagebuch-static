@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1897-07-22">Donnerstag, 22. Juli 1897</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1897-07-22">
+               <head>Tagebuch, 22. Juli 1897</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13551">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17087">Leopold Kramer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19143">Else Singer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19438">Alexander Rottmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21202">Pepi Weiss</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14162">Alfred Cavar</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb874">Gmunden</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1897-07-22.html</idno>
+            </event>
+            <event when-iso="1897-07-22">
+               <head>Arthur Schnitzler an Hugo von Hofmannsthal, 22. 7. 1897</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb34161">
+                  Herschmann
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10765">Leopold von Andrian-Werburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23209">Carl Reinhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23212">Franz Reinhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2378">Marie Reinhard</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13169">Ernst von Wolzogen</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29899">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33690">Das Lumpengesindel</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34213">Stadttheater Gmunden</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb874">Gmunden</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00710.html</idno>
+            </event>
+            <event when-iso="1897-07-22">
+               <head>Bad Ischl</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/213/</idno>
+            </event>
+            <event when-iso="1897-07-22">
+               <head>Gmunden</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/874/</idno>
+            </event>
+            <event when-iso="1897-07-22">
+               <head>Hotel und Pension Rudolfshöhe (Leopold Petter)</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/414/</idno>
+            </event>
+            <event when-iso="1897-07-22">
+               <head>Salten an Schnitzler, 22. 7. 1897</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30474">Agnes Jordan. Schauspiel in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb58">VIII., Josefstadt</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb414">Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29670">Wiener Allgemeine Zeitung</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041216.html</idno>
+            </event>
+            <event when-iso="1897-07-22">
+               <head>Premiere von Freiwild. Schauspiel in 3 Akten, 22.7.1897</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29899" type="auffuhrung-von-premiere-von">Freiwild. Schauspiel in 3 Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb14899" type="hat-als-arbeitskraft">Alfred Cavar</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23683" type="hat-als-arbeitskraft">Alexander Rottmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863" type="hat-als-teilnehmerin">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3308" type="hat-als-arbeitskraft">Rudolf Lenoir</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb21858" type="hat-als-arbeitskraft">Ludwig Nerz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10181" type="hat-als-arbeitskraft">Ernst Tautenhayn</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12025" type="hat-als-arbeitskraft">Hans Lackner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28387" type="hat-als-arbeitskraft">Leopold Straßmeyer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb101172" type="hat-als-arbeitskraft">Heinrich Peer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb43197" type="hat-als-arbeitskraft">Frieda Grossmüller</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb26867" type="hat-als-arbeitskraft">Pepi Weiss</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb874" type="veranstaltet-in">Gmunden</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb34213" type="veranstaltet-in">Stadttheater Gmunden</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/35155/</idno>
+            </event>
+            <event when-iso="1897-07-22">
+               <head>Felix Salten an Arthur Schnitzler, 22.7.1897</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118840819">Salten, Felix</persName>
+                     </person>
+                  </listPerson>
+                  <bibl> Hermann
+                    Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931.
+                    Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein
+                    Verlag 2018 
+               </bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777"/>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

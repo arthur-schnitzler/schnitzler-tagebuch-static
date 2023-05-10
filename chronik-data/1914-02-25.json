@@ -1,0 +1,129 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-02-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-02-25.html",
+ "head":
+ "Tagebuch, 25. Februar 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Oskar Baum",
+ "ref":
+ "person_13483"},
+ {
+ "persName":
+ "Viktor von Horsetzky-Hornthal",
+ "ref":
+ "person_16386"},
+ {
+ "persName":
+ "Alfred von Montenuovo",
+ "ref":
+ "person_18237"},
+ {
+ "persName":
+ "Heinrich Noren",
+ "ref":
+ "person_18474"},
+ {
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "person_19364"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "person_20714"},
+ {
+ "persName":
+ "Max Leitner",
+ "ref":
+ "person_17425"},
+ {
+ "persName":
+ "Wilhelm II. von Preußen",
+ "ref":
+ "person_21338"},
+ {
+ "persName":
+ "Fritz von Unruh",
+ "ref":
+ "person_20885"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Beatrice. Oper",
+ "ref":
+ "pmb35992"}
+ ,  {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ,  {
+ "title":
+ "Louis Ferdinand, Prinz von Preußen. Ein Drama",
+ "ref":
+ "pmb76584"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00072606",
+ "head":
+ "Wilke, Karl Alexander an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Burgtheater &lt;Wien&gt;",
+ "ref":
+ "http://d-nb.info/gnd/38633-9"}]
+}
+}] 

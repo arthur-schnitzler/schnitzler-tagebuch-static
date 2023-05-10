@@ -1,0 +1,154 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-07-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-17.html",
+ "head":
+ "Tagebuch, 17. Juli 1896",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ "pmb29899"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lofoten",
+ "ref":
+ "pmb91161"}
+ ,  {
+ "placeName":
+ "Harstad",
+ "ref":
+ "pmb90837"}
+ ,  {
+ "placeName":
+ "Norwegen",
+ "ref":
+ "pmb64465"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02782",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02782.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 17. 7. [1896]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Leopold Sonnemann",
+ "ref":
+ "pmb87771"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb36344"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Frankfurter Zeitung",
+ "ref":
+ "pmb29442"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Trondheim",
+ "ref":
+ "pmb40290"}
+ ,  {
+ "placeName":
+ "rue Feydeau",
+ "ref":
+ "pmb42671"}
+ ,  {
+ "placeName":
+ "Oslo",
+ "ref":
+ "pmb36296"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Hotel König von Dänemark",
+ "ref":
+ "pmb40903"}
+ ,  {
+ "placeName":
+ "Skodsborg",
+ "ref":
+ "pmb958"}
+ ,  {
+ "placeName":
+ "Badehotel",
+ "ref":
+ "pmb1091"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90837/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90837/",
+ "head":
+ "Harstad"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#q0f31f7c-c385-4bdd-b199-e671f4a30389",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Marie Reinhard, 17.7.1896",
+ "source":
+ "Therese Nickl: Arthur Schnitzler an Marie Reinhard (1896). In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 22–68 (verfügbar auf: http://www.jstor.org/stable/24645882)"
+}] 

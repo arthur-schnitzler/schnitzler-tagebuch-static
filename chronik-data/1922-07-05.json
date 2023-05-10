@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1922-07-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1922-07-05.html",
+ "head":
+ "Tagebuch, 5. Juli 1922",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gottfried Keller",
+ "ref":
+ "person_16794"},
+ {
+ "persName":
+ "Karl von Perfall",
+ "ref":
+ "person_18712"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Züricher Novellen",
+ "ref":
+ "pmb80788"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Aspang Markt",
+ "ref":
+ "pmb90268"}
+ ,  {
+ "placeName":
+ "Mönichkirchen",
+ "ref":
+ "pmb91274"}
+ ,  {
+ "placeName":
+ "Neustift am Walde",
+ "ref":
+ "pmb91344"}
+ ,  {
+ "placeName":
+ "Vahrn",
+ "ref":
+ "pmb946"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91274/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91274/",
+ "head":
+ "Mönichkirchen"
+}] 

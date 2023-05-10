@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1914-02-19">Donnerstag, 19. Februar 1914</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1914-02-19">
+               <head>Tagebuch, 19. Februar 1914</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_17423">Karoline Leitner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19755">Hugo Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19823">Helene Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19827">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20803">Otto Tressler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20238">Richard Specht</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16770">Arthur Kaufmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb31447">Stunde des Erkennens</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb92506">Sacher</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-02-19.html</idno>
+            </event>
+            <event when-iso="1914-02-19">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1914-02-19">
+               <head>Premiere von Der einsame Weg, 19.2.1914</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29985" type="auffuhrung-von-premiere-von">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12399" type="hat-als-arbeitskraft">Max Paulsen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2642" type="hat-als-arbeitskraft">Else Speidel-Haeberle</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11423" type="hat-als-arbeitskraft">Alfred Gerasch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13149" type="hat-als-arbeitskraft">Else Wohlgemuth</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2446" type="hat-als-arbeitskraft">Max Devrient</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3201" type="hat-als-arbeitskraft">Harry Walden</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10959" type="hat-als-arbeitskraft">Hedwig Bleibtreu</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11659" type="hat-als-arbeitskraft">Franz Herterich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173" type="hat-als-teilnehmerin">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3159" type="hat-als-teilnehmerin">Hugo Schmidl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12698" type="hat-als-teilnehmerin">Julius Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24423" type="hat-als-teilnehmerin">Helene Schnitzler</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb14" type="veranstaltet-in">Burgtheater</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb36247" type="veranstaltet-von">Burgtheater</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/59607/</idno>
+            </event>
+            <event when-iso="1914-02-19">
+               <head>Fritz Unruh an Arthur Schnitzler, 19.2.1914</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118625527">Unruh, Fritz</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Ulrich K.
+                    Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern
+                    Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#dc95034c-3e70-47e1-9072-3fc75d84b47a"/>
+            </event>
+            <event when-iso="1914-02-19">
+               <head>Fritz Unruh an Arthur Schnitzler, 19.2.1914</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118625527">Unruh, Fritz</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Ulrich K.
+                    Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern
+                    Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#dc95034c-3e70-47e1-9072-3fc75d84b47a"/>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,264 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-07-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-07-01.html",
+ "head":
+ "Tagebuch, 1. Juli 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Heinrich Mayer",
+ "ref":
+ "person_18023"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Georg Christoph Lichtenberg",
+ "ref":
+ "person_17502"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Ida Orloff",
+ "ref":
+ "person_18577"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Drut",
+ "ref":
+ "pmb29927"}
+ ,  {
+ "title":
+ "Herbstlied",
+ "ref":
+ "pmb30245"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01852",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01852.html",
+ "head":
+ "Albert Ehrenstein an Arthur Schnitzler, 1. 7. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "pmb11230"},
+ {
+ "persName":
+ "Heinrich Mann",
+ "ref":
+ "pmb12170"},
+ {
+ "persName":
+ "August Fournier",
+ "ref":
+ "pmb11349"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Apaturien",
+ "ref":
+ "pmb33482"}
+ ,  {
+ "title":
+ "Tubutsch",
+ "ref":
+ "pmb33452"}
+ ,  {
+ "title":
+ "Tod des Zehir eddin Muhammed Baber",
+ "ref":
+ "pmb33454"}
+ ,  {
+ "title":
+ "Die Lage in Ungarn (Siebenbürgen und Serbien ausgenommen) im Jahre 1790",
+ "ref":
+ "pmb33458"}
+ ,  {
+ "title":
+ "Die Zeit",
+ "ref":
+ "pmb35935"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Erdgeist",
+ "ref":
+ "pmb29633"}
+ ,  {
+ "orgName":
+ "Neue Freie Presse",
+ "ref":
+ "pmb29351"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Ottakringerstraße",
+ "ref":
+ "pmb300"}
+ ,  {
+ "placeName":
+ "Köln",
+ "ref":
+ "pmb145"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/470/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/470/",
+ "head":
+ "Edlach"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/714/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/714/",
+ "head":
+ "Hotel Edlacherhof"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041047",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041047.html",
+ "head":
+ "Tagebuch von Schnitzler, 1. 7. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Theodor Heinrich Mayer",
+ "ref":
+ "pmb12214"},
+ {
+ "persName":
+ "Ida Orloff",
+ "ref":
+ "pmb2556"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Georg Christoph Lichtenberg",
+ "ref":
+ "pmb12064"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Herbstlied",
+ "ref":
+ "pmb30245"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Drut",
+ "ref":
+ "pmb29927"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Waldandacht",
+ "ref":
+ "pmb701"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}] 

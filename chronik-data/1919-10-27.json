@@ -1,0 +1,179 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-10-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-10-27.html",
+ "head":
+ "Tagebuch, 27. Oktober 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karl Menger",
+ "ref":
+ "person_18075"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Päpstin Johanna",
+ "ref":
+ "person_16559"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02329",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02329.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 27. 10. 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Sandro Botticelli",
+ "ref":
+ "pmb14434"},
+ {
+ "persName":
+ "Max Reinhardt",
+ "ref":
+ "pmb12504"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Madonna mit dem Kind und singenden Engeln",
+ "ref":
+ "pmb52166"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00045457",
+ "head":
+ "Schnitzler, Arthur an Fröschels, ... [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00045677",
+ "head":
+ "Schnitzler, Arthur an Grünstein, Leo [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leo (1876-1943) Grünstein",
+ "ref":
+ "http://d-nb.info/gnd/116893001"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS01021303",
+ "head":
+ "Schnitzler, Arthur an Grünstein, Leo [Briefe]",
+ "text":
+ "1 Bl. Mit Abschr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leo (1876-1943) Grünstein",
+ "ref":
+ "http://d-nb.info/gnd/116893001"}]
+}
+}] 

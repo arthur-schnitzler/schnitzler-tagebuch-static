@@ -1,0 +1,245 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-01-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-01-03.html",
+ "head":
+ "Tagebuch, 3. Januar 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Traumnovelle",
+ "ref":
+ "pmb30851"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041656",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041656.html",
+ "head":
+ "Arthur an Olga Schnitzler, 3. 1. 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "pmb2238"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Franz Werfel",
+ "ref":
+ "pmb13094"},
+ {
+ "persName":
+ "Rudolf Beer",
+ "ref":
+ "pmb13920"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Ottilie Salten",
+ "ref":
+ "pmb23918"},
+ {
+ "persName":
+ "Karl Schönherr",
+ "ref":
+ "pmb12749"},
+ {
+ "persName":
+ "Otto Tressler",
+ "ref":
+ "pmb12971"},
+ {
+ "persName":
+ "Antonín Dvořák",
+ "ref":
+ "pmb4816"},
+ {
+ "persName":
+ "Giacomo Girolamo Casanova",
+ "ref":
+ "pmb3145"},
+ {
+ "persName":
+ "Thomas Seltzer",
+ "ref":
+ "pmb24825"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "pmb11324"},
+ {
+ "persName":
+ "Benjamin Harz",
+ "ref":
+ "pmb17899"},
+ {
+ "persName":
+ "Victor Barnowsky",
+ "ref":
+ "pmb10833"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "pmb12160"},
+ {
+ "persName":
+ "von Korff",
+ "ref":
+ "pmb19609"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Meister",
+ "ref":
+ "pmb29983"}
+ ,  {
+ "title":
+ "Schweiger",
+ "ref":
+ "pmb32019"}
+ ,  {
+ "title":
+ "Symphonie Nr. 9 (5) e-Moll op. 95 »Aus der neuen Welt«",
+ "ref":
+ "pmb32009"}
+ ,  {
+ "title":
+ "Casanovas Heimfahrt",
+ "ref":
+ "pmb30971"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Baden-Baden",
+ "ref":
+ "pmb228"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Pension Jaeger",
+ "ref":
+ "pmb811"}
+ ,  {
+ "placeName":
+ "Friesenbergstraße",
+ "ref":
+ "pmb812"}
+ ,  {
+ "placeName":
+ "Währinger Cottage",
+ "ref":
+ "pmb533"}
+ ,  {
+ "placeName":
+ "Amerika",
+ "ref":
+ "pmb175"}
+ ,  {
+ "placeName":
+ "Japan",
+ "ref":
+ "pmb318"}
+ ,  {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Olga Schnitzler, 3.1.1923",
+ "source":
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}] 

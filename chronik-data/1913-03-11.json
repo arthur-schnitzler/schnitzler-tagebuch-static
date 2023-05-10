@@ -1,0 +1,107 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-03-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-03-11.html",
+ "head":
+ "Tagebuch, 11. März 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann von Gilm-Rosenegg",
+ "ref":
+ "person_15431"},
+ {
+ "persName":
+ "Jean-Jacques Rousseau",
+ "ref":
+ "person_19439"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Gottfried August Bürger",
+ "ref":
+ "person_14053"},
+ {
+ "persName":
+ "Arthur Kaufmann",
+ "ref":
+ "person_16770"},
+ {
+ "persName":
+ "Johann Nepomuk Nestroy",
+ "ref":
+ "person_18395"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Frau Beate und ihr Sohn. Novelle",
+ "ref":
+ "pmb32133"}
+ ,  {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Briefe",
+ "ref":
+ "pmb80265"}
+ ,  {
+ "title":
+ "Herman von Gilms Familien- und Freundesbriefe",
+ "ref":
+ "pmb78756"}
+ ,  {
+ "title":
+ "Les confessions",
+ "ref":
+ "pmb77018"}
+ ,  {
+ "title":
+ "Briefwechsel zwischen Varnhagen und Rahel",
+ "ref":
+ "pmb76537"}
+ ,  {
+ "title":
+ "Tagebücher",
+ "ref":
+ "pmb30297"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

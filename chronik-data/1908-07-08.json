@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-07-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-07-08.html",
+ "head":
+ "Tagebuch, 8. Juli 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gossensass",
+ "ref":
+ "pmb40474"}
+ ,  {
+ "placeName":
+ "Sterzing",
+ "ref":
+ "pmb40302"}
+ ,  {
+ "placeName":
+ "Mareta",
+ "ref":
+ "pmb47416"}
+ ,  {
+ "placeName":
+ "Ridanna",
+ "ref":
+ "pmb91588"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40474/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40474/",
+ "head":
+ "Gossensass"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/40302/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/40302/",
+ "head":
+ "Sterzing"
+}] 

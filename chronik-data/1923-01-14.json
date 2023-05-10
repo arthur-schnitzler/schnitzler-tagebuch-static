@@ -1,0 +1,112 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-01-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-01-14.html",
+ "head":
+ "Tagebuch, 14. Januar 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefan von Auspitz-Artenegg",
+ "ref":
+ "person_13316"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Sigmund Freud",
+ "ref":
+ "person_15172"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Hans Siebert",
+ "ref":
+ "person_20090"},
+ {
+ "persName":
+ "Fritz Wittels",
+ "ref":
+ "person_21406"},
+ {
+ "persName":
+ "Richard von Wolff",
+ "ref":
+ "person_21449"},
+ {
+ "persName":
+ "Max Brod",
+ "ref":
+ "person_13987"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aphoristisches",
+ "ref":
+ "pmb35745"}
+ ,  {
+ "title":
+ "Symphonie Nr. 3 es-Dur op. 55 »Eroica«",
+ "ref":
+ "pmb30809"}
+ ,  {
+ "title":
+ "Symphonie Nr. 4 B-Dur op. 60",
+ "ref":
+ "pmb77187"}
+ ,  {
+ "title":
+ "Franzi oder Eine Liebe zweiten Ranges",
+ "ref":
+ "pmb78520"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Döbling",
+ "ref":
+ "pmb64219"}
+ ,  {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

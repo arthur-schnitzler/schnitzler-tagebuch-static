@@ -1,0 +1,172 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-01-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-01-23.html",
+ "head":
+ "Tagebuch, 23. Januar 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Abraham Cahan",
+ "ref":
+ "person_14107"},
+ {
+ "persName":
+ "Kasimir Edschmid",
+ "ref":
+ "person_14619"},
+ {
+ "persName":
+ "Schlesinger",
+ "ref":
+ "person_19726"},
+ {
+ "persName":
+ "Fritz Wittels",
+ "ref":
+ "person_21406"},
+ {
+ "persName":
+ "Arnold Zweig",
+ "ref":
+ "person_21610"},
+ {
+ "persName":
+ "Ernestine Patak",
+ "ref":
+ "person_18672"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Die achatnen Kugeln. Roman",
+ "ref":
+ "pmb78532"}
+ ,  {
+ "title":
+ "Novellen um Claudia",
+ "ref":
+ "pmb78558"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "New York City",
+ "ref":
+ "pmb44053"}
+ ,  {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02334",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02334.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 23. 1. 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "pmb22728"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "pmb2378"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Hochzeit der Sobeide",
+ "ref":
+ "pmb29849"}
+ ,  {
+ "title":
+ "Die Frau ohne Schatten. Erzählung",
+ "ref":
+ "pmb39853"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00049840",
+ "head":
+ "Schnitzler, Arthur an Wiener Literarische Anstalt [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Wiener Literarische Anstalt",
+ "ref":
+ "http://d-nb.info/gnd/5317793-9"}]
+}
+}] 

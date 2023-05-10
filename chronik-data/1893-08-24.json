@@ -1,0 +1,158 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-08-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-08-24.html",
+ "head":
+ "Tagebuch, 24. August 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Tizian",
+ "ref":
+ "person_20759"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Toblach",
+ "ref":
+ "pmb987"}
+ ,  {
+ "placeName":
+ "Cortina d'Ampezzo",
+ "ref":
+ "pmb34199"}
+ ,  {
+ "placeName":
+ "Pieve di Cadore",
+ "ref":
+ "pmb34112"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00259",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00259.html",
+ "head":
+ "Arthur Schnitzler, Felix Salten an Hugo von Hofmannsthal, 24. 8. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Tizian",
+ "ref":
+ "pmb26079"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Tod des Tizian",
+ "ref":
+ "pmb31639"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pieve di Cadore",
+ "ref":
+ "pmb34112"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Toblach",
+ "ref":
+ "pmb987"}
+ ,  {
+ "placeName":
+ "Cortina d'Ampezzo",
+ "ref":
+ "pmb34199"}
+ ,  {
+ "placeName":
+ "Valle d’Ampezzo",
+ "ref":
+ "pmb34207"}
+ ,  {
+ "placeName":
+ "Valle di Cadore",
+ "ref":
+ "pmb34202"}
+ ,  {
+ "placeName":
+ "Strobl",
+ "ref":
+ "pmb895"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/987/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/987/",
+ "head":
+ "Toblach"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34199/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34199/",
+ "head":
+ "Cortina d'Ampezzo"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34112/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34112/",
+ "head":
+ "Pieve di Cadore"
+}] 

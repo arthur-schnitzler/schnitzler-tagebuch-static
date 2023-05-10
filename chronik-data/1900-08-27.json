@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1900-08-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-08-27.html",
+ "head":
+ "Tagebuch, 27. August 1900",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Beer",
+ "ref":
+ "person_13543"},
+ {
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "person_15306"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bormio",
+ "ref":
+ "pmb49343"}
+ ,  {
+ "placeName":
+ "Trafoi",
+ "ref":
+ "pmb91918"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/49343/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/49343/",
+ "head":
+ "Bormio"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91846/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91846/",
+ "head":
+ "Stilfser Joch"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91918/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91918/",
+ "head":
+ "Trafoi"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00073848",
+ "head":
+ "Zinn, Adalbert Alexander an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Adalbert Alexander (1880-1941) Zinn",
+ "ref":
+ "http://d-nb.info/gnd/117005215"}]
+}
+}] 

@@ -1,0 +1,176 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-01-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-01-30.html",
+ "head":
+ "Tagebuch, 30. Januar 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Augusta Burchardt",
+ "ref":
+ "person_14064"},
+ {
+ "persName":
+ "Raimund Eckardt",
+ "ref":
+ "person_14604"},
+ {
+ "persName":
+ "Ehrenzweig",
+ "ref":
+ "person_14649"},
+ {
+ "persName":
+ "Albertine von Gutmann-Gelse",
+ "ref":
+ "person_15774"},
+ {
+ "persName":
+ "Alexander Meyer-Cohn",
+ "ref":
+ "person_18124"},
+ {
+ "persName":
+ "Heinrich Stümcke",
+ "ref":
+ "person_20554"},
+ {
+ "persName":
+ "Theodor Pollak",
+ "ref":
+ "person_18894"},
+ {
+ "persName":
+ "Franz Tewele",
+ "ref":
+ "person_20681"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Jüdin von Toledo",
+ "ref":
+ "pmb34284"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Bischofstr.",
+ "ref":
+ "pmb92167"}
+ ,  {
+ "placeName":
+ "Unter den Linden",
+ "ref":
+ "pmb91975"}
+ ,  {
+ "placeName":
+ "Friedrichstraße",
+ "ref":
+ "pmb482"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02690",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02690.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, [30.? 1. 1896]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb35597"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/41234/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/41234/",
+ "head":
+ "Hotel Westminster"
+}] 

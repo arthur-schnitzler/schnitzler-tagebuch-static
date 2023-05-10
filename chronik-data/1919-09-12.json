@@ -1,0 +1,173 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net",
+ "head":
+ "Die Schwestern oder Casanova in Spa, Manuskript",
+ "text":
+ "Publikation in Vorbereitung"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-09-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-09-12.html",
+ "head":
+ "Tagebuch, 12. September 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Eger",
+ "ref":
+ "person_14626"},
+ {
+ "persName":
+ "Prosper Mérimée",
+ "ref":
+ "person_18087"},
+ {
+ "persName":
+ "Friedrich Christian Laukhard",
+ "ref":
+ "person_17361"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ,  {
+ "title":
+ "Magister Friedrich Christian Laukhards Leben und Schicksale, von ihm selbst beschrieben",
+ "ref":
+ "pmb80850"}
+ ,  {
+ "title":
+ "Carmen",
+ "ref":
+ "pmb81005"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "",
+ "ref":
+ "pmb91574"}
+ ,  {
+ "placeName":
+ "Hamburg",
+ "ref":
+ "pmb506"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/948/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/948/",
+ "head":
+ "Payerbach"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/483/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/483/",
+ "head":
+ "Reichenau an der Rax"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041576",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041576.html",
+ "head":
+ "Aufzeichnung von Bahr, 12. 9. 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Wilhelm Grosz",
+ "ref":
+ "pmb3112"},
+ {
+ "persName":
+ "Frank E. Washburn Freund",
+ "ref":
+ "pmb4087"},
+ {
+ "persName":
+ "Jaroslav Kvapil",
+ "ref":
+ "pmb12011"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Haus Reitsteig",
+ "ref":
+ "pmb616"}
+ ,  {
+ "placeName":
+ "Grödig",
+ "ref":
+ "pmb934"}
+ ,  {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ]
+}
+}] 

@@ -1,0 +1,67 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1924-07-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-07-14.html",
+ "head":
+ "Tagebuch, 14. Juli 1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Philip Snowden",
+ "ref":
+ "person_20178"},
+ {
+ "persName":
+ "Paul von Zsolnay",
+ "ref":
+ "person_21586"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fräulein Else",
+ "ref":
+ "pmb29941"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bratislava",
+ "ref":
+ "pmb39615"}
+ ,  {
+ "placeName":
+ "England",
+ "ref":
+ "pmb90593"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

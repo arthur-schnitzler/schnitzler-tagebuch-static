@@ -1,0 +1,99 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-08-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-08-02.html",
+ "head":
+ "Tagebuch, 2. August 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Raden Mas Pandjo Sosro Kartono",
+ "ref":
+ "person_16743"},
+ {
+ "persName":
+ "Karoline Leitner",
+ "ref":
+ "person_17423"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Streichquartett Nr. 8 e-Moll op. 59,2 (Rasumofsky)",
+ "ref":
+ "pmb77183"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Warschau",
+ "ref":
+ "pmb888"}
+ ,  {
+ "placeName":
+ "Japan",
+ "ref":
+ "pmb318"}
+ ,  {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00036703",
+ "head":
+ "Ben-Gavriêl, M. Y. an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl. Vis.kte",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "M. Y. (1891-1965) Ben-Gavriêl",
+ "ref":
+ "http://d-nb.info/gnd/118508946"}]
+}
+}] 

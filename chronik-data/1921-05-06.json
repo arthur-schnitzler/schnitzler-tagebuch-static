@@ -1,0 +1,102 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-05-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-05-06.html",
+ "head":
+ "Tagebuch, 6. Mai 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leo Baerwald",
+ "ref":
+ "person_13371"},
+ {
+ "persName":
+ "Lucy von Jacobi",
+ "ref":
+ "person_16469"},
+ {
+ "persName":
+ "Eva Elisabeth Mayer",
+ "ref":
+ "person_18015"},
+ {
+ "persName":
+ "Julius Wolfgang Schülein",
+ "ref":
+ "person_19909"},
+ {
+ "persName":
+ "Suzanne Schülein",
+ "ref":
+ "person_19911"},
+ {
+ "persName":
+ "Alois Wohlmuth",
+ "ref":
+ "person_21424"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"},
+ {
+ "persName":
+ "Wilhelm Grosz",
+ "ref":
+ "person_15685"},
+ {
+ "persName":
+ "Alfred Karl Mayer",
+ "ref":
+ "person_18011"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Englischer Garten",
+ "ref":
+ "pmb90589"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/52580/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/52580/",
+ "head":
+ "Parkhotel München"
+}] 

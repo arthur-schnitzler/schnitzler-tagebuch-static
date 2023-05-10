@@ -1,0 +1,367 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1898-01-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-01-29.html",
+ "head":
+ "Tagebuch, 29. Januar 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "person_13920"},
+ {
+ "persName":
+ "Friedrich Uhl",
+ "ref":
+ "person_20855"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00770",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00770.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 29. 1. 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Georg Brandes",
+ "ref":
+ "pmb10992"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Wollzeile",
+ "ref":
+ "pmb338"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041403",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041403.html",
+ "head":
+ "Bahr: [2. Gästeliste zum Burckhard-Bankett], [zwischen 29. 1. und 2. 2.
+                     1898]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Ottokar Tann-Bergler",
+ "ref":
+ "pmb12920"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"},
+ {
+ "persName":
+ "Ferdinand Gross",
+ "ref":
+ "pmb11524"},
+ {
+ "persName":
+ "August Fournier",
+ "ref":
+ "pmb11349"},
+ {
+ "persName":
+ "Vincenz Chiavacci",
+ "ref":
+ "pmb2154"},
+ {
+ "persName":
+ "Ludwig Klinenberger",
+ "ref":
+ "pmb3916"},
+ {
+ "persName":
+ "Julius Stern",
+ "ref":
+ "pmb3162"},
+ {
+ "persName":
+ "Ludwig Basch",
+ "ref":
+ "pmb13791"},
+ {
+ "persName":
+ "Hans Koppel",
+ "ref":
+ "pmb28238"},
+ {
+ "persName":
+ "Ludwig Karpath",
+ "ref":
+ "pmb11885"},
+ {
+ "persName":
+ "Moritz Epstein",
+ "ref":
+ "pmb2947"},
+ {
+ "persName":
+ "Alexander Landesberg",
+ "ref":
+ "pmb2577"},
+ {
+ "persName":
+ "Siegfried Loewy",
+ "ref":
+ "pmb12101"},
+ {
+ "persName":
+ "Wilhelm Hermann",
+ "ref":
+ "pmb28517"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Emerich von Bukovics",
+ "ref":
+ "pmb2161"},
+ {
+ "persName":
+ "Franz von Jauner",
+ "ref":
+ "pmb2928"},
+ {
+ "persName":
+ "Ernst Gettke",
+ "ref":
+ "pmb2164"},
+ {
+ "persName":
+ "Leonhard Fanto",
+ "ref":
+ "pmb3261"},
+ {
+ "persName":
+ "Victor Kutschera",
+ "ref":
+ "pmb2868"},
+ {
+ "persName":
+ "Carl Moll",
+ "ref":
+ "pmb12277"},
+ {
+ "persName":
+ "Joseph von Schönborn",
+ "ref":
+ "pmb24691"},
+ {
+ "persName":
+ "Gustav Klimt",
+ "ref":
+ "pmb11941"},
+ {
+ "persName":
+ "Wilhelm Bernatzik",
+ "ref":
+ "pmb28047"},
+ {
+ "persName":
+ "Leo Ebermann",
+ "ref":
+ "pmb2157"},
+ {
+ "persName":
+ "Alfred Roller",
+ "ref":
+ "pmb12548"},
+ {
+ "persName":
+ "Leopold Kramer",
+ "ref":
+ "pmb11981"},
+ {
+ "persName":
+ "Edgar von Spiegl-Thurnsee",
+ "ref":
+ "pmb25196"},
+ {
+ "persName":
+ "Ludwig Speidel",
+ "ref":
+ "pmb12816"},
+ {
+ "persName":
+ "Alfred Grünfeld",
+ "ref":
+ "pmb11533"},
+ {
+ "persName":
+ "Alexander Girardi",
+ "ref":
+ "pmb11441"},
+ {
+ "persName":
+ "Max Kalbeck",
+ "ref":
+ "pmb11857"},
+ {
+ "persName":
+ "Richard Fellner",
+ "ref":
+ "pmb11308"},
+ {
+ "persName":
+ "Julian Sternberg",
+ "ref":
+ "pmb3021"},
+ {
+ "persName":
+ "Ferdinand von Saar",
+ "ref":
+ "pmb12602"},
+ {
+ "persName":
+ "Robert Mohr",
+ "ref":
+ "pmb28043"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Ludwig Hevesi",
+ "ref":
+ "pmb11687"},
+ {
+ "persName":
+ "Franz von Wickhoff",
+ "ref":
+ "pmb28051"},
+ {
+ "persName":
+ "Theodor Herzl",
+ "ref":
+ "pmb11673"},
+ {
+ "persName":
+ "Felix Dörmann",
+ "ref":
+ "pmb2425"},
+ {
+ "persName":
+ "Marcell von Frydmann-Prawy",
+ "ref":
+ "pmb28054"},
+ {
+ "persName":
+ "Karl Glossy",
+ "ref":
+ "pmb11447"},
+ {
+ "persName":
+ "Julius Bauer",
+ "ref":
+ "pmb2150"},
+ {
+ "persName":
+ "Hugo Wittmann",
+ "ref":
+ "pmb2739"},
+ {
+ "persName":
+ "Siegmund Eibenschütz",
+ "ref":
+ "pmb28058"},
+ {
+ "persName":
+ "Rudolf Holzer",
+ "ref":
+ "pmb11771"},
+ {
+ "persName":
+ "Eduard Bacher",
+ "ref":
+ "pmb10809"},
+ {
+ "persName":
+ "Moriz Benedikt",
+ "ref":
+ "pmb10875"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Erzherzog Carlplatz",
+ "ref":
+ "pmb308"}
+ ]
+}
+}] 

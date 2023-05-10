@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-06-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-06-17.html",
+ "head":
+ "Tagebuch, 17. Juni 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Herman Bang",
+ "ref":
+ "person_13403"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Franz Hessel",
+ "ref":
+ "person_16173"},
+ {
+ "persName":
+ "Robert Lenk",
+ "ref":
+ "person_17436"},
+ {
+ "persName":
+ "Heinrich Sikora",
+ "ref":
+ "person_20098"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Ludwigshöhe. Roman einer Krankenpflegerin",
+ "ref":
+ "pmb30243"}
+ ,  {
+ "title":
+ "Laura Wunderl. Münchner Novellen",
+ "ref":
+ "pmb78829"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/33/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/33/",
+ "head":
+ "St. Gilgen"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/824/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/824/",
+ "head":
+ "Hotel und Pension Lueg"
+}] 

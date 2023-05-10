@@ -1,0 +1,220 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1887-06-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1887-06-21.html",
+ "head":
+ "Tagebuch, 21. Juni 1887",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Amy no name provided",
+ "ref":
+ "person_13186"},
+ {
+ "persName":
+ "Irma de Cast.",
+ "ref":
+ "person_14153"},
+ {
+ "persName":
+ "Malvine Drucker",
+ "ref":
+ "person_14523"},
+ {
+ "persName":
+ "Friedrich Fürst",
+ "ref":
+ "person_15287"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Ernst Hartmann",
+ "ref":
+ "person_15944"},
+ {
+ "persName":
+ "Helene Hartmann",
+ "ref":
+ "person_15946"},
+ {
+ "persName":
+ "Rosa Hochsinger",
+ "ref":
+ "person_16245"},
+ {
+ "persName":
+ "Paul Horn",
+ "ref":
+ "person_16363"},
+ {
+ "persName":
+ "Friedrich Kapper",
+ "ref":
+ "person_16709"},
+ {
+ "persName":
+ "Josef Lewinsky",
+ "ref":
+ "person_17493"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Adolf von Sonnenthal",
+ "ref":
+ "person_20204"},
+ {
+ "persName":
+ "Bernhard Strisower",
+ "ref":
+ "person_20534"},
+ {
+ "persName":
+ "Richard Tausenau",
+ "ref":
+ "person_20643"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "person_21047"},
+ {
+ "persName":
+ "Helene Kanitz",
+ "ref":
+ "person_16680"},
+ {
+ "persName":
+ "Oscar Kraus",
+ "ref":
+ "person_17114"},
+ {
+ "persName":
+ "Isidor von Neumann-Heilwart",
+ "ref":
+ "person_18425"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"},
+ {
+ "persName":
+ "Emil Brüll",
+ "ref":
+ "person_14011"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Gabrielens Reue",
+ "ref":
+ "pmb33824"}
+ ,  {
+ "title":
+ "Der Mikado",
+ "ref":
+ "pmb81385"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ,  {
+ "placeName":
+ "Kahlenberg",
+ "ref":
+ "pmb574"}
+ ,  {
+ "placeName":
+ "P.",
+ "ref":
+ "pmb92433"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/89633/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/89633/",
+ "head":
+ "Privataufführung Der grollende Löwe, 21.6.1887",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der grollende Löwe",
+ "ref":
+ "pmb89631"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Friedrich Fürst",
+ "ref":
+ "pmb16829"},
+ {
+ "persName":
+ "Rosa Hochsinger",
+ "ref":
+ "pmb18345"},
+ {
+ "persName":
+ "Paul Horn",
+ "ref":
+ "pmb18523"}]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d2b0f559-bde7-4114-82b9-741a8810c463",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Olga Waissnix, 21.6.1887",
+ "source":
+ "Arthur Schnitzler und Waissnix, Olga: Liebe, die starb vor der Zeit. Ein Briefwechsel. Mit einem Vorwort von Hans Weigel. Mit 16 Seiten Kunstdruckbildern. Hg. v. Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)"
+}] 

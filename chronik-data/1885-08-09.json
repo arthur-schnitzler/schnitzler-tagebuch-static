@@ -1,0 +1,55 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1885-08-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1885-08-09.html",
+ "head":
+ "Tagebuch, 9. August 1885",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Kammer",
+ "ref":
+ "pmb63056"}
+ ,  {
+ "placeName":
+ "Unterach am Attersee",
+ "ref":
+ "pmb91973"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/63056/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/63056/",
+ "head":
+ "Kammer"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91973/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91973/",
+ "head":
+ "Unterach am Attersee"
+}] 

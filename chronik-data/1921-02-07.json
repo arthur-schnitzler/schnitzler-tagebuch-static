@@ -1,0 +1,253 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-02-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-02-07.html",
+ "head":
+ "Tagebuch, 7. Februar 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Sammy Gronemann",
+ "ref":
+ "person_15673"},
+ {
+ "persName":
+ "Else Speidel-Haeberle",
+ "ref":
+ "person_15833"},
+ {
+ "persName":
+ "Karl May",
+ "ref":
+ "person_18006"},
+ {
+ "persName":
+ "Rabindranath Tagore",
+ "ref":
+ "person_20620"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Tohuwabohu",
+ "ref":
+ "pmb80634"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02360",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02360.html",
+ "head":
+ "Arthur Schnitzler an Hermann Bahr, 7. 2. 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Josef Popper-Lynkeus",
+ "ref":
+ "pmb2135"},
+ {
+ "persName":
+ "Richard Kola",
+ "ref":
+ "pmb11962"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Krieg, Wehrpflicht und Staatsverfassung",
+ "ref":
+ "pmb32660"}
+ ,  {
+ "title":
+ "Tagebuch [Kolumne im Neuen Wiener Journal]",
+ "ref":
+ "pmb30047"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Rikola",
+ "ref":
+ "pmb29758"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041137",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041137.html",
+ "head":
+ "Schnitzler an Bahr, 7. 2. 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Josef Popper-Lynkeus",
+ "ref":
+ "pmb2135"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Krieg, Wehrpflicht und Staatsverfassung",
+ "ref":
+ "pmb32660"}
+ ,  {
+ "title":
+ "Tagebuch [Kolumne im Neuen Wiener Journal]",
+ "ref":
+ "pmb30047"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Rikola",
+ "ref":
+ "pmb29758"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u23454be-b4dd-4bf6-8dc1-c5e2e528c38d",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Felix Hollaender an Arthur Schnitzler, 7.2.1921",
+ "source":
+ "Renate Wagner (Hg.): Der Briefwechsel Arthur Schnitzlers mit Max Reinhardt und dessen Mitarbeitern. Otto Müller Verlag, Salzburg: 1971."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00033265",
+ "head":
+ "Durieux, Tilla an Schnitzler, Arthur [Briefe]",
+ "text":
+ "8 Bl.Abschr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Tilla (1880-1971) Durieux",
+ "ref":
+ "http://d-nb.info/gnd/118528262"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00062123",
+ "head":
+ "Durieux, Tilla an Schnitzler, Arthur [Briefe]",
+ "text":
+ "5 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Tilla (1880-1971) Durieux",
+ "ref":
+ "http://d-nb.info/gnd/118528262"}]
+}
+}] 

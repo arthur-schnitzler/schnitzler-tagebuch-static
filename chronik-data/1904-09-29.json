@@ -1,0 +1,121 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-09-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-09-29.html",
+ "head":
+ "Tagebuch, 29. September 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Artur Fleischer",
+ "ref":
+ "person_15032"},
+ {
+ "persName":
+ "Karl VI.",
+ "ref":
+ "person_16725"},
+ {
+ "persName":
+ "Ernst Mach",
+ "ref":
+ "person_17768"},
+ {
+ "persName":
+ "François Ravaillac",
+ "ref":
+ "person_19075"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Franz Peter Schubert",
+ "ref":
+ "person_19902"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Ein Erfolg",
+ "ref":
+ "pmb33808"}
+ ,  {
+ "title":
+ "Die Gleitenden",
+ "ref":
+ "pmb33780"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Brehms Tierleben",
+ "ref":
+ "pmb30011"}
+ ,  {
+ "title":
+ "Der neue Pitaval",
+ "ref":
+ "pmb78574"}
+ ,  {
+ "title":
+ "Analyse der Empfindungen und das Verhältnis des Physischen zum Psychischen. 2. vermehrte Auflage der Beiträge zur Analyse der Empfindungen",
+ "ref":
+ "pmb78360"}
+ ,  {
+ "title":
+ "Geschichte der deutschen Höfe seit der Reformation",
+ "ref":
+ "pmb31315"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00048005",
+ "head":
+ "Schnitzler, Arthur an Muschner, Georg [Briefe]",
+ "text":
+ "2 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Georg (1875-1915) Muschner",
+ "ref":
+ "http://d-nb.info/gnd/11700362X"}]
+}
+}] 

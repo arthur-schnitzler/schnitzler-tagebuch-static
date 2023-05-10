@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-04-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-04-29.html",
+ "head":
+ "Tagebuch, 29. April 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Edmond Huot de Goncourt",
+ "ref":
+ "person_15567"},
+ {
+ "persName":
+ "Jules Huot de Goncourt",
+ "ref":
+ "person_15568"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Robert Kugel",
+ "ref":
+ "person_17175"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Eduard Vallo",
+ "ref":
+ "person_20915"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Henriette Maréchal",
+ "ref":
+ "pmb78176"}
+ ,  {
+ "title":
+ "Journal des Goncourt. Mémoires de la vie littéraire",
+ "ref":
+ "pmb30467"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rio de Janeiro",
+ "ref":
+ "pmb50017"}
+ ,  {
+ "placeName":
+ "Italian Riviera",
+ "ref":
+ "pmb90942"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

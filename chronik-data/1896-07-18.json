@@ -1,0 +1,104 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-07-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-07-18.html",
+ "head":
+ "Tagebuch, 18. Juli 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto David Ellstätter",
+ "ref":
+ "person_14727"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Tromsø",
+ "ref":
+ "pmb42542"}
+ ,  {
+ "placeName":
+ "Karlsruhe",
+ "ref":
+ "pmb871"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00565",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00565.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 18. 7. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Tromsø",
+ "ref":
+ "pmb42542"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ,  {
+ "placeName":
+ "Dänemark",
+ "ref":
+ "pmb43570"}
+ ,  {
+ "placeName":
+ "Stockholm",
+ "ref":
+ "pmb1119"}
+ ,  {
+ "placeName":
+ "Oslo",
+ "ref":
+ "pmb36296"}
+ ,  {
+ "placeName":
+ "Göteborg",
+ "ref":
+ "pmb40700"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/42542/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/42542/",
+ "head":
+ "Tromsø"
+}] 

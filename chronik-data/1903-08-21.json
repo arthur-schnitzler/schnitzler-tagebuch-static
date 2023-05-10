@@ -1,0 +1,86 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-08-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-08-21.html",
+ "head":
+ "Tagebuch, 21. August 1903",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Lavarone",
+ "ref":
+ "pmb461"}
+ ,  {
+ "placeName":
+ "Caldonazzo",
+ "ref":
+ "pmb90428"}
+ ,  {
+ "placeName":
+ "Trient",
+ "ref":
+ "pmb954"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/954/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/954/",
+ "head":
+ "Trient"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90428/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90428/",
+ "head":
+ "Caldonazzo"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/461/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/461/",
+ "head":
+ "Lavarone"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00035732",
+ "head":
+ "Guggenheim, Clementine an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

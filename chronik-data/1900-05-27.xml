@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1900-05-27">Sonntag, 27. Mai 1900</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1900-05-27">
+               <head>Tagebuch, 27. Mai 1900</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19543">Ottilie Salten</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29853">Lieutenant Gustl. Novelle</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb48761">Puchberg am Schneeberg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb948">Payerbach</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1900-05-27.html</idno>
+            </event>
+            <event when-iso="1900-05-27">
+               <head>Paul Goldmann an Arthur Schnitzler, 27. 5. [1900]</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23918">Ottilie Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2570">Rudolf Lothar</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb141711">
+                  [in Berlin lebender Wiener Journalist]
+               </persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28213">Isidor Landau</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3386">Fritz Mauthner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13082">Carl Karlweis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb19296">Helene Keßler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb141743">Erich von Monbart</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11406">Julius von Gans-Ludassy</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11391">Ludwig Fulda</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30631">König Harlekin. Maskenspiel in vier Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb141723">Theater, Kunst und Literatur [König Harlekin]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41321">Neues Wiener Tagblatt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb141716">Theater- und Kunstnachrichten [König Harlekin]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36374">Neue Freie Presse</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb141728">Wiener Deutsches Volkstheater. (Gastspiel im Deutschen Theater.) »König Harlekin«, ein Maskenspiel in vier Aufzügen von Rudolf Lothar</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41531">Berliner Tageblatt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb76985">Onkel Toni. Eine Komödie aus der Gesellschaft in vier Aufzügen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb141733">Kleine Chronik. [Theater.] [Onkel Toni]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30127">Der Star. Ein Wiener Stück in vier Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb78877">Die Familie von Barchwitz</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31867">Der letzte Knopf</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29406">Berliner Börsen-Courier</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb36430">Volkstheater</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29561">Freie Bühne</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb35597">Deutsches Theater Berlin</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40583">Dessauer Straße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb48761">Puchberg am Schneeberg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb18">Lessing-Theater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb20">Volkstheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02916.html</idno>
+            </event>
+            <event when-iso="1900-05-27">
+               <head>Puchberg am Schneeberg</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/48761/</idno>
+            </event>
+            <event when-iso="1900-05-27">
+               <head>Baumgartnerhaus</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90051/</idno>
+            </event>
+            <event when-iso="1900-05-27">
+               <head>Payerbach</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/948/</idno>
+            </event>
+            <event when-iso="1900-05-27">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1900-05-27">
+               <head>Schnitzler, Arthur: Leutnant Gustl [Prosa] (Drucktitel)</head>
+               <desc>8 Bl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00083445</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

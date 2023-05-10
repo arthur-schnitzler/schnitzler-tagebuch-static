@@ -1,0 +1,118 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-08-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-08-10.html",
+ "head":
+ "Tagebuch, 10. August 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Gottlob Friedrich Lipps",
+ "ref":
+ "person_17584"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Adelboden",
+ "ref":
+ "pmb90188"}
+ ,  {
+ "placeName":
+ "Aeschi b. Spiez",
+ "ref":
+ "pmb90196"}
+ ,  {
+ "placeName":
+ "Lauterbrunnen",
+ "ref":
+ "pmb91123"}
+ ,  {
+ "placeName":
+ "Mürren",
+ "ref":
+ "pmb88187"}
+ ,  {
+ "placeName":
+ "Lake Thun",
+ "ref":
+ "pmb91897"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90188/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90188/",
+ "head":
+ "Adelboden"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/88187/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/88187/",
+ "head":
+ "Mürren"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp377",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp377.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 10. August 1926"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp380",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp380.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 5.–16. August 1926"
+}] 

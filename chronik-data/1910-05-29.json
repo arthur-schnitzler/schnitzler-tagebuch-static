@@ -1,0 +1,84 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-05-29",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-05-29.html",
+ "head":
+ "Tagebuch, 29. Mai 1910",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Territet",
+ "ref":
+ "pmb52051"}
+ ,  {
+ "placeName":
+ "Lausanne",
+ "ref":
+ "pmb50004"}
+ ,  {
+ "placeName":
+ "Évian-les-Bains",
+ "ref":
+ "pmb90607"}
+ ,  {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "Le Bouveret",
+ "ref":
+ "pmb90388"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/52051/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/52051/",
+ "head":
+ "Territet"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS01162194",
+ "head":
+ "Schnitzler, Olga an Schnitzler, Lili [Briefe]",
+ "text":
+ "Letztes Objekt aus der Mappe. 2 Karten",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga (1882-1970) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/116848723"},
+ {
+ "persName":
+ "Lili (1909-1928) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/131362089"}]
+}
+}] 

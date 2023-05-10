@@ -1,0 +1,145 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-03-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-03-30.html",
+ "head":
+ "Tagebuch, 30. März 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rosa Albach-Retty",
+ "ref":
+ "person_13123"},
+ {
+ "persName":
+ "Ludwig Altmann",
+ "ref":
+ "person_13173"},
+ {
+ "persName":
+ "Johannes Brahms",
+ "ref":
+ "person_13914"},
+ {
+ "persName":
+ "Stefan Poglayen-Neuwall",
+ "ref":
+ "person_18842"},
+ {
+ "persName":
+ "Josefine Schipper",
+ "ref":
+ "person_19707"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Werner Schott",
+ "ref":
+ "person_19874"},
+ {
+ "persName":
+ "Arthur Stern",
+ "ref":
+ "person_20405"},
+ {
+ "persName":
+ "August Strindberg",
+ "ref":
+ "person_20530"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Friedrich Geiringer",
+ "ref":
+ "person_15369"},
+ {
+ "persName":
+ "Hans Reichert",
+ "ref":
+ "person_19128"},
+ {
+ "persName":
+ "Hermine von Schaffgotsch",
+ "ref":
+ "person_19611"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ,  {
+ "title":
+ "Konzert für Violine, Violoncello und Orchester a-Moll op. 102",
+ "ref":
+ "pmb78210"}
+ ,  {
+ "title":
+ "Königsdramen",
+ "ref":
+ "pmb77077"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Großgmain",
+ "ref":
+ "pmb837"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040980",
+ "head":
+ "Poglayen-Neuwall, ... an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

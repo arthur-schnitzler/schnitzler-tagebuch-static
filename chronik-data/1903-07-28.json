@@ -1,0 +1,256 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-07-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-07-28.html",
+ "head":
+ "Tagebuch, 28. Juli 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Anatole France",
+ "ref":
+ "person_15108"},
+ {
+ "persName":
+ "Mirjam Beer-Hofmann",
+ "ref":
+ "person_13548"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "person_13550"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Histoire comique",
+ "ref":
+ "pmb78227"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hochschneeberg",
+ "ref":
+ "pmb5836"}
+ ,  {
+ "placeName":
+ "Kaiserstein",
+ "ref":
+ "pmb90977"}
+ ,  {
+ "placeName":
+ "Klosterwappen",
+ "ref":
+ "pmb91042"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01305",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01305.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, 28. 7. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hochschneeberg",
+ "ref":
+ "pmb5836"}
+ ,  {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Liesingerstraße",
+ "ref":
+ "pmb40101"}
+ ,  {
+ "placeName":
+ "Fischerhütte",
+ "ref":
+ "pmb50925"}
+ ,  {
+ "placeName":
+ "Klosterwappen",
+ "ref":
+ "pmb50928"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91691/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91691/",
+ "head":
+ "Hochschneeberg"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50925/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50925/",
+ "head":
+ "Fischerhütte"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041429",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041429.html",
+ "head":
+ "Aufzeichnung von Bahr, 28. 7. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Lukian von Samosata",
+ "ref":
+ "pmb20643"},
+ {
+ "persName":
+ "Georg Fuchs",
+ "ref":
+ "pmb28138"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Dialoge",
+ "ref":
+ "pmb31051"}
+ ,  {
+ "title":
+ "Abschiedssouper",
+ "ref":
+ "pmb30005"}
+ ,  {
+ "title":
+ "The Cenci",
+ "ref":
+ "pmb31397"}
+ ,  {
+ "title":
+ "Dialog vom Laster",
+ "ref":
+ "pmb31037"}
+ ,  {
+ "title":
+ "Der Meister",
+ "ref":
+ "pmb29983"}
+ ,  {
+ "title":
+ "Die Chronik von Dirnau",
+ "ref":
+ "pmb31053"}
+ ,  {
+ "title":
+ "Die Chronik von Dirnau. Geschichte eines Dorfes von Gustav Macasy. Wien 1903. C. W. Stern",
+ "ref":
+ "pmb31055"}
+ ,  {
+ "title":
+ "Elektra. Tragödie in einem Aufzug",
+ "ref":
+ "pmb30633"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bayern",
+ "ref":
+ "pmb314"}
+ ,  {
+ "placeName":
+ "Ungarn",
+ "ref":
+ "pmb35512"}
+ ,  {
+ "placeName":
+ "Polen",
+ "ref":
+ "pmb313"}
+ ,  {
+ "placeName":
+ "Japan",
+ "ref":
+ "pmb318"}
+ ]
+}
+}] 

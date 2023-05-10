@@ -1,0 +1,215 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-09-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-09-02.html",
+ "head":
+ "Tagebuch, 2. September 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arnoldo Cappellini",
+ "ref":
+ "person_14129"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Kasimir Edschmid",
+ "ref":
+ "person_14619"},
+ {
+ "persName":
+ "Bruno Frank",
+ "ref":
+ "person_15120"},
+ {
+ "persName":
+ "Elisabeth Frank",
+ "ref":
+ "person_15121"},
+ {
+ "persName":
+ "Knut Hamsun",
+ "ref":
+ "person_15894"},
+ {
+ "persName":
+ "Max Pallenberg",
+ "ref":
+ "person_18643"},
+ {
+ "persName":
+ "Erna Pinner",
+ "ref":
+ "person_18802"},
+ {
+ "persName":
+ "Stendhal",
+ "ref":
+ "person_20397"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"},
+ {
+ "persName":
+ "Arthur Schurig",
+ "ref":
+ "person_19946"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Leben eines Sonderlings",
+ "ref":
+ "pmb77815"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Mauerkircherstraße",
+ "ref":
+ "pmb51263"}
+ ,  {
+ "placeName":
+ "Kaufingerstraße",
+ "ref":
+ "pmb91016"}
+ ,  {
+ "placeName":
+ "Nymphenburg",
+ "ref":
+ "pmb91369"}
+ ,  {
+ "placeName":
+ "Pschorrbräu",
+ "ref":
+ "pmb92467"}
+ ,  {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Lido",
+ "ref":
+ "pmb91143"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/51263/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/51263/",
+ "head":
+ "Mauerkircherstraße"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91016/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91016/",
+ "head":
+ "Kaufingerstraße"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91369/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91369/",
+ "head":
+ "Nymphenburg"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92467/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92467/",
+ "head":
+ "Pschorrbräu"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp592",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp592.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 31. August – 7. September 1928"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043563",
+ "head":
+ "Stengel, Kurt an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

@@ -1,0 +1,95 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1912-10-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-10-04.html",
+ "head":
+ "Tagebuch, 4. Oktober 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Karl Schnitzler",
+ "ref":
+ "person_19828"},
+ {
+ "persName":
+ "Anna Donath",
+ "ref":
+ "person_14481"},
+ {
+ "persName":
+ "Johanna Schmidl",
+ "ref":
+ "person_16852"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00063257",
+ "head":
+ "Wille, Bruno an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.Kopie. Mit Negativkopie",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Bruno (1860-1928) Wille",
+ "ref":
+ "http://d-nb.info/gnd/11863318X"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00076883",
+ "head":
+ "Wille, Bruno an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Bruno (1860-1928) Wille",
+ "ref":
+ "http://d-nb.info/gnd/11863318X"}]
+}
+}] 

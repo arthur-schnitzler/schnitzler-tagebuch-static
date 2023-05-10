@@ -1,0 +1,207 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1906-08-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-08-03.html",
+ "head":
+ "Tagebuch, 3. August 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Peter Altenberg",
+ "ref":
+ "person_13162"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Wort. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30615"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Helsingør",
+ "ref":
+ "pmb726"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01620",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01620.html",
+ "head":
+ "Arthur Schnitzler, Felix Salten an Hugo von Hofmannsthal, 3. 8. 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Helsingør",
+ "ref":
+ "pmb726"}
+ ,  {
+ "placeName":
+ "St. Gilgen",
+ "ref":
+ "pmb33"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Lueg am Wolfgangsee",
+ "ref":
+ "pmb186"}
+ ,  {
+ "placeName":
+ "Schloss Kronborg",
+ "ref":
+ "pmb1284"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01621",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01621.html",
+ "head":
+ "Felix Salten, Arthur Schnitzler an Richard Beer-Hofmann, 3. 8. 190[6]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Marienlyst",
+ "ref":
+ "pmb959"}
+ ,  {
+ "placeName":
+ "Helsingør",
+ "ref":
+ "pmb726"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Schloss Kronborg",
+ "ref":
+ "pmb1284"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/959/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/959/",
+ "head":
+ "Marienlyst"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043053",
+ "head":
+ "Schamann, Elise an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-15475",
+ "head":
+ "Brief von Felix Salten an Hugo von Hofmannsthal",
+ "text":
+ "1 Karte; mit 1 Zusatz von Arthur Schnitzler",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix (1869-1945) Salten",
+ "ref":
+ "http://d-nb.info/gnd/118840819"},
+ {
+ "persName":
+ "Hugo von (1874-1929) Hofmannsthal",
+ "ref":
+ "http://d-nb.info/gnd/118552759"}]
+}
+}] 

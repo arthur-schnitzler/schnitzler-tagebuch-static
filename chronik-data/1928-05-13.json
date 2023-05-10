@@ -1,0 +1,157 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-05-13",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-05-13.html",
+ "head":
+ "Tagebuch, 13. Mai 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodore Dreiser",
+ "ref":
+ "person_14510"},
+ {
+ "persName":
+ "Helen Gosewisch",
+ "ref":
+ "person_15578"},
+ {
+ "persName":
+ "Hermann Kesser",
+ "ref":
+ "person_16825"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Paul von Zsolnay",
+ "ref":
+ "person_21586"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Abenteurernovelle",
+ "ref":
+ "pmb30299"}
+ ,  {
+ "title":
+ "Eine amerikanische Tragödie",
+ "ref":
+ "pmb58224"}
+ ,  {
+ "title":
+ "Querstraßen. Roman",
+ "ref":
+ "pmb78767"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Grinzing",
+ "ref":
+ "pmb90771"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90771/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90771/",
+ "head":
+ "Grinzing"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp547",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp547.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 2.–20. Mai 1928"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00040934",
+ "head":
+ "Pfitzner, Hans an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.Abschr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans (1869-1949) Pfitzner",
+ "ref":
+ "http://d-nb.info/gnd/118593625"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-1522607",
+ "head":
+ "Brief von Hans Pfitzner an Arthur Schnitzler",
+ "text":
+ "1 Br. (Dank f. Bücher, sendet als Gegengabe Noten)",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans (1869-1949) Pfitzner",
+ "ref":
+ "http://d-nb.info/gnd/118593625"}]
+}
+}] 

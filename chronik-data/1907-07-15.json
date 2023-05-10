@@ -1,0 +1,164 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-07-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-07-15.html",
+ "head":
+ "Tagebuch, 15. Juli 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Taisten",
+ "ref":
+ "pmb91867"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01692",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01692.html",
+ "head":
+ "Max Mell an Arthur Schnitzler, 15. 7. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Mell",
+ "ref":
+ "pmb12225"},
+ {
+ "persName":
+ "Friedrich Wärndorfer",
+ "ref":
+ "pmb27386"},
+ {
+ "persName":
+ "Josef Hoffmann",
+ "ref":
+ "pmb7891"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Maria Mell",
+ "ref":
+ "pmb5765"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Almanach der Wiener Werkstätte",
+ "ref":
+ "pmb50960"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Werkstätte",
+ "ref":
+ "pmb40016"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "VII., Neubau",
+ "ref":
+ "pmb57"}
+ ,  {
+ "placeName":
+ "Neustiftgasse",
+ "ref":
+ "pmb50568"}
+ ,  {
+ "placeName":
+ "Ungarn",
+ "ref":
+ "pmb35512"}
+ ,  {
+ "placeName":
+ "Wittelsbachstraße",
+ "ref":
+ "pmb1238"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/428/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/428/",
+ "head":
+ "Welsberg-Taisten"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91867/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91867/",
+ "head":
+ "Taisten"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/723/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/723/",
+ "head":
+ "Wildbad Waldbrunn"
+}] 

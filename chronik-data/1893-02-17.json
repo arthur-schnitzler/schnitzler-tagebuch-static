@@ -1,0 +1,124 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-02-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-02-17.html",
+ "head":
+ "Tagebuch, 17. Februar 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Josefine Lydia von Weisswasser",
+ "ref":
+ "person_21214"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00177",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00177.html",
+ "head":
+ "Friedrich M. Fels an Arthur Schnitzler, 1[7]. 2. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Michael Fels",
+ "ref":
+ "pmb2450"},
+ {
+ "persName":
+ "Joseph Schreiber",
+ "ref":
+ "pmb24499"},
+ {
+ "persName":
+ "Moritz Rosenthal",
+ "ref":
+ "pmb23605"},
+ {
+ "persName":
+ "Sigmund Schraga",
+ "ref":
+ "pmb41860"},
+ {
+ "persName":
+ "?? [Erzieher von Max von Fürstenberg]",
+ "ref":
+ "pmb41873"},
+ {
+ "persName":
+ "Maximilian Egon von Fürstenberg",
+ "ref":
+ "pmb7315"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Meran",
+ "ref":
+ "pmb43520"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Erzherzog Rainer",
+ "ref":
+ "pmb809"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Bozen",
+ "ref":
+ "pmb40260"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}] 

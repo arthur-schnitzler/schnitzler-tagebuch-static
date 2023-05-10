@@ -1,0 +1,69 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1885-11-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1885-11-15.html",
+ "head":
+ "Tagebuch, 15. November 1885",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Carl Diener",
+ "ref":
+ "person_14444"},
+ {
+ "persName":
+ "Louis Philipp Friedmann",
+ "ref":
+ "person_15229"},
+ {
+ "persName":
+ "Max Friedmann",
+ "ref":
+ "person_15231"},
+ {
+ "persName":
+ "Georg Geyer",
+ "ref":
+ "person_15414"},
+ {
+ "persName":
+ "Hermann Löbel",
+ "ref":
+ "person_17613"},
+ {
+ "persName":
+ "Ludwig Mandl",
+ "ref":
+ "person_17825"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Leidingers Restauration",
+ "ref":
+ "pmb42"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

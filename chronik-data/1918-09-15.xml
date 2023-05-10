@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1918-09-15">Sonntag, 15. September 1918</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1918-09-15">
+               <head>Tagebuch, 15. September 1918</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13202">Leopold von Andrian-Werburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16386">Viktor von Horsetzky-Hornthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17745">Josef August Lux</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18796">Friedrich Gustav Piffl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19096">Josef Redlich</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19874">Werner Schott</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_21594">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16770">Arthur Kaufmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18168">Max von Millenkovich</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30819">Die Schwestern oder Casanova in Spa. Lustspiel in Versen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30887">Der Weibsteufel</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb90913">Penzing</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb170">Neuwaldegg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-09-15.html</idno>
+            </event>
+            <event when-iso="1918-09-15">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1918-09-15">
+               <head>Tagebuch von Josef Redlich, 15. 9. 1918</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12481">Josef Redlich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4634">Paul Scheffer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2618">Hugo Ganz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13163">Theodor Wolff</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12478">Hans Ferdinand Redlich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28708">Augustin Galen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4639">Franz von Thun</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28711">Julius (II.) Meinl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11955">Ernest von Koerber</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4642">Alexander von Spitzmüller</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4645">Heinrich von Clam-Martinic</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28715">Sándor Wekerle</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2513">Franz Joseph I. von Österreich-Ungarn</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4649">Stephan von Sarkotić</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14713">Stephan von Burián-Rajecz</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4669">Paul von Hintze</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4673">Friedrich Payer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12122">Erich Ludendorff</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4676">Hugo Stinnes</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb58810">Den Haag</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb710">Belgien</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29329">Berliner Tageblatt</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041587.html</idno>
+            </event>
+            <event when-iso="1918-09-15">
+               <head>Aufzeichnung von Bahr, 15. 9. 1918</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10818">Anna Bahr-Mildenburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18567">Viktor von Horsetzky-Hornthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2249">Arnold Korff</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23452">Thaddäus Rittner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb16477">Albert Frankfurter</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4012">Richard Smekal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12481">Josef Redlich</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb150">Sternwartestraße</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041571.html</idno>
+            </event>
+            <event when-iso="1918-09-15">
+               <head>Tagebuch von Schnitzler, 15. 9. 1918</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12481">Josef Redlich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12478">Hans Ferdinand Redlich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18567">Viktor von Horsetzky-Hornthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10765">Leopold von Andrian-Werburg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb4048">Max von Millenkovich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb20690">Josef August Lux</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12417">Friedrich Gustav Piffl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2312">Berta Zuckerkandl</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12711">Werner Schott</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2496">Arthur Kaufmann</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb32760">Das Fenster</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30819">Die Schwestern oder Casanova in Spa. Lustspiel in Versen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30887">Der Weibsteufel</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb271">Hütteldorf</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb550">Knödelhütte</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb551">Rieglerhütte</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb170">Neuwaldegg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb14">Burgtheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb41240">Österreich</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041559.html</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

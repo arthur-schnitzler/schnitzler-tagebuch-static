@@ -1,0 +1,116 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-04-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-04-21.html",
+ "head":
+ "Tagebuch, 21. April 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Léon Xanrof",
+ "ref":
+ "person_21493"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "C'est pour rire",
+ "ref":
+ "pmb79541"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Menton",
+ "ref":
+ "pmb36456"}
+ ,  {
+ "placeName":
+ "Monaco",
+ "ref":
+ "pmb91267"}
+ ,  {
+ "placeName":
+ "Nizza",
+ "ref":
+ "pmb926"}
+ ,  {
+ "placeName":
+ "La Californie",
+ "ref":
+ "pmb90430"}
+ ,  {
+ "placeName":
+ "Cannes",
+ "ref":
+ "pmb56147"}
+ ,  {
+ "placeName":
+ "Antibes",
+ "ref":
+ "pmb88767"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/36456/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/36456/",
+ "head":
+ "Menton"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/88767/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/88767/",
+ "head":
+ "Antibes"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/5862/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/5862/",
+ "head":
+ "Monte Carlo"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/926/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/926/",
+ "head":
+ "Nizza"
+}] 

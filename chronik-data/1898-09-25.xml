@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1898-09-25">Sonntag, 25. September 1898</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1898-09-25">
+               <head>Tagebuch, 25. September 1898</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13471">Julius Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14472">Felix Dörmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14597">Leo Ebermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15511">Alfred Gold</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16517">Josef Jarno</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19150">Marie Reinhard</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-09-25.html</idno>
+            </event>
+            <event when-iso="1898-09-25">
+               <head>Paul Goldmann an Arthur Schnitzler, 25. 9. 1898</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11485">Paul Goldmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2570">Rudolf Lothar</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2378">Marie Reinhard</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30219">Das Vermächtnis. Schauspiel in drei Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142222">Nach Ostasien. Reiseskizzen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142225">Nach Ostasien. Reiseskizzen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142186">Nach Ostasien. Reiseskizzen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142189">Nach Ostasien. Reiseskizzen. Eine Nacht und ein Morgen in Colombo</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142195">In Ostasien. Reiseskizzen. Singapore</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142198">In Ostasien. Reiseskizzen. Hongkong</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142201">In Ostasien. Reiseskizzen. Hongkong [zweiter Teil]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142207">In Ostasien. Reiseskizzen. Auf dem Perlfluß nach Canton-Shameen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142213">In Ostasien. Reiseskizzen. Auf dem Perlfluß nach Canton-Shameen [zweiter
+                  Teil]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142216">In Ostasien. Reiseskizzen. Canton!</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142219">In Ostasien. Reiseskizzen. Canton! [zweiter Teil]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142110">In Ostasien. Reiseskizzen. Von Hongkong nach Shanghai</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142113">In Ostasien. Reiseskizzen. Von Hongkong nach Shanghai [zweiter Teil]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142122">In Ostasien. Reiseskizzen. Shanghai</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142125">In Ostasien. Reiseskizzen. Shanghai [zweiter Teil]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142134">In Ostasien. Reiseskizzen. Chinesisches Nachtleben</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142137">In Ostasien. Reiseskizzen. Chinesisches Nachtleben [zweiter Teil]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142143">In Ostasien. Reiseskizzen. Auf dem Yang-tse-Kiang</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142146">In Ostasien. Reiseskizzen. Auf dem Yang-tse-Kiang [zweiter Teil]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142152">In Ostasien. Reiseskizzen. Hankow</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142155">In Ostasien. Reiseskizzen. Wu-tschang</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142158">In Ostasien. Reiseskizzen. Wu-tschang [zweiter Teil]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142243">Kiautschou-Eindrücke. I. Wie man ankommt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142246">Kiautschou-Eindrücke. I. Wie man ankommt [zweiter Teil]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142249">Kiautschou-Eindrücke. II. Tsintau</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142252">Kiautschou-Eindrücke. II. Tsintau [zweiter Teil]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142255">In Ostasien. Reiseskizzen. Im Golf von Pe-tschi-li</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142258">In Ostasien. Reiseskizzen. Im Golf von Pe-tschi-li [zweiter Teil]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142264">In Ostasien. Reiseskizzen. Von Tschifu nach Tientsin</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142267">In Ostasien. Reiseskizzen. Von Tschifu nach Tientsin [zweiter Teil]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142192">Die Pest in Hongkong</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142204">Eine Unterredung mit dem Tao-tai Wang, dem Sekretär des Vicekönigs von
+                  Canton</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142210">Eine Unterredung mit dem Tao-tai Wang, dem Sekretär des Vicekönigs von Canton
+                  [zweiter Teil]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142116">Beim Tao-tai Tsai von Shanghai</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142119">Die deutschen Militär-Instruktoren in China</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142128">Ein Kapitel über chinesische Eisenbahnen. Chinesische Eisenbahnen und deutsche
+                  Versäumnisse</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142131">Ein Kapitel über chinesische Eisenbahnen. Die Bahn in Shanghai nach
+                  Wu-sung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142140">Chinesische Zeitungen</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142149">Der französisch-chinesische Zwischenfall in Shanghai</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142228">Der französisch-chinesische Zwischenfall in Shanghai</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142231">In Kiautschou. I</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142234">In Kiautschou. II</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142237">In Kiautschou. III</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142240">In Kiautschou. IV [letzter Teil]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb142261">Der General Tscheng-Ki-tong</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36344">Frankfurter Zeitung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31535">Der Tod Georgs</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb43046">Der Tod Georgs. Fragment</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36340">Die Zeit. Wiener Wochenschrift</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb118848">Briefe an eine Dame</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb43198">Die Wage. Eine Wiener Wochenschrift</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb118682">Tianjin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb118844">Astor House Hotel [Tianjin]</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb30">Salzburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1108">China</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1019">Asien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L02858.html</idno>
+            </event>
+            <event when-iso="1898-09-25">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

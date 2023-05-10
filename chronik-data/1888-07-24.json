@@ -1,0 +1,60 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1888-07-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-07-24.html",
+ "head":
+ "Tagebuch, 24. Juli 1888",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Ventnor",
+ "ref":
+ "pmb92005"}
+ ,  {
+ "placeName":
+ "Freshwater",
+ "ref":
+ "pmb90653"}
+ ,  {
+ "placeName":
+ "Newport",
+ "ref":
+ "pmb91348"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92005/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92005/",
+ "head":
+ "Ventnor"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91348/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91348/",
+ "head":
+ "Newport"
+}] 

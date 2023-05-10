@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-02-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-02-17.html",
+ "head":
+ "Tagebuch, 17. Februar 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ferenc Ernst Arányi",
+ "ref":
+ "person_13243"},
+ {
+ "persName":
+ "Joseph Gollomb",
+ "ref":
+ "person_15557"},
+ {
+ "persName":
+ "Joseph Rosenstock",
+ "ref":
+ "person_19388"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Macbeth",
+ "ref":
+ "pmb33366"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

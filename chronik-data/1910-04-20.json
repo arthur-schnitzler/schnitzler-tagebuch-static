@@ -1,0 +1,290 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-04-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-04-20.html",
+ "head":
+ "Tagebuch, 20. April 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert von Balajthy",
+ "ref":
+ "person_13383"},
+ {
+ "persName":
+ "Rudolf Hans Bartsch",
+ "ref":
+ "person_13447"},
+ {
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "person_13624"},
+ {
+ "persName":
+ "Leo Birinski",
+ "ref":
+ "person_13739"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "person_14065"},
+ {
+ "persName":
+ "Benjamin Gomperz",
+ "ref":
+ "person_15562"},
+ {
+ "persName":
+ "Robert Gund",
+ "ref":
+ "person_15750"},
+ {
+ "persName":
+ "Else Speidel-Haeberle",
+ "ref":
+ "person_15833"},
+ {
+ "persName":
+ "Heinrich Mann",
+ "ref":
+ "person_17834"},
+ {
+ "persName":
+ "Felix Mendelssohn-Bartholdy",
+ "ref":
+ "person_18066"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"},
+ {
+ "persName":
+ "Hugo Wolf",
+ "ref":
+ "person_21432"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Henri de Régnier",
+ "ref":
+ "person_19106"},
+ {
+ "persName":
+ "Franz Peter Schubert",
+ "ref":
+ "person_19902"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Der Moloch",
+ "ref":
+ "pmb30309"}
+ ,  {
+ "title":
+ "Armida",
+ "ref":
+ "pmb30311"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gorizia",
+ "ref":
+ "pmb64480"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041056",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041056.html",
+ "head":
+ "Tagebuch von Schnitzler, 20. 4. 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Benjamin Gomperz",
+ "ref":
+ "pmb2612"},
+ {
+ "persName":
+ "Otto Loeb",
+ "ref":
+ "pmb20552"},
+ {
+ "persName":
+ "Heinrich Mann",
+ "ref":
+ "pmb12170"},
+ {
+ "persName":
+ "Henri de Régnier",
+ "ref":
+ "pmb12591"},
+ {
+ "persName":
+ "Rudolf Hans Bartsch",
+ "ref":
+ "pmb10836"},
+ {
+ "persName":
+ "Leo Birinski",
+ "ref":
+ "pmb2638"},
+ {
+ "persName":
+ "Alfred von Berger",
+ "ref":
+ "pmb10883"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Else Speidel-Haeberle",
+ "ref":
+ "pmb2642"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "pmb2646"},
+ {
+ "persName":
+ "Robert von Balajthy",
+ "ref":
+ "pmb2246"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "pmb12701"},
+ {
+ "persName":
+ "Felix Mendelssohn-Bartholdy",
+ "ref":
+ "pmb12228"},
+ {
+ "persName":
+ "Robert Gund",
+ "ref":
+ "pmb17540"},
+ {
+ "persName":
+ "Hugo Wolf",
+ "ref":
+ "pmb13152"},
+ {
+ "persName":
+ "Franz Peter Schubert",
+ "ref":
+ "pmb12729"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Moloch",
+ "ref":
+ "pmb30309"}
+ ,  {
+ "title":
+ "Armida",
+ "ref":
+ "pmb30311"}
+ ,  {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Provinz Gorizia",
+ "ref":
+ "pmb49125"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ]
+}
+}] 

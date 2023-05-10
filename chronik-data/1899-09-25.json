@@ -1,0 +1,176 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-09-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-09-25.html",
+ "head":
+ "Tagebuch, 25. September 1899",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Wiesbaden",
+ "ref":
+ "pmb883"}
+ ,  {
+ "placeName":
+ "Neroberg",
+ "ref":
+ "pmb92418"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02887",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02887.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 25. 9. [1899]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Friedrich von Müller",
+ "ref":
+ "pmb135158"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "pmb11461"},
+ {
+ "persName":
+ "Johann Peter Eckermann",
+ "ref":
+ "pmb11220"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tagebuch",
+ "ref":
+ "pmb33243"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "Goethes Unterhaltungen mit dem Kanzler Friedrich von Müller",
+ "ref":
+ "pmb135163"}
+ ,  {
+ "title":
+ "Gespräche mit Goethe in den letzten Jahren seines Lebens. 3 Bde.",
+ "ref":
+ "pmb31567"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "J.G. Cotta’sche Buchhandlung Nachfolger",
+ "ref":
+ "pmb29215"}
+ ,  {
+ "orgName":
+ "F. A. Brockhaus (Leipzig)",
+ "ref":
+ "pmb135169"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Mailand",
+ "ref":
+ "pmb886"}
+ ,  {
+ "placeName":
+ "Wiesbaden",
+ "ref":
+ "pmb883"}
+ ,  {
+ "placeName":
+ "Hôtel National",
+ "ref":
+ "pmb134993"}
+ ,  {
+ "placeName":
+ "Piazza della Scala",
+ "ref":
+ "pmb134991"}
+ ,  {
+ "placeName":
+ "Italien",
+ "ref":
+ "pmb40306"}
+ ,  {
+ "placeName":
+ "Stuttgart",
+ "ref":
+ "pmb872"}
+ ,  {
+ "placeName":
+ "Leipzig",
+ "ref":
+ "pmb864"}
+ ,  {
+ "placeName":
+ "Florenz",
+ "ref":
+ "pmb263"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/883/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/883/",
+ "head":
+ "Wiesbaden"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/43055/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43055/",
+ "head":
+ "Hôtel du Parc &amp; Bristol"
+}] 

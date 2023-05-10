@@ -1,0 +1,117 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1906-03-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-03-15.html",
+ "head":
+ "Tagebuch, 15. März 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Henri-Frédéric Amiel",
+ "ref":
+ "person_13184"},
+ {
+ "persName":
+ "Anton Bruckner",
+ "ref":
+ "person_14008"},
+ {
+ "persName":
+ "Erich Korn",
+ "ref":
+ "person_17051"},
+ {
+ "persName":
+ "Lukian von Samosata",
+ "ref":
+ "person_17716"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Siegfried Loewy",
+ "ref":
+ "person_17666"},
+ {
+ "persName":
+ "August von Platen",
+ "ref":
+ "person_18827"},
+ {
+ "persName":
+ "Berthold Litzmann",
+ "ref":
+ "person_17599"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zum großen Wurstel",
+ "ref":
+ "pmb29951"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Symphonie Nr. 8 c-Moll WAB 108",
+ "ref":
+ "pmb30701"}
+ ,  {
+ "title":
+ "Mamzell Courasche",
+ "ref":
+ "pmb77135"}
+ ,  {
+ "title":
+ "Clara Schumann",
+ "ref":
+ "pmb80901"}
+ ,  {
+ "title":
+ "Tagebücher",
+ "ref":
+ "pmb30713"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00033903",
+ "head":
+ "Fernau, Albert an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

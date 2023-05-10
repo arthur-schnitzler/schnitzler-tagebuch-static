@@ -1,0 +1,113 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1906-08-19",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-08-19.html",
+ "head":
+ "Tagebuch, 19. August 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Dreyer",
+ "ref":
+ "person_14513"},
+ {
+ "persName":
+ "Émile Augier",
+ "ref":
+ "person_13310"},
+ {
+ "persName":
+ "Adolf von Wilbrandt",
+ "ref":
+ "person_21319"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Haus Fourchambault",
+ "ref":
+ "pmb77577"}
+ ,  {
+ "title":
+ "Arme Löwinnen",
+ "ref":
+ "pmb77575"}
+ ,  {
+ "title":
+ "Das Eulenschloß",
+ "ref":
+ "pmb81124"}
+ ,  {
+ "title":
+ "Der Lotsenkommandeur",
+ "ref":
+ "pmb77528"}
+ ,  {
+ "title":
+ "Vater und Sohn",
+ "ref":
+ "pmb77535"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Eisenach",
+ "ref":
+ "pmb44240"}
+ ,  {
+ "placeName":
+ "Nürnberg",
+ "ref":
+ "pmb44172"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44240/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44240/",
+ "head":
+ "Eisenach"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44172/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44172/",
+ "head":
+ "Nürnberg"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Otto Brahm an Arthur Schnitzler, 19.8.1906",
+ "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}] 

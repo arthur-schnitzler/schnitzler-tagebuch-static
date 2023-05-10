@@ -1,0 +1,69 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-12-23",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-12-23.html",
+ "head":
+ "Tagebuch, 23. Dezember 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stendhal",
+ "ref":
+ "person_20397"},
+ {
+ "persName":
+ "Honoré de Balzac",
+ "ref":
+ "person_13396"},
+ {
+ "persName":
+ "Otto von Bismarck",
+ "ref":
+ "person_13749"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Lettres à l’étrangère (1833–1842), (1842–1844)",
+ "ref":
+ "pmb33344"}
+ ,  {
+ "title":
+ "Gedanken und Erinnerungen",
+ "ref":
+ "pmb77033"}
+ ,  {
+ "title":
+ "Souvenirs d’égotisme",
+ "ref":
+ "pmb77824"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

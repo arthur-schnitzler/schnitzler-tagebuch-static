@@ -1,0 +1,231 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-02-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-02-20.html",
+ "head":
+ "Tagebuch, 20. Februar 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julius Bauer",
+ "ref":
+ "person_13471"},
+ {
+ "persName":
+ "Carl Kraus",
+ "ref":
+ "person_17105"},
+ {
+ "persName":
+ "Franz Josef Lichtenstern",
+ "ref":
+ "person_17507"},
+ {
+ "persName":
+ "Vilma Lichtenstern",
+ "ref":
+ "person_17510"},
+ {
+ "persName":
+ "Hans Müller",
+ "ref":
+ "person_18297"},
+ {
+ "persName":
+ "Karl Rosen",
+ "ref":
+ "person_19358"},
+ {
+ "persName":
+ "Schütz",
+ "ref":
+ "person_19920"},
+ {
+ "persName":
+ "Adolf? Vogel",
+ "ref":
+ "person_20980"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Vampyr oder Die Gejagten",
+ "ref":
+ "pmb77586"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Payerbach",
+ "ref":
+ "pmb948"}
+ ,  {
+ "placeName":
+ "Edlach",
+ "ref":
+ "pmb470"}
+ ,  {
+ "placeName":
+ "Orthofstraße",
+ "ref":
+ "pmb92432"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02397",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02397.html",
+ "head":
+ "Thomas Mann an Arthur Schnitzler, 20. 2. 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "pmb12176"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "pmb22728"},
+ {
+ "persName":
+ "Giacomo Girolamo Casanova",
+ "ref":
+ "pmb3145"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Katia Mann",
+ "ref":
+ "pmb12173"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Casanovas Heimfahrt",
+ "ref":
+ "pmb30971"}
+ ,  {
+ "title":
+ "Buddenbrooks",
+ "ref":
+ "pmb33187"}
+ ,  {
+ "title":
+ "Die Buddenbrooks",
+ "ref":
+ "pmb33602"}
+ ,  {
+ "title":
+ "Von deutscher Republik. Gerhart Hauptmann zum sechzigsten Geburtstag",
+ "ref":
+ "pmb33600"}
+ ,  {
+ "title":
+ "Bambi",
+ "ref":
+ "pmb31519"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Brandt &amp; Kirkpatrick",
+ "ref":
+ "pmb29586"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Poschingerstraße",
+ "ref":
+ "pmb1213"}
+ ,  {
+ "placeName":
+ "Amerika",
+ "ref":
+ "pmb175"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Frankreich",
+ "ref":
+ "pmb166"}
+ ,  {
+ "placeName":
+ "Deutschland",
+ "ref":
+ "pmb151"}
+ ,  {
+ "placeName":
+ "Ruhrgebiet",
+ "ref":
+ "pmb1244"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/470/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/470/",
+ "head":
+ "Edlach"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/714/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/714/",
+ "head":
+ "Hotel Edlacherhof"
+}] 

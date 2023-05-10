@@ -1,0 +1,130 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1906-08-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-08-05.html",
+ "head":
+ "Tagebuch, 5. August 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der tote Gabriel",
+ "ref":
+ "pmb33760"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hornbæk",
+ "ref":
+ "pmb44089"}
+ ,  {
+ "placeName":
+ "Ålsgårde",
+ "ref":
+ "pmb90178"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01622",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01622.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 5. 8. 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Richard Wagner",
+ "ref":
+ "pmb13024"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Parsifal",
+ "ref":
+ "pmb33031"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bayreuth",
+ "ref":
+ "pmb734"}
+ ,  {
+ "placeName":
+ "Helsingør",
+ "ref":
+ "pmb726"}
+ ,  {
+ "placeName":
+ "Marienlyst",
+ "ref":
+ "pmb959"}
+ ,  {
+ "placeName":
+ "Kurhotellet",
+ "ref":
+ "pmb41010"}
+ ,  {
+ "placeName":
+ "Dänemark",
+ "ref":
+ "pmb43570"}
+ ,  {
+ "placeName":
+ "Markgräfliches Opernhaus",
+ "ref":
+ "pmb51375"}
+ ,  {
+ "placeName":
+ "Richard-Wagner-Festspielhaus",
+ "ref":
+ "pmb51377"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/959/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/959/",
+ "head":
+ "Marienlyst"
+}] 

@@ -1,0 +1,300 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1896-11-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1896-11-07.html",
+ "head":
+ "Tagebuch, 7. November 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Oskar Bie",
+ "ref":
+ "person_13715"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Theodor Entsch",
+ "ref":
+ "person_14766"},
+ {
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "person_15306"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "person_16222"},
+ {
+ "persName":
+ "Robert August Kahn",
+ "ref":
+ "person_16642"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "person_16819"},
+ {
+ "persName":
+ "Alexander Meyer-Cohn",
+ "ref":
+ "person_18124"},
+ {
+ "persName":
+ "Robert Misch",
+ "ref":
+ "person_18186"},
+ {
+ "persName":
+ "Felix Deutsch",
+ "ref":
+ "person_14426"},
+ {
+ "persName":
+ "Paul Jonas",
+ "ref":
+ "person_16574"},
+ {
+ "persName":
+ "Hermann Sudermann",
+ "ref":
+ "person_20563"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der dritte Mann",
+ "ref":
+ "pmb78013"}
+ ,  {
+ "title":
+ "Morituri",
+ "ref":
+ "pmb32312"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "L041586",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/L041586.html",
+ "head":
+ "Schnitzler an Marie Reinhard, 7. 11. 1896",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "pmb2378"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "pmb11324"},
+ {
+ "persName":
+ "Erich Schmidt",
+ "ref":
+ "pmb12678"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "pmb11910"},
+ {
+ "persName":
+ "Georg Hirschfeld",
+ "ref":
+ "pmb11701"},
+ {
+ "persName":
+ "Josef Jarno",
+ "ref":
+ "pmb2601"},
+ {
+ "persName":
+ "Theodor Entsch",
+ "ref":
+ "pmb2871"},
+ {
+ "persName":
+ "Gertrud Entsch",
+ "ref":
+ "pmb28687"},
+ {
+ "persName":
+ "Richard Nathanson",
+ "ref":
+ "pmb4603"},
+ {
+ "persName":
+ "Leo Ebermann",
+ "ref":
+ "pmb2157"},
+ {
+ "persName":
+ "Hermann Sudermann",
+ "ref":
+ "pmb12899"},
+ {
+ "persName":
+ "Clara Sudermann",
+ "ref":
+ "pmb4606"},
+ {
+ "persName":
+ "Ludwig Fulda",
+ "ref":
+ "pmb11391"},
+ {
+ "persName":
+ "Louise Henriette Chaminade",
+ "ref":
+ "pmb28688"},
+ {
+ "persName":
+ "Oskar Bie",
+ "ref":
+ "pmb2914"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Paul Jonas",
+ "ref":
+ "pmb4532"},
+ {
+ "persName":
+ "Paul Schlenther",
+ "ref":
+ "pmb12671"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Freiwild. Schauspiel in 3 Akten",
+ "ref":
+ "pmb29899"}
+ ,  {
+ "title":
+ "Gebildete Menschen. Zeitbild in drei Acten",
+ "ref":
+ "pmb32356"}
+ ,  {
+ "title":
+ "Morituri",
+ "ref":
+ "pmb32312"}
+ ,  {
+ "title":
+ "Teja",
+ "ref":
+ "pmb32372"}
+ ,  {
+ "title":
+ "Der Sohn des Khalifen. Dramatisches Märchen in vier Aufzügen",
+ "ref":
+ "pmb32314"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Franzensbad",
+ "ref":
+ "pmb390"}
+ ,  {
+ "placeName":
+ "Thalia-Theater Berlin",
+ "ref":
+ "pmb686"}
+ ,  {
+ "placeName":
+ "Zur Stadt Pilsen (Inh. Johann Wedel)",
+ "ref":
+ "pmb688"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Linden-Café",
+ "ref":
+ "pmb699"}
+ ,  {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ,  {
+ "placeName":
+ "Theater des Westens",
+ "ref":
+ "pmb692"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#hbas_0a380dfe-61d4-4b9e-8641-01eba8e50777",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Marie Reinhard, 7.11.1896",
+ "source":
+ "Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits, Martin Anton Müller. Göttingen: Wallstein Verlag 2018"
+}] 

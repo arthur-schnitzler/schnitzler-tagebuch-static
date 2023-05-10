@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1902-01-03">Freitag, 3. Januar 1902</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1902-01-03">
+               <head>Tagebuch, 3. Januar 1902</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14199">Auguste Chlum</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14283">Moritz Coschell</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14730">Arthur Eloesser</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15253">Efraim Frisch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16041">Moritz Heimann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16819">Alfred Kerr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17946">Paul Martin Marton</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15009">Samuel Fischer</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29857">Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29863">Lebendige Stunden. Vier Einakter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb43467">Das Verlöbnis. Geschichte eines Knaben</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb484">Zürich</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1902-01-03.html</idno>
+            </event>
+            <event when-iso="1902-01-03">
+               <head>Arthur Schnitzler an Hermann Bahr, 3. 1. 1902</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11581">Maximilian Harden</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11988">Karl Kraus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2408">Alfred Capus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13163">Theodor Wolff</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10844">Albert Bassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2193">Oskar Sauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11798">Henrik Ibsen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12977">Irene Triesch</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29881">Der Krampus</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41244">Die Fackel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29969">[Wie mich Herr Bahr beneidet]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29967">Das Glück</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32468">Das Glück. (La veine. Komödie in vier Aufzügen von Alfred Capus. Deutsch von Theodor Wolff. Zum ersten Mal aufgeführt im Deutschen Volkstheater am 28. September 1901)</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41321">Neues Wiener Tagblatt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29863">Lebendige Stunden. Vier Einakter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29971">Die Wildente</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb506">Hamburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb20">Volkstheater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb166">Frankreich</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01195.html</idno>
+            </event>
+            <event when-iso="1902-01-03">
+               <head>Berlin</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+            </event>
+            <event when-iso="1902-01-03">
+               <head>Schnitzler an Bahr, 3. 1. 1902</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10986">Otto Brahm</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11581">Maximilian Harden</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11988">Karl Kraus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10844">Albert Bassermann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2193">Oskar Sauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12977">Irene Triesch</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29881">Der Krampus</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29969">[Wie mich Herr Bahr beneidet]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29967">Das Glück</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29863">Lebendige Stunden. Vier Einakter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29971">Die Wildente</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb506">Hamburg</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29308">Die Fackel</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041047.html</idno>
+            </event>
+            <event when-iso="1902-01-03">
+               <head>Louise Dumont an Arthur Schnitzler, 3.1.1902</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118681192">Dumont, Louise</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Gertrude
+                    Cepl-Kaufmann et al. (Hgg.): Louise Dumont. Eine Kulturgeschichte in Briefen und
+                    Dokumenten. Bd. 1: 1879-1904. Klartext Verlag, Essen 2013.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#w300e3d7-7902-4a11-b0c7-2b0b441db98d"/>
+            </event>
+            <event when-iso="1902-01-03">
+               <head>Schnitzler, Arthur an Gussmann, Elisabeth [Briefe]</head>
+               <desc>Erstes Objekt aus der Mappe. 40 Br., 14 Ktn 98 Bl., davon 2 Bl.Durchschl. Mit 7 Umschl.<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/117263958">Gussmann, Elisabeth (1885-1920)</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00051194</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

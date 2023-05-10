@@ -1,0 +1,271 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-07-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-07-10.html",
+ "head":
+ "Tagebuch, 10. Juli 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Edmund von Gutmann-Gelse",
+ "ref":
+ "person_15776"},
+ {
+ "persName":
+ "Emilie Fellner",
+ "ref":
+ "person_14935"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Franzensbad",
+ "ref":
+ "pmb390"}
+ ,  {
+ "placeName":
+ "Marienbad",
+ "ref":
+ "pmb772"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00461",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00461.html",
+ "head":
+ "Arthur Schnitzler an Richard Beer-Hofmann, [10. 7. 1895?]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Tod Georgs",
+ "ref":
+ "pmb31535"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Marienbad",
+ "ref":
+ "pmb772"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ,  {
+ "placeName":
+ "Karlsbad",
+ "ref":
+ "pmb842"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00462",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00462.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, 10. 7. 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Rudolf von Österreich-Ungarn",
+ "ref":
+ "pmb2519"},
+ {
+ "persName":
+ "Josef von Bezecný",
+ "ref":
+ "pmb14179"},
+ {
+ "persName":
+ "Moritz Broda",
+ "ref":
+ "pmb14581"},
+ {
+ "persName":
+ "Wilhelmine Sandrock",
+ "ref":
+ "pmb12621"},
+ {
+ "persName":
+ "Adolf von Sonnenthal",
+ "ref":
+ "pmb12809"},
+ {
+ "persName":
+ "Antonín Dvořák",
+ "ref":
+ "pmb4816"},
+ {
+ "persName":
+ "Ernst Hartmann",
+ "ref":
+ "pmb11610"},
+ {
+ "persName":
+ "Anna Kallina",
+ "ref":
+ "pmb11860"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Hänsel und Grethel",
+ "ref":
+ "pmb30447"}
+ ,  {
+ "title":
+ "Der arme Jonathan",
+ "ref":
+ "pmb33914"}
+ ,  {
+ "title":
+ "Dimitrij",
+ "ref":
+ "pmb33918"}
+ ,  {
+ "title":
+ "Ein Attaché",
+ "ref":
+ "pmb33925"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Čecho-slavische ethnographische Ausstellung",
+ "ref":
+ "pmb33911"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Marienbad",
+ "ref":
+ "pmb772"}
+ ,  {
+ "placeName":
+ "Hodonín",
+ "ref":
+ "pmb49823"}
+ ,  {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ,  {
+ "placeName":
+ "Karlsbad",
+ "ref":
+ "pmb842"}
+ ,  {
+ "placeName":
+ "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+ "ref":
+ "pmb414"}
+ ,  {
+ "placeName":
+ "Alter Jüdischer Friedhof",
+ "ref":
+ "pmb33913"}
+ ,  {
+ "placeName":
+ "Hradčany",
+ "ref":
+ "pmb33910"}
+ ,  {
+ "placeName":
+ "Polen",
+ "ref":
+ "pmb313"}
+ ,  {
+ "placeName":
+ "Böhmen",
+ "ref":
+ "pmb628"}
+ ,  {
+ "placeName":
+ "Franzensbad",
+ "ref":
+ "pmb390"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/772/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/772/",
+ "head":
+ "Marienbad"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/390/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/390/",
+ "head":
+ "Franzensbad"
+}] 

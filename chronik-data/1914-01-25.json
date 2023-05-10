@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-01-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-01-25.html",
+ "head":
+ "Tagebuch, 25. Januar 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Buchmann",
+ "ref":
+ "person_14040"},
+ {
+ "persName":
+ "Ida Sachs",
+ "ref":
+ "person_19504"},
+ {
+ "persName":
+ "Ludwig Thoma",
+ "ref":
+ "person_20716"},
+ {
+ "persName":
+ "Agnes Ulmann",
+ "ref":
+ "person_20872"},
+ {
+ "persName":
+ "Emil Ulmann",
+ "ref":
+ "person_20874"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"},
+ {
+ "persName":
+ "Clemens von Franckenstein",
+ "ref":
+ "person_15115"},
+ {
+ "persName":
+ "Alfred Karl Mayer",
+ "ref":
+ "person_18011"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Doktor Gräsler, Badearzt",
+ "ref":
+ "pmb30201"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München"
+}] 

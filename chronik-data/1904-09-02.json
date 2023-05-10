@@ -1,0 +1,335 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net/Dokumentarisch/Dokumentklasse/WUR_K4_*T2",
+ "head":
+ "Zum großen Wurstel, K4 erschl. msl. Werkniederschrift 2, Vom 2. September 1904 bis
+            9. Oktober 1904"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1904-09-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-09-02.html",
+ "head":
+ "Tagebuch, 2. September 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ida Grünwald",
+ "ref":
+ "person_15715"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "person_20796"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zum großen Wurstel",
+ "ref":
+ "pmb29951"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041467",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041467.html",
+ "head":
+ "Aufzeichnung von Bahr, 2. 9. 1904",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Stefan Großmann",
+ "ref":
+ "pmb11527"},
+ {
+ "persName":
+ "Anton Pavlovič Čechov",
+ "ref":
+ "pmb3603"},
+ {
+ "persName":
+ "Theodor Beer",
+ "ref":
+ "pmb3050"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Adolf Loos",
+ "ref":
+ "pmb3612"},
+ {
+ "persName":
+ "Adolf Bachrach",
+ "ref":
+ "pmb3618"},
+ {
+ "persName":
+ "Laura Beer",
+ "ref":
+ "pmb13915"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"},
+ {
+ "persName":
+ "Gustav Klimt",
+ "ref":
+ "pmb11941"},
+ {
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"},
+ {
+ "persName":
+ "Franz Stelzhamer",
+ "ref":
+ "pmb3622"},
+ {
+ "persName":
+ "Margarete Hauptmann",
+ "ref":
+ "pmb11621"},
+ {
+ "persName":
+ "Benvenuto Hauptmann",
+ "ref":
+ "pmb11613"},
+ {
+ "persName":
+ "Géza von Mattachich",
+ "ref":
+ "pmb21176"},
+ {
+ "persName":
+ "Luise von Sachsen-Coburg und Gotha",
+ "ref":
+ "pmb27933"},
+ {
+ "persName":
+ "Ignaz Karl von Korwin-Milewski",
+ "ref":
+ "pmb28241"},
+ {
+ "persName":
+ "Emanuel Bruno Barber",
+ "ref":
+ "pmb28242"},
+ {
+ "persName":
+ "Maximilian Harden",
+ "ref":
+ "pmb11581"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Gertrud Eysoldt",
+ "ref":
+ "pmb11284"},
+ {
+ "persName":
+ "Lisa Clarus",
+ "ref":
+ "pmb27910"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Gasse",
+ "ref":
+ "pmb31149"}
+ ,  {
+ "title":
+ "Dialog vom Marsyas",
+ "ref":
+ "pmb30065"}
+ ,  {
+ "title":
+ "Dialog vom Tragischen",
+ "ref":
+ "pmb32814"}
+ ,  {
+ "title":
+ "Der Franzl. Fünf Bilder aus dem Leben eines guten Mannes",
+ "ref":
+ "pmb29851"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Holzplatz der Firma Peter Geiger",
+ "ref":
+ "pmb372"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Raimund-Theater",
+ "ref":
+ "pmb77"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ,  {
+ "placeName":
+ "XIII., Hietzing",
+ "ref":
+ "pmb63"}
+ ,  {
+ "placeName":
+ "Akropolis",
+ "ref":
+ "pmb369"}
+ ,  {
+ "placeName":
+ "Attika",
+ "ref":
+ "pmb370"}
+ ,  {
+ "placeName":
+ "Athen",
+ "ref":
+ "pmb505"}
+ ,  {
+ "placeName":
+ "Rodaun",
+ "ref":
+ "pmb173"}
+ ,  {
+ "placeName":
+ "Lueg am Wolfgangsee",
+ "ref":
+ "pmb186"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neues Wiener Tagblatt",
+ "ref":
+ "pmb29414"}
+ ,  {
+ "orgName":
+ "Neue Rundschau, Neue Deutsche Rundschau, Freie Bühne",
+ "ref":
+ "pmb29212"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041569",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041569.html",
+ "head":
+ "Bahr: [Notizen zur Lektüre von Hofmannsthals Das gerettete Venedig?], [2.–3.
+                     9. 1904?]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Eleonora Duse",
+ "ref":
+ "pmb11201"}]
+}
+}] 

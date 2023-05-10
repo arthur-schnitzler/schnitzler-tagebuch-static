@@ -1,0 +1,212 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1888-09-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1888-09-20.html",
+ "head":
+ "Tagebuch, 20. September 1888",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Claire",
+ "ref":
+ "person_14222"},
+ {
+ "persName":
+ "Felix Cronbach",
+ "ref":
+ "person_14306"},
+ {
+ "persName":
+ "Goldbach",
+ "ref":
+ "person_15512"},
+ {
+ "persName":
+ "Markus Hajek",
+ "ref":
+ "person_15855"},
+ {
+ "persName":
+ "Hardy",
+ "ref":
+ "person_15925"},
+ {
+ "persName":
+ "Jeanette Heeger",
+ "ref":
+ "person_16022"},
+ {
+ "persName":
+ "Amelia Margaret Markbreiter",
+ "ref":
+ "person_17895"},
+ {
+ "persName":
+ "Charles Gustavus Markbreiter",
+ "ref":
+ "person_17898"},
+ {
+ "persName":
+ "Felix Markbreiter",
+ "ref":
+ "person_17901"},
+ {
+ "persName":
+ "Julie Markbreiter",
+ "ref":
+ "person_17904"},
+ {
+ "persName":
+ "Otto Markbreiter",
+ "ref":
+ "person_17906"},
+ {
+ "persName":
+ "Theodor Röder",
+ "ref":
+ "person_19318"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Felix Semon",
+ "ref":
+ "person_20056"},
+ {
+ "persName":
+ "Olga Waissnix",
+ "ref":
+ "person_21047"},
+ {
+ "persName":
+ "Johann Schnitzler",
+ "ref":
+ "person_19824"},
+ {
+ "persName":
+ "Adele Spitzer",
+ "ref":
+ "person_20274"},
+ {
+ "persName":
+ "Ferdinand Hartung",
+ "ref":
+ "person_15953"},
+ {
+ "persName":
+ "Fritz Wien",
+ "ref":
+ "person_21301"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatols Hochzeitsmorgen",
+ "ref":
+ "pmb30033"}
+ ,  {
+ "title":
+ "Erinnerungen",
+ "ref":
+ "pmb33816"}
+ ,  {
+ "title":
+ "Der Fürst ist im Hause",
+ "ref":
+ "pmb33750"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Paris",
+ "ref":
+ "pmb182"}
+ ,  {
+ "placeName":
+ "London",
+ "ref":
+ "pmb224"}
+ ,  {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ,  {
+ "placeName":
+ "Isle of Wight",
+ "ref":
+ "pmb90938"}
+ ,  {
+ "placeName":
+ "Ostend",
+ "ref":
+ "pmb91417"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d2b0f559-bde7-4114-82b9-741a8810c463",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Olga Waissnix, Ende Sept. [1888]",
+ "source":
+ "Arthur Schnitzler und Waissnix, Olga: Liebe, die starb vor der Zeit. Ein Briefwechsel. Mit einem Vorwort von Hans Weigel. Mit 16 Seiten Kunstdruckbildern. Hg. v. Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00036249",
+ "head":
+ "Heeger, Jeanette an Schnitzler, Arthur [Briefe]",
+ "text":
+ "Letztes Objekt aus der Mappe. 42 Br. 96 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jeanette (1865-1903) Heeger",
+ "ref":
+ "http://d-nb.info/gnd/105081309X"}]
+}
+}] 

@@ -1,0 +1,75 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1890-10-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1890-10-25.html",
+ "head":
+ "Tagebuch, 25. Oktober 1890"
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00007",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00007.html",
+ "head":
+ "Wilhelm Bölsche an Arthur Schnitzler, 25. 10. 1890",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Wilhelm Bölsche",
+ "ref":
+ "pmb11061"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Freie Bühne für modernes Leben",
+ "ref":
+ "pmb36149"}
+ ,  {
+ "title":
+ "Morgenandacht",
+ "ref":
+ "pmb30151"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

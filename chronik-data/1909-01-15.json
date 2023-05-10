@@ -1,0 +1,453 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-01-15",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-01-15.html",
+ "head":
+ "Tagebuch, 15. Januar 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Franz Joseph I. von Österreich-Ungarn",
+ "ref":
+ "person_15150"},
+ {
+ "persName":
+ "Josef Gaschler",
+ "ref":
+ "person_15352"},
+ {
+ "persName":
+ "Auguste Hauschner",
+ "ref":
+ "person_15984"},
+ {
+ "persName":
+ "Felix von Oppenheimer",
+ "ref":
+ "person_18568"},
+ {
+ "persName":
+ "Rainer",
+ "ref":
+ "person_19036"},
+ {
+ "persName":
+ "Rudolf von Österreich-Ungarn",
+ "ref":
+ "person_19455"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Arnold Schönberg",
+ "ref":
+ "person_19840"},
+ {
+ "persName":
+ "Otto Stoessl",
+ "ref":
+ "person_20453"},
+ {
+ "persName":
+ "Karl Glossy",
+ "ref":
+ "person_15475"},
+ {
+ "persName":
+ "Christian Dietrich Grabbe",
+ "ref":
+ "person_15605"},
+ {
+ "persName":
+ "Richard Specht",
+ "ref":
+ "person_20238"},
+ {
+ "persName":
+ "Felix von Weingartner",
+ "ref":
+ "person_21172"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"},
+ {
+ "persName":
+ "Richard Baum",
+ "ref":
+ "person_13484"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Dämmerseelen. Novellen",
+ "ref":
+ "pmb29921"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ,  {
+ "title":
+ "Napoleon oder die hundert Tage",
+ "ref":
+ "pmb30231"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gödöllő",
+ "ref":
+ "pmb49101"}
+ ,  {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01821",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01821.html",
+ "head":
+ "Arthur Schnitzler an Hugo von Hofmannsthal, [15. 1. 1909?]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Karl Glossy",
+ "ref":
+ "pmb11447"},
+ {
+ "persName":
+ "Felix von Oppenheimer",
+ "ref":
+ "pmb2527"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Cristinas Heimreise. Komödie",
+ "ref":
+ "pmb41611"}
+ ,  {
+ "title":
+ "Komödie in Prosa",
+ "ref":
+ "pmb41613"}
+ ,  {
+ "title":
+ "Österreichische Rundschau",
+ "ref":
+ "pmb41555"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Österreichische Rundschau",
+ "ref":
+ "pmb29496"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01822",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01822.html",
+ "head":
+ "Albert Ehrenstein an Arthur Schnitzler, 15. 1. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "pmb11230"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Tod des Zehir eddin Muhammed Baber",
+ "ref":
+ "pmb33454"}
+ ,  {
+ "title":
+ "Tai-Gin",
+ "ref":
+ "pmb33456"}
+ ,  {
+ "title":
+ "Die Lage in Ungarn (Siebenbürgen und Serbien ausgenommen) im Jahre 1790",
+ "ref":
+ "pmb33458"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Österreichische Rundschau",
+ "ref":
+ "pmb29496"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041041",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041041.html",
+ "head":
+ "Tagebuch von Schnitzler, 15. 1. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Franz Joseph I. von Österreich-Ungarn",
+ "ref":
+ "pmb2513"},
+ {
+ "persName":
+ "Rainer von Österreich",
+ "ref":
+ "pmb2516"},
+ {
+ "persName":
+ "Rudolf von Österreich-Ungarn",
+ "ref":
+ "pmb2519"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Josef Gaschler",
+ "ref":
+ "pmb16921"},
+ {
+ "persName":
+ "Richard Baum",
+ "ref":
+ "pmb13846"},
+ {
+ "persName":
+ "Richard Specht",
+ "ref":
+ "pmb2456"},
+ {
+ "persName":
+ "Felix von Weingartner",
+ "ref":
+ "pmb13075"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "pmb12163"},
+ {
+ "persName":
+ "Arnold Schönberg",
+ "ref":
+ "pmb12743"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "pmb11324"},
+ {
+ "persName":
+ "Auguste Hauschner",
+ "ref":
+ "pmb2524"},
+ {
+ "persName":
+ "Otto Stoessl",
+ "ref":
+ "pmb12858"},
+ {
+ "persName":
+ "Karl Glossy",
+ "ref":
+ "pmb11447"},
+ {
+ "persName":
+ "Felix von Oppenheimer",
+ "ref":
+ "pmb2527"},
+ {
+ "persName":
+ "Christian Dietrich Grabbe",
+ "ref":
+ "pmb11508"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der einsame Weg. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29985"}
+ ,  {
+ "title":
+ "Der Weg ins Freie",
+ "ref":
+ "pmb30225"}
+ ,  {
+ "title":
+ "Erzählende Literatur",
+ "ref":
+ "pmb30229"}
+ ,  {
+ "title":
+ "Der Tod des Junggesellen",
+ "ref":
+ "pmb33758"}
+ ,  {
+ "title":
+ "Dämmerseelen. Novellen",
+ "ref":
+ "pmb29921"}
+ ,  {
+ "title":
+ "Napoleon oder die hundert Tage",
+ "ref":
+ "pmb30231"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gödöllő",
+ "ref":
+ "pmb49101"}
+ ,  {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Literarische Gesellschaft",
+ "ref":
+ "pmb29772"}
+ ,  {
+ "orgName":
+ "Die Hilfe. Zeitschrift für Politik, Wirtschaft und geistige Bewegung",
+ "ref":
+ "pmb29493"}
+ ,  {
+ "orgName":
+ "Österreichische Rundschau",
+ "ref":
+ "pmb29496"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 15. Januar 1909",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00085719",
+ "head":
+ "Schnitzler, Arthur an Unbekannt [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}] 

@@ -1,0 +1,140 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-10-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-10-24.html",
+ "head":
+ "Tagebuch, 24. Oktober 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Arnold Bermann",
+ "ref":
+ "person_13657"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Ruth Lindberg",
+ "ref":
+ "person_17562"},
+ {
+ "persName":
+ "Napoleon Bonaparte",
+ "ref":
+ "person_18356"},
+ {
+ "persName":
+ "Josef II.",
+ "ref":
+ "person_16586"},
+ {
+ "persName":
+ "Marie Antoinette",
+ "ref":
+ "person_17884"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Mädchen von St. Helena",
+ "ref":
+ "pmb78525"}
+ ,  {
+ "title":
+ "Zwillingsbrüder",
+ "ref":
+ "pmb80875"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Neuseeland",
+ "ref":
+ "pmb47768"}
+ ,  {
+ "placeName":
+ "Saint Helena",
+ "ref":
+ "pmb49155"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp619",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp619.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 21. Oktober – 15. Dezember 1928"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00079385",
+ "head":
+ "Schnitzler, Arthur an Prohaska-Franco, Margherita [Briefe]",
+ "text":
+ "1 Bl.Durchschl."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00045472",
+ "head":
+ "Schnitzler, Arthur an Geiringer, Anton [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Deutsches Volkstheater &lt;Wien&gt;",
+ "ref":
+ "http://d-nb.info/gnd/146313-5"}]
+}
+}] 

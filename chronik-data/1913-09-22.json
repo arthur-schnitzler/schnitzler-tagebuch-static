@@ -1,0 +1,105 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net",
+ "head":
+ "Fink und Fliederbusch, Typoskript",
+ "text":
+ "Publikation in Vorbereitung"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1913-09-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1913-09-22.html",
+ "head":
+ "Tagebuch, 22. September 1913",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karl Kunst",
+ "ref":
+ "person_17195"},
+ {
+ "persName":
+ "Josef Lesowsky",
+ "ref":
+ "person_17470"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Anna Sikora",
+ "ref":
+ "person_20523"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Geschwister",
+ "ref":
+ "pmb30211"}
+ ,  {
+ "title":
+ "Heimkehr",
+ "ref":
+ "pmb36091"}
+ ,  {
+ "title":
+ "Prinzessin Sibylle",
+ "ref":
+ "pmb30209"}
+ ,  {
+ "title":
+ "Die Sängerin",
+ "ref":
+ "pmb32051"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00080486",
+ "head":
+ "Schnitzler, Arthur: Die Sängerin [Dramatisches] (Manuskripttitel)",
+ "text":
+ "1 Bl."
+}] 

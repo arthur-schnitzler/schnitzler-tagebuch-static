@@ -1,0 +1,105 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1916-10-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-10-26.html",
+ "head":
+ "Tagebuch, 26. Oktober 1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Hebbel",
+ "ref":
+ "person_16009"},
+ {
+ "persName":
+ "Emil Ludwig",
+ "ref":
+ "person_17726"},
+ {
+ "persName":
+ "Hans Müller",
+ "ref":
+ "person_18297"},
+ {
+ "persName":
+ "Thaddäus Rittner",
+ "ref":
+ "person_19290"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ,  {
+ "title":
+ "Vierzig Jahre aus dem Leben eines Todten",
+ "ref":
+ "pmb80549"}
+ ,  {
+ "title":
+ "Der Rubin",
+ "ref":
+ "pmb76686"}
+ ,  {
+ "title":
+ "Könige",
+ "ref":
+ "pmb31625"}
+ ,  {
+ "title":
+ "Wölfe in der Nacht. Komödie in drei Akten",
+ "ref":
+ "pmb77459"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Thessaloniki",
+ "ref":
+ "pmb49254"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#dc95034c-3e70-47e1-9072-3fc75d84b47a",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Fritz Unruh an Arthur Schnitzler, 26.10.1916",
+ "source":
+ "Ulrich K. Goldsmith: Der Briefwechsel Fritz von Unruhs mit Arthur Schnitzler. In: Modern Austrian Literature, Jg. 10, 1977, H. 3/4, S. 69-128."
+}] 

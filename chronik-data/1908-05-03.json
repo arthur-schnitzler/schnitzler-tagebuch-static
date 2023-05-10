@@ -1,0 +1,112 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-05-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-05-03.html",
+ "head":
+ "Tagebuch, 3. Mai 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Wilhelm von Hackländer",
+ "ref":
+ "person_15829"},
+ {
+ "persName":
+ "Anatole France",
+ "ref":
+ "person_15108"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Le livre de mon ami",
+ "ref":
+ "pmb78230"}
+ ,  {
+ "title":
+ "Das Soldatenleben im Frieden",
+ "ref":
+ "pmb78788"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Englischer Garten",
+ "ref":
+ "pmb90589"}
+ ,  {
+ "placeName":
+ "Isar",
+ "ref":
+ "pmb90936"}
+ ,  {
+ "placeName":
+ "Nymphenburg",
+ "ref":
+ "pmb91369"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler, Olga Schnitzler an Otto Brahm, 3.5.1908",
+ "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-908673",
+ "head":
+ "Brief von Arthur Schnitzler an Paul Schlenther",
+ "text":
+ "1 Br., 1 1/2 S. 4˚",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur (1862-1931) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/126794855"},
+ {
+ "persName":
+ "Paul (1854-1916) Schlenther",
+ "ref":
+ "http://d-nb.info/gnd/118795112"}]
+}
+}] 

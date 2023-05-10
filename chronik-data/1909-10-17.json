@@ -1,0 +1,163 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-10-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-10-17.html",
+ "head":
+ "Tagebuch, 17. Oktober 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Felix Speidel",
+ "ref":
+ "person_20242"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Grinzing",
+ "ref":
+ "pmb90771"}
+ ,  {
+ "placeName":
+ "Nussdorf",
+ "ref":
+ "pmb91367"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01880",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01880.html",
+ "head":
+ "Albert Ehrenstein an Arthur Schnitzler, 17. 10. 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "pmb11230"},
+ {
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "pmb10788"},
+ {
+ "persName":
+ "Gustav Meyrink",
+ "ref":
+ "pmb12248"},
+ {
+ "persName":
+ "Franz Blei",
+ "ref":
+ "pmb10955"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Lage in Ungarn (Siebenbürgen und Serbien ausgenommen) im Jahre 1790",
+ "ref":
+ "pmb33458"}
+ ,  {
+ "title":
+ "Tod des Zehir eddin Muhammed Baber",
+ "ref":
+ "pmb33454"}
+ ,  {
+ "title":
+ "Apaturien",
+ "ref":
+ "pmb33482"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neue Freie Presse",
+ "ref":
+ "pmb29351"}
+ ,  {
+ "orgName":
+ "Hyperion",
+ "ref":
+ "pmb29552"}
+ ,  {
+ "orgName":
+ "Der Spiegel. Münchner Halbmonatsschrift",
+ "ref":
+ "pmb29568"}
+ ,  {
+ "orgName":
+ "Neue Rundschau, Neue Deutsche Rundschau, Freie Bühne",
+ "ref":
+ "pmb29212"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Ottakringerstraße",
+ "ref":
+ "pmb300"}
+ ,  {
+ "placeName":
+ "Venedig",
+ "ref":
+ "pmb462"}
+ ,  {
+ "placeName":
+ "Neulinggasse",
+ "ref":
+ "pmb1212"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

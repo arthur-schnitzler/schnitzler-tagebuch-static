@@ -1,0 +1,180 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-12-18",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-12-18.html",
+ "head":
+ "Tagebuch, 18. Dezember 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ella Frankfurter",
+ "ref":
+ "person_15135"},
+ {
+ "persName":
+ "Leonie Guttmann",
+ "ref":
+ "person_15781"},
+ {
+ "persName":
+ "Ludwig von Hatvany-Deutsch",
+ "ref":
+ "person_15972"},
+ {
+ "persName":
+ "Ludwig Hevesi",
+ "ref":
+ "person_16179"},
+ {
+ "persName":
+ "Levy",
+ "ref":
+ "person_17486"},
+ {
+ "persName":
+ "László Toldy",
+ "ref":
+ "person_20767"},
+ {
+ "persName":
+ "Arthur Wilheim",
+ "ref":
+ "person_21332"},
+ {
+ "persName":
+ "Johanna Wilheim",
+ "ref":
+ "person_21334"},
+ {
+ "persName":
+ "Edmund Lang",
+ "ref":
+ "person_21641"},
+ {
+ "persName":
+ "Alexander Fleischer",
+ "ref":
+ "person_15031"},
+ {
+ "persName":
+ "Arnim Vámbéry",
+ "ref":
+ "person_20918"},
+ {
+ "persName":
+ "Emmerich Tóth",
+ "ref":
+ "person_20781"},
+ {
+ "persName":
+ "Ede Újházi",
+ "ref":
+ "person_20859"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Budapest",
+ "ref":
+ "pmb43471"}
+ ,  {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ,  {
+ "placeName":
+ "Taormina",
+ "ref":
+ "pmb906"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/43471/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/43471/",
+ "head":
+ "Budapest"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/46005/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/46005/",
+ "head":
+ "Premiere von Szerelmeskedés (Liebelei), 18.12.1908",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Leonie Guttmann",
+ "ref":
+ "pmb17605"},
+ {
+ "persName":
+ "Ella Frankfurter",
+ "ref":
+ "pmb16479"},
+ {
+ "persName":
+ "Ede Újházi",
+ "ref":
+ "pmb27653"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Budapest",
+ "ref":
+ "pmb43471"}
+ ]
+}
+}] 

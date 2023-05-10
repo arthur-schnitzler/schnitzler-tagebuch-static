@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00009",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00009.html",
+ "head":
+ "Arthur Schnitzler an Michael Georg Conrad, 11. 3. 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Michael Georg Conrad",
+ "ref":
+ "pmb11098"},
+ {
+ "persName":
+ "Karl von Perfall",
+ "ref":
+ "pmb22428"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Alkandi’s Lied",
+ "ref":
+ "pmb31637"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Königliche Hof- und Nationaltheater München",
+ "ref":
+ "pmb44112"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-1438408",
+ "head":
+ "Brief von Arthur Schnitzler an Michael Georg Conrad",
+ "text":
+ "1 Br.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Michael Georg (1846-1927) Conrad",
+ "ref":
+ "http://d-nb.info/gnd/118669915"}]
+}
+}] 

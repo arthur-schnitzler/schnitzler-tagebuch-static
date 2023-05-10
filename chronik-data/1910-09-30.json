@@ -1,0 +1,250 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-09-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-09-30.html",
+ "head":
+ "Tagebuch, 30. September 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julius Bauer",
+ "ref":
+ "person_13471"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Max Kalbeck",
+ "ref":
+ "person_16653"},
+ {
+ "persName":
+ "Isaak Robinsohn",
+ "ref":
+ "person_19304"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Alexander Demetrius Goltz",
+ "ref":
+ "person_15559"},
+ {
+ "persName":
+ "Konrad Loewe",
+ "ref":
+ "person_17642"},
+ {
+ "persName":
+ "Siegfried Loewy",
+ "ref":
+ "person_17666"},
+ {
+ "persName":
+ "Heinrich Glücksmann",
+ "ref":
+ "person_15483"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L03017",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L03017.html",
+ "head":
+ "Arthur Schnitzler an Felix Salten, 30. 9. 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01961",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01961.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 30. 9. [1910]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "pmb11851"},
+ {
+ "persName":
+ "Alfred Gerasch",
+ "ref":
+ "pmb11423"},
+ {
+ "persName":
+ "Albert Heine",
+ "ref":
+ "pmb2743"},
+ {
+ "persName":
+ "Georg Reimers",
+ "ref":
+ "pmb12498"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Thor und der Tod",
+ "ref":
+ "pmb30279"}
+ ,  {
+ "title":
+ "Liebelei. Oper in drei Akten",
+ "ref":
+ "pmb31311"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Burgtheater",
+ "ref":
+ "pmb36247"}
+ ,  {
+ "orgName":
+ "Kaiserlich-Königliches Hof-Burgtheater",
+ "ref":
+ "pmb36246"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Hotel Marienbad",
+ "ref":
+ "pmb401"}
+ ,  {
+ "placeName":
+ "Frankfurt am Main",
+ "ref":
+ "pmb146"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Erhalt von Zinaida Vengerova an Arthur Schnitzler, 20. 9. 1910",
+ "source":
+ "Die Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida Vengerova. Herausgegeben von Konstantin Asadowski und Martin Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30 (2022), S. 7–91."
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00036312",
+ "head":
+ "S.-Fischer-Verlag &lt;Berlin&gt; an Heimfelsen, J. [Briefe]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "S.-Fischer-Verlag &lt;Berlin&gt; (1886-1942)",
+ "ref":
+ "http://d-nb.info/gnd/35741-8"},
+ {
+ "persName":
+ "J. (1859-1934) Heimfelsen",
+ "ref":
+ "http://d-nb.info/gnd/126185808"}]
+}
+}] 

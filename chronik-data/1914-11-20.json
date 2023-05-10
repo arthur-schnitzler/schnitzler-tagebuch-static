@@ -1,0 +1,97 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-11-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-11-20.html",
+ "head":
+ "Tagebuch, 20. November 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Gutheil-Schoder",
+ "ref":
+ "person_15766"},
+ {
+ "persName":
+ "Wenzel Rudofsky",
+ "ref":
+ "person_19454"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Marianne Giustiniani",
+ "ref":
+ "person_21600"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Doktor Gräsler, Badearzt",
+ "ref":
+ "pmb30201"}
+ ,  {
+ "title":
+ "Das Bacchusfest",
+ "ref":
+ "pmb32097"}
+ ,  {
+ "title":
+ "Elektra. Tragödie in einem Aufzug",
+ "ref":
+ "pmb30633"}
+ ,  {
+ "title":
+ "Elektra (op. 58)",
+ "ref":
+ "pmb29925"}
+ ,  {
+ "title":
+ "Das Gänsemännchen",
+ "ref":
+ "pmb30899"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Belgien",
+ "ref":
+ "pmb710"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1904-01-22">Freitag, 22. Januar 1904</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1904-01-22">
+               <head>Tagebuch, 22. Januar 1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_14550">Louise Dumont</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17696">Rudolf Lothar</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_18094">Johan Messchaert</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30195">Familie</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31547">Das Haus Delorme. Eine Familienszene</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb197">Weimar</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb43435">Schweiz</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-01-22.html</idno>
+            </event>
+            <event when-iso="1904-01-22">
+               <head>Michael Georg Conrad an Arthur Schnitzler, 22. 1. 1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11098">Michael Georg Conrad</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5757">Marie Knorr-Schmidt</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb33562">Evoë! Ein Schritt zur Lichtung des Seelenlebens</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb59">IX., Alsergrund</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb51">I., Innere Stadt</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb133">Edmund-Weiß-Gasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb62">XII., Meidling</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb397">Frankgasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1231">Steinsdorfstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44127">Meerane</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb209">Sachsen</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1233">Innere Crimmitschauer Straße</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L01362.html</idno>
+            </event>
+            <event when-iso="1904-01-22">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1904-01-22">
+               <head>Siegfried Trebitsch an Bahr, 22. 1. 1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb12968">Siegfried Trebitsch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2299">Agnes Sorma</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12140">Raphael Löwenfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11246">Julius Elias</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2914">Oskar Bie</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28762">Heinrich Graf</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12504">Max Reinhardt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13061">Hans Waßmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2859">Victor Arnold</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2216">Norbert von Ortner-Rodenstätt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb13682">Rosa Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12481">Josef Redlich</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb28111">Alice Leo</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb27882">Friedrich Waerndorfer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb19144">Emilie Karlweis</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2601">Josef Jarno</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29841">Der Schlachtenlenker</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32288">Schwester Beatrix</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30645">Candida</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29961">Ein Teufelskerl</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29983">Der Meister</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29963">Helden</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30153">Das Haus am Abhang</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32079">Ein letzter Wille</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb218">Marbach am Bodensee</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb752">Werdertorgasse</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb768">Pension Westpalast</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb738">Berliner Theater</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb168">Berlin</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb506">Hamburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb182">Paris</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/L041638.html</idno>
+            </event>
+            <event when-iso="1904-01-22">
+               <head>Otto Brahm an Arthur Schnitzler, 22.1.1904</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="https://d-nb.info/gnd/118514245">Brahm, Otto</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Der Briefwechsel Arthur
+               Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar
+               Seidlin. Tübingen: Niemeyer, 1975.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif" subtype="#ya489e21-54d5-40de-a56d-f4548e894428"/>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

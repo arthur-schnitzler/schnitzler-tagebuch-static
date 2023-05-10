@@ -1,0 +1,264 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1931-03-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-03-05.html",
+ "head":
+ "Tagebuch, 5. März 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Bayer",
+ "ref":
+ "person_13498"},
+ {
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Hugo Glaser",
+ "ref":
+ "person_15458"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "person_16292"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Friedrich Haas",
+ "ref":
+ "person_15812"},
+ {
+ "persName":
+ "Frieda Pollak",
+ "ref":
+ "person_18881"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Flucht in die Finsternis",
+ "ref":
+ "pmb30863"}
+ ,  {
+ "title":
+ "Die Schwestern oder Casanova in Spa",
+ "ref":
+ "pmb35988"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "New York City",
+ "ref":
+ "pmb44053"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02544",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02544.html",
+ "head":
+ "Gerty von Hofmannsthal an Arthur Schnitzler, [5. 3. 1931]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "pmb12870"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Franz Schalk",
+ "ref":
+ "pmb12630"},
+ {
+ "persName":
+ "Raimund von Hofmannsthal",
+ "ref":
+ "pmb3241"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Musikverlag Adolph Fürstner",
+ "ref":
+ "pmb34146"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02589",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02589.html",
+ "head":
+ "Marie Herzfeld an Arthur Schnitzler, 5. 3. 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Herzfeld",
+ "ref":
+ "pmb11666"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Reinhard Urbach",
+ "ref":
+ "pmb65504"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Corona. Zweimonatsschrift",
+ "ref":
+ "pmb65339"}
+ ,  {
+ "title":
+ "Loris. Blätter der Erinnerung",
+ "ref":
+ "pmb65344"}
+ ,  {
+ "title":
+ "Briefe an Freunde",
+ "ref":
+ "pmb65348"}
+ ,  {
+ "title":
+ "Die neue Rundschau",
+ "ref":
+ "pmb36156"}
+ ,  {
+ "title":
+ "Ascanio und Gioconda",
+ "ref":
+ "pmb31967"}
+ ,  {
+ "title":
+ "Das gerettete Venedig",
+ "ref":
+ "pmb40069"}
+ ,  {
+ "title":
+ "Das gerettete Venedig. Trauerspiel in fünf Aufzügen",
+ "ref":
+ "pmb31091"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Ölzeltgasse",
+ "ref":
+ "pmb65336"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp891",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp891.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 27. Februar – 5. März 1931"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00034162",
+ "head":
+ "Die Welt am Abend &lt;Periodikum&gt; an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

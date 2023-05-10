@@ -1,0 +1,287 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1908-11-09",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1908-11-09.html",
+ "head":
+ "Tagebuch, 9. November 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Entsch",
+ "ref":
+ "person_14766"},
+ {
+ "persName":
+ "Josef Jarno",
+ "ref":
+ "person_16517"},
+ {
+ "persName":
+ "Hansi Niese",
+ "ref":
+ "person_18450"},
+ {
+ "persName":
+ "Samuel Fischer",
+ "ref":
+ "person_15009"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen",
+ "ref":
+ "pmb29937"}
+ ,  {
+ "title":
+ "Das Vermächtnis. Schauspiel in drei Akten",
+ "ref":
+ "pmb30219"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01798",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01798.html",
+ "head":
+ "Arthur Schnitzler an Albert Ehrenstein, 9. 11. 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Albert Ehrenstein",
+ "ref":
+ "pmb11230"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01799",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01799.html",
+ "head":
+ "E. Probst, R. Probst, Josef Staehelin-Baechtold, R. W. Huber, Gertrud Staehelin-Baechtold, Hermann Kesser, Mathilde Bodmer, Hermann Bodmer, Emanuel von Bodman, Spyridon Sartoris, W. Sartoris, Hans Bodmer, Hermann Bahr an Arthur Schnitzler, 9. 11. 1908",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "E. Probst",
+ "ref":
+ "pmb29122"},
+ {
+ "persName":
+ "R. Probst",
+ "ref":
+ "pmb29123"},
+ {
+ "persName":
+ "Sepp Staehelin-Baechtold",
+ "ref":
+ "pmb29120"},
+ {
+ "persName":
+ "R. W. Huber",
+ "ref":
+ "pmb29126"},
+ {
+ "persName":
+ "Gertrud Staehelin-Baechtold",
+ "ref":
+ "pmb28344"},
+ {
+ "persName":
+ "Hermann Kesser",
+ "ref":
+ "pmb11913"},
+ {
+ "persName":
+ "Mathilde Bodmer",
+ "ref":
+ "pmb29124"},
+ {
+ "persName":
+ "Hermann Bodmer",
+ "ref":
+ "pmb5489"},
+ {
+ "persName":
+ "Emanuel von Bodman",
+ "ref":
+ "pmb5490"},
+ {
+ "persName":
+ "Spyridon Demetrius Sartoris",
+ "ref":
+ "pmb5495"},
+ {
+ "persName":
+ "M. Sartoris",
+ "ref":
+ "pmb29121"},
+ {
+ "persName":
+ "Hans Bodmer",
+ "ref":
+ "pmb10977"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Toten schweigen",
+ "ref":
+ "pmb29833"}
+ ,  {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ,  {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Der grüne Kakadu. Groteske in einem Akt",
+ "ref":
+ "pmb29843"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Neumünster",
+ "ref":
+ "pmb1142"}
+ ,  {
+ "placeName":
+ "Zürich",
+ "ref":
+ "pmb484"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Rotes Schloss",
+ "ref":
+ "pmb1133"}
+ ,  {
+ "placeName":
+ "Kongresshaus Zürich",
+ "ref":
+ "pmb1134"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#u76a6932-a288-44db-a5d5-8eba12ba4b14",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Ernst Hardt, 9.11.1908",
+ "source":
+ "Briefe an Ernst Hardt. Eine Auswahl aus den Jahren 1898–1947. In Verbindung mit Tilla Goetz-Hardt hrsg. von Jochen Meyer. Marbach am Neckar: Deutsches Literaturarchiv 1975 (Marbacher Schriften, 10)"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00892225",
+ "head":
+ "Schnitzler, Arthur an Hardt, Ernst [Briefe]",
+ "text":
+ "2 Bl. Kopie",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ernst (1876-1947) Hardt",
+ "ref":
+ "http://d-nb.info/gnd/11870155X"}]
+}
+}] 

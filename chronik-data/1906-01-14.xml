@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1906-01-14">Sonntag, 14. Januar 1906</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1906-01-14">
+               <head>Tagebuch, 14. Januar 1906</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13595">Moriz Benedikt</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14008">Anton Bruckner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14632">Otto von Egger-Möllwald</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14643">Albert Ehrenstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14645">Charlotte Ehrenstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14803">Otto Ernst</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15183">Fritz Freund</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15338">Julius von Gans-Ludassy</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15340">Olga von Gans-Ludassy</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16228">Robert Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16245">Rosa Hochsinger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16517">Josef Jarno</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17696">Rudolf Lothar</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19542">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19822">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19831">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20417">Karl Wilhelm Stern</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20423">Julian Sternberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20822">Pjotr Iljitsch Tschaikowski</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14631">Berta von Egger-Möllwald</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14680">Ludwig Julius Eisenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16242">Carl Hochsinger</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19543">Ottilie Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13374">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14644">Alexander Ehrenstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15878">Helene von Hamar-Nemespann</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16293">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb29951">Zum großen Wurstel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30683">Die Weissagung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30631">König Harlekin</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30687">Der Nußknacker, Suite op. 71a</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb224">London</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb58">VIII., Josefstadt</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb200">Mauls</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb91344">Neustift am Walde</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb300">Ottakringerstraße</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-01-14.html</idno>
+            </event>
+            <event when-iso="1906-01-14">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1906-01-14">
+               <head>Tagebuch von Schnitzler, 14. 1. 1906</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11230">Albert Ehrenstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11260">Otto Ernst</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11406">Julius von Gans-Ludassy</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb16902">Olga von Gans-Ludassy</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb25491">Karl Wilhelm Stern</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11374">Fritz Freund</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3021">Julian Sternberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10875">Moriz Benedikt</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11707">Robert Hirschfeld</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11024">Anton Bruckner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2570">Rudolf Lothar</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10815">Hermann Bahr</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2601">Josef Jarno</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11718">Carl Hochsinger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb18345">Rosa Hochsinger</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12701">Louise Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2173">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12692">Heinrich Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb15687">Berta von Egger-Möllwald</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb15691">Otto von Egger-Möllwald</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb17775">Helene von Hamar-Nemespann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb3043">Ludwig Julius Eisenberg</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2540">Pjotr Iljitsch Tschaikowski</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb15716">Charlotte Ehrenstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb15712">Alexander Ehrenstein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb23918">Ottilie Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30683">Die Weissagung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb31415">Vom Rauch- und Brandopfer</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30631">König Harlekin</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29951">Zum großen Wurstel</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb30687">Der Nußknacker, Suite op. 71a</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb224">London</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb45258">München</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb40">Theater in der Josefstadt</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb200">Mauls</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb201">Neustift</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb300">Ottakringerstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb6">Kuffner Bierbrauerei</placeName>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29752">Concordia</orgName>
+                     </org>
+                  </listOrg>
+               </desc>
+               <idno type="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/D041266.html</idno>
+            </event>
+            <event when-iso="1906-01-14">
+               <head>Eulenberg, Herbert an Schnitzler, Arthur [Briefe]</head>
+               <desc>2 Bl.Kopie. Mit Negativkopie<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/118682636">Eulenberg, Herbert (1876-1949)</persName>
+                     </person>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/2009323-8">Düsseldorfer Schauspielhaus (1905-1932)</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00062699</idno>
+            </event>
+            <event when-iso="1906-01-14">
+               <head>Epstein, Stephan an Bereny, Henri [Briefe]</head>
+               <desc>1 Bl.Durchschl.</desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-2498-HS00033672</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

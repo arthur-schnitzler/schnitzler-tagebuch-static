@@ -1,0 +1,80 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-05-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-05-11.html",
+ "head":
+ "Tagebuch, 11. Mai 1914",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Florenz",
+ "ref":
+ "pmb263"}
+ ,  {
+ "placeName":
+ "Pisa",
+ "ref":
+ "pmb44267"}
+ ,  {
+ "placeName":
+ "Genua",
+ "ref":
+ "pmb994"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/263/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/263/",
+ "head":
+ "Florenz"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44267/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44267/",
+ "head":
+ "Pisa"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00043441",
+ "head":
+ "Haeberle, Else an Schnitzler, Arthur [Briefe]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Else (1877-1937) Haeberle",
+ "ref":
+ "http://d-nb.info/gnd/116358424"}]
+}
+}] 

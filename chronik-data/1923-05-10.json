@@ -1,0 +1,166 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-05-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-05-10.html",
+ "head":
+ "Tagebuch, 10. Mai 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Viggo Andreas Barfoed",
+ "ref":
+ "person_13421"},
+ {
+ "persName":
+ "Emil Bønnelycke",
+ "ref":
+ "person_13839"},
+ {
+ "persName":
+ "Haagen Falkenfleth",
+ "ref":
+ "person_14880"},
+ {
+ "persName":
+ "Louis Leonor Hammerich",
+ "ref":
+ "person_15885"},
+ {
+ "persName":
+ "Marc Kalckar",
+ "ref":
+ "person_16657"},
+ {
+ "persName":
+ "Paul August von Klenau",
+ "ref":
+ "person_16904"},
+ {
+ "persName":
+ "Sophus Michaëlis",
+ "ref":
+ "person_18142"},
+ {
+ "persName":
+ "Henrik Rechendorff",
+ "ref":
+ "person_19084"},
+ {
+ "persName":
+ "Niels Thingberg Thomsen",
+ "ref":
+ "person_20724"},
+ {
+ "persName":
+ "Torkild Vogel-Jörgensen",
+ "ref":
+ "person_20981"},
+ {
+ "persName":
+ "Franz Werfel",
+ "ref":
+ "person_21243"},
+ {
+ "persName":
+ "Hans Christian Huus",
+ "ref":
+ "person_16205"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Schweiger",
+ "ref":
+ "pmb32019"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ,  {
+ "placeName":
+ "Warnemünde",
+ "ref":
+ "pmb49158"}
+ ,  {
+ "placeName":
+ "Gedser",
+ "ref":
+ "pmb58984"}
+ ,  {
+ "placeName":
+ "G.",
+ "ref":
+ "pmb92248"}
+ ,  {
+ "placeName":
+ "Kopenhagen",
+ "ref":
+ "pmb36300"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/36300/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/36300/",
+ "head":
+ "Kopenhagen"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/58094/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/58094/",
+ "head":
+ "Hotel Phönix"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp062",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp062.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 8.–14. Mai 1923"
+}] 

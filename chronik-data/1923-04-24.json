@@ -1,0 +1,67 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1923-04-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1923-04-24.html",
+ "head":
+ "Tagebuch, 24. April 1923",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Egbertje Alida Brevée",
+ "ref":
+ "person_13969"},
+ {
+ "persName":
+ "Arnold Korff",
+ "ref":
+ "person_17045"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gösing an der Mariazeller Bahn",
+ "ref":
+ "pmb90747"}
+ ,  {
+ "placeName":
+ "Niederlande",
+ "ref":
+ "pmb44016"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90747/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90747/",
+ "head":
+ "Gösing an der Mariazeller Bahn"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00075658",
+ "head":
+ "Krieg, Walter an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

@@ -1,0 +1,110 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-11-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-11-06.html",
+ "head":
+ "Tagebuch, 6. November 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "person_15499"},
+ {
+ "persName":
+ "Kantor",
+ "ref":
+ "person_16689"},
+ {
+ "persName":
+ "Richard Pollak",
+ "ref":
+ "person_18891"},
+ {
+ "persName":
+ "Sherman Riethof",
+ "ref":
+ "person_19269"},
+ {
+ "persName":
+ "Ernst? Bechert",
+ "ref":
+ "person_13506"},
+ {
+ "persName":
+ "Arthur Hauser",
+ "ref":
+ "person_15988"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Weihnachts-Einkäufe",
+ "ref":
+ "pmb30163"}
+ ,  {
+ "title":
+ "Excentric",
+ "ref":
+ "pmb29893"}
+ ,  {
+ "title":
+ "Die letzten Masken",
+ "ref":
+ "pmb29877"}
+ ,  {
+ "title":
+ "Homme en amour",
+ "ref":
+ "pmb80859"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Teplice",
+ "ref":
+ "pmb955"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/652/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/652/",
+ "head":
+ "Prag"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/955/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/955/",
+ "head":
+ "Teplice"
+}] 

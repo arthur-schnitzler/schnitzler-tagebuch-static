@@ -1,0 +1,225 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-01-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-01-02.html",
+ "head":
+ "Tagebuch, 2. Januar 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Emma Bloch",
+ "ref":
+ "person_13787"},
+ {
+ "persName":
+ "André Giron",
+ "ref":
+ "person_15447"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Leopold Ferdinand Salvator",
+ "ref":
+ "person_17459"},
+ {
+ "persName":
+ "Luise von Sachsen",
+ "ref":
+ "person_19511"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Mirjam Horwitz",
+ "ref":
+ "person_21546"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ,  {
+ "placeName":
+ "Neustift am Walde",
+ "ref":
+ "pmb91344"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041450",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041450.html",
+ "head":
+ "Kalendereintrag von Bahr, 2. 1. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Leonardo da Vinci",
+ "ref":
+ "pmb20315"},
+ {
+ "persName":
+ "Hermann Knackfuß",
+ "ref":
+ "pmb3542"},
+ {
+ "persName":
+ "Moritz Heimann",
+ "ref":
+ "pmb11632"},
+ {
+ "persName":
+ "Robert Anning Bell",
+ "ref":
+ "pmb2665"},
+ {
+ "persName":
+ "Franz Valentin Zillner",
+ "ref":
+ "pmb3539"},
+ {
+ "persName":
+ "Wilhelm Singer",
+ "ref":
+ "pmb2202"},
+ {
+ "persName":
+ "Stefan Skrein",
+ "ref":
+ "pmb12796"},
+ {
+ "persName":
+ "Rosa Bahr",
+ "ref":
+ "pmb13682"},
+ {
+ "persName":
+ "??",
+ "ref":
+ "pmb27721"},
+ {
+ "persName":
+ "??",
+ "ref":
+ "pmb27722"},
+ {
+ "persName":
+ "Ferdinand no name provided",
+ "ref":
+ "pmb28184"},
+ {
+ "persName":
+ "Ludwig",
+ "ref":
+ "pmb28076"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Künstlermonographien",
+ "ref":
+ "pmb31109"}
+ ,  {
+ "title":
+ "Kritik der Kritik?",
+ "ref":
+ "pmb30105"}
+ ,  {
+ "title":
+ "Leonardo da Vinci",
+ "ref":
+ "pmb31111"}
+ ,  {
+ "title":
+ "Geschichte der Stadt Salzburg",
+ "ref":
+ "pmb31107"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Frick am Graben",
+ "ref":
+ "pmb336"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Hotel de France",
+ "ref":
+ "pmb337"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neues Wiener Tagblatt",
+ "ref":
+ "pmb29414"}
+ ,  {
+ "orgName":
+ "Österreichische Volks-Zeitung",
+ "ref":
+ "pmb29421"}
+ ,  {
+ "orgName":
+ "Brakls Rubinverlag",
+ "ref":
+ "pmb29655"}
+ ]
+}
+}] 

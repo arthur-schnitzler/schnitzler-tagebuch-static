@@ -1,0 +1,158 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1890-10-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1890-10-01.html",
+ "head":
+ "Tagebuch, 1. Oktober 1890",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Wilddiebe",
+ "ref":
+ "pmb76502"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02651",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02651.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 1. 10. 1890",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Fedor Mamroth",
+ "ref":
+ "pmb4986"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "pmb14953"},
+ {
+ "persName":
+ "Jeanette Heeger",
+ "ref":
+ "pmb18007"},
+ {
+ "persName":
+ "Hilda von Mitis",
+ "ref":
+ "pmb65913"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Faust",
+ "ref":
+ "pmb30247"}
+ ,  {
+ "title":
+ "An der schönen blauen Donau",
+ "ref":
+ "pmb35860"}
+ ,  {
+ "title":
+ "Der Feiertag des Herzens. Ein Abriß",
+ "ref":
+ "pmb88924"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Josef Eberle Stein-, Buch und Musikaliendruckerei",
+ "ref":
+ "pmb53104"}
+ ,  {
+ "orgName":
+ "An der schönen blauen Donau",
+ "ref":
+ "pmb29698"}
+ ,  {
+ "orgName":
+ "Konservatorium der Gesellschaft der Musikfreunde",
+ "ref":
+ "pmb29805"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Salzburg",
+ "ref":
+ "pmb30"}
+ ,  {
+ "placeName":
+ "Seidengasse",
+ "ref":
+ "pmb53101"}
+ ,  {
+ "placeName":
+ "Berggasse",
+ "ref":
+ "pmb52510"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/30/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "head":
+ "Salzburg"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#d2b0f559-bde7-4114-82b9-741a8810c463",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Olga Waissnix, nach 1.10.1890 und vor 5.10.1890",
+ "source":
+ "Arthur Schnitzler und Waissnix, Olga: Liebe, die starb vor der Zeit. Ein Briefwechsel. Mit einem Vorwort von Hans Weigel. Mit 16 Seiten Kunstdruckbildern. Hg. v. Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich: Verlag Fritz Molden 1970. (PDF: https://schnitzler-briefe.acdh.oeaw.ac.at)"
+}] 

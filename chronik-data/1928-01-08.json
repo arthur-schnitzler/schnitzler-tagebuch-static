@@ -1,0 +1,222 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-01-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-01-08.html",
+ "head":
+ "Tagebuch, 8. Januar 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Albert von Mensdorff-Pouilly-Dietrichstein",
+ "ref":
+ "person_18079"},
+ {
+ "persName":
+ "Molière",
+ "ref":
+ "person_18214"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Fritz Rumpf",
+ "ref":
+ "person_19466"},
+ {
+ "persName":
+ "Viktor von Dirsztay",
+ "ref":
+ "person_14462"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Zug der Schatten",
+ "ref":
+ "pmb32049"}
+ ,  {
+ "title":
+ "Es ist mein Wille!",
+ "ref":
+ "pmb32101"}
+ ,  {
+ "title":
+ "Amphitryon",
+ "ref":
+ "pmb32119"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp515",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp515.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 22. Dezember 1927 – 8. Januar
+                  1928"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp516",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp516.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 8.–27. Januar 1928"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/55542/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/55542/",
+ "head":
+ "Aufführung von Amphitryon und Es ist mein Wille, 8.1.1928",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Es ist mein Wille!",
+ "ref":
+ "pmb32101"}
+ ,  {
+ "title":
+ "Amphitryon",
+ "ref":
+ "pmb32119"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Fritz Rumpf",
+ "ref":
+ "pmb23733"},
+ {
+ "persName":
+ "Viktor von Dirsztay",
+ "ref":
+ "pmb15411"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Albert von Mensdorff-Pouilly-Dietrichstein",
+ "ref":
+ "pmb21327"},
+ {
+ "persName":
+ "Maria Mayen",
+ "ref":
+ "pmb12211"},
+ {
+ "persName":
+ "Max Devrient",
+ "ref":
+ "pmb2446"},
+ {
+ "persName":
+ "Else Wohlgemuth",
+ "ref":
+ "pmb13149"},
+ {
+ "persName":
+ "Franz Höbling",
+ "ref":
+ "pmb7954"},
+ {
+ "persName":
+ "Carl von Zeska",
+ "ref":
+ "pmb13180"},
+ {
+ "persName":
+ "Ferdinand Maierhofer",
+ "ref":
+ "pmb8781"},
+ {
+ "persName":
+ "Ernestine Senders",
+ "ref":
+ "pmb24838"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Akademietheater (Wien)",
+ "ref":
+ "pmb55529"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00031853",
+ "head":
+ "Back, Hanne an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

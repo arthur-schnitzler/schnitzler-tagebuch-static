@@ -1,0 +1,72 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-08-31",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-08-31.html",
+ "head":
+ "Tagebuch, 31. August 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Kühn",
+ "ref":
+ "person_17165"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Frauen um Goethe. Weimarer Interieurs",
+ "ref":
+ "pmb78948"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kramerweg",
+ "ref":
+ "pmb92344"}
+ ,  {
+ "placeName":
+ "Kellerleitenweg",
+ "ref":
+ "pmb92332"}
+ ,  {
+ "placeName":
+ "Pflegersee",
+ "ref":
+ "pmb91472"}
+ ,  {
+ "placeName":
+ "Oertelpromenade",
+ "ref":
+ "pmb92427"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/667/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/667/",
+ "head":
+ "Garmisch-Partenkirchen"
+}] 

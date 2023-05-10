@@ -1,0 +1,137 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1928-10-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1928-10-12.html",
+ "head":
+ "Tagebuch, 12. Oktober 1928",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julia Bertha Culp",
+ "ref":
+ "person_14318"},
+ {
+ "persName":
+ "Walther? Friedmann",
+ "ref":
+ "person_15238"},
+ {
+ "persName":
+ "Wilhelm Ginzkey",
+ "ref":
+ "person_15437"},
+ {
+ "persName":
+ "Paul Kohner",
+ "ref":
+ "person_16997"},
+ {
+ "persName":
+ "Mary I. Philbin",
+ "ref":
+ "person_18749"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Johann Strauss",
+ "ref":
+ "person_20505"},
+ {
+ "persName":
+ "Erwin Piscator",
+ "ref":
+ "person_18810"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Spiel im Morgengrauen. Novelle",
+ "ref":
+ "pmb32131"}
+ ,  {
+ "title":
+ "Merry-Go-Round",
+ "ref":
+ "pmb80760"}
+ ,  {
+ "title":
+ "Casanova",
+ "ref":
+ "pmb77667"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp605",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp605.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 12. Oktober 1928"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00078938",
+ "head":
+ "Hoffmann, Norbert an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Norbert (1891-1977) Hoffmann",
+ "ref":
+ "http://d-nb.info/gnd/1113760052"}]
+}
+}] 

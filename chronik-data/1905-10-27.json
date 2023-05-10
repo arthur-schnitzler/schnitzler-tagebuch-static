@@ -1,0 +1,224 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1905-10-27",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1905-10-27.html",
+ "head":
+ "Tagebuch, 27. Oktober 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Theodor Beer",
+ "ref":
+ "person_13546"},
+ {
+ "persName":
+ "Rudolf Lothar",
+ "ref":
+ "person_17696"},
+ {
+ "persName":
+ "Picket",
+ "ref":
+ "person_18782"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Excentric",
+ "ref":
+ "pmb29893"}
+ ,  {
+ "title":
+ "Der tote Gabriel",
+ "ref":
+ "pmb33760"}
+ ,  {
+ "title":
+ "Der blinde Geronimo und sein Bruder",
+ "ref":
+ "pmb30649"}
+ ,  {
+ "title":
+ "Die Rosentempler",
+ "ref":
+ "pmb76672"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01565",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01565.html",
+ "head":
+ "Max Burckhard an Arthur Schnitzler, 27. 10. 1905",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"},
+ {
+ "persName":
+ "Franz Stelzhamer",
+ "ref":
+ "pmb3622"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Charakterbilder aus Oberösterreich",
+ "ref":
+ "pmb48464"}
+ ,  {
+ "title":
+ "Börsenblatt für den deutschen Buchhandel",
+ "ref":
+ "pmb47979"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Verlag",
+ "ref":
+ "pmb29636"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Leipzig",
+ "ref":
+ "pmb864"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01566",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01566.html",
+ "head":
+ "Max Burckhard an Arthur Schnitzler, [27. 10. 1905?]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Eugen Burckhard",
+ "ref":
+ "pmb11036"},
+ {
+ "persName":
+ "Leopold Forstner",
+ "ref":
+ "pmb48437"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Franz Stelzhamer und die oberösterreichische Dialektdichtung",
+ "ref":
+ "pmb48434"}
+ ,  {
+ "title":
+ "Börsenblatt für den deutschen Buchhandel",
+ "ref":
+ "pmb47979"}
+ ,  {
+ "title":
+ "Charakterbilder aus Oberösterreich",
+ "ref":
+ "pmb48464"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Wiener Verlag",
+ "ref":
+ "pmb29636"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Leipzig",
+ "ref":
+ "pmb864"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#ya489e21-54d5-40de-a56d-f4548e894428",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Otto Brahm, 27.10.1905",
+ "source":
+ "Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975."
+}] 

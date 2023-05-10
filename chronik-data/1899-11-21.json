@@ -1,0 +1,84 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1899-11-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1899-11-21.html",
+ "head":
+ "Tagebuch, 21. November 1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Clemens von Franckenstein",
+ "ref":
+ "person_15115"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/142390/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/142390/",
+ "head":
+ "Kompositions-Konzert mit Orchester von Clemens Franckenstein, 21.11.1899",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Clemens von Franckenstein",
+ "ref":
+ "pmb3130"},
+ {
+ "persName":
+ "Erik Schmedes",
+ "ref":
+ "pmb4812"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Musikverein",
+ "ref":
+ "pmb516"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Alexander Rosé Concertbüro",
+ "ref":
+ "pmb42491"}
+ ]
+}
+}] 

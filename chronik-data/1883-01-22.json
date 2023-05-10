@@ -1,0 +1,79 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1883-01-22",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1883-01-22.html",
+ "head":
+ "Tagebuch, 22. Januar 1883",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ferdinand Mandl",
+ "ref":
+ "person_17819"},
+ {
+ "persName":
+ "Alice Politzer",
+ "ref":
+ "person_18858"},
+ {
+ "persName":
+ "Schneider",
+ "ref":
+ "person_19801"},
+ {
+ "persName":
+ "Weinberg",
+ "ref":
+ "person_21161"},
+ {
+ "persName":
+ "Joseph Zeisler",
+ "ref":
+ "person_21524"},
+ {
+ "persName":
+ "Anna Hirschler",
+ "ref":
+ "person_16231"},
+ {
+ "persName":
+ "Else von Kolschitzky",
+ "ref":
+ "person_17014"},
+ {
+ "persName":
+ "Joseph Szilágyi",
+ "ref":
+ "person_20609"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volksgarten",
+ "ref":
+ "pmb103"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

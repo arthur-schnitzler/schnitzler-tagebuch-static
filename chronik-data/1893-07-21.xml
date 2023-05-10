@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1893-07-21">Freitag, 21. Juli 1893</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1893-07-21">
+               <head>Tagebuch, 21. Juli 1893</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_15485">Marie Glümer</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_15855">Markus Hajek</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb865">Klosterneuburg</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb44394">Weidlingbach</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-07-21.html</idno>
+            </event>
+            <event when-iso="1893-07-21">
+               <head>Karl Kraus an Arthur Schnitzler, 21. 7. 1893</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb11988">Karl Kraus</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb5621">Julie Falkner</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2150">Julius Bauer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12796">Stefan Skrein</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12348">Gilbert Otto Neumann-Hofer</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2446">Max Devrient</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11342">Theodor Fontane</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12071">Detlev von Liliencron</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11740">Hugo von Hofmannsthal</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2167">Felix Salten</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb11243">Friedrich Elbogen</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb2601">Josef Jarno</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb10863">Richard Beer-Hofmann</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12296">Gustav von Moser</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb12261">Robert Misch</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30005">Abschiedssouper</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32027">Aus Ischl, 14. Juli, schreibt man uns: …</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb36374">Neue Freie Presse</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33440">[Abschiedsouper in Ischl]</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41484">Illustrirtes Wiener Extrablatt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33442">Ischler Brief</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb39950">Wiener Allgemeine Zeitung</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33446">Ischler Sommertheater</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb41321">Neues Wiener Tagblatt</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb29935">Anatol</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb33444">Wiener Dichter</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb40968">Magazin für die Literatur des Auslandes</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb32702">Fräulein Frau</title>
+                     </bibl>
+                  </listBibl>
+                  <listOrg>
+                     <org>
+                        <orgName ref="pmb29720">Illustrirtes Wiener Extrablatt</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29670">Wiener Allgemeine Zeitung</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29351">Neue Freie Presse</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29312">Wiener Tagblatt</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29625">Magazin für die Literatur des Auslandes</orgName>
+                     </org>
+                     <org>
+                        <orgName ref="pmb29781">»Freie Bühne« Verein für moderne Literatur</orgName>
+                     </org>
+                  </listOrg>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb213">Bad Ischl</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1178">Mahlerstraße</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb772">Marienbad</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1179">Stadttheater (Bad Ischl)</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb519">Oberösterreich</placeName>
+                     </place>
+                     <place>
+                        <placeName ref="pmb1180">Wallnertheater</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/L00239.html</idno>
+            </event>
+            <event when-iso="1893-07-21">
+               <head>Wien</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+            </event>
+            <event when-iso="1893-07-21">
+               <head>Grillparzerstraße</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/412/</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

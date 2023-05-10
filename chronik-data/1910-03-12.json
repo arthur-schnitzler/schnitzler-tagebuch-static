@@ -1,0 +1,82 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-03-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-03-12.html",
+ "head":
+ "Tagebuch, 12. März 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hans Kux",
+ "ref":
+ "person_17227"},
+ {
+ "persName":
+ "Berthold Oppenheim",
+ "ref":
+ "person_18563"},
+ {
+ "persName":
+ "Mayer",
+ "ref":
+ "person_18010"},
+ {
+ "persName":
+ "Felix Zweig",
+ "ref":
+ "person_21612"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Excentric",
+ "ref":
+ "pmb29893"}
+ ,  {
+ "title":
+ "Das neue Lied",
+ "ref":
+ "pmb30655"}
+ ,  {
+ "title":
+ "Die letzten Masken",
+ "ref":
+ "pmb29877"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Olomouc",
+ "ref":
+ "pmb44176"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

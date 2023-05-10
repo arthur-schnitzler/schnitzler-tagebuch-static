@@ -1,0 +1,231 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-07-28",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-07-28.html",
+ "head":
+ "Tagebuch, 28. Juli 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Josefine Lydia von Weisswasser",
+ "ref":
+ "person_21214"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die kleine Komödie",
+ "ref":
+ "pmb31975"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Nussdorf",
+ "ref":
+ "pmb91367"}
+ ,  {
+ "placeName":
+ "Kahlenberg",
+ "ref":
+ "pmb574"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00245",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00245.html",
+ "head":
+ "Richard Beer-Hofmann an Arthur Schnitzler, 28. 7. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Bertha Flegmann",
+ "ref":
+ "pmb16312"},
+ {
+ "persName":
+ "Markus Benedict",
+ "ref":
+ "pmb13973"},
+ {
+ "persName":
+ "Paul Horn",
+ "ref":
+ "pmb18523"},
+ {
+ "persName":
+ "Emanuel Reicher",
+ "ref":
+ "pmb12491"},
+ {
+ "persName":
+ "Josef Jarno",
+ "ref":
+ "pmb2601"},
+ {
+ "persName":
+ "Fedor Mamroth",
+ "ref":
+ "pmb4986"},
+ {
+ "persName":
+ "Leo N. von Tolstoi",
+ "ref":
+ "pmb3739"},
+ {
+ "persName":
+ "Julie Kalbeck",
+ "ref":
+ "pmb36699"},
+ {
+ "persName":
+ "?? [Schreibkraft für Arthur Schnitzler]",
+ "ref":
+ "pmb27711"},
+ {
+ "persName":
+ "Max Kalbeck",
+ "ref":
+ "pmb11857"},
+ {
+ "persName":
+ "Lion",
+ "ref":
+ "pmb38849"},
+ {
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "pmb12740"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Edmund Wengraf",
+ "ref":
+ "pmb13088"},
+ {
+ "persName":
+ "Robert Hirschfeld",
+ "ref":
+ "pmb11707"},
+ {
+ "persName":
+ "Emil Löbl",
+ "ref":
+ "pmb20723"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aus Ischl, 14. Juli, schreibt man uns: …",
+ "ref":
+ "pmb32027"}
+ ,  {
+ "title":
+ "[Man schreibt uns aus Ischl]",
+ "ref":
+ "pmb33470"}
+ ,  {
+ "title":
+ "Das Kind",
+ "ref":
+ "pmb30437"}
+ ,  {
+ "title":
+ "Zwei Freunde Burckhards",
+ "ref":
+ "pmb30267"}
+ ,  {
+ "title":
+ "Ischler Brief",
+ "ref":
+ "pmb33442"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Berliner Börsen-Courier",
+ "ref":
+ "pmb29406"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}] 

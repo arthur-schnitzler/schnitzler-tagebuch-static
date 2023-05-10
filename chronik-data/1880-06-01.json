@@ -1,0 +1,67 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1880-06-01",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1880-06-01.html",
+ "head":
+ "Tagebuch, 1. Juni 1880",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ida König",
+ "ref":
+ "person_16963"},
+ {
+ "persName":
+ "Franziska Reich",
+ "ref":
+ "person_17368"},
+ {
+ "persName":
+ "Jacques Lawner",
+ "ref":
+ "person_17370"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Vor der Welt",
+ "ref":
+ "pmb36028"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00081090",
+ "head":
+ "Schnitzler, Arthur: Vor der Welt. Komödie in 5 Aufzügen [Dramatisches] (Manuskripttitel)",
+ "text":
+ "Letztes Objekt aus der Mappe. 170 Bl."
+}] 

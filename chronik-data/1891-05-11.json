@@ -1,0 +1,130 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1891-05-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-05-11.html",
+ "head":
+ "Tagebuch, 11. Mai 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Renée Ranzoni",
+ "ref":
+ "person_19053"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das Abenteuer seines Lebens. Ein einaktiges Lustspiel",
+ "ref":
+ "pmb30143"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hainbach",
+ "ref":
+ "pmb90821"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02662",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02662.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 11. 5. 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Clementine Goldmann",
+ "ref":
+ "pmb17163"},
+ {
+ "persName":
+ "Vally Rosengart",
+ "ref":
+ "pmb34971"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Heilsarmee",
+ "ref":
+ "pmb88717"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Lüttich",
+ "ref":
+ "pmb272"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Bösendorferstraße",
+ "ref":
+ "pmb542"}
+ ,  {
+ "placeName":
+ "Belgien",
+ "ref":
+ "pmb710"}
+ ,  {
+ "placeName":
+ "Brüssel",
+ "ref":
+ "pmb862"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

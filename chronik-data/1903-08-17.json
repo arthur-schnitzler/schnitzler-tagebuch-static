@@ -1,0 +1,160 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-08-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-08-17.html",
+ "head":
+ "Tagebuch, 17. August 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Eysler",
+ "ref":
+ "person_14835"},
+ {
+ "persName":
+ "Arthur Kuranda",
+ "ref":
+ "person_17209"},
+ {
+ "persName":
+ "Ernestine Lothar",
+ "ref":
+ "person_17693"},
+ {
+ "persName":
+ "August von Plappart-Leenherr",
+ "ref":
+ "person_18825"},
+ {
+ "persName":
+ "Otto von Krumhaar",
+ "ref":
+ "person_17155"},
+ {
+ "persName":
+ "Ida Rosenberg",
+ "ref":
+ "person_19370"},
+ {
+ "persName":
+ "Moritz Stuckart",
+ "ref":
+ "person_20549"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Passo della Mendola",
+ "ref":
+ "pmb91229"}
+ ,  {
+ "placeName":
+ "Cles",
+ "ref":
+ "pmb90488"}
+ ,  {
+ "placeName":
+ "Malé",
+ "ref":
+ "pmb90126"}
+ ,  {
+ "placeName":
+ "Madonna di Campiglio",
+ "ref":
+ "pmb427"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02631",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02631.html",
+ "head":
+ "Paul Goldmann an Arthur Schnitzler, 17. 8. 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Riva del Garda",
+ "ref":
+ "pmb465"}
+ ,  {
+ "placeName":
+ "San Martino di Castrozza",
+ "ref":
+ "pmb44311"}
+ ,  {
+ "placeName":
+ "Palast Hotel Lido",
+ "ref":
+ "pmb40808"}
+ ,  {
+ "placeName":
+ "Trient",
+ "ref":
+ "pmb954"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91229/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91229/",
+ "head":
+ "Passo della Mendola"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/90126/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/90126/",
+ "head":
+ "Malé"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/427/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/427/",
+ "head":
+ "Madonna di Campiglio"
+}] 

@@ -1,0 +1,140 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1898-08-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-08-07.html",
+ "head":
+ "Tagebuch, 7. August 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Sandor Rosenberg",
+ "ref":
+ "person_19377"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Caroline Burger",
+ "ref":
+ "person_14073"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kreuth",
+ "ref":
+ "pmb64703"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00832",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00832.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 7. 8. 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Telegrafenstation",
+ "ref":
+ "pmb34026"}
+ ,  {
+ "placeName":
+ "Tegernsee",
+ "ref":
+ "pmb39752"}
+ ,  {
+ "placeName":
+ "Hinterbrühl",
+ "ref":
+ "pmb75"}
+ ,  {
+ "placeName":
+ "Hotel Post",
+ "ref":
+ "pmb34048"}
+ ,  {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ,  {
+ "placeName":
+ "Basel",
+ "ref":
+ "pmb854"}
+ ,  {
+ "placeName":
+ "Hotel National",
+ "ref":
+ "pmb34028"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/39752/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/39752/",
+ "head":
+ "Tegernsee"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/64703/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/64703/",
+ "head":
+ "Kreuth"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34048/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34048/",
+ "head":
+ "Hotel Post"
+}] 

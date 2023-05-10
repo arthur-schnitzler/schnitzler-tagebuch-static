@@ -1,0 +1,144 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-06-25",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-06-25.html",
+ "head":
+ "Tagebuch, 25. Juni 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Arnold Bermann",
+ "ref":
+ "person_13657"},
+ {
+ "persName":
+ "Franz Blei",
+ "ref":
+ "person_13774"},
+ {
+ "persName":
+ "César A. Cui",
+ "ref":
+ "person_14317"},
+ {
+ "persName":
+ "Thomas Andrew Cuninghame",
+ "ref":
+ "person_14320"},
+ {
+ "persName":
+ "Alexander Moissi",
+ "ref":
+ "person_18209"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Hans Thimig",
+ "ref":
+ "person_20711"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Henri Barbusse",
+ "ref":
+ "person_13411"},
+ {
+ "persName":
+ "Ernestine Patak",
+ "ref":
+ "person_18672"},
+ {
+ "persName":
+ "Hugo Ganz",
+ "ref":
+ "person_15345"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Logik des Herzens. Lustspiel in vier Aufzügen",
+ "ref":
+ "pmb76902"}
+ ,  {
+ "title":
+ "Quartett",
+ "ref":
+ "pmb80345"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Saint-Germain-en-Laye",
+ "ref":
+ "pmb982"}
+ ,  {
+ "placeName":
+ "New York City",
+ "ref":
+ "pmb44053"}
+ ,  {
+ "placeName":
+ "Europa",
+ "ref":
+ "pmb468"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00042367",
+ "head":
+ "S.-Fischer-Verlag &lt;Berlin&gt; an Rosner, J. [Briefe]",
+ "text":
+ "2 Bl.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "S.-Fischer-Verlag &lt;Berlin&gt; (1886-1942)",
+ "ref":
+ "http://d-nb.info/gnd/35741-8"}]
+}
+}] 

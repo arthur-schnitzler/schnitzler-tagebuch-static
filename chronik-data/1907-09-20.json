@@ -1,0 +1,197 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1907-09-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1907-09-20.html",
+ "head":
+ "Tagebuch, 20. September 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Valerie von Brenneis",
+ "ref":
+ "person_13955"},
+ {
+ "persName":
+ "Oskar Fronz",
+ "ref":
+ "person_15275"},
+ {
+ "persName":
+ "Lucie Höflich",
+ "ref":
+ "person_16255"},
+ {
+ "persName":
+ "Hermann John",
+ "ref":
+ "person_16563"},
+ {
+ "persName":
+ "Emil Matern",
+ "ref":
+ "person_17965"},
+ {
+ "persName":
+ "Siegfried Rüthling",
+ "ref":
+ "person_19464"},
+ {
+ "persName":
+ "Adele Sandrock",
+ "ref":
+ "person_19564"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Gustav Davis",
+ "ref":
+ "person_14365"},
+ {
+ "persName":
+ "Olga Weede",
+ "ref":
+ "person_21133"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Der Weg ins Freie. Roman",
+ "ref":
+ "pmb29923"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ,  {
+ "placeName":
+ "Prag",
+ "ref":
+ "pmb652"}
+ ,  {
+ "placeName":
+ "Russland",
+ "ref":
+ "pmb34438"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L01709",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L01709.html",
+ "head":
+ "Jakob Wassermann, Julie Wassermann, Hugo von Hofmannsthal, Gerty von Hofmannsthal an Arthur Schnitzler, Olga Schnitzler, 20. 9. 1907",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Julie Wassermann",
+ "ref":
+ "pmb13058"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Gasthaus Gosauschmied",
+ "ref":
+ "pmb51799"}
+ ,  {
+ "placeName":
+ "Bad Aussee",
+ "ref":
+ "pmb415"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Edmund-Weiß-Gasse",
+ "ref":
+ "pmb133"}
+ ,  {
+ "placeName":
+ "Vorderer Gosausee",
+ "ref":
+ "pmb51804"}
+ ,  {
+ "placeName":
+ "Dachstein",
+ "ref":
+ "pmb45943"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

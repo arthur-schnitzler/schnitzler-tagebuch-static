@@ -1,0 +1,168 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1916-09-24",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-09-24.html",
+ "head":
+ "Tagebuch, 24. September 1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Molly von Filtsch",
+ "ref":
+ "person_14980"},
+ {
+ "persName":
+ "Otto Zsigmondy",
+ "ref":
+ "person_21581"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Tressenstein",
+ "ref":
+ "pmb91938"}
+ ,  {
+ "placeName":
+ "Siberia",
+ "ref":
+ "pmb91739"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02241",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02241.html",
+ "head":
+ "Robert Adam an Arthur Schnitzler, 24. 9. 1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Robert Adam",
+ "ref":
+ "pmb12438"},
+ {
+ "persName":
+ "Viktor Franz Patzner",
+ "ref":
+ "pmb29179"},
+ {
+ "persName":
+ "Charles de Coster",
+ "ref":
+ "pmb11110"},
+ {
+ "persName":
+ "Ricarda Huch",
+ "ref":
+ "pmb11780"},
+ {
+ "persName":
+ "G. Lenotre",
+ "ref":
+ "pmb3176"},
+ {
+ "persName":
+ "Alexandre père Dumas",
+ "ref":
+ "pmb11190"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Märchenkomödie",
+ "ref":
+ "pmb33666"}
+ ,  {
+ "title":
+ "Tyll Ulenspiegel und Lamm Goedzak",
+ "ref":
+ "pmb33636"}
+ ,  {
+ "title":
+ "Jean Christophe",
+ "ref":
+ "pmb33640"}
+ ,  {
+ "title":
+ "Der große Krieg in Deutschland",
+ "ref":
+ "pmb33638"}
+ ,  {
+ "title":
+ "Bleus, Blancs et Rouges",
+ "ref":
+ "pmb33642"}
+ ,  {
+ "title":
+ "Le mariage de Monsieur de Bréchard",
+ "ref":
+ "pmb33644"}
+ ,  {
+ "title":
+ "Meine Memoiren",
+ "ref":
+ "pmb33652"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34401/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34401/",
+ "head":
+ "Altaussee"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/34387/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/34387/",
+ "head":
+ "Villa Annerl"
+}] 

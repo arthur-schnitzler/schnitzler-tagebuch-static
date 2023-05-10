@@ -1,0 +1,155 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1893-01-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1893-01-26.html",
+ "head":
+ "Tagebuch, 26. Januar 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermine von Sonnenthal",
+ "ref":
+ "person_20207"},
+ {
+ "persName":
+ "Wilhelm Zierer",
+ "ref":
+ "person_21556"}]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00164",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00164.html",
+ "head":
+ "Karl Kraus an Arthur Schnitzler, 26. 1. 1893",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Karl Kraus",
+ "ref":
+ "pmb11988"},
+ {
+ "persName":
+ "Otto Julius Bierbaum",
+ "ref":
+ "pmb10928"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Moderner Musen-Almanach auf das Jahr 1894. Ein Jahrbuch deutscher Kunst",
+ "ref":
+ "pmb32252"}
+ ,  {
+ "title":
+ "Die drei Elixire",
+ "ref":
+ "pmb31965"}
+ ,  {
+ "title":
+ "Anatol",
+ "ref":
+ "pmb29935"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Neue litterarische Blätter",
+ "ref":
+ "pmb29563"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Wiener Hof",
+ "ref":
+ "pmb33974"}
+ ,  {
+ "placeName":
+ "Mauerstraße",
+ "ref":
+ "pmb33972"}
+ ,  {
+ "placeName":
+ "Grillparzerstraße",
+ "ref":
+ "pmb412"}
+ ,  {
+ "placeName":
+ "I., Innere Stadt",
+ "ref":
+ "pmb51"}
+ ,  {
+ "placeName":
+ "Oberbayern",
+ "ref":
+ "pmb1201"}
+ ,  {
+ "placeName":
+ "Beuerberg",
+ "ref":
+ "pmb1203"}
+ ,  {
+ "placeName":
+ "Auf der Öd",
+ "ref":
+ "pmb1204"}
+ ,  {
+ "placeName":
+ "Bremen",
+ "ref":
+ "pmb891"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/412/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/412/",
+ "head":
+ "Grillparzerstraße"
+}] 

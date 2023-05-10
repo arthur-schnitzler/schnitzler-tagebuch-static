@@ -1,0 +1,127 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1886-08-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1886-08-06.html",
+ "head":
+ "Tagebuch, 6. August 1886",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Philipp Adler",
+ "ref":
+ "person_13106"},
+ {
+ "persName":
+ "Marie Engländer",
+ "ref":
+ "person_14761"},
+ {
+ "persName":
+ "Gisela Fischer",
+ "ref":
+ "person_15002"},
+ {
+ "persName":
+ "G.",
+ "ref":
+ "person_15312"},
+ {
+ "persName":
+ "Dorothea Kohnberger",
+ "ref":
+ "person_16995"},
+ {
+ "persName":
+ "Innozenz Kohnberger",
+ "ref":
+ "person_16996"},
+ {
+ "persName":
+ "M.",
+ "ref":
+ "person_17757"},
+ {
+ "persName":
+ "Edmund Markbreiter",
+ "ref":
+ "person_17899"},
+ {
+ "persName":
+ "Alfred Pick",
+ "ref":
+ "person_18773"},
+ {
+ "persName":
+ "Anton Schey",
+ "ref":
+ "person_19661"},
+ {
+ "persName":
+ "Rudolf Pick",
+ "ref":
+ "person_18780"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "",
+ "ref":
+ "pmb91574"}
+ ,  {
+ "placeName":
+ "Meran",
+ "ref":
+ "pmb43520"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Baden bei Wien",
+ "ref":
+ "pmb662"}
+ ,  {
+ "placeName":
+ "H.",
+ "ref":
+ "pmb92265"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/483/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/483/",
+ "head":
+ "Reichenau an der Rax"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/796/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/796/",
+ "head":
+ "Thalhof"
+}] 

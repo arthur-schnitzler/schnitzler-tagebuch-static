@@ -1,0 +1,175 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1898-05-03",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1898-05-03.html",
+ "head":
+ "Tagebuch, 3. Mai 1898",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Victor Kutschera",
+ "ref":
+ "person_17223"},
+ {
+ "persName":
+ "Maria Dörmann",
+ "ref":
+ "person_17596"},
+ {
+ "persName":
+ "Lotte Medelsky",
+ "ref":
+ "person_18035"},
+ {
+ "persName":
+ "Hermann Ubell",
+ "ref":
+ "person_20851"},
+ {
+ "persName":
+ "Carl von Zeska",
+ "ref":
+ "person_21543"},
+ {
+ "persName":
+ "Pauline Fiala",
+ "ref":
+ "person_14974"},
+ {
+ "persName":
+ "Marie Reinhard",
+ "ref":
+ "person_19150"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"},
+ {
+ "persName":
+ "Rudolf Sommer",
+ "ref":
+ "person_20195"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Prater",
+ "ref":
+ "pmb91530"}
+ ,  {
+ "placeName":
+ "Wiener Neustadt",
+ "ref":
+ "pmb92109"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/143121/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/143121/",
+ "head":
+ "Aufführung von Liebelei, 3.5.1898",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Lotte Medelsky",
+ "ref":
+ "pmb2252"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Victor Kutschera",
+ "ref":
+ "pmb2868"},
+ {
+ "persName":
+ "Maria Dörmann",
+ "ref":
+ "pmb20522"},
+ {
+ "persName":
+ "Rudolf Sommer",
+ "ref":
+ "pmb25094"},
+ {
+ "persName":
+ "Carl von Zeska",
+ "ref":
+ "pmb13180"},
+ {
+ "persName":
+ "Pauline Fiala",
+ "ref":
+ "pmb16217"},
+ {
+ "persName":
+ "Hermann Ubell",
+ "ref":
+ "pmb12984"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiener Neustadt",
+ "ref":
+ "pmb587"}
+ ]
+}
+}] 

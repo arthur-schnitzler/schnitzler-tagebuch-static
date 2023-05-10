@@ -1,0 +1,101 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1924-05-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1924-05-12.html",
+ "head":
+ "Tagebuch, 12. Mai 1924",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "David Josef Bach",
+ "ref":
+ "person_13341"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Johann Dietrich",
+ "ref":
+ "person_14446"},
+ {
+ "persName":
+ "Michael Hainisch",
+ "ref":
+ "person_15853"},
+ {
+ "persName":
+ "Gisela Hajek",
+ "ref":
+ "person_15854"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Moriz Samek",
+ "ref":
+ "person_19555"},
+ {
+ "persName":
+ "Karl Seitz",
+ "ref":
+ "person_20044"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Spiel im Morgengrauen. Novelle",
+ "ref":
+ "pmb32131"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00077918",
+ "head":
+ "Nordisk Films Co. &lt;København&gt; an Hoffmann, Norbert [Briefe]",
+ "text":
+ "1 Bl.Abschr.Ausz.Durchschl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Norbert (1891-1977) Hoffmann",
+ "ref":
+ "http://d-nb.info/gnd/1113760052"}]
+}
+}] 

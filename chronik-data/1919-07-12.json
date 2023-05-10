@@ -1,0 +1,160 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1919-07-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1919-07-12.html",
+ "head":
+ "Tagebuch, 12. Juli 1919",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Albert Frankfurter",
+ "ref":
+ "person_15134"},
+ {
+ "persName":
+ "Eugenie John",
+ "ref":
+ "person_17917"},
+ {
+ "persName":
+ "Emanuel Moldauer",
+ "ref":
+ "person_18212"},
+ {
+ "persName":
+ "Maria Orska",
+ "ref":
+ "person_18582"},
+ {
+ "persName":
+ "Carl Redlich",
+ "ref":
+ "person_19091"},
+ {
+ "persName":
+ "Hans von Reitzes",
+ "ref":
+ "person_19176"},
+ {
+ "persName":
+ "Maria von Reitzes",
+ "ref":
+ "person_19177"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "William Shakespeare",
+ "ref":
+ "person_20078"},
+ {
+ "persName":
+ "Friderike Maria Zweig",
+ "ref":
+ "person_21383"},
+ {
+ "persName":
+ "Honoré de Balzac",
+ "ref":
+ "person_13396"},
+ {
+ "persName":
+ "Johan Henning Berger",
+ "ref":
+ "person_13630"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gang zum Weiher. Dramatische Dichtung",
+ "ref":
+ "pmb30775"}
+ ,  {
+ "title":
+ "Das Märchen. Schauspiel in drei Aufzügen",
+ "ref":
+ "pmb29823"}
+ ,  {
+ "title":
+ "Der Ruf des Lebens. Schauspiel in drei Akten",
+ "ref":
+ "pmb29905"}
+ ,  {
+ "title":
+ "Glanz und Elend der Kurtisanen",
+ "ref":
+ "pmb76708"}
+ ,  {
+ "title":
+ "Die andre Seite",
+ "ref":
+ "pmb79798"}
+ ,  {
+ "title":
+ "Vögelchen",
+ "ref":
+ "pmb81507"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kreindlgasse",
+ "ref":
+ "pmb60332"}
+ ,  {
+ "placeName":
+ "Michaelerberg",
+ "ref":
+ "pmb91239"}
+ ,  {
+ "placeName":
+ "Schafberg (St. Gilgen)",
+ "ref":
+ "pmb59367"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-traeume",
+ "subtype":
+ "#ISBN978-3-8353-1029-2",
+ "color":
+ "#1193CC",
+ "caption":
+ "Traumtagebuch",
+ "head":
+ "Traum vom 12. Juli 1919",
+ "source":
+ "Arthur Schnitzler: Träume. Das Traumtagebuch 1875–1931. Herausgegeben von Peter Michael Braunwarth und Leo A. Lensing. Göttingen: Wallstein 2012 (Bibliothek Janowitz, Bd. 20)"
+}] 

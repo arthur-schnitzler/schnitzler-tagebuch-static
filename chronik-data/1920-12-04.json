@@ -1,0 +1,79 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1920-12-04",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1920-12-04.html",
+ "head":
+ "Tagebuch, 4. Dezember 1920",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Friedmann",
+ "ref":
+ "person_15234"},
+ {
+ "persName":
+ "Alfred Götzl",
+ "ref":
+ "person_15507"},
+ {
+ "persName":
+ "Gustav Nowy von Wallersberg",
+ "ref":
+ "person_18500"},
+ {
+ "persName":
+ "Hubert Reusch",
+ "ref":
+ "person_19210"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Maximilian Sladek",
+ "ref":
+ "person_20161"},
+ {
+ "persName":
+ "Friedrich Geiringer",
+ "ref":
+ "person_15369"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

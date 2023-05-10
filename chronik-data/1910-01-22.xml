@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1910-01-22">Samstag, 22. Januar 1910</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1910-01-22">
+               <head>Tagebuch, 22. Januar 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName ref="person_13581">Marianne Benedict</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_13608">Otto Carl Waldemar Benzon</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14377">von Degen</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_14473">Ernst von Dohnányi</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16045">Heindl</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17351">Ernst Latzko</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_17571">Lindner</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19906">Ernst von Schuch</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20011">Nikolaus von Seebach</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20211">Fritz Soot</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20517">Willy Strecker</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20670">Irma Tervani</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_20515">Ludwig Strecker</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_16166">Bernhard Herzmansky</persName>
+                     </person>
+                     <person>
+                        <persName ref="person_19611">Hermine von Schaffgotsch</persName>
+                     </person>
+                  </listPerson>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30215">Der Schleier der Pierrette</title>
+                     </bibl>
+                     <bibl>
+                        <title ref="pmb44525">Versiegelt. Komische Oper</title>
+                     </bibl>
+                  </listBibl>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb50">Wien</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-01-22.html</idno>
+            </event>
+            <event when-iso="1910-01-22">
+               <head>Dresden</head>
+               <desc/>
+               <idno type="schnitzler-orte">https://pmb.acdh.oeaw.ac.at/entity/90550/</idno>
+            </event>
+            <event when-iso="1910-01-22">
+               <head>Uraufführung von Der Schleier der Pierrette, 22.1.1910</head>
+               <desc>
+                  <listBibl>
+                     <bibl>
+                        <title ref="pmb30215" type="auffuhrung-von-urauffuhrung-von">Der Schleier der Pierrette</title>
+                     </bibl>
+                  </listBibl>
+                  <listPerson>
+                     <person>
+                        <persName ref="pmb2173" type="hat-als-teilnehmerin">Olga Schnitzler</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb24537" type="hat-als-arbeitskraft">Ernst von Schuch</persName>
+                     </person>
+                     <person>
+                        <persName ref="pmb14029" type="hat-als-teilnehmerin">Otto Carl Waldemar Benzon</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place>
+                        <placeName ref="pmb866" type="veranstaltet-in">Dresden</placeName>
+                     </place>
+                  </listPlace>
+               </desc>
+               <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/35373/</idno>
+            </event>
+            <event when-iso="1910-01-22">
+               <head>Erhalt von Zinaida Vengerova an Arthur Schnitzler, 19. 1. 1910</head>
+               <desc>
+                  <listPerson>
+                     <person>
+                        <persName>Vengerova, Zinaida</persName>
+                     </person>
+                  </listPerson>
+                  <bibl>Die
+                    Korrespondenz von Arthur Schnitzler mit Isabella Vengerova und Zinaida
+                    Vengerova. Herausgegeben von Konstantin Asadowski und Martin
+                    Anton Müller. In: Hofmannsthal-Jahrbuch zur europäischen Moderne, Bd. 30
+                    (2022), S. 7–91.</bibl>
+               </desc>
+               <idno type="schnitzler-cmif"
+                     subtype="#asbw_4ed2e411-8d76-435f-aea0-faf299e96d86"/>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

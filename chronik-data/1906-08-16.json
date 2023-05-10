@@ -1,0 +1,67 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1906-08-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-08-16.html",
+ "head":
+ "Tagebuch, 16. August 1906",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Johann Wolfgang von Goethe",
+ "ref":
+ "person_15499"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Weimar",
+ "ref":
+ "pmb197"}
+ ,  {
+ "placeName":
+ "Ilmenau",
+ "ref":
+ "pmb2351"}
+ ,  {
+ "placeName":
+ "Kickelhahn",
+ "ref":
+ "pmb91024"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/197/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/197/",
+ "head":
+ "Weimar"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/2351/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/2351/",
+ "head":
+ "Ilmenau"
+}] 

@@ -1,0 +1,90 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1916-04-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1916-04-20.html",
+ "head":
+ "Tagebuch, 20. April 1916",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustav Schwarzkopf",
+ "ref":
+ "person_19986"},
+ {
+ "persName":
+ "Rahel von Varnhagen-Ense",
+ "ref":
+ "person_20930"},
+ {
+ "persName":
+ "Paul Rohrbach",
+ "ref":
+ "person_19329"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Fink und Fliederbusch. Komödie in drei Akten",
+ "ref":
+ "pmb30881"}
+ ,  {
+ "title":
+ "Die Geschichte der Menschheit",
+ "ref":
+ "pmb81202"}
+ ,  {
+ "title":
+ "Rahel, ein Buch des Andenkens für ihre Freunde",
+ "ref":
+ "pmb76538"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hochschneeberg",
+ "ref":
+ "pmb5836"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00034121",
+ "head":
+ "Freud, Arthur an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

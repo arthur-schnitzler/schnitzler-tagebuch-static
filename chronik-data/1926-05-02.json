@@ -1,0 +1,80 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-05-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-05-02.html",
+ "head":
+ "Tagebuch, 2. Mai 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Norbert Jacques",
+ "ref":
+ "person_16486"},
+ {
+ "persName":
+ "George Moore",
+ "ref":
+ "person_18243"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Gespräche mit Heine",
+ "ref":
+ "pmb80722"}
+ ,  {
+ "title":
+ "Neue Brasilienreise",
+ "ref":
+ "pmb78868"}
+ ,  {
+ "title":
+ "Pariser Geschichten",
+ "ref":
+ "pmb81027"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Las Palmas de Gran Canaria",
+ "ref":
+ "pmb44097"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44097/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44097/",
+ "head":
+ "Las Palmas de Gran Canaria"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp320",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp320.html",
+ "head":
+ "Arthur Schnitzler an Clara Katharina Pollaczek, 2. Mai 1926"
+}] 

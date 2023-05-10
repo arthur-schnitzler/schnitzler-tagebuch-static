@@ -1,0 +1,111 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1931-05-14",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-05-14.html",
+ "head":
+ "Tagebuch, 14. Mai 1931",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Knut Hamsun",
+ "ref":
+ "person_15894"},
+ {
+ "persName":
+ "Josef Moser",
+ "ref":
+ "person_18266"},
+ {
+ "persName":
+ "Thornton Wilder",
+ "ref":
+ "person_21327"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "August Weltumsegler",
+ "ref":
+ "pmb78021"}
+ ,  {
+ "title":
+ "Die Cabala",
+ "ref":
+ "pmb81500"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Semmering",
+ "ref":
+ "pmb91735"}
+ ,  {
+ "placeName":
+ "Pinkenkogel",
+ "ref":
+ "pmb91482"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91735/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91735/",
+ "head":
+ "Semmering"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91482/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91482/",
+ "head":
+ "Pinkenkogel"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp908",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp908.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 10.–14. Mai 1931"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp909",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp909.html",
+ "head":
+ "Tagebuch von Clara Katharina Pollaczek, 14.–15. Mai 1931"
+}] 

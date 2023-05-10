@@ -1,0 +1,233 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1903-03-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1903-03-07.html",
+ "head":
+ "Tagebuch, 7. März 1903",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Paul Marx",
+ "ref":
+ "person_17958"},
+ {
+ "persName":
+ "Demetrius Mito von Minotto",
+ "ref":
+ "person_18183"},
+ {
+ "persName":
+ "Agnes Sorma",
+ "ref":
+ "person_20219"},
+ {
+ "persName":
+ "Elisabeth Steinrück",
+ "ref":
+ "person_20386"},
+ {
+ "persName":
+ "Mirjam Horwitz",
+ "ref":
+ "person_21546"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Liebelei. Schauspiel in drei Akten",
+ "ref":
+ "pmb29917"}
+ ,  {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Tiergarten",
+ "ref":
+ "pmb91893"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/168/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/168/",
+ "head":
+ "Berlin"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/88/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/88/",
+ "head":
+ "Palasthotel Berlin"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/35098/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/35098/",
+ "head":
+ "Premiere von Der Schleier der Beatrice, 7.3.1903",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Der Schleier der Beatrice. Schauspiel in fünf Akten",
+ "ref":
+ "pmb29857"}
+ ,  {
+ "title":
+ "[Im Deutschen Theater soll »Der Schleier der Beatrice«]",
+ "ref":
+ "pmb88513"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Friedrich Kayssler",
+ "ref":
+ "pmb11895"},
+ {
+ "persName":
+ "Oskar Sauer",
+ "ref":
+ "pmb2193"},
+ {
+ "persName":
+ "Oskar Hofmeister",
+ "ref":
+ "pmb18412"},
+ {
+ "persName":
+ "Adolf Kurth",
+ "ref":
+ "pmb44876"},
+ {
+ "persName":
+ "Bruno Ziener",
+ "ref":
+ "pmb4220"},
+ {
+ "persName":
+ "Karl Forest",
+ "ref":
+ "pmb4431"},
+ {
+ "persName":
+ "Rudolf Rittner",
+ "ref":
+ "pmb12530"},
+ {
+ "persName":
+ "Paul Marx",
+ "ref":
+ "pmb21647"},
+ {
+ "persName":
+ "Leopold Iwald",
+ "ref":
+ "pmb18710"},
+ {
+ "persName":
+ "Hanns Friedrich Fischer",
+ "ref":
+ "pmb16275"},
+ {
+ "persName":
+ "Louise von Pöllnitz",
+ "ref":
+ "pmb28355"},
+ {
+ "persName":
+ "Louise Dumont",
+ "ref":
+ "pmb11195"},
+ {
+ "persName":
+ "Albert Bassermann",
+ "ref":
+ "pmb10844"},
+ {
+ "persName":
+ "Irene Triesch",
+ "ref":
+ "pmb12977"},
+ {
+ "persName":
+ "Kurt Stieler",
+ "ref":
+ "pmb10733"},
+ {
+ "persName":
+ "Carl Meinhard",
+ "ref":
+ "pmb8889"},
+ {
+ "persName":
+ "Hermine Medelsky",
+ "ref":
+ "pmb8883"},
+ {
+ "persName":
+ "Hedwig Pauly-Winterstein",
+ "ref":
+ "pmb5211"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Deutsches Theater Berlin",
+ "ref":
+ "pmb3"}
+ ]
+}
+}] 

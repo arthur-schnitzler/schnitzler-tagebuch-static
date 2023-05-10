@@ -1,0 +1,78 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-04-30",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-04-30.html",
+ "head":
+ "Tagebuch, 30. April 1926",
+ "desc":
+{"listPlace":
+  [
+ {
+ "placeName":
+ "Las Palmas de Gran Canaria",
+ "ref":
+ "pmb44097"}
+ ,  {
+ "placeName":
+ "Telde",
+ "ref":
+ "pmb91877"}
+ ,  {
+ "placeName":
+ "La Atalaya",
+ "ref":
+ "pmb90274"}
+ ,  {
+ "placeName":
+ "Santa Brígida",
+ "ref":
+ "pmb90402"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/44097/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/44097/",
+ "head":
+ "Las Palmas de Gran Canaria"
+}, {
+ "type":
+ "pollaczek",
+ "color":
+ "#1e81b0",
+ "filename":
+ "ckp330",
+ "caption":
+ "Pollazczek: Schnitzler und ich",
+ "idno":
+ "https://pollaczek.acdh.oeaw.ac.at/ckp330.html",
+ "head":
+ "Clara Katharina Pollaczek an Arthur Schnitzler, 28.–30. April 1926"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#n0827e77-245d-4359-a0b0-5b601a5370ee",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Arthur Schnitzler an Hedy Kempny, 30.4.1926",
+ "source":
+ "Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen. Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei Hamburg: Rowohlt 1984. (Neue Frau)"
+}] 

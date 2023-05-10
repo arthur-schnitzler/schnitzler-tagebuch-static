@@ -1,0 +1,133 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1926-03-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1926-03-08.html",
+ "head":
+ "Tagebuch, 8. März 1926",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig van Beethoven",
+ "ref":
+ "person_13555"},
+ {
+ "persName":
+ "Lili Schnitzler",
+ "ref":
+ "person_14130"},
+ {
+ "persName":
+ "Christoph Willibald Gluck",
+ "ref":
+ "person_15476"},
+ {
+ "persName":
+ "Robert Lichtenstern",
+ "ref":
+ "person_17509"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "person_17784"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Richard Strauss",
+ "ref":
+ "person_20509"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Geist im Wort und der Geist in der Tat",
+ "ref":
+ "pmb30051"}
+ ,  {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ,  {
+ "title":
+ "Die Geschöpfe des Prometheus, Ouvertüre C-Dur op. 43",
+ "ref":
+ "pmb77142"}
+ ,  {
+ "title":
+ "Don Juan",
+ "ref":
+ "pmb78169"}
+ ,  {
+ "title":
+ "Schlagobers op. 70",
+ "ref":
+ "pmb76846"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-cmif",
+ "subtype":
+ "#v149ca80-1848-4eff-991d-4c2560c2e17b",
+ "color":
+ "#654321",
+ "caption":
+ "Gedruckte Briefwechsel",
+ "head":
+ "Sigmund Freud an Arthur Schnitzler, 8.3.1926",
+ "source":
+ "Freud, Sigmund: Briefe an Arthur Schnitzler. Hg. v. Heinrich Schnitzler. In: Neue deutsche Rundschau, Jg. 66/1(1955), S. 95–106. https://shared.acdh.oeaw.ac.at/schnitzler-briefe/1955_Freud-an-Schnitzler.pdf"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00076887",
+ "head":
+ "Schnitzler, Arthur an Toit, M... du [Briefe]",
+ "text":
+ "1 Bl. Durchschl."
+}] 

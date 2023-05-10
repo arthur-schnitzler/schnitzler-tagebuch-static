@@ -1,0 +1,59 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1891-01-10",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1891-01-10.html",
+ "head":
+ "Tagebuch, 10. Januar 1891",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Katharina Kohn",
+ "ref":
+ "person_14797"},
+ {
+ "persName":
+ "Ignaz Pserhofer",
+ "ref":
+ "person_18986"},
+ {
+ "persName":
+ "Ida Van-Jung",
+ "ref":
+ "person_20924"},
+ {
+ "persName":
+ "Anna Holitscher",
+ "ref":
+ "person_16321"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Gimpel",
+ "ref":
+ "pmb80705"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

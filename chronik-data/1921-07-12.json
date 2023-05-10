@@ -1,0 +1,84 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1921-07-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1921-07-12.html",
+ "head":
+ "Tagebuch, 12. Juli 1921",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo Kauder",
+ "ref":
+ "person_16765"},
+ {
+ "persName":
+ "Alma Maria Mahler",
+ "ref":
+ "person_17784"},
+ {
+ "persName":
+ "Franz Werfel",
+ "ref":
+ "person_21243"},
+ {
+ "persName":
+ "Gustav Mahler",
+ "ref":
+ "person_17786"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Kreuzberg",
+ "ref":
+ "pmb91067"}
+ ,  {
+ "placeName":
+ "Rothschildgarten",
+ "ref":
+ "pmb92495"}
+ ,  {
+ "placeName":
+ "Kärntnerstraße",
+ "ref":
+ "pmb92330"}
+ ,  {
+ "placeName":
+ "Eselbach",
+ "ref":
+ "pmb92229"}
+ ,  {
+ "placeName":
+ "Payerbach",
+ "ref":
+ "pmb948"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/91067/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/91067/",
+ "head":
+ "Kreuzberg"
+}] 

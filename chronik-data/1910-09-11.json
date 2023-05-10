@@ -1,0 +1,215 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1910-09-11",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1910-09-11.html",
+ "head":
+ "Tagebuch, 11. September 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Julius Bauer",
+ "ref":
+ "person_13471"},
+ {
+ "persName":
+ "Rosie Hutzler",
+ "ref":
+ "person_16427"},
+ {
+ "persName":
+ "Josef Kainz",
+ "ref":
+ "person_16646"},
+ {
+ "persName":
+ "Margarethe Kainz",
+ "ref":
+ "person_16647"},
+ {
+ "persName":
+ "Paul Lindau",
+ "ref":
+ "person_17558"},
+ {
+ "persName":
+ "Kurt von Mutzenbecher",
+ "ref":
+ "person_18338"},
+ {
+ "persName":
+ "Jolantha Ramazetta",
+ "ref":
+ "person_19041"},
+ {
+ "persName":
+ "Georg Reimers",
+ "ref":
+ "person_19139"},
+ {
+ "persName":
+ "Hans Schnitzler",
+ "ref":
+ "person_19821"},
+ {
+ "persName":
+ "Siegfried Loewy",
+ "ref":
+ "person_17666"},
+ {
+ "persName":
+ "Émile Verhaeren",
+ "ref":
+ "person_20944"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Aegidius",
+ "ref":
+ "pmb35727"}
+ ,  {
+ "title":
+ "Fastnachtgeschichten",
+ "ref":
+ "pmb35792"}
+ ,  {
+ "title":
+ "Gold und Ehrlichkeit",
+ "ref":
+ "pmb35804"}
+ ,  {
+ "title":
+ "Der Mörder. Novelle",
+ "ref":
+ "pmb33754"}
+ ,  {
+ "title":
+ "Der Raub der Sabinerinnen",
+ "ref":
+ "pmb35976"}
+ ,  {
+ "title":
+ "Tarquinius Superbus",
+ "ref":
+ "pmb36006"}
+ ,  {
+ "title":
+ "Der Moloch",
+ "ref":
+ "pmb30309"}
+ ,  {
+ "title":
+ "Hélène de Sparte",
+ "ref":
+ "pmb81442"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Pötzleinsdorf",
+ "ref":
+ "pmb169"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L02557",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L02557.html",
+ "head":
+ "Olga Schnitzler an Richard Beer-Hofmann, Paula Beer-Hofmann, 11. 9. 1910",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Paula Beer-Hofmann",
+ "ref":
+ "pmb10860"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Gebrüder Wild – Schmalz- und Käsehandlung",
+ "ref":
+ "pmb53205"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "IX., Alsergrund",
+ "ref":
+ "pmb59"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "XVIII., Währing",
+ "ref":
+ "pmb68"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Steinfeld",
+ "ref":
+ "pmb405"}
+ ,  {
+ "placeName":
+ "Mondsee",
+ "ref":
+ "pmb53759"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

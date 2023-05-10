@@ -1,0 +1,106 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1927-09-16",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1927-09-16.html",
+ "head":
+ "Tagebuch, 16. September 1927",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Ludwig Goldscheider",
+ "ref":
+ "person_15534"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Buch der Sprüche und Bedenken",
+ "ref":
+ "pmb30053"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS01048004",
+ "head":
+ "Kasack, Hermann: Über Arthur Schnitzler, Jacob Wassermann, Emil Strauß, Ricarda Huch, Josef Ponten [Prosa] (Titel von Bearbeiter/in)",
+ "text":
+ "10 Bl. Durchschl. mit hs. Korr.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann (1896-1966) Kasack",
+ "ref":
+ "http://d-nb.info/gnd/118560360"},
+ {
+ "persName":
+ "Jakob (1873-1934) Wassermann",
+ "ref":
+ "http://d-nb.info/gnd/118629387"},
+ {
+ "persName":
+ "Emil (1845-1903) Strauß",
+ "ref":
+ "http://d-nb.info/gnd/117311863"},
+ {
+ "persName":
+ "Ricarda (1864-1947) Huch",
+ "ref":
+ "http://d-nb.info/gnd/118554190"},
+ {
+ "persName":
+ "Josef (1883-1940) Ponten",
+ "ref":
+ "http://d-nb.info/gnd/118792849"},
+ {
+ "persName":
+ "Wilhelm (1868-1952) Schäfer",
+ "ref":
+ "http://d-nb.info/gnd/118794868"}]
+}
+}] 

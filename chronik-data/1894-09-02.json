@@ -1,0 +1,79 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1894-09-02",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-09-02.html",
+ "head":
+ "Tagebuch, 2. September 1894",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "person_15529"},
+ {
+ "persName":
+ "Stephan? Bauer",
+ "ref":
+ "person_13477"},
+ {
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "person_16293"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Rettenbach Wildnis",
+ "ref":
+ "pmb92482"}
+ ,  {
+ "placeName":
+ "Strobl",
+ "ref":
+ "pmb91852"}
+ ,  {
+ "placeName":
+ "Sankt Wolfgang im Salzkammergut",
+ "ref":
+ "pmb61000"}
+ ,  {
+ "placeName":
+ "Cambridge",
+ "ref":
+ "pmb893"}
+ ,  {
+ "placeName":
+ "Oxford",
+ "ref":
+ "pmb44197"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl"
+}] 

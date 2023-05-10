@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:mam="whatever"
+     xmlns:df="http://example.com/df">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler – Chronik</title>
+            <title level="a" when-iso="1931-11-12">Donnerstag, 12. November 1931</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Kristina Fink</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when-iso="2023-05-10.">10.05.2023</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">
+                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder
+                                        Medium vervielfältigen und weiterverbreiten Bearbeiten — das
+                                        Material remixen, verändern und darauf aufbauen und zwar für
+                                        beliebige Zwecke, sogar kommerziell.</p>
+                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen
+                                        solange Sie sich an die Lizenzbedingungen halten. Unter
+                                        folgenden Bedingungen:</p>
+                  <p>Namensnennung — Sie müssen angemessene Urheber- und
+                                        Rechteangaben machen, einen Link zur Lizenz beifügen und
+                                        angeben, ob Änderungen vorgenommen wurden. Diese Angaben
+                                        dürfen in jeder angemessenen Art und Weise gemacht werden,
+                                        allerdings nicht so, dass der Eindruck entsteht, der
+                                        Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+                                        besonders. Keine weiteren Einschränkungen — Sie dürfen keine
+                                        zusätzlichen Klauseln oder technische Verfahren einsetzen,
+                                        die anderen rechtlich irgendetwas untersagen, was die Lizenz
+                                        erlaubt.</p>
+                  <p>Hinweise:</p>
+                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich
+                                        solcher Teile des Materials, die gemeinfrei sind, oder
+                                        soweit Ihre Nutzungshandlungen durch Ausnahmen und Schranken
+                                        des Urheberrechts gedeckt sind. Es werden keine Garantien
+                                        gegeben und auch keine Gewähr geleistet. Die Lizenz
+                                        verschafft Ihnen möglicherweise nicht alle Erlaubnisse, die
+                                        Sie für die jeweilige Nutzung brauchen. Es können
+                                        beispielsweise andere Rechte wie Persönlichkeits- und
+                                        Datenschutzrechte zu beachten sein, die Ihre Nutzung des
+                                        Materials entsprechend beschränken.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Für jeden Tag zwischen 1879 und 1931–10-21 in Arthur Schnitzlers
+                                Leben, für den es mindestens ein Ereignis gibt, einen Eintrag </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent xmlns:foo="whatever">
+            <event when-iso="1931-11-12">
+               <head>Brief von Gerhart Hauptmann und Elisabeth Beerbohm an Joseph Chapiro</head>
+               <desc>Bittet um Entschuldigung dafür, dass er die Antwort auf
+         Chapiros "Schnitzler-Anregung" schuldig geblieben ist. "Ich steckte bis über den Kopf
+         in eigenen Dingen, und eine negative Antwort ist immer so ungeheuer schwierig." Reinhardt
+         will 'Vor Sonnenuntergang' Ende Januar herausbringen. "Das Stück hat vor den Augen
+         derer, die es wissen müssen, Gnade gefunden. Ich bin sehr erfreut darüber." Wird
+         sich am 19. Februar in Bremen [für die Amerika-Reise anlässlich der Ehrungen zum
+         70. Geburtstag Hauptmanns] einschiffen. Anmerkung Elisabeth Jungmanns auf dem
+         Briefumschlag: "'Villon' ist eben eingetroffen! Gruss E J'mann".1 Brief, 2 Bl.; 1 Briefumschlag; insges. 3 Bl.<listPerson>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/118546937">Hauptmann, Gerhart (1862-1946)</persName>
+                     </person>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/119203502">Beerbohm, Elisabeth (1894-1958)</persName>
+                     </person>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/114088888">Chapiro, Joseph (1893-1962)</persName>
+                     </person>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/126794855">Schnitzler, Arthur (1862-1931)</persName>
+                     </person>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/118599380">Reinhardt, Max (1873-1943)</persName>
+                     </person>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/116188707">Pinkus, Max (1857-1934)</persName>
+                     </person>
+                     <person>
+                        <persName ref="http://d-nb.info/gnd/2008956-9">Deutsches Theater (Berlin)</persName>
+                     </person>
+                  </listPerson>
+               </desc>
+               <idno type="kalliope-verbund">http://kalliope-verbund.info/DE-611-HS-1765316</idno>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

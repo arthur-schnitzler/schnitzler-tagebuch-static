@@ -1,0 +1,126 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1914-05-06",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1914-05-06.html",
+ "head":
+ "Tagebuch, 6. Mai 1914",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Stefanie Bachrach",
+ "ref":
+ "person_13359"},
+ {
+ "persName":
+ "Margarethe Herzl",
+ "ref":
+ "person_16162"},
+ {
+ "persName":
+ "Kern",
+ "ref":
+ "person_16816"},
+ {
+ "persName":
+ "Karoline Leitner",
+ "ref":
+ "person_17423"},
+ {
+ "persName":
+ "Moriz Reichenfeld",
+ "ref":
+ "person_19124"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "La Traviata",
+ "ref":
+ "pmb30847"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Fiesole",
+ "ref":
+ "pmb48621"}
+ ,  {
+ "placeName":
+ "Viale dei colli",
+ "ref":
+ "pmb92582"}
+ ,  {
+ "placeName":
+ "Piazza Michel Angelo",
+ "ref":
+ "pmb92445"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/263/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/263/",
+ "head":
+ "Florenz"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00076855",
+ "head":
+ "Meyrink, Gustav an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustav (1868-1932) Meyrink",
+ "ref":
+ "http://d-nb.info/gnd/118582046"}]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00063041",
+ "head":
+ "Meyrink, Gustav an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl.Kopie. Mit Negativkopie",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gustav (1868-1932) Meyrink",
+ "ref":
+ "http://d-nb.info/gnd/118582046"}]
+}
+}] 

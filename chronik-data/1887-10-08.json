@@ -1,0 +1,62 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1887-10-08",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1887-10-08.html",
+ "head":
+ "Tagebuch, 8. Oktober 1887",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Friedrich Kapper",
+ "ref":
+ "person_16709"},
+ {
+ "persName":
+ "Heinrich Glogau",
+ "ref":
+ "person_15472"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Doppelgänger",
+ "ref":
+ "pmb81523"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Wiednertheater",
+ "ref":
+ "pmb92603"}
+ ,  {
+ "placeName":
+ "Leidingers Restauration",
+ "ref":
+ "pmb42"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}] 

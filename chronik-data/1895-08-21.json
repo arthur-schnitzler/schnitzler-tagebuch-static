@@ -1,0 +1,130 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1895-08-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1895-08-21.html",
+ "head":
+ "Tagebuch, 21. August 1895",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "person_13551"},
+ {
+ "persName":
+ "Felix Markbreiter",
+ "ref":
+ "person_17901"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Leopoldskron",
+ "ref":
+ "pmb91137"}
+ ,  {
+ "placeName":
+ "Hellbrunn",
+ "ref":
+ "pmb31"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-briefe",
+ "color":
+ "#A63437",
+ "filename":
+ "L00476",
+ "caption":
+ "Briefe mit Autorinnen und Autoren",
+ "idno":
+ "https://schnitzler-briefe.acdh.oeaw.ac.at/L00476.html",
+ "head":
+ "Hugo von Hofmannsthal an Arthur Schnitzler, 21. [8. 1895]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hugo von Hofmannsthal",
+ "ref":
+ "pmb11740"},
+ {
+ "persName":
+ "Paul Goldmann",
+ "ref":
+ "pmb11485"},
+ {
+ "persName":
+ "Lou Andreas-Salomé",
+ "ref":
+ "pmb10762"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Faust. Eine Tragödie",
+ "ref":
+ "pmb30247"}
+ ,  {
+ "title":
+ "Wilhelm Meisters Wanderjahre",
+ "ref":
+ "pmb31131"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Hoch- und Deutschmeisterkapelle",
+ "ref":
+ "pmb34379"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Znojmo",
+ "ref":
+ "pmb33976"}
+ ,  {
+ "placeName":
+ "Wien",
+ "ref":
+ "pmb50"}
+ ,  {
+ "placeName":
+ "Dobšice u Znojma",
+ "ref":
+ "pmb33985"}
+ ,  {
+ "placeName":
+ "Znaim",
+ "ref":
+ "pmb33978"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/30/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/30/",
+ "head":
+ "Salzburg"
+}] 

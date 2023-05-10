@@ -1,0 +1,67 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1909-10-26",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1909-10-26.html",
+ "head":
+ "Tagebuch, 26. Oktober 1909",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Jenny Schnabl",
+ "ref":
+ "person_19796"},
+ {
+ "persName":
+ "Alfred Fekete",
+ "ref":
+ "person_14922"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Die Verhüllte",
+ "ref":
+ "pmb80487"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00038452",
+ "head":
+ "Kruse, ... an Schnitzler, Arthur [Briefe]",
+ "text":
+ "2 Bl."
+}] 

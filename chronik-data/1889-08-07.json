@@ -1,0 +1,59 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1889-08-07",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1889-08-07.html",
+ "head":
+ "Tagebuch, 7. August 1889",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Adele Kapper",
+ "ref":
+ "person_16706"},
+ {
+ "persName":
+ "Friedrich Kapper",
+ "ref":
+ "person_16709"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Bad Ischl",
+ "ref":
+ "pmb213"}
+ ,  {
+ "placeName":
+ "Weißenbach am Attersee",
+ "ref":
+ "pmb34344"}
+ ,  {
+ "placeName":
+ "Unterach am Attersee",
+ "ref":
+ "pmb91973"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/213/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/213/",
+ "head":
+ "Bad Ischl"
+}] 

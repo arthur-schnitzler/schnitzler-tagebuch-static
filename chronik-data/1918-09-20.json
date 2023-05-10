@@ -1,0 +1,424 @@
+[{
+ "type":
+ "Arthur-Schnitzler-digital",
+ "color":
+ "#801e23",
+ "caption":
+ "Arthur Schnitzler digital (Werke 1905–1931)",
+ "idno":
+ "https://www.schnitzler-edition.net",
+ "head":
+ "Therese. Chronik eines Frauenlebens, Typoskript",
+ "text":
+ "Publikation in Vorbereitung"
+}, {
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1918-09-20",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1918-09-20.html",
+ "head":
+ "Tagebuch, 20. September 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "person_13202"},
+ {
+ "persName":
+ "Johannes Brahms",
+ "ref":
+ "person_13914"},
+ {
+ "persName":
+ "Anton Edthofer",
+ "ref":
+ "person_14620"},
+ {
+ "persName":
+ "Friedrich Gustav Piffl",
+ "ref":
+ "person_18796"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "person_19822"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "person_21594"},
+ {
+ "persName":
+ "Richard Lieben",
+ "ref":
+ "person_17515"},
+ {
+ "persName":
+ "Thaddäus Rittner",
+ "ref":
+ "person_19290"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "person_13374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Jugend in Wien",
+ "ref":
+ "pmb33838"}
+ ,  {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ,  {
+ "title":
+ "Lebendige Stunden. Vier Einakter",
+ "ref":
+ "pmb29863"}
+ ,  {
+ "title":
+ "Therese. Chronik eines Frauenlebens",
+ "ref":
+ "pmb30817"}
+ ,  {
+ "title":
+ "Symphonie Nr. 3 F-Dur op. 90",
+ "ref":
+ "pmb31591"}
+ ,  {
+ "title":
+ "Unterwegs. Ein Don Juan-Drama in drei Akten",
+ "ref":
+ "pmb31589"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ,  {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041553",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041553.html",
+ "head":
+ "Tagebuch von Schnitzler, 20. 9. 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "pmb2312"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Leopold von Andrian-Werburg",
+ "ref":
+ "pmb10765"},
+ {
+ "persName":
+ "Thaddäus Rittner",
+ "ref":
+ "pmb23452"},
+ {
+ "persName":
+ "Anton Edthofer",
+ "ref":
+ "pmb11224"},
+ {
+ "persName":
+ "Friedrich Gustav Piffl",
+ "ref":
+ "pmb12417"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "pmb2173"},
+ {
+ "persName":
+ "Richard Lieben",
+ "ref":
+ "pmb4020"},
+ {
+ "persName":
+ "Heinrich Schnitzler",
+ "ref":
+ "pmb12692"},
+ {
+ "persName":
+ "Johannes Brahms",
+ "ref":
+ "pmb10989"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Der Sohn. Aus den Papieren eines Arztes",
+ "ref":
+ "pmb30257"}
+ ,  {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ,  {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Unterwegs. Ein Don Juan-Drama in drei Akten",
+ "ref":
+ "pmb31589"}
+ ,  {
+ "title":
+ "Lebendige Stunden. Vier Einakter",
+ "ref":
+ "pmb29863"}
+ ,  {
+ "title":
+ "Professor Bernhardi. Komödie in fünf Akten",
+ "ref":
+ "pmb30203"}
+ ,  {
+ "title":
+ "Symphonie Nr. 3 F-Dur op. 90",
+ "ref":
+ "pmb31591"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Burgtheater",
+ "ref":
+ "pmb14"}
+ ,  {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "D041573",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/D041573.html",
+ "head":
+ "Aufzeichnung von Bahr, 20. 9. 1918",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Anna Bahr-Mildenburg",
+ "ref":
+ "pmb10818"},
+ {
+ "persName":
+ "Theodor Wolff",
+ "ref":
+ "pmb13163"},
+ {
+ "persName":
+ "Josef von Hunyady von Kéthely",
+ "ref":
+ "pmb28852"},
+ {
+ "persName":
+ "Heinrich Lammasch",
+ "ref":
+ "pmb28855"},
+ {
+ "persName":
+ "Berta Zuckerkandl",
+ "ref":
+ "pmb2312"},
+ {
+ "persName":
+ "Robert Michel",
+ "ref":
+ "pmb12254"},
+ {
+ "persName":
+ "Josef Redlich",
+ "ref":
+ "pmb12481"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Gisela Wilke",
+ "ref":
+ "pmb13125"},
+ {
+ "persName":
+ "Alfred Roller",
+ "ref":
+ "pmb12548"},
+ {
+ "persName":
+ "Max Devrient",
+ "ref":
+ "pmb2446"},
+ {
+ "persName":
+ "Friedrich Pineles",
+ "ref":
+ "pmb4861"},
+ {
+ "persName":
+ "Erhard Buschbeck",
+ "ref":
+ "pmb11054"},
+ {
+ "persName":
+ "Georg von Sachsen",
+ "ref":
+ "pmb4839"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Schwestern oder Casanova in Spa. Lustspiel in Versen",
+ "ref":
+ "pmb30819"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Hotel Bristol",
+ "ref":
+ "pmb205"}
+ ,  {
+ "placeName":
+ "Oper",
+ "ref":
+ "pmb15"}
+ ,  {
+ "placeName":
+ "Liebiggasse",
+ "ref":
+ "pmb810"}
+ ,  {
+ "placeName":
+ "Sternwartestraße",
+ "ref":
+ "pmb150"}
+ ,  {
+ "placeName":
+ "Prinz-Eugen-Straße",
+ "ref":
+ "pmb524"}
+ ,  {
+ "placeName":
+ "Bulgarien",
+ "ref":
+ "pmb249"}
+ ,  {
+ "placeName":
+ "Österreich",
+ "ref":
+ "pmb41240"}
+ ,  {
+ "placeName":
+ "Preußen",
+ "ref":
+ "pmb206"}
+ ,  {
+ "placeName":
+ "Sachsen",
+ "ref":
+ "pmb209"}
+ ]
+}
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00083632",
+ "head":
+ "Schnitzler, Arthur: Therese. Chronik eines Frauenlebens [Prosa] (Drucktitel)",
+ "text":
+ "7 Bl."
+}] 

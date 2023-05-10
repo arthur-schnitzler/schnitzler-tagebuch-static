@@ -1,0 +1,87 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1901-02-05",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-02-05.html",
+ "head":
+ "Tagebuch, 5. Februar 1901",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Aur. St.",
+ "ref":
+ "person_20305"},
+ {
+ "persName":
+ "Luise Zehngraf",
+ "ref":
+ "person_21521"},
+ {
+ "persName":
+ "Olga Schnitzler",
+ "ref":
+ "person_19832"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Die Gouvernante",
+ "ref":
+ "pmb33784"}
+ ,  {
+ "title":
+ "Das Haus Delorme. Eine Familienszene",
+ "ref":
+ "pmb31547"}
+ ,  {
+ "title":
+ "Marionetten",
+ "ref":
+ "pmb36093"}
+ ,  {
+ "title":
+ "Die Gedenktafel der Prinzessin Anna",
+ "ref":
+ "pmb76511"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-2498-HS00075664",
+ "head":
+ "Schnitz..., ... an Schnitzler, Arthur [Briefe]",
+ "text":
+ "1 Bl."
+}] 

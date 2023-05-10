@@ -1,0 +1,241 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1912-11-17",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1912-11-17.html",
+ "head":
+ "Tagebuch, 17. November 1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Paul Altmann",
+ "ref":
+ "person_13175"},
+ {
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "person_13305"},
+ {
+ "persName":
+ "Eugenie Bachrach",
+ "ref":
+ "person_13355"},
+ {
+ "persName":
+ "Julius Bauer",
+ "ref":
+ "person_13471"},
+ {
+ "persName":
+ "Otto Brahm",
+ "ref":
+ "person_13913"},
+ {
+ "persName":
+ "Alfred Grünfeld",
+ "ref":
+ "person_15702"},
+ {
+ "persName":
+ "Robert Gund",
+ "ref":
+ "person_15750"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "person_15980"},
+ {
+ "persName":
+ "Alice Hétsey-Holzer",
+ "ref":
+ "person_16175"},
+ {
+ "persName":
+ "Max von Hussarek-Heinlein",
+ "ref":
+ "person_16420"},
+ {
+ "persName":
+ "Kende",
+ "ref":
+ "person_16809"},
+ {
+ "persName":
+ "Elisabeth Lauterburg",
+ "ref":
+ "person_17365"},
+ {
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "person_19364"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "person_19542"},
+ {
+ "persName":
+ "Helene Schnitzler",
+ "ref":
+ "person_19823"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Karl Schönherr",
+ "ref":
+ "person_19850"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "person_20714"},
+ {
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "person_21614"},
+ {
+ "persName":
+ "Alexander Girardi",
+ "ref":
+ "person_15442"},
+ {
+ "persName":
+ "Karl Glossy",
+ "ref":
+ "person_15475"},
+ {
+ "persName":
+ "Emil Löbl",
+ "ref":
+ "person_17617"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "person_21107"}]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/47517/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/47517/",
+ "head":
+ "Hauptmann-Bankett der Concordia, 17.11.1912",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Max von Hussarek-Heinlein",
+ "ref":
+ "pmb7935"},
+ {
+ "persName":
+ "Karl Glossy",
+ "ref":
+ "pmb11447"},
+ {
+ "persName":
+ "Hugo Thimig",
+ "ref":
+ "pmb12948"},
+ {
+ "persName":
+ "Alfred Grünfeld",
+ "ref":
+ "pmb11533"},
+ {
+ "persName":
+ "Richard Rosenbaum",
+ "ref":
+ "pmb12556"},
+ {
+ "persName":
+ "Stefan Zweig",
+ "ref":
+ "pmb13212"},
+ {
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "pmb10788"},
+ {
+ "persName":
+ "Alice Hétsey-Holzer",
+ "ref":
+ "pmb18651"},
+ {
+ "persName":
+ "Karl Schönherr",
+ "ref":
+ "pmb12749"},
+ {
+ "persName":
+ "Emil Löbl",
+ "ref":
+ "pmb20723"},
+ {
+ "persName":
+ "Alexander Girardi",
+ "ref":
+ "pmb11441"}],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Concordia",
+ "ref":
+ "pmb29752"}
+ ]
+}
+}] 

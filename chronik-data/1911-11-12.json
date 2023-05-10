@@ -1,0 +1,144 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1911-11-12",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1911-11-12.html",
+ "head":
+ "Tagebuch, 12. November 1911",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Max Dauthendey",
+ "ref":
+ "person_14361"},
+ {
+ "persName":
+ "Marie Glümer",
+ "ref":
+ "person_15485"},
+ {
+ "persName":
+ "Herta von Hagen",
+ "ref":
+ "person_15842"},
+ {
+ "persName":
+ "Lisa Michalek",
+ "ref":
+ "person_18144"},
+ {
+ "persName":
+ "Louise Schnitzler",
+ "ref":
+ "person_19831"},
+ {
+ "persName":
+ "Agnes Ulmann",
+ "ref":
+ "person_20872"},
+ {
+ "persName":
+ "Emil Ulmann",
+ "ref":
+ "person_20874"},
+ {
+ "persName":
+ "Richard Wagner",
+ "ref":
+ "person_21034"},
+ {
+ "persName":
+ "Gustav Waldau",
+ "ref":
+ "person_21050"},
+ {
+ "persName":
+ "Frank Wedekind",
+ "ref":
+ "person_21130"},
+ {
+ "persName":
+ "Bernhard von Jacobi",
+ "ref":
+ "person_16465"},
+ {
+ "persName":
+ "Albert Steinrück",
+ "ref":
+ "person_20383"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Das weite Land. Tragikomödie in fünf Akten",
+ "ref":
+ "pmb30207"}
+ ,  {
+ "title":
+ "Der Drache Grauli",
+ "ref":
+ "pmb77809"}
+ ,  {
+ "title":
+ "Der Rosenkavalier",
+ "ref":
+ "pmb30341"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "München",
+ "ref":
+ "pmb45258"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/45258/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/45258/",
+ "head":
+ "München"
+}, {
+ "type":
+ "kalliope-verbund",
+ "color":
+ "#003574",
+ "caption":
+ "Kalliope Verbundkatalog",
+ "idno":
+ "http://kalliope-verbund.info/DE-611-HS-3459559",
+ "head":
+ "Brief und Karte von Arthur Schnitzler an Norbert Jacques",
+ "text":
+ "Letztes Objekt aus der Mappe. 1 Karte; 1 Bl.; 1 S.; handschriftl.",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Arthur (1862-1931) Schnitzler",
+ "ref":
+ "http://d-nb.info/gnd/126794855"},
+ {
+ "persName":
+ "Norbert (1880-1954) Jacques",
+ "ref":
+ "http://d-nb.info/gnd/118556444"}]
+}
+}] 

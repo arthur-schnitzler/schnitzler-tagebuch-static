@@ -1,0 +1,441 @@
+[{
+ "type":
+ "schnitzler-tagebuch",
+ "color":
+ "#037a33",
+ "filename":
+ "entry__1929-12-21",
+ "caption":
+ "Tagebuch",
+ "idno":
+ "https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1929-12-21.html",
+ "head":
+ "Tagebuch, 21. Dezember 1929",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Rudolf Beer",
+ "ref":
+ "person_13545"},
+ {
+ "persName":
+ "Jean Billiter",
+ "ref":
+ "person_13730"},
+ {
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "person_14234"},
+ {
+ "persName":
+ "Franz Theodor Csokor",
+ "ref":
+ "person_14316"},
+ {
+ "persName":
+ "Hedy Kempny",
+ "ref":
+ "person_16807"},
+ {
+ "persName":
+ "Robert Lichtenstern",
+ "ref":
+ "person_17509"},
+ {
+ "persName":
+ "Konrad Maril",
+ "ref":
+ "person_17888"},
+ {
+ "persName":
+ "Dora Michaelis",
+ "ref":
+ "person_18137"},
+ {
+ "persName":
+ "Alexander Moissi",
+ "ref":
+ "person_18209"},
+ {
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "person_18863"},
+ {
+ "persName":
+ "Karl Friedrich Pollaczek",
+ "ref":
+ "person_18866"},
+ {
+ "persName":
+ "Magda Pollaczek",
+ "ref":
+ "person_18867"},
+ {
+ "persName":
+ "Paula Schmidl",
+ "ref":
+ "person_19756"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "person_19827"},
+ {
+ "persName":
+ "Edith Schneider",
+ "ref":
+ "person_19802"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Reigen. Zehn Dialoge",
+ "ref":
+ "pmb29855"}
+ ,  {
+ "title":
+ "Im Spiel der Sommerlüfte. In drei Aufzügen",
+ "ref":
+ "pmb30945"}
+ ],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Vereinigte Staaten von Amerika (USA)",
+ "ref":
+ "pmb43406"}
+ ,  {
+ "placeName":
+ "Deutsches Volkstheater",
+ "ref":
+ "pmb92202"}
+ ,  {
+ "placeName":
+ "Niederlande",
+ "ref":
+ "pmb44016"}
+ ,  {
+ "placeName":
+ "Berlin",
+ "ref":
+ "pmb168"}
+ ]
+}
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/50/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/50/",
+ "head":
+ "Wien"
+}, {
+ "type":
+ "schnitzler-orte",
+ "color":
+ "#045344",
+ "filename":
+ "entity/92202/",
+ "caption":
+ "Aufenthaltsorte",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/92202/",
+ "head":
+ "Deutsches Volkstheater"
+}, {
+ "type":
+ "schnitzler-bahr",
+ "color":
+ "#F9BD63",
+ "filename":
+ "T030046",
+ "caption":
+ "Schnitzler/Bahr",
+ "idno":
+ "https://schnitzler-bahr.acdh.oeaw.ac.at/T030046.html",
+ "head":
+ "Schnitzler: Freiexemplare Im Spiel der Sommerlüfte, [Ende 1929?]",
+ "desc":
+{"listPerson":
+  [
+{
+ "persName":
+ "Raoul Auernheimer",
+ "ref":
+ "pmb10788"},
+ {
+ "persName":
+ "Hermann Bahr",
+ "ref":
+ "pmb10815"},
+ {
+ "persName":
+ "Richard Beer-Hofmann",
+ "ref":
+ "pmb10863"},
+ {
+ "persName":
+ "Alice Berend",
+ "ref":
+ "pmb14041"},
+ {
+ "persName":
+ "Oskar Bie",
+ "ref":
+ "pmb2914"},
+ {
+ "persName":
+ "Ida Dehmel",
+ "ref":
+ "pmb4358"},
+ {
+ "persName":
+ "Alfred Döblin",
+ "ref":
+ "pmb11205"},
+ {
+ "persName":
+ "Julius Elias",
+ "ref":
+ "pmb11246"},
+ {
+ "persName":
+ "Otto Flake",
+ "ref":
+ "pmb11327"},
+ {
+ "persName":
+ "Wenzel Goldbaum",
+ "ref":
+ "pmb11472"},
+ {
+ "persName":
+ "Gerhart Hauptmann",
+ "ref":
+ "pmb11617"},
+ {
+ "persName":
+ "Hermann Hesse",
+ "ref":
+ "pmb11679"},
+ {
+ "persName":
+ "Julius Hirsch",
+ "ref":
+ "pmb4367"},
+ {
+ "persName":
+ "Felix Hollaender",
+ "ref":
+ "pmb11752"},
+ {
+ "persName":
+ "Johannes Vilhelm Jensen",
+ "ref":
+ "pmb11820"},
+ {
+ "persName":
+ "Bernhard Kellermann",
+ "ref":
+ "pmb11900"},
+ {
+ "persName":
+ "Alfred Kerr",
+ "ref":
+ "pmb11910"},
+ {
+ "persName":
+ "Annette Kolb",
+ "ref":
+ "pmb4351"},
+ {
+ "persName":
+ "Oskar Loerke",
+ "ref":
+ "pmb3878"},
+ {
+ "persName":
+ "Aage Madelung",
+ "ref":
+ "pmb4354"},
+ {
+ "persName":
+ "Thomas Mann",
+ "ref":
+ "pmb12176"},
+ {
+ "persName":
+ "Laura von Moellendorf",
+ "ref":
+ "pmb28556"},
+ {
+ "persName":
+ "Gabriele Reuter",
+ "ref":
+ "pmb12514"},
+ {
+ "persName":
+ "Samuel Saenger",
+ "ref":
+ "pmb4387"},
+ {
+ "persName":
+ "Felix Salten",
+ "ref":
+ "pmb2167"},
+ {
+ "persName":
+ "Hugo Simon",
+ "ref":
+ "pmb4362"},
+ {
+ "persName":
+ "Siegfried Trebitsch",
+ "ref":
+ "pmb12968"},
+ {
+ "persName":
+ "Jakob Wassermann",
+ "ref":
+ "pmb13055"},
+ {
+ "persName":
+ "Alfred Wolfenstein",
+ "ref":
+ "pmb13156"},
+ {
+ "persName":
+ "Franz Werfel",
+ "ref":
+ "pmb13094"},
+ {
+ "persName":
+ "Gottfried Bermann Fischer",
+ "ref":
+ "pmb10889"},
+ {
+ "persName":
+ "Rudolf Kayser",
+ "ref":
+ "pmb11891"},
+ {
+ "persName":
+ "Konrad Maril",
+ "ref":
+ "pmb4374"}],
+ "listBibl":
+  [
+ {
+ "title":
+ "Im Spiel der Sommerlüfte. In drei Aufzügen",
+ "ref":
+ "pmb30945"}
+ ]
+}
+}, {
+ "type":
+ "pmb",
+ "color":
+ "#9B5F98",
+ "filename":
+ "entity/35439/",
+ "caption":
+ "PMB",
+ "idno":
+ "https://pmb.acdh.oeaw.ac.at/entity/35439/",
+ "head":
+ "Uraufführung von Im Spiel der Sommerlüfte, 21.12.1929",
+ "desc":
+{"listBibl":
+  [
+ {
+ "title":
+ "Im Spiel der Sommerlüfte. In drei Aufzügen",
+ "ref":
+ "pmb30945"}
+ ],
+ "listPerson":
+  [
+{
+ "persName":
+ "Clara Katharina Pollaczek",
+ "ref":
+ "pmb12435"},
+ {
+ "persName":
+ "Karl Friedrich Pollaczek",
+ "ref":
+ "pmb22698"},
+ {
+ "persName":
+ "Magda Pollaczek",
+ "ref":
+ "pmb28022"},
+ {
+ "persName":
+ "Julius Schnitzler",
+ "ref":
+ "pmb12698"},
+ {
+ "persName":
+ "Rudolf Beer",
+ "ref":
+ "pmb13920"},
+ {
+ "persName":
+ "Alexander Moissi",
+ "ref":
+ "pmb12274"},
+ {
+ "persName":
+ "Franz Theodor Csokor",
+ "ref":
+ "pmb11120"},
+ {
+ "persName":
+ "Gertrude von Hofmannsthal",
+ "ref":
+ "pmb2292"},
+ {
+ "persName":
+ "Suzanne Clauser",
+ "ref":
+ "pmb15015"},
+ {
+ "persName":
+ "Luise Ullrich",
+ "ref":
+ "pmb10300"},
+ {
+ "persName":
+ "Therese Rie",
+ "ref":
+ "pmb4836"}],
+ "listPlace":
+  [
+ {
+ "placeName":
+ "Volkstheater",
+ "ref":
+ "pmb20"}
+ ],
+ "listOrg":
+  [
+ {
+ "orgName":
+ "Volkstheater",
+ "ref":
+ "pmb36430"}
+ ]
+}
+}] 
