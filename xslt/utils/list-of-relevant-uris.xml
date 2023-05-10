@@ -15,6 +15,16 @@ are but links to pdfs etc. an URL can be added
         <caption>Tagebuch</caption>
         <color>#037a33</color>
     </item>
+    <item type="print">
+        <abbr>schnitzler-traeume</abbr>
+        <caption>Traumtagebuch</caption>
+        <color>#1193CC</color>
+    </item>
+    <item>
+        <abbr>schnitzler-interviews</abbr>
+        <caption>Interviews, Meinungen, Proteste</caption>
+        <color>#3D5A80</color>
+    </item>
     <item>
         <abbr>schnitzler-lektueren</abbr>
         <caption>Leseliste</caption>
@@ -41,14 +51,19 @@ are but links to pdfs etc. an URL can be added
         <color>#1e81b0</color>
     </item>
     <item>
-        <abbr>schnitzler-tage</abbr>
-        <caption>Tag für Tag</caption>
+        <abbr>schnitzler-chronik</abbr>
+        <caption>Chronik</caption>
         <color>#C67F53</color>
     </item>
     <item>
-        <abbr>schnitzler-digital</abbr>
-        <caption>Schnitzler digital</caption>
+        <abbr>Arthur-Schnitzler-digital</abbr>
+        <caption>Arthur Schnitzler digital (Werke 1905–1931)</caption>
         <color>#801e23</color>
+    </item>
+    <item>
+        <abbr>kalliope-verbund</abbr>
+        <caption>Kalliope Verbundkatalog</caption>
+        <color>#003574</color>
     </item>
     <item>
         <abbr>fackel</abbr>
@@ -85,7 +100,11 @@ are but links to pdfs etc. an URL can be added
         <caption>Jugend in Wien</caption>
         <url>http://www.zeno.org/Literatur/M/Schnitzler,+Arthur/Autobiographisches/Jugend+in+Wien</url>
     </item>
-    
+    <item type="print">
+        <abbr>schnitzler-cmif</abbr>
+        <caption>Gedruckte Briefwechsel</caption>
+        <color>#654321</color>
+    </item>
     <item>
         <abbr>wikidata</abbr>
         <caption>Wikidata</caption>
@@ -112,5 +131,5 @@ are but links to pdfs etc. an URL can be added
         <color>#363</color>
     </item>
     
-   
+    
 </list>

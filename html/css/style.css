@@ -166,7 +166,6 @@ h5 {
     color: #037A33;
 }
 
-
 /*  ID selectors  */
 
 #loader {
@@ -405,6 +404,9 @@ article.card.col-md-6 {
     padding-right: 1rem;
     padding-top: 15px;
     padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .closer {
