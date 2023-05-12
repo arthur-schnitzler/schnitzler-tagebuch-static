@@ -23,7 +23,7 @@
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:copy-of
-                        select="$fetchUrl/descendant::tei:listEvent/tei:event[not(contains(tei:idno[1]/text(), $teiSource))]"
+                        select="$fetchUrl/descendant::tei:listEvent/tei:event[not(tei:idno[1]/@type='schnitzler-tagebuch')]"
                     />
                 </xsl:element>
             </xsl:variable>
