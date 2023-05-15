@@ -14,6 +14,28 @@
             <meta name="apple-mobile-web-app-capable" content="yes"/>
             <meta name="apple-mobile-web-app-title" content="{$html_title}"/>
             <meta name="docTitle" class="staticSearch_docTitle" content="{$html_title}"/>
+
+            <meta name="msapplication-TileColor" content="#ffffff"/>
+            <meta name="msapplication-TileImage" content="{$project_logo}"/>
+            <link rel="icon" type="image/svg+xml" href="{$project_logo}" sizes="any"/>
+            <link rel="shortcut icon" href="data/images/symbole/favicon.png"/>
+            <link rel="shortcut icon" href="../img/favicon/favicon.png"/>
+            <link rel="icon" href="./img/favicon/favicon.png"/>
+            <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png"/>
+            <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png"/>
+            <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png"/>
+            <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png"/>
+            <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png"/>
+            <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png"/>
+            <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png"/>
+            <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png"/>
+            <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png"/>
+            <link rel="icon" type="image/png" sizes="192x192"
+                href="./img/favicon/android-icon-192x192.png"/>
+            <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png"/>
+            <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png"/>
+            <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png"/>
+
             <meta name="docSortKey" class="staticSearch_docSortKey" content="d_{$entry_date}"/>
             <link rel="profile" href="http://gmpg.org/xfn/11"/>
             <title>
