@@ -74,6 +74,11 @@
                                 </xsl:when>
                                 <xsl:when
                                     test="@type = 'person_geburtsname-nachname' and $namensformen/descendant::tei:persName[@type = 'person_geburtsname_vorname'][1]"/>
+                                <xsl:when
+                                    test="@type = 'person_geburtsname-nachname'">
+                                    <xsl:text>geboren </xsl:text>
+                                    <xsl:value-of select="."/>
+                                </xsl:when>
                                 <xsl:when test="@type = 'person_adoptierter-nachname'">
                                     <xsl:text>Nachname durch Adoption </xsl:text>
                                     <xsl:value-of select="."/>
@@ -146,7 +151,7 @@
                     </xsl:if>
                 </p>
             </xsl:if>
-            
+            <xsl:if test="key('authorwork-lookup', $author-ref, $works)[1]">
             <div class="werke">
                 <xsl:for-each select="tei:idno[@subtype='pmb' and starts-with(., 'https://pmb.acdh.oeaw.ac.at/entity/')]">
                     <xsl:if test="position() = 1">
@@ -281,6 +286,7 @@
                     
                 </xsl:for-each>
             </div>
+            </xsl:if>
             <xsl:if test="key('konk-lookup', @xml:id, $konkordanz)[1]">
             <div id="mentions" class="mt-2">
                 <span class="infodesc mr-2">Erwähnt am</span>
