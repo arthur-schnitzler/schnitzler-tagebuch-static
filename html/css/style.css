@@ -937,9 +937,10 @@ linkfarbe {
 
 
 #years-table .btn-light:focus, #years-table .btn-light.focus {
-    text-decoration: underline;
-    text-decoration-color: #037A33;
-    text-decoration-thickness: 4px
+    background: #037A33;
+    text-decoration-thickness: 4px;
+    color: white;
+    font-weight: bolder;
 }
 
 .yearbtn {
@@ -948,3 +949,9 @@ linkfarbe {
     border: none;
     background-color: transparent;
 }
+
+
+.row > * {
+    width: auto;
+}
+
