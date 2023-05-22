@@ -468,7 +468,8 @@
                                                   data-bs-toggle="modal" type="button"
                                                   data-bs-target="#faks-modal">
                                                   <i class="fa-lg far fa-file-image"/> FAKSIMILE
-                                                  </a>&#160; </li> &#160; <li class="nav-item">
+                                                  </a>&#160; </li> 
+                                                <li class="nav-item">
                                                   &#160;<a href="#" data-bs-target="#downloadModal"
                                                   type="button" data-bs-toggle="modal"
                                                   title="Diesen Eintrag herunterladen"><i
@@ -837,8 +838,8 @@
                         </div>
                     </div>
                 </div>
-                <script src="https://unpkg.com/de-micro-editor@0.2.6/dist/de-editor.min.js"/>
-                <script type="text/javascript" src="js/run.js"/>
+                <!--<script src="https://unpkg.com/de-micro-editor@0.2.6/dist/de-editor.min.js"/>-->
+                <!--<script type="text/javascript" src="js/run.js"/>-->
             </body>
         </html>
     </xsl:template>
