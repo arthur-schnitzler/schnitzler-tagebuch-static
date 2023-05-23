@@ -15,7 +15,11 @@
     where teiSource lists the current filename/xml:id so to make sure the chronik doesn't reduplicate it. a special 
     adaption is made for the schnitzler-tagebuch because there the iso-date is filter enough. (see line 39–42)
     
-    When adapting to other projects the two external files ./LOD-idnos.xsl and list-of-relevant-uris.xml
+    When adapting to other projects this are the individual changes:
+    * Line 23/24 the two external files ./LOD-idnos.xsl and list-of-relevant-uris.xml
+    * Line 32 the fetchURL has to bei either fetching from the complete chronik-repo or directly from the website (smaller projects)
+    * Line 42 takes care that the file from where the chronik is called is not shown in the chronik. There is a switch
+    for schnitzler-tagebuch
     have to be present. Apart from that everything should work universally. 
     -->
     <xsl:import href="./LOD-idnos.xsl"/>
@@ -27,15 +31,17 @@
         <xsl:variable name="link">
             <xsl:value-of select="replace($teiSource, '.xml', '.html')"/>
         </xsl:variable>
-        <!--<xsl:variable name="fetchUrl"
+        <!-- <xsl:variable name="fetchUrl"
             select="document(concat('https://schnitzler-chronik.acdh.oeaw.ac.at/', $datum-iso, '.xml'))"
-            as="node()?"/>-->
+            as="node()?"/> -->
+        <!-- If the whole chronik-repo is cloned during the github-action the processing time is smaller. Use the line below.
+        For larger projects comment out the line above and use: -->
         <xsl:variable name="fetchUrl"
             select="document(concat('../../chronik-data/', $datum-iso, '.xml'))" as="node()?"/>
         <xsl:if test="$fetchUrl/*[1]">
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
-                    <!-- <xsl:copy-of
+                     <!--<xsl:copy-of
                         select="$fetchUrl/descendant::tei:listEvent/tei:event[not(contains(tei:idno[1]/text(), $teiSource))]"
                     />-->
                     <!-- for schnitzler-tagebuch the line above has to be commented out and this one activated: -->
