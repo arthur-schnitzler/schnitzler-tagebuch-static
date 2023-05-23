@@ -5,6 +5,19 @@
     xmlns:mam="whatever" version="2.0" exclude-result-prefixes="xsl tei xs">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes"
         omit-xml-declaration="yes"/>
+    <!-- This documentation is late in being generated thus it might not fully reflect what is going on 
+    here. The idea is to call the templates in this file something like this:
+    <xsl:call-template name="mam:schnitzler-chronik">
+                                    <xsl:with-param name="datum-iso" select="$datum"/>
+                                    <xsl:with-param name="teiSource" select="$teiSource"/>
+                                </xsl:call-template>
+                                
+    where teiSource lists the current filename/xml:id so to make sure the chronik doesn't reduplicate it. a special 
+    adaption is made for the schnitzler-tagebuch because there the iso-date is filter enough. (see line 39–42)
+    
+    When adapting to other projects the two external files ./LOD-idnos.xsl and list-of-relevant-uris.xml
+    have to be present. Apart from that everything should work universally. 
+    -->
     <xsl:import href="./LOD-idnos.xsl"/>
     <xsl:param name="relevant-uris" select="document('../utils/list-of-relevant-uris.xml')"/>
     <xsl:key match="item" use="abbr" name="relevant-uris-type"/>
@@ -22,8 +35,12 @@
         <xsl:if test="$fetchUrl/*[1]">
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
+                    <!-- <xsl:copy-of
+                        select="$fetchUrl/descendant::tei:listEvent/tei:event[not(contains(tei:idno[1]/text(), $teiSource))]"
+                    />-->
+                    <!-- for schnitzler-tagebuch the line above has to be commented out and this one activated: -->
                     <xsl:copy-of
-                        select="$fetchUrl/descendant::tei:listEvent/tei:event[not(tei:idno[1]/@type='schnitzler-tagebuch')]"
+                        select="$fetchUrl/descendant::tei:listEvent/tei:event[not(tei:idno[1]/@type = 'schnitzler-tagebuch')]"
                     />
                 </xsl:element>
             </xsl:variable>
@@ -169,18 +186,17 @@
     </xsl:template>
     <xsl:template match="tei:listEvent" mode="schnitzler-chronik">
         <xsl:variable name="eventtypes"
-            select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-cmif,kalliope-verbund'"/>
+            select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-cmif,schnitzler-traeume-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
         <xsl:variable name="current-group" select="." as="node()"/>
         <xsl:for-each select="tokenize($eventtypes, ',')">
-            <xsl:variable name="e-type" as="xs:string" select="."/>
-            <xsl:if test="$current-group/descendant::tei:idno[@type = $e-type]">
+            <xsl:variable name="e-typ" as="xs:string" select="."/>
+            <xsl:if test="$current-group/descendant::tei:idno[@type = $e-typ]">
                 <xsl:variable name="e-typ-farbe">
                     <xsl:choose>
                         <xsl:when
-                            test="key('only-relevant-uris', $e-type, $relevant-uris)/*:color != '#fff'">
+                            test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
                             <xsl:value-of
-                                select="key('only-relevant-uris', $e-type, $relevant-uris)/*:color"
-                            />
+                                select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color"/>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:text>blue</xsl:text>
@@ -189,7 +205,7 @@
                 </xsl:variable>
                 <xsl:element name="div">
                     <xsl:attribute name="class">
-                        <xsl:value-of select="$e-type"/>
+                        <xsl:value-of select="$e-typ"/>
                     </xsl:attribute>
                     <xsl:attribute name="style">
                         <xsl:text>margin-bottom: 35px;</xsl:text>
@@ -214,11 +230,10 @@
                                 />
                             </xsl:attribute>
                         </xsl:element>
-                        <xsl:text/>
                         <xsl:value-of
-                            select="key('only-relevant-uris', $e-type, $relevant-uris)/*:caption"/>
+                            select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:caption"/>
                     </xsl:element>
-                    <xsl:apply-templates select="$current-group/tei:event[tei:idno/@type = $e-type]"
+                    <xsl:apply-templates select="$current-group/tei:event[tei:idno/@type = $e-typ]"
                     />
                 </xsl:element>
             </xsl:if>
@@ -299,7 +314,7 @@
     </xsl:template>
     <xsl:template match="tei:listPerson" mode="desc">
         <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno/@type"/>
-        <xsl:variable name="type-farbe">
+        <xsl:variable name="e-type-farbe">
             <xsl:choose>
                 <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
                     <xsl:value-of select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color"
@@ -324,7 +339,7 @@
                             </xsl:attribute>
                             <xsl:attribute name="style">
                                 <xsl:text>background-color: </xsl:text>
-                                <xsl:value-of select="$type-farbe"/>
+                                <xsl:value-of select="$e-type-farbe"/>
                                 <xsl:text>; color: white;</xsl:text>
                             </xsl:attribute>
                             <xsl:element name="a">
@@ -343,6 +358,33 @@
                             </xsl:element>
                         </xsl:element>
                     </xsl:when>
+                    <xsl:when
+                        test="$e-typ = 'pmb' and starts-with(@ref, 'pmb') or starts-with(@ref, 'person_')">
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">
+                                <xsl:text>badge rounded-pill</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="style">
+                                <xsl:text>background-color: </xsl:text>
+                                <xsl:value-of select="$e-type-farbe"/>
+                                <xsl:text>; color: white;</xsl:text>
+                            </xsl:attribute>
+                            <xsl:element name="a">
+                                <xsl:attribute name="style">
+                                    <xsl:text>color: white; </xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="href">
+                                    <xsl:value-of
+                                        select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(@ref, 'pmb', ''), 'person_', ''), '/')"
+                                    />
+                                </xsl:attribute>
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
+                                <xsl:value-of select="."/>
+                            </xsl:element>
+                        </xsl:element>
+                    </xsl:when>
                     <xsl:when test="starts-with(@ref, 'pmb') or starts-with(@ref, 'person_')">
                         <xsl:element name="span">
                             <xsl:attribute name="class">
@@ -350,7 +392,7 @@
                             </xsl:attribute>
                             <xsl:attribute name="style">
                                 <xsl:text>background-color: </xsl:text>
-                                <xsl:value-of select="$type-farbe"/>
+                                <xsl:value-of select="$e-type-farbe"/>
                                 <xsl:text>; color: white;</xsl:text>
                             </xsl:attribute>
                             <xsl:element name="a">
@@ -381,11 +423,11 @@
         </li>
     </xsl:template>
     <xsl:template match="tei:listOrg" mode="desc">
-        <xsl:variable name="type" select="ancestor::tei:event/tei:idno/@type"/>
-        <xsl:variable name="type-farbe">
+        <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno/@type"/>
+        <xsl:variable name="e-type-farbe">
             <xsl:choose>
-                <xsl:when test="key('only-relevant-uris', $type, $relevant-uris)/*:color != '#fff'">
-                    <xsl:value-of select="key('only-relevant-uris', $type, $relevant-uris)/*:color"
+                <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
+                    <xsl:value-of select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color"
                     />
                 </xsl:when>
                 <xsl:otherwise>
@@ -398,7 +440,7 @@
                 <xsl:for-each select="tei:org/tei:orgName">
                 <xsl:choose>
                     <xsl:when
-                        test="starts-with(@ref, 'https://d-nb') or starts-with(@ref, 'http://d-nb') and $type = 'schnitzler-cmif'">
+                        test="starts-with(@ref, 'https://d-nb') or starts-with(@ref, 'http://d-nb') and $e-typ = 'schnitzler-cmif'">
                         <xsl:variable name="normalize-gnd-ohne-http"
                             select="replace(@ref, 'https', 'http')" as="xs:string"/>
                         <xsl:element name="span">
@@ -407,7 +449,7 @@
                             </xsl:attribute>
                             <xsl:attribute name="style">
                                 <xsl:text>background-color: </xsl:text>
-                                <xsl:value-of select="$type-farbe"/>
+                                <xsl:value-of select="$e-type-farbe"/>
                                 <xsl:text>; color: white;</xsl:text>
                             </xsl:attribute>
                             <xsl:element name="a">
@@ -426,14 +468,14 @@
                             </xsl:element>
                         </xsl:element>
                     </xsl:when>
-                    <xsl:when test="starts-with(@ref, 'pmb')">
+                    <xsl:when test="$e-typ = 'pmb' and starts-with(@ref, 'pmb')">
                         <xsl:element name="span">
                             <xsl:attribute name="class">
                                 <xsl:text>badge rounded-pill</xsl:text>
                             </xsl:attribute>
                             <xsl:attribute name="style">
                                 <xsl:text>background-color: </xsl:text>
-                                <xsl:value-of select="$type-farbe"/>
+                                <xsl:value-of select="$e-type-farbe"/>
                                 <xsl:text>; color: white;</xsl:text>
                             </xsl:attribute>
                             <xsl:element name="a">
@@ -442,7 +484,33 @@
                                 </xsl:attribute>
                                 <xsl:attribute name="href">
                                     <xsl:value-of
-                                        select="concat('https://', $type, '.acdh.oeaw.ac.at/', @ref, '.html')"
+                                        select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(@ref, 'pmb', ''), 'person_', ''), '/')"
+                                    />
+                                </xsl:attribute>
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
+                                <xsl:value-of select="."/>
+                            </xsl:element>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:when test="starts-with(@ref, 'pmb')">
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">
+                                <xsl:text>badge rounded-pill</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="style">
+                                <xsl:text>background-color: </xsl:text>
+                                <xsl:value-of select="$e-type-farbe"/>
+                                <xsl:text>; color: white;</xsl:text>
+                            </xsl:attribute>
+                            <xsl:element name="a">
+                                <xsl:attribute name="style">
+                                    <xsl:text>color: white; </xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="href">
+                                    <xsl:value-of
+                                        select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', @ref, '.html')"
                                     />
                                 </xsl:attribute>
                                 <xsl:attribute name="target">
@@ -464,11 +532,11 @@
         </li>
     </xsl:template>
     <xsl:template match="tei:listPlace" mode="desc">
-        <xsl:variable name="type" select="ancestor::tei:event/tei:idno/@type"/>
-        <xsl:variable name="type-farbe">
+        <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno/@type"/>
+        <xsl:variable name="e-type-farbe">
             <xsl:choose>
-                <xsl:when test="key('only-relevant-uris', $type, $relevant-uris)/*:color != '#fff'">
-                    <xsl:value-of select="key('only-relevant-uris', $type, $relevant-uris)/*:color"
+                <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
+                    <xsl:value-of select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color"
                     />
                 </xsl:when>
                 <xsl:otherwise>
@@ -480,14 +548,14 @@
             <i title="Erwähnte Orte" class="fa-solid fa-location-dot"/>&#160; <xsl:for-each
                 select="tei:place/tei:placeName">
                 <xsl:choose>
-                    <xsl:when test="starts-with(@ref, 'pmb')">
+                    <xsl:when test="$e-typ = 'pmb' and starts-with(@ref, 'pmb')">
                         <xsl:element name="span">
                             <xsl:attribute name="class">
                                 <xsl:text>badge rounded-pill</xsl:text>
                             </xsl:attribute>
                             <xsl:attribute name="style">
                                 <xsl:text>background-color: </xsl:text>
-                                <xsl:value-of select="$type-farbe"/>
+                                <xsl:value-of select="$e-type-farbe"/>
                                 <xsl:text>; color: white;</xsl:text>
                             </xsl:attribute>
                             <xsl:element name="a">
@@ -496,7 +564,33 @@
                                 </xsl:attribute>
                                 <xsl:attribute name="href">
                                     <xsl:value-of
-                                        select="concat('https://', $type, '.acdh.oeaw.ac.at/', @ref, '.html')"
+                                        select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(@ref, 'pmb', ''), 'person_', ''), '/')"
+                                    />
+                                </xsl:attribute>
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
+                                <xsl:value-of select="."/>
+                            </xsl:element>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:when test="starts-with(@ref, 'pmb')">
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">
+                                <xsl:text>badge rounded-pill</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="style">
+                                <xsl:text>background-color: </xsl:text>
+                                <xsl:value-of select="$e-type-farbe"/>
+                                <xsl:text>; color: white;</xsl:text>
+                            </xsl:attribute>
+                            <xsl:element name="a">
+                                <xsl:attribute name="style">
+                                    <xsl:text>color: white; </xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="href">
+                                    <xsl:value-of
+                                        select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', @ref, '.html')"
                                     />
                                 </xsl:attribute>
                                 <xsl:attribute name="target">
@@ -518,11 +612,11 @@
         </li>
     </xsl:template>
     <xsl:template match="tei:desc/tei:listBibl" mode="desc">
-        <xsl:variable name="type" select="ancestor::tei:event/tei:idno/@type"/>
-        <xsl:variable name="type-farbe">
+        <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno/@type"/>
+        <xsl:variable name="e-type-farbe">
             <xsl:choose>
-                <xsl:when test="key('only-relevant-uris', $type, $relevant-uris)/*:color != '#fff'">
-                    <xsl:value-of select="key('only-relevant-uris', $type, $relevant-uris)/*:color"
+                <xsl:when test="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color != '#fff'">
+                    <xsl:value-of select="key('only-relevant-uris', $e-typ, $relevant-uris)/*:color"
                     />
                 </xsl:when>
                 <xsl:otherwise>
@@ -534,14 +628,14 @@
             <i title="Erwähnte Werke" class="fa-regular fa-image"/>&#160; <xsl:for-each
                 select="descendant::tei:title">
                 <xsl:choose>
-                    <xsl:when test="starts-with(@ref, 'pmb')">
+                    <xsl:when test="$e-typ = 'pmb' and starts-with(@ref, 'pmb')">
                         <xsl:element name="span">
                             <xsl:attribute name="class">
                                 <xsl:text>badge rounded-pill</xsl:text>
                             </xsl:attribute>
                             <xsl:attribute name="style">
                                 <xsl:text>background-color: </xsl:text>
-                                <xsl:value-of select="$type-farbe"/>
+                                <xsl:value-of select="$e-type-farbe"/>
                                 <xsl:text>; color: white;</xsl:text>
                             </xsl:attribute>
                             <xsl:element name="a">
@@ -550,7 +644,41 @@
                                 </xsl:attribute>
                                 <xsl:attribute name="href">
                                     <xsl:value-of
-                                        select="concat('https://', $type, '.acdh.oeaw.ac.at/', @ref, '.html')"
+                                        select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(@ref, 'pmb', ''), 'person_', ''), '/')"
+                                    />
+                                </xsl:attribute>
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
+                                <xsl:choose><!-- Titel werden nur bis 50 Zeichen wiedergegeben -->
+                                    <xsl:when test="string-length(normalize-space(.)) &gt; 50">
+                                        <xsl:value-of select="substring(normalize-space(.), 1, 50)"
+                                        /><xsl:text>…</xsl:text>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="."/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:element>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:when test="starts-with(@ref, 'pmb')">
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">
+                                <xsl:text>badge rounded-pill</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="style">
+                                <xsl:text>background-color: </xsl:text>
+                                <xsl:value-of select="$e-type-farbe"/>
+                                <xsl:text>; color: white;</xsl:text>
+                            </xsl:attribute>
+                            <xsl:element name="a">
+                                <xsl:attribute name="style">
+                                    <xsl:text>color: white; </xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="href">
+                                    <xsl:value-of
+                                        select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', @ref, '.html')"
                                     />
                                 </xsl:attribute>
                                 <xsl:attribute name="target">
@@ -581,7 +709,7 @@
     </xsl:template>
     <xsl:template match="tei:bibl[parent::tei:desc]" mode="desc">
         <p>
-            <xsl:text>Erscheinungsort: </xsl:text>
+            <xsl:text>Quelle: </xsl:text>
             <i>
                 <xsl:value-of select="."/>
             </i>
