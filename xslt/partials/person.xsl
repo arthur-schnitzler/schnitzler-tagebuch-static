@@ -151,11 +151,11 @@
             </xsl:if>
             <div class="werke">
                 <xsl:variable name="author-ref"
-                    select="concat('pmb', tei:idno[@type='pmb'][1]/substring-after(.,'https://pmb.acdh.oeaw.ac.at/entity/'))" as="xs:string"/> <!-- hier ist pmb im einsatz, also haben wir jetzt eine nummerm
+                    select="replace(concat('pmb', tei:idno[@subtype='pmb'][1]/substring-after(.,'https://pmb.acdh.oeaw.ac.at/entity/')), '/', '')" as="xs:string"/> <!-- hier ist pmb im einsatz, also haben wir jetzt eine nummerm
                     bspw. 'pmb11461' für goethe -->
                 <xsl:if test="key('authorwork-lookup', $author-ref, $works)[1]">
+                    <legend>Werke</legend>
                     <ul class="dashed">
-                        <legend>Werke</legend>
                         <xsl:for-each select="key('authorwork-lookup', $author-ref, $works)">
                             <li>
                                 <xsl:if test="@role = 'editor' or @role = 'hat-herausgegeben'">
@@ -173,8 +173,8 @@
                                 <xsl:if test="@role = 'hat-ein-vorwortnachwort-verfasst-zu'">
                                     <xsl:text> (Vor-/Nachwort)</xsl:text>
                                 </xsl:if>
-                                <xsl:choose>
-                                    <xsl:when test="tei:author[2]">
+                                
+                                    
                                         <xsl:for-each
                                             select="tei:author[not(replace(@*[name() = 'key' or name() = 'ref'], '#', '') = $author-ref)]">
                                             <xsl:choose>
@@ -231,8 +231,7 @@
                                             </xsl:choose>
                                         </xsl:for-each>
                                         <xsl:text>: </xsl:text>
-                                    </xsl:when>
-                                </xsl:choose>
+                                    
                                 <xsl:element name="a">
                                     <xsl:attribute name="href">
                                         <xsl:value-of select="concat(@xml:id, '.html')"/>
@@ -281,7 +280,7 @@
             </div>
             <xsl:if test="key('konk-lookup', @xml:id, $konkordanz)[1]">
                 <div id="mentions" class="mt-2">
-                    <span class="infodesc mr-2">Erwähnt am</span>
+                    <legend>Erwähnt am</legend>
                     <ul class="list-unstyled">
                         <xsl:for-each select="key('konk-lookup', @xml:id, $konkordanz)">
                             <xsl:variable name="linkToDocument">
