@@ -19,7 +19,7 @@
                 <!--<xsl:attribute name="data-toggle">modal</xsl:attribute>
                 <xsl:attribute name="data-target">-->
                 <xsl:attribute name="target">
-                    <xsl:value-of select="concat(@ref, @key, '.html')"/>
+                    <xsl:value-of select="concat(replace(@ref, '#',''), replace(@key, '#',''), '.html')"/>
                 </xsl:attribute>
                 <xsl:attribute name="style">color:black</xsl:attribute>
                 <xsl:apply-templates/>

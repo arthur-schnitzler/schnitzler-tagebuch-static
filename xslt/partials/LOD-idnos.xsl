@@ -210,9 +210,9 @@
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:variable name="lang-code"
-                            select="substring($sitelinks/sitelink[1]/@site, 1, 2)"/>
+                            select="substring($sitelinks/sitelink[not(@site='commonswiki')][1]/@site, 1, 2)"/>
                         <xsl:value-of
-                            select="concat('https://', $lang-code, 'wikipedia.org/wiki/', $sitelinks/sitelink[1]/@title)"
+                            select="concat('https://', $lang-code, '.wikipedia.org/wiki/', $sitelinks/sitelink[1]/@title)"
                         />
                     </xsl:otherwise>
                 </xsl:choose>
