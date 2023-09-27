@@ -7,7 +7,7 @@
     <xsl:import href="LOD-idnos.xsl"/>
     <xsl:param name="works" select="document('../../data/indices/listwork.xml')"/>
     <xsl:key name="authorwork-lookup" match="tei:bibl"
-        use="tei:author/@*[name() = 'key' or name() = 'ref']/replace(replace(., 'person__', ''), 'pmb', '')"/>
+        use="tei:author/@*[name() = 'key' or name() = 'ref']"/>
     <xsl:param name="konkordanz" select="document('../../data/indices/index_person_day.xml')"/>
     <xsl:key name="konk-lookup" match="item" use="ref"/>
     <xsl:template match="tei:person" name="person_detail">
@@ -151,7 +151,8 @@
             </xsl:if>
             <div class="werke">
                 <xsl:variable name="author-ref"
-                    select="replace(replace(@xml:id, 'person__', ''), 'pmb', '')"/>
+                    select="concat('pmb', tei:idno[@type='pmb'][1]/substring-after(.,'https://pmb.acdh.oeaw.ac.at/entity/'))" as="xs:string"/> <!-- hier ist pmb im einsatz, also haben wir jetzt eine nummerm
+                    bspw. 'pmb11461' für goethe -->
                 <xsl:if test="key('authorwork-lookup', $author-ref, $works)[1]">
                     <ul class="dashed">
                         <legend>Werke</legend>
