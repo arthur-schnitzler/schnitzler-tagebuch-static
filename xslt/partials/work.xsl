@@ -10,7 +10,7 @@
     <xsl:param name="works" select="document('../../data/indices/listwork.xml')"/>
     <xsl:key name="work-lookup" match="tei:bibl" use="tei:relatedItem/@target"/>
     <xsl:param name="authors" select="document('../../data/indices/listperson.xml')"/>
-    <xsl:key name="author-lookup" match="tei:person" use="tei:idno[@subtype = 'pmb']"/>
+    <xsl:key name="author-lookup" match="tei:person" use="tei:idno[@subtype = 'schnitzler-tagebuch']"/>
     <xsl:param name="work-day" select="document('../../data/indices/index_work_day.xml')"/>
     <xsl:key name="work-day-lookup" match="item" use="ref"/>
     <xsl:template match="tei:bibl" name="work_detail">
@@ -38,7 +38,9 @@
             <xsl:if test="tei:author">
                 <div id="autor_innen">
                     <p>
+                        <span class="infodesc mr-2">
                         <legend>Geschaffen von</legend>
+                        </span>
                         <xsl:choose>
                             <xsl:when test="tei:author[2]">
                                 <ul>
@@ -47,10 +49,10 @@
                                             <xsl:variable name="keyToRef" as="xs:string">
                                                 <xsl:choose>
                                                   <xsl:when test="@key">
-                                                  <xsl:value-of select="@key"/>
+                                                  <xsl:value-of select="replace(@key, '#', '')"/>
                                                   </xsl:when>
                                                   <xsl:otherwise>
-                                                  <xsl:value-of select="@ref"/>
+                                                      <xsl:value-of select="replace(@ref, '#', '')"/>
                                                   </xsl:otherwise>
                                                 </xsl:choose>
                                             </xsl:variable>
