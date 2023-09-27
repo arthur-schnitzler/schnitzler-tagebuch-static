@@ -16,12 +16,13 @@
 
     <xsl:template match="tei:rs[@ref or @key]">
             <xsl:element name="a">
-                <xsl:attribute name="data-toggle">modal</xsl:attribute>
-                <xsl:attribute name="data-target">
-                    <xsl:value-of select="data(@ref)"/>
+                <!--<xsl:attribute name="data-toggle">modal</xsl:attribute>
+                <xsl:attribute name="data-target">-->
+                <xsl:attribute name="target">
+                    <xsl:value-of select="concat(@ref, @key, '.html')"/>
                 </xsl:attribute>
                 <xsl:attribute name="style">color:black</xsl:attribute>
-                <xsl:value-of select="."/>
+                <xsl:apply-templates/>
             </xsl:element>
     </xsl:template>
 
