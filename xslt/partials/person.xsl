@@ -7,9 +7,7 @@
     <xsl:import href="LOD-idnos.xsl"/>
     <xsl:param name="works" select="document('../../data/indices/listwork.xml')"/>
     <xsl:key name="authorwork-lookup" match="tei:bibl"
-        use="tei:author/@key/replace(replace(., 'person__', ''), 'pmb', '')"/>
-    <xsl:key name="authorwork-lookup-ref" match="tei:bibl"
-        use="tei:author/@ref/replace(replace(., 'person__', ''), 'pmb', '')"/>
+        use="tei:author/@*[name()='key' or name()='ref']/replace(replace(., 'person__', ''), 'pmb', '')"/>
     <xsl:param name="konkordanz" select="document('../../data/indices/index_person_day.xml')"/>
     <xsl:key name="konk-lookup" match="item" use="ref"/>
     <xsl:template match="tei:person" name="person_detail">
@@ -157,13 +155,10 @@
                     <xsl:variable name="author-ref"
                         select="substring-after(., 'https://pmb.acdh.oeaw.ac.at/entity/')"/>
                     <xsl:if test="key('authorwork-lookup', $author-ref, $works)[1]">
-                        <xsl:if test="position() = 1">
-                            <span class="infodesc mr-2">
-                                <legend>Werke</legend>
-                                <p/>
-                            </span>
-                        </xsl:if>
                         <ul class="dashed">
+                            <xsl:if test="position() = 1">
+                                    <legend>Werke</legend>
+                            </xsl:if>
                             <xsl:for-each select="key('authorwork-lookup', $author-ref, $works)">
                                 <li>
                                     <xsl:if test="@role = 'editor' or @role = 'hat-herausgegeben'">
@@ -185,7 +180,7 @@
                                     <xsl:choose>
                                         <xsl:when test="tei:author[2]">
                                             <xsl:for-each
-                                                select="tei:author[not(replace(@key, '#', '') = $author-ref)]">
+                                                select="tei:author[not(replace(@*[name()='key' or name()='ref'], '#', '') = $author-ref)]">
                                                 <xsl:choose>
                                                   <xsl:when
                                                   test="tei:persName/tei:forename and tei:persName/tei:surname">
@@ -290,141 +285,6 @@
                             </xsl:for-each>
                         </ul>
                     </xsl:if>
-                    <xsl:if test="key('authorwork-lookup-ref', $author-ref, $works)[1]">
-                        <xsl:if test="position() = 1">
-                            <span class="infodesc mr-2">
-                                <legend>Werke</legend>
-                                <p/>
-                            </span>
-                        </xsl:if>
-                        <ul class="dashed">
-                            <xsl:for-each select="key('authorwork-lookup-ref', $author-ref, $works)">
-                                <li>
-                                    <xsl:if test="@role = 'editor' or @role = 'hat-herausgegeben'">
-                                        <xsl:text> (Herausgabe)</xsl:text>
-                                    </xsl:if>
-                                    <xsl:if test="@role = 'translator' or @role = 'hat-ubersetzt'">
-                                        <xsl:text> (Übersetzung)</xsl:text>
-                                    </xsl:if>
-                                    <xsl:if
-                                        test="@role = 'illustrator' or @role = 'hat-illustriert'">
-                                        <xsl:text> (Illustration)</xsl:text>
-                                    </xsl:if>
-                                    <xsl:if test="@role = 'hat-einen-beitrag-geschaffen-zu'">
-                                        <xsl:text> (Beitrag)</xsl:text>
-                                    </xsl:if>
-                                    <xsl:if test="@role = 'hat-ein-vorwortnachwort-verfasst-zu'">
-                                        <xsl:text> (Vor-/Nachwort)</xsl:text>
-                                    </xsl:if>
-                                    <xsl:choose>
-                                        <xsl:when test="tei:author[2]">
-                                            <xsl:for-each
-                                                select="tei:author[not(replace(@ref, '#', '') = $author-ref)]">
-                                                <xsl:choose>
-                                                    <xsl:when
-                                                        test="tei:persName/tei:forename and tei:persName/tei:surname">
-                                                        <xsl:value-of select="tei:persName/tei:forename"/>
-                                                        <xsl:text> </xsl:text>
-                                                        <xsl:value-of select="tei:persName/tei:surname"/>
-                                                    </xsl:when>
-                                                    <xsl:when test="tei:persName/tei:surname">
-                                                        <xsl:value-of select="tei:persName/tei:surname"/>
-                                                    </xsl:when>
-                                                    <xsl:when test="tei:persName/tei:forename">
-                                                        <xsl:value-of select="tei:persName/tei:forename"
-                                                        />"/> </xsl:when>
-                                                    <xsl:when test="contains(tei:persName, ', ')">
-                                                        <xsl:value-of
-                                                            select="concat(substring-after(tei:persName, ', '), ' ', substring-before(tei:persName, ', '))"
-                                                        />
-                                                    </xsl:when>
-                                                    <xsl:when test="contains(., ', ')">
-                                                        <xsl:value-of
-                                                            select="concat(substring-after(., ', '), ' ', substring-before(., ', '))"
-                                                        />
-                                                    </xsl:when>
-                                                    <xsl:otherwise>
-                                                        <xsl:value-of select="."/>
-                                                    </xsl:otherwise>
-                                                </xsl:choose>
-                                                <xsl:if
-                                                    test="@role = 'editor' or @role = 'hat-herausgegeben'">
-                                                    <xsl:text> (Herausgabe)</xsl:text>
-                                                </xsl:if>
-                                                <xsl:if
-                                                    test="@role = 'translator' or @role = 'hat-ubersetzt'">
-                                                    <xsl:text> (Übersetzung)</xsl:text>
-                                                </xsl:if>
-                                                <xsl:if
-                                                    test="@role = 'illustrator' or @role = 'hat-illustriert'">
-                                                    <xsl:text> (Illustration)</xsl:text>
-                                                </xsl:if>
-                                                <xsl:if
-                                                    test="@role = 'hat-einen-beitrag-geschaffen-zu'">
-                                                    <xsl:text> (Beitrag)</xsl:text>
-                                                </xsl:if>
-                                                <xsl:if
-                                                    test="@role = 'hat-ein-vorwortnachwort-verfasst-zu'">
-                                                    <xsl:text> (Vor-/Nachwort)</xsl:text>
-                                                </xsl:if>
-                                                <xsl:choose>
-                                                    <xsl:when test="position() = last()"/>
-                                                    <xsl:otherwise>
-                                                        <xsl:text>, </xsl:text>
-                                                    </xsl:otherwise>
-                                                </xsl:choose>
-                                            </xsl:for-each>
-                                            <xsl:text>: </xsl:text>
-                                        </xsl:when>
-                                    </xsl:choose>
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of select="concat(@xml:id, '.html')"/>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="normalize-space(tei:title[1])"/>
-                                    </xsl:element>
-                                    <xsl:if test="tei:date[1]">
-                                        <xsl:text> (</xsl:text>
-                                        <xsl:choose>
-                                            <xsl:when test="contains(tei:date[1], '–')">
-                                                <xsl:choose>
-                                                    <xsl:when
-                                                        test="normalize-space(tokenize(tei:date[1], '–')[1]) = normalize-space(tokenize(tei:date[1], '–')[2])">
-                                                        <xsl:value-of
-                                                            select="mam:normalize-date(normalize-space((tokenize(tei:date[1], '–')[1])))"
-                                                        />
-                                                    </xsl:when>
-                                                    <xsl:otherwise>
-                                                        <xsl:value-of
-                                                            select="mam:normalize-date(normalize-space(tei:date[1]))"
-                                                        />
-                                                    </xsl:otherwise>
-                                                </xsl:choose>
-                                            </xsl:when>
-                                            <xsl:otherwise>
-                                                <xsl:value-of
-                                                    select="mam:normalize-date(tei:date[1])"/>
-                                            </xsl:otherwise>
-                                        </xsl:choose>
-                                        <xsl:text>)</xsl:text>
-                                    </xsl:if>
-                                    <xsl:text> </xsl:text>
-                                    <xsl:variable name="idnos-of-current" as="node()">
-                                        <xsl:element name="nodeset_person">
-                                            <xsl:for-each select="tei:idno">
-                                                <xsl:copy-of select="."/>
-                                            </xsl:for-each>
-                                        </xsl:element>
-                                    </xsl:variable>
-                                    <xsl:call-template name="mam:idnosToLinks">
-                                        <xsl:with-param name="idnos-of-current"
-                                            select="$idnos-of-current"/>
-                                    </xsl:call-template>
-                                </li>
-                            </xsl:for-each>
-                        </ul>
-                    </xsl:if>
-                    
                 </xsl:for-each>
             </div>
             <xsl:if test="key('konk-lookup', @xml:id, $konkordanz)[1]">
