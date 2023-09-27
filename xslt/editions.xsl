@@ -312,7 +312,7 @@
                         </div>
                     </div>
                 </div>
-                <xsl:for-each select=".//tei:back/tei:listPerson/tei:person[@xml:id]">
+                <!--<xsl:for-each select=".//tei:back/tei:listPerson/tei:person[@xml:id]">
                     <xsl:variable name="xmlId">
                         <xsl:value-of select="data(./@xml:id)"/>
                     </xsl:variable>
@@ -342,8 +342,8 @@
                             </div>
                         </div>
                     </div>
-                </xsl:for-each>
-                <xsl:for-each select=".//tei:back/tei:listPlace/tei:place[@xml:id]">
+                </xsl:for-each>-->
+                <!--<xsl:for-each select=".//tei:back/tei:listPlace/tei:place[@xml:id]">
                     <xsl:variable name="xmlId">
                         <xsl:value-of select="data(./@xml:id)"/>
                     </xsl:variable>
@@ -373,7 +373,7 @@
                             </div>
                         </div>
                     </div>
-                </xsl:for-each>
+                </xsl:for-each>-->
                 <!-- Modal Download -->
                 <div class="modal fade" id="downloadModal" tabindex="-1"
                     aria-labelledby="downloadModalLabel" aria-hidden="true">
