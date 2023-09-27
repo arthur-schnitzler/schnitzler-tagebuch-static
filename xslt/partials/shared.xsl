@@ -18,7 +18,7 @@
             <xsl:element name="a">
                 <!--<xsl:attribute name="data-toggle">modal</xsl:attribute>
                 <xsl:attribute name="data-target">-->
-                <xsl:attribute name="target">
+                <xsl:attribute name="href">
                     <xsl:value-of select="concat(replace(@ref, '#', ''), replace(@key, '#', ''), '.html')"/>
                 </xsl:attribute>
                 <xsl:attribute name="style">color:black</xsl:attribute>
