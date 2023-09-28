@@ -221,7 +221,7 @@
                 </div>
             </xsl:if>
             <div id="mentions" class="mt-2">
-                <span class="infodesc mr-2">Erwähnt am</span>
+                <legend>Erwähnt am</legend>
                 <ul class="list-unstyled">
                     <xsl:for-each select="key('work-day-lookup', @xml:id, $work-day)">
                         <xsl:variable name="linkToDocument">

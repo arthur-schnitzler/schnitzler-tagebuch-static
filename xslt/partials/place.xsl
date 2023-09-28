@@ -67,7 +67,7 @@
                         </ul>
                     </xsl:if>
                     <div id="mentions" class="mt-2">
-                        <span class="infodesc mr-2">Erwähnt am</span>
+                        <legend>Erwähnt am</legend>
                         <ul class="list-unstyled">
                             <xsl:for-each select=".//tei:ptr">
                                 <xsl:sort data-type="text" order="ascending" select="@target"/>
