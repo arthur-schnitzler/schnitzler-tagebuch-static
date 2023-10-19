@@ -37,14 +37,15 @@
                                             
                                             <h4>Sortierung</h4>
                                             <div id="sort-by"></div>
+                                            <h4>Jahr</h4>
+                                            <div id="range-input"></div>
                                             <h4>Personen</h4>
                                             <div id="refinement-list-persons"></div>
                                             <h4>Werke</h4>
                                             <div id="refinement-list-works"></div>
                                             <h4>Orte</h4>
                                             <div id="refinement-list-places"></div>
-                                            <h4>Jahr</h4>
-                                            <div id="range-input"></div>
+                                            
                                         </div>
                                         <div class="col-md-8">
                                             <div id="hits"></div>
