@@ -14,7 +14,7 @@
         <xsl:value-of select="concat(name($currentNode), '__', $nodeCurrNr)"/>
     </xsl:function>
 
-    <xsl:template match="tei:rs[@ref or @key]">
+    <xsl:template match="tei:rs[(@ref or @key) and not(@ana='#exclude')]">
             <xsl:element name="a">
                 <!--<xsl:attribute name="data-toggle">modal</xsl:attribute>
                 <xsl:attribute name="data-target">-->
