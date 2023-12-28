@@ -163,6 +163,12 @@
                     <xsl:call-template name="html_head">
                         <xsl:with-param name="html_title" select="$name"/>
                     </xsl:call-template>
+                    <script src="./js/highcharts-persons-occurences.js"></script>
+                    <script src="https://code.highcharts.com/highcharts.js"/>
+                    <script src="https://code.highcharts.com/highcharts-more.js"/>
+                    <script src="https://code.highcharts.com/modules/data.js"/>
+                    <script src="https://code.highcharts.com/modules/exporting.js"/>
+                    
                     <body class="page">
                         <div class="hfeed site" id="page">
                             <xsl:call-template name="nav_bar"/>
