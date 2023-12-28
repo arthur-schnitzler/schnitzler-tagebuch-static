@@ -12,7 +12,11 @@ function createChartFromXSLT(csvFilename) {
         },
         chart: {
             type: 'column',
-            inverted: false
+            inverted: false,
+            // Set legend to false to hide it
+            legend: {
+                enabled: false
+            }
         },
         title: {
             text: 'Anzahl der Erwähnungen nach Jahr'
