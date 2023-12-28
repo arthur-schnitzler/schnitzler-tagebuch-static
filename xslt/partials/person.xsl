@@ -162,7 +162,7 @@
                     </xsl:if>
                 </p>
             </xsl:if>
-            <div id="container" style="width:100%; height:400px; min-width:750px"/>
+            <div id="container" style="width:100%; height:400px; min-width:600px"/>
             <div class="werke">
                 <xsl:variable name="author-ref"
                     select="replace(concat('pmb', tei:idno[@subtype = 'pmb'][1]/substring-after(., 'https://pmb.acdh.oeaw.ac.at/entity/')), '/', '')"
