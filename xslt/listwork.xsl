@@ -149,7 +149,7 @@
                                             <xsl:value-of select="$name"/>
                                         </h1>
                                     </div>
-                                    <div class="card-body">
+                                    <div class="card-body-index">
                                         <xsl:call-template name="work_detail"/>
                                     </div>
                                 </div>

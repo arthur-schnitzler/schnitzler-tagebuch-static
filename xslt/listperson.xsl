@@ -175,22 +175,23 @@
                             <div class="container-fluid">
                                 <div class="card">
                                     <div class="card-header">
-                                        <h2 align="center">
-                                            <xsl:value-of select="$name"/>
-                                            <xsl:text> </xsl:text>
-                                            <xsl:choose>
-                                                <xsl:when test="child::tei:birth and child::tei:death">
-                                                    <span class="lebensdaten">
-                                                        <xsl:text>(</xsl:text>
-                                                        <xsl:value-of select="mam:lebensdaten($entity)"/>
-                                                        <xsl:text>)</xsl:text>
-                                                    </span>
-                                                </xsl:when>
-                                            </xsl:choose>
-                                        </h2>
-                                    </div>
-                                    <xsl:call-template name="person_detail"/>
+                                    <h2 align="center">
+                                        <xsl:value-of select="$name"/>
+                                        <xsl:text> </xsl:text>
+                                        <xsl:choose>
+                                            <xsl:when test="child::tei:birth and child::tei:death">
+                                                <span class="lebensdaten">
+                                                    <xsl:text>(</xsl:text>
+                                                    <xsl:value-of select="mam:lebensdaten($entity)"/>
+                                                    <xsl:text>)</xsl:text>
+                                                </span>
+                                            </xsl:when>
+                                        </xsl:choose>
+                                    </h2>
                                 </div>
+                                <div class="card-body-index">
+                                    <xsl:call-template name="person_detail"/>
+                                </div></div>
                             </div>
                             <xsl:call-template name="html_footer"/>
                         </div>
