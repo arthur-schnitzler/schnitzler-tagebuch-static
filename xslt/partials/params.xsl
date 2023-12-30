@@ -3,8 +3,8 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
     <xsl:param name="project_title">Schnitzler Tagebuch</xsl:param>
     <xsl:param name="project_short_title">Schnitzler Tagebuch</xsl:param>
-    <xsl:param name="github_url">https://github.com/csae8092/schnitzler-tagebuch-static</xsl:param>
+    <xsl:param name="github_url">https://github.com/arthur-schnitzler/schnitzler-tagebuch-static</xsl:param>
     <xsl:param name="html_title">Schnitzler Tagebuch</xsl:param>
-    <xsl:param name="project_logo">../../html/img/schnitzler-tb.svg</xsl:param>
+    <xsl:param name="project_logo">./img/schnitzler-tb.svg</xsl:param>
     <xsl:param name="base_url">https://schnitzler-tagebuch.acdh.oeaw.ac.at</xsl:param>
 </xsl:stylesheet>

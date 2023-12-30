@@ -374,7 +374,8 @@ article.card.col-md-6 {
     line-height: 1.7rem;
     font-size: 1.1rem;
     padding: 1.25rem;
-    min-width: auto;
+    min-width: 375px;
+    width: 100%;
 }
 .card-body-place {
     justify-content: center;
