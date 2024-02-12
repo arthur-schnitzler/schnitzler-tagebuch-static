@@ -38,7 +38,7 @@
                                     Juristische Person öffentlichen Rechts (BGBl 569/1921 idF BGBl I 130/2003) <br />
                                         <a href="https://acdh.oeaw.ac.at">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</a> <br />
                                             Dr. Ignaz Seipel-Platz 2, 1010 Wien, Österreich <br />
-                                    E-Mail: <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">acdh-ch-helpdesk(at)oeaw.ac.at</a></p>
+                                    E-Mail: <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">acdh-ch-helpdesk@oeaw.ac.at</a></p>
                                 <p>Technische Betreuung und Kuratierung der Daten: Peter Andorfer, Martin Anton Müller</p>
                                 <h3>Unternehmensgegenstand:</h3>
                                 <p>Die Österreichische Akademie der Wissenschaften (ÖAW) hat den gesetzlichen Auftrag, die Wissenschaft
@@ -64,7 +64,7 @@
                                     direkt oder indirekt mitverantwortlich ist, übernimmt die ÖAW keine Haftung für deren Inhalte und
                                     schließt jegliche Haftung hierfür aus.</p>
                                 <h3>Urheberrechtlicher Hinweis:</h3>
-                                <p>Alle Inhalte der Website sind mit der Lizenz CC BY 4.0 lizenziert.</p>
+                                <p>Die Faksimiles der Website sind mit der Linzenz CC0 lizenziert, alle weiteren Inhalte der Website mit der Lizenz CC BY 4.0.</p>
                                 <h3>Datenschutzrechtlicher Hinweis:</h3>
                                 <p>Wir weisen darauf hin, dass zum Zwecke der Systemsicherheit und der Übersicht über das
                                     Nutzungsverhalten der Besuchenden im Rahmen von Cookies diverse personenbezogene Daten
