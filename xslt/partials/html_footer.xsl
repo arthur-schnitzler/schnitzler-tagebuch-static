@@ -42,7 +42,7 @@
                                 <br/>
                                 E: <a
                                     href="mailto:acdh-ch-helpdesk@oeaw.ac.at"
-                                    >acdh-ch-helpdesk@oeaw.ac.at</a>
+                                    >acdh-ch-helpdesk(at)oeaw.ac.at</a>
                             </p>
                         </div>
                     </div>
