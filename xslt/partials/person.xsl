@@ -25,8 +25,6 @@
                 </xsl:element>
             </xsl:variable>
             <xsl:variable name="csvFilename" select="concat('tagebuch-vorkommen-jahr_', @xml:id, '.csv')"/>
-            
-           
             <script>
                 function getTitle() {
                 var title = '<xsl:value-of select="$csvFilename"/>';
@@ -162,7 +160,7 @@
                     </xsl:if>
                 </p>
             </xsl:if>
-            <div id="container" style="width:100%; height:400px"/>
+            <div id="container" style="width:100%; height:400px min-width:768px;"/>
             <div class="werke">
                 <xsl:variable name="author-ref"
                     select="replace(concat('pmb', tei:idno[@subtype = 'pmb'][1]/substring-after(., 'https://pmb.acdh.oeaw.ac.at/entity/')), '/', '')"
