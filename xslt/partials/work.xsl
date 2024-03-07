@@ -193,7 +193,7 @@
                 <p/>
             </xsl:if>
             <xsl:if
-                test="tei:title[@type = 'werk_bibliografische-angabe' or starts-with(@type, 'werk_link')]">
+                test="tei:title[@type = 'werk_bibliografische-angabe' or @type='anno']">
                 <div id="labels" class="mt-2">
                     <span class="infodesc mr-2">
                         <ul>
@@ -203,7 +203,7 @@
                                     <xsl:value-of select="."/>
                                 </li>
                             </xsl:for-each>
-                            <xsl:for-each select="tei:title[starts-with(@type, 'werk_link')]">
+                            <xsl:for-each select="tei:title[@type = 'anno']">
                                 <li>
                                     <a>
                                         <xsl:attribute name="href">
