@@ -367,6 +367,7 @@ article.card.col-md-6 {
 .card-body-index {
     color: #000000;
     max-width: 750px;
+    min-width: 680px;
     min-height: 270px;
     margin-left: auto;
     margin-right: auto;
@@ -434,7 +435,7 @@ article.card.col-md-6 {
     padding-right: 1rem;
     padding-bottom: 0rem;
     padding-top: 0rem}
-    
+
 #wrapper-hero-inner {
     padding: 0 35% 0 30px;
 }
@@ -541,7 +542,7 @@ div.col-md-2 {
     color: black;
     list-style-type: none;
     padding-inline-start: 0em}
-    
+
 .mb-0 {
     color: black
 }
@@ -608,21 +609,22 @@ ol.list-for-footnotes p {
 ol.list-for-footnotes-meta p {
     display: inline}
 .list_simple-gloss .tei_label {
-    margin-right:1em;
+    margin-right: 1em;
 }
 
 .list_gloss .tei_label {
-    margin-right:1em;
+    margin-right: 1em;
     font-weight: bold;
 }
 
 .list_simple-gloss .tei_label {
-    margin-right:1em;
+    margin-right: 1em;
     font-weight: bold;
 }
 
-.list_gloss, .list_simple-gloss {
-    list-style:none;
+.list_gloss,
+.list_simple-gloss {
+    list-style: none;
 }
 
 
@@ -643,16 +645,16 @@ ol.list-for-footnotes-meta p {
     color: #037A33}
 
 .circle {
-position: relative;
-top: 1px;
-display: inline-block;
-width: 12px;
-height: 12px;
-border: 1px solid var(--color-primer-border-contrast);
-border-radius: 50%;   
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid var(--color-primer-border-contrast);
+    border-radius: 50%;
 }
 
-.idno{
+.idno {
     display: inline-block !important;
     margin-right: 8px !important;
     margin-left: 0px !important;
@@ -937,7 +939,8 @@ linkfarbe {
 /*** calendar ***/
 
 
-#years-table .btn-light:focus, #years-table .btn-light.focus {
+#years-table .btn-light:focus,
+#years-table .btn-light.focus {
     background: #037A33;
     text-decoration-thickness: 4px;
     color: white;
@@ -956,5 +959,6 @@ linkfarbe {
     width: auto;
 }
 
-legend {float: none;}
-
+legend {
+    float: none;
+}
