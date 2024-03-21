@@ -77,7 +77,6 @@
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
             </xsl:call-template>
-           
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
@@ -143,10 +142,10 @@
                                                   data-bs-toggle="modal" type="button"
                                                   data-bs-target="#faks-modal">
                                                   <i class="fa-lg far fa-file-image"/> FAKSIMILE
-                                                  </a>&#160; </li> 
-                                                <li class="nav-item">
-                                                  &#160;<a href="#" data-bs-target="#downloadModal"
-                                                  type="button" data-bs-toggle="modal"
+                                                  </a>&#160; </li>
+                                                <li class="nav-item"> &#160;<a href="#"
+                                                  data-bs-target="#downloadModal" type="button"
+                                                  data-bs-toggle="modal"
                                                   title="Diesen Eintrag herunterladen"><i
                                                   class="fas fa-solid fa-download"/> DOWNLOAD
                                                   </a>&#160; </li>
@@ -273,7 +272,9 @@
                     <div class="modal-dialog modal-lg" role="document" style="max-width: 2000px;">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h3>Faksimile</h3>
+                                <h5 class="modal-title" id="faksimile">Faksimile</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Schließen"/>
                             </div>
                             <div class="modal-body">
                                 <div id="openseadragon-photo" style="height: 850px;"/>
@@ -297,7 +298,7 @@
                             </div>
                             <div class="modal-footer" style="justify-content: flex-start;">
                                 <ul style="list-style-type: none;">
-                                    <xsl:for-each select=".//data(@url)">
+                                    <xsl:for-each select=".//tei:facsimile/tei:graphic/data(@url)">
                                         <li>
                                             <a>
                                                 <xsl:attribute name="href">
@@ -478,8 +479,10 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle3" style="font-style: normal">
-                                    <a href="{concat('https://schnitzler-chronik.acdh.oeaw.ac.at/', $datum, '.html')}"
+                                <h5 class="modal-title" id="exampleModalLongTitle3"
+                                    style="font-style: normal">
+                                    <a
+                                        href="{concat('https://schnitzler-chronik.acdh.oeaw.ac.at/', $datum, '.html')}"
                                         target="_blank" style="color: #C67F53">
                                         <xsl:value-of
                                             select="concat($wochentag, ', ', $datum-written)"/>
