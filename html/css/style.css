@@ -959,6 +959,42 @@ linkfarbe {
     width: auto;
 }
 
-legend {
-    float: none;
+legend {float: none;
+      display: block;
+}
+
+ .WikimediaContainer {
+      display: flex;
+      flex-wrap: wrap; /* Enable wrapping for smaller screens */
+    }
+
+    /* Style for the left div */
+    .WikimediaRight-div {
+      width: 300px; /* Set the width of the left div */
+      min-width: 300px; /* Ensure a minimum width for the right div */
+      background-color: white; /* Add styling as needed */
+      box-sizing: border-box; /* Include padding and border in the width */
+      padding: 0px;
+      flex-grow: 1; /* Allow the right div to grow and fill the remaining space */
+
+      
+    }
+
+    /* Style for the right div */
+    .WikimediaLeft-div {
+      min-width: 200px; /* Ensure a minimum width for the right div */
+      background-color: white; /* Add styling as needed */
+      box-sizing: border-box; /* Include padding and border in the width */
+      padding: 0px;
+      text-align:right;
+      margin-bottom: 1.5em;
+      margin-right: 1.5em;
+    }
+    
+    figure {
+  border: none;
+  display: flex;
+  flex-flow: column;
+  padding: 0px;
+  margin: auto;
 }
