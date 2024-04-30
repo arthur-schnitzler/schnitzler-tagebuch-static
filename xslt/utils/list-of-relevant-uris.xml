@@ -2,12 +2,14 @@
 <!-- This XML file collects all the types of idnos that should be
 included. By adding the attribute type="current-edition" one can 
 note which one should be omitted without deleting it. If the URIs
-are but links to pdfs etc. an URL can be added
+are but links to pdfs etc. an URL can be added.
+by adding @ana="multiple" one can note if several uris shall be displayed (i.e. schnitzler-microfilms where
+several folders of one work has to be shown)
 -->
 <list>
-    <item >
+    <item>
         <abbr>schnitzler-briefe</abbr>
-        <caption>Briefe</caption>
+        <caption>Briefe mit Autorinnen und Autoren</caption>
         <color>#A63437</color>
     </item>
     <item type="current-edition">
@@ -15,22 +17,42 @@ are but links to pdfs etc. an URL can be added
         <caption>Tagebuch</caption>
         <color>#037a33</color>
     </item>
-    <item type="print">
-        <abbr>schnitzler-traeume</abbr>
-        <caption>Traumtagebuch</caption>
-        <color>#1193CC</color>
+    <item>
+        <abbr>schnitzler-lektueren</abbr>
+        <caption>Leseliste</caption>
+        <color>#022954</color>
     </item>
     <item>
         <abbr>schnitzler-interviews</abbr>
         <caption>Interviews, Meinungen, Proteste</caption>
         <color>#3D5A80</color>
     </item>
-    <item>
-        <abbr>schnitzler-lektueren</abbr>
-        <caption>Leseliste</caption>
-        <color>#022954</color>
+    <item ana="multiple">
+        <abbr>schnitzler-mikrofilme</abbr>
+        <caption>Mikrofilme</caption>
+        <color>#6e7b8b</color>
     </item>
-  <!--  <item >
+    <item ana="multiple">
+        <abbr>schnitzler-zeitungen</abbr>
+        <caption>Zeitungsausschnitte</caption>
+        <color>#8E8575</color>
+    </item>
+    <item type="print">
+        <abbr>schnitzler-traeume</abbr>
+        <caption>Traumtagebuch</caption>
+        <color>#1193CC</color>
+    </item>
+    <item type="print">
+        <abbr>schnitzler-kino-buch</abbr>
+        <caption>Kino</caption>
+        <color>#B43C9C</color>
+    </item>
+    <item type="print">
+        <abbr>schnitzler-kempny-buch</abbr>
+        <caption>Kempny Tagebuch</caption>
+        <color>#7B3F00</color>
+    </item>
+    <!--<item >
         <abbr>schnitzler-kino</abbr>
         <caption>Kino</caption>
         <color>#B43C9C</color>
@@ -38,7 +60,7 @@ are but links to pdfs etc. an URL can be added
     <item>
         <abbr>schnitzler-bahr</abbr>
         <caption>Schnitzler/Bahr</caption>
-        <color>#F9BD63</color>
+        <color>#639FF9</color>
     </item>
     <item>
         <abbr>schnitzler-orte</abbr>
@@ -91,6 +113,16 @@ are but links to pdfs etc. an URL can be added
         <color>#ce0000</color>
     </item>
     <item>
+        <abbr>hanslick</abbr>
+        <caption>Hanslick online</caption>
+        <color>#222fa8</color>
+    </item>
+    <item>
+        <abbr>thun-korrespondenz</abbr>
+        <caption>Thun-Korrespondenz</caption>
+        <color>#pmb01589C</color>
+    </item>
+    <item>
         <abbr>schoenbach</abbr>
         <caption>Schönbach</caption>
         <color>#62C3D0</color>
@@ -110,20 +142,30 @@ are but links to pdfs etc. an URL can be added
         <caption>Jugend in Wien</caption>
         <url>http://www.zeno.org/Literatur/M/Schnitzler,+Arthur/Autobiographisches/Jugend+in+Wien</url>
     </item>
-    <item type="print">
-        <abbr>schnitzler-cmif</abbr>
-        <caption>Gedruckte Briefwechsel</caption>
-        <color>#654321</color>
+    <item>
+        <abbr>auden-musulin-papers</abbr>
+        <caption>Auden-Musulin</caption>
+        <color>#b59890</color>
     </item>
     <item>
-        <abbr>wikidata</abbr>
-        <caption>Wikidata</caption>
-        <color>#0645ad</color>
+        <abbr>wiengeschichtewiki</abbr>
+        <caption>Wien Geschichte Wiki</caption>
+        <color>#6F6938</color>
     </item>
     <item>
         <abbr>oebl</abbr>
         <caption>ÖBL</caption>
         <color>#a50021</color>
+    </item>
+    <item>
+        <abbr>wikipedia</abbr>
+        <caption>Wikipedia</caption>
+        <color>#36c</color>
+    </item>
+    <item>
+        <abbr>wikidata</abbr>
+        <caption>Wikidata</caption>
+        <color>#0645ad</color>
     </item>
     <item>
         <abbr>pmb</abbr>
@@ -140,6 +182,9 @@ are but links to pdfs etc. an URL can be added
         <caption>geoNames</caption>
         <color>#363</color>
     </item>
-    
-    
+    <item type="print">
+        <abbr>schnitzler-cmif</abbr>
+        <caption>Gedruckte Briefwechsel</caption>
+        <color>#654321</color>
+    </item>
 </list>
