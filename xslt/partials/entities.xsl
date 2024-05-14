@@ -7,6 +7,7 @@
     <xsl:param name="works" select="document('../../data/indices/listwork.xml')"/>
     <xsl:param name="konkordanz" select="document('../../data/indices/index_person_day.xml')"/>
     <xsl:param name="work-day" select="document('../../data/indices/index_work_day.xml')"/>
+    <xsl:key name="konk-lookup" match="item" use="ref"/>
     <xsl:key name="work-lookup" match="tei:bibl" use="tei:relatedItem/@target"/>
     <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
     <xsl:key name="authorwork-lookup" match="tei:bibl"
@@ -285,35 +286,37 @@
                     </div>
                 </xsl:otherwise>
             </xsl:choose>
-            <div id="mentions" class="mt-2">
-                <legend>Erwähnt am</legend>
-                <ul class="list-unstyled">
-                    <xsl:for-each select="key('konk-lookup', @xml:id, $konkordanz)">
-                        <xsl:variable name="linkToDocument">
-                            <xsl:value-of select="concat('entry__', @target, '.html')"/>
-                        </xsl:variable>
-                        <xsl:variable name="doc_date">
-                            <xsl:value-of select="@target"/>
-                        </xsl:variable>
-                        <xsl:variable name="print_date">
-                            <xsl:variable name="monat"
-                                select="mam:germanNames(format-date(data(@target), '[MNn]'))"/>
-                            <xsl:variable name="wochentag"
-                                select="mam:germanNames(format-date(data(@target), '[F]'))"/>
-                            <xsl:variable name="tag"
-                                select="concat(format-date(@target, '[D]'), '. ')"/>
-                            <xsl:variable name="jahr" select="format-date(@target, '[Y]')"/>
-                            <xsl:value-of
-                                select="concat($wochentag, ', ', $tag, $monat, ' ', $jahr)"/>
-                        </xsl:variable>
-                        <li>
-                            <a href="{$linkToDocument}">
-                                <xsl:value-of select="$print_date"/>
-                            </a>
-                        </li>
-                    </xsl:for-each>
-                </ul>
-            </div>
+            <xsl:if test="key('konk-lookup', @xml:id, $konkordanz)[1]">
+                <div id="mentions" class="mt-2">
+                    <legend>Erwähnt am</legend>
+                    <ul class="list-unstyled">
+                        <xsl:for-each select="key('konk-lookup', @xml:id, $konkordanz)">
+                            <xsl:variable name="linkToDocument">
+                                <xsl:value-of select="concat('entry__', @target, '.html')"/>
+                            </xsl:variable>
+                            <xsl:variable name="doc_date">
+                                <xsl:value-of select="@target"/>
+                            </xsl:variable>
+                            <xsl:variable name="print_date">
+                                <xsl:variable name="monat"
+                                    select="mam:germanNames(format-date(data(@target), '[MNn]'))"/>
+                                <xsl:variable name="wochentag"
+                                    select="mam:germanNames(format-date(data(@target), '[F]'))"/>
+                                <xsl:variable name="tag"
+                                    select="concat(format-date(@target, '[D]'), '. ')"/>
+                                <xsl:variable name="jahr" select="format-date(@target, '[Y]')"/>
+                                <xsl:value-of
+                                    select="concat($wochentag, ', ', $tag, $monat, ' ', $jahr)"/>
+                            </xsl:variable>
+                            <li>
+                                <a href="{$linkToDocument}">
+                                    <xsl:value-of select="$print_date"/>
+                                </a>
+                            </li>
+                        </xsl:for-each>
+                    </ul>
+                </div>
+            </xsl:if>
             <div class="werke">
                 <xsl:variable name="author-ref"
                     select="replace(replace(@xml:id, 'person__', ''), 'pmb', '')"/>
