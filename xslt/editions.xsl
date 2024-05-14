@@ -11,8 +11,7 @@
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/osd-container.xsl"/>
     <xsl:import href="./partials/tei-facsimile.xsl"/>
-    <xsl:import href="./partials/person.xsl"/>
-    <xsl:import href="./partials/place.xsl"/>
+    <xsl:import href="./partials/entities.xsl"/>
     <xsl:import href="./partials/html_title_navigation.xsl"/>
     <xsl:import href="./partials/view-type.xsl"/>
     <xsl:import href="./partials/schnitzler-chronik.xsl"/>
