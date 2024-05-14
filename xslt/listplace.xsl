@@ -16,10 +16,21 @@
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
             </xsl:call-template>
+            <link
+                href="https://unpkg.com/tabulator-tables@5.5.2/dist/css/tabulator_bootstrap5.min.css"
+                rel="stylesheet"/>
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+                integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+            <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""/>
+            <link rel="stylesheet"
+                href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
+            <link rel="stylesheet"
+                href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"/>
+            <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"/>
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                    <div class="container-fluid">
+                    <div class="container">
                         <div class="card">
                             <div class="card-header" style="text-align:center">
                                 <h1>
@@ -27,46 +38,61 @@
                                 </h1>
                             </div>
                             <div class="card-body">
-                                <div class="w-100 text-center">
-                                    <div class="spinner-grow table-loader" role="status">
-                                        <span class="sr-only">Wird geladen…</span>
-                                    </div>
-                                </div>
-                                <table class="table table-striped display" id="tocTable"
+                                <div id="map"/>
+                                <table id="placesTable"
                                     style="width:100%">
                                     <thead>
                                         <tr>
                                             <th scope="col">Ortsname</th>
-                                            <th scope="col">Längen-/Breitengrad</th>
+                                            <th scope="col">Zugehörigkeit</th>
+                                            <th scope="col">Erwähnungen</th>
+                                            <th scope="col">lat</th>
+                                            <th scope="col">lng</th>
+                                            <th scope="col">linkToEntity</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <xsl:for-each select="descendant::tei:place">
+                                        <xsl:for-each select=".//tei:place">
                                             <xsl:variable name="id">
                                                 <xsl:value-of select="data(@xml:id)"/>
                                             </xsl:variable>
                                             <tr>
                                                 <td>
-                                                  <a>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of select="concat($id, '.html')"/>
-                                                  </xsl:attribute>
-                                                  <xsl:value-of
-                                                  select="descendant::tei:placeName[1]/text()"/>
-                                                  </a>
+                                                    <xsl:value-of
+                                                        select="descendant::tei:placeName[1]/text()"/>
                                                 </td>
                                                 <td>
-                                                  <xsl:if test="descendant::tei:geo[1]">
-                                                  <xsl:variable name="lat"
-                                                  select="replace(tokenize(descendant::tei:geo[1]/text(), ' ')[1], ',', '.')"
-                                                  as="xs:string"/>
-                                                  <xsl:variable name="long"
-                                                  select="replace(tokenize(descendant::tei:geo[1]/text(), ' ')[2], ',', '.')"
-                                                  as="xs:string"/>
-                                                  <xsl:value-of
-                                                  select="concat(foo:grad-kuerzen($lat), '/', foo:grad-kuerzen($long))"
-                                                  />
-                                                  </xsl:if>
+                                                    <xsl:for-each select="descendant::tei:location[@type='located_in_place']">
+                                                        <xsl:value-of select="tei:placeName[1]"/>
+                                                        <xsl:if test="not(position()=last())">
+                                                            <xsl:text>, </xsl:text>
+                                                        </xsl:if>
+                                                    </xsl:for-each>
+                                                </td>
+                                                <td>
+                                                    <xsl:value-of
+                                                        select="count(.//tei:note[@type = 'mentions'])"/>
+                                                </td>
+                                                <td>
+                                                    <xsl:choose>
+                                                        <xsl:when test="child::tei:location/tei:geo">
+                                                            <xsl:value-of
+                                                                select="replace(tokenize(child::tei:location[1]/tei:geo/text(), ' ')[1], ',', '.')"
+                                                            />
+                                                        </xsl:when>
+                                                    </xsl:choose>
+                                                </td>
+                                                <td>
+                                                    <xsl:choose>
+                                                        <xsl:when test="child::tei:location/tei:geo">
+                                                            <xsl:value-of
+                                                                select="replace(tokenize(child::tei:location[1]/tei:geo/text(), ' ')[last()], ',', '.')"
+                                                            />
+                                                        </xsl:when>
+                                                    </xsl:choose>
+                                                </td>
+                                                <td>
+                                                    <xsl:value-of select="$id"/>
                                                 </td>
                                             </tr>
                                         </xsl:for-each>
@@ -76,10 +102,11 @@
                         </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
+                    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.5.2/dist/js/tabulator.min.js"/>
+                    <script src="js/map_table_cfg.js"/>
+                    <script src="js/make_map_and_table.js"/>
                     <script>
-                        $(document).ready(function () {
-                        createDataTable('tocTable')
-                        });
+                        build_map_and_table(map_cfg, table_cfg, wms_cfg=null, tms_cfg=null);
                     </script>
                 </div>
             </body>
@@ -102,7 +129,7 @@
                                             <xsl:value-of select="$name"/>
                                         </h1>
                                     </div>
-                                    <div class="card-body-index">
+                                    <div class="card-body">
                                         <xsl:call-template name="place_detail"/>
                                     </div>
                                 </div>
