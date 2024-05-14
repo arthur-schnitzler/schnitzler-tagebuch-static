@@ -8,7 +8,7 @@
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
-    <xsl:import href="./partials/person.xsl"/>
+    <xsl:import href="./partials/entities.xsl"/>
     <xsl:variable name="teiSource" select="'listperson.xml'"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Verzeichnis erwähnter Personen'"/>

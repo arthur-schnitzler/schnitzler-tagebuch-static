@@ -7,7 +7,7 @@
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
-    <xsl:import href="./partials/work.xsl"/>
+    <xsl:import href="./partials/entities.xsl"/>
     <xsl:import href="partials/LOD-idnos.xsl"/>
     <xsl:param name="work-day" select="document('../data/indices/index_work_day.xml')"/>
     <xsl:key name="work-day-lookup" match="item/@when" use="ref"/>
