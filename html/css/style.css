@@ -998,3 +998,7 @@ legend {float: none;
   padding: 0px;
   margin: auto;
 }
+
+div#map {
+     height: 50vh;
+ } 
