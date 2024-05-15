@@ -854,10 +854,8 @@
                                     select="concat($wochentag, ', ', $tag, $monat, ' ', $jahr)"/>
                             </xsl:variable>
                             <li>
-                                <xsl:value-of select="$print_date"/>
-                                <xsl:text> </xsl:text>
                                 <a href="{$linkToDocument}">
-                                    <i class="fas fa-external-link-alt"/>
+                                <xsl:value-of select="$print_date"/>
                                 </a>
                             </li>
                         </xsl:for-each>
