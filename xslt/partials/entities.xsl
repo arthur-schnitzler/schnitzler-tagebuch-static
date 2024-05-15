@@ -287,37 +287,22 @@
                     </div>
                 </xsl:otherwise>
             </xsl:choose>
-            <xsl:if test="key('konk-lookup', @xml:id, $konkordanz)[1]">
-                <div id="mentions" class="mt-2">
-                    <legend>Erwähnt am</legend>
-                    <ul class="list-unstyled">
-                        <xsl:for-each select="key('konk-lookup', @xml:id, $konkordanz)">
-                            <xsl:variable name="linkToDocument">
-                                <xsl:value-of select="concat('entry__', @target, '.html')"/>
-                            </xsl:variable>
-                            <xsl:variable name="doc_date">
-                                <xsl:value-of select="@target"/>
-                            </xsl:variable>
-                            <xsl:variable name="print_date">
-                                <xsl:variable name="monat"
-                                    select="mam:germanNames(format-date(data(@target), '[MNn]'))"/>
-                                <xsl:variable name="wochentag"
-                                    select="mam:germanNames(format-date(data(@target), '[F]'))"/>
-                                <xsl:variable name="tag"
-                                    select="concat(format-date(@target, '[D]'), '. ')"/>
-                                <xsl:variable name="jahr" select="format-date(@target, '[Y]')"/>
-                                <xsl:value-of
-                                    select="concat($wochentag, ', ', $tag, $monat, ' ', $jahr)"/>
-                            </xsl:variable>
-                            <li>
-                                <a href="{$linkToDocument}">
-                                    <xsl:value-of select="$print_date"/>
-                                </a>
-                            </li>
-                        </xsl:for-each>
-                    </ul>
-                </div>
-            </xsl:if>
+            <div id="mentions">
+                <xsl:if test="key('only-relevant-uris', tei:idno/@subtype, $relevant-uris)[1]">
+                    <p class="buttonreihe">
+                        <xsl:variable name="idnos-of-current" as="node()">
+                            <xsl:element name="nodeset_person">
+                                <xsl:for-each select="tei:idno">
+                                    <xsl:copy-of select="."/>
+                                </xsl:for-each>
+                            </xsl:element>
+                        </xsl:variable>
+                        <xsl:call-template name="mam:idnosToLinks">
+                            <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
+                        </xsl:call-template>
+                    </p>
+                </xsl:if>
+            </div>
             <div class="werke">
                 <xsl:variable name="author-ref"
                     select="replace(replace(@xml:id, 'person__', ''), 'pmb', '')"/>
@@ -449,32 +434,37 @@
                     </ul>
                 </xsl:if>
             </div>
-            <div id="mentions" class="mt-2">
-                <legend>Erwähnt am</legend>
-                <ul class="list-unstyled">
-                    <xsl:for-each select="key('work-day-lookup', @xml:id, $work-day)">
-                        <xsl:variable name="linkToDocument">
-                            <xsl:value-of select="concat('entry__', data(@target), '.html')"/>
-                        </xsl:variable>
-                        <xsl:variable name="print_date">
-                            <xsl:variable name="monat"
-                                select="mam:germanNames(format-date(data(@target), '[MNn]'))"/>
-                            <xsl:variable name="wochentag"
-                                select="mam:germanNames(format-date(data(@target), '[F]'))"/>
-                            <xsl:variable name="tag"
-                                select="concat(format-date(data(@target), '[D]'), '. ')"/>
-                            <xsl:variable name="jahr" select="format-date(data(@target), '[Y]')"/>
-                            <xsl:value-of
-                                select="concat($wochentag, ', ', $tag, $monat, ' ', $jahr)"/>
-                        </xsl:variable>
-                        <li>
-                            <a href="{$linkToDocument}">
-                                <xsl:value-of select="$print_date"/>
-                            </a>
-                        </li>
-                    </xsl:for-each>
-                </ul>
-            </div>
+            <xsl:if test="key('konk-lookup', @xml:id, $konkordanz)[1]">
+                <div id="mentions" class="mt-2">
+                    <legend>Erwähnt am</legend>
+                    <ul class="list-unstyled">
+                        <xsl:for-each select="key('konk-lookup', @xml:id, $konkordanz)">
+                            <xsl:variable name="linkToDocument">
+                                <xsl:value-of select="concat('entry__', @target, '.html')"/>
+                            </xsl:variable>
+                            <xsl:variable name="doc_date">
+                                <xsl:value-of select="@target"/>
+                            </xsl:variable>
+                            <xsl:variable name="print_date">
+                                <xsl:variable name="monat"
+                                    select="mam:germanNames(format-date(data(@target), '[MNn]'))"/>
+                                <xsl:variable name="wochentag"
+                                    select="mam:germanNames(format-date(data(@target), '[F]'))"/>
+                                <xsl:variable name="tag"
+                                    select="concat(format-date(@target, '[D]'), '. ')"/>
+                                <xsl:variable name="jahr" select="format-date(@target, '[Y]')"/>
+                                <xsl:value-of
+                                    select="concat($wochentag, ', ', $tag, $monat, ' ', $jahr)"/>
+                            </xsl:variable>
+                            <li>
+                                <a href="{$linkToDocument}">
+                                    <xsl:value-of select="$print_date"/>
+                                </a>
+                            </li>
+                        </xsl:for-each>
+                    </ul>
+                </div>
+            </xsl:if>
         </div>
     </xsl:template>
     <!-- WORK -->
@@ -752,36 +742,30 @@
                 </div>
             </xsl:if>
             <div id="mentions" class="mt-2">
-                <span class="infodesc mr-2">
-                    <legend>Erwähnungen</legend>
-                    <ul>
-                        <xsl:for-each select=".//tei:note[@type = 'mentions']">
-                            <xsl:sort select="replace(@corresp, '-', '')" order="ascending"
-                                data-type="number"/>
-                            <xsl:variable name="linkToDocument">
-                                <xsl:value-of
-                                    select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"
-                                />
-                            </xsl:variable>
-                            <xsl:choose>
-                                <xsl:when test="position() lt $showNumberOfMentions + 1">
-                                    <li>
-                                        <xsl:value-of select="."/>
-                                        <xsl:text> </xsl:text>
-                                        <a href="{$linkToDocument}">
-                                            <i class="fas fa-external-link-alt"/>
-                                        </a>
-                                    </li>
-                                </xsl:when>
-                            </xsl:choose>
-                        </xsl:for-each>
-                    </ul>
-                    <xsl:if
-                        test="count(.//tei:note[@type = 'mentions']) gt $showNumberOfMentions + 1">
-                        <p>Anzahl der Erwähnungen limitiert, klicke <a href="{$selfLink}">hier</a>
-                            für eine vollständige Auflistung</p>
-                    </xsl:if>
-                </span>
+                <legend>Erwähnt am</legend>
+                <ul class="list-unstyled">
+                    <xsl:for-each select="key('work-day-lookup', @xml:id, $work-day)">
+                        <xsl:variable name="linkToDocument">
+                            <xsl:value-of select="concat('entry__', data(@target), '.html')"/>
+                        </xsl:variable>
+                        <xsl:variable name="print_date">
+                            <xsl:variable name="monat"
+                                select="mam:germanNames(format-date(data(@target), '[MNn]'))"/>
+                            <xsl:variable name="wochentag"
+                                select="mam:germanNames(format-date(data(@target), '[F]'))"/>
+                            <xsl:variable name="tag"
+                                select="concat(format-date(data(@target), '[D]'), '. ')"/>
+                            <xsl:variable name="jahr" select="format-date(data(@target), '[Y]')"/>
+                            <xsl:value-of
+                                select="concat($wochentag, ', ', $tag, $monat, ' ', $jahr)"/>
+                        </xsl:variable>
+                        <li>
+                            <a href="{$linkToDocument}">
+                                <xsl:value-of select="$print_date"/>
+                            </a>
+                        </li>
+                    </xsl:for-each>
+                </ul>
             </div>
         </div>
     </xsl:template>
@@ -846,38 +830,40 @@
                     </ul>
                 </xsl:if>
                 <div id="mentions" class="mt-2">
-                    <span class="infodesc mr-2">
-                        <legend>Erwähnungen</legend>
-                        <ul>
-                            <xsl:for-each select=".//tei:note[@type = 'mentions']">
-                                <xsl:sort select="replace(@corresp, '-', '')" order="ascending"
-                                    data-type="number"/>
-                                <xsl:variable name="linkToDocument">
-                                    <xsl:value-of
-                                        select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"
-                                    />
-                                </xsl:variable>
-                                <xsl:choose>
-                                    <xsl:when test="position() lt $showNumberOfMentions + 1">
-                                        <li>
-                                            <xsl:value-of select="."/>
-                                            <xsl:text> </xsl:text>
-                                            <a href="{$linkToDocument}">
-                                                <i class="fas fa-external-link-alt"/>
-                                            </a>
-                                        </li>
-                                    </xsl:when>
-                                </xsl:choose>
-                            </xsl:for-each>
-                        </ul>
-                        <xsl:if
-                            test="count(.//tei:note[@type = 'mentions']) gt $showNumberOfMentions + 1">
-                            <p>Anzahl der Erwähnungen limitiert, klicke <a href="{$selfLink}"
-                                    >hier</a> für eine vollständige Auflistung</p>
-                        </xsl:if>
-                    </span>
-                </div>
+                    <legend>Erwähnt am</legend>
+                    <ul class="list-unstyled">
+                        <xsl:for-each select=".//tei:ptr">
+                            <xsl:sort data-type="text" order="ascending" select="@target"/>
+                            <xsl:variable name="linkToDocument">
+                                <xsl:value-of select="replace(data(.//@target), '.xml', '.html')"/>
+                            </xsl:variable>
+                            <xsl:variable name="doc_date">
+                                <xsl:value-of
+                                    select="substring-after(replace(data(.//@target), '.xml', ''), '__')"
+                                />
+                            </xsl:variable>
+                            <xsl:variable name="print_date">
+                                <xsl:variable name="monat"
+                                    select="mam:germanNames(format-date($doc_date, '[MNn]'))"/>
+                                <xsl:variable name="wochentag"
+                                    select="mam:germanNames(format-date($doc_date, '[F]'))"/>
+                                <xsl:variable name="tag"
+                                    select="concat(format-date($doc_date, '[D]'), '. ')"/>
+                                <xsl:variable name="jahr" select="format-date($doc_date, '[Y]')"/>
+                                <xsl:value-of
+                                    select="concat($wochentag, ', ', $tag, $monat, ' ', $jahr)"/>
+                            </xsl:variable>
+                            <li>
+                                <xsl:value-of select="$print_date"/>
+                                <xsl:text> </xsl:text>
+                                <a href="{$linkToDocument}">
+                                    <i class="fas fa-external-link-alt"/>
+                                </a>
+                            </li>
+                        </xsl:for-each>
+                    </ul>
             </div>
+        </div>
         </div>
     </xsl:template>
     <xsl:function name="mam:pmbChange">
