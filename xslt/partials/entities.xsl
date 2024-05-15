@@ -9,6 +9,7 @@
     <xsl:param name="work-day" select="document('../../data/indices/index_work_day.xml')"/>
     <xsl:key name="konk-lookup" match="item" use="ref"/>
     <xsl:key name="work-lookup" match="tei:bibl" use="tei:relatedItem/@target"/>
+    <xsl:key name="work-day-lookup" match="item" use="ref"/>
     <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
     <xsl:key name="authorwork-lookup" match="tei:bibl"
         use="tei:author/@*[name() = 'key' or name() = 'ref']/replace(replace(., 'person__', ''), 'pmb', '')"/>
