@@ -71,7 +71,7 @@
                                                 </td>
                                                 <td>
                                                     <xsl:value-of
-                                                        select="count(.//tei:note[@type = 'mentions'])"/>
+                                                        select="count(descendant::tei:ptr)"/>
                                                 </td>
                                                 <td>
                                                     <xsl:choose>
