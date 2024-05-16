@@ -1000,3 +1000,37 @@ legend {float: none;
 div#map {
      height: 50vh;
  } 
+
+.faksimile-modal {
+  width: 66.67%; /* 2/3 of the width of the viewport */
+  height: auto; /* Allow the height to be automatically adjusted */
+  max-height: calc(100vh - 20px); /* Max height adjusted for some padding */
+}
+
+.faksimile-modal .modal-content {
+  padding-bottom: 20px; /* Ensure some padding at the bottom */
+}
+
+@media (min-width: 576px) {
+  .faksimile-modal {
+    width: 50%; /* 50% of the viewport width on larger screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .faksimile-modal {
+    width: 40%; /* 40% of the viewport width on larger screens */
+  }
+}
+
+@media (min-width: 992px) {
+  .faksimile-modal {
+    width: 30%; /* 30% of the viewport width on larger screens */
+  }
+}
+
+@media (min-width: 1200px) {
+  .faksimile-modal {
+    width: 25%; /* 25% of the viewport width on larger screens */
+  }
+}
