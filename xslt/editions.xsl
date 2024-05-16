@@ -268,7 +268,7 @@
                 <!-- Modal Faksimile -->
                 <div class="modal fade" id="faks-modal" tabindex="-1" role="dialog"
                     aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document" style="max-width: 2000px;">
+                    <div class="modal-dialog modal-lg faksimile-modal" role="document" style="max-width: 75%;">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="faksimile">Faksimile</h5>
