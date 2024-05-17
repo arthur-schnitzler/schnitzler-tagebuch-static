@@ -52,8 +52,8 @@
                 integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
                 crossorigin="anonymous" referrerpolicy="no-referrer"/>
             
-            <!--<link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css"
-                type="text/css"/>-->
+            <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css"
+                type="text/css"/>
             <link rel="stylesheet" href="css/style.css" type="text/css"/>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"/>
             <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
