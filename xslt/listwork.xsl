@@ -31,11 +31,6 @@
                                 </h1>
                             </div>
                             <div class="card">
-                                <div class="w-100 text-center">
-                                    <div class="spinner-grow table-loader" role="status">
-                                        <span class="sr-only">Wird geladen…</span>
-                                    </div>
-                                </div>
                                 <table class="table table-striped display" id="tocTable"
                                     style="width:100%">
                                     <thead>

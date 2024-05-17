@@ -28,11 +28,6 @@
                                 <h1><xsl:value-of select="$doc_title"/></h1>
                             </div>
                             <div class="card-body">
-                            <div class="w-100 text-center">
-                                <div class="spinner-grow table-loader" role="status">
-                                    <span class="sr-only">Loading...</span>
-                                </div>          
-                            </div>
                                 <table class="table table-sm display" id="tabulator-table"
                                     style="width:100%">
                                     <thead>
