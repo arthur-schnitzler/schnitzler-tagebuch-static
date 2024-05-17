@@ -9,6 +9,7 @@
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/entities.xsl"/>
+    <xsl:import href="./partials/tabulator_js.xsl"/>
     <xsl:variable name="teiSource" select="'listperson.xml'"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Verzeichnis erwähnter Personen'"/>
@@ -28,18 +29,16 @@
                                 </h1>
                             </div>
                             <div class="card">
-                                <div class="w-100 text-center">
-                                    <div class="spinner-grow table-loader" role="status">
-                                        <span class="sr-only">Wird geladen…</span>
-                                    </div>
-                                </div>
-                                <table class="table table-striped display" id="tocTable"
+                                <table class="table table-sm display" id="tabulator-table"
                                     style="width:100%">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Name</th>
-                                            <th scope="col">Lebensdaten</th>
-                                            <th scope="col">Beruf</th>
+                                            <th scope="col" tabulator-headerFilter="input"
+                                                tabulator-formatter="html">Name</th>
+                                            <th scope="col" tabulator-headerFilter="input"
+                                                >Lebensdaten</th>
+                                            <th scope="col" tabulator-headerFilter="input"
+                                                >Berufe</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -127,15 +126,12 @@
                                         </xsl:for-each>
                                     </tbody>
                                 </table>
+                                <xsl:call-template name="tabulator_dl_buttons"/>
                             </div>
                         </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
-                    <script>
-                        $(document).ready(function () {
-                        createDataTable('tocTable')
-                        });
-                    </script>
+                    <xsl:call-template name="tabulator_js"/>
                 </div>
             </body>
         </html>

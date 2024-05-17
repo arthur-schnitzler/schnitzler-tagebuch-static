@@ -8,7 +8,8 @@
     
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
-    <xsl:import href="partials/html_footer.xsl"/>
+    <xsl:import href="./partials/html_footer.xsl"/>
+    <xsl:import href="./partials/tabulator_js.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Inhaltsverzeichnis'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
@@ -32,11 +33,14 @@
                                     <span class="sr-only">Loading...</span>
                                 </div>          
                             </div>
-                                <table class="table table-striped display d-none" id="tocTable" style="width:100%">
+                                <table class="table table-sm display" id="tabulator-table"
+                                    style="width:100%">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Titel</th>
-                                            <th scope="col">Dateinname</th>
+                                            <th scope="col" tabulator-headerFilter="input"
+                                                tabulator-formatter="html">Titel</th>
+                                            <th scope="col" tabulator-headerFilter="input"
+                                                >Dateinname</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -63,16 +67,13 @@
                                         </xsl:for-each>
                                     </tbody>
                                 </table>
+                                <xsl:call-template name="tabulator_dl_buttons"/>
                             </div>
                         </div>
                     </div>
                     
                     <xsl:call-template name="html_footer"/>
-                    <script>
-                        $(document).ready(function () {
-                            createDataTable('tocTable')
-                        });
-                    </script>
+                    <xsl:call-template name="tabulator_js"/>
                 </div>
             </body>
         </html>
