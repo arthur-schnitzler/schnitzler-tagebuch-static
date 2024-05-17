@@ -8,7 +8,8 @@
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/entities.xsl"/>
-    <xsl:import href="partials/LOD-idnos.xsl"/>
+    <xsl:import href="./partials/LOD-idnos.xsl"/>
+    <xsl:import href="./partials/tabulator_js.xsl"/>
     <xsl:param name="work-day" select="document('../data/indices/index_work_day.xml')"/>
     <xsl:key name="work-day-lookup" match="item/@when" use="ref"/>
     <xsl:variable name="teiSource" select="'listwork.xml'"/>
@@ -39,9 +40,12 @@
                                     style="width:100%">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Titel</th>
-                                            <th scope="col">Autorin, Autor</th>
-                                            <th scope="col">Datum</th>
+                                            <th scope="col" tabulator-headerFilter="input"
+                                                tabulator-formatter="html">Titel</th>
+                                            <th scope="col" tabulator-headerFilter="input"
+                                                tabulator-formatter="html">Verfasser:in</th>
+                                            <th cope="col" tabulator-headerFilter="input"
+                                                tabulator-formatter="html">Datum</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -99,6 +103,7 @@
                                         </xsl:for-each>
                                     </tbody>
                                 </table>
+                                <xsl:call-template name="tabulator_dl_buttons"/>
                             </div>
                         </div>
                         <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
@@ -123,11 +128,7 @@
                         </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
-                    <script>
-                        $(document).ready(function () {
-                        createDataTable('tocTable')
-                        });
-                    </script>
+                    <xsl:call-template name="tabulator_js"/>
                 </div>
             </body>
         </html>

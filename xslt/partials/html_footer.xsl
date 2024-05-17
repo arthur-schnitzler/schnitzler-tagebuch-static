@@ -7,7 +7,7 @@
     version="2.0">
     <xsl:template match="/" name="html_footer">
         
-        <div class="wrapper fundament-default-footer" id="wrapper-footer-full">
+        <div class="wrapper hide-reading" id="wrapper-footer-full">
             <div class="container-fluid" id="footer-full-content" tabindex="-1">
                 <div class="row-footer footer-separator">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle">
@@ -79,9 +79,7 @@
         <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"/>
         <script src="js/listStopProp.js"/>
         <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"/>
-        <script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"/>
-        <script type="text/javascript" src="dist/fundament/js/fundament.min.js"/>
-        <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"/>
-        <script type="text/javascript" src="js/dt.js"/>
+        <!--<script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"/>
+        <script type="text/javascript" src="dist/fundament/js/fundament.min.js"/>-->
     </xsl:template>
 </xsl:stylesheet>

@@ -51,10 +51,9 @@
                 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
                 integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
                 crossorigin="anonymous" referrerpolicy="no-referrer"/>
-            <link rel="stylesheet" type="text/css"
-                href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css"/>
-            <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css"
-                type="text/css"/>
+            
+            <!--<link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css"
+                type="text/css"/>-->
             <link rel="stylesheet" href="css/style.css" type="text/css"/>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"/>
             <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
