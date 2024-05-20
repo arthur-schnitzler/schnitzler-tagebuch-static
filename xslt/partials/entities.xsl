@@ -28,7 +28,17 @@
                     </xsl:for-each>
                 </xsl:element>
             </xsl:variable>
-            
+            <xsl:variable name="csvFilename" select="concat('tagebuch-vorkommen-jahr_', @xml:id, '.csv')"/>
+            <script>
+                function getTitle() {
+                var title = '<xsl:value-of select="$csvFilename"/>';
+                return title;
+                }
+                document.addEventListener('DOMContentLoaded', function () {
+                var title = getTitle();
+                createChartFromXSLT(title);
+                });
+            </script>
             <xsl:choose>
                 <xsl:when test="tei:figure/tei:graphic/@url">
                     <div class="WikimediaContainer">
