@@ -35,7 +35,7 @@
                                         <tr>
                                             <th scope="col" tabulator-headerFilter="input"
                                                 tabulator-formatter="html">Name</th>
-                                            <th scope="col" tabulator-headerFilter="input"
+                                            <th scope="col" tabulator-headerFilter="input" tabulator-formatter="html"
                                                 >Lebensdaten</th>
                                             <th scope="col" tabulator-headerFilter="input"
                                                 >Berufe</th>
