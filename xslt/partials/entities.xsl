@@ -297,6 +297,7 @@
                     </div>
                 </xsl:otherwise>
             </xsl:choose>
+            <div id="container" style="width:100%; height:400px min-width:768px;"/>
             <div id="mentions">
                 <xsl:if test="key('only-relevant-uris', tei:idno/@subtype, $relevant-uris)[1]">
                     <p class="buttonreihe">
@@ -315,7 +316,10 @@
             </div>
             <div class="werke">
                 <xsl:variable name="author-ref"
-                    select="replace(replace(@xml:id, 'person__', ''), 'pmb', '')"/>
+                    select="replace(concat('pmb', tei:idno[@subtype = 'pmb'][1]/substring-after(., 'https://pmb.acdh.oeaw.ac.at/entity/')), '/', '')"
+                    as="xs:string"/>
+                <!-- hier ist pmb im einsatz, also haben wir jetzt eine nummerm
+                    bspw. 'pmb11461' für goethe -->
                 <xsl:if test="key('authorwork-lookup', $author-ref, $works)[1]">
                     <legend>Werke</legend>
                     <ul class="dashed">
@@ -493,222 +497,156 @@
             </div>
             <xsl:if test="tei:author">
                 <div id="autor_innen">
-                    <xsl:choose>
-                        <xsl:when test="tei:author[2]">
-                            <ul>
-                                <legend>Geschaffen von</legend>
-                                <xsl:for-each select="tei:author">
-                                    <li>
-                                        <xsl:variable name="keyToRef" as="xs:string">
-                                            <xsl:choose>
-                                                <xsl:when test="@key != ''">
-                                                  <xsl:value-of select="@key"/>
-                                                </xsl:when>
-                                                <xsl:otherwise>
-                                                  <xsl:value-of select="@ref"/>
-                                                </xsl:otherwise>
-                                            </xsl:choose>
-                                        </xsl:variable>
-                                        <xsl:variable name="autor-ref" as="xs:string">
-                                            <xsl:choose>
-                                                <xsl:when test="contains($keyToRef, 'person__')">
-                                                  <xsl:value-of
-                                                  select="concat('pmb', substring-after($keyToRef, 'person__'))"
-                                                  />
-                                                </xsl:when>
-                                                <xsl:when test="starts-with($keyToRef, 'pmb')">
-                                                  <xsl:value-of select="$keyToRef"/>
-                                                </xsl:when>
-                                                <xsl:otherwise>
-                                                  <xsl:value-of select="concat('pmb', $keyToRef)"/>
-                                                </xsl:otherwise>
-                                            </xsl:choose>
-                                        </xsl:variable>
+                    <p>
+                        <legend>Geschaffen von</legend>
+                        <ul>
+                            <xsl:for-each select="tei:author">
+                                <li>
+                                    <xsl:variable name="keyToRef" as="xs:string">
                                         <xsl:choose>
-                                            <xsl:when test="$autor-ref = 'pmb2121'">
-                                                <a href="pmb2121.html">
-                                                  <xsl:text>Arthur Schnitzler</xsl:text>
-                                                </a>
+                                            <xsl:when test="@key">
+                                                <xsl:value-of select="replace(@key, '#', '')"/>
                                             </xsl:when>
                                             <xsl:otherwise>
-                                                <a>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of select="concat($autor-ref, '.html')"
-                                                  />
-                                                  </xsl:attribute>
-                                                  <xsl:choose>
-                                                  <xsl:when
-                                                  test="child::tei:forename and child::tei:surname">
-                                                  <xsl:value-of select="tei:persName/tei:forename"/>
-                                                  <xsl:text> </xsl:text>
-                                                  <xsl:value-of select="tei:persName/tei:surname"/>
-                                                  </xsl:when>
-                                                  <xsl:when test="child::tei:surname">
-                                                  <xsl:value-of select="child::tei:surname"/>
-                                                  </xsl:when>
-                                                  <xsl:when test="child::tei:forename">
-                                                  <xsl:value-of select="child::tei:forename"/>"/> </xsl:when>
-                                                  <xsl:when test="contains(., ', ')">
-                                                  <xsl:value-of
-                                                  select="concat(substring-after(., ', '), ' ', substring-before(., ', '))"
-                                                  />
-                                                  </xsl:when>
-                                                  <xsl:otherwise>
-                                                  <xsl:value-of select="."/>
-                                                  </xsl:otherwise>
-                                                  </xsl:choose>
-                                                </a>
-                                                <xsl:choose>
-                                                  <xsl:when
-                                                  test="@role = 'editor' or @role = 'hat-herausgegeben'">
-                                                  <xsl:text> (Herausgabe)</xsl:text>
-                                                  </xsl:when>
-                                                  <xsl:when
-                                                  test="@role = 'translator' or @role = 'hat-ubersetzt'">
-                                                  <xsl:text> (Übersetzung)</xsl:text>
-                                                  </xsl:when>
-                                                  <xsl:when test="@role = 'hat-ubersetzt'">
-                                                  <xsl:text> (unter Pseudonym)</xsl:text>
-                                                  </xsl:when>
-                                                  <xsl:when
-                                                  test="@role = 'hat-unter-einem-kurzel-veroffentlicht'">
-                                                  <xsl:text> (unter Kürzel)</xsl:text>
-                                                  </xsl:when>
-                                                  <xsl:when test="@role = 'hat-illustriert'">
-                                                  <xsl:text> (Illustration)</xsl:text>
-                                                  </xsl:when>
-                                                  <xsl:when test="@role = 'hat-vertont'">
-                                                  <xsl:text> (Vertonung)</xsl:text>
-                                                  </xsl:when>
-                                                  <xsl:when
-                                                  test="@role = 'hat-einen-beitrag-geschaffen-zu'">
-                                                  <xsl:text> (Beitrag)</xsl:text>
-                                                  </xsl:when>
-                                                  <xsl:when
-                                                  test="@role = 'hat-ein-vorwortnachwort-verfasst-zu'">
-                                                  <xsl:text> (Vorwort/Nachwort)</xsl:text>
-                                                  </xsl:when>
-                                                  <xsl:when
-                                                  test="@role = 'hat-anonym-veroffentlicht'">
-                                                  <xsl:text> (ohne Namensnennung)</xsl:text>
-                                                  </xsl:when>
-                                                  <xsl:when test="@role = 'bekommt-zugeschrieben'">
-                                                  <xsl:text> (Zuschreibung)</xsl:text>
-                                                  </xsl:when>
-                                                </xsl:choose>
+                                                <xsl:value-of select="replace(@ref, '#', '')"/>
                                             </xsl:otherwise>
                                         </xsl:choose>
-                                    </li>
-                                </xsl:for-each>
-                            </ul>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:variable name="keyToRef" as="xs:string">
-                                <xsl:choose>
-                                    <xsl:when test="tei:author/@key != ''">
-                                        <xsl:value-of select="tei:author/@key"/>
-                                    </xsl:when>
-                                    <xsl:when test="tei:author/@ref != ''">
-                                        <xsl:value-of select="tei:author/@ref"/>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:text>SELTSAM</xsl:text>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </xsl:variable>
-                            <xsl:variable name="autor-ref" as="xs:string">
-                                <xsl:choose>
-                                    <xsl:when test="contains($keyToRef, 'person__')">
-                                        <xsl:value-of
-                                            select="concat('pmb', substring-after($keyToRef, 'person__'))"
-                                        />
-                                    </xsl:when>
-                                    <xsl:when test="starts-with($keyToRef, 'pmb')">
-                                        <xsl:value-of select="$keyToRef"/>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:value-of select="concat('pmb', $keyToRef)"/>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </xsl:variable>
-                            <xsl:choose>
-                                <xsl:when test="$autor-ref = 'pmb2121'">
-                                    <a href="pmb2121.html">
-                                        <xsl:text>Arthur Schnitzler</xsl:text>
-                                    </a>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <a>
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of select="concat($autor-ref, '.html')"/>
-                                        </xsl:attribute>
+                                    </xsl:variable>
+                                    <xsl:variable name="autor-ref" as="xs:string">
                                         <xsl:choose>
-                                            <xsl:when
-                                                test="child::tei:forename and child::tei:surname">
-                                                <xsl:value-of select="tei:persName/tei:forename"/>
-                                                <xsl:text> </xsl:text>
-                                                <xsl:value-of select="tei:persName/tei:surname"/>
-                                            </xsl:when>
-                                            <xsl:when test="child::tei:surname">
-                                                <xsl:value-of select="child::tei:surname"/>
-                                            </xsl:when>
-                                            <xsl:when test="child::tei:forename">
-                                                <xsl:value-of select="child::tei:forename"/>"/> </xsl:when>
-                                            <xsl:when test="contains(., ', ')">
+                                            <xsl:when test="contains($keyToRef, 'person__')">
                                                 <xsl:value-of
-                                                  select="concat(substring-after(tei:author[1], ', '), ' ', substring-before(tei:author[1], ', '))"
-                                                />
+                                                    select="substring-after($keyToRef, 'person__')"/>
+                                            </xsl:when>
+                                            <xsl:when test="starts-with($keyToRef, 'pmb')">
+                                                <xsl:value-of
+                                                    select="replace($keyToRef, 'pmb', '')"/>
                                             </xsl:when>
                                             <xsl:otherwise>
-                                                <xsl:value-of select="tei:author[1]"/>
+                                                <xsl:value-of select="$keyToRef"/>
                                             </xsl:otherwise>
                                         </xsl:choose>
-                                    </a>
-                                    <xsl:if test="@role = 'editor'">
-                                        <xsl:text> (Herausgabe)</xsl:text>
-                                    </xsl:if>
-                                    <xsl:if test="@role = 'translator'">
-                                        <xsl:text> (Übersetzung)</xsl:text>
-                                    </xsl:if>
-                                    <xsl:if test="@role = 'illustrator'">
-                                        <xsl:text> (Illustration)</xsl:text>
-                                    </xsl:if>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:otherwise>
-                    </xsl:choose>
+                                    </xsl:variable>
+                                    <xsl:choose>
+                                        <xsl:when test="$autor-ref = '2121'">
+                                            <a href="pmb2121.html">
+                                                <xsl:text>Arthur Schnitzler</xsl:text>
+                                            </a>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:variable name="autor-ref-schnitzler-tagebuch">
+                                                <xsl:choose>
+                                                    <xsl:when test="key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', $autor-ref, '/'), $authors)">
+                                                        <xsl:value-of select="key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', $autor-ref, '/'), $authors)/tei:idno[@subtype = 'schnitzler-tagebuch']/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/')"/>
+                                                    </xsl:when>
+                                                    <xsl:otherwise><!-- hier nur der Schrägstrich am Schluss, falls der in der URI fehlt -->
+                                                        <xsl:value-of select="key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', $autor-ref), $authors)/tei:idno[@subtype = 'schnitzler-tagebuch']/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/')"/>
+                                                    </xsl:otherwise>
+                                                </xsl:choose>
+                                            </xsl:variable>
+                                            <a>
+                                                <xsl:attribute name="href">
+                                                    <xsl:value-of
+                                                        select="concat($autor-ref-schnitzler-tagebuch, '.html')"
+                                                    />
+                                                </xsl:attribute>
+                                                <xsl:choose>
+                                                    <xsl:when
+                                                        test="child::tei:forename and child::tei:surname">
+                                                        <xsl:value-of select="tei:persName/tei:forename"/>
+                                                        <xsl:text> </xsl:text>
+                                                        <xsl:value-of select="tei:persName/tei:surname"/>
+                                                    </xsl:when>
+                                                    <xsl:when test="child::tei:surname">
+                                                        <xsl:value-of select="child::tei:surname"/>
+                                                    </xsl:when>
+                                                    <xsl:when test="child::tei:forename">
+                                                        <xsl:value-of select="child::tei:forename"/>"/> </xsl:when>
+                                                    <xsl:when test="contains(., ', ')">
+                                                        <xsl:value-of
+                                                            select="concat(substring-after(., ', '), ' ', substring-before(., ', '))"
+                                                        />
+                                                    </xsl:when>
+                                                    <xsl:otherwise>
+                                                        <xsl:value-of select="."/>
+                                                    </xsl:otherwise>
+                                                </xsl:choose>
+                                            </a>
+                                            <xsl:choose>
+                                                <xsl:when
+                                                    test="@role = 'editor' or @role = 'hat-herausgegeben'">
+                                                    <xsl:text> (Herausgabe)</xsl:text>
+                                                </xsl:when>
+                                                <xsl:when
+                                                    test="@role = 'translator' or @role = 'hat-ubersetzt'">
+                                                    <xsl:text> (Übersetzung)</xsl:text>
+                                                </xsl:when>
+                                                <xsl:when test="@role = 'hat-ubersetzt'">
+                                                    <xsl:text> (unter Pseudonym)</xsl:text>
+                                                </xsl:when>
+                                                <xsl:when
+                                                    test="@role = 'hat-unter-einem-kurzel-veroffentlicht'">
+                                                    <xsl:text> (unter Kürzel)</xsl:text>
+                                                </xsl:when>
+                                                <xsl:when test="@role = 'hat-illustriert'">
+                                                    <xsl:text> (Illustration)</xsl:text>
+                                                </xsl:when>
+                                                <xsl:when test="@role = 'hat-vertont'">
+                                                    <xsl:text> (Vertonung)</xsl:text>
+                                                </xsl:when>
+                                                <xsl:when
+                                                    test="@role = 'hat-einen-beitrag-geschaffen-zu'">
+                                                    <xsl:text> (Beitrag)</xsl:text>
+                                                </xsl:when>
+                                                <xsl:when
+                                                    test="@role = 'hat-ein-vorwortnachwort-verfasst-zu'">
+                                                    <xsl:text> (Vorwort/Nachwort)</xsl:text>
+                                                </xsl:when>
+                                                <xsl:when
+                                                    test="@role = 'hat-anonym-veroffentlicht'">
+                                                    <xsl:text> (ohne Namensnennung)</xsl:text>
+                                                </xsl:when>
+                                                <xsl:when test="@role = 'bekommt-zugeschrieben'">
+                                                    <xsl:text> (Zuschreibung)</xsl:text>
+                                                </xsl:when>
+                                            </xsl:choose>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </li>
+                            </xsl:for-each>
+                        </ul>
+                        
+                        
+                        
+                    </p>
                 </div>
                 <div id="erscheinungsdatum" class="mt-2">
                     <p>
                         <xsl:if test="tei:date[1]">
-                            <ul>
-                                <legend>Erschienen</legend>
-                                <li>
+                            <legend>Erschienen</legend>
+                            <xsl:choose>
+                                <xsl:when test="contains(tei:date[1], '–')">
                                     <xsl:choose>
-                                        <xsl:when test="contains(tei:date[1], '-')">
-                                            <xsl:choose>
-                                                <xsl:when
-                                                  test="normalize-space(tokenize(tei:date[1], '-')[1]) = normalize-space(tokenize(tei:date[1], '-')[2])">
-                                                  <xsl:value-of
-                                                  select="mam:normalize-date(normalize-space((tokenize(tei:date[1], '-')[1])))"
-                                                  />
-                                                </xsl:when>
-                                                <xsl:otherwise>
-                                                  <xsl:value-of
-                                                  select="mam:normalize-date(normalize-space(tei:date[1]))"
-                                                  />
-                                                </xsl:otherwise>
-                                            </xsl:choose>
+                                        <xsl:when
+                                            test="normalize-space(tokenize(tei:date[1], '–')[1]) = normalize-space(tokenize(tei:date[1], '–')[2])">
+                                            <xsl:value-of
+                                                select="mam:normalize-date(normalize-space((tokenize(tei:date[1], '–')[1])))"
+                                            />
                                         </xsl:when>
                                         <xsl:otherwise>
-                                            <xsl:value-of select="mam:normalize-date(tei:date[1])"/>
+                                            <xsl:value-of
+                                                select="mam:normalize-date(normalize-space(tei:date[1]))"
+                                            />
                                         </xsl:otherwise>
                                     </xsl:choose>
-                                    <xsl:if test="not(ends-with(tei:date[1], '.'))">
-                                        <xsl:text>.</xsl:text>
-                                    </xsl:if>
-                                </li>
-                            </ul>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="mam:normalize-date(tei:date[1])"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            <xsl:if test="not(ends-with(tei:date[1], '.'))">
+                                <xsl:text>.</xsl:text>
+                            </xsl:if>
                         </xsl:if>
                     </p>
                 </div>
