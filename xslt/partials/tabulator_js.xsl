@@ -10,10 +10,10 @@
         <script>
             var table = new Tabulator("#tabulator-table", {
             pagination:"local",       //paginate the data
-            paginationSize:25,         //allow 25 rows per page of data
+            paginationSize:50,         //allow 25 rows per page of data
             paginationCounter:"rows", //display count of paginated rows in footer
             movableColumns:true,
-            initialSort:[{column:"verfasser:in", dir:"asc"}, 
+            initialSort:[{column:"verfasser:in", dir:"asc"}, {column:"name", dir:"asc"},
             {column:"titel", dir:"asc"}],
             langs:{
             "de-de":{ //German language definition
