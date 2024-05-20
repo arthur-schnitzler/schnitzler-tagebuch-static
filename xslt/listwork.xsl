@@ -31,7 +31,7 @@
                                 </h1>
                             </div>
                             <div class="card">
-                                <table class="table table-striped display" id="tocTable"
+                                <table class="table table-striped display" id="tabulator-table"
                                     style="width:100%">
                                     <thead>
                                         <tr>
