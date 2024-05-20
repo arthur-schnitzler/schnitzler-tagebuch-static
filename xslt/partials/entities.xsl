@@ -13,6 +13,8 @@
     <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
     <xsl:key name="authorwork-lookup" match="tei:bibl"
         use="tei:author/@*[name() = 'key' or name() = 'ref']"/>
+    <xsl:param name="authors" select="document('../../data/indices/listperson.xml')"/>
+    <xsl:key name="author-lookup" match="tei:person" use="tei:idno[@subtype = 'pmb']"/>
     <!-- PERSON -->
     <xsl:template match="tei:person" name="person_detail">
         <xsl:param name="showNumberOfMentions" as="xs:integer" select="50000"/>
