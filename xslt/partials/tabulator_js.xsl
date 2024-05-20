@@ -30,7 +30,7 @@
             "counter":{
             "showing": "Zeige",
             "of": "von",
-            "rows": "Reihen",
+            "rows": "Zeilen",
             "pages": "Seiten",
             }
             },
@@ -66,7 +66,7 @@
             "counter":{
             "showing": "Zeige",
             "of": "von",
-            "rows": "Reihen",
+            "rows": "Zeilen",
             "pages": "Seiten",
             }
             },
