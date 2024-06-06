@@ -37,19 +37,19 @@ When adapting for different projects have a careful look at the following params
         <xsl:if test="$fetchUrl/*[1]">
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:copy-of
-                        select="$fetchUrl/descendant::tei:listEvent/tei:event[not(tei:idno[1]/@type = 'schnitzler-tagebuch')]"
-                    />
-                    <!--<xsl:choose>
+                    
+                    <xsl:choose>
                         <xsl:when test="not($schnitzler-tagebuch)">
                             <xsl:copy-of
                                 select="$fetchUrl/descendant::tei:listEvent/tei:event[not(contains(tei:idno[1]/text(), $teiSource))]"
                             />
                         </xsl:when>
                         <xsl:otherwise>
-                            
+                            <xsl:copy-of
+                        select="$fetchUrl/descendant::tei:listEvent/tei:event[not(tei:idno[1]/@type = 'schnitzler-tagebuch')]"
+                    />
                         </xsl:otherwise>
-                    </xsl:choose>-->
+                    </xsl:choose>
                 </xsl:element>
             </xsl:variable>
             <xsl:variable name="doc_title">
@@ -328,16 +328,24 @@ When adapting for different projects have a careful look at the following params
                 </xsl:choose>
             </xsl:element>
         </p>
-        <xsl:if test="tei:desc/child::*[1]">
-            <xsl:element name="ul">
-                <xsl:attribute name="style">
-                    <xsl:text>list-style-type: none;</xsl:text>
-                </xsl:attribute>
-                <xsl:if test="not(normalize-space(tei:desc) = '')">
+        <xsl:choose>
+            <xsl:when test="tei:desc/child::*[1]">
+                <xsl:element name="ul">
+                    <xsl:attribute name="style">
+                        <xsl:text>list-style-type: none;</xsl:text>
+                    </xsl:attribute>
                     <xsl:apply-templates select="tei:desc" mode="desc"/>
-                </xsl:if>
-            </xsl:element>
-        </xsl:if>
+                </xsl:element>
+            </xsl:when>
+            <xsl:when test="normalize-space(.) != ''">
+                <xsl:apply-templates select="tei:desc" mode="text"/>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="tei:event/tei:desc" mode="text">
+        <p>
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
     <xsl:template match="tei:event/tei:desc" mode="desc">
         <li>
