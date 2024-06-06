@@ -14,19 +14,16 @@
                                 
     where teiSource lists the current filename/xml:id so to make sure the chronik doesn't reduplicate it. a special 
     adaption is made for the schnitzler-tagebuch because there the iso-date is filter enough. (see line 39–42)
-    
-    When adapting to other projects this are the individual changes:
-    * Line 26/27 the two external files ./LOD-idnos.xsl and list-of-relevant-uris.xml
-    * Line 28 has a param named "eventtypes" that is relevant for the order of the output
-    have to be present. Apart from that everything should work universally. 
-    * Line 37 the fetchURL has to bei either fetching from the complete chronik-repo or directly from the website (smaller projects)
-    * Line 47 takes care that the file from where the chronik is called is not shown in the chronik. There is a switch
-    for schnitzler-tagebuch
+
+When adapting for different projects have a careful look at the following params and adapt accordingly
     -->
-    <xsl:import href="./LOD-idnos.xsl"/>
-    <xsl:param name="relevant-uris" select="document('../utils/list-of-relevant-uris.xml')"/>
-    <xsl:param name="eventtypes"
+    
+    <xsl:param name="fetch-locally" as="xs:boolean" select="true()"/> <!-- for larger projects it is recommended to clone the complete repo and work with the chronik locally -->
+    <xsl:param name="schnitzler-tagebuch" as="xs:boolean" select="true()"/> <!-- only true if this is the chronik of schnitzler-tagebuch-->
+    <xsl:param name="relevant-eventtypes"
         select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-cmif,schnitzler-traeume-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
+    <xsl:param name="relevant-uris" select="document('../utils/list-of-relevant-uris.xml')"/>
+    <xsl:import href="./LOD-idnos.xsl"/>
     <xsl:key match="item" use="abbr" name="relevant-uris-type"/>
     <xsl:template name="mam:schnitzler-chronik">
         <xsl:param name="datum-iso" as="xs:date"/>
@@ -34,23 +31,31 @@
         <xsl:variable name="link">
             <xsl:value-of select="replace($teiSource, '.xml', '.html')"/>
         </xsl:variable>
-        <!-- <xsl:variable name="fetchUrl"
-            select="document(concat('https://schnitzler-chronik.acdh.oeaw.ac.at/', $datum-iso, '.xml'))"
-            as="node()?"/> -->
-        <!-- If the whole chronik-repo is cloned during the github-action the processing time is smaller. Use the line below.
-        For larger projects comment out the line above and use: -->
-        <xsl:variable name="fetchUrl"
-            select="document(concat('../../chronik-data/', $datum-iso, '.xml'))" as="node()?"/>
+        <xsl:variable name="fetchUrl" as="node()?">
+            <xsl:choose>
+                <xsl:when test="not($fetch-locally)">
+                    <xsl:value-of select="document(concat('https://schnitzler-chronik.acdh.oeaw.ac.at/', $datum-iso, '.xml'))"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="document(concat('../../chronik-data/', $datum-iso, '.xml'))"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
         <xsl:if test="$fetchUrl/*[1]">
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
-                    <!--<xsl:copy-of
-                        select="$fetchUrl/descendant::tei:listEvent/tei:event[not(contains(tei:idno[1]/text(), $teiSource))]"
-                    />-->
-                    <!-- for schnitzler-tagebuch the line above has to be commented out and this one activated: -->
-                    <xsl:copy-of
-                        select="$fetchUrl/descendant::tei:listEvent/tei:event[not(tei:idno[1]/@type = 'schnitzler-tagebuch')]"
-                    />
+                    <xsl:choose>
+                        <xsl:when test="not($schnitzler-tagebuch)">
+                            <xsl:copy-of
+                                select="$fetchUrl/descendant::tei:listEvent/tei:event[not(contains(tei:idno[1]/text(), $teiSource))]"
+                            />
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:copy-of
+                                select="$fetchUrl/descendant::tei:listEvent/tei:event[not(tei:idno[1]/@type = 'schnitzler-tagebuch')]"
+                            />
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:element>
             </xsl:variable>
             <xsl:variable name="doc_title">
@@ -195,7 +200,7 @@
     </xsl:template>
     <xsl:template match="tei:listEvent" mode="schnitzler-chronik">
         <xsl:variable name="current-group" select="." as="node()"/>
-        <xsl:for-each select="tokenize($eventtypes, ',')">
+        <xsl:for-each select="tokenize($relevant-eventtypes, ',')">
             <xsl:variable name="e-typ" as="xs:string" select="."/>
             <xsl:if test="$current-group/descendant::tei:idno[@type = $e-typ]">
                 <xsl:variable name="e-typ-farbe">
@@ -219,7 +224,7 @@
                         <xsl:value-of select="$e-typ"/>
                     </xsl:attribute>
                     <xsl:attribute name="style">
-                        <xsl:text>margin-bottom: 35px;
+                        <xsl:text>margin-bottom: 40px;
                     padding: 20px; 
                          background-color: rgba(</xsl:text>
                         <xsl:value-of select="mam:hexNachRGBfarbe($e-typ-farbe)"/>
@@ -236,7 +241,7 @@
                             </xsl:attribute>
                             <xsl:attribute name="href">
                                 <xsl:value-of
-                                    select="$current-group/descendant::tei:idno[@type = $eventtypes][1]"
+                                    select="$current-group/descendant::tei:idno[@type = $relevant-eventtypes][1]"
                                 />
                             </xsl:attribute>
                         </xsl:element>
@@ -248,7 +253,7 @@
                 </xsl:element>
             </xsl:if>
         </xsl:for-each>
-        <xsl:for-each select="tei:event[tei:idno/@type[not(contains($eventtypes, .))]]">
+        <xsl:for-each select="tei:event[tei:idno/@type[not(contains($relevant-eventtypes, .))]]">
             <xsl:apply-templates mode="desc"/>
         </xsl:for-each>
     </xsl:template>
@@ -274,7 +279,7 @@
                     <xsl:text>color: white; background-color: </xsl:text>
                     <xsl:value-of select="$e-typ-farbe"/>
                     <xsl:text>; margin-bottom: 0px;
-                    margin-top: 20px;</xsl:text>
+                    margin-top: 5px;</xsl:text>
                 </xsl:attribute>
                 <xsl:choose>
                     <xsl:when test="starts-with(tei:idno[1]/text(), 'http')">
@@ -308,14 +313,16 @@
                 </xsl:choose>
             </xsl:element>
         </p>
-        <xsl:element name="ul">
-            <xsl:attribute name="style">
-                <xsl:text>list-style-type: none;</xsl:text>
-            </xsl:attribute>
-            <xsl:if test="not(normalize-space(tei:desc) = '')">
-                <xsl:apply-templates select="tei:desc" mode="desc"/>
-            </xsl:if>
-        </xsl:element>
+        <xsl:if test="tei:desc/child::*[1]">
+            <xsl:element name="ul">
+                <xsl:attribute name="style">
+                    <xsl:text>list-style-type: none;</xsl:text>
+                </xsl:attribute>
+                <xsl:if test="not(normalize-space(tei:desc) = '')">
+                    <xsl:apply-templates select="tei:desc" mode="desc"/>
+                </xsl:if>
+            </xsl:element>
+        </xsl:if>
     </xsl:template>
     <xsl:template match="tei:event/tei:desc" mode="desc">
         <li>
@@ -759,12 +766,15 @@
     <xsl:function name="mam:hexToDec">
         <xsl:param name="hex"/>
         <xsl:variable name="dec"
-            select="string-length(substring-before('0123456789ABCDEF', substring($hex,1,1)))"/>
+            select="string-length(substring-before('0123456789ABCDEF', substring($hex, 1, 1)))"/>
         <xsl:choose>
             <xsl:when test="matches($hex, '([0-9]*|[A-F]*)')">
-                <xsl:value-of
-                    select="if ($hex = '') then 0
-                    else $dec * mam:power(16, string-length($hex) - 1) + mam:hexToDec(substring($hex,2))"/>
+                <xsl:value-of select="
+                        if ($hex = '') then
+                            0
+                        else
+                            $dec * mam:power(16, string-length($hex) - 1) + mam:hexToDec(substring($hex, 2))"
+                />
             </xsl:when>
             <xsl:otherwise>
                 <xsl:message>Provided value is not hexadecimal...</xsl:message>
@@ -775,12 +785,14 @@
     <xsl:function name="mam:power">
         <xsl:param name="base"/>
         <xsl:param name="exp"/>
-        <xsl:sequence
-            select="if ($exp lt 0) then mam:power(1.0 div $base, -$exp)
-            else if ($exp eq 0)
-            then 1e0
-            else $base * mam:power($base, $exp - 1)"
-        />
+        <xsl:sequence select="
+                if ($exp lt 0) then
+                    mam:power(1.0 div $base, -$exp)
+                else
+                    if ($exp eq 0)
+                    then
+                        1e0
+                    else
+                        $base * mam:power($base, $exp - 1)"/>
     </xsl:function>
-    
 </xsl:stylesheet>
