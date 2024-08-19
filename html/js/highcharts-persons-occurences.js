@@ -1,6 +1,6 @@
 // External JavaScript file
 function createChartFromXSLT(csvFilename) {
-    const csvURL = `https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-briefe-statistik/main/tagebuch-vorkommen-jahr/${csvFilename}`;
+    const csvURL = `https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-tagebuch-charts/main/tagebuch-vorkommen-jahr/${csvFilename}`;
     
     const chart = Highcharts.chart('container', {
         data: {
