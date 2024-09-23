@@ -1002,9 +1002,10 @@ div#map {
  } 
 
 .faksimile-modal {
-  width: 66.67%; /* 2/3 of the width of the viewport */
+  width: 600px; 
   height: auto; /* Allow the height to be automatically adjusted */
   max-height: calc(100vh - 20px); /* Max height adjusted for some padding */
+  
 }
 
 .faksimile-modal .modal-content {
