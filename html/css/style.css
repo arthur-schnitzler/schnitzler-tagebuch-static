@@ -1014,24 +1014,23 @@ div#map {
 
 @media (min-width: 576px) {
   .faksimile-modal {
-    width: 50%; /* 50% of the viewport width on larger screens */
+    width: 400px; 
   }
 }
 
 @media (min-width: 768px) {
   .faksimile-modal {
-    width: 40%; /* 40% of the viewport width on larger screens */
-  }
+   width: 600px;   
 }
 
 @media (min-width: 992px) {
   .faksimile-modal {
-    width: 30%; /* 30% of the viewport width on larger screens */
-  }
+   width: 750px; 
+}
 }
 
 @media (min-width: 1200px) {
   .faksimile-modal {
-    width: 25%; /* 25% of the viewport width on larger screens */
+   width: 900px; 
   }
 }
