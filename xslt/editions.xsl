@@ -160,6 +160,26 @@
                                 </nav>
                             </div>
                             <xsl:call-template name="html_footer"/>
+                            <!-- Das ist nur eine Interim-Funktion, die mir erlauben soll, das ISO-Datum schnell zu kopieren -->
+                            <script>
+                                function copyToClipboard() {
+                                // Den Text, den du kopieren möchtest
+                                var textToCopy = document.getElementById("isoDateValue").innerText;
+                                
+                                // Erstellen eines temporären Textfelds, um den Text in die Zwischenablage zu kopieren
+                                var tempInput = document.createElement("textarea");
+                                tempInput.value = textToCopy;
+                                document.body.appendChild(tempInput);
+                                tempInput.select();
+                                document.execCommand("copy");
+                                document.body.removeChild(tempInput);
+                                
+                                alert("Text kopiert: " + textToCopy);
+                                }
+                            </script>
+                            <span id="isoDateValue" style="color:white">
+                                <xsl:value-of select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"/>
+                            </span>
                         </div>
                     </div>
                 </div>
