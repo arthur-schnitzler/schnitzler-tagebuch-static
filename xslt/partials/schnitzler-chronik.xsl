@@ -420,6 +420,33 @@ When adapting for different projects have a careful look at the following params
                         </xsl:element>
                     </xsl:when>
                     <xsl:when
+                        test="$e-typ = 'schnitzler-tagebuch' and starts-with(@ref, 'person_')">
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">
+                                <xsl:text>badge rounded-pill</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="style">
+                                <xsl:text>background-color: </xsl:text>
+                                <xsl:value-of select="$e-type-farbe"/>
+                                <xsl:text>; color: white;</xsl:text>
+                            </xsl:attribute>
+                            <xsl:element name="a">
+                                <xsl:attribute name="style">
+                                    <xsl:text>color: white; </xsl:text>
+                                </xsl:attribute>
+                                <xsl:attribute name="href">
+                                    <xsl:value-of
+                                        select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', @ref, '.html')"
+                                    />
+                                </xsl:attribute>
+                                <xsl:attribute name="target">
+                                    <xsl:text>_blank</xsl:text>
+                                </xsl:attribute>
+                                <xsl:value-of select="."/>
+                            </xsl:element>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:when
                         test="$e-typ = 'pmb' and starts-with(@ref, 'pmb') or starts-with(@ref, 'person_')">
                         <xsl:element name="span">
                             <xsl:attribute name="class">
