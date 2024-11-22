@@ -24,7 +24,7 @@ When adapting for different projects have a careful look at the following params
     <xsl:param name="relevant-eventtypes"
         select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-cmif,schnitzler-traeume-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
     <xsl:param name="relevant-uris" select="document('../utils/list-of-relevant-uris.xml')"/>
-    <xsl:import href="./LOD-idnos.xsl"/>
+    <xsl:import href="./partials/LOD-idnos.xsl"/>
     <xsl:key match="item" use="abbr" name="relevant-uris-type"/>
     <xsl:template name="mam:schnitzler-chronik">
         <xsl:param name="datum-iso" as="xs:date"/>
