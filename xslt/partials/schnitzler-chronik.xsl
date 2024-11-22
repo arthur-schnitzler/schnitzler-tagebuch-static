@@ -35,13 +35,15 @@ When adapting for different projects have a careful look at the following params
         <xsl:variable name="fetchUrl" as="node()?">
             <xsl:choose>
                 <xsl:when test="$fetch-locally">
-                    <xsl:copy-of select="document(concat('../../chronik-data/', $datum-iso, '.xml'))"/>
+                    <xsl:copy-of
+                        select="document(concat('../../chronik-data/', $datum-iso, '.xml'))"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:copy-of select="document(concat('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-data/refs/heads/main/editions/data/', $datum-iso, '.xml'))"></xsl:copy-of>
+                    <xsl:copy-of
+                        select="document(concat('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-data/refs/heads/main/editions/data/', $datum-iso, '.xml'))"
+                    />
                 </xsl:otherwise>
             </xsl:choose>
-            
         </xsl:variable>
         <xsl:if test="$fetchUrl/*[1]">
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
@@ -297,58 +299,58 @@ When adapting for different projects have a careful look at the following params
             </xsl:choose>
         </xsl:variable>
         <xsl:if test="tei:head">
-        <p>
-            <xsl:choose>
-                <xsl:when test="starts-with(tei:idno[1]/text(), 'http')">
-                    <xsl:element name="a">
-                        <xsl:attribute name="class">
-                            <xsl:text>entry-title</xsl:text>
-                        </xsl:attribute>
-                        <xsl:attribute name="style">
-                            <xsl:text>color: </xsl:text>
-                            <xsl:value-of select="$e-typ-farbe"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="href">
-                            <xsl:value-of select="tei:idno[1]/text()"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="target">
-                            <xsl:text>_blank</xsl:text>
-                        </xsl:attribute>
-                        <xsl:value-of select="tei:head/text()"/>
-                    </xsl:element>
-                </xsl:when>
-                <xsl:when test="starts-with(tei:idno[1]/text(), 'doi')">
-                    <xsl:element name="a">
-                        <xsl:attribute name="class">
-                            <xsl:text>entry-title</xsl:text>
-                        </xsl:attribute>
-                        <xsl:attribute name="style">
-                            <xsl:text>color: </xsl:text>
-                            <xsl:value-of select="$e-typ-farbe"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="href">
-                            <xsl:value-of select="concat('https://', tei:idno[1]/text())"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="target">
-                            <xsl:text>_blank</xsl:text>
-                        </xsl:attribute>
-                        <xsl:value-of select="tei:head/text()"/>
-                    </xsl:element>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:element name="span">
-                        <xsl:attribute name="class">
-                            <xsl:text>entry-title</xsl:text>
-                        </xsl:attribute>
-                        <xsl:attribute name="style">
-                            <xsl:text>color: </xsl:text>
-                            <xsl:value-of select="$e-typ-farbe"/>
-                        </xsl:attribute>
-                        <xsl:value-of select="tei:head/text()"/>
-                    </xsl:element>
-                </xsl:otherwise>
-            </xsl:choose>
-        </p>
+            <p>
+                <xsl:choose>
+                    <xsl:when test="starts-with(tei:idno[1]/text(), 'http')">
+                        <xsl:element name="a">
+                            <xsl:attribute name="class">
+                                <xsl:text>entry-title</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="style">
+                                <xsl:text>color: </xsl:text>
+                                <xsl:value-of select="$e-typ-farbe"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="tei:idno[1]/text()"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="target">
+                                <xsl:text>_blank</xsl:text>
+                            </xsl:attribute>
+                            <xsl:value-of select="tei:head/text()"/>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:when test="starts-with(tei:idno[1]/text(), 'doi')">
+                        <xsl:element name="a">
+                            <xsl:attribute name="class">
+                                <xsl:text>entry-title</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="style">
+                                <xsl:text>color: </xsl:text>
+                                <xsl:value-of select="$e-typ-farbe"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="concat('https://', tei:idno[1]/text())"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="target">
+                                <xsl:text>_blank</xsl:text>
+                            </xsl:attribute>
+                            <xsl:value-of select="tei:head/text()"/>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">
+                                <xsl:text>entry-title</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="style">
+                                <xsl:text>color: </xsl:text>
+                                <xsl:value-of select="$e-typ-farbe"/>
+                            </xsl:attribute>
+                            <xsl:value-of select="tei:head/text()"/>
+                        </xsl:element>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </p>
         </xsl:if>
         <xsl:choose>
             <xsl:when test="tei:desc/child::*[1]">
@@ -419,11 +421,12 @@ When adapting for different projects have a careful look at the following params
                         <xsl:text>;</xsl:text>
                     </xsl:attribute>
                     <xsl:for-each select="tei:person/tei:persName">
+                        <xsl:variable name="ref" select="concat(@ref, @key)"/>
                         <xsl:choose>
                             <xsl:when
-                                test="starts-with(@ref, 'https://d-nb') or starts-with(@ref, 'http://d-nb') and $e-typ = 'schnitzler-cmif'">
+                                test="starts-with($ref, 'https://d-nb') or starts-with($ref, 'http://d-nb') and $e-typ = 'schnitzler-cmif'">
                                 <xsl:variable name="normalize-gnd-ohne-http"
-                                    select="replace(@ref, 'https', 'http')" as="xs:string"/>
+                                    select="replace($ref, 'https', 'http')" as="xs:string"/>
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
@@ -439,12 +442,12 @@ When adapting for different projects have a careful look at the following params
                                 </xsl:element>
                             </xsl:when>
                             <xsl:when
-                                test="$e-typ = 'schnitzler-tagebuch' and starts-with(@ref, 'person_')">
+                                test="$e-typ = 'schnitzler-tagebuch' and starts-with($ref, 'person_')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', @ref, '.html')"
+                                                select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', $ref, '.html')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -455,12 +458,12 @@ When adapting for different projects have a careful look at the following params
                                 </xsl:element>
                             </xsl:when>
                             <xsl:when
-                                test="$e-typ = 'schnitzler-tagebuch' and starts-with(@ref, 'person_')">
+                                test="$e-typ = 'schnitzler-tagebuch' and starts-with($ref, 'person_')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', @ref, '.html')"
+                                                select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', $ref, '.html')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -471,12 +474,12 @@ When adapting for different projects have a careful look at the following params
                                 </xsl:element>
                             </xsl:when>
                             <xsl:when
-                                test="$e-typ = 'pmb' and (starts-with(@ref, 'pmb') or starts-with(@ref, 'person_'))">
+                                test="$e-typ = 'pmb' and (starts-with($ref, 'pmb') or starts-with($ref, 'person_'))">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(@ref, 'pmb', ''), 'person_', ''), '/')"
+                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -487,12 +490,12 @@ When adapting for different projects have a careful look at the following params
                                 </xsl:element>
                             </xsl:when>
                             <xsl:when
-                                test="starts-with(@ref, 'pmb') or starts-with(@ref, 'person_')">
+                                test="starts-with($ref, 'pmb') or starts-with($ref, 'person_')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', @ref, '.html')"
+                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -536,11 +539,12 @@ When adapting for different projects have a careful look at the following params
                         <xsl:text>;</xsl:text>
                     </xsl:attribute>
                     <xsl:for-each select="tei:org/tei:orgName">
+                        <xsl:variable name="ref" select="concat(@ref, @key)"/>
                         <xsl:choose>
                             <xsl:when
-                                test="starts-with(@ref, 'https://d-nb') or starts-with(@ref, 'http://d-nb') and $e-typ = 'schnitzler-cmif'">
+                                test="starts-with($ref, 'https://d-nb') or starts-with($ref, 'http://d-nb') and $e-typ = 'schnitzler-cmif'">
                                 <xsl:variable name="normalize-gnd-ohne-http"
-                                    select="replace(@ref, 'https', 'http')" as="xs:string"/>
+                                    select="replace($ref, 'https', 'http')" as="xs:string"/>
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
@@ -555,12 +559,12 @@ When adapting for different projects have a careful look at the following params
                                     </xsl:element>
                                 </xsl:element>
                             </xsl:when>
-                            <xsl:when test="$e-typ = 'pmb' and starts-with(@ref, 'pmb')">
+                            <xsl:when test="$e-typ = 'pmb' and starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(@ref, 'pmb', ''), 'person_', ''), '/')"
+                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -570,12 +574,12 @@ When adapting for different projects have a careful look at the following params
                                     </xsl:element>
                                 </xsl:element>
                             </xsl:when>
-                            <xsl:when test="starts-with(@ref, 'pmb')">
+                            <xsl:when test="starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', @ref, '.html')"
+                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -613,19 +617,22 @@ When adapting for different projects have a careful look at the following params
         </xsl:variable>
         <li>
             <i title="Erwähnte Orte" class="fa-solid fa-location-dot"/>&#160;Erwähnte Orte <div
-                class="list-container"><ul class="horizontal-list">
+                class="list-container">
+                <ul class="horizontal-list">
                     <xsl:attribute name="style">
                         <xsl:text>--dot-color: </xsl:text>
                         <xsl:value-of select="$e-type-farbe"/>
                         <xsl:text>;</xsl:text>
-                    </xsl:attribute><xsl:for-each select="tei:place/tei:placeName">
+                    </xsl:attribute>
+                    <xsl:for-each select="tei:place/tei:placeName">
+                        <xsl:variable name="ref" select="concat(@ref, @key)"/>
                         <xsl:choose>
-                            <xsl:when test="$e-typ = 'pmb' and starts-with(@ref, 'pmb')">
+                            <xsl:when test="$e-typ = 'pmb' and starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(@ref, 'pmb', ''), 'person_', ''), '/')"
+                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -635,12 +642,12 @@ When adapting for different projects have a careful look at the following params
                                     </xsl:element>
                                 </xsl:element>
                             </xsl:when>
-                            <xsl:when test="starts-with(@ref, 'pmb')">
+                            <xsl:when test="starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', @ref, '.html')"
+                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -685,13 +692,14 @@ When adapting for different projects have a careful look at the following params
                         <xsl:text>;</xsl:text>
                     </xsl:attribute>
                     <xsl:for-each select="descendant::tei:title">
+                        <xsl:variable name="ref" select="concat(@ref, @key)"/>
                         <xsl:choose>
-                            <xsl:when test="$e-typ = 'pmb' and starts-with(@ref, 'pmb')">
+                            <xsl:when test="$e-typ = 'pmb' and starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(@ref, 'pmb', ''), 'person_', ''), '/')"
+                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -711,12 +719,12 @@ When adapting for different projects have a careful look at the following params
                                     </xsl:element>
                                 </xsl:element>
                             </xsl:when>
-                            <xsl:when test="starts-with(@ref, 'pmb')">
+                            <xsl:when test="starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
-                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', @ref, '.html')"
+                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
                                             />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">
@@ -776,10 +784,10 @@ When adapting for different projects have a careful look at the following params
         <xsl:choose>
             <xsl:when test="matches($uppercaseHex, '([0-9]*|[A-F]*)')">
                 <xsl:value-of select="
-                    if ($uppercaseHex = '') then
-                    0
-                    else
-                    $dec * mam:power(16, string-length($uppercaseHex) - 1) + mam:hexToDec(substring($uppercaseHex, 2))"
+                        if ($uppercaseHex = '') then
+                            0
+                        else
+                            $dec * mam:power(16, string-length($uppercaseHex) - 1) + mam:hexToDec(substring($uppercaseHex, 2))"
                 />
             </xsl:when>
             <xsl:otherwise>
