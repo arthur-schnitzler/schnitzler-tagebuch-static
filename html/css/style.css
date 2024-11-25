@@ -1034,3 +1034,54 @@ div#map {
    width: 900px; 
   }
 }
+
+.cornered-pill {
+    border-radius: 50px;
+    padding: 5px 15px;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+.entry-title {
+    text-decoration: none;
+    font-weight: bold;
+}
+.entry-title:hover {
+    text-decoration: underline;
+}
+.toggle-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Styling for the horizontal list */
+.horizontal-list {
+            display: flex;
+            gap: 8px 20px; /* Abstand zwischen den Einträgen */
+            flex-wrap: wrap;
+            padding: 10px;
+            margin: 0;
+            list-style: none; /* Entfernt Standard-Bullets */
+            margin-bottom: 8px;
+        }
+
+/* Individual list items */
+.horizontal-list li {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    line-height: 1;
+}
+
+/* Colored dot before each item */
+.horizontal-list li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: var(--dot-color); /* Use the inherited color */
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.list-container {
+            overflow-x: auto; /* Horizontal scrollen */
+            white-space: nowrap; /* Kein Umbruch für Kinder */
+        }
