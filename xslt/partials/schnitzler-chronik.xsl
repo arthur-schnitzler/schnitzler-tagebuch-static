@@ -22,7 +22,7 @@ When adapting for different projects have a careful look at the following params
     <xsl:param name="schnitzler-tagebuch" as="xs:boolean" select="true()"/>
     <!-- only true if this is the chronik of schnitzler-tagebuch-->
     <xsl:param name="relevant-eventtypes"
-        select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
+        select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
     <xsl:param name="relevant-uris" select="document('../utils/list-of-relevant-uris.xml')"/>
     <xsl:import href="./LOD-idnos.xsl"/>
     <xsl:key match="item" use="abbr" name="relevant-uris-type"/>
