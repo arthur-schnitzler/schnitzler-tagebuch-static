@@ -27,6 +27,11 @@ several folders of one work has to be shown)
         <caption>Interviews, Meinungen, Proteste</caption>
         <color>#3D5A80</color>
     </item>
+    <item>
+        <abbr>schnitzler-events</abbr>
+        <caption>Ereignisse in der PMB</caption>
+        <color>#9BC53D</color>
+    </item>
     <item ana="multiple">
         <abbr>schnitzler-mikrofilme</abbr>
         <caption>Mikrofilme</caption>
@@ -169,8 +174,8 @@ several folders of one work has to be shown)
     </item>
     <item>
         <abbr>pmb</abbr>
-        <caption>Ereignisse in der PMB</caption>
-        <color>#9bc53d</color>
+        <caption>PMB</caption>
+        <color>#9B5F98</color>
     </item>
     <item>
         <abbr>gnd</abbr>
