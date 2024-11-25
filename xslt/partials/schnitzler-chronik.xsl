@@ -22,7 +22,7 @@ When adapting for different projects have a careful look at the following params
     <xsl:param name="schnitzler-tagebuch" as="xs:boolean" select="true()"/>
     <!-- only true if this is the chronik of schnitzler-tagebuch-->
     <xsl:param name="relevant-eventtypes"
-        select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-cmif,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
+        select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
     <xsl:param name="relevant-uris" select="document('../utils/list-of-relevant-uris.xml')"/>
     <xsl:import href="./LOD-idnos.xsl"/>
     <xsl:key match="item" use="abbr" name="relevant-uris-type"/>
@@ -474,7 +474,7 @@ When adapting for different projects have a careful look at the following params
                                 </xsl:element>
                             </xsl:when>
                             <xsl:when
-                                test="$e-typ = 'pmb' and (starts-with($ref, 'pmb') or starts-with($ref, 'person_'))">
+                                test="$e-typ = 'schnitzler-events' and (starts-with($ref, 'pmb') or starts-with($ref, 'person_'))">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
@@ -559,7 +559,7 @@ When adapting for different projects have a careful look at the following params
                                     </xsl:element>
                                 </xsl:element>
                             </xsl:when>
-                            <xsl:when test="$e-typ = 'pmb' and starts-with($ref, 'pmb')">
+                            <xsl:when test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
@@ -627,7 +627,7 @@ When adapting for different projects have a careful look at the following params
                     <xsl:for-each select="tei:place/tei:placeName">
                         <xsl:variable name="ref" select="concat(@ref, @key)"/>
                         <xsl:choose>
-                            <xsl:when test="$e-typ = 'pmb' and starts-with($ref, 'pmb')">
+                            <xsl:when test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
@@ -694,7 +694,7 @@ When adapting for different projects have a careful look at the following params
                     <xsl:for-each select="descendant::tei:title">
                         <xsl:variable name="ref" select="concat(@ref, @key)"/>
                         <xsl:choose>
-                            <xsl:when test="$e-typ = 'pmb' and starts-with($ref, 'pmb')">
+                            <xsl:when test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
                                 <xsl:element name="li">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
