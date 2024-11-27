@@ -422,12 +422,12 @@ When adapting for different projects have a careful look at the following params
                     </xsl:attribute>
                     <xsl:for-each select="tei:person/tei:persName">
                         <xsl:variable name="ref" select="concat(@ref, @key)"/>
-                        <xsl:choose>
-                            <xsl:when
-                                test="starts-with($ref, 'https://d-nb') or starts-with($ref, 'http://d-nb') and $e-typ = 'schnitzler-cmif'">
-                                <xsl:variable name="normalize-gnd-ohne-http"
-                                    select="replace($ref, 'https', 'http')" as="xs:string"/>
-                                <xsl:element name="li">
+                        <xsl:element name="li">
+                            <xsl:choose>
+                                <xsl:when
+                                    test="starts-with($ref, 'https://d-nb') or starts-with($ref, 'http://d-nb') and $e-typ = 'schnitzler-cmif'">
+                                    <xsl:variable name="normalize-gnd-ohne-http"
+                                        select="replace($ref, 'https', 'http')" as="xs:string"/>
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
@@ -439,11 +439,9 @@ When adapting for different projects have a careful look at the following params
                                         </xsl:attribute>
                                         <xsl:value-of select="."/>
                                     </xsl:element>
-                                </xsl:element>
-                            </xsl:when>
-                            <xsl:when
-                                test="$e-typ = 'schnitzler-tagebuch' and starts-with($ref, 'person_')">
-                                <xsl:element name="li">
+                                </xsl:when>
+                                <xsl:when
+                                    test="$e-typ = 'schnitzler-tagebuch' and starts-with($ref, 'person_')">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
@@ -455,11 +453,9 @@ When adapting for different projects have a careful look at the following params
                                         </xsl:attribute>
                                         <xsl:value-of select="."/>
                                     </xsl:element>
-                                </xsl:element>
-                            </xsl:when>
-                            <xsl:when
-                                test="$e-typ = 'schnitzler-tagebuch' and starts-with($ref, 'person_')">
-                                <xsl:element name="li">
+                                </xsl:when>
+                                <xsl:when
+                                    test="$e-typ = 'schnitzler-tagebuch' and starts-with($ref, 'person_')">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
@@ -471,11 +467,9 @@ When adapting for different projects have a careful look at the following params
                                         </xsl:attribute>
                                         <xsl:value-of select="."/>
                                     </xsl:element>
-                                </xsl:element>
-                            </xsl:when>
-                            <xsl:when
-                                test="$e-typ = 'schnitzler-events' and (starts-with($ref, 'pmb') or starts-with($ref, 'person_'))">
-                                <xsl:element name="li">
+                                </xsl:when>
+                                <xsl:when
+                                    test="$e-typ = 'schnitzler-events' and (starts-with($ref, 'pmb') or starts-with($ref, 'person_'))">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
@@ -487,11 +481,9 @@ When adapting for different projects have a careful look at the following params
                                         </xsl:attribute>
                                         <xsl:value-of select="."/>
                                     </xsl:element>
-                                </xsl:element>
-                            </xsl:when>
-                            <xsl:when
-                                test="starts-with($ref, 'pmb') or starts-with($ref, 'person_')">
-                                <xsl:element name="li">
+                                </xsl:when>
+                                <xsl:when
+                                    test="starts-with($ref, 'pmb') or starts-with($ref, 'person_')">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
@@ -503,15 +495,12 @@ When adapting for different projects have a careful look at the following params
                                         </xsl:attribute>
                                         <xsl:value-of select="."/>
                                     </xsl:element>
-                                </xsl:element>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <li>
+                                </xsl:when>
+                                <xsl:otherwise>
                                     <xsl:value-of select="."/>
-                                </li>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                        <xsl:text> </xsl:text>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:element>
                     </xsl:for-each>
                 </ul>
             </div>
@@ -540,12 +529,12 @@ When adapting for different projects have a careful look at the following params
                     </xsl:attribute>
                     <xsl:for-each select="tei:org/tei:orgName">
                         <xsl:variable name="ref" select="concat(@ref, @key)"/>
-                        <xsl:choose>
-                            <xsl:when
-                                test="starts-with($ref, 'https://d-nb') or starts-with($ref, 'http://d-nb') and $e-typ = 'schnitzler-cmif'">
-                                <xsl:variable name="normalize-gnd-ohne-http"
-                                    select="replace($ref, 'https', 'http')" as="xs:string"/>
-                                <xsl:element name="li">
+                        <xsl:element name="li">
+                            <xsl:choose>
+                                <xsl:when
+                                    test="starts-with($ref, 'https://d-nb') or starts-with($ref, 'http://d-nb') and $e-typ = 'schnitzler-cmif'">
+                                    <xsl:variable name="normalize-gnd-ohne-http"
+                                        select="replace($ref, 'https', 'http')" as="xs:string"/>
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
@@ -557,10 +546,9 @@ When adapting for different projects have a careful look at the following params
                                         </xsl:attribute>
                                         <xsl:value-of select="."/>
                                     </xsl:element>
-                                </xsl:element>
-                            </xsl:when>
-                            <xsl:when test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
-                                <xsl:element name="li">
+                                </xsl:when>
+                                <xsl:when
+                                    test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
@@ -572,10 +560,8 @@ When adapting for different projects have a careful look at the following params
                                         </xsl:attribute>
                                         <xsl:value-of select="."/>
                                     </xsl:element>
-                                </xsl:element>
-                            </xsl:when>
-                            <xsl:when test="starts-with($ref, 'pmb')">
-                                <xsl:element name="li">
+                                </xsl:when>
+                                <xsl:when test="starts-with($ref, 'pmb')">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
@@ -587,16 +573,12 @@ When adapting for different projects have a careful look at the following params
                                         </xsl:attribute>
                                         <xsl:value-of select="."/>
                                     </xsl:element>
-                                </xsl:element>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:value-of select="."/>
-                                <xsl:if test="not(position() = last())">
-                                    <xsl:text>, </xsl:text>
-                                </xsl:if>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                        <xsl:text> </xsl:text>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="."/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:element>
                     </xsl:for-each>
                 </ul>
             </div>
@@ -626,9 +608,10 @@ When adapting for different projects have a careful look at the following params
                     </xsl:attribute>
                     <xsl:for-each select="tei:place/tei:placeName">
                         <xsl:variable name="ref" select="concat(@ref, @key)"/>
-                        <xsl:choose>
-                            <xsl:when test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
-                                <xsl:element name="li">
+                        <xsl:element name="li">
+                            <xsl:choose>
+                                <xsl:when
+                                    test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
@@ -640,10 +623,8 @@ When adapting for different projects have a careful look at the following params
                                         </xsl:attribute>
                                         <xsl:value-of select="."/>
                                     </xsl:element>
-                                </xsl:element>
-                            </xsl:when>
-                            <xsl:when test="starts-with($ref, 'pmb')">
-                                <xsl:element name="li">
+                                </xsl:when>
+                                <xsl:when test="starts-with($ref, 'pmb')">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
@@ -655,16 +636,12 @@ When adapting for different projects have a careful look at the following params
                                         </xsl:attribute>
                                         <xsl:value-of select="."/>
                                     </xsl:element>
-                                </xsl:element>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:value-of select="."/>
-                                <xsl:if test="not(position() = last())">
-                                    <xsl:text>, </xsl:text>
-                                </xsl:if>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                        <xsl:text> </xsl:text>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="."/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:element>
                     </xsl:for-each>
                 </ul>
             </div>
@@ -693,9 +670,10 @@ When adapting for different projects have a careful look at the following params
                     </xsl:attribute>
                     <xsl:for-each select="descendant::tei:title">
                         <xsl:variable name="ref" select="concat(@ref, @key)"/>
-                        <xsl:choose>
-                            <xsl:when test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
-                                <xsl:element name="li">
+                        <xsl:element name="li">
+                            <xsl:choose>
+                                <xsl:when
+                                    test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
@@ -717,10 +695,8 @@ When adapting for different projects have a careful look at the following params
                                             </xsl:otherwise>
                                         </xsl:choose>
                                     </xsl:element>
-                                </xsl:element>
-                            </xsl:when>
-                            <xsl:when test="starts-with($ref, 'pmb')">
-                                <xsl:element name="li">
+                                </xsl:when>
+                                <xsl:when test="starts-with($ref, 'pmb')">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
                                             <xsl:value-of
@@ -742,16 +718,12 @@ When adapting for different projects have a careful look at the following params
                                             </xsl:otherwise>
                                         </xsl:choose>
                                     </xsl:element>
-                                </xsl:element>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:value-of select="."/>
-                                <xsl:if test="not(position() = last())">
-                                    <xsl:text>, </xsl:text>
-                                </xsl:if>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                        <xsl:text> </xsl:text>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="."/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:element>
                     </xsl:for-each>
                 </ul>
             </div>
