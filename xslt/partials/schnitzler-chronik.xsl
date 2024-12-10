@@ -395,7 +395,7 @@ When adapting for different projects have a careful look at the following params
                     <xsl:attribute name="style">
                         <xsl:text>list-style-type: none; padding-left: 0px;</xsl:text>
                     </xsl:attribute>
-                    <xsl:for-each select="child::*">
+                    <xsl:for-each select="child::*[starts-with(name(), 'list')]">
                         <li>
                             <xsl:choose>
                                 <xsl:when test="name() = 'listPlace'">
