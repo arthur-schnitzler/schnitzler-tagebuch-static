@@ -337,6 +337,20 @@ When adapting for different projects have a careful look at the following params
                             <xsl:value-of select="tei:head/text()"/>
                         </xsl:element>
                     </xsl:when>
+                    <xsl:when test="tei:head[@corresp]">
+                        <xsl:element name="a">
+                            <xsl:attribute name="class">
+                                <xsl:text>entry-title</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(@corresp, '#', ''), 'pmb', ''), '/')"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="target">
+                                <xsl:text>_blank</xsl:text>
+                            </xsl:attribute>
+                            <xsl:value-of select="tei:head/text()"/>
+                        </xsl:element>
+                    </xsl:when>
                     <xsl:otherwise>
                         <xsl:element name="span">
                             <xsl:attribute name="class">
@@ -381,9 +395,23 @@ When adapting for different projects have a careful look at the following params
                     <xsl:attribute name="style">
                         <xsl:text>list-style-type: none; padding-left: 0px;</xsl:text>
                     </xsl:attribute>
-                    <xsl:apply-templates
-                        select="child::tei:listPerson | child::tei:listBibl | child::tei:listPlace | child::tei:listOrg"
-                        mode="desc"/>
+                    <xsl:for-each select="child::*">
+                        <li>
+                            <xsl:choose>
+                                <xsl:when test="name() = 'listPlace'">
+                                    <i title="Orte" class="fa-solid fa-location-dot"/>&#160;Orte </xsl:when>
+                                <xsl:when test="name() = 'listPerson'">
+                                    <i class="fa-solid fa-users" title="Personen"/>&#160;Personen </xsl:when>
+                                <xsl:when test="name() = 'listOrg'">
+                                    <i class="fa-solid fa-building-columns" title="Organisationen"
+                                    />&#160; Organisationen </xsl:when>
+                                <xsl:when test="name() = 'listBibl'">
+                                    <i title="Werke" class="fa-regular fa-image"/>&#160;Werke
+                                </xsl:when>
+                            </xsl:choose>
+                            <xsl:apply-templates select="." mode="desc"/>
+                        </li>
+                    </xsl:for-each>
                 </ul>
             </xsl:if>
             <xsl:if
@@ -412,8 +440,7 @@ When adapting for different projects have a careful look at the following params
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <li>
-            <i class="fa-solid fa-users" title="Erwähnte Personen"/>&#160;Erwähnte Personen <div
+            <div
                 class="list-container"><ul class="horizontal-list">
                     <xsl:attribute name="style">
                         <xsl:text>--dot-color: </xsl:text>
@@ -504,7 +531,6 @@ When adapting for different projects have a careful look at the following params
                     </xsl:for-each>
                 </ul>
             </div>
-        </li>
     </xsl:template>
     <xsl:template match="tei:listOrg" mode="desc">
         <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno/@type"/>
@@ -519,9 +545,7 @@ When adapting for different projects have a careful look at the following params
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <li>
-            <i class="fa-solid fa-building-columns" title="Erwähnte Organisationen"/>&#160; Erwähnte
-            Organisationen <div class="list-container"><ul class="horizontal-list">
+            <div class="list-container"><ul class="horizontal-list">
                     <xsl:attribute name="style">
                         <xsl:text>--dot-color: </xsl:text>
                         <xsl:value-of select="$e-type-farbe"/>
@@ -582,7 +606,6 @@ When adapting for different projects have a careful look at the following params
                     </xsl:for-each>
                 </ul>
             </div>
-        </li>
     </xsl:template>
     <xsl:template match="tei:listPlace" mode="desc">
         <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno/@type"/>
@@ -597,55 +620,87 @@ When adapting for different projects have a careful look at the following params
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <li>
-            <i title="Erwähnte Orte" class="fa-solid fa-location-dot"/>&#160;Erwähnte Orte <div
-                class="list-container">
-                <ul class="horizontal-list">
-                    <xsl:attribute name="style">
-                        <xsl:text>--dot-color: </xsl:text>
-                        <xsl:value-of select="$e-type-farbe"/>
-                        <xsl:text>;</xsl:text>
-                    </xsl:attribute>
-                    <xsl:for-each select="tei:place/tei:placeName">
-                        <xsl:variable name="ref" select="concat(@ref, @key)"/>
-                        <xsl:element name="li">
+        <div class="list-container">
+            <xsl:choose>
+                <xsl:when test="$e-typ = 'schnitzler-orte'">
+                    <ul>
+                        <xsl:attribute name="style">
+                            <xsl:text>--dot-color: </xsl:text>
+                            <xsl:value-of select="$e-type-farbe"/>
+                            <xsl:text>;</xsl:text>
+                        </xsl:attribute>
+                        <xsl:for-each select="tei:place">
+                            <xsl:variable name="ref" select="replace(@corresp, '#', '')"/>
+                            <xsl:element name="li">
+                                <xsl:element name="a">
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of
+                                            select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
+                                        />
+                                    </xsl:attribute>
+                                    <xsl:attribute name="target">
+                                        <xsl:text>_blank</xsl:text>
+                                    </xsl:attribute>
+                                    <xsl:value-of select="tei:placeName[1]"/>
+                                </xsl:element>
+                                <xsl:if test="tei:listPlace">
+                                    <xsl:apply-templates select="tei:listPlace" mode="desc"/>
+                                </xsl:if>
+                            </xsl:element>
+                        </xsl:for-each>
+                    </ul>
+                </xsl:when>
+                <xsl:otherwise>
+                    <ul class="horizontal-list">
+                        <xsl:attribute name="style">
+                            <xsl:text>--dot-color: </xsl:text>
+                            <xsl:value-of select="$e-type-farbe"/>
+                            <xsl:text>;</xsl:text>
+                        </xsl:attribute>
+                        <xsl:for-each select="tei:place/tei:placeName">
+                            <xsl:variable name="ref" select="concat(@ref, @key)"/>
                             <xsl:choose>
                                 <xsl:when
                                     test="$e-typ = 'schnitzler-events' and starts-with($ref, 'pmb')">
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="target">
-                                            <xsl:text>_blank</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="."/>
+                                    <xsl:element name="li">
+                                        <xsl:element name="a">
+                                            <xsl:attribute name="href">
+                                                <xsl:value-of
+                                                    select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace($ref, 'pmb', ''), 'person_', ''), '/')"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="target">
+                                                <xsl:text>_blank</xsl:text>
+                                            </xsl:attribute>
+                                            <xsl:value-of select="."/>
+                                        </xsl:element>
                                     </xsl:element>
                                 </xsl:when>
                                 <xsl:when test="starts-with($ref, 'pmb')">
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="target">
-                                            <xsl:text>_blank</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:value-of select="."/>
+                                    <xsl:element name="li">
+                                        <xsl:element name="a">
+                                            <xsl:attribute name="href">
+                                                <xsl:value-of
+                                                    select="concat('https://', $e-typ, '.acdh.oeaw.ac.at/', $ref, '.html')"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="target">
+                                                <xsl:text>_blank</xsl:text>
+                                            </xsl:attribute>
+                                            <xsl:value-of select="."/>
+                                        </xsl:element>
                                     </xsl:element>
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <xsl:value-of select="."/>
                                 </xsl:otherwise>
                             </xsl:choose>
-                        </xsl:element>
-                    </xsl:for-each>
-                </ul>
-            </div>
-        </li>
+                            <xsl:text> </xsl:text>
+                        </xsl:for-each>
+                    </ul>
+                </xsl:otherwise>
+            </xsl:choose>
+        </div>
     </xsl:template>
     <xsl:template match="tei:desc/tei:listBibl" mode="desc">
         <xsl:variable name="e-typ" select="ancestor::tei:event/tei:idno/@type"/>
@@ -660,8 +715,7 @@ When adapting for different projects have a careful look at the following params
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <li>
-            <i title="Erwähnte Werke" class="fa-regular fa-image"/>&#160;Erwähnte Werke <div
+         <div
                 class="list-container"><ul class="horizontal-list">
                     <xsl:attribute name="style">
                         <xsl:text>--dot-color: </xsl:text>
@@ -727,7 +781,6 @@ When adapting for different projects have a careful look at the following params
                     </xsl:for-each>
                 </ul>
             </div>
-        </li>
     </xsl:template>
     <xsl:template match="tei:bibl[parent::tei:desc]" mode="desc">
         <p>
