@@ -343,7 +343,7 @@ When adapting for different projects have a careful look at the following params
                                 <xsl:text>entry-title</xsl:text>
                             </xsl:attribute>
                             <xsl:attribute name="href">
-                                <xsl:value-of select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(@corresp, '#', ''), 'pmb', ''), '/')"/>
+                                <xsl:value-of select="concat('https://pmb.acdh.oeaw.ac.at/entity/', replace(replace(tei:head/@corresp, '#', ''), 'pmb', ''), '/')"/>
                             </xsl:attribute>
                             <xsl:attribute name="target">
                                 <xsl:text>_blank</xsl:text>
