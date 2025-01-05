@@ -518,7 +518,6 @@
                                     <xsl:with-param name="current-type" select="'schnitzler-tagebuch'"/>
                                     <xsl:with-param name="teiSource" select="$teiSource"/>
                                     <xsl:with-param name="fetch-locally" select="true()"/>
-                                    <xsl:with-param name="schnitzler-tagebuch" select="true()"/>
                                     <xsl:with-param name="relevant-eventtypes" select="$relevant-eventtypes"/>
                                 </xsl:call-template>
                             </div>
