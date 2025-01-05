@@ -509,11 +509,13 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Schließen"/>
                             </div>
-                            <xsl:variable name="relevant-eventtypes" as="xs:string" select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
+                            <xsl:variable name="relevant-eventtypes" as="xs:string" select="'Arthur-Schnitzler-digital,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
+                            <!-- Achtung, kein Tagebuch, weil es ja keine zwei Einträge an einem Tag gibt -->
                             <div class="modal-body">
                                 <div id="chronik-modal-body"/>
                                 <xsl:call-template name="mam:schnitzler-chronik">
                                     <xsl:with-param name="datum-iso" select="$datum"/>
+                                    <xsl:with-param name="current-type" select="'schnitzler-tagebuch'"/>
                                     <xsl:with-param name="teiSource" select="$teiSource"/>
                                     <xsl:with-param name="fetch-locally" select="true()"/>
                                     <xsl:with-param name="schnitzler-tagebuch" select="true()"/>
