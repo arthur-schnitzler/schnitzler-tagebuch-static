@@ -14,7 +14,7 @@
     <xsl:import href="./partials/entities.xsl"/>
     <xsl:import href="./partials/html_title_navigation.xsl"/>
     <xsl:import href="./partials/view-type.xsl"/>
-    <xsl:import href="./partials/schnitzler-chronik.xsl"/>
+    <xsl:import href="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/schnitzler-chronik.xsl"/>
     <xsl:import href="./partials/biblStruct-output.xsl"/>
     <xsl:param name="quotationURL"/>
     <xsl:param name="chronik-dir">../chronik-data</xsl:param>
