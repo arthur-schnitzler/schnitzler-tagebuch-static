@@ -517,7 +517,7 @@
                                     <xsl:with-param name="datum-iso" select="$datum"/>
                                     <xsl:with-param name="current-type" select="'schnitzler-tagebuch'"/>
                                     <xsl:with-param name="teiSource" select="$teiSource"/>
-                                    <xsl:with-param name="fetch-locally" select="true()"/>
+                                    <xsl:with-param name="fetch-locally" select="false()"/>
                                     <xsl:with-param name="relevant-eventtypes" select="$relevant-eventtypes"/>
                                 </xsl:call-template>
                             </div>
