@@ -14,7 +14,12 @@
     <xsl:import href="./partials/entities.xsl"/>
     <xsl:import href="./partials/html_title_navigation.xsl"/>
     <xsl:import href="./partials/view-type.xsl"/>
+    <!-- Einstellungen für die Schnitzler-Chronik. Das entfernte XSL wird nur benützt, wenn fetch-locally auf  -->
     <xsl:import href="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/schnitzler-chronik.xsl"/>
+    <!--<xsl:import href="../../schnitzler-chronik-static/xslt/export/schnitzler-chronik.xsl"/>-->
+    <xsl:param name="schnitzler-chronik_fetch-locally" as="xs:boolean" select="true()"/>
+    <xsl:param name="schnitzler-chronik_current-type" as="xs:string" select="'schnitzler-tagebuch'"/>
+    
     <xsl:import href="./partials/biblStruct-output.xsl"/>
     <xsl:param name="quotationURL"/>
     <xsl:param name="chronik-dir">../chronik-data</xsl:param>
@@ -513,12 +518,26 @@
                             <!-- Achtung, kein Tagebuch, weil es ja keine zwei Einträge an einem Tag gibt -->
                             <div class="modal-body">
                                 <div id="chronik-modal-body"/>
+                                <!-- SCHNITZLER-CHRONIK. Zuerst wird der Eintrag geladen, weil das schneller ist, wenn er lokal vorliegt -->
+                                <xsl:variable name="fetchContentsFromURL" as="node()?">
+                                    <xsl:choose>
+                                        <xsl:when test="$schnitzler-chronik_fetch-locally">
+                                            <xsl:copy-of
+                                                select="document(concat('../chronik-data/', $datum, '.xml'))"/>
+                                            <!-- das geht davon aus, dass das schnitzler-chronik-repo lokal vorliegt -->
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:copy-of
+                                                select="document(concat('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-data/refs/heads/main/editions/data/', $datum, '.xml'))"
+                                            />
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:variable>
                                 <xsl:call-template name="mam:schnitzler-chronik">
                                     <xsl:with-param name="datum-iso" select="$datum"/>
-                                    <xsl:with-param name="current-type" select="'schnitzler-tagebuch'"/>
+                                    <xsl:with-param name="current-type" select="$schnitzler-chronik_current-type"/>
                                     <xsl:with-param name="teiSource" select="$teiSource"/>
-                                    <xsl:with-param name="fetch-locally" select="true()"/>
-                                    <xsl:with-param name="relevant-eventtypes" select="$relevant-eventtypes"/>
+                                    <xsl:with-param name="fetchContentsFromURL" select="$fetchContentsFromURL" as="node()?"/>
                                 </xsl:call-template>
                             </div>
                             <div class="modal-footer">
