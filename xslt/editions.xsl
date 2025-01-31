@@ -172,6 +172,9 @@
                                 
                                 <span id="isoDateValueLink" style="color:white">
                                     <xsl:element name="a">
+                                        <xsl:attribute name="style">
+                                            <xsl:text>color:white</xsl:text>
+                                        </xsl:attribute>
                                         <xsl:attribute name="href">
                                             <xsl:value-of select="concat('https://wienerschnitzler.org/tag.html#', descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text())"/>
                                         </xsl:attribute>
