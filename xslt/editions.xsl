@@ -165,26 +165,21 @@
                                 </nav>
                             </div>
                             <xsl:call-template name="html_footer"/>
-                            <!-- Das ist nur eine Interim-Funktion, die mir erlauben soll, das ISO-Datum schnell zu kopieren -->
-                            <script>
-                                function copyToClipboard() {
-                                // Den Text, den du kopieren möchtest
-                                var textToCopy = document.getElementById("isoDateValue").innerText;
+                            <div class="d-flex justify-content-between">
+                                <span id="isoDateValue" style="color:white">
+                                    <xsl:value-of select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"/>
+                                </span>
                                 
-                                // Erstellen eines temporären Textfelds, um den Text in die Zwischenablage zu kopieren
-                                var tempInput = document.createElement("textarea");
-                                tempInput.value = textToCopy;
-                                document.body.appendChild(tempInput);
-                                tempInput.select();
-                                document.execCommand("copy");
-                                document.body.removeChild(tempInput);
-                                
-                                alert("Text kopiert: " + textToCopy);
-                                }
-                            </script>
-                            <span id="isoDateValue" style="color:white">
-                                <xsl:value-of select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"/>
-                            </span>
+                                <span id="isoDateValueLink" style="color:white">
+                                    <xsl:element name="a">
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="concat('https://wienerschnitzler.org/tag.html#', descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text())"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="target">_blank</xsl:attribute>
+                                        <xsl:value-of select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"/>
+                                    </xsl:element>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
