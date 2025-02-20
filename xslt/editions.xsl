@@ -15,11 +15,11 @@
     <xsl:import href="./partials/html_title_navigation.xsl"/>
     <xsl:import href="./partials/view-type.xsl"/>
     <!-- Einstellungen für die Schnitzler-Chronik. Das entfernte XSL wird nur benützt, wenn fetch-locally auf  -->
-    <xsl:import href="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/schnitzler-chronik.xsl"/>
+    <xsl:import
+        href="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/schnitzler-chronik.xsl"/>
     <!--<xsl:import href="../../schnitzler-chronik-static/xslt/export/schnitzler-chronik.xsl"/>-->
     <xsl:param name="schnitzler-chronik_fetch-locally" as="xs:boolean" select="true()"/>
     <xsl:param name="schnitzler-chronik_current-type" as="xs:string" select="'schnitzler-tagebuch'"/>
-    
     <xsl:import href="./partials/biblStruct-output.xsl"/>
     <xsl:param name="quotationURL"/>
     <xsl:param name="chronik-dir">../chronik-data</xsl:param>
@@ -60,22 +60,19 @@
     </xsl:variable>
     <xsl:variable name="source_base_url"
         >https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_</xsl:variable>
-    <xsl:variable name="pageRange" 
-        select="//tei:monogr//tei:biblScope[@unit = 'page']/text()"/>
-    
-    <xsl:variable name="source_page_nr1" 
+    <xsl:variable name="pageRange" select="//tei:monogr//tei:biblScope[@unit = 'page']/text()"/>
+    <xsl:variable name="source_page_nr1"
         select="format-number(number(substring-before($pageRange, '–')), '000')"/>
-    
-    <xsl:variable name="source_page_nr2" 
-        select="if (contains($pageRange, '–'))
-        then format-number(number(substring-after($pageRange, '–')), '000')
-        else format-number(number($pageRange), '000')"/>
-    
+    <xsl:variable name="source_page_nr2" select="
+            if (contains($pageRange, '–'))
+            then
+                format-number(number(substring-after($pageRange, '–')), '000')
+            else
+                format-number(number($pageRange), '000')"/>
     <xsl:variable name="source1_pdf">
         <xsl:value-of
             select="concat($source_base_url, $source_volume, 's', $source_page_nr1, '.pdf')"/>
     </xsl:variable>
-    
     <xsl:variable name="source2_pdf">
         <xsl:value-of
             select="concat($source_base_url, $source_volume, 's', $source_page_nr2, '.pdf')"/>
@@ -88,7 +85,8 @@
             <xsl:otherwise>
                 <xsl:value-of select="false()"/>
             </xsl:otherwise>
-        </xsl:choose>    </xsl:variable>
+        </xsl:choose>
+    </xsl:variable>
     <xsl:variable name="current-date">
         <xsl:value-of select="substring-after($doctitle, ': ')"/>
     </xsl:variable>
@@ -188,19 +186,24 @@
                             <xsl:call-template name="html_footer"/>
                             <div class="d-flex justify-content-between">
                                 <span id="isoDateValue" style="color:white">
-                                    <xsl:value-of select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"/>
+                                    <xsl:value-of
+                                        select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"
+                                    />
                                 </span>
-                                
                                 <span id="isoDateValueLink" style="color:white">
                                     <xsl:element name="a">
                                         <xsl:attribute name="style">
                                             <xsl:text>color:white</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="href">
-                                            <xsl:value-of select="concat('https://wienerschnitzler.org/tag.html#', descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text())"/>
+                                            <xsl:value-of
+                                                select="concat('https://wienerschnitzler.org/tag.html#', descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text())"
+                                            />
                                         </xsl:attribute>
                                         <xsl:attribute name="target">_blank</xsl:attribute>
-                                        <xsl:value-of select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"/>
+                                        <xsl:value-of
+                                            select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"
+                                        />
                                     </xsl:element>
                                 </span>
                             </div>
@@ -312,7 +315,8 @@
                 <!-- Modal Faksimile -->
                 <div class="modal fade" id="faks-modal" tabindex="-1" role="dialog"
                     aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg faksimile-modal" role="document" style="max-width: 75%;">
+                    <div class="modal-dialog modal-lg faksimile-modal" role="document"
+                        style="max-width: 75%;">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="faksimile">Faksimile</h5>
@@ -432,24 +436,27 @@
                             <div class="modal-body">
                                 <p>
                                     <xsl:choose>
-                                        <xsl:when test="$source-double-page">
-                                            <a class="ml-3" data-toggle="tooltip" title="Eintrag als PDF">
+                                        <xsl:when test="$source-double-page = true()">
+                                            <a class="ml-3" data-toggle="tooltip"
+                                                title="Eintrag als PDF">
                                                 <xsl:attribute name="href">
-                                                    <xsl:value-of select="$source1_pdf"/>
-                                                </xsl:attribute>
-                                                <i class="fa-lg far fa-file-pdf"/> PDF </a> / 
-                                            <a class="ml-3" data-toggle="tooltip" title="Eintrag als PDF">
+                                                  <xsl:value-of select="$source1_pdf"/>
+                                                </xsl:attribute><xsl:text> </xsl:text>
+                                                <i class="fa-lg far fa-file-pdf"/>PDF </a> / <a
+                                                class="ml-3" data-toggle="tooltip"
+                                                title="Eintrag als PDF">
                                                 <xsl:attribute name="href">
-                                                    <xsl:value-of select="$source2_pdf"/>
-                                                </xsl:attribute>
-                                                <i class="fa-lg far fa-file-pdf"/> PDF </a>
+                                                  <xsl:value-of select="$source2_pdf"/>
+                                                </xsl:attribute><xsl:text> </xsl:text>
+                                                <i class="fa-lg far fa-file-pdf"/>PDF </a>
                                         </xsl:when>
                                         <xsl:otherwise>
-                                            <a class="ml-3" data-toggle="tooltip" title="Eintrag als PDF">
+                                            <a class="ml-3" data-toggle="tooltip"
+                                                title="Eintrag als PDF">
                                                 <xsl:attribute name="href">
-                                                    <xsl:value-of select="$source1_pdf"/>
-                                                </xsl:attribute>
-                                                <i class="fa-lg far fa-file-pdf"/> PDF </a>
+                                                  <xsl:value-of select="$source1_pdf"/>
+                                                </xsl:attribute><xsl:text> </xsl:text>
+                                                <i class="fa-lg far fa-file-pdf"/>PDF </a>
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </p>
@@ -457,9 +464,11 @@
                                     <a class="ml-3" data-toggle="tooltip"
                                         title="Eintrag als TEI-Datei">
                                         <xsl:attribute name="href">
-                                            <xsl:value-of select="concat($teiSource, '.xml')"/>
-                                        </xsl:attribute>
-                                        <i class="fa-lg far fa-file-code"/> TEI </a>
+                                            <xsl:value-of
+                                                select="concat(replace($teiSource, '.xml', ''), '.xml')"
+                                            />
+                                        </xsl:attribute><xsl:text> </xsl:text>
+                                        <i class="fa-lg far fa-file-code"/>TEI </a>
                                 </p>
                             </div>
                             <div class="modal-footer">
@@ -472,62 +481,62 @@
                 <!-- Modal Chronik -->
                 <div class="modal fade" id="chronik" tabindex="-1"
                     aria-labelledby="downloadModalLabel2" aria-hidden="true">
-                     <xsl:variable name="datum"
-                            select="descendant::tei:title[@type = 'iso-date']/text()" as="xs:date"/>
+                    <xsl:variable name="datum"
+                        select="descendant::tei:title[@type = 'iso-date']/text()" as="xs:date"/>
                     <xsl:variable name="datum-written" select="
-                        format-date($datum, '[D1].&#160;[M1].&#160;[Y0001]',
-                        'en',
-                        'AD',
-                        'EN')"/>
+                            format-date($datum, '[D1].&#160;[M1].&#160;[Y0001]',
+                            'en',
+                            'AD',
+                            'EN')"/>
                     <xsl:variable name="wochentag">
                         <xsl:choose>
                             <xsl:when test="
-                                format-date($datum, '[F]',
-                                'en',
-                                'AD',
-                                'EN') = 'Monday'">
+                                    format-date($datum, '[F]',
+                                    'en',
+                                    'AD',
+                                    'EN') = 'Monday'">
                                 <xsl:text>Montag</xsl:text>
                             </xsl:when>
                             <xsl:when test="
-                                format-date($datum, '[F]',
-                                'en',
-                                'AD',
-                                'EN') = 'Tuesday'">
+                                    format-date($datum, '[F]',
+                                    'en',
+                                    'AD',
+                                    'EN') = 'Tuesday'">
                                 <xsl:text>Dienstag</xsl:text>
                             </xsl:when>
                             <xsl:when test="
-                                format-date($datum, '[F]',
-                                'en',
-                                'AD',
-                                'EN') = 'Wednesday'">
+                                    format-date($datum, '[F]',
+                                    'en',
+                                    'AD',
+                                    'EN') = 'Wednesday'">
                                 <xsl:text>Mittwoch</xsl:text>
                             </xsl:when>
                             <xsl:when test="
-                                format-date($datum, '[F]',
-                                'en',
-                                'AD',
-                                'EN') = 'Thursday'">
+                                    format-date($datum, '[F]',
+                                    'en',
+                                    'AD',
+                                    'EN') = 'Thursday'">
                                 <xsl:text>Donnerstag</xsl:text>
                             </xsl:when>
                             <xsl:when test="
-                                format-date($datum, '[F]',
-                                'en',
-                                'AD',
-                                'EN') = 'Friday'">
+                                    format-date($datum, '[F]',
+                                    'en',
+                                    'AD',
+                                    'EN') = 'Friday'">
                                 <xsl:text>Freitag</xsl:text>
                             </xsl:when>
                             <xsl:when test="
-                                format-date($datum, '[F]',
-                                'en',
-                                'AD',
-                                'EN') = 'Saturday'">
+                                    format-date($datum, '[F]',
+                                    'en',
+                                    'AD',
+                                    'EN') = 'Saturday'">
                                 <xsl:text>Samstag</xsl:text>
                             </xsl:when>
                             <xsl:when test="
-                                format-date($datum, '[F]',
-                                'en',
-                                'AD',
-                                'EN') = 'Sunday'">
+                                    format-date($datum, '[F]',
+                                    'en',
+                                    'AD',
+                                    'EN') = 'Sunday'">
                                 <xsl:text>Sonntag</xsl:text>
                             </xsl:when>
                             <xsl:otherwise>
@@ -549,7 +558,8 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Schließen"/>
                             </div>
-                            <xsl:variable name="relevant-eventtypes" as="xs:string" select="'Arthur-Schnitzler-digital,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
+                            <xsl:variable name="relevant-eventtypes" as="xs:string"
+                                select="'Arthur-Schnitzler-digital,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
                             <!-- Achtung, kein Tagebuch, weil es ja keine zwei Einträge an einem Tag gibt -->
                             <div class="modal-body">
                                 <div id="chronik-modal-body"/>
@@ -570,9 +580,11 @@
                                 </xsl:variable>
                                 <xsl:call-template name="mam:schnitzler-chronik">
                                     <xsl:with-param name="datum-iso" select="$datum"/>
-                                    <xsl:with-param name="current-type" select="$schnitzler-chronik_current-type"/>
+                                    <xsl:with-param name="current-type"
+                                        select="$schnitzler-chronik_current-type"/>
                                     <xsl:with-param name="teiSource" select="$teiSource"/>
-                                    <xsl:with-param name="fetchContentsFromURL" select="$fetchContentsFromURL" as="node()?"/>
+                                    <xsl:with-param name="fetchContentsFromURL"
+                                        select="$fetchContentsFromURL" as="node()?"/>
                                 </xsl:call-template>
                             </div>
                             <div class="modal-footer">
