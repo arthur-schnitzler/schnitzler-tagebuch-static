@@ -60,14 +60,31 @@
     </xsl:variable>
     <xsl:variable name="source_base_url"
         >https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_</xsl:variable>
-    <xsl:variable name="source_page_nr">
+    <xsl:variable name="source_page_nr1">
         <xsl:value-of
-            select="format-number(//tei:monogr//tei:biblScope[@unit = 'page']/text(), '000')"/>
+            select="format-number(//tei:monogr//tei:biblScope[@unit = 'page']/substring-before(text(), '–'), '000')"/>
     </xsl:variable>
-    <xsl:variable name="source_pdf">
+    <xsl:variable name="source1_pdf">
         <xsl:value-of
-            select="concat($source_base_url, $source_volume, 's', $source_page_nr, '.pdf')"/>
+            select="concat($source_base_url, $source_volume, 's', $source_page_nr1, '.pdf')"/>
     </xsl:variable>
+    <xsl:variable name="source_page_nr2">
+        <xsl:value-of
+            select="format-number(//tei:monogr//tei:biblScope[@unit = 'page']/substring-after(text(), '–'), '000')"/>
+    </xsl:variable>
+    <xsl:variable name="source2_pdf">
+        <xsl:value-of
+            select="concat($source_base_url, $source_volume, 's', $source_page_nr2, '.pdf')"/>
+    </xsl:variable>
+    <xsl:variable name="source-double-page" as="xs:boolean">
+        <xsl:choose>
+            <xsl:when test="contains(//tei:monogr//tei:biblScope[@unit = 'page']/text(), '–')">
+                <xsl:value-of select="true()"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="false()"/>
+            </xsl:otherwise>
+        </xsl:choose>    </xsl:variable>
     <xsl:variable name="current-date">
         <xsl:value-of select="substring-after($doctitle, ': ')"/>
     </xsl:variable>
@@ -410,17 +427,33 @@
                             </div>
                             <div class="modal-body">
                                 <p>
-                                    <a class="ml-3" data-toggle="tooltip" title="Eintrag als PDF">
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of select="$source_pdf"/>
-                                        </xsl:attribute>
-                                        <i class="fa-lg far fa-file-pdf"/> PDF </a>
+                                    <xsl:choose>
+                                        <xsl:when test="$source-double-page">
+                                            <a class="ml-3" data-toggle="tooltip" title="Eintrag als PDF">
+                                                <xsl:attribute name="href">
+                                                    <xsl:value-of select="$source1_pdf"/>
+                                                </xsl:attribute>
+                                                <i class="fa-lg far fa-file-pdf"/> PDF </a> / 
+                                            <a class="ml-3" data-toggle="tooltip" title="Eintrag als PDF">
+                                                <xsl:attribute name="href">
+                                                    <xsl:value-of select="$source2_pdf"/>
+                                                </xsl:attribute>
+                                                <i class="fa-lg far fa-file-pdf"/> PDF </a>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <a class="ml-3" data-toggle="tooltip" title="Eintrag als PDF">
+                                                <xsl:attribute name="href">
+                                                    <xsl:value-of select="$source1_pdf"/>
+                                                </xsl:attribute>
+                                                <i class="fa-lg far fa-file-pdf"/> PDF </a>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
                                 </p>
                                 <p>
                                     <a class="ml-3" data-toggle="tooltip"
                                         title="Eintrag als TEI-Datei">
                                         <xsl:attribute name="href">
-                                            <xsl:value-of select="$teiSource"/>
+                                            <xsl:value-of select="concat($teiSource, '.xml')"/>
                                         </xsl:attribute>
                                         <i class="fa-lg far fa-file-code"/> TEI </a>
                                 </p>
