@@ -10,7 +10,8 @@ permissions:
 
 jobs:
   build_pages:
-    name: Build Edition as Artifact
+    environment:
+      name: github-pages
     runs-on: ubuntu-latest
     env:
       ANT_OPTS: -Xmx6g
@@ -19,27 +20,27 @@ jobs:
       TYPESENSE_PROTOCOL: https
       TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_KEY }}
     steps:
-    - name: Perform Checkout
-      uses: actions/checkout@v4
-    - name: Install Saxon, Ant and Fundament
-      run: |
-        apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommends
-        ./script.sh
-    - name: Install Ant-Contrib and Python
-      run: |
-        pip install -r requirements.txt
-    - name: Fetch and preprocess Data
-      run: |
-        ./fetch_data.sh
-    - name: Build
-      run: |
-        ant
-    - name: Upload Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: github-pages
-        path: ./html
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
+      - name: Perform Checkout
+        uses: actions/checkout@v4
+      - name: Install Saxon, Ant and Fundament
+        run: |
+          apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommends
+          ./script.sh
+      - name: Install Ant-Contrib and Python
+        run: |
+          pip install -r requirements.txt
+      - name: Fetch and preprocess Data
+        run: |
+          ./fetch_data.sh
+      - name: Build
+        run: |
+          ant
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: github-pages
+          path: ./html
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
