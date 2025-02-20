@@ -60,18 +60,22 @@
     </xsl:variable>
     <xsl:variable name="source_base_url"
         >https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_</xsl:variable>
-    <xsl:variable name="source_page_nr1">
-        <xsl:value-of
-            select="format-number(//tei:monogr//tei:biblScope[@unit = 'page']/substring-before(text(), '–'), '000')"/>
-    </xsl:variable>
+    <xsl:variable name="pageRange" 
+        select="//tei:monogr//tei:biblScope[@unit = 'page']/text()"/>
+    
+    <xsl:variable name="source_page_nr1" 
+        select="format-number(number(substring-before($pageRange, '–')), '000')"/>
+    
+    <xsl:variable name="source_page_nr2" 
+        select="if (contains($pageRange, '–'))
+        then format-number(number(substring-after($pageRange, '–')), '000')
+        else format-number(number($pageRange), '000')"/>
+    
     <xsl:variable name="source1_pdf">
         <xsl:value-of
             select="concat($source_base_url, $source_volume, 's', $source_page_nr1, '.pdf')"/>
     </xsl:variable>
-    <xsl:variable name="source_page_nr2">
-        <xsl:value-of
-            select="format-number(//tei:monogr//tei:biblScope[@unit = 'page']/substring-after(text(), '–'), '000')"/>
-    </xsl:variable>
+    
     <xsl:variable name="source2_pdf">
         <xsl:value-of
             select="concat($source_base_url, $source_volume, 's', $source_page_nr2, '.pdf')"/>
