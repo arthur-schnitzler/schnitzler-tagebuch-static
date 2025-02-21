@@ -41,7 +41,7 @@ jobs:
       - name: install python things
         run: |
           python -m pip config set global.break-system-packages true
-          pip install -r requirements.txs
+          pip install -r requirements.txt
       - name: Fetch the data
         run: ./fetch_data.sh
       - name: Build the app
