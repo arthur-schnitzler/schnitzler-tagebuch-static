@@ -35,6 +35,9 @@ jobs:
       - name: Build
         run: |
           ant
+      - name: Remove symlinks
+        run: |
+           find ./html -type l -delete
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
