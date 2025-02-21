@@ -15,12 +15,6 @@ add-attributes -g "./data/editions/*.xml" -b "https://id.acdh.oeaw.ac.at/schnitz
 echo "denormalize indices"
 schnitzler
 
-echo "add mentions to register-files"
-python add_mentions.py
-
-echo "build search index with typesense"
-python make_typesense_index.py
-
 # get schnitzler-chronik-data
 
 # Download XML files from GitHub repository
