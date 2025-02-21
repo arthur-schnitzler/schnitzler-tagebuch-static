@@ -1,12 +1,11 @@
 name: Build and publish
 
-on:
-  workflow_dispatch
-  
 permissions:
   id-token: write
   contents: read
-  pages: write
+
+on:
+  workflow_dispatch
 
 jobs:
   build_pages:
@@ -43,4 +42,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
+        with:
+          branch: gh-pages
