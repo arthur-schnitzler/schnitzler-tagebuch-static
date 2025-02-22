@@ -60,9 +60,19 @@
     </xsl:variable>
     <xsl:variable name="source_base_url"
         >https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_</xsl:variable>
-    <xsl:variable name="pageRange" select="//tei:monogr//tei:biblScope[starts-with(@unit, 'page')]/text()"/>
-    <xsl:variable name="source_page_nr1"
-        select="format-number(number(substring-before($pageRange, '–')), '000')"/>
+    <xsl:variable name="pageRange"
+        select="//tei:monogr//tei:biblScope[starts-with(@unit, 'page')]/text()"/>
+    <xsl:variable name="source_page_nr1">
+        <xsl:choose>
+            <xsl:when test="contains($pageRange, '–')">
+                <xsl:value-of
+                    select="format-number(number(substring-before($pageRange, '–')), '000')"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="format-number(number($pageRange), '000')"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:variable>
     <xsl:variable name="source_page_nr2" select="
             if (contains($pageRange, '–'))
             then
@@ -77,7 +87,6 @@
         <xsl:value-of
             select="concat($source_base_url, $source_volume, 's', $source_page_nr2, '.pdf')"/>
     </xsl:variable>
-    
     <xsl:variable name="source-double-page" as="xs:boolean">
         <xsl:choose>
             <xsl:when test="contains($pageRange, '–')">
@@ -443,8 +452,9 @@
                                                 <xsl:attribute name="href">
                                                   <xsl:value-of select="$source1_pdf"/>
                                                 </xsl:attribute><xsl:text>&#160; </xsl:text>
-                                                <i class="fa-lg far fa-file-pdf"/>PDF </a> <xsl:text>&#160; und </xsl:text> <a
-                                                class="ml-3" data-toggle="tooltip"
+                                                <i class="fa-lg far fa-file-pdf"/>PDF </a>
+                                            <xsl:text>&#160; und </xsl:text>
+                                            <a class="ml-3" data-toggle="tooltip"
                                                 title="Eintrag als PDF">
                                                 <xsl:attribute name="href">
                                                   <xsl:value-of select="$source2_pdf"/>
