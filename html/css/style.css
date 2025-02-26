@@ -1085,3 +1085,18 @@ div#map {
             overflow-x: auto; /* Horizontal scrollen */
             white-space: nowrap; /* Kein Umbruch für Kinder */
         }
+
+#openseadragon-photo {
+        height: 70vh; /* Dynamische Höhe für Mobilgeräte */
+        width: 100%;
+    }
+
+    @media (max-width: 768px) {
+        .modal-dialog {
+            max-width: 95% !important;
+        }
+        
+        #openseadragon-photo {
+            height: 50vh;
+        }
+    }
