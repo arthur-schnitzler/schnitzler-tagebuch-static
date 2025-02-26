@@ -323,43 +323,23 @@
                     </div>
                 </div>
                 <!-- Modal Faksimile -->
-                <div class="modal fade" id="faks-modal" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg faksimile-modal" role="document"
-                        style="max-width: 75%;">
+                <div class="modal fade" id="faks-modal" tabindex="-1" aria-labelledby="faksimile" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered faksimile-modal" style="max-width: 90%;">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="faksimile">Faksimile</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Schließen"/>
+                                <h5 class="modal-title">Faksimile</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
                             </div>
                             <div class="modal-body">
-                                <div id="openseadragon-photo" style="height: 850px;"/>
-                                <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"/>
-                                <script type="text/javascript">
-                                    var viewer = OpenSeadragon({
-                                        id: "openseadragon-photo",
-                                        protocol: "http://iiif.io/api/image",
-                                        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
-                                        sequenceMode: true,
-                                        showReferenceStrip: true,
-                                        tileSources:[<xsl:for-each select=".//tei:facsimile/tei:graphic/data(@url)">{
-                                        type: 'image',
-                                        url: '<xsl:value-of select="concat(., '?format=iiif')"/>'
-                                        }
-                                        <xsl:choose>
-                                            <xsl:when test="position() != last()">,</xsl:when>
-                                        </xsl:choose></xsl:for-each>
-]
-                                });</script>
+                                <div id="openseadragon-photo"></div>
                             </div>
                             <div class="modal-footer" style="justify-content: flex-start;">
-                                <ul style="list-style-type: none;">
+                                <ul class="list-unstyled">
                                     <xsl:for-each select=".//tei:facsimile/tei:graphic/data(@url)">
                                         <li>
                                             <a>
                                                 <xsl:attribute name="href">
-                                                  <xsl:value-of select="concat(., '?format=gui')"/>
+                                                    <xsl:value-of select="concat(., '?format=gui')"/>
                                                 </xsl:attribute>
                                                 <xsl:value-of select="."/>
                                             </a>
