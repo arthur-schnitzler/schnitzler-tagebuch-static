@@ -331,7 +331,24 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
                             </div>
                             <div class="modal-body">
-                                <div id="openseadragon-photo"></div>
+                                <div id="openseadragon-photo" style="height: 850px;"/>
+                                <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"/>
+                                <script type="text/javascript">
+                                    var viewer = OpenSeadragon({
+                                    id: "openseadragon-photo",
+                                    protocol: "http://iiif.io/api/image",
+                                    prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
+                                    sequenceMode: true,
+                                    showReferenceStrip: true,
+                                    tileSources:[<xsl:for-each select=".//tei:facsimile/tei:graphic/data(@url)">{
+                                        type: 'image',
+                                        url: '<xsl:value-of select="concat(., '?format=iiif')"/>'
+                                        }
+                                        <xsl:choose>
+                                            <xsl:when test="position() != last()">,</xsl:when>
+                                        </xsl:choose></xsl:for-each>
+                                    ]
+                                    });</script>
                             </div>
                             <div class="modal-footer" style="justify-content: flex-start;">
                                 <ul class="list-unstyled">
@@ -585,7 +602,6 @@
                         </div>
                     </div>
                 </div>
-                <script src="./js/openseadragon-photo.js"/>
                 <!--<script src="https://unpkg.com/de-micro-editor@0.2.6/dist/de-editor.min.js"/>-->
                 <!--<script type="text/javascript" src="js/run.js"/>-->
             </body>
