@@ -6,7 +6,7 @@
     and checks them against the file of desired idnos and gives links
     as output
    -->
-    <xsl:param name="relevant-uris" select="document('../utils/list-of-relevant-uris.xml')"/>
+    <xsl:param name="relevant-uris" select="document('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/list-of-relevant-uris.xml')"/>
     <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
     <xsl:template name="mam:idnosToLinks">
         <xsl:param name="idnos-of-current" as="node()"/>
