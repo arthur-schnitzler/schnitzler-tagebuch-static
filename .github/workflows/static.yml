@@ -46,6 +46,8 @@ jobs:
         run: ./fetch_data.sh
       - name: Build the app
         run: ./transform.sh
+      - name: OAI-PMH
+        run: python oai-pmh/make_files.py
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
