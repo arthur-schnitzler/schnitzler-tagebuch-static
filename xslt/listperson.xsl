@@ -29,67 +29,244 @@
                                 </h1>
                             </div>
                             <div class="card">
-                                <table class="table table-sm display" id="tabulator-table"
-                                    style="width:100%">
+                                <table class="table table-sm display" id="tabulator-table-person">
                                     <thead>
                                         <tr>
                                             <th scope="col" tabulator-headerFilter="input"
-                                                tabulator-formatter="html">Name</th>
-                                            <th scope="col" tabulator-headerFilter="input" tabulator-formatter="html"
-                                                >Lebensdaten</th>
+                                                >Vorname</th>
+                                            <th scope="col" tabulator-headerFilter="input"
+                                                >Nachname</th>
+                                            <th scope="col" tabulator-headerFilter="input"
+                                                tabulator-formatter="html">Namensvarianten</th>
+                                            <th scope="col" tabulator-headerFilter="input"
+                                                tabulator-formatter="html">Lebensdaten</th>
                                             <th scope="col" tabulator-headerFilter="input"
                                                 >Berufe</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <xsl:for-each select="descendant::tei:listPerson[1]/tei:person">
+                                        <xsl:for-each
+                                            select="descendant::tei:listPerson[1]/tei:person">
                                             <xsl:variable name="entiyID"
                                                 select="replace(@xml:id, '#', '')"/>
                                             <xsl:variable name="entity" as="node()" select="."/>
                                             <tr>
                                                 <td>
+                                                    <span hidden="true">
+                                                        <xsl:choose>
+                                                            <xsl:when test="starts-with($entity/tei:persName[1]/tei:forename[1]/text(), '??')">
+                                                                <xsl:text>ZZZ </xsl:text><!-- Vornamen mit ?? nach unten reihen -->
+                                                            </xsl:when>
+                                                            <xsl:when test="normalize-space($entity/tei:persName[1]/tei:forename[1]/text()) = ''">
+                                                                <xsl:value-of select="substring($entity/tei:persName[1]/tei:surname/text(), 1, 1)"/>
+                                                            </xsl:when>
+                                                        </xsl:choose>
+                                                        <xsl:value-of
+                                                            select="$entity/tei:persName[1]/tei:forename[1]/text()"
+                                                        />
+                                                    </span>
                                                     <a>
                                                         <xsl:attribute name="href">
                                                             <xsl:value-of
                                                                 select="concat($entity/@xml:id, '.html')"/>
                                                         </xsl:attribute>
-                                                        <xsl:choose>
-                                                            <xsl:when
-                                                                test="starts-with($entity/tei:persName[1]/tei:surname[1]/text(), '??')">
-                                                                <span hidden="true">ZZZ</span>
-                                                                <xsl:value-of
-                                                                    select="$entity/tei:persName[1]/tei:surname[1]/text()"/>
-                                                            </xsl:when>
-                                                            <xsl:when
-                                                                test="$entity/tei:persName[1]/tei:surname[1]/text() and $entity/tei:persName[1]/tei:forename[1]/text()">
-                                                                <span hidden="true">
-                                                                    <xsl:value-of
-                                                                        select="$entity/tei:persName[1]/tei:surname[1]/text()"/><xsl:value-of
-                                                                            select="$entity/tei:persName[1]/tei:forename[1]/text()"/>
-                                                                </span>
-                                                                <xsl:value-of
-                                                                    select="$entity/tei:persName[1]/tei:forename[1]/text()"/>
-                                                                <xsl:text> </xsl:text>
-                                                                <xsl:value-of
-                                                                    select="$entity/tei:persName[1]/tei:surname[1]/text()"/>
-                                                            </xsl:when>
-                                                            <xsl:when test="$entity/tei:persName[1]/tei:surname[1]/text()">
-                                                                <xsl:value-of
-                                                                    select="$entity/tei:persName[1]/tei:surname[1]/text()"/>
-                                                            </xsl:when>
-                                                            <xsl:when test="$entity/tei:persName[1]/tei:forename[1]/text()">
-                                                                <xsl:value-of
-                                                                    select="$entity/tei:persName[1]/tei:forename[1]/text()"/>
-                                                            </xsl:when>
-                                                            <xsl:otherwise>
-                                                                <xsl:value-of select="$entity/tei:persName[1]/tei:persName[1]"/>
-                                                            </xsl:otherwise>
-                                                        </xsl:choose>
+                                                        <xsl:value-of
+                                                            select="$entity/tei:persName[1]/tei:forename[1]/text()"
+                                                        />
                                                     </a>
                                                 </td>
                                                 <td>
+                                                    <span hidden="true">
+                                                        <xsl:if
+                                                            test="starts-with($entity/tei:persName[1]/tei:surname[1]/text(), '??')">
+                                                            <xsl:text>ZZZ </xsl:text>
+                                                        </xsl:if>
+                                                        <xsl:if
+                                                            test="not($entity/tei:persName[1]/tei:surname[1]) or normalize-space($entity/tei:persName[1]/tei:surname[1]/text())=''">
+                                                            <xsl:text>ZZ </xsl:text>
+                                                        </xsl:if>
+                                                        <xsl:value-of
+                                                            select="$entity/tei:persName[1]/tei:surname[1]/text()"
+                                                        />
+                                                    </span>
+                                                    <a>
+                                                        <xsl:attribute name="href">
+                                                            <xsl:value-of
+                                                                select="concat($entity/@xml:id, '.html')"/>
+                                                        </xsl:attribute>
+                                                        <xsl:value-of
+                                                            select="$entity/tei:persName[1]/tei:surname[1]/text()"
+                                                        />
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <xsl:variable name="lemma-name"
+                                                        select="$entity/tei:persName[(position() = 1)]"
+                                                        as="node()"/>
+                                                    <xsl:variable name="namensformen" as="node()">
+                                                        <xsl:element name="listPerson">
+                                                            <xsl:for-each
+                                                                select="$entity/descendant::tei:persName[not(position() = 1) and not(@type = 'legacy-name-merge')]">
+                                                                <xsl:copy-of select="."/>
+                                                            </xsl:for-each>
+                                                        </xsl:element>
+                                                    </xsl:variable>
+                                                    <xsl:for-each
+                                                        select="distinct-values($namensformen/descendant::tei:persName/@type)">
+                                                        <xsl:choose>
+                                                            <xsl:when
+                                                                test=". = 'person_geburtsname_vorname' and $namensformen/descendant::tei:persName[@type = 'person_geburtsname_nachname']">
+                                                                <xsl:text>geboren: </xsl:text>
+                                                                <xsl:for-each
+                                                                    select="$namensformen/descendant::tei:persName[@type = 'person_geburtsname_vorname']">
+                                                                    <xsl:value-of
+                                                                        select="concat(., ' ', $namensformen/descendant::tei:persName[@type = 'person_geburtsname_nachname'][1])"/>
+                                                                    <xsl:choose>
+                                                                        <xsl:when test="not(position() = last())">
+                                                                            <xsl:text>, </xsl:text>
+                                                                        </xsl:when>
+                                                                        <xsl:otherwise>
+                                                                            <xsl:element name="br"/>
+                                                                        </xsl:otherwise>
+                                                                    </xsl:choose>
+                                                                </xsl:for-each>
+                                                            </xsl:when>
+                                                            <xsl:when
+                                                                test=". = 'person_geburtsname_vorname' and not($namensformen/descendant::tei:persName[@type = 'person_geburtsname_nachname'])">
+                                                                <xsl:for-each
+                                                                    select="$namensformen/descendant::tei:persName[@type = 'person_geburtsname_vorname']">
+                                                                    <xsl:if test="position() = 1">
+                                                                        <xsl:text>geboren: </xsl:text>
+                                                                    </xsl:if>
+                                                                    <xsl:value-of
+                                                                        select="concat(., ' ', $lemma-name//tei:surname)"/>
+                                                                    <xsl:choose>
+                                                                        <xsl:when test="not(position() = last())">
+                                                                            <xsl:text>, </xsl:text>
+                                                                        </xsl:when>
+                                                                        <xsl:otherwise>
+                                                                            <xsl:element name="br"/>
+                                                                        </xsl:otherwise>
+                                                                    </xsl:choose>
+                                                                </xsl:for-each>
+                                                            </xsl:when>
+                                                            <xsl:when
+                                                                test=". = 'person_geburtsname_nachname' and not($namensformen/descendant::tei:persName[@type = 'person_geburtsname_vorname'])">
+                                                                <xsl:for-each
+                                                                    select="$namensformen/descendant::tei:persName[@type = 'person_geburtsname_nachname']">
+                                                                    <xsl:if test="position() = 1">
+                                                                        <xsl:text>geboren: </xsl:text>
+                                                                    </xsl:if>
+                                                                    <xsl:value-of select="."/>
+                                                                    <xsl:choose>
+                                                                        <xsl:when test="not(position() = last())">
+                                                                            <xsl:text>, </xsl:text>
+                                                                        </xsl:when>
+                                                                        <xsl:otherwise>
+                                                                            <xsl:element name="br"/>
+                                                                        </xsl:otherwise>
+                                                                    </xsl:choose>
+                                                                </xsl:for-each>
+                                                            </xsl:when>
+                                                            <xsl:when
+                                                                test=". = 'person_geburtsname_nachname' and $namensformen/descendant::tei:persName[@type = 'person_geburtsname_vorname']"/>
+                                                            <!--  -->
+                                                            <xsl:when
+                                                                test=". = 'person_namensvariante_vorname' and $namensformen/descendant::tei:persName[@type = 'person_namensvariante_nachname']">
+                                                                <xsl:text>Namensvariante: </xsl:text>
+                                                                <xsl:for-each
+                                                                    select="$namensformen/descendant::tei:persName[@type = 'person_namensvariante_vorname']">
+                                                                    <xsl:value-of
+                                                                        select="concat(., ' ', $namensformen/descendant::tei:persName[@type = 'person_namensvariante_nachname'][1])"/>
+                                                                    <xsl:choose>
+                                                                        <xsl:when test="not(position() = last())">
+                                                                            <xsl:text>, </xsl:text>
+                                                                        </xsl:when>
+                                                                        <xsl:otherwise>
+                                                                            <xsl:element name="br"/>
+                                                                        </xsl:otherwise>
+                                                                    </xsl:choose>
+                                                                </xsl:for-each>
+                                                            </xsl:when>
+                                                            <xsl:when
+                                                                test=". = 'person_namensvariante_vorname' and not($namensformen/descendant::tei:persName[@type = 'person_namensvariante_nachname'])">
+                                                                <xsl:for-each
+                                                                    select="$namensformen/descendant::tei:persName[@type = 'person_namensvariante_vorname']">
+                                                                    <xsl:if test="position() = 1">
+                                                                        <xsl:text>Namensvariante: </xsl:text>
+                                                                    </xsl:if>
+                                                                    <xsl:value-of
+                                                                        select="concat(., ' ', $lemma-name//tei:surname)"/>
+                                                                    <xsl:choose>
+                                                                        <xsl:when test="not(position() = last())">
+                                                                            <xsl:text>, </xsl:text>
+                                                                        </xsl:when>
+                                                                        <xsl:otherwise>
+                                                                            <xsl:element name="br"/>
+                                                                        </xsl:otherwise>
+                                                                    </xsl:choose>
+                                                                </xsl:for-each>
+                                                            </xsl:when>
+                                                            <xsl:when
+                                                                test=". = 'person_namensvariante_nachname' and not($namensformen/descendant::tei:persName[@type = 'person_namensvariante_vorname'])">
+                                                                <xsl:for-each
+                                                                    select="$namensformen/descendant::tei:persName[@type = 'person_namensvariante_nachname']">
+                                                                    <xsl:if test="position() = 1">
+                                                                        <xsl:text>Namensvariante: </xsl:text>
+                                                                    </xsl:if>
+                                                                    <xsl:value-of select="."/>
+                                                                    <xsl:choose>
+                                                                        <xsl:when test="not(position() = last())">
+                                                                            <xsl:text>, </xsl:text>
+                                                                        </xsl:when>
+                                                                        <xsl:otherwise>
+                                                                            <xsl:element name="br"/>
+                                                                        </xsl:otherwise>
+                                                                    </xsl:choose>
+                                                                </xsl:for-each>
+                                                            </xsl:when>
+                                                            <xsl:when
+                                                                test=". = 'person_namensvariante_nachname' and $namensformen/descendant::tei:persName[@type = 'person_namensvariante_vorname']"/>
+                                                            <xsl:otherwise>
+                                                                <xsl:variable name="current-typ" select="."
+                                                                    as="xs:string"/>
+                                                                <xsl:variable name="current-typ-name" as="node()?">
+                                                                    <list>
+                                                                        <item type="person_adoptierter-nachname"
+                                                                            >adoptierter Name</item>
+                                                                        <item type="namensvariante">Namensvariante</item>
+                                                                        <item type="person_rufname">Rufname</item>
+                                                                        <item type="person_pseudonym">Pseudonym</item>
+                                                                        <item type="person_geschieden">geschieden</item>
+                                                                        <item type="person_ehename">Ehename</item>
+                                                                        <item type="person_ehename_nachname"
+                                                                            >Ehename</item>
+                                                                        <item type="person_verwitwet">verwitwet</item>
+                                                                    </list>
+                                                                </xsl:variable>
+                                                                <xsl:for-each
+                                                                    select="$namensformen/descendant::tei:persName[@type = $current-typ]">
+                                                                    <xsl:if test="position() = 1">
+                                                                        <xsl:value-of
+                                                                            select="$current-typ-name//*:item[@type = $current-typ]"/>
+                                                                        <xsl:text>: </xsl:text>
+                                                                    </xsl:if>
+                                                                    <xsl:value-of select="."/>
+                                                                    <xsl:choose>
+                                                                        <xsl:when test="not(position() = last())">
+                                                                            <xsl:text>, </xsl:text>
+                                                                        </xsl:when>
+                                                                        <xsl:otherwise>
+                                                                            <xsl:element name="br"/>
+                                                                        </xsl:otherwise>
+                                                                    </xsl:choose>
+                                                                </xsl:for-each>
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
+                                                    </xsl:for-each>
+                                                </td>
+                                                <td>
                                                     <xsl:value-of select="mam:lebensdaten($entity)"/>
-                                                    
                                                 </td>
                                                 <td>
                                                     <xsl:if test="$entity/descendant::tei:occupation">
@@ -97,8 +274,9 @@
                                                             select="$entity/descendant::tei:occupation">
                                                             <xsl:variable name="beruf" as="xs:string">
                                                                 <xsl:choose>
-                                                                    <xsl:when test="contains(.,'&gt;&gt;')">
-                                                                        <xsl:value-of select="tokenize(.,'&gt;&gt;')[last()]"/>
+                                                                    <xsl:when test="contains(., '&gt;&gt;')">
+                                                                        <xsl:value-of
+                                                                            select="tokenize(., '&gt;&gt;')[last()]"/>
                                                                     </xsl:when>
                                                                     <xsl:otherwise>
                                                                         <xsl:value-of select="."/>
