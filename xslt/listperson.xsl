@@ -309,7 +309,7 @@
                         </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
-                    <xsl:call-template name="tabulator_js"/>
+                    <xsl:call-template name="tabulator_person_js"/>
                 </div>
             </body>
         </html>
