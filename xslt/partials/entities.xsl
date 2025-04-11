@@ -971,7 +971,7 @@
         <xsl:variable name="mentionCount" select="count($mentionNodes)"/>
         <xsl:variable name="uniqueComponent" select="generate-id($contextNodeForId)"/>
         <div id="mentions-{generate-id()}" class="mt-2">
-            <legend>Erwähnt am</legend>
+            <legend>Erwähnungen</legend>
             <xsl:choose>
                 <xsl:when test="$mentionCount > 15">
                     <div class="accordion" id="accordion-mentions-{$uniqueComponent}">
@@ -1114,7 +1114,7 @@
         <xsl:variable name="mentionCount" select="count($ptrNodes)"/>
         <xsl:variable name="uniqueComponent" select="generate-id($contextNodeForId)"/>
         <div id="mentions-{generate-id()}" class="mt-2">
-            <legend>Erwähnt am</legend>
+            <legend>Erwähnungen</legend>
         <xsl:choose>
             <!-- Case 1: More than 15 mentions -> Bootstrap Accordion -->
             <xsl:when test="$mentionCount > 15">
