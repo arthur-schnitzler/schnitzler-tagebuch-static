@@ -1104,32 +1104,30 @@ div#map {
 /* === Accordion Grund-Variablen === */
 .accordion {
   /* Eigene Farbdefinitionen */
-  --projekt-farbe: #00a600;
+  --projekt-farbe: #037A33; /* Dein Grün für den Rahmen */
   --weiss: #FFFFFF;
-  --text-color-projekt: black;  /* Textfarbe auf Projektfarbe-Hintergrund */
-  --text-color-weiss: black;    /* Textfarbe auf weißem Hintergrund */
+  --text-color-rahmen: black; /* Textfarbe für den Button (auf weißem Hintergrund) */
+  --text-color-weiss: black;   /* Textfarbe für den Body (auf weißem Hintergrund) */
 
   /* Bootstrap Variablen überschreiben */
-  --bs-accordion-border-width: 0; /* Rahmen entfernen */
+  --bs-accordion-border-width: 0; /* Globalen Accordion-Rahmen entfernen */
   --bs-accordion-border-radius: 0px; /* Kein Radius */
-  --bs-accordion-body-padding-x: 1em; /* Innenabstand Body (anpassen bei Bedarf) */
-  --bs-accordion-body-padding-y: 1em; /* Innenabstand Body (anpassen bei Bedarf) */
-  --bs-accordion-btn-padding-x: 1.25rem; /* Innenabstand Button (Standard BS5) */
-  --bs-accordion-btn-padding-y: 1rem;   /* Innenabstand Button (Standard BS5) */
+  --bs-accordion-body-padding-x: 1em;
+  --bs-accordion-body-padding-y: 1em;
+  --bs-accordion-btn-padding-x: 1.25rem;
+  --bs-accordion-btn-padding-y: 1rem;
 
   /* Farben für Zustände */
-  --bs-accordion-btn-color: var(--text-color-projekt); /* Standard-Textfarbe (wird ggf. unten überschrieben) */
-  --bs-accordion-active-bg: var(--projekt-farbe); /* Aktiver Hintergrund = Projektfarbe */
-  --bs-accordion-active-color: var(--text-color-projekt); /* Aktive Textfarbe */
+  --bs-accordion-btn-color: var(--text-color-rahmen);       /* Standard-Textfarbe -> Schwarz */
+  --bs-accordion-btn-bg: var(--weiss);                    /* Standard-Hintergrund -> Weiß */
+  --bs-accordion-active-color: var(--text-color-rahmen);    /* Aktive Textfarbe -> Schwarz */
+  --bs-accordion-active-bg: var(--weiss);                 /* Aktiver Hintergrund -> Weiß */
 
-  /* Fokus-Stil (optional: entfernt den Standard-Schatten) */
-  --bs-accordion-btn-focus-border-color: transparent; /* Kein Rand bei Fokus */
+  /* Fokus-Stil */
+  --bs-accordion-btn-focus-border-color: transparent;
   --bs-accordion-btn-focus-box-shadow: none; /* Kein Schatten bei Fokus */
 
-  /* Standard Hintergrund (wird unten je nach Zustand gesetzt) */
-  --bs-accordion-btn-bg: var(--projekt-farbe); /* Standard ist Projektfarbe */
-
-  /* Variablen für Icons, etc. (falls nicht von BS geerbt oder angepasst werden müssen) */
+  /* Icon Variablen (Standard Bootstrap oder eigene Anpassungen) */
   /* --bs-accordion-btn-icon: url(...); */
   /* --bs-accordion-btn-active-icon: url(...); */
   /* --bs-accordion-transition: ...; */
@@ -1137,9 +1135,31 @@ div#map {
   /* --bs-accordion-btn-icon-width: ...; */
 }
 
+/* === Item Styling === */
+.accordion-item {
+  border: none; /* Standardmäßig keinen Rahmen um das Item */
+  /* Optional: Ein kleiner Abstand zwischen den Items, wenn kein Rahmen da ist */
+  /* margin-bottom: 1px; */
+}
+
+/* Aktives Item: Rahmen hinzufügen */
+.accordion-item:has(.accordion-button:not(.collapsed)) {
+  border: 2px solid var(--projekt-farbe); /* Grünen Rahmen um das gesamte aktive Item */
+  /* Optional: Radius anpassen, falls gewünscht und --bs-accordion-border-radius nicht 0 ist */
+  /* border-radius: var(--bs-accordion-border-radius); */
+}
+
+/* Optional: Verhindern, dass sich Ränder von aufeinanderfolgenden aktiven Items verdoppeln
+   (relevant, wenn mehrere Items gleichzeitig geöffnet sein könnten - nicht Standard bei Accordions)
+   oder um den Abstand anzupassen */
+.accordion-item:has(.accordion-button:not(.collapsed)) + .accordion-item:has(.accordion-button:not(.collapsed)) {
+   /* border-top: none; */ /* Beispiel: Oberen Rand entfernen, wenn vorheriges Item auch aktiv ist */
+}
+
+
 /* === Button Styling === */
 .accordion-button {
-  /* Standard-Hintergrund (wird ggf. durch :has() überschrieben) */
+  /* Hintergrund und Farbe werden über Variablen gesteuert */
   background-color: var(--bs-accordion-btn-bg);
   color: var(--bs-accordion-btn-color);
 
@@ -1149,43 +1169,36 @@ div#map {
   align-items: center;
   width: 100%;
   padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
-  font-size: 1rem; /* Oder deine gewünschte Schriftgröße */
+  font-size: 1rem;
   text-align: left;
-  border: none; /* Sicherstellen, dass kein Rand da ist */
+  border: none; /* Sicherstellen, dass der Button selbst keinen Rand hat */
   border-radius: 0;
   overflow-anchor: none;
   transition: var(--bs-accordion-transition);
 }
 
-/* Aktiver Button (Projektfarbe) */
+/* Aktiver Button (Stile werden über Variablen oben gesetzt) */
 .accordion-button:not(.collapsed) {
-  background-color: var(--bs-accordion-active-bg);
-  color: var(--bs-accordion-active-color);
+  /* Farben werden über --bs-accordion-active-bg und --bs-accordion-active-color gesteuert */
   box-shadow: none; /* Entfernt den inneren Schatten von Bootstrap */
 }
 
 /* Icon Styling (Standard Bootstrap oder eigene Anpassungen) */
 .accordion-button::after {
   flex-shrink: 0;
-  width: var(--bs-accordion-btn-icon-width, 1.25rem); /* Standardbreite */
-  height: var(--bs-accordion-btn-icon-width, 1.25rem); /* Standardhöhe */
+  width: var(--bs-accordion-btn-icon-width, 1.25rem);
+  height: var(--bs-accordion-btn-icon-width, 1.25rem);
   margin-left: auto;
   content: "";
-  background-image: var(--bs-accordion-btn-icon);
+  background-image: var(--bs-accordion-btn-icon, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")); /* Standard BS Icon */
   background-repeat: no-repeat;
   background-size: var(--bs-accordion-btn-icon-width, 1.25rem);
   transition: var(--bs-accordion-btn-icon-transition);
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: var(--bs-accordion-btn-active-icon);
-  transform: var(--bs-accordion-btn-icon-transform);
-}
-
-/* Spezifischer Zustand: Eingeklappter Button wird weiß, WENN ein anderer Button aktiv ist */
-.accordion:has(.accordion-button:not(.collapsed)) .accordion-button.collapsed {
-  background-color: var(--weiss);
-  color: var(--text-color-weiss);
+  background-image: var(--bs-accordion-btn-active-icon, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")); /* Standard BS Icon */
+  transform: var(--bs-accordion-btn-icon-transform, rotate(-180deg)); /* Standard BS Drehung */
 }
 
 /* Fokus- und Hover-Zustände (optional anpassen) */
@@ -1199,16 +1212,17 @@ div#map {
 .accordion-button:hover {
   z-index: 2;
   /* Optional: Leichte Farbänderung bei Hover */
-  /* filter: brightness(95%); */
+  /* filter: brightness(98%); */ /* Sehr subtil auf Weiß */
+  /* background-color: #f8f9fa; */ /* Alternativ leicht grauer Hover */
 }
 
 /* === Andere Elemente === */
 .accordion-header {
   margin-bottom: 0;
-  /* Farbe kann hier gesetzt oder über Variable gesteuert werden */
-  color: #1f2226;
 }
 
 .accordion-body {
   padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+  background-color: var(--weiss); /* Sicherstellen, dass Body auch weiß ist */
+  color: var(--text-color-weiss);
 }
