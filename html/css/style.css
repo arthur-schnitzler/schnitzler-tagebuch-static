@@ -1104,7 +1104,7 @@ div#map {
 /* === Accordion Grund-Variablen === */
 .accordion {
   /* Eigene Farbdefinitionen */
-  --projekt-farbe: #B4FDD0;
+  --projekt-farbe: #00a600;
   --weiss: #FFFFFF;
   --text-color-projekt: black;  /* Textfarbe auf Projektfarbe-Hintergrund */
   --text-color-weiss: black;    /* Textfarbe auf weißem Hintergrund */
