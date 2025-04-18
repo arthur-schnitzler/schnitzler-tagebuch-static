@@ -619,6 +619,6 @@
         </div>
     </xsl:template>
     <xsl:template match="tei:hi[@rend='italicised']">
-        <span style="text decoration:underline;"><xsl:apply-templates/></span>
+        <span style="text-decoration:underline;"><xsl:apply-templates/></span>
     </xsl:template>
 </xsl:stylesheet>
