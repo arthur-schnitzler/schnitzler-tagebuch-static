@@ -192,7 +192,7 @@
                                             <xsl:when
                                                 test="./tei:forename/text() and ./tei:surname/text()">
                                                 <xsl:value-of
-                                                  select="concat(./tei:forename/text(), ' ', ./tei:surname/text())"
+                                                    select="concat(./tei:forename/text(), ' ', ./tei:surname/text())"
                                                 />
                                             </xsl:when>
                                             <xsl:when test="./tei:forename/text()">
@@ -212,7 +212,7 @@
                                                 test="@type = 'person_geburtsname_vorname' and $namensformen/descendant::tei:persName[@type = 'person_geburtsname_nachname']">
                                                 <xsl:text>geboren </xsl:text>
                                                 <xsl:value-of
-                                                  select="concat(., ' ', $namensformen/descendant::tei:persName[@type = 'person_geburtsname_nachname'][1])"
+                                                    select="concat(., ' ', $namensformen/descendant::tei:persName[@type = 'person_geburtsname_nachname'][1])"
                                                 />
                                             </xsl:when>
                                             <xsl:when
@@ -226,15 +226,19 @@
                                                 <xsl:value-of select="."/>
                                             </xsl:when>
                                             <xsl:when
-                                                test="@type = 'person_variante-nachname-vorname'">
-                                                <xsl:text>Namensvariante </xsl:text>
+                                                test="@type = 'person_namensvariante-nachname'">
+                                                <xsl:text>Namensvariante Nachame </xsl:text>
+                                                <xsl:value-of select="."/>
+                                            </xsl:when>
+                                            <xsl:when test="@type = 'person_namensvariante-vorname'">
+                                                <xsl:text>Namensvariante Vorname </xsl:text>
                                                 <xsl:value-of select="."/>
                                             </xsl:when>
                                             <xsl:when test="@type = 'person_namensvariante'">
                                                 <xsl:text>Namensvariante </xsl:text>
                                                 <xsl:value-of select="."/>
                                             </xsl:when>
-                                            <xsl:when test="@type = 'person_rufname'">
+                                            <xsl:when test="@type = 'person_rufname_vorname'">
                                                 <xsl:text>Rufname </xsl:text>
                                                 <xsl:value-of select="."/>
                                             </xsl:when>
@@ -242,15 +246,15 @@
                                                 <xsl:text>Pseudonym </xsl:text>
                                                 <xsl:value-of select="."/>
                                             </xsl:when>
-                                            <xsl:when test="@type = 'person_ehename'">
+                                            <xsl:when test="@type = 'person_ehename_nachname'">
                                                 <xsl:text>Ehename </xsl:text>
                                                 <xsl:value-of select="."/>
                                             </xsl:when>
-                                            <xsl:when test="@type = 'person_geschieden'">
+                                            <xsl:when test="@type = 'person_geschieden_nachname'">
                                                 <xsl:text>geschieden </xsl:text>
                                                 <xsl:value-of select="."/>
                                             </xsl:when>
-                                            <xsl:when test="@type = 'person_verwitwet'">
+                                            <xsl:when test="@type = 'person_verwitwet_nachname'">
                                                 <xsl:text>verwitwet </xsl:text>
                                                 <xsl:value-of select="."/>
                                             </xsl:when>
