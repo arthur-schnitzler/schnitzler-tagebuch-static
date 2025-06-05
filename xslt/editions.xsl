@@ -155,7 +155,9 @@
                             </div>
                             <div class="card-footer" style="clear: both;">
                                 <nav class="navbar navbar-expand-lg" style="box-shadow: none;">
-                                    <div class="container-fluid">
+                                    <div class="container-fluid" style="display: flex;
+                                        justify-content: center;
+                                        align-items: center;">
                                         <div id="navbarSupportedContent">
                                             <ul class="navbar-nav mb-2 mb-lg-0" id="secondary-menu">
                                                 <li class="nav-item"> &#160;<a href="#"

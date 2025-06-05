@@ -49,7 +49,7 @@
                                     <ul class="dropdown-menu" aria-labelledby="OrteDropdown">
                                         <li><a class="dropdown-item" href="https://wienerschnitzler.org/listplace.html" target="_blank">Wiener Schnitzler (Aufenthaltsorte)</a></li>
                                         <li><a class="dropdown-item" href="listplace.html">Erwähnte Orte</a></li>
-                                        <li><a class="dropdown-item" href="ortsregister.html">Zu den Ortsregistern</a></li>
+                                        <li><a class="dropdown-item" href="ortsregister.html">Über die Ortsregister</a></li>
                                     </ul>
                                 </li>
                                 
