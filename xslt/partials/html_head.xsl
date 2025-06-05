@@ -14,7 +14,6 @@
             <meta name="apple-mobile-web-app-capable" content="yes"/>
             <meta name="apple-mobile-web-app-title" content="{$html_title}"/>
             <meta name="docTitle" class="staticSearch_docTitle" content="{$html_title}"/>
-
             <meta name="msapplication-TileColor" content="#ffffff"/>
             <meta name="msapplication-TileImage" content="{$project_logo}"/>
             <link rel="icon" type="image/svg+xml" href="{$project_logo}" sizes="any"/>
@@ -34,7 +33,6 @@
             <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png"/>
             <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png"/>
             <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png"/>
-
             <meta name="docSortKey" class="staticSearch_docSortKey" content="d_{$entry_date}"/>
             <link rel="profile" href="http://gmpg.org/xfn/11"/>
             <title>
@@ -51,9 +49,6 @@
                 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
                 integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
                 crossorigin="anonymous" referrerpolicy="no-referrer"/>
-            
-            <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css"
-                type="text/css"/>
             <link rel="stylesheet" href="css/style.css" type="text/css"/>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"/>
             <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
@@ -81,7 +76,6 @@
                     g.type = 'text/javascript'; g. async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
                 })();</script>
             <!-- End Matomo Code -->
-
         </head>
     </xsl:template>
 </xsl:stylesheet>

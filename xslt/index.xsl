@@ -19,27 +19,36 @@
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                    <div class="wrapper" id="wrapper-hero">
-                        <!-- ******************* The Hero Area ******************* -->
-                        <div class="wrapper" id="wrapper-hero-content"
-                            style="background-image:url(https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/hero-bg.jpg)">
-                            <div class="container-fluid-empty hero-light" id="wrapper-hero-inner"
-                                tabindex="-1">
-                                <div>
-                                    <h1 class="mb-0">Arthur Schnitzler</h1>
-                                    <h1 class="display-3 mb-2">Tagebuch</h1>
-                                    <h2>1879 – 1931</h2>
+                    <div class="container">
+                        <div class="row intro">
+                            <div class="col-md-6 col-lg-6 col-sm-12 wp-intro_left">
+                                <div class="intro_left">
+                                    <h3 class="mt-3">Arthur Schnitzler</h3>
+                                    <h1 class="mt-3" style="text-align: left;">Tagebuch</h1>
+                                    <h3 class="mt-3">1879–1931</h3>
+                                    <p class="mt-3">16.407 Einträge notierte der Schriftsteller Arthur
+                                        Schnitzler in sein Tagebuch. Sie geben Auskunft über das Leben
+                                        des Wiener Schriftstellers, die Begegnungen, die er hatte, und
+                                        die Gespräche, die er führte.</p>
+                                    <div style="text-align: right">
+                                        <a href="entry__1879-03-03.html">
+                                            <button class="btn btn-round"
+                                                style="background-color: #6c757d; color: white;"
+                                                >Lesen</button>
+                                        </a>
+                                        <a href="about.html">
+                                            <button class="btn btn-round" style="background-color: #6c757d; color: white;">Mehr erfahren</button>
+                                        </a>
+                                    </div>
                                 </div>
-                                <p class="mt-3">16.407 Einträge notierte der Schriftsteller Arthur
-                                    Schnitzler in sein Tagebuch. Sie geben Auskunft über das Leben
-                                    des Wiener Schriftstellers, die Begegnungen, die er hatte, und
-                                    die Gespräche, die er führte.</p>
-                                <a href="entry__1879-03-03.html">
-                                    <button class="btn btn-round mr-2">Lesen</button>
-                                </a>
-                                <a href="about.html">
-                                    <button class="btn btn-round">Mehr erfahren</button>
-                                </a>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-sm-12">
+                                <div class="intro_right wrapper">
+                                    <img
+                                        src="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/hero-bg.jpg"
+                                        class="d-block w-100" style="max-width=30%;"
+                                        alt="Arthur Schnitzer, Fotografie"/>
+                                </div>
                             </div>
                         </div>
                         <!-- #wrapper-hero-content -->
