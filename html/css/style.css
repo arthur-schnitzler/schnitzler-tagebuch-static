@@ -158,7 +158,7 @@ border-right: 1px solid lightgrey;
     display: flex;
     background-color:#fff;
     z-index: 1;
-    padding: 8em 0;
+    padding: 0em 0;
 }
 
 a.anchor, .anchor-pb {
