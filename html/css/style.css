@@ -21,7 +21,30 @@ a:hover {
 .ais-RefinementList-labelText::before { content: "\00a0 "; }
 .ais-RefinementList-labelText::after { content: "\00a0 "; }
 
+.viernullvier-body {
+    background-image: url('../images/404.jpg'); /* Hintergrundbild */
+    background-size: cover; /* Bild vollständig sichtbar */
+    background-position: center; /* Zentrieren */
+    background-repeat: no-repeat; /* Kein Wiederholen */
+    min-height: calc(100vh + 10px); /* Platz für Footer abziehen */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
 
+.viernullvier-container {
+    padding: 20px;
+    max-width: 800px; /* Optionale Breitenbegrenzung */
+    margin: auto; /* Zentriere den Container */
+}
+
+.viernullvier-h1,
+.viernullvier-p,
+.viernullvier-small {
+    color: black;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7); /* Schlagschatten */
+    text-align: right;
+}
 
 
 .capitals {
