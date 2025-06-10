@@ -30,6 +30,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     margin: 0;
+    height: 80vh;
+
 }
 
 .viernullvier-container {
@@ -41,10 +43,10 @@ a:hover {
 .viernullvier-h1,
 .viernullvier-p,
 .viernullvier-small {
-    color: black;
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7); /* Schlagschatten */
-    text-align: right;
-}
+    color: white;
+    text-align: center;
+    font-weight: bold;
+   }
 
 
 .capitals {
