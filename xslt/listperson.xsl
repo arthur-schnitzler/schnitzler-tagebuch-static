@@ -237,7 +237,7 @@
                                                                         <item type="namensvariante">Namensvariante</item>
                                                                         <item type="person_rufname">Rufname</item>
                                                                         <item type="person_pseudonym">Pseudonym</item>
-                                                                        <item type="person_geschieden">geschieden</item>
+                                                                        <item type="person_geschieden_nachname">geschieden</item>
                                                                         <item type="person_ehename">Ehename</item>
                                                                         <item type="person_ehename_nachname"
                                                                             >Ehename</item>
