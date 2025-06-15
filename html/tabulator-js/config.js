@@ -2,11 +2,8 @@
 
 var config = {
     height: 800,
-    layout:"fitColumns",
-    autoColumns:true,
+    layout: "fitColumns",
     tooltips: true,
-    dataLoader: true,
-    resizable: true
+    dataLoader: true
 };
-
 
