@@ -30,7 +30,7 @@
                             </div>
                             <div class="card-body">
                                 <div id="container mb-3"
-                                    style="width:100%; margin: auto">
+                                    style="width:100%; margin: auto"> </div>
                                 <table class="table table-sm display" id="tabulator-limited_js"
                                     style="width:100%">
                                     <thead>
@@ -68,7 +68,6 @@
                                 <xsl:call-template name="tabulator_dl_buttons"/>
                                 </div>
                             </div>
-                        </div>
                     </div>
                     
                     <xsl:call-template name="html_footer"/>

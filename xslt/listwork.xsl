@@ -34,9 +34,8 @@
                                 rel="stylesheet"/>
                             <div>
                                 <div id="container mb-3"
-                                    style="width:100%; margin: auto">
-                                <table class="table table-striped display" id="tabulator-table-work"
-                                    style="width:100%">
+                                    style="width:100%; margin: auto"> </div>
+                                <table id="tabulator-table-work">
                                     <thead>
                                         <tr>
                                             <th scope="col" tabulator-headerFilter="input"
@@ -123,7 +122,6 @@
                                         <button type="button" class="btn btn-secondary"
                                             data-dismiss="modal">Schließen</button>
                                     </div>
-                                </div>
                             </div>
                         </div>
                     </div>
