@@ -32,7 +32,7 @@
                             </div>
                             <div>
                                 <div id="container mb-3"
-                                    style="width:100%; margin: auto">
+                                    style="width:100%; margin: auto"> </div>
                                 <table class="table table-sm display" id="tabulator-table-person">
                                     <thead>
                                         <tr>
@@ -310,7 +310,6 @@
                                 </table>
                                 <xsl:call-template name="tabulator_dl_buttons"/>
                                 </div>
-                            </div>
                             </div>
                         </div>
                 
