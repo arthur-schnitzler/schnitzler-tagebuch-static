@@ -24,11 +24,13 @@
                     <xsl:call-template name="nav_bar"/>
                     
                     <div class="container-fluid">
-                        <div class="card">
+                        <div>
                             <div class="card-header text-center">
                                 <h1><xsl:value-of select="$doc_title"/></h1>
                             </div>
                             <div class="card-body">
+                                <div id="container mb-3"
+                                    style="width:100%; margin: auto">
                                 <table class="table table-sm display" id="tabulator-limited_js"
                                     style="width:100%">
                                     <thead>
@@ -64,6 +66,7 @@
                                     </tbody>
                                 </table>
                                 <xsl:call-template name="tabulator_dl_buttons"/>
+                                </div>
                             </div>
                         </div>
                     </div>

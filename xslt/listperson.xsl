@@ -24,13 +24,15 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     <div class="container-fluid">
-                        <div class="card">
+                        <div>
                             <div class="card-header" style="text-align:center">
                                 <h1>
                                     <xsl:value-of select="$doc_title"/>
                                 </h1>
                             </div>
-                            <div class="card">
+                            <div>
+                                <div id="container mb-3"
+                                    style="width:100%; margin: auto">
                                 <table class="table table-sm display" id="tabulator-table-person">
                                     <thead>
                                         <tr>
@@ -307,9 +309,11 @@
                                     </tbody>
                                 </table>
                                 <xsl:call-template name="tabulator_dl_buttons"/>
+                                </div>
+                            </div>
                             </div>
                         </div>
-                    </div>
+                
                     <xsl:call-template name="html_footer"/>
                     <script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.2.1/dist/js/tabulator.min.js"/>
                     <script src="tabulator-js/tabulator_person.js"/>

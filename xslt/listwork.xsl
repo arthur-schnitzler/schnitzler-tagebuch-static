@@ -24,7 +24,7 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     <div class="container-fluid">
-                        <div class="card">
+                        <div >
                             <div class="card-header" style="text-align:center">
                                 <h1>
                                     <xsl:value-of select="$doc_title"/>
@@ -32,7 +32,9 @@
                             </div>
                             <link href="vendor/tabulator-tables/css/tabulator_bootstrap5.min.css"
                                 rel="stylesheet"/>
-                            <div class="card">
+                            <div>
+                                <div id="container mb-3"
+                                    style="width:100%; margin: auto">
                                 <table class="table table-striped display" id="tabulator-table-work"
                                     style="width:100%">
                                     <thead>
@@ -101,6 +103,7 @@
                                     </tbody>
                                 </table>
                                 <xsl:call-template name="tabulator_dl_buttons"/>
+                                </div>
                             </div>
                         </div>
                         <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
