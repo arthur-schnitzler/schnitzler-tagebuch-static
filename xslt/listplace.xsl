@@ -38,6 +38,7 @@
                             </div>
                             <div class="card-body">
                                 <div id="map"/>
+                                <div id="container" class="mb-3" style="max-width:1200px; margin: 0 auto; width: 100%;">
                                 <table id="placesTable"
                                     style="width:100%">
                                     <thead>
@@ -97,6 +98,7 @@
                                         </xsl:for-each>
                                     </tbody>
                                 </table>
+                                </div>
                             </div>
                         </div>
                     </div>
