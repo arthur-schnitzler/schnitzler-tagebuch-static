@@ -18,6 +18,8 @@
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
             </xsl:call-template>
+            <link href="vendor/tabulator-tables/css/tabulator_bootstrap5.min.css"
+                rel="stylesheet"/>
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
@@ -309,7 +311,8 @@
                         </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
-                    <xsl:call-template name="tabulator_person_js"/>
+                    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.2.1/dist/js/tabulator.min.js"/>
+                    <script src="tabulator-js/tabulator_person.js"/>
                 </div>
             </body>
         </html>

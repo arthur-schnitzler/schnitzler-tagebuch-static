@@ -30,8 +30,10 @@
                                     <xsl:value-of select="$doc_title"/>
                                 </h1>
                             </div>
+                            <link href="vendor/tabulator-tables/css/tabulator_bootstrap5.min.css"
+                                rel="stylesheet"/>
                             <div class="card">
-                                <table class="table table-striped display" id="tabulator-table"
+                                <table class="table table-striped display" id="tabulator-table-work"
                                     style="width:100%">
                                     <thead>
                                         <tr>
@@ -123,7 +125,8 @@
                         </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
-                    <xsl:call-template name="tabulator_js"/>
+                    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.2.1/dist/js/tabulator.min.js"/>
+                    <script src="tabulator-js/tabulator_work.js"/>
                 </div>
             </body>
         </html>
