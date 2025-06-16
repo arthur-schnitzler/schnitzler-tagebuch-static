@@ -29,8 +29,8 @@
                                 <h1><xsl:value-of select="$doc_title"/></h1>
                             </div>
                             <div class="card-body">
-                                <div id="container mb-3"
-                                    style="width:100%; margin: auto"> </div>
+                                <div clss="container mb-3"
+                                    style="width:100%; margin: auto"> 
                                 <table class="table table-sm display" id="tabulator-limited_js"
                                     style="width:100%">
                                     <thead>
@@ -69,7 +69,7 @@
                                 </div>
                             </div>
                     </div>
-                    
+                    </div>
                     <xsl:call-template name="html_footer"/>
                     <script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.2.1/dist/js/tabulator.min.js"/>
                     <script src="tabulator-js/tabulator-limited.js"/>
