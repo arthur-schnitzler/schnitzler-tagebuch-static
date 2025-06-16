@@ -30,8 +30,8 @@
                                     <xsl:value-of select="$doc_title"/>
                                 </h1>
                             </div>
-                            <link href="vendor/tabulator-tables/css/tabulator_bootstrap5.min.css"
-                                rel="stylesheet"/>
+                            <link href="https://unpkg.com/tabulator-tables@6.2.1/dist/css/tabulator_bootstrap5.min.css" rel="stylesheet" />
+                            
                             <div>
                                 <div class="container mb-3"
                                     style="width:100%; margin: auto"> 

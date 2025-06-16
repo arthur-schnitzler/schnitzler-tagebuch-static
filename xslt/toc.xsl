@@ -17,8 +17,8 @@
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
             </xsl:call-template>
-            <link href="vendor/tabulator-tables/css/tabulator_bootstrap5.min.css"
-                rel="stylesheet"/>
+            <link href="https://unpkg.com/tabulator-tables@6.2.1/dist/css/tabulator_bootstrap5.min.css" rel="stylesheet" />
+            
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
