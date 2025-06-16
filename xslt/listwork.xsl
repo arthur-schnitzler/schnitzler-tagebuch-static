@@ -33,8 +33,8 @@
                             <link href="vendor/tabulator-tables/css/tabulator_bootstrap5.min.css"
                                 rel="stylesheet"/>
                             <div>
-                                <div id="container mb-3"
-                                    style="width:100%; margin: auto"> </div>
+                                <div class="container mb-3"
+                                    style="width:100%; margin: auto"> 
                                 <table id="tabulator-table-work">
                                     <thead>
                                         <tr>
@@ -124,6 +124,7 @@
                                     </div>
                             </div>
                         </div>
+                    </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
                     <script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.2.1/dist/js/tabulator.min.js"/>

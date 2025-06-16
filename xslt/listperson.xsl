@@ -31,8 +31,7 @@
                                 </h1>
                             </div>
                             <div>
-                                <div id="container mb-3"
-                                    style="width:100%; margin: auto"> </div>
+                                <div id="table-wrapper" class="mb-3" style="width: 100%; margin: auto;">
                                 <table class="table table-sm display" id="tabulator-table-person">
                                     <thead>
                                         <tr>
@@ -311,6 +310,7 @@
                                 <xsl:call-template name="tabulator_dl_buttons"/>
                                 </div>
                             </div>
+                        </div>
                         </div>
                 
                     <xsl:call-template name="html_footer"/>
