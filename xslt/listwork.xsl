@@ -25,7 +25,7 @@
                     <xsl:call-template name="nav_bar"/>
                     <div class="container-fluid">
                         <div >
-                            <div class="card-header" style="text-align:center">
+                            <div style="text-align:center">
                                 <h1>
                                     <xsl:value-of select="$doc_title"/>
                                 </h1>
@@ -151,12 +151,12 @@
                             <xsl:call-template name="nav_bar"/>
                             <div class="container-fluid">
                                 <div >
-                                    <div class="card-header">
+                                    <div class="header">
                                         <h1 align="center">
                                             <xsl:value-of select="$name"/>
                                         </h1>
                                     </div>
-                                    <div class="card-body-index">
+                                    <div class="body-index">
                                         <xsl:call-template name="work_detail"/>
                                     </div>
                                 </div>
