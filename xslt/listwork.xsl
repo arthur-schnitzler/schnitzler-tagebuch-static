@@ -35,17 +35,18 @@
                             <div>
                                 <div class="container mb-3"
                                     style="width:100%; margin: auto"> 
-                                <table id="tabulator-table-work">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col" tabulator-headerFilter="input"
-                                                tabulator-formatter="html">Titel</th>
-                                            <th scope="col" tabulator-headerFilter="input"
-                                                tabulator-formatter="html">Verfasser:in</th>
-                                            <th cope="col" tabulator-headerFilter="input"
-                                                tabulator-formatter="html">Datum</th>
-                                        </tr>
-                                    </thead>
+                                    <table class="table display" id="tabulator-table-work">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" tabulator-headerFilter="input"
+                                                    tabulator-formatter="html">Titel</th>
+                                                <th scope="col" tabulator-headerFilter="input"
+                                                    tabulator-formatter="html">Urheber_in</th>
+                                                <th scope="col" tabulator-headerFilter="input"
+                                                    >Datum</th>
+                                                <th scope="col" tabulator-headerFilter="input">Typ</th>
+                                            </tr>
+                                        </thead>
                                     <tbody>
                                         <xsl:for-each select="descendant::tei:listBibl/tei:bibl">
                                             <xsl:variable name="id">
@@ -53,6 +54,8 @@
                                             </xsl:variable>
                                             <xsl:variable name="titel"
                                                 select="normalize-space(tei:title[1]/text())"/>
+                                            <xsl:variable name="work-kind"
+                                                select="descendant::tei:note[@type = 'work_kind'][1]"/>
                                             <xsl:variable name="datum">
                                                 <xsl:choose>
                                                     <xsl:when test="tokenize(tei:date/text(), ' – ')[1] = tokenize(tei:date/text(), ' – ')[2]">
@@ -94,7 +97,10 @@
                                                         </xsl:if>
                                                     </td>
                                                     <td>
-                                                        <xsl:value-of select="mam:normalize-date($datum)"/>
+                                                        <xsl:value-of select="normalize-space($datum)"/>
+                                                    </td>
+                                                    <td>
+                                                        <xsl:value-of select="$work-kind"/>
                                                     </td>
                                                 </tr>
                                             </xsl:for-each>
