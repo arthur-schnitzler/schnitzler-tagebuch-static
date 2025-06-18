@@ -523,18 +523,18 @@
                                                     select="key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', replace($autor-ref, 'pmb', ''), '/'), 
                                                     $listperson)/tei:idno[@subtype = 'schnitzler-tagebuch' or @type = 'schnitzler-tagebuch'][1]/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/')"/>
                                                 <xsl:variable name="autor-ref-schnitzler-tagebuch">
-                                                  <xsl:choose>
-                                                  <xsl:when
-                                                  test="$author-lookup-mit-schraegstrich != ''">
-                                                  <xsl:value-of
-                                                  select="concat('SEX', $author-lookup-mit-schraegstrich)"/>
-                                                  </xsl:when>
-                                                  <xsl:otherwise>
-                                                  <xsl:value-of
-                                                  select="concat('SIX', key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', $autor-ref), $listperson)/tei:idno[@subtype = 'schnitzler-tagebuch' or @type = 'schnitzler-tagebuch'][1]/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/'))"
-                                                  />
-                                                  </xsl:otherwise>
-                                                  </xsl:choose>
+                                                    <xsl:choose>
+                                                        <xsl:when
+                                                            test="$author-lookup-mit-schraegstrich != ''">
+                                                            <xsl:value-of
+                                                                select="$author-lookup-mit-schraegstrich"/>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:value-of
+                                                                select="(key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', $autor-ref), $listperson)/tei:idno[@subtype = 'schnitzler-tagebuch' or @type = 'schnitzler-tagebuch'][1]/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/'))"
+                                                            />
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
                                                 </xsl:variable>
                                                 <a>
                                                   <xsl:attribute name="href">
