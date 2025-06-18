@@ -3,6 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:mam="whatever" version="2.0" exclude-result-prefixes="xsl tei xs">
     <xsl:import href="./LOD-idnos.xsl"/>
+    <xsl:param name="current-edition" select="'schnitzler-tagebuch'"/>
     <xsl:param name="places" select="document('../../data/indices/listplace.xml')"/>
     <xsl:param name="works" select="document('../../data/indices/listwork.xml')"/>
     <xsl:key name="work-lookup" match="tei:bibl" use="tei:relatedItem/@target"/>
@@ -290,22 +291,14 @@
                     </div>
                 </xsl:otherwise>
             </xsl:choose>
-            <div id="mentions">
-                <xsl:if test="key('only-relevant-uris', tei:idno/@subtype, $relevant-uris)[1]">
-                    <p class="buttonreihe">
-                        <xsl:variable name="idnos-of-current" as="node()">
-                            <xsl:element name="nodeset_person">
-                                <xsl:for-each select="tei:idno">
-                                    <xsl:copy-of select="."/>
-                                </xsl:for-each>
-                            </xsl:element>
-                        </xsl:variable>
-                        <xsl:call-template name="mam:idnosToLinks">
-                            <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
-                        </xsl:call-template>
-                    </p>
-                </xsl:if>
-            </div>
+            <xsl:variable name="idnos" as="node()">
+                <xsl:element name="idnos">
+                    <xsl:copy-of select="tei:idno"/>
+                </xsl:element>
+            </xsl:variable>
+            <xsl:call-template name="lod-reihe">
+                <xsl:with-param name="idno" select="$idnos"/>
+            </xsl:call-template>
             <div class="werke">
                 <xsl:variable name="author-ref"
                     select="replace(replace(@xml:id, 'person__', ''), 'pmb', '')"/>
@@ -448,22 +441,14 @@
             <xsl:value-of select="concat(data(@xml:id), '.html')"/>
         </xsl:variable>
         <div class="card-body-index">
-            <div id="mentions">
-                <xsl:if test="key('only-relevant-uris', tei:idno/@subtype, $relevant-uris)[1]">
-                    <p class="buttonreihe">
-                        <xsl:variable name="idnos-of-current" as="node()">
-                            <xsl:element name="nodeset_work">
-                                <xsl:for-each select="tei:idno">
-                                    <xsl:copy-of select="."/>
-                                </xsl:for-each>
-                            </xsl:element>
-                        </xsl:variable>
-                        <xsl:call-template name="mam:idnosToLinks">
-                            <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
-                        </xsl:call-template>
-                    </p>
-                </xsl:if>
-            </div>
+            <xsl:variable name="idnos" as="node()">
+                <xsl:element name="idnos">
+                    <xsl:copy-of select="tei:idno"/>
+                </xsl:element>
+            </xsl:variable>
+            <xsl:call-template name="lod-reihe">
+                <xsl:with-param name="idno" select="$idnos"/>
+            </xsl:call-template>
             <xsl:if test="tei:author">
                 <div id="autor_innen">
                     <xsl:choose>
@@ -728,22 +713,14 @@
         </xsl:variable>
         <div class="container-fluid">
             <div class="card-body-index">
-                <div id="mentions">
-                    <xsl:if test="key('only-relevant-uris', tei:idno/@subtype, $relevant-uris)[1]">
-                        <p class="buttonreihe">
-                            <xsl:variable name="idnos-of-current" as="node()">
-                                <xsl:element name="nodeset_place">
-                                    <xsl:for-each select="tei:idno">
-                                        <xsl:copy-of select="."/>
-                                    </xsl:for-each>
-                                </xsl:element>
-                            </xsl:variable>
-                            <xsl:call-template name="mam:idnosToLinks">
-                                <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
-                            </xsl:call-template>
-                        </p>
-                    </xsl:if>
-                </div>
+                <xsl:variable name="idnos" as="node()">
+                    <xsl:element name="idnos">
+                        <xsl:copy-of select="tei:idno"/>
+                    </xsl:element>
+                </xsl:variable>
+                <xsl:call-template name="lod-reihe">
+                    <xsl:with-param name="idno" select="$idnos"/>
+                </xsl:call-template>
                 <xsl:if test=".//tei:geo/text()">
                     <div id="mapid" style="height: 400px; width:100%; clear: both;"> </div>
                     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
@@ -798,22 +775,14 @@
             <xsl:value-of select="concat(data(@xml:id), '.html')"/>
         </xsl:variable>
         <div class="card-body-index">
-            <div id="mentions">
-                <xsl:if test="key('only-relevant-uris', tei:idno/@subtype, $relevant-uris)[1]">
-                    <p class="buttonreihe">
-                        <xsl:variable name="idnos-of-current" as="node()">
-                            <xsl:element name="nodeset_org">
-                                <xsl:for-each select="tei:idno">
-                                    <xsl:copy-of select="."/>
-                                </xsl:for-each>
-                            </xsl:element>
-                        </xsl:variable>
-                        <xsl:call-template name="mam:idnosToLinks">
-                            <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
-                        </xsl:call-template>
-                    </p>
-                </xsl:if>
-            </div>
+            <xsl:variable name="idnos" as="node()">
+                <xsl:element name="idnos">
+                    <xsl:copy-of select="tei:idno"/>
+                </xsl:element>
+            </xsl:variable>
+            <xsl:call-template name="lod-reihe">
+                <xsl:with-param name="idno" select="$idnos"/>
+            </xsl:call-template>
             <xsl:variable name="ersterName" select="tei:orgName[1]"/>
             <xsl:if test="tei:orgName[2]">
                 <p>
@@ -916,105 +885,98 @@
         <xsl:param name="mentions" select=".//tei:note[@type = 'mentions']"/>
         <xsl:variable name="mentionCount" select="count($mentions)"/>
         <!-- Balkendiagramm oben -->
-        <div id="mentions-chart" class="mt-3 mb-3">
-            <xsl:variable name="years" as="element()*">
-                <xsl:element name="years">
-                    <xsl:for-each select="1879 to 1931">
-                        <xsl:element name="year">
-                            <xsl:attribute name="val">
-                                <xsl:value-of select="."/>
-                            </xsl:attribute>
-                        </xsl:element>
-                    </xsl:for-each>
-                </xsl:element>
-            </xsl:variable>
-            
-            <!-- SVG Balkendiagramm -->
-            <svg 
-                viewBox="0 0 600 200" 
-                width="100%" 
-                height="auto" 
-                preserveAspectRatio="xMidYMid meet" 
-                aria-label="Balkendiagramm der Erwähnungen pro Jahr"
-                role="img"
-                >
-                <!-- Achsen -->
-                <line x1="50" y1="10" x2="50" y2="160" stroke="black" stroke-width="2"/>
-                <line x1="50" y1="160" x2="580" y2="160" stroke="black" stroke-width="2"/>
-                
-                <!-- Y-Achse Beschriftung -->
-                <text x="30" y="165" font-size="10" text-anchor="end">0</text>
-                <text x="30" y="115" font-size="10" text-anchor="end">10</text>
-                <text x="30" y="65" font-size="10" text-anchor="end">20</text>
-                <text x="30" y="15" font-size="10" text-anchor="end">30</text>
-                
-                <!-- X-Achse Beschriftung -->
-                <xsl:variable name="totalYears" select="1931 - 1879 + 1"/>
-                <xsl:variable name="stepWidth" select="(580 - 50) div $totalYears"/>
-                
-                <xsl:for-each select="188 to 193">
-                    <xsl:variable name="year" select="(.) * 10"/>
-                    <xsl:variable name="xPos" select="50 + ($year - 1879) * $stepWidth"/>
-                    <text x="{$xPos}" y="175" font-size="10" text-anchor="middle">
-                        <xsl:value-of select="$year"/>
-                    </text>
-                </xsl:for-each>
-                
-                <!-- Balken -->
-                <xsl:for-each select="$years/*[local-name() = 'year']">
-                    <xsl:variable name="year" select="number(@val)"/>
-                    <xsl:variable name="count" select="count($mentions[substring(@corresp, 1, 4) = string($year)])"/>
-                    <xsl:variable name="barHeight" select="($count * 140) div 30"/>
-                    <xsl:variable name="xPos" select="50 + ($year - 1879) * $stepWidth - 2"/>
-                    
-                    <rect x="{$xPos}" y="{160 - $barHeight}" width="4" height="{$barHeight}" fill="#037A33">
-                        <title><xsl:value-of select="concat($year, ': ', $count, ' Erwähnungen')"/></title>
-                    </rect>
-                </xsl:for-each>
-            </svg>
-        </div>
-        
-        <div id="mentions" class="mt-2">
+        <div id="mentions">
             <span class="infodesc mr-2">
                 <legend>Erwähnungen</legend>
-                <xsl:choose>
-                    <!-- Wenn mehr als 10 Erwähnungen -->
-                    <xsl:when test="$mentionCount > 10">
-                        <div class="accordion" id="mentionsAccordion">
-                            <!-- Gruppieren nach Jahr -->
-                            <xsl:for-each-group select="$mentions"
-                                group-by="substring(@corresp, 1, 4)">
-                                <xsl:sort select="current-grouping-key()" data-type="number"
-                                    order="ascending"/>
-                                <xsl:variable name="year" select="current-grouping-key()"/>
-                                <xsl:variable name="accordionId"
-                                    select="concat('accordion-', $year)"/>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="heading-{$year}">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse"
-                                            data-bs-target="#{$accordionId}" aria-expanded="false"
-                                            aria-controls="{$accordionId}">
-                                            <xsl:choose>
-                                                <xsl:when test="count(current-group()) = 1">
-                                                    <xsl:value-of
-                                                        select="concat($year, ' (1 Eintrag)')"
-                                                    />
-                                                </xsl:when>
-                                                <xsl:otherwise>
-                                                    <xsl:value-of
-                                                        select="concat($year, ' (', count(current-group()), ' Einträge)')"
-                                                    />
-                                                </xsl:otherwise>
-                                            </xsl:choose>
-                                        </button>
-                                    </h2>
-                                    <div id="{$accordionId}" class="accordion-collapse collapse"
-                                        aria-labelledby="heading-{$year}"
-                                        data-bs-parent="#mentionsAccordion">
-                                        <div class="accordion-body">
-                                            <ul>
-                                                <xsl:for-each select="current-group()">
+                <div id="mentions-chart" class="mt-3 mb-3">
+                    <xsl:variable name="years" as="element()*">
+                        <xsl:element name="years">
+                            <xsl:for-each select="1879 to 1931">
+                                <xsl:element name="year">
+                                    <xsl:attribute name="val">
+                                        <xsl:value-of select="."/>
+                                    </xsl:attribute>
+                                </xsl:element>
+                            </xsl:for-each>
+                        </xsl:element>
+                    </xsl:variable>
+                    <!-- SVG Balkendiagramm -->
+                    <svg viewBox="0 0 600 200" width="100%" height="auto"
+                        preserveAspectRatio="xMidYMid meet"
+                        aria-label="Balkendiagramm der Erwähnungen pro Jahr" role="img">
+                        <!-- Achsen -->
+                        <line x1="50" y1="10" x2="50" y2="160" stroke="black" stroke-width="2"/>
+                        <line x1="50" y1="160" x2="580" y2="160" stroke="black" stroke-width="2"/>
+                        <!-- Y-Achse Beschriftung -->
+                        <text x="30" y="165" font-size="10" text-anchor="end">0</text>
+                        <text x="30" y="115" font-size="10" text-anchor="end">10</text>
+                        <text x="30" y="65" font-size="10" text-anchor="end">20</text>
+                        <text x="30" y="15" font-size="10" text-anchor="end">30</text>
+                        <!-- X-Achse Beschriftung -->
+                        <xsl:variable name="totalYears" select="1931 - 1879 + 1"/>
+                        <xsl:variable name="stepWidth" select="(580 - 50) div $totalYears"/>
+                        <xsl:for-each select="188 to 193">
+                            <xsl:variable name="year" select="(.) * 10"/>
+                            <xsl:variable name="xPos" select="50 + ($year - 1879) * $stepWidth"/>
+                            <text x="{$xPos}" y="175" font-size="10" text-anchor="middle">
+                                <xsl:value-of select="$year"/>
+                            </text>
+                        </xsl:for-each>
+                        <!-- Balken -->
+                        <xsl:for-each select="$years/*[local-name() = 'year']">
+                            <xsl:variable name="year" select="number(@val)"/>
+                            <xsl:variable name="count"
+                                select="count($mentions[substring(@corresp, 1, 4) = string($year)])"/>
+                            <xsl:variable name="barHeight" select="($count * 140) div 30"/>
+                            <xsl:variable name="xPos" select="50 + ($year - 1879) * $stepWidth - 2"/>
+                            <rect x="{$xPos}" y="{160 - $barHeight}" width="4" height="{$barHeight}"
+                                fill="#A63437">
+                                <title>
+                                    <xsl:value-of
+                                        select="concat($year, ': ', $count, ' Erwähnungen')"/>
+                                </title>
+                            </rect>
+                        </xsl:for-each>
+                    </svg>
+                </div>
+                <div id="mentions-liste" class="mt-2">
+                    <xsl:choose>
+                        <!-- Wenn mehr als 10 Erwähnungen -->
+                        <xsl:when test="$mentionCount > 10">
+                            <div class="accordion" id="mentionsAccordion">
+                                <!-- Gruppieren nach Jahr -->
+                                <xsl:for-each-group select="$mentions"
+                                    group-by="substring(@corresp, 1, 4)">
+                                    <xsl:sort select="current-grouping-key()" data-type="number"
+                                        order="ascending"/>
+                                    <xsl:variable name="year" select="current-grouping-key()"/>
+                                    <xsl:variable name="accordionId"
+                                        select="concat('accordion-', $year)"/>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading-{$year}">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#{$accordionId}"
+                                                aria-expanded="false" aria-controls="{$accordionId}">
+                                                <xsl:choose>
+                                                  <xsl:when test="count(current-group()) = 1">
+                                                  <xsl:value-of
+                                                  select="concat($year, ' (1 Eintrag)')"/>
+                                                  </xsl:when>
+                                                  <xsl:otherwise>
+                                                  <xsl:value-of
+                                                  select="concat($year, ' (', count(current-group()), ' Einträge)')"
+                                                  />
+                                                  </xsl:otherwise>
+                                                </xsl:choose>
+                                            </button>
+                                        </h2>
+                                        <div id="{$accordionId}" class="accordion-collapse collapse"
+                                            aria-labelledby="heading-{$year}"
+                                            data-bs-parent="#mentionsAccordion">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                  <xsl:for-each select="current-group()">
                                                   <xsl:sort select="replace(@corresp, '-', '')"
                                                   order="ascending" data-type="number"/>
                                                   <xsl:variable name="linkToDocument">
@@ -1029,37 +991,62 @@
                                                   <i class="fas fa-external-link-alt"/>
                                                   </a>
                                                   </li>
-                                                </xsl:for-each>
-                                            </ul>
+                                                  </xsl:for-each>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </xsl:for-each-group>
-                        </div>
-                    </xsl:when>
-                    <!-- Weniger als oder gleich 10: Standardliste -->
-                    <xsl:otherwise>
-                        <ul>
-                            <xsl:for-each select="$mentions">
-                                <xsl:sort select="replace(@corresp, '-', '')" order="ascending"
-                                    data-type="number"/>
-                                <xsl:variable name="linkToDocument">
-                                    <xsl:value-of
-                                        select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"
-                                    />
-                                </xsl:variable>
-                                <li>
-                                    <xsl:value-of select="."/>
-                                    <xsl:text> </xsl:text>
-                                    <a href="{$linkToDocument}">
-                                        <i class="fas fa-external-link-alt"/>
-                                    </a>
-                                </li>
-                            </xsl:for-each>
-                        </ul>
-                    </xsl:otherwise>
-                </xsl:choose>
+                                </xsl:for-each-group>
+                            </div>
+                        </xsl:when>
+                        <!-- Weniger als oder gleich 10: Standardliste -->
+                        <xsl:otherwise>
+                            <ul>
+                                <xsl:for-each select="$mentions">
+                                    <xsl:sort select="replace(@corresp, '-', '')" order="ascending"
+                                        data-type="number"/>
+                                    <xsl:variable name="linkToDocument">
+                                        <xsl:value-of
+                                            select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"
+                                        />
+                                    </xsl:variable>
+                                    <li>
+                                        <xsl:value-of select="."/>
+                                        <xsl:text> </xsl:text>
+                                        <a href="{$linkToDocument}">
+                                            <i class="fas fa-external-link-alt"/>
+                                        </a>
+                                    </li>
+                                </xsl:for-each>
+                            </ul>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </div>
             </span>
         </div>
     </xsl:template>
+    
+    <xsl:template name="lod-reihe">
+        <xsl:param name="idno" as="node()"/>
+        <div id="lod-mentions">
+            <xsl:if test="key('only-relevant-uris', $idno/tei:idno[not(@subtype= $current-edition)]/@subtype, $relevant-uris)[1]">
+                <p class="buttonreihe">
+                    <xsl:variable name="idnos-of-current" as="node()">
+                        <xsl:element name="nodeset_person">
+                            <xsl:for-each select="$idno/tei:idno[not(@subtype= $current-edition)]">
+                                <xsl:copy-of select="."/>
+                            </xsl:for-each>
+                        </xsl:element>
+                    </xsl:variable>
+                    <xsl:call-template name="mam:idnosToLinks">
+                        <xsl:with-param name="idnos-of-current" select="$idnos-of-current"/>
+                    </xsl:call-template>
+                </p>
+            </xsl:if>
+        </div>
+        
+        
+        
+    </xsl:template>
+    
 </xsl:stylesheet>
