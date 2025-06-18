@@ -6,6 +6,7 @@
     <xsl:param name="current-edition" select="'schnitzler-tagebuch'"/>
     <xsl:param name="current-colour" select="'#037A33'"/>
       <xsl:param name="places" select="document('../../data/indices/listplace.xml')"/>
+    <xsl:param name="listPerson" select="document('../../data/indices/listperson.xml')"/>
     <xsl:variable name="listbiblPath" select="'../../data/indices/listbibl.xml'"/>
     <xsl:variable name="listworkPath" select="'../../data/indices/listwork.xml'"/>
     <xsl:variable name="actualFilePath"
@@ -495,6 +496,88 @@
                                                 <a href="pmb2121.html">
                                                   <xsl:text>Arthur Schnitzler</xsl:text>
                                                 </a>
+                                            </xsl:when>
+                                            <xsl:when test="$current-edition='schnitzler-tagebuch'">
+                                                <xsl:variable name="autor-ref-schnitzler-tagebuch">
+                                                    <xsl:variable name="author-lookup-mit-schraegstrich"
+                                                        select="key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', $autor-ref, '/'), $listPerson)/tei:idno[@subtype = 'schnitzler-tagebuch' or @type = 'schnitzler-tagebuch'][1]/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/')"/>
+                                                    <xsl:choose>
+                                                        <xsl:when
+                                                            test="$author-lookup-mit-schraegstrich != ''">
+                                                            <xsl:value-of
+                                                                select="$author-lookup-mit-schraegstrich"/>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:value-of
+                                                                select="key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', $autor-ref), $listPerson)/tei:idno[@subtype = 'schnitzler-tagebuch' or @type = 'schnitzler-tagebuch'][1]/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/')"
+                                                            />
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
+                                                </xsl:variable>
+                                                <a>
+                                                    <xsl:attribute name="href">
+                                                        <xsl:value-of
+                                                            select="$autor-ref-schnitzler-tagebuch"/>
+                                                    </xsl:attribute>
+                                                    <xsl:choose>
+                                                        <xsl:when
+                                                            test="child::tei:forename and child::tei:surname">
+                                                            <xsl:value-of select="tei:persName/tei:forename"/>
+                                                            <xsl:text> </xsl:text>
+                                                            <xsl:value-of select="tei:persName/tei:surname"/>
+                                                        </xsl:when>
+                                                        <xsl:when test="child::tei:surname">
+                                                            <xsl:value-of select="child::tei:surname"/>
+                                                        </xsl:when>
+                                                        <xsl:when test="child::tei:forename">
+                                                            <xsl:value-of select="child::tei:forename"/>"/> </xsl:when>
+                                                        <xsl:when test="contains(., ', ')">
+                                                            <xsl:value-of
+                                                                select="concat(substring-after(., ', '), ' ', substring-before(., ', '))"
+                                                            />
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:value-of select="."/>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
+                                                </a>
+                                                <xsl:choose>
+                                                    <xsl:when
+                                                        test="@role = 'editor' or @role = 'hat-herausgegeben'">
+                                                        <xsl:text> (Herausgabe)</xsl:text>
+                                                    </xsl:when>
+                                                    <xsl:when
+                                                        test="@role = 'translator' or @role = 'hat-ubersetzt'">
+                                                        <xsl:text> (Übersetzung)</xsl:text>
+                                                    </xsl:when>
+                                                    <xsl:when test="@role = 'hat-ubersetzt'">
+                                                        <xsl:text> (unter Pseudonym)</xsl:text>
+                                                    </xsl:when>
+                                                    <xsl:when
+                                                        test="@role = 'hat-unter-einem-kurzel-veroffentlicht'">
+                                                        <xsl:text> (unter Kürzel)</xsl:text>
+                                                    </xsl:when>
+                                                    <xsl:when test="@role = 'hat-illustriert'">
+                                                        <xsl:text> (Illustration)</xsl:text>
+                                                    </xsl:when>
+                                                    <xsl:when test="@role = 'hat-vertont'">
+                                                        <xsl:text> (Vertonung)</xsl:text>
+                                                    </xsl:when>
+                                                    <xsl:when
+                                                        test="@role = 'hat-einen-beitrag-geschaffen-zu'">
+                                                        <xsl:text> (Beitrag)</xsl:text>
+                                                    </xsl:when>
+                                                    <xsl:when
+                                                        test="@role = 'hat-ein-vorwortnachwort-verfasst-zu'">
+                                                        <xsl:text> (Vorwort/Nachwort)</xsl:text>
+                                                    </xsl:when>
+                                                    <xsl:when test="@role = 'hat-anonym-veroffentlicht'">
+                                                        <xsl:text> (ohne Namensnennung)</xsl:text>
+                                                    </xsl:when>
+                                                    <xsl:when test="@role = 'bekommt-zugeschrieben'">
+                                                        <xsl:text> (Zuschreibung)</xsl:text>
+                                                    </xsl:when>
+                                                </xsl:choose>
                                             </xsl:when>
                                             <xsl:otherwise>
                                                 <a>
