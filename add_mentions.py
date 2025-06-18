@@ -9,6 +9,8 @@ files = glob.glob('./data/editions/*.xml')
 indices = glob.glob('./data/indices/list*.xml')
 
 d = defaultdict(set)
+
+# Schritt 1: Sammle Verweise aus den Editionsdateien
 for x in tqdm(sorted(files), total=len(files)):
     doc = TeiReader(x)
     file_name = os.path.split(x)[1]
@@ -18,19 +20,27 @@ for x in tqdm(sorted(files), total=len(files)):
     for entity in doc.any_xpath('.//tei:back//*[@xml:id]/@xml:id'):
         d[entity].add(f"{file_name}_____{doc_title}_____{doc_date}")
 
+# Schritt 2: Bearbeite die Indices
 for x in indices:
     print(x)
     doc = TeiReader(x)
+
     for node in doc.any_xpath('.//tei:body//*[@xml:id]'):
+        # Lösche vorhandene tei:note[@target and @corresp]
+        for old_note in node.xpath('./tei:note[@target and @corresp]', namespaces={'tei': 'http://www.tei-c.org/ns/1.0'}):
+            node.remove(old_note)
+
+        # Füge neue tei:note-Elemente hinzu
         node_id = node.attrib['{http://www.w3.org/XML/1998/namespace}id']
-        for mention in d[node_id]:
+        for mention in d.get(node_id, []):
             file_name, doc_title, doc_date = mention.split('_____')
             note = ET.Element('{http://www.tei-c.org/ns/1.0}note')
             note.attrib['target'] = file_name
-            note.attrib['corresp'] = doc_date 
+            note.attrib['corresp'] = doc_date
             note.attrib['type'] = "mentions"
             note.text = doc_title
             node.append(note)
+
     doc.tree_to_file(x)
 
 print("DONE")
