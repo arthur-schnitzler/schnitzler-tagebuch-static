@@ -6,8 +6,8 @@
     <xsl:param name="current-edition" select="'schnitzler-tagebuch'"/>
     <xsl:param name="current-colour" select="'#037A33'"/>
     <xsl:param name="places" select="document('../../data/indices/listplace.xml')"/>
-    <!-- nur fürs Sc -->
-    <xsl:param name="listPerson" select="document('../../data/indices/listperson.xml')"/>
+    <!-- nur fürs Schnitzler-Tagebuch die folgenden beiden Einbindungen -->
+    <xsl:param name="listperson" select="document('../../data/indices/listperson.xml')"/>
     <xsl:key name="author-lookup" match="tei:person" use="tei:idno[@subtype = 'pmb']"/>
     <xsl:variable name="listbiblPath" select="'../../data/indices/listbibl.xml'"/>
     <xsl:variable name="listworkPath" select="'../../data/indices/listwork.xml'"/>
@@ -21,7 +21,15 @@
     <xsl:key name="work-lookup" match="tei:bibl" use="tei:relatedItem/@target"/>
     <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
     <xsl:key name="authorwork-lookup" match="tei:bibl"
-        use="tei:author/@*[name() = 'key' or name() = 'ref']/replace(replace(., 'person__', ''), 'pmb', '')"/>
+        use="tei:author/@*[name() = 'key' or name() = 'ref']"/>
+    <!--  -->
+    <xsl:param name="konkordanz" select="document('../../data/indices/index_person_day.xml')"/>
+    <xsl:param name="work-day" select="document('../../data/indices/index_work_day.xml')"/>
+    <xsl:key name="konk-lookup" match="item" use="ref"/>
+    <xsl:key name="work-lookup" match="tei:bibl" use="tei:relatedItem/@target"/>
+    <xsl:key name="work-day-lookup" match="item" use="ref"/>
+    <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
+    <xsl:key name="author-lookup" match="tei:person" use="tei:idno[@subtype = 'pmb']"/>
     <!-- PERSON -->
     <xsl:template match="tei:person" name="person_detail">
         <xsl:param name="showNumberOfMentions" as="xs:integer" select="50000"/>
@@ -447,6 +455,13 @@
                 </xsl:call-template>
             </xsl:if>
         </div>
+        <xsl:if test="key('konk-lookup', @xml:id, $konkordanz)[1]">
+            <xsl:variable name="allMentionsForThisPerson"
+                select="key('konk-lookup', @xml:id, $konkordanz)"/>
+            <xsl:call-template name="display-mentions">
+                <xsl:with-param name="mentionNodes" select="$allMentionsForThisPerson"/>
+            </xsl:call-template>
+        </xsl:if>
     </xsl:template>
     <!-- WORK -->
     <xsl:template match="tei:listBibl/tei:bibl" name="work_detail">
@@ -504,19 +519,19 @@
                                             </xsl:when>
                                             <xsl:when
                                                 test="$current-edition = 'schnitzler-tagebuch'">
+                                                <xsl:variable name="author-lookup-mit-schraegstrich"
+                                                    select="key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', replace($autor-ref, 'pmb', ''), '/'), 
+                                                    $listperson)/tei:idno[@subtype = 'schnitzler-tagebuch' or @type = 'schnitzler-tagebuch'][1]/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/')"/>
                                                 <xsl:variable name="autor-ref-schnitzler-tagebuch">
-                                                  <xsl:variable
-                                                  name="author-lookup-mit-schraegstrich"
-                                                  select="key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', $autor-ref, '/'), $listPerson)/tei:idno[@subtype = 'schnitzler-tagebuch' or @type = 'schnitzler-tagebuch'][1]/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/')"/>
                                                   <xsl:choose>
                                                   <xsl:when
                                                   test="$author-lookup-mit-schraegstrich != ''">
                                                   <xsl:value-of
-                                                  select="$author-lookup-mit-schraegstrich"/>
+                                                  select="concat('SEX', $author-lookup-mit-schraegstrich)"/>
                                                   </xsl:when>
                                                   <xsl:otherwise>
                                                   <xsl:value-of
-                                                  select="key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', $autor-ref), $listPerson)/tei:idno[@subtype = 'schnitzler-tagebuch' or @type = 'schnitzler-tagebuch'][1]/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/')"
+                                                  select="concat('SIX', key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', $autor-ref), $listperson)/tei:idno[@subtype = 'schnitzler-tagebuch' or @type = 'schnitzler-tagebuch'][1]/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/'))"
                                                   />
                                                   </xsl:otherwise>
                                                   </xsl:choose>
@@ -1148,6 +1163,167 @@
                     </xsl:call-template>
                 </p>
             </xsl:if>
+        </div>
+    </xsl:template>
+    <xsl:function name="mam:germanNames">
+        <xsl:param name="input"/>
+        <xsl:choose>
+            <xsl:when test="$input = 'Monday'">Montag</xsl:when>
+            <xsl:when test="$input = 'Tuesday'">Dienstag</xsl:when>
+            <xsl:when test="$input = 'Wednesday'">Mittwoch</xsl:when>
+            <xsl:when test="$input = 'Thursday'">Donnerstag</xsl:when>
+            <xsl:when test="$input = 'Friday'">Freitag</xsl:when>
+            <xsl:when test="$input = 'Saturday'">Samstag</xsl:when>
+            <xsl:when test="$input = 'Sunday'">Sonntag</xsl:when>
+            <xsl:when test="$input = 'January'">Januar</xsl:when>
+            <xsl:when test="$input = 'February'">Februar</xsl:when>
+            <xsl:when test="$input = 'March'">März</xsl:when>
+            <xsl:when test="$input = 'May'">Mai</xsl:when>
+            <xsl:when test="$input = 'June'">Juni</xsl:when>
+            <xsl:when test="$input = 'July'">Juli</xsl:when>
+            <xsl:when test="$input = 'October'">Oktober</xsl:when>
+            <xsl:when test="$input = 'December'">Dezember</xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$input"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    <xsl:template name="display-mentions">
+        <xsl:param name="mentionNodes" as="item()*"/>
+        <xsl:param name="contextNodeForId" select="."/>
+        <xsl:variable name="mentionCount" select="count($mentionNodes)"/>
+        <xsl:variable name="uniqueComponent" select="generate-id($contextNodeForId)"/>
+        <div id="mentions-{generate-id()}" class="mt-2">
+            <legend>Erwähnungen</legend>
+            <xsl:choose>
+                <xsl:when test="$mentionCount > 15">
+                    <div class="accordion" id="accordion-mentions-{$uniqueComponent}">
+                        <xsl:for-each-group select="$mentionNodes"
+                            group-by="substring(@target, 1, 4)">
+                            <xsl:sort select="current-grouping-key()" data-type="number"
+                                order="ascending"/>
+                            <xsl:if test="matches(current-grouping-key(), '^\d{4}$')">
+                                <xsl:variable name="year" select="current-grouping-key()"/>
+                                <xsl:variable name="mentionsInYear" select="current-group()"/>
+                                <xsl:variable name="countInYear" select="count($mentionsInYear)"/>
+                                <xsl:variable name="accordionBaseId"
+                                    select="concat('mention-year-', $year, '-', $uniqueComponent)"/>
+                                <xsl:variable name="headerId"
+                                    select="concat('header-', $accordionBaseId)"/>
+                                <xsl:variable name="collapseId"
+                                    select="concat('collapse-', $accordionBaseId)"/>
+                                <xsl:variable name="parentId"
+                                    select="concat('accordion-mentions-', $uniqueComponent)"/>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="{$headerId}">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#{$collapseId}" aria-expanded="false"
+                                            aria-controls="{$collapseId}">
+                                            <xsl:value-of select="$year"/>
+                                            <xsl:text> (</xsl:text>
+                                            <xsl:value-of select="$countInYear"/>
+                                            <xsl:text> Erwähnung</xsl:text>
+                                            <xsl:if test="$countInYear != 1">en</xsl:if>
+                                            <xsl:text>)</xsl:text>
+                                        </button>
+                                    </h2>
+                                    <div id="{$collapseId}" class="accordion-collapse collapse"
+                                        aria-labelledby="{$headerId}" data-bs-parent="#{$parentId}">
+                                        <div class="accordion-body">
+                                            <ul class="list-unstyled">
+                                                <xsl:for-each select="$mentionsInYear">
+                                                  <xsl:sort select="@target" data-type="text"
+                                                  order="ascending"/>
+                                                  <xsl:variable name="linkToDocument"
+                                                  select="concat('entry__', @target, '.html')"/>
+                                                  <xsl:variable name="print_date">
+                                                  <xsl:if
+                                                  test="matches(@target, '^\d{4}-\d{2}-\d{2}$')">
+                                                  <xsl:variable name="date-value"
+                                                  select="xs:date(@target)" as="xs:date"/>
+                                                  <xsl:variable name="monat_en"
+                                                  select="format-date($date-value, '[MNn]', 'en', (), ())"/>
+                                                  <xsl:variable name="wochentag_en"
+                                                  select="format-date($date-value, '[F]', 'en', (), ())"/>
+                                                  <xsl:variable name="monat"
+                                                  select="mam:germanNames($monat_en)"/>
+                                                  <xsl:variable name="wochentag"
+                                                  select="mam:germanNames($wochentag_en)"/>
+                                                  <xsl:variable name="tag"
+                                                  select="concat(format-date($date-value, '[D]', 'en', (), ()), '. ')"/>
+                                                  <xsl:variable name="jahr"
+                                                  select="format-date($date-value, '[Y]', 'en', (), ())"/>
+                                                  <xsl:value-of
+                                                  select="concat($wochentag, ', ', $tag, $monat, ' ', $jahr)"
+                                                  />
+                                                  </xsl:if>
+                                                  </xsl:variable>
+                                                  <xsl:if test="normalize-space($print_date) != ''">
+                                                  <li>
+                                                  <a href="{$linkToDocument}" target="_blank"
+                                                  rel="noopener noreferrer"
+                                                  title="Eintrag vom {$print_date} öffnen">
+                                                  <xsl:value-of select="$print_date"/>
+                                                  </a>
+                                                  </li>
+                                                  </xsl:if>
+                                                </xsl:for-each>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </xsl:if>
+                        </xsl:for-each-group>
+                    </div>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:choose>
+                        <xsl:when test="$mentionCount > 0">
+                            <ul class="list-unstyled">
+                                <xsl:for-each select="$mentionNodes">
+                                    <xsl:sort select="@target" data-type="text" order="ascending"/>
+                                    <xsl:variable name="linkToDocument"
+                                        select="concat('entry__', @target, '.html')"/>
+                                    <xsl:variable name="print_date">
+                                        <xsl:if test="matches(@target, '^\d{4}-\d{2}-\d{2}$')">
+                                            <xsl:variable name="date-value"
+                                                select="xs:date(@target)" as="xs:date"/>
+                                            <xsl:variable name="monat_en"
+                                                select="format-date($date-value, '[MNn]', 'en', (), ())"/>
+                                            <xsl:variable name="wochentag_en"
+                                                select="format-date($date-value, '[F]', 'en', (), ())"/>
+                                            <xsl:variable name="monat"
+                                                select="mam:germanNames($monat_en)"/>
+                                            <xsl:variable name="wochentag"
+                                                select="mam:germanNames($wochentag_en)"/>
+                                            <xsl:variable name="tag"
+                                                select="concat(format-date($date-value, '[D]', 'en', (), ()), '. ')"/>
+                                            <xsl:variable name="jahr"
+                                                select="format-date($date-value, '[Y]', 'en', (), ())"/>
+                                            <xsl:value-of
+                                                select="concat($wochentag, ', ', $tag, $monat, ' ', $jahr)"
+                                            />
+                                        </xsl:if>
+                                    </xsl:variable>
+                                    <xsl:if test="normalize-space($print_date) != ''">
+                                        <li>
+                                            <a href="{$linkToDocument}" target="_blank"
+                                                rel="noopener noreferrer"
+                                                title="Eintrag vom {$print_date} öffnen">
+                                                <xsl:value-of select="$print_date"/>
+                                            </a>
+                                        </li>
+                                    </xsl:if>
+                                </xsl:for-each>
+                            </ul>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <p>Keine Erwähnungen vorhanden.</p>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:otherwise>
+            </xsl:choose>
         </div>
     </xsl:template>
 </xsl:stylesheet>
