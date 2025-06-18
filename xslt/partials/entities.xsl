@@ -5,7 +5,7 @@
     <xsl:import href="./LOD-idnos.xsl"/>
     <xsl:param name="current-edition" select="'schnitzler-tagebuch'"/>
     <xsl:param name="current-colour" select="'#037A33'"/>
-    <xsl:param name="places" select="document('../../data/indices/listplace.xml')"/>
+      <xsl:param name="places" select="document('../../data/indices/listplace.xml')"/>
     <xsl:variable name="listbiblPath" select="'../../data/indices/listbibl.xml'"/>
     <xsl:variable name="listworkPath" select="'../../data/indices/listwork.xml'"/>
     <xsl:variable name="actualFilePath"
@@ -458,10 +458,11 @@
             </xsl:call-template>
             <xsl:if test="tei:author">
                 <div id="autor_innen">
+                    
                     <xsl:choose>
                         <xsl:when test="tei:author[2]">
-                            <ul>
-                                <legend>Geschaffen von</legend>
+                            <legend>Geschaffen von</legend>
+                            <ul  class="dashed">
                                 <xsl:for-each select="tei:author">
                                     <li>
                                         <xsl:variable name="keyToRef" as="xs:string">
@@ -647,7 +648,7 @@
                     <p>
                         <xsl:if test="tei:date[1]">
                             <legend>Erschienen</legend>
-                            <ul>
+                            <ul  class="dashed">
                                 <li>
                                     <xsl:choose>
                                         <xsl:when test="contains(tei:date[1], '-')">
@@ -683,7 +684,7 @@
                 test="tei:title[@type = 'werk_bibliografische-angabe' or starts-with(@type, 'werk_link')]">
                 <div id="labels" class="mt-2">
                     <span class="infodesc mr-2">
-                        <ul>
+                        <ul  class="dashed">
                             <xsl:for-each select="tei:title[@type = 'werk_bibliografische-angabe']">
                                 <li>
                                     <xsl:text>Bibliografische Angabe: </xsl:text>
@@ -752,8 +753,8 @@
                     </script>
                 </xsl:if>
                 <xsl:if test="count(.//tei:placeName[contains(@type, 'namensvariante')]) gt 1">
-                    <ul>
-                        <legend>Namensvarianten</legend>
+                    <legend>Namensvarianten</legend>
+                    <ul  class="dashed">
                         <xsl:for-each select=".//tei:placeName[contains(@type, 'namensvariante')]">
                             <li>
                                 <xsl:value-of select="./text()"/>
@@ -806,8 +807,9 @@
             </xsl:if>
             <xsl:if test="tei:location">
                 <div>
-                    <ul>
-                        <legend>Orte</legend>
+                    <legend>Orte</legend>
+                    <ul  class="dashed">
+                        
                         <li>
                             <xsl:for-each
                                 select="tei:location/tei:placeName[not(. = preceding-sibling::tei:placeName)]">
@@ -982,7 +984,7 @@
                                             aria-labelledby="heading-{$year}"
                                             data-bs-parent="#mentionsAccordion">
                                             <div class="accordion-body">
-                                                <ul>
+                                                <ul  class="dashed">
                                                   <xsl:for-each select="current-group()">
                                                   <xsl:sort select="replace(@corresp, '-', '')"
                                                   order="ascending" data-type="number"/>
@@ -1008,7 +1010,7 @@
                         </xsl:when>
                         <!-- Weniger als oder gleich 10: Standardliste -->
                         <xsl:otherwise>
-                            <ul>
+                            <ul  class="dashed">
                                 <xsl:for-each select="$mentions">
                                     <xsl:sort select="replace(@corresp, '-', '')" order="ascending"
                                         data-type="number"/>
@@ -1057,3 +1059,4 @@
     </xsl:template>
     
 </xsl:stylesheet>
+
