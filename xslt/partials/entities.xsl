@@ -1027,7 +1027,7 @@
                         </xsl:element>
                     </xsl:variable>
                     <!-- SVG Balkendiagramm -->
-                    <svg viewBox="0 0 600 200" width="100%" height="auto"
+                    <svg viewBox="0 0 600 200" width="100%" height="100px"
                         preserveAspectRatio="xMidYMid meet"
                         aria-label="Balkendiagramm der Erwähnungen pro Jahr" role="img">
                         <!-- Achsen -->
