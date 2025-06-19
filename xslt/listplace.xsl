@@ -114,7 +114,8 @@
             <xsl:variable name="filename" select="concat(./@xml:id, '.html')"/>
             <xsl:variable name="name" select="./tei:placeName[1]/text()"/>
             <xsl:result-document href="{$filename}">
-                <html xmlns="http://www.w3.org/1999/xhtml">
+                <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
+                <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
                     <xsl:call-template name="html_head">
                         <xsl:with-param name="html_title" select="$name"/>
                     </xsl:call-template>

@@ -16,6 +16,7 @@
         <xsl:variable name="doc_title">
             <xsl:value-of select='"404 - Page not found"'/>
         </xsl:variable>
+        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html class="h-100" xmlns="http://www.w3.org/1999/xhtml" lang="de">
             <head>
                 <xsl:call-template name="html_head">
