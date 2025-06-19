@@ -41,7 +41,6 @@ search.addWidgets([
           item: `
               <h4><a href="{{ id }}.html">{{ title }}</a></h4>
               <p>{{#helpers.snippet}}{ "attribute": "full_text" }{{/helpers.snippet}}</p>
-              <h5><span class="badge badge-primary">{{ project }}</span></h5>
               <div>
               {{#persons}}
               <span class="badge rounded-pill m-1 bg-warning">{{ . }}</span>
