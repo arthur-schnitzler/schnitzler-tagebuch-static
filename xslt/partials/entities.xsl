@@ -1071,60 +1071,64 @@
                         <xsl:when test="$mentionCount > 10">
                             <div class="accordion" id="mentionsAccordion">
                                 <!-- Gruppieren nach Jahr -->
-                                <xsl:for-each-group select="$mentions"
-                                    group-by="substring(@corresp, 1, 4)">
-                                    <xsl:sort select="current-grouping-key()" data-type="number"
-                                        order="ascending"/>
+                                <xsl:for-each-group select="$mentions" group-by="substring(@corresp, 1, 4)">
+                                    <xsl:sort select="current-grouping-key()" data-type="number" order="ascending"/>
                                     <xsl:variable name="year" select="current-grouping-key()"/>
-                                    <xsl:variable name="accordionId"
-                                        select="concat('accordion-', $year)"/>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="heading-{$year}">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse"
-                                                data-bs-target="#{$accordionId}"
-                                                aria-expanded="false" aria-controls="{$accordionId}">
-                                                <xsl:choose>
-                                                  <xsl:when test="count(current-group()) = 1">
-                                                  <xsl:value-of
-                                                  select="concat($year, ' (1 Eintrag)')"/>
-                                                  </xsl:when>
-                                                  <xsl:otherwise>
-                                                  <xsl:value-of
-                                                  select="concat($year, ' (', count(current-group()), ' Einträge)')"
-                                                  />
-                                                  </xsl:otherwise>
-                                                </xsl:choose>
-                                            </button>
-                                        </h2>
-                                        <div id="{$accordionId}" class="accordion-collapse collapse"
-                                            aria-labelledby="heading-{$year}"
-                                            data-bs-parent="#mentionsAccordion">
-                                            <div class="accordion-body">
+                                    <xsl:variable name="yearGroup" select="current-group()"/>
+                                    
+                                    <div class="mb-4">
+                                        <h2><xsl:value-of select="$year"/></h2>
+                                        
+                                        <!-- Wenn mehr als 10 Einträge in diesem Jahr → gruppiere nach Monat -->
+                                        <xsl:choose>
+                                            <xsl:when test="count($yearGroup) > 10">
+                                                <!-- Gruppierung nach Monat (yyyy-MM) -->
+                                                <xsl:for-each-group select="$yearGroup" group-by="substring(@corresp, 1, 7)">
+                                                    <xsl:sort select="current-grouping-key()" order="ascending"/>
+                                                    
+                                                    <xsl:variable name="monthKey" select="current-grouping-key()"/>
+                                                    <xsl:variable name="monthName">
+                                                        <xsl:value-of select="format-date(xs:date(concat($monthKey, '-01')), '[MNn] [Y]')"/>
+                                                    </xsl:variable>
+                                                    <h3><xsl:value-of select="mam:germanNames($monthName)"/></h3>
+                                                    <ul class="dashed">
+                                                        <xsl:for-each select="current-group()">
+                                                            <xsl:sort select="replace(@corresp, '-', '')" order="ascending" data-type="number"/>
+                                                            <xsl:variable name="linkToDocument" select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"/>
+                                                            <li>
+                                                                <xsl:value-of select="."/>
+                                                                <xsl:text> </xsl:text>
+                                                                <a href="{$linkToDocument}">
+                                                                    <i class="fas fa-external-link-alt"/>
+                                                                </a>
+                                                            </li>
+                                                        </xsl:for-each>
+                                                    </ul>
+                                                </xsl:for-each-group>
+                                            </xsl:when>
+                                            
+                                            <!-- Sonst: einfache Liste -->
+                                            <xsl:otherwise>
                                                 <ul class="dashed">
-                                                  <xsl:for-each select="current-group()">
-                                                  <xsl:sort select="replace(@corresp, '-', '')"
-                                                  order="ascending" data-type="number"/>
-                                                  <xsl:variable name="linkToDocument">
-                                                  <xsl:value-of
-                                                  select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"
-                                                  />
-                                                  </xsl:variable>
-                                                  <li>
-                                                  <xsl:value-of select="."/>
-                                                  <xsl:text> </xsl:text>
-                                                  <a href="{$linkToDocument}">
-                                                  <i class="fas fa-external-link-alt"/>
-                                                  </a>
-                                                  </li>
-                                                  </xsl:for-each>
+                                                    <xsl:for-each select="$yearGroup">
+                                                        <xsl:sort select="replace(@corresp, '-', '')" order="ascending" data-type="number"/>
+                                                        <xsl:variable name="linkToDocument" select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"/>
+                                                        <li>
+                                                            <xsl:value-of select="."/>
+                                                            <xsl:text> </xsl:text>
+                                                            <a href="{$linkToDocument}">
+                                                                <i class="fas fa-external-link-alt"/>
+                                                            </a>
+                                                        </li>
+                                                    </xsl:for-each>
                                                 </ul>
-                                            </div>
-                                        </div>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
                                     </div>
                                 </xsl:for-each-group>
                             </div>
                         </xsl:when>
+                        
                         <!-- Weniger als oder gleich 10: Standardliste -->
                         <xsl:otherwise>
                             <ul class="dashed">
