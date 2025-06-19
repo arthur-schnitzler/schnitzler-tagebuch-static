@@ -44,15 +44,15 @@ search.addWidgets([
               <h5><span class="badge badge-primary">{{ project }}</span></h5>
               <div>
               {{#persons}}
-              <span class="badge badge-secondary">{{ . }}</span>
+              <span class="badge rounded-pill m-1 bg-warning">{{ . }}</span>
               {{/persons}}
               </div>
               {{#works}}
-              <span class="badge badge-success">{{ . }}</span>
+              <span class="badge rounded-pill m-1 bg-success">{{ . }}</span>
               {{/works}}
               <div>
               {{#places}}
-              <span class="badge badge-info">{{ . }}</span>
+              <span class="badge rounded-pill m-1 bg-info">{{ . }}</span>
               {{/places}}
               </div>
               </div>
