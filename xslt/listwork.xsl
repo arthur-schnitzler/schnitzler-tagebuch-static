@@ -48,11 +48,15 @@
                                         </thead>
                                     <tbody>
                                         <xsl:for-each select="descendant::tei:listBibl/tei:bibl">
+
                                             <xsl:variable name="id">
                                                 <xsl:value-of select="data(@xml:id)"/>
                                             </xsl:variable>
                                             <xsl:variable name="titel"
                                                 select="normalize-space(tei:title[1]/text())"/>
+                                            <span hidden="true">
+                                                <xsl:value-of select="$titel"/>
+                                            </span>
                                             <xsl:variable name="work-kind"
                                                 select="descendant::tei:note[@type = 'work_kind'][1]"/>
                                             <xsl:variable name="datum">
