@@ -31,6 +31,11 @@
     <xsl:key name="work-lookup" match="tei:bibl" use="tei:relatedItem/@target"/>
     <xsl:key name="work-day-lookup" match="item" use="ref"/>
     <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
+    <!-- Schnitzler-Lektüren -->
+    <xsl:param name="lektueren-konkordanz"
+        select="document('../../data/indices/konkordanz.xml')"/>
+    <xsl:key name="lektueren-konk-lookup" match="ref" use="@xml:id"/>
+    
     <!-- PERSON -->
     <xsl:template match="tei:person" name="person_detail">
         <xsl:param name="showNumberOfMentions" as="xs:integer" select="50000"/>
@@ -460,6 +465,16 @@
                             </li>
                         </xsl:for-each>
                     </ul>
+                </xsl:if>
+                <xsl:if test="$current-edition = 'schnitzler-lektueren'">
+                    <p class="text-center">
+                        <xsl:variable name="link"
+                            select="key('lektueren-konk-lookup', @xml:id, $lektueren-konkordanz)[1]/@target"/>
+                        <a href="{concat($link, '#', @xml:id)}"
+                            style="display: inline-block; background-color: #022954; color: white; padding: 0.5em 1em; border-radius: 0.25rem; text-decoration: none;">
+                            Zur Leseliste
+                        </a>
+                    </p>
                 </xsl:if>
             </div>
             <xsl:choose>
@@ -1724,3 +1739,4 @@
         </xsl:choose>
     </xsl:function>
 </xsl:stylesheet>
+
