@@ -327,13 +327,19 @@
                 <div class="modal fade" id="faks-modal" tabindex="-1" aria-labelledby="faksimile" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered faksimile-modal" style="max-width: 90%;">
                         <div class="modal-content">
+                            
+                            <!-- Modal Header -->
                             <div class="modal-header">
                                 <h5 class="modal-title">Faksimile</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
                             </div>
+                            
+                            <!-- Modal Body -->
                             <div class="modal-body">
-                                <div id="openseadragon-photo" style="height: 850px;"/>
-                                <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"/>
+                                <div id="openseadragon-photo" style="height: 850px;"></div>
+                                
+                                <!-- OpenSeadragon Script -->
+                                <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"></script>
                                 <script type="text/javascript">
                                     var viewer = OpenSeadragon({
                                     id: "openseadragon-photo",
@@ -341,30 +347,31 @@
                                     prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
                                     sequenceMode: true,
                                     showReferenceStrip: true,
-                                    tileSources:[<xsl:for-each select=".//tei:facsimile/tei:graphic/data(@url)">{
-                                        type: 'image',
-                                        url: '<xsl:value-of select="concat(., '?format=iiif')"/>'
-                                        }
-                                        <xsl:choose>
-                                            <xsl:when test="position() != last()">,</xsl:when>
-                                        </xsl:choose></xsl:for-each>
+                                    tileSources: [
+                                    <xsl:for-each select=".//tei:facsimile/tei:graphic/data(@url)">
+                                        {
+                                        type: "image",
+                                        url: "<xsl:value-of select="concat(., '?format=iiif')"/>"
+                                        }<xsl:if test="position() != last()">,</xsl:if>
+                                    </xsl:for-each>
                                     ]
-                                    });</script>
+                                    });
+                                </script>
                             </div>
+                            
+                            <!-- Modal Footer (Links) -->
                             <div class="modal-footer" style="justify-content: flex-start;">
                                 <ul class="list-unstyled">
                                     <xsl:for-each select=".//tei:facsimile/tei:graphic/data(@url)">
                                         <li>
-                                            <a>
-                                                <xsl:attribute name="href">
-                                                    <xsl:value-of select="concat(., '?format=gui')"/>
-                                                </xsl:attribute>
+                                            <a href="{concat(., '?format=gui')}">
                                                 <xsl:value-of select="."/>
                                             </a>
                                         </li>
                                     </xsl:for-each>
                                 </ul>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
