@@ -184,7 +184,7 @@
                                                   class="fas fa-solid fa-download"/> DOWNLOAD
                                                   </a>&#160; </li>
                                                 <li class="nav-item"> &#160;<a href="#"
-                                                  data-bs-target="#chronik" type="button"
+                                                        data-bs-target="#schnitzler-chronik-modal" type="button"
                                                   data-bs-toggle="modal"
                                                   title="Weitere Ereignisse an diesem Tag">
                                                   <i class="fas fa-calendar-day"/> CHRONIK
@@ -495,7 +495,7 @@
                     </div>
                 </div>
                 <!-- Modal Chronik -->
-                <div class="modal fade" id="chronik" tabindex="-1"
+                <div class="modal fade" id="schnitzler-chronik-modal" tabindex="-1"
                     aria-labelledby="downloadModalLabel2" aria-hidden="true">
                     <xsl:variable name="datum"
                         select="descendant::tei:title[@type = 'iso-date']/text()" as="xs:date"/>
