@@ -7,6 +7,7 @@
         <xsl:param name="html_title" select="$project_short_title"/>
         <xsl:param name="entry_date" select="entry_date"/>
         <xsl:param name="page_url" select="''"/>
+        <xsl:param name="meta_description" select="''"/>
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
             <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -15,6 +16,9 @@
             <meta name="apple-mobile-web-app-capable" content="yes"/>
             <meta name="apple-mobile-web-app-title" content="{$html_title}"/>
             <meta name="docTitle" class="staticSearch_docTitle" content="{$html_title}"/>
+            <xsl:if test="$meta_description != ''">
+                <meta name="description" content="{$meta_description}"/>
+            </xsl:if>
             <meta name="msapplication-TileColor" content="#ffffff"/>
             <meta name="msapplication-TileImage" content="{$project_logo}"/>
             <link rel="icon" type="image/svg+xml" href="{$project_logo}" sizes="any"/>

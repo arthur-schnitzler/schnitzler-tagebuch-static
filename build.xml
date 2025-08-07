@@ -62,4 +62,5 @@
             <include name="**/*.xml"/>
         </fileset>
     </copy>
+    <copy file="robots.txt" todir="${target}"/>
 </project>

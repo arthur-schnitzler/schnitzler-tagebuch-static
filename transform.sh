@@ -11,3 +11,6 @@ python make_typesense_index.py
 
 echo "create app"
 ant
+
+echo "generate sitemap"
+python3 generate_sitemap.py

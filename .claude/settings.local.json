@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(ant:*)"
+      "Bash(ant:*)",
+      "Bash(./transform.sh)",
+      "Bash(python3:*)"
     ],
     "deny": []
   }

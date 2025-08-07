@@ -14,6 +14,7 @@
         <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
+                <xsl:with-param name="meta_description" select="'16.407 Tagebucheinträge von Arthur Schnitzler (1879–1931). Digitale Edition des Tagebuchs des österreichischen Schriftstellers mit Personen-, Werk- und Ortsregister.'"/>
             </xsl:call-template>
             <body class="page">
                 <div class="hfeed site" id="page">
