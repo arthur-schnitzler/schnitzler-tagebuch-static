@@ -53,7 +53,7 @@
                         <h6>Work in Progress</h6>
                         <p>
                             Bei Fragen, Anmerkungen, Kritik, aber gerne auch Lob, wenden Sie sich bitte an den
-                            <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">ACDH-CH Helpdesk</a>.
+                            <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">ACDH Helpdesk</a>.
                         </p>
                         <p>
                             <a class="helpdesk-button"

@@ -58,7 +58,7 @@
             <!-- German Wikipedia Internetquelle template parameters -->
             <meta name="DC.title" content="{$html_title}"/>
             <meta name="DC.creator" content="Arthur Schnitzler"/>
-            <meta name="DC.publisher" content="Austrian Centre for Digital Humanities and Cultural Heritage"/>
+            <meta name="DC.publisher" content="Austrian Centre for Digital Humanities"/>
             <meta name="DC.date" content="{format-date(current-date(), '[Y0001]-[M01]-[D01]')}"/>
             <meta name="DC.language" content="de"/>
             <meta name="DC.format" content="text/html"/>
@@ -67,6 +67,27 @@
             </xsl:if>
             <xsl:if test="$entry_date != ''">
                 <meta name="DC.coverage" content="{$entry_date}"/>
+            </xsl:if>
+            
+            <!-- Wikipedia Internetquelle specific metadata -->
+            <meta name="author" content="Arthur Schnitzler"/>
+            <meta name="work" content="Tagebuch (1879–1931). Digitale Edition"/>
+            <meta name="publisher" content="Austrian Centre for Digital Humanities"/>
+            <meta name="language" content="de"/>
+            <xsl:if test="$entry_date != ''">
+                <meta name="date" content="{$entry_date}"/>
+            </xsl:if>
+            
+            <!-- Schema.org metadata for better Wikipedia recognition -->
+            <meta property="og:title" content="{$html_title}"/>
+            <meta property="og:type" content="article"/>
+            <meta property="og:site_name" content="Tagebuch (1879–1931). Digitale Edition"/>
+            <xsl:if test="$page_url != ''">
+                <meta property="og:url" content="{$page_url}"/>
+            </xsl:if>
+            <meta name="article:author" content="Arthur Schnitzler"/>
+            <xsl:if test="$entry_date != ''">
+                <meta name="article:published_time" content="{$entry_date}"/>
             </xsl:if>
             
             <title>
