@@ -55,6 +55,20 @@
                 <meta name="citation_public_url" content="{$page_url}"/>
             </xsl:if>
             
+            <!-- German Wikipedia Internetquelle template parameters -->
+            <meta name="DC.title" content="{$html_title}"/>
+            <meta name="DC.creator" content="Arthur Schnitzler"/>
+            <meta name="DC.publisher" content="Austrian Centre for Digital Humanities and Cultural Heritage"/>
+            <meta name="DC.date" content="{format-date(current-date(), '[Y0001]-[M01]-[D01]')}"/>
+            <meta name="DC.language" content="de"/>
+            <meta name="DC.format" content="text/html"/>
+            <xsl:if test="$page_url != ''">
+                <meta name="DC.identifier" content="{$page_url}"/>
+            </xsl:if>
+            <xsl:if test="$entry_date != ''">
+                <meta name="DC.coverage" content="{$entry_date}"/>
+            </xsl:if>
+            
             <title>
                 <xsl:value-of select="$html_title"/>
             </title>
