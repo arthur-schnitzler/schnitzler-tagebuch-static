@@ -3,7 +3,10 @@
     "allow": [
       "Bash(ant:*)",
       "Bash(./transform.sh)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "WebFetch(domain:de.wikipedia.org)",
+      "Bash(xmllint:*)",
+      "Bash(java:*)"
     ],
     "deny": []
   }
