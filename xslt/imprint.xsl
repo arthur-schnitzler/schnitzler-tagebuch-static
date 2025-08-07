@@ -36,7 +36,7 @@
                                 <h3>Medieninhaberin, Herausgeberin, inhaltliche und redaktionelle Verantwortung, Dienstanbieterin:</h3>
                                 <p><a href="https://www.oeaw.ac.at">Österreichische Akademie der Wissenschaften</a> <br />
                                     Juristische Person öffentlichen Rechts (BGBl 569/1921 idF BGBl I 130/2003) <br />
-                                        <a href="https://acdh.oeaw.ac.at">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</a> <br />
+                                        <a href="https://acdh.oeaw.ac.at">Austrian Centre for Digital Humanities (ACDH)</a> <br />
                                             Dr. Ignaz Seipel-Platz 2, 1010 Wien, Österreich <br />
                                     E-Mail: <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">acdh-ch-helpdesk(at)oeaw.ac.at</a></p>
                                 <p>Technische Betreuung und Kuratierung der Daten: Peter Andorfer, Martin Anton Müller</p>
@@ -44,9 +44,9 @@
                                 <p>Die Österreichische Akademie der Wissenschaften (ÖAW) hat den gesetzlichen Auftrag, die Wissenschaft
                                     in jeder Hinsicht zu fördern. Als Gelehrtengesellschaft pflegt die ÖAW den Diskurs und die
                                     Zusammenarbeit der Wissenschaft mit Öffentlichkeit, Politik und Wirtschaft.</p>
-                                <p>Das Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH) ist ein Institut der ÖAW,
+                                <p>Das Austrian Centre for Digital Humanities (ACDH) ist ein Institut der ÖAW,
                                     das mit dem Ziel gegründet wurde, digitale Methoden und Ansätze in den geisteswissenschaftlichen
-                                    Disziplinen zu fördern. Das ACDH-CH unterstützt digitale Forschung in vielfältiger Weise.</p>
+                                    Disziplinen zu fördern. Das ACDH unterstützt digitale Forschung in vielfältiger Weise.</p>
                                 <p>Digitale Edition des Tagebuchs von Arthur Schnitzler</p>
                                 <h3>Vertretungsbefugte Organe:</h3>
                                 <p>Präsident: Univ.-Prof. Dr. phil. Heinz Faßmann <br />
