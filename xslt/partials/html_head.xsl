@@ -6,6 +6,7 @@
     <xsl:template match="/" name="html_head">
         <xsl:param name="html_title" select="$project_short_title"/>
         <xsl:param name="entry_date" select="entry_date"/>
+        <xsl:param name="page_url" select="''"/>
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
             <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -35,6 +36,21 @@
             <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png"/>
             <meta name="docSortKey" class="staticSearch_docSortKey" content="d_{$entry_date}"/>
             <link rel="profile" href="http://gmpg.org/xfn/11"/>
+            
+            <!-- Citation metadata for Wikipedia automatic importer -->
+            <meta name="citation_title" content="{$html_title}"/>
+            <meta name="citation_author" content="Arthur Schnitzler"/>
+            <meta name="citation_publication_title" content="Tagebuch (1879–1931)"/>
+            <meta name="citation_publisher" content="Austrian Centre for Digital Humanities"/>
+            <meta name="citation_language" content="de"/>
+            <meta name="citation_online_date" content="{format-date(current-date(), '[Y0001]-[M01]-[D01]')}"/>
+            <xsl:if test="$entry_date != ''">
+                <meta name="citation_publication_date" content="{$entry_date}"/>
+            </xsl:if>
+            <xsl:if test="$page_url != ''">
+                <meta name="citation_public_url" content="{$page_url}"/>
+            </xsl:if>
+            
             <title>
                 <xsl:value-of select="$html_title"/>
             </title>
