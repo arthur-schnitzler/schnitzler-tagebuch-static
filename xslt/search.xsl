@@ -27,32 +27,146 @@
                                 <h1><xsl:value-of select="$doc_title"/></h1>
                             </div>
                             <div class="card-body">
-                                <div class="ais-InstantSearch">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div id="stats-container"></div>
-                                            <div id="searchbox"></div>
-                                            <div id="current-refinements"></div>
-                                            <div id="clear-refinements"></div>
-                                            
-                                            <h4>Sortierung</h4>
-                                            <div id="sort-by"></div>
-                                            <h4>Jahr</h4>
-                                            <div id="range-input"></div>
-                                            <h4>Personen</h4>
-                                            <div id="refinement-list-persons"></div>
-                                            <h4>Werke</h4>
-                                            <div id="refinement-list-works"></div>
-                                            <h4>Orte</h4>
-                                            <div id="refinement-list-places"></div>
-                                            
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div id="hits"></div>
-                                            <div id="pagination"></div>
+                                <!-- Typesense Search Container -->
+                                <div id="typesense-search-container" style="display: block;">
+                                    <div class="ais-InstantSearch">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <!-- Search Engine Toggle -->
+                                                <div class="card mb-3">
+                                                    <div class="card-header d-flex justify-content-between align-items-center">
+                                                        <span>Suchmaschine</span>
+                                                        <i class="fas fa-info-circle text-muted"
+                                                           data-bs-toggle="tooltip"
+                                                           data-bs-placement="right"
+                                                           title="Typesense: Schnelle Volltextsuche mit Filtern | Noske: Linguistische Suche mit CQL (z.B. [lemma=&quot;sein&quot;] oder lieb*)"></i>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="btn-group btn-group-sm d-flex" role="group" aria-label="Search engine selection">
+                                                            <button type="button" class="btn btn-primary flex-fill" id="btn-typesense">
+                                                                <i class="fas fa-search"></i> Typesense
+                                                            </button>
+                                                            <button type="button" class="btn btn-outline-primary flex-fill" id="btn-noske">
+                                                                <i class="fas fa-language"></i> Noske
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div id="stats-container"></div>
+                                                <div id="searchbox"></div>
+                                                <div id="current-refinements"></div>
+                                                <div id="clear-refinements"></div>
+
+                                                <div class="card">
+                                                    <h4 class="card-header" data-bs-toggle="collapse" data-bs-target="#collapseSorting" aria-expanded="true" aria-controls="collapseSorting" style="cursor: pointer;">
+                                                        Sortierung <i class="fa fa-chevron-down float-end"></i>
+                                                    </h4>
+                                                    <div id="collapseSorting" class="collapse show">
+                                                        <div class="card-body">
+                                                            <div id="sort-by"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card">
+                                                    <h4 class="card-header" data-bs-toggle="collapse" data-bs-target="#collapseYear" aria-expanded="true" aria-controls="collapseYear" style="cursor: pointer;">
+                                                        Jahr <i class="fa fa-chevron-down float-end"></i>
+                                                    </h4>
+                                                    <div id="collapseYear" class="collapse show">
+                                                        <div class="card-body">
+                                                            <div id="range-input"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card">
+                                                    <h4 class="card-header" data-bs-toggle="collapse" data-bs-target="#collapsePersons" aria-expanded="true" aria-controls="collapsePersons" style="cursor: pointer;">
+                                                        Personen <i class="fa fa-chevron-down float-end"></i>
+                                                    </h4>
+                                                    <div id="collapsePersons" class="collapse show">
+                                                        <div class="card-body">
+                                                            <div id="refinement-list-persons"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card">
+                                                    <h4 class="card-header" data-bs-toggle="collapse" data-bs-target="#collapseWorks" aria-expanded="true" aria-controls="collapseWorks" style="cursor: pointer;">
+                                                        Werke <i class="fa fa-chevron-down float-end"></i>
+                                                    </h4>
+                                                    <div id="collapseWorks" class="collapse show">
+                                                        <div class="card-body">
+                                                            <div id="refinement-list-works"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card">
+                                                    <h4 class="card-header" data-bs-toggle="collapse" data-bs-target="#collapsePlaces" aria-expanded="true" aria-controls="collapsePlaces" style="cursor: pointer;">
+                                                        Orte <i class="fa fa-chevron-down float-end"></i>
+                                                    </h4>
+                                                    <div id="collapsePlaces" class="collapse show">
+                                                        <div class="card-body">
+                                                            <div id="refinement-list-places"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div id="hits"></div>
+                                                <div id="pagination"></div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>                          
+                                </div>
+
+                                <!-- Noske Search Container -->
+                                <div id="noske-search-container" style="display: none;">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <!-- Search Engine Toggle (same as Typesense) -->
+                                            <div class="card mb-3">
+                                                <div class="card-header d-flex justify-content-between align-items-center">
+                                                    <span>Suchmaschine</span>
+                                                    <i class="fas fa-info-circle text-muted"
+                                                       data-bs-toggle="tooltip"
+                                                       data-bs-placement="right"
+                                                       title="Typesense: Schnelle Volltextsuche mit Filtern | Noske: Linguistische Suche mit CQL (z.B. [lemma=&quot;sein&quot;] oder lieb*)"></i>
+                                                </div>
+                                                <div class="card-body">
+                                                    <div class="btn-group btn-group-sm d-flex" role="group" aria-label="Search engine selection">
+                                                        <button type="button" class="btn btn-outline-primary flex-fill" id="btn-typesense-noske">
+                                                            <i class="fas fa-search"></i> Typesense
+                                                        </button>
+                                                        <button type="button" class="btn btn-primary flex-fill" id="btn-noske-noske">
+                                                            <i class="fas fa-language"></i> Noske
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="alert alert-info" role="alert">
+                                                <h6><i class="fas fa-info-circle"></i> Erweiterte Suche mit Noske</h6>
+                                                <p class="mb-2 small">
+                                                    <strong>Einfache Suche: </strong> <code>liebe</code> oder <code>lieb*</code> (mit * für beliebige Zeichen)<br/>
+                                                    <strong>CQL-Suche: </strong> <code>[lemma="lieben"]</code> • <code>[word=".*ing"]</code><br/>
+                                                    <strong>Platzhalter: </strong> Einfach: <code>*</code> und <code>?</code> • CQL: <code>.*</code> in Anführungszeichen<br/>
+                                                    <strong>Beispiele: </strong> <code>lieb*</code> • <code>[word="Lie.*"]</code> • <code>[lemma="sein"]</code>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div id="noske-search"></div>
+                                            <div id="hitsbox"></div>
+                                            <div>
+                                                <div id="noske-pagination-test"></div>
+                                                <div id="noske-stats"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -63,7 +177,14 @@
                 <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
                     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
                 </script>-->
-                <script src="js/ts_index.js"></script>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css" />
+                <link rel="stylesheet" href="css/noske-search.css" />
+                <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.46.0"></script>
+                <script
+                    src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script>
+                 <script src="js/ts_index.js"></script>
+                 <script type="module" src="js/noske_search.js"></script>
+                 <script src="js/search_toggle.js"></script>
             </body>
         </html>
     </xsl:template>

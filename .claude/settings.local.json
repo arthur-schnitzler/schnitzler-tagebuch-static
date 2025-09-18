@@ -6,7 +6,14 @@
       "Bash(python3:*)",
       "WebFetch(domain:de.wikipedia.org)",
       "Bash(xmllint:*)",
-      "Bash(java:*)"
+      "Bash(java:*)",
+      "Bash(grep:*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:api.github.com)",
+      "Read(//Users/oldfiche/git/**)",
+      "Bash(cat:*)"
     ],
     "deny": []
   }
