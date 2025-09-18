@@ -58,60 +58,16 @@
                                                 <div id="current-refinements"></div>
                                                 <div id="clear-refinements"></div>
 
-                                                <div class="card">
-                                                    <h4 class="card-header" data-bs-toggle="collapse" data-bs-target="#collapseSorting" aria-expanded="true" aria-controls="collapseSorting" style="cursor: pointer;">
-                                                        Sortierung <i class="fa fa-chevron-down float-end"></i>
-                                                    </h4>
-                                                    <div id="collapseSorting" class="collapse show">
-                                                        <div class="card-body">
-                                                            <div id="sort-by"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card">
-                                                    <h4 class="card-header" data-bs-toggle="collapse" data-bs-target="#collapseYear" aria-expanded="true" aria-controls="collapseYear" style="cursor: pointer;">
-                                                        Jahr <i class="fa fa-chevron-down float-end"></i>
-                                                    </h4>
-                                                    <div id="collapseYear" class="collapse show">
-                                                        <div class="card-body">
-                                                            <div id="range-input"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card">
-                                                    <h4 class="card-header" data-bs-toggle="collapse" data-bs-target="#collapsePersons" aria-expanded="true" aria-controls="collapsePersons" style="cursor: pointer;">
-                                                        Personen <i class="fa fa-chevron-down float-end"></i>
-                                                    </h4>
-                                                    <div id="collapsePersons" class="collapse show">
-                                                        <div class="card-body">
-                                                            <div id="refinement-list-persons"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card">
-                                                    <h4 class="card-header" data-bs-toggle="collapse" data-bs-target="#collapseWorks" aria-expanded="true" aria-controls="collapseWorks" style="cursor: pointer;">
-                                                        Werke <i class="fa fa-chevron-down float-end"></i>
-                                                    </h4>
-                                                    <div id="collapseWorks" class="collapse show">
-                                                        <div class="card-body">
-                                                            <div id="refinement-list-works"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="card">
-                                                    <h4 class="card-header" data-bs-toggle="collapse" data-bs-target="#collapsePlaces" aria-expanded="true" aria-controls="collapsePlaces" style="cursor: pointer;">
-                                                        Orte <i class="fa fa-chevron-down float-end"></i>
-                                                    </h4>
-                                                    <div id="collapsePlaces" class="collapse show">
-                                                        <div class="card-body">
-                                                            <div id="refinement-list-places"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                <h4>Sortierung</h4>
+                                                <div id="sort-by"></div>
+                                                <h4>Jahr</h4>
+                                                <div id="range-input"></div>
+                                                <h4>Personen</h4>
+                                                <div id="refinement-list-persons"></div>
+                                                <h4>Werke</h4>
+                                                <div id="refinement-list-works"></div>
+                                                <h4>Orte</h4>
+                                                <div id="refinement-list-places"></div>
 
                                             </div>
                                             <div class="col-md-8">
