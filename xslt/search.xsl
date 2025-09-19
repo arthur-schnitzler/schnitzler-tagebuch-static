@@ -9,12 +9,17 @@
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="partials/html_footer.xsl"/>
+    <xsl:import href="./partials/structured_data.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Volltextsuche'"/>
+        <xsl:variable name="meta_description" select="'Durchsuchen Sie die Tagebücher Arthur Schnitzlers (1879-1931) mit modernster Volltext- und linguistischer Suche. Über 10.000 Tagebucheinträge digital durchsuchbar.'"/>
+        <xsl:variable name="page_url" select="'https://schnitzler-tagebuch.acdh.oeaw.ac.at/search.html'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
             <xsl:call-template name="html_head">
-                <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
+                <xsl:with-param name="html_title" select="$doc_title"/>
+                <xsl:with-param name="meta_description" select="$meta_description"/>
+                <xsl:with-param name="page_url" select="$page_url"/>
             </xsl:call-template>
             
             <body class="page">
@@ -126,10 +131,19 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <xsl:call-template name="html_footer"/>
-                    
+
                 </div>
+
+                <!-- Structured Data for Search Page -->
+                <xsl:call-template name="website_structured_data">
+                    <xsl:with-param name="page_title" select="$doc_title"/>
+                    <xsl:with-param name="page_url" select="$page_url"/>
+                    <xsl:with-param name="page_description" select="$meta_description"/>
+                </xsl:call-template>
+
+                <xsl:call-template name="search_page_structured_data"/>
                 <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
                     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
                 </script>-->

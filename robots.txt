@@ -1,18 +1,43 @@
 User-agent: *
 Allow: /
 
-# Sitemap location
-Sitemap: https://schnitzler-tagebuch.acdh.oeaw.ac.at/sitemap.xml
-
-# Allow all major search engines
+# Specific rules for Google
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
+# Specific rules for Bing
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
+# Specific rules for Yahoo
 User-agent: Slurp
 Allow: /
-
-# Crawl delay to be respectful
 Crawl-delay: 1
+
+# Allow other academic crawlers
+User-agent: ia_archiver
+Allow: /
+
+# Block unnecessary resources to save bandwidth
+User-agent: *
+Disallow: /css/
+Disallow: /js/
+Disallow: /vendor/
+Disallow: /img/favicon/
+Allow: /css/style.css
+Allow: /js/ts_index.js
+
+# Disallow non-essential file types
+User-agent: *
+Disallow: /*.pdf$
+Disallow: /*.zip$
+Disallow: /*.gz$
+
+# SEO optimizations
+# Sitemap locations
+Sitemap: https://schnitzler-tagebuch.acdh.oeaw.ac.at/sitemap.xml
+
+# Host preference for SEO
+Host: schnitzler-tagebuch.acdh.oeaw.ac.at
