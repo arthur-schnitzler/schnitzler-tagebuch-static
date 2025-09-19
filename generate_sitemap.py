@@ -24,12 +24,13 @@ def generate_sitemap():
     # Add static pages
     static_pages = [
         ("about.html", "monthly", "0.8"),
-        ("toc.html", "weekly", "0.9"), 
+        ("toc.html", "weekly", "0.9"),
         ("calendar.html", "weekly", "0.8"),
         ("listperson.html", "monthly", "0.7"),
         ("listwork.html", "monthly", "0.7"),
         ("listplace.html", "monthly", "0.7"),
-        ("search.html", "monthly", "0.6")
+        ("search.html", "monthly", "0.9"),  # Higher priority for search functionality
+        ("imprint.html", "yearly", "0.3")
     ]
     
     for page, changefreq, priority in static_pages:

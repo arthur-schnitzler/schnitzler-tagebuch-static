@@ -78,16 +78,50 @@
                 <meta name="date" content="{$entry_date}"/>
             </xsl:if>
             
-            <!-- Schema.org metadata for better Wikipedia recognition -->
+            <!-- Enhanced Open Graph metadata -->
             <meta property="og:title" content="{$html_title}"/>
             <meta property="og:type" content="article"/>
-            <meta property="og:site_name" content="Tagebuch (1879–1931). Digitale Edition"/>
+            <meta property="og:site_name" content="Arthur Schnitzler: Tagebuch (1879–1931). Digitale Edition"/>
             <xsl:if test="$page_url != ''">
                 <meta property="og:url" content="{$page_url}"/>
             </xsl:if>
+            <xsl:if test="$meta_description != ''">
+                <meta property="og:description" content="{$meta_description}"/>
+            </xsl:if>
+            <meta property="og:image" content="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/project-logo.svg"/>
+            <meta property="og:image:type" content="image/svg+xml"/>
+            <meta property="og:image:width" content="400"/>
+            <meta property="og:image:height" content="400"/>
+            <meta property="og:locale" content="de_AT"/>
             <meta name="article:author" content="Arthur Schnitzler"/>
+            <meta name="article:publisher" content="Austrian Centre for Digital Humanities and Cultural Heritage"/>
             <xsl:if test="$entry_date != ''">
                 <meta name="article:published_time" content="{$entry_date}"/>
+            </xsl:if>
+            <meta name="article:section" content="Digital Humanities"/>
+            <meta name="article:tag" content="Arthur Schnitzler, Tagebuch, Digital Edition, Austrian Literature"/>
+
+            <!-- Twitter Card metadata -->
+            <meta name="twitter:card" content="summary"/>
+            <meta name="twitter:title" content="{$html_title}"/>
+            <xsl:if test="$meta_description != ''">
+                <meta name="twitter:description" content="{$meta_description}"/>
+            </xsl:if>
+            <meta name="twitter:image" content="https://shared.acdh.oeaw.ac.at/schnitzler-tagebuch/project-logo.svg"/>
+            <meta name="twitter:site" content="@acdh_oeaw"/>
+            <meta name="twitter:creator" content="@acdh_oeaw"/>
+
+            <!-- Additional SEO meta tags -->
+            <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+            <meta name="googlebot" content="index, follow"/>
+            <xsl:if test="$entry_date != ''">
+                <meta name="revised" content="{format-date(current-date(), '[Y0001]-[M01]-[D01]')}"/>
+            </xsl:if>
+            <meta name="theme-color" content="#343a40"/>
+
+            <!-- Canonical URL -->
+            <xsl:if test="$page_url != ''">
+                <link rel="canonical" href="{$page_url}"/>
             </xsl:if>
             
             <title>
