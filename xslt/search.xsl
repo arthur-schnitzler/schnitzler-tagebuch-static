@@ -102,19 +102,22 @@
                                                             <i class="fas fa-search"></i> Typesense
                                                         </button>
                                                         <button type="button" class="btn btn-primary flex-fill" id="btn-noske-noske">
-                                                            <i class="fas fa-language"></i> Noske
+                                                            <i class="fas fa-language"></i> NoSketchEngine
                                                         </button>
                                                     </div>
                                                 </div>
                                             </div>
 
                                             <div class="alert alert-info" role="alert">
-                                                <h6><i class="fas fa-info-circle"></i> Erweiterte Suche mit Noske</h6>
+                                                <h6><i class="fas fa-info-circle"></i> Erweiterte Suche mit NoSketchEngine</h6>
+                                                <p class="mb-2 small">Achtung, derzeit ist die Suche möglich, aber die Ergebnisse
+                                                sind nicht mit den Dokumenten verlinkt. Dafür lässt sich mit einem Textausschnitt des Ergebnisses
+                                                in der Typesense-Suche die betreffende Stelle finden.</p>
                                                 <p class="mb-2 small">
-                                                    <strong>Einfache Suche: </strong> <code>liebe</code> oder <code>lieb*</code> (mit * für beliebige Zeichen)<br/>
+                                                    <strong>Einfache Suche: </strong> <code>liebe</code> oder <code>lieb.*</code> (mit * für beliebige Zeichen)<br/>
                                                     <strong>CQL-Suche: </strong> <code>[lemma="lieben"]</code> • <code>[word=".*ing"]</code><br/>
-                                                    <strong>Platzhalter: </strong> Einfach: <code>*</code> und <code>?</code> • CQL: <code>.*</code> in Anführungszeichen<br/>
-                                                    <strong>Beispiele: </strong> <code>lieb*</code> • <code>[word="Lie.*"]</code> • <code>[lemma="sein"]</code>
+                                                    <strong>Platzhalter: </strong> Einfach: <code>.*</code> und <code>.?</code> • CQL: <code>.*</code> in Anführungszeichen<br/>
+                                                    <strong>Beispiele: </strong> <code>lieb.*</code> • <code>[word="Lie.*"]</code> • <code>[lemma="sein"]</code>
                                                 </p>
                                             </div>
                                         </div>
