@@ -22,6 +22,9 @@ const search = instantsearch({
     searchClient,
 });
 
+// Add started property to track initialization state
+search.started = false;
+
 search.addWidgets([
     instantsearch.widgets.searchBox({
         container: '#searchbox',
@@ -197,3 +200,6 @@ search.addWidgets([
 
 
 search.start();
+
+// Mark as started after initialization
+search.started = true;

@@ -1,8 +1,128 @@
-/* Noske Search Styles for Schnitzler Tagebuch */
+/* Noske search result styling */
+.search-result {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
 
-/* Search container styling */
-#noske-search-container {
-    min-height: 400px;
+/* KWIC styling - single column layout */
+.kwic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    background-color: #fff;
+}
+
+.kwic-container:hover {
+    background-color: #f8f9fa;
+}
+
+.kwic-line {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.25rem;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.context-left {
+    color: #6c757d;
+    text-align: right;
+    flex: 0 1 auto;
+}
+
+.keyword {
+    background-color: #fff3cd;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #856404;
+    font-weight: bold;
+    font-size: 1.1em;
+    flex: 0 0 auto;
+}
+
+.context-right {
+    color: #6c757d;
+    text-align: left;
+    flex: 0 1 auto;
+}
+
+/* Override table styling for better KWIC display */
+#hitsbox table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+#hitsbox table td {
+    padding: 0.5rem;
+    border: none;
+    vertical-align: top;
+}
+
+#hitsbox table tr {
+    border-bottom: 1px solid #dee2e6;
+}
+
+#hitsbox table tr:last-child {
+    border-bottom: none;
+}
+
+/* Make the table look more like a list */
+#hitsbox .table-auto {
+    display: block;
+}
+
+#hitsbox .table-auto tbody {
+    display: block;
+}
+
+#hitsbox .table-auto tr {
+    display: block;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    background-color: #fff;
+}
+
+#hitsbox .table-auto tr:hover {
+    background-color: #f8f9fa;
+}
+
+#hitsbox .table-auto td {
+    display: inline;
+    padding: 0;
+    border: none;
+}
+
+/* Hide table headers for better KWIC display */
+#hitsbox .table-auto thead {
+    display: none;
+}
+
+#hitsbox .table-auto th {
+    display: none;
+}
+
+.list-group-item {
+    border: 1px solid #dee2e6;
+    margin-bottom: 0.5rem;
+    border-radius: 0.375rem;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+#noske-hits .spinner-border {
+    width: 3rem;
+    height: 3rem;
 }
 
 /* Fix Typesense hits layout - override Algolia grid styles */

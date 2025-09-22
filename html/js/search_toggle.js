@@ -54,11 +54,18 @@ class SearchToggle {
         }
 
         // Ensure Typesense search is properly initialized and rendered
-        if (window.search && typeof window.search.refresh === 'function') {
+        if (window.search && window.search.started && typeof window.search.refresh === 'function') {
             // Wait a bit for DOM to update, then refresh
             setTimeout(() => {
                 window.search.refresh();
             }, 100);
+        } else if (window.search && !window.search.started) {
+            // If search exists but hasn't started yet, wait and try again
+            setTimeout(() => {
+                if (window.search.started && typeof window.search.refresh === 'function') {
+                    window.search.refresh();
+                }
+            }, 500);
         }
 
         console.log('Switched to Typesense search');
