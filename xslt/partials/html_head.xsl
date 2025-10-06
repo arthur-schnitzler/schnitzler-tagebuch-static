@@ -21,7 +21,6 @@
             </xsl:if>
             <meta name="msapplication-TileColor" content="#ffffff"/>
             <meta name="msapplication-TileImage" content="{$project_logo}"/>
-            <link rel="icon" type="image/svg+xml" href="{$project_logo}" sizes="any"/>
             <link rel="shortcut icon" type="image/x-icon" href="./img/favicon/favicon.ico"/>
             <link rel="icon" type="image/x-icon" href="./img/favicon/favicon.ico"/>
             <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png"/>
