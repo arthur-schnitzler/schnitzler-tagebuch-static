@@ -13,10 +13,10 @@
     <xsl:import href="./partials/entities.xsl"/>
     <xsl:import href="./partials/html_title_navigation.xsl"/>
     <xsl:import href="./partials/view-type.xsl"/>
-    <!-- Einstellungen für die Schnitzler-Chronik. Das entfernte XSL wird nur benützt, wenn fetch-locally auf  -->
-    <xsl:import
-        href="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/schnitzler-chronik.xsl"/>
-    <!--<xsl:import href="../../schnitzler-chronik-static/xslt/export/schnitzler-chronik.xsl"/>-->
+    <!-- Einstellungen für die Schnitzler-Chronik. Lokaler Import zur Vermeidung von Remote-Fetching während des Builds -->
+    <xsl:import href="../../schnitzler-chronik-static/xslt/export/schnitzler-chronik.xsl"/>
+    <!--<xsl:import
+        href="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/schnitzler-chronik.xsl"/>-->
     <xsl:param name="schnitzler-chronik_fetch-locally" as="xs:boolean" select="true()"/>
     <xsl:param name="schnitzler-chronik_current-type" as="xs:string" select="'schnitzler-tagebuch'"/>
     <xsl:import href="./partials/biblStruct-output.xsl"/>

@@ -14,7 +14,8 @@
       "WebFetch(domain:api.github.com)",
       "Read(//Users/oldfiche/git/**)",
       "Bash(cat:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(git log:*)"
     ],
     "deny": []
   }
