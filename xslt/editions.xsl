@@ -204,21 +204,10 @@
                                         select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"
                                     />
                                 </span>
-                                <span id="isoDateValueLink" style="color:white">
-                                    <xsl:element name="a">
-                                        <xsl:attribute name="style">
-                                            <xsl:text>color:white</xsl:text>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat('https://wienerschnitzler.org/tag.html#', descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text())"
-                                            />
-                                        </xsl:attribute>
-                                        <xsl:attribute name="target">_blank</xsl:attribute>
-                                        <xsl:value-of
-                                            select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"
-                                        />
-                                    </xsl:element>
+                                <span id="isoDateValueLink" style="color:white;cursor:pointer" onclick="navigator.clipboard.writeText(this.textContent)">
+                                    <xsl:value-of
+                                        select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"
+                                    />
                                 </span>
                             </div>
                         </div>
@@ -569,7 +558,7 @@
                                 <h5 class="modal-title" id="exampleModalLongTitle3">
                                     <a
                                         href="{concat('https://schnitzler-chronik.acdh.oeaw.ac.at/', $datum, '.html')}"
-                                        target="_blank" style="color: #C67F53">
+                                        target="_blank" style="color: #008B8B">
                                         <xsl:value-of
                                             select="concat($wochentag, ', ', $datum-written)"/>
                                     </a>
