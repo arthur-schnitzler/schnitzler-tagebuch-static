@@ -85,6 +85,7 @@ search.addWidgets([
     instantsearch.widgets.refinementList({
         container: '#refinement-list-places',
         attribute: 'places',
+        operator: 'and',
         searchable: true,
         searchablePlaceholder: 'Suche',
         cssClasses: {
@@ -102,6 +103,7 @@ search.addWidgets([
     instantsearch.widgets.refinementList({
         container: '#refinement-list-persons',
         attribute: 'persons',
+        operator: 'and',
         searchable: true,
         searchablePlaceholder: 'Suche',
         cssClasses: {
@@ -119,6 +121,7 @@ search.addWidgets([
     instantsearch.widgets.refinementList({
         container: '#refinement-list-works',
         attribute: 'works',
+        operator: 'and',
         searchable: true,
         searchablePlaceholder: 'Suche',
         cssClasses: {
