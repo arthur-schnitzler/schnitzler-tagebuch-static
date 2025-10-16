@@ -15,6 +15,7 @@
             <meta name="mobile-web-app-capable" content="yes"/>
             <meta name="apple-mobile-web-app-capable" content="yes"/>
             <meta name="apple-mobile-web-app-title" content="{$html_title}"/>
+            <meta name="google-site-verification" content="wqYmQKBKuo1Af851i5lGO3kJLp9qusgNES8lVBJU7_A" />
             <meta name="docTitle" class="staticSearch_docTitle" content="{$html_title}"/>
             <xsl:if test="$meta_description != ''">
                 <meta name="description" content="{$meta_description}"/>
