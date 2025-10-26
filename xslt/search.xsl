@@ -4,8 +4,8 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     version="2.0" exclude-result-prefixes="xsl tei xs">
-    <xsl:output encoding="UTF-8" media-type="text/html" method="html" version="5.0" indent="yes" omit-xml-declaration="yes"  doctype-system="" doctype-public=""/>
-    
+    <xsl:output encoding="UTF-8" media-type="text/html" method="html" version="5.0" indent="yes" omit-xml-declaration="yes"/>
+
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="partials/html_footer.xsl"/>
@@ -14,18 +14,17 @@
         <xsl:variable name="doc_title" select="'Volltextsuche'"/>
         <xsl:variable name="meta_description" select="'Durchsuchen Sie die Tagebücher Arthur Schnitzlers (1879-1931) mit modernster Volltext- und linguistischer Suche. Über 10.000 Tagebucheinträge digital durchsuchbar.'"/>
         <xsl:variable name="page_url" select="'https://schnitzler-tagebuch.acdh.oeaw.ac.at/search.html'"/>
-        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
-        <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+        <html class="h-100" lang="de">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
                 <xsl:with-param name="meta_description" select="$meta_description"/>
                 <xsl:with-param name="page_url" select="$page_url"/>
             </xsl:call-template>
-            
-            <body class="page">
-                <div class="hfeed site" id="page">
-                    <xsl:call-template name="nav_bar"/>
-                    
+            <link rel="stylesheet" href="css/search.css" type="text/css"/>
+
+            <body class="d-flex flex-column h-100">
+                <xsl:call-template name="nav_bar"/>
+                <main class="flex-shrink-0 flex-grow-1">
                     <div class="container-fluid">
                         <div class="card">
                             <div class="card-header">
@@ -36,7 +35,7 @@
                                 <div id="typesense-search-container" style="display: block;">
                                     <div class="ais-InstantSearch">
                                         <div class="row">
-                                            <div class="col-md-4">
+                                            <div class="col-md-4 sticky-sidebar">
                                                 <!-- Search Engine Toggle -->
                                                 <div class="card mb-3">
                                                     <div class="card-header d-flex justify-content-between align-items-center">
@@ -52,7 +51,7 @@
                                                                 <i class="fas fa-search"></i> Typesense
                                                             </button>
                                                             <button type="button" class="btn btn-outline-primary flex-fill" id="btn-noske">
-                                                                <i class="fas fa-language"></i> Noske
+                                                                <i class="fas fa-language"></i> NoSketchEngine
                                                             </button>
                                                         </div>
                                                     </div>
@@ -134,10 +133,8 @@
                             </div>
                         </div>
                     </div>
-
-                    <xsl:call-template name="html_footer"/>
-
-                </div>
+                </main>
+                <xsl:call-template name="html_footer"/>
 
                 <!-- Structured Data for Search Page -->
                 <xsl:call-template name="website_structured_data">
