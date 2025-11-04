@@ -44,19 +44,18 @@ def generate_sitemap():
     
     # Add diary entries
     entry_files = glob.glob('./html/entry__*.html')
-    
+
     for entry_file in sorted(entry_files):
         filename = os.path.basename(entry_file)
-        
-        # Extract date from filename for lastmod
+
+        # Use file modification time as lastmod (more appropriate for search engines
+        # than historical diary entry dates from 1879-1931)
         try:
-            # filename format: entry__YYYY-MM-DD.html
-            date_part = filename.replace('entry__', '').replace('.html', '')
-            entry_date = datetime.strptime(date_part, '%Y-%m-%d')
-            lastmod = entry_date.strftime('%Y-%m-%d')
+            file_mtime = os.path.getmtime(entry_file)
+            lastmod = datetime.fromtimestamp(file_mtime).strftime('%Y-%m-%d')
         except:
             lastmod = datetime.now().strftime('%Y-%m-%d')
-        
+
         url = SubElement(urlset, "url")
         SubElement(url, "loc").text = f"{base_url}/{filename}"
         SubElement(url, "lastmod").text = lastmod
