@@ -15,7 +15,11 @@
       "Read(//Users/oldfiche/git/**)",
       "Bash(cat:*)",
       "Bash(python:*)",
-      "Bash(git log:*)"
+      "Bash(git log:*)",
+      "Bash(curl:*)",
+      "Bash(for:*)",
+      "Bash(do echo \"=== $file ===\")",
+      "Bash(done)"
     ],
     "deny": []
   }
