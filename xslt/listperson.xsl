@@ -16,6 +16,7 @@
         <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
+                <xsl:with-param name="page_url" select="'https://schnitzler-tagebuch.acdh.oeaw.ac.at/listperson.html'"/>
             </xsl:call-template>
             <link href="https://unpkg.com/tabulator-tables@6.2.1/dist/css/tabulator_bootstrap5.min.css" rel="stylesheet" />
             
@@ -342,6 +343,7 @@
                 <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
                     <xsl:call-template name="html_head">
                         <xsl:with-param name="html_title" select="$name"/>
+                        <xsl:with-param name="page_url" select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', $filename)"/>
                     </xsl:call-template>
                     <script src="./js/highcharts-persons-occurences.js"></script>
                     <script src="https://code.highcharts.com/highcharts.js"/>

@@ -16,7 +16,8 @@
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
             <xsl:call-template name="html_head">
-                <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
+                <xsl:with-param name="html_title" select="$doc_title"/>
+                <xsl:with-param name="page_url" select="'https://schnitzler-tagebuch.acdh.oeaw.ac.at/calendar.html'"/>
             </xsl:call-template>
             <body class="page">
                 <script src="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.js"></script>

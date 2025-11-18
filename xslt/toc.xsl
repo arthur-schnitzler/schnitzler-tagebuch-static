@@ -15,7 +15,8 @@
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
             <xsl:call-template name="html_head">
-                <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
+                <xsl:with-param name="html_title" select="$doc_title"/>
+                <xsl:with-param name="page_url" select="'https://schnitzler-tagebuch.acdh.oeaw.ac.at/toc.html'"/>
                 <xsl:with-param name="meta_description" select="'Inhaltsverzeichnis aller Tagebucheinträge von Arthur Schnitzler. Durchsuchbare Übersicht mit Datum, Jahr und direkten Links zu den digitalisierten Einträgen.'"/>
             </xsl:call-template>
             <link href="https://unpkg.com/tabulator-tables@6.2.1/dist/css/tabulator_bootstrap5.min.css" rel="stylesheet" />
