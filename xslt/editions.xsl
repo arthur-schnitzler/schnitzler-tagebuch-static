@@ -109,7 +109,7 @@
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
                 <xsl:with-param name="entry_date" select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"/>
-                <xsl:with-param name="page_url" select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', replace($teiSource, '.xml', '.html'))"/>
+                <xsl:with-param name="page_url" select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', $teiSource, '.html')"/>
                 <xsl:with-param name="meta_description" select="concat('Tagebucheintrag von Arthur Schnitzler vom ', $doc_title, '. Digitale Edition des Tagebuchs (1879–1931) des österreichischen Schriftstellers.')"/>
             </xsl:call-template>
             <body class="page">
