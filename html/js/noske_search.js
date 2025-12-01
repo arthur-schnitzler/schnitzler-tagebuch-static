@@ -68,7 +68,8 @@ class NoskeSearchImplementation {
                     id: "hitsbox",
                     css: {
                         table: "table-auto",
-                    }
+                    },
+                    kwicRowRenderer: this.customKwicRowRenderer.bind(this)
                 },
                 pagination: {
                     id: "noske-pagination-test",
@@ -91,6 +92,48 @@ class NoskeSearchImplementation {
             console.error('Error initializing Noske search:', error);
             this.showError('Fehler beim Initialisieren der Noske-Suche. Bitte versuchen Sie es später erneut.');
         }
+    }
+
+    customKwicRowRenderer(hit) {
+        // Extract doc.id from the hit's references
+        const docId = hit.refs?.find(ref => ref.name === 'doc.id')?.val;
+
+        // Create the row element
+        const row = document.createElement('tr');
+        row.className = 'kwic-row';
+
+        // Left context
+        const leftCell = document.createElement('td');
+        leftCell.className = 'text-end text-muted';
+        leftCell.textContent = hit.Left?.map(item => item.word).join(' ') || '';
+        row.appendChild(leftCell);
+
+        // Keyword
+        const kwicCell = document.createElement('td');
+        kwicCell.className = 'fw-bold text-primary text-center';
+        kwicCell.textContent = hit.Kwic?.map(item => item.word).join(' ') || '';
+        row.appendChild(kwicCell);
+
+        // Right context
+        const rightCell = document.createElement('td');
+        rightCell.className = 'text-start text-muted';
+        rightCell.textContent = hit.Right?.map(item => item.word).join(' ') || '';
+        row.appendChild(rightCell);
+
+        // Document link
+        const docCell = document.createElement('td');
+        docCell.className = 'text-start';
+        if (docId) {
+            const link = document.createElement('a');
+            link.href = `${docId}.html`;
+            link.textContent = docId.replace('entry__', '');
+            link.className = 'btn btn-sm btn-outline-primary';
+            link.title = 'Zum Tagebucheintrag';
+            docCell.appendChild(link);
+        }
+        row.appendChild(docCell);
+
+        return row;
     }
 
     setupEventListeners() {
