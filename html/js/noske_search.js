@@ -5,13 +5,14 @@ class NoskeSearchImplementation {
     constructor() {
         this.search = null;
         this.initialized = false;
+        this.latestApiData = null;
         this.config = {
             client: {
                 base: "https://corpus-search.acdh.oeaw.ac.at/",
-                corpname: "schnitzlertagebuch", // Tagebuch corpus name as specified
-                attrs: "word,id",
-                structs: "doc,docTitle,head,p,imprimatur,list",
-                refs: "doc.id,doc.corpus,docTitle.id,p.id,head.id,imprimatur.id,list.id"
+                corpname: "schnitzlertagebuch",
+                attrs: "word,landingPageURI",
+                structs: "s",
+                refs: "doc.id,chapter.id"
             },
             hits: {
                 id: "noske-hits",
@@ -59,23 +60,16 @@ class NoskeSearchImplementation {
             this.search.search({
                 client: {
                     base: "https://corpus-search.acdh.oeaw.ac.at/",
-                    corpname: "schnitzlertagebuch", // Tagebuch corpus name as specified
+                    corpname: "schnitzlertagebuch",
                     attrs: "word,landingPageURI",
                     structs: "s",
-                    refs: "doc.id",
+                    refs: "doc.id,chapter.id",
                 },
                 hits: {
                     id: "hitsbox",
                     css: {
                         table: "table-auto",
                     },
-                    customUrl: true,
-                    customUrlTransform: function(lines) {
-                        // Extract landingPageURI from kwic_attr
-                        let kwic_attr = lines.kwic_attr?.split("/");
-                        let doc_id = kwic_attr[kwic_attr.length - 1];
-                        return doc_id;
-                    }
                 },
                 pagination: {
                     id: "noske-pagination-test",
@@ -88,6 +82,9 @@ class NoskeSearchImplementation {
                 },
             });
 
+            // Intercept API calls to capture response data
+            this.interceptApiCalls();
+
             // Add custom event listeners
             this.setupEventListeners();
 
@@ -98,6 +95,149 @@ class NoskeSearchImplementation {
             console.error('Error initializing Noske search:', error);
             this.showError('Fehler beim Initialisieren der Noske-Suche. Bitte versuchen Sie es später erneut.');
         }
+    }
+
+    interceptApiCalls() {
+        // Intercept fetch calls to capture Noske API responses
+        const originalFetch = window.fetch;
+        const self = this;
+
+        window.fetch = async function(...args) {
+            const response = await originalFetch.apply(this, args);
+
+            // Check if this is a Noske concordance API call
+            if (args[0] && typeof args[0] === 'string' && args[0].includes('corpus-search.acdh.oeaw.ac.at')) {
+                // Clone the response so we can read it without consuming it
+                const clonedResponse = response.clone();
+                try {
+                    const data = await clonedResponse.json();
+                    console.log('Intercepted Noske API response:', data);
+                    self.latestApiData = data;
+
+                    // Add links after the DOM is updated
+                    setTimeout(() => {
+                        self.addLinksToResults();
+                    }, 100);
+                } catch (e) {
+                    console.log('Could not parse API response as JSON');
+                }
+            }
+
+            return response;
+        };
+    }
+
+    addLinksToResults() {
+        const hitsContainer = document.getElementById('hitsbox');
+        if (!hitsContainer) return;
+
+        console.log('Adding links to results...');
+        console.log('this.latestApiData available?', !!this.latestApiData);
+
+        if (!this.latestApiData && window.noskeSearch && window.noskeSearch.latestApiData) {
+            console.log('Using latestApiData from window.noskeSearch');
+            this.latestApiData = window.noskeSearch.latestApiData;
+        }
+
+        const rows = hitsContainer.querySelectorAll('tr');
+        console.log('Found', rows.length, 'rows');
+
+        rows.forEach((row, index) => {
+            if (row.dataset.processed === 'true') return;
+            row.dataset.processed = 'true';
+
+            const cells = row.querySelectorAll('td');
+            if (cells.length < 3) return;
+
+            let docRef = null;
+
+            // Try to extract from latestApiData
+            if (this.latestApiData) {
+                const lines = this.latestApiData.Lines || this.latestApiData.lines;
+                if (lines && lines[index]) {
+                    const line = lines[index];
+                    console.log('Line', index, 'data:', line);
+
+                    // Check Kwic tokens for landingPageURI
+                    if (line.Kwic && Array.isArray(line.Kwic)) {
+                        for (const token of line.Kwic) {
+                            if (token && token.attr) {
+                                docRef = token.attr.replace(/^\//, '');
+                                console.log('Found landingPageURI in Kwic:', docRef);
+                                break;
+                            }
+                        }
+                    }
+
+                    // Fallback: check Left tokens
+                    if (!docRef && line.Left && Array.isArray(line.Left)) {
+                        for (const token of line.Left) {
+                            if (token && token.attr) {
+                                docRef = token.attr.replace(/^\//, '');
+                                console.log('Found landingPageURI in Left:', docRef);
+                                break;
+                            }
+                        }
+                    }
+
+                    // Fallback: check Right tokens
+                    if (!docRef && line.Right && Array.isArray(line.Right)) {
+                        for (const token of line.Right) {
+                            if (token && token.attr) {
+                                docRef = token.attr.replace(/^\//, '');
+                                console.log('Found landingPageURI in Right:', docRef);
+                                break;
+                            }
+                        }
+                    }
+
+                    // Fallback: check Refs for chapter.id
+                    if (!docRef && line.Refs && Array.isArray(line.Refs)) {
+                        const chapterRef = line.Refs.find(ref => ref.name === 'chapter.id');
+                        if (chapterRef) {
+                            docRef = chapterRef.val || chapterRef.value;
+                            console.log('Found chapter.id in Refs:', docRef);
+                        }
+                    }
+                }
+            }
+
+            console.log('Row', index, 'final docRef:', docRef);
+
+            if (docRef) {
+                let entryUrl;
+                if (docRef.startsWith('http://') || docRef.startsWith('https://')) {
+                    const urlParts = docRef.split('/');
+                    entryUrl = urlParts[urlParts.length - 1];
+                    console.log('Row', index, 'extracted filename from URL:', entryUrl);
+                } else {
+                    const entryId = docRef.replace(/\.xml$/, '').replace(/^.*\//, '');
+                    entryUrl = `${entryId}.html`;
+                    console.log('Row', index, 'linking to:', entryUrl);
+                }
+
+                row.style.cursor = 'pointer';
+                row.classList.add('clickable-row');
+
+                const newRow = row.cloneNode(true);
+                row.parentNode.replaceChild(newRow, row);
+
+                newRow.addEventListener('click', (e) => {
+                    if (e.target.tagName !== 'A') {
+                        window.location.href = entryUrl;
+                    }
+                });
+
+                const newCells = newRow.querySelectorAll('td');
+                const keywordCell = newCells[1];
+                if (keywordCell && !keywordCell.querySelector('a')) {
+                    const keyword = keywordCell.innerHTML;
+                    keywordCell.innerHTML = `<a href="${entryUrl}">${keyword}</a>`;
+                }
+            } else {
+                console.warn('No document reference found for row', index);
+            }
+        });
     }
 
     setupEventListeners() {
