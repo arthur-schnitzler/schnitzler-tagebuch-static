@@ -60,9 +60,9 @@ class NoskeSearchImplementation {
                 client: {
                     base: "https://corpus-search.acdh.oeaw.ac.at/",
                     corpname: "schnitzlertagebuch", // Tagebuch corpus name as specified
-                    attrs: "word,id",
-                    structs: "doc,docTitle,head,p,imprimatur,list",
-                    refs: "doc.id,doc.corpus,docTitle.id,p.id,head.id,imprimatur.id,list.id",
+                    attrs: "word,id,landingPageURI",
+                    structs: "doc,docTitle,head,p,imprimatur,list,chapter",
+                    refs: "doc.id,doc.corpus,docTitle.id,p.id,head.id,imprimatur.id,list.id,chapter.id",
                 },
                 hits: {
                     id: "hitsbox",
@@ -95,8 +95,17 @@ class NoskeSearchImplementation {
     }
 
     customKwicRowRenderer(hit) {
-        // Extract doc.id from the hit's references
-        const docId = hit.refs?.find(ref => ref.name === 'doc.id')?.val;
+        // Extract landingPageURI from the keyword token (first token should have it)
+        let landingPageURI = null;
+
+        // Check all tokens for landingPageURI attribute
+        const allTokens = [...(hit.Left || []), ...(hit.Kwic || []), ...(hit.Right || [])];
+        for (const token of allTokens) {
+            if (token.landingPageURI) {
+                landingPageURI = token.landingPageURI;
+                break;
+            }
+        }
 
         // Create the row element
         const row = document.createElement('tr');
@@ -123,10 +132,14 @@ class NoskeSearchImplementation {
         // Document link
         const docCell = document.createElement('td');
         docCell.className = 'text-start';
-        if (docId) {
+        if (landingPageURI) {
+            // Extract just the filename from the full URI
+            const filename = landingPageURI.split('/').pop();
+            const displayText = filename.replace('entry__', '').replace('.html', '');
+
             const link = document.createElement('a');
-            link.href = `${docId}.html`;
-            link.textContent = docId.replace('entry__', '');
+            link.href = filename;
+            link.textContent = displayText;
             link.className = 'btn btn-sm btn-outline-primary';
             link.title = 'Zum Tagebucheintrag';
             docCell.appendChild(link);
