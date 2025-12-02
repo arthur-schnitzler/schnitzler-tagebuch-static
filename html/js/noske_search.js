@@ -60,16 +60,22 @@ class NoskeSearchImplementation {
                 client: {
                     base: "https://corpus-search.acdh.oeaw.ac.at/",
                     corpname: "schnitzlertagebuch", // Tagebuch corpus name as specified
-                    attrs: "word,id,landingPageURI",
-                    structs: "doc,docTitle,head,p,imprimatur,list,chapter",
-                    refs: "doc.id,doc.corpus,docTitle.id,p.id,head.id,imprimatur.id,list.id,chapter.id",
+                    attrs: "word,landingPageURI",
+                    structs: "s",
+                    refs: "doc.id",
                 },
                 hits: {
                     id: "hitsbox",
                     css: {
                         table: "table-auto",
                     },
-                    kwicRowRenderer: this.customKwicRowRenderer.bind(this)
+                    customUrl: true,
+                    customUrlTransform: function(lines) {
+                        // Extract landingPageURI from kwic_attr
+                        let kwic_attr = lines.kwic_attr?.split("/");
+                        let doc_id = kwic_attr[kwic_attr.length - 1];
+                        return doc_id;
+                    }
                 },
                 pagination: {
                     id: "noske-pagination-test",
@@ -92,61 +98,6 @@ class NoskeSearchImplementation {
             console.error('Error initializing Noske search:', error);
             this.showError('Fehler beim Initialisieren der Noske-Suche. Bitte versuchen Sie es später erneut.');
         }
-    }
-
-    customKwicRowRenderer(hit) {
-        // Extract landingPageURI from the keyword token (first token should have it)
-        let landingPageURI = null;
-
-        // Check all tokens for landingPageURI attribute
-        const allTokens = [...(hit.Left || []), ...(hit.Kwic || []), ...(hit.Right || [])];
-        for (const token of allTokens) {
-            if (token.landingPageURI) {
-                landingPageURI = token.landingPageURI;
-                break;
-            }
-        }
-
-        // Create the row element
-        const row = document.createElement('tr');
-        row.className = 'kwic-row';
-
-        // Left context
-        const leftCell = document.createElement('td');
-        leftCell.className = 'text-end text-muted';
-        leftCell.textContent = hit.Left?.map(item => item.word).join(' ') || '';
-        row.appendChild(leftCell);
-
-        // Keyword
-        const kwicCell = document.createElement('td');
-        kwicCell.className = 'fw-bold text-primary text-center';
-        kwicCell.textContent = hit.Kwic?.map(item => item.word).join(' ') || '';
-        row.appendChild(kwicCell);
-
-        // Right context
-        const rightCell = document.createElement('td');
-        rightCell.className = 'text-start text-muted';
-        rightCell.textContent = hit.Right?.map(item => item.word).join(' ') || '';
-        row.appendChild(rightCell);
-
-        // Document link
-        const docCell = document.createElement('td');
-        docCell.className = 'text-start';
-        if (landingPageURI) {
-            // Extract just the filename from the full URI
-            const filename = landingPageURI.split('/').pop();
-            const displayText = filename.replace('entry__', '').replace('.html', '');
-
-            const link = document.createElement('a');
-            link.href = filename;
-            link.textContent = displayText;
-            link.className = 'btn btn-sm btn-outline-primary';
-            link.title = 'Zum Tagebucheintrag';
-            docCell.appendChild(link);
-        }
-        row.appendChild(docCell);
-
-        return row;
     }
 
     setupEventListeners() {
