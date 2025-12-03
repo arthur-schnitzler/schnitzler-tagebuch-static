@@ -106,7 +106,8 @@ class NoskeSearchImplementation {
                     id: "noske-client",
                     base: "https://corpus-search.acdh.oeaw.ac.at/",
                     corpname: "schnitzlertagebuch",
-                    attrs: "word,landingPageURI",
+                    attrs: "word",
+                    attr_allpos: "all",
                     structs: "s",
                     refs: "doc.id",
                 },
@@ -150,11 +151,18 @@ class NoskeSearchImplementation {
             return;
         }
 
+        let processingResults = false;
+
         const observer = new MutationObserver(() => {
             const rows = hitsContainer.querySelectorAll('tr');
-            if (rows.length > 0) {
-                console.log('Results detected in DOM, attempting to extract and add links...');
-                setTimeout(() => this.addLinksFromDOM(), 200);
+            if (rows.length > 0 && !processingResults) {
+                processingResults = true;
+                console.log('Results detected in DOM, fetching landingPageURI data...');
+                setTimeout(() => {
+                    this.fetchAndAddLinks().finally(() => {
+                        processingResults = false;
+                    });
+                }, 300);
             }
         });
 
@@ -164,6 +172,36 @@ class NoskeSearchImplementation {
         });
 
         console.log('Results observer set up');
+    }
+
+    async fetchAndAddLinks() {
+        // Get the current search query from the input
+        const searchInput = document.querySelector('#noske-search input');
+        if (!searchInput || !searchInput.value) {
+            console.warn('No search query found');
+            return;
+        }
+
+        const query = searchInput.value.trim();
+        console.log('Fetching landingPageURI for query:', query);
+
+        try {
+            // Build the API URL with landingPageURI
+            const encodedQuery = encodeURIComponent(query);
+            const apiUrl = `https://corpus-search.acdh.oeaw.ac.at/search/concordance?corpname=schnitzlertagebuch&q=q${encodedQuery}&attrs=word,landingPageURI&viewmode=kwic&fromp=1&pagesize=50&format=json`;
+
+            console.log('Fetching from:', apiUrl);
+            const response = await fetch(apiUrl);
+            const data = await response.json();
+
+            console.log('Received data with', data.Lines?.length || 0, 'lines');
+            this.latestApiData = data;
+
+            // Now add links using the API data
+            this.addLinksToResults();
+        } catch (error) {
+            console.error('Error fetching landingPageURI data:', error);
+        }
     }
 
     addLinksFromDOM() {
