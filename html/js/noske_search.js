@@ -48,22 +48,67 @@ class NoskeSearchImplementation {
         };
     }
 
+    interceptNoskeAPI() {
+        // Store original fetch and keep reference to 'this'
+        const originalFetch = window.fetch;
+        const self = this;
+
+        // Override fetch to intercept Noske API calls
+        window.fetch = async (...args) => {
+            const response = await originalFetch(...args);
+
+            // Check if this is a Noske API call
+            const url = args[0];
+            if (typeof url === 'string' && url.includes('corpus-search.acdh.oeaw.ac.at')) {
+                console.log('Intercepted Noske API call:', url);
+
+                // Clone response so we can read it without consuming it
+                const clonedResponse = response.clone();
+
+                try {
+                    const data = await clonedResponse.json();
+                    console.log('Noske API response data:', data);
+
+                    // Store in the class instance using 'self' reference
+                    self.latestApiData = data;
+
+                    console.log('Stored API data in self.latestApiData');
+
+                    // Add links after DOM is updated
+                    setTimeout(() => {
+                        self.addLinksToResults();
+                    }, 100);
+                } catch (e) {
+                    console.warn('Could not parse Noske API response:', e);
+                }
+            }
+
+            return response;
+        };
+
+        console.log('Noske API interceptor installed');
+    }
+
     init() {
         if (this.initialized) return;
 
         console.log('Initializing Noske search with acdh-noske-search package for schnitzlertagebuch...');
 
         try {
+            // Intercept fetch calls to capture Noske API responses
+            this.interceptNoskeAPI();
+
             // Create new NoskeSearch instance
             this.search = new NoskeSearch({container: "noske-search"});
 
             this.search.search({
                 client: {
+                    id: "noske-client",
                     base: "https://corpus-search.acdh.oeaw.ac.at/",
                     corpname: "schnitzlertagebuch",
-                    attrs: "word,id,landingPageURI",
-                    structs: "s",
-                    refs: "doc.id,chapter.id",
+                    attrs: "word,landingPageURI",
+                    structs: "chapter",
+                    refs: "chapter.id",
                 },
                 hits: {
                     id: "hitsbox",
@@ -80,11 +125,7 @@ class NoskeSearchImplementation {
                 stats: {
                     id: "noske-stats",
                 },
-                wordlistattr: ["word", "id", "landingPageURI"],
             });
-
-            // Intercept API calls to capture response data
-            this.interceptApiCalls();
 
             // Add custom event listeners
             this.setupEventListeners();
@@ -98,83 +139,52 @@ class NoskeSearchImplementation {
         }
     }
 
-    interceptApiCalls() {
-        // Intercept fetch calls to capture Noske API responses
-        const originalFetch = window.fetch;
-        const self = this;
-
-        window.fetch = async function(...args) {
-            const response = await originalFetch.apply(this, args);
-
-            // Check if this is a Noske concordance API call
-            if (args[0] && typeof args[0] === 'string' && args[0].includes('corpus-search.acdh.oeaw.ac.at')) {
-                // Clone the response so we can read it without consuming it
-                const clonedResponse = response.clone();
-                try {
-                    const data = await clonedResponse.json();
-                    console.log('Intercepted Noske API response:', data);
-                    self.latestApiData = data;
-
-                    // Add links after the DOM is updated
-                    setTimeout(() => {
-                        self.addLinksToResults();
-                    }, 100);
-                } catch (e) {
-                    console.log('Could not parse API response as JSON');
-                }
-            }
-
-            return response;
-        };
-    }
-
     addLinksToResults() {
         const hitsContainer = document.getElementById('hitsbox');
         if (!hitsContainer) return;
 
         console.log('Adding links to results...');
         console.log('this.latestApiData available?', !!this.latestApiData);
-        console.log('Full latestApiData:', JSON.stringify(this.latestApiData, null, 2));
 
+        // Try to access via window.noskeSearch as well
         if (!this.latestApiData && window.noskeSearch && window.noskeSearch.latestApiData) {
             console.log('Using latestApiData from window.noskeSearch');
             this.latestApiData = window.noskeSearch.latestApiData;
         }
 
+        // Find all table rows in the results
         const rows = hitsContainer.querySelectorAll('tr');
         console.log('Found', rows.length, 'rows');
 
         rows.forEach((row, index) => {
+            // Skip if already processed
             if (row.dataset.processed === 'true') return;
+
+            // Mark as processed
             row.dataset.processed = 'true';
 
             const cells = row.querySelectorAll('td');
             if (cells.length < 3) return;
 
+            // Try to extract document reference from various sources
             let docRef = null;
 
-            // Try to extract from latestApiData
-            if (this.latestApiData) {
+            // 1. Check row data attributes
+            docRef = row.dataset.doc || row.dataset.docId || row.dataset.ref;
+
+            // 2. Try to extract from latestApiData if available
+            if (!docRef && this.latestApiData) {
                 const lines = this.latestApiData.Lines || this.latestApiData.lines;
                 if (lines && lines[index]) {
                     const line = lines[index];
-                    console.log('Line', index, 'full structure:', JSON.stringify(line, null, 2));
+                    console.log('Line', index, 'data:', JSON.stringify(line, null, 2));
 
-                    // Check Kwic tokens for landingPageURI - look in strc property
+                    // Check Kwic tokens for landingPageURI in the 'attr' field
                     if (line.Kwic && Array.isArray(line.Kwic)) {
-                        console.log('Kwic tokens:', line.Kwic);
                         for (const token of line.Kwic) {
-                            console.log('Kwic token structure:', JSON.stringify(token, null, 2));
-                            // The landingPageURI is in the strc.landingPageURI property
-                            if (token && token.strc && token.strc.landingPageURI) {
-                                docRef = token.strc.landingPageURI;
-                                console.log('Found landingPageURI in Kwic strc:', docRef);
-                                break;
-                            }
-                            // Also try the attr property as fallback
-                            if (!docRef && token && token.attr) {
+                            if (token && typeof token === 'object' && token.attr) {
                                 docRef = token.attr.replace(/^\//, '');
-                                console.log('Found landingPageURI in Kwic attr:', docRef);
+                                console.log('Found landingPageURI in Kwic token attr:', docRef);
                                 break;
                             }
                         }
@@ -182,16 +192,10 @@ class NoskeSearchImplementation {
 
                     // Fallback: check Left tokens
                     if (!docRef && line.Left && Array.isArray(line.Left)) {
-                        console.log('Left tokens:', line.Left);
                         for (const token of line.Left) {
-                            if (token && token.strc && token.strc.landingPageURI) {
-                                docRef = token.strc.landingPageURI;
-                                console.log('Found landingPageURI in Left strc:', docRef);
-                                break;
-                            }
-                            if (!docRef && token && token.attr) {
+                            if (token && typeof token === 'object' && token.attr) {
                                 docRef = token.attr.replace(/^\//, '');
-                                console.log('Found landingPageURI in Left attr:', docRef);
+                                console.log('Found landingPageURI in Left token attr:', docRef);
                                 break;
                             }
                         }
@@ -199,38 +203,21 @@ class NoskeSearchImplementation {
 
                     // Fallback: check Right tokens
                     if (!docRef && line.Right && Array.isArray(line.Right)) {
-                        console.log('Right tokens:', line.Right);
                         for (const token of line.Right) {
-                            if (token && token.strc && token.strc.landingPageURI) {
-                                docRef = token.strc.landingPageURI;
-                                console.log('Found landingPageURI in Right strc:', docRef);
-                                break;
-                            }
-                            if (!docRef && token && token.attr) {
+                            if (token && typeof token === 'object' && token.attr) {
                                 docRef = token.attr.replace(/^\//, '');
-                                console.log('Found landingPageURI in Right attr:', docRef);
+                                console.log('Found landingPageURI in Right token attr:', docRef);
                                 break;
                             }
                         }
                     }
 
-                    // Fallback: check Refs for chapter.id
+                    // Fallback: Check Refs for chapter.id
                     if (!docRef && line.Refs && Array.isArray(line.Refs)) {
-                        console.log('Refs array:', line.Refs);
                         const chapterRef = line.Refs.find(ref => ref.name === 'chapter.id');
                         if (chapterRef) {
                             docRef = chapterRef.val || chapterRef.value;
                             console.log('Found chapter.id in Refs:', docRef);
-                        }
-                    }
-
-                    // Additional fallback: check refs (lowercase)
-                    if (!docRef && line.refs && Array.isArray(line.refs)) {
-                        console.log('refs array (lowercase):', line.refs);
-                        const chapterRef = line.refs.find(ref => ref.name === 'chapter.id');
-                        if (chapterRef) {
-                            docRef = chapterRef.val || chapterRef.value;
-                            console.log('Found chapter.id in refs:', docRef);
                         }
                     }
                 }
