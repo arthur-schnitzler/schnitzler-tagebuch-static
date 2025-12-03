@@ -80,6 +80,7 @@ class NoskeSearchImplementation {
                 stats: {
                     id: "noske-stats",
                 },
+                wordlistattr: ["word", "landingPageURI"],
             });
 
             // Intercept API calls to capture response data
@@ -133,6 +134,7 @@ class NoskeSearchImplementation {
 
         console.log('Adding links to results...');
         console.log('this.latestApiData available?', !!this.latestApiData);
+        console.log('Full latestApiData:', JSON.stringify(this.latestApiData, null, 2));
 
         if (!this.latestApiData && window.noskeSearch && window.noskeSearch.latestApiData) {
             console.log('Using latestApiData from window.noskeSearch');
@@ -156,14 +158,23 @@ class NoskeSearchImplementation {
                 const lines = this.latestApiData.Lines || this.latestApiData.lines;
                 if (lines && lines[index]) {
                     const line = lines[index];
-                    console.log('Line', index, 'data:', line);
+                    console.log('Line', index, 'full structure:', JSON.stringify(line, null, 2));
 
-                    // Check Kwic tokens for landingPageURI
+                    // Check Kwic tokens for landingPageURI - look in strc property
                     if (line.Kwic && Array.isArray(line.Kwic)) {
+                        console.log('Kwic tokens:', line.Kwic);
                         for (const token of line.Kwic) {
-                            if (token && token.attr) {
+                            console.log('Kwic token structure:', JSON.stringify(token, null, 2));
+                            // The landingPageURI is in the strc.landingPageURI property
+                            if (token && token.strc && token.strc.landingPageURI) {
+                                docRef = token.strc.landingPageURI;
+                                console.log('Found landingPageURI in Kwic strc:', docRef);
+                                break;
+                            }
+                            // Also try the attr property as fallback
+                            if (!docRef && token && token.attr) {
                                 docRef = token.attr.replace(/^\//, '');
-                                console.log('Found landingPageURI in Kwic:', docRef);
+                                console.log('Found landingPageURI in Kwic attr:', docRef);
                                 break;
                             }
                         }
@@ -171,10 +182,16 @@ class NoskeSearchImplementation {
 
                     // Fallback: check Left tokens
                     if (!docRef && line.Left && Array.isArray(line.Left)) {
+                        console.log('Left tokens:', line.Left);
                         for (const token of line.Left) {
-                            if (token && token.attr) {
+                            if (token && token.strc && token.strc.landingPageURI) {
+                                docRef = token.strc.landingPageURI;
+                                console.log('Found landingPageURI in Left strc:', docRef);
+                                break;
+                            }
+                            if (!docRef && token && token.attr) {
                                 docRef = token.attr.replace(/^\//, '');
-                                console.log('Found landingPageURI in Left:', docRef);
+                                console.log('Found landingPageURI in Left attr:', docRef);
                                 break;
                             }
                         }
@@ -182,10 +199,16 @@ class NoskeSearchImplementation {
 
                     // Fallback: check Right tokens
                     if (!docRef && line.Right && Array.isArray(line.Right)) {
+                        console.log('Right tokens:', line.Right);
                         for (const token of line.Right) {
-                            if (token && token.attr) {
+                            if (token && token.strc && token.strc.landingPageURI) {
+                                docRef = token.strc.landingPageURI;
+                                console.log('Found landingPageURI in Right strc:', docRef);
+                                break;
+                            }
+                            if (!docRef && token && token.attr) {
                                 docRef = token.attr.replace(/^\//, '');
-                                console.log('Found landingPageURI in Right:', docRef);
+                                console.log('Found landingPageURI in Right attr:', docRef);
                                 break;
                             }
                         }
@@ -193,10 +216,21 @@ class NoskeSearchImplementation {
 
                     // Fallback: check Refs for chapter.id
                     if (!docRef && line.Refs && Array.isArray(line.Refs)) {
+                        console.log('Refs array:', line.Refs);
                         const chapterRef = line.Refs.find(ref => ref.name === 'chapter.id');
                         if (chapterRef) {
                             docRef = chapterRef.val || chapterRef.value;
                             console.log('Found chapter.id in Refs:', docRef);
+                        }
+                    }
+
+                    // Additional fallback: check refs (lowercase)
+                    if (!docRef && line.refs && Array.isArray(line.refs)) {
+                        console.log('refs array (lowercase):', line.refs);
+                        const chapterRef = line.refs.find(ref => ref.name === 'chapter.id');
+                        if (chapterRef) {
+                            docRef = chapterRef.val || chapterRef.value;
+                            console.log('Found chapter.id in refs:', docRef);
                         }
                     }
                 }
