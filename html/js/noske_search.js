@@ -10,7 +10,7 @@ class NoskeSearchImplementation {
             client: {
                 base: "https://corpus-search.acdh.oeaw.ac.at/",
                 corpname: "schnitzlertagebuch",
-                attrs: "word,landingPageURI",
+                attrs: "word,id,landingPageURI",
                 structs: "s",
                 refs: "doc.id,chapter.id"
             },
@@ -61,7 +61,7 @@ class NoskeSearchImplementation {
                 client: {
                     base: "https://corpus-search.acdh.oeaw.ac.at/",
                     corpname: "schnitzlertagebuch",
-                    attrs: "word,landingPageURI",
+                    attrs: "word,id,landingPageURI",
                     structs: "s",
                     refs: "doc.id,chapter.id",
                 },
@@ -80,7 +80,7 @@ class NoskeSearchImplementation {
                 stats: {
                     id: "noske-stats",
                 },
-                wordlistattr: ["word", "landingPageURI"],
+                wordlistattr: ["word", "id", "landingPageURI"],
             });
 
             // Intercept API calls to capture response data
