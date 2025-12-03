@@ -130,6 +130,9 @@ class NoskeSearchImplementation {
             // Add custom event listeners
             this.setupEventListeners();
 
+            // Set up MutationObserver to watch for results being rendered
+            this.setupResultsObserver();
+
             this.initialized = true;
             console.log('Noske search initialized successfully for schnitzlertagebuch');
 
@@ -137,6 +140,103 @@ class NoskeSearchImplementation {
             console.error('Error initializing Noske search:', error);
             this.showError('Fehler beim Initialisieren der Noske-Suche. Bitte versuchen Sie es später erneut.');
         }
+    }
+
+    setupResultsObserver() {
+        const hitsContainer = document.getElementById('hitsbox');
+        if (!hitsContainer) {
+            console.warn('hitsbox not found, retrying in 100ms...');
+            setTimeout(() => this.setupResultsObserver(), 100);
+            return;
+        }
+
+        const observer = new MutationObserver(() => {
+            const rows = hitsContainer.querySelectorAll('tr');
+            if (rows.length > 0) {
+                console.log('Results detected in DOM, attempting to extract and add links...');
+                setTimeout(() => this.addLinksFromDOM(), 200);
+            }
+        });
+
+        observer.observe(hitsContainer, {
+            childList: true,
+            subtree: true
+        });
+
+        console.log('Results observer set up');
+    }
+
+    addLinksFromDOM() {
+        const hitsContainer = document.getElementById('hitsbox');
+        if (!hitsContainer) return;
+
+        console.log('Scanning DOM for landingPageURI...');
+        const rows = hitsContainer.querySelectorAll('tr');
+        console.log('Found', rows.length, 'rows in DOM');
+
+        rows.forEach((row, index) => {
+            if (row.dataset.processed === 'true') return;
+            row.dataset.processed = 'true';
+
+            const cells = row.querySelectorAll('td');
+            if (cells.length < 3) return;
+
+            // Look for URLs in the DOM - the package logs them as "https:"
+            let entryUrl = null;
+
+            // Check all text nodes and attributes for the landingPageURI
+            const allText = row.textContent;
+
+            // Look for entry__ pattern in the text content
+            const entryMatch = allText.match(/entry__\d{4}-\d{2}-\d{2}\.html/);
+            if (entryMatch) {
+                entryUrl = entryMatch[0];
+                console.log('Row', index, 'found entry URL in text:', entryUrl);
+            }
+
+            // If not found in text, check data attributes
+            if (!entryUrl) {
+                const allElements = row.querySelectorAll('*');
+                for (const el of allElements) {
+                    for (const attr of el.attributes || []) {
+                        if (attr.value && attr.value.includes('entry__') && attr.value.includes('.html')) {
+                            const match = attr.value.match(/entry__\d{4}-\d{2}-\d{2}\.html/);
+                            if (match) {
+                                entryUrl = match[0];
+                                console.log('Row', index, 'found entry URL in attribute:', attr.name, '=', entryUrl);
+                                break;
+                            }
+                        }
+                    }
+                    if (entryUrl) break;
+                }
+            }
+
+            if (entryUrl) {
+                console.log('Row', index, 'linking to:', entryUrl);
+
+                row.style.cursor = 'pointer';
+                row.classList.add('clickable-row');
+
+                const newRow = row.cloneNode(true);
+                row.parentNode.replaceChild(newRow, row);
+
+                newRow.addEventListener('click', (e) => {
+                    if (e.target.tagName !== 'A') {
+                        window.location.href = entryUrl;
+                    }
+                });
+
+                const newCells = newRow.querySelectorAll('td');
+                const keywordCell = newCells[1];
+                if (keywordCell && !keywordCell.querySelector('a')) {
+                    const keyword = keywordCell.innerHTML;
+                    keywordCell.innerHTML = `<a href="${entryUrl}">${keyword}</a>`;
+                }
+            } else {
+                console.warn('Row', index, 'no entry URL found in DOM');
+            }
+        });
     }
 
     addLinksToResults() {
