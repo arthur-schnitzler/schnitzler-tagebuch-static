@@ -227,14 +227,28 @@ class NoskeSearchImplementation {
 
             if (docRef) {
                 let entryUrl;
+                console.log('Row', index, 'processing docRef:', docRef);
+
                 if (docRef.startsWith('http://') || docRef.startsWith('https://')) {
+                    // Extract just the filename from the full URL
                     const urlParts = docRef.split('/');
                     entryUrl = urlParts[urlParts.length - 1];
                     console.log('Row', index, 'extracted filename from URL:', entryUrl);
+                } else if (docRef.startsWith('#')) {
+                    // Handle anchor links - this shouldn't happen but let's be safe
+                    console.warn('Row', index, 'docRef starts with #, skipping:', docRef);
+                    return;
                 } else {
+                    // Treat as file ID
                     const entryId = docRef.replace(/\.xml$/, '').replace(/^.*\//, '');
                     entryUrl = `${entryId}.html`;
                     console.log('Row', index, 'linking to:', entryUrl);
+                }
+
+                // Verify entryUrl is valid
+                if (!entryUrl || entryUrl === 'null' || entryUrl === 'undefined' || entryUrl.includes('undefined') || entryUrl.includes('null')) {
+                    console.warn('Row', index, 'invalid entryUrl generated:', entryUrl, 'from docRef:', docRef);
+                    return;
                 }
 
                 row.style.cursor = 'pointer';
