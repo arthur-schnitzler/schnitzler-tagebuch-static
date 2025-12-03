@@ -234,28 +234,45 @@ class NoskeSearchImplementation {
 
     async fetchNoskeDataDirectly(query) {
         try {
+            // Clean up query - remove extra quotes if already present
+            let cleanQuery = query.trim();
+
+            // Remove surrounding quotes if present
+            if ((cleanQuery.startsWith('"') && cleanQuery.endsWith('"')) ||
+                (cleanQuery.startsWith("'") && cleanQuery.endsWith("'"))) {
+                cleanQuery = cleanQuery.slice(1, -1).trim();
+            }
+
             // Detect if query is CQL (starts with [ or contains lemma=, word=, etc.)
-            const isCQL = query.trim().startsWith('[') || /\b(lemma|word|tag|pos)=/i.test(query);
+            const isCQL = cleanQuery.startsWith('[') || /\b(lemma|word|tag|pos)=/i.test(cleanQuery);
 
             let q;
             if (isCQL) {
                 // For CQL queries, use 'q' parameter directly
-                q = `q${encodeURIComponent(query)}`;
+                q = `q${encodeURIComponent(cleanQuery)}`;
             } else {
                 // For simple queries, wrap in quotes
-                q = `q${encodeURIComponent(`"${query}"`)}`;
+                q = `q${encodeURIComponent(`"${cleanQuery}"`)}`;
             }
 
             // Use the correct SketchEngine API endpoint
             const url = `https://corpus-search.acdh.oeaw.ac.at/search/concordance?corpname=schnitzlertagebuch&q=${q}&attrs=word,landingPageURI&attr_allpos=kw&viewmode=sen&structs=s,g&fromp=1&pagesize=50&kwicleftctx=100&format=json`;
 
-            console.log('Fetching Noske data directly via fetch:', url);
+            console.log('Original query:', query);
+            console.log('Cleaned query:', cleanQuery);
+            console.log('Fetching Noske data from:', url);
             console.log('Query type:', isCQL ? 'CQL' : 'Simple');
 
             const response = await fetch(url);
             const data = await response.json();
 
             console.log('Direct fetch Noske API response:', data);
+
+            // Log first line to see structure
+            if (data.Lines && data.Lines.length > 0) {
+                console.log('First line sample:', JSON.stringify(data.Lines[0], null, 2));
+            }
+
             this.latestApiData = data;
             this.searchResults = data;
 
