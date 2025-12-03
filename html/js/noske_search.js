@@ -106,10 +106,10 @@ class NoskeSearchImplementation {
                     id: "noske-client",
                     base: "https://corpus-search.acdh.oeaw.ac.at/",
                     corpname: "schnitzlertagebuch",
-                    attrs: "word",
+                    attrs: "word,landingPageURI",
                     attr_allpos: "all",
-                    structs: "s",
-                    refs: "doc.id",
+                    structs: "chapter",
+                    refs: "chapter.id",
                 },
                 hits: {
                     id: "hitsbox",
@@ -131,9 +131,6 @@ class NoskeSearchImplementation {
             // Add custom event listeners
             this.setupEventListeners();
 
-            // Set up MutationObserver to watch for results being rendered
-            this.setupResultsObserver();
-
             this.initialized = true;
             console.log('Noske search initialized successfully for schnitzlertagebuch');
 
@@ -143,274 +140,117 @@ class NoskeSearchImplementation {
         }
     }
 
-    setupResultsObserver() {
+
+    addLinksToResults() {
         const hitsContainer = document.getElementById('hitsbox');
         if (!hitsContainer) {
-            console.warn('hitsbox not found, retrying in 100ms...');
-            setTimeout(() => this.setupResultsObserver(), 100);
+            console.log('hitsbox not found, cannot add links');
             return;
         }
 
-        let processingResults = false;
+        console.log('Adding links to results...');
+        console.log('API data available?', !!this.latestApiData);
 
-        const observer = new MutationObserver(() => {
-            const rows = hitsContainer.querySelectorAll('tr');
-            if (rows.length > 0 && !processingResults) {
-                processingResults = true;
-                console.log('Results detected in DOM, fetching landingPageURI data...');
-                setTimeout(() => {
-                    this.fetchAndAddLinks().finally(() => {
-                        processingResults = false;
-                    });
-                }, 300);
-            }
-        });
-
-        observer.observe(hitsContainer, {
-            childList: true,
-            subtree: true
-        });
-
-        console.log('Results observer set up');
-    }
-
-    async fetchAndAddLinks() {
-        // Get the current search query from the input
-        const searchInput = document.querySelector('#noske-search input');
-        if (!searchInput || !searchInput.value) {
-            console.warn('No search query found');
+        if (!this.latestApiData) {
+            console.warn('No API data available, cannot add links');
             return;
         }
 
-        const query = searchInput.value.trim();
-        console.log('Fetching landingPageURI for query:', query);
-
-        try {
-            // Build the API URL with landingPageURI
-            const encodedQuery = encodeURIComponent(query);
-            const apiUrl = `https://corpus-search.acdh.oeaw.ac.at/search/concordance?corpname=schnitzlertagebuch&q=q${encodedQuery}&attrs=word,landingPageURI&viewmode=kwic&fromp=1&pagesize=50&format=json`;
-
-            console.log('Fetching from:', apiUrl);
-            const response = await fetch(apiUrl);
-            const data = await response.json();
-
-            console.log('Received data with', data.Lines?.length || 0, 'lines');
-            this.latestApiData = data;
-
-            // Now add links using the API data
-            this.addLinksToResults();
-        } catch (error) {
-            console.error('Error fetching landingPageURI data:', error);
+        const lines = this.latestApiData.Lines || this.latestApiData.lines;
+        if (!lines || !Array.isArray(lines)) {
+            console.warn('No Lines array in API data');
+            return;
         }
-    }
 
-    addLinksFromDOM() {
-        const hitsContainer = document.getElementById('hitsbox');
-        if (!hitsContainer) return;
+        console.log('Processing', lines.length, 'lines from API data');
 
-        console.log('Scanning DOM for landingPageURI...');
+        // Find all table rows in the results
         const rows = hitsContainer.querySelectorAll('tr');
         console.log('Found', rows.length, 'rows in DOM');
 
         rows.forEach((row, index) => {
-            if (row.dataset.processed === 'true') return;
-            row.dataset.processed = 'true';
-
-            const cells = row.querySelectorAll('td');
-            if (cells.length < 3) return;
-
-            // Look for URLs in the DOM - the package logs them as "https:"
-            let entryUrl = null;
-
-            // Check all text nodes and attributes for the landingPageURI
-            const allText = row.textContent;
-
-            // Look for entry__ pattern in the text content
-            const entryMatch = allText.match(/entry__\d{4}-\d{2}-\d{2}\.html/);
-            if (entryMatch) {
-                entryUrl = entryMatch[0];
-                console.log('Row', index, 'found entry URL in text:', entryUrl);
-            }
-
-            // If not found in text, check data attributes
-            if (!entryUrl) {
-                const allElements = row.querySelectorAll('*');
-                for (const el of allElements) {
-                    for (const attr of el.attributes || []) {
-                        if (attr.value && attr.value.includes('entry__') && attr.value.includes('.html')) {
-                            const match = attr.value.match(/entry__\d{4}-\d{2}-\d{2}\.html/);
-                            if (match) {
-                                entryUrl = match[0];
-                                console.log('Row', index, 'found entry URL in attribute:', attr.name, '=', entryUrl);
-                                break;
-                            }
-                        }
-                    }
-                    if (entryUrl) break;
-                }
-            }
-
-            if (entryUrl) {
-                console.log('Row', index, 'linking to:', entryUrl);
-
-                row.style.cursor = 'pointer';
-                row.classList.add('clickable-row');
-
-                const newRow = row.cloneNode(true);
-                row.parentNode.replaceChild(newRow, row);
-
-                newRow.addEventListener('click', (e) => {
-                    if (e.target.tagName !== 'A') {
-                        window.location.href = entryUrl;
-                    }
-                });
-
-                const newCells = newRow.querySelectorAll('td');
-                const keywordCell = newCells[1];
-                if (keywordCell && !keywordCell.querySelector('a')) {
-                    const keyword = keywordCell.innerHTML;
-                    keywordCell.innerHTML = `<a href="${entryUrl}">${keyword}</a>`;
-                }
-            } else {
-                console.warn('Row', index, 'no entry URL found in DOM');
-            }
-        });
-    }
-
-    addLinksToResults() {
-        const hitsContainer = document.getElementById('hitsbox');
-        if (!hitsContainer) return;
-
-        console.log('Adding links to results...');
-        console.log('this.latestApiData available?', !!this.latestApiData);
-
-        // Try to access via window.noskeSearch as well
-        if (!this.latestApiData && window.noskeSearch && window.noskeSearch.latestApiData) {
-            console.log('Using latestApiData from window.noskeSearch');
-            this.latestApiData = window.noskeSearch.latestApiData;
-        }
-
-        // Find all table rows in the results
-        const rows = hitsContainer.querySelectorAll('tr');
-        console.log('Found', rows.length, 'rows');
-
-        rows.forEach((row, index) => {
             // Skip if already processed
             if (row.dataset.processed === 'true') return;
-
-            // Mark as processed
             row.dataset.processed = 'true';
 
             const cells = row.querySelectorAll('td');
             if (cells.length < 3) return;
 
-            // Try to extract document reference from various sources
-            let docRef = null;
-
-            // 1. Check row data attributes
-            docRef = row.dataset.doc || row.dataset.docId || row.dataset.ref;
-
-            // 2. Try to extract from latestApiData if available
-            if (!docRef && this.latestApiData) {
-                const lines = this.latestApiData.Lines || this.latestApiData.lines;
-                if (lines && lines[index]) {
-                    const line = lines[index];
-                    console.log('Line', index, 'data:', JSON.stringify(line, null, 2));
-
-                    // Check Kwic tokens for landingPageURI in the 'attr' field
-                    if (line.Kwic && Array.isArray(line.Kwic)) {
-                        for (const token of line.Kwic) {
-                            if (token && typeof token === 'object' && token.attr) {
-                                docRef = token.attr.replace(/^\//, '');
-                                console.log('Found landingPageURI in Kwic token attr:', docRef);
-                                break;
-                            }
-                        }
-                    }
-
-                    // Fallback: check Left tokens
-                    if (!docRef && line.Left && Array.isArray(line.Left)) {
-                        for (const token of line.Left) {
-                            if (token && typeof token === 'object' && token.attr) {
-                                docRef = token.attr.replace(/^\//, '');
-                                console.log('Found landingPageURI in Left token attr:', docRef);
-                                break;
-                            }
-                        }
-                    }
-
-                    // Fallback: check Right tokens
-                    if (!docRef && line.Right && Array.isArray(line.Right)) {
-                        for (const token of line.Right) {
-                            if (token && typeof token === 'object' && token.attr) {
-                                docRef = token.attr.replace(/^\//, '');
-                                console.log('Found landingPageURI in Right token attr:', docRef);
-                                break;
-                            }
-                        }
-                    }
-
-                    // Fallback: Check Refs for chapter.id
-                    if (!docRef && line.Refs && Array.isArray(line.Refs)) {
-                        const chapterRef = line.Refs.find(ref => ref.name === 'chapter.id');
-                        if (chapterRef) {
-                            docRef = chapterRef.val || chapterRef.value;
-                            console.log('Found chapter.id in Refs:', docRef);
-                        }
-                    }
-                }
+            // Get the corresponding line from API data
+            const line = lines[index];
+            if (!line) {
+                console.warn('Row', index, 'has no corresponding line in API data');
+                return;
             }
 
-            console.log('Row', index, 'final docRef:', docRef);
+            // Extract landingPageURI from token attributes
+            let landingPageURI = null;
 
-            if (docRef) {
-                let entryUrl;
-                console.log('Row', index, 'processing docRef:', docRef);
+            // Search through all token arrays (Left, Kwic, Right)
+            const tokenArrays = [line.Left, line.Kwic, line.Right].filter(arr => Array.isArray(arr));
 
-                if (docRef.startsWith('http://') || docRef.startsWith('https://')) {
-                    // Extract just the filename from the full URL
-                    const urlParts = docRef.split('/');
-                    entryUrl = urlParts[urlParts.length - 1];
-                    console.log('Row', index, 'extracted filename from URL:', entryUrl);
-                } else if (docRef.startsWith('#')) {
-                    // Handle anchor links - this shouldn't happen but let's be safe
-                    console.warn('Row', index, 'docRef starts with #, skipping:', docRef);
-                    return;
-                } else {
-                    // Treat as file ID
-                    const entryId = docRef.replace(/\.xml$/, '').replace(/^.*\//, '');
-                    entryUrl = `${entryId}.html`;
-                    console.log('Row', index, 'linking to:', entryUrl);
-                }
-
-                // Verify entryUrl is valid
-                if (!entryUrl || entryUrl === 'null' || entryUrl === 'undefined' || entryUrl.includes('undefined') || entryUrl.includes('null')) {
-                    console.warn('Row', index, 'invalid entryUrl generated:', entryUrl, 'from docRef:', docRef);
-                    return;
-                }
-
-                row.style.cursor = 'pointer';
-                row.classList.add('clickable-row');
-
-                const newRow = row.cloneNode(true);
-                row.parentNode.replaceChild(newRow, row);
-
-                newRow.addEventListener('click', (e) => {
-                    if (e.target.tagName !== 'A') {
-                        window.location.href = entryUrl;
+            for (const tokens of tokenArrays) {
+                for (const token of tokens) {
+                    if (token && token.attr) {
+                        landingPageURI = token.attr;
+                        console.log('Row', index, 'found landingPageURI:', landingPageURI);
+                        break;
                     }
-                });
-
-                const newCells = newRow.querySelectorAll('td');
-                const keywordCell = newCells[1];
-                if (keywordCell && !keywordCell.querySelector('a')) {
-                    const keyword = keywordCell.innerHTML;
-                    keywordCell.innerHTML = `<a href="${entryUrl}">${keyword}</a>`;
                 }
+                if (landingPageURI) break;
+            }
+
+            if (!landingPageURI) {
+                console.warn('Row', index, 'no landingPageURI found in token attributes');
+                return;
+            }
+
+            // Remove leading slash if present (e.g., "/https://..." -> "https://...")
+            landingPageURI = landingPageURI.replace(/^\//, '');
+
+            // Extract filename from full URL
+            let entryUrl;
+            if (landingPageURI.startsWith('http://') || landingPageURI.startsWith('https://')) {
+                const urlParts = landingPageURI.split('/');
+                entryUrl = urlParts[urlParts.length - 1];
+                console.log('Row', index, 'extracted entry URL:', entryUrl);
             } else {
-                console.warn('No document reference found for row', index);
+                console.warn('Row', index, 'unexpected landingPageURI format:', landingPageURI);
+                return;
+            }
+
+            // Validate entry URL format
+            if (!entryUrl.match(/^entry__\d{4}-\d{2}-\d{2}\.html$/)) {
+                console.warn('Row', index, 'invalid entry URL format:', entryUrl);
+                return;
+            }
+
+            // Make the row clickable
+            row.style.cursor = 'pointer';
+            row.classList.add('clickable-row');
+
+            // Clone and replace row to remove old event listeners
+            const newRow = row.cloneNode(true);
+            row.parentNode.replaceChild(newRow, row);
+
+            // Add click handler to row
+            newRow.addEventListener('click', (e) => {
+                if (e.target.tagName !== 'A') {
+                    window.location.href = entryUrl;
+                }
+            });
+
+            // Add link to keyword cell (middle column)
+            const newCells = newRow.querySelectorAll('td');
+            const keywordCell = newCells[1];
+            if (keywordCell && !keywordCell.querySelector('a')) {
+                const keyword = keywordCell.innerHTML;
+                keywordCell.innerHTML = `<a href="${entryUrl}">${keyword}</a>`;
+                console.log('Row', index, 'added link to keyword:', entryUrl);
             }
         });
+
+        console.log('Finished adding links to', rows.length, 'rows');
     }
 
     setupEventListeners() {
