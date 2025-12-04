@@ -256,7 +256,8 @@ class NoskeSearchImplementation {
             }
 
             // Use the correct SketchEngine API endpoint
-            const url = `https://corpus-search.acdh.oeaw.ac.at/search/concordance?corpname=schnitzlertagebuch&q=${q}&attrs=word,landingPageURI&attr_allpos=kw&viewmode=sen&structs=s,g&fromp=1&pagesize=50&kwicleftctx=100&format=json`;
+            // structs=chapter ensures KWIC respects chapter boundaries (each diary entry)
+            const url = `https://corpus-search.acdh.oeaw.ac.at/search/concordance?corpname=schnitzlertagebuch&q=${q}&attrs=word,landingPageURI&attr_allpos=kw&viewmode=sen&structs=chapter&fromp=1&pagesize=50&kwicleftctx=100&format=json`;
 
             console.log('Original query:', query);
             console.log('Cleaned query:', cleanQuery);
