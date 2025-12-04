@@ -2,9 +2,8 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:mam="whatever" version="2.0" exclude-result-prefixes="xsl tei xs">
-    <xsl:param name="current-edition" select="'schnitzler-tagebuch'"/>
-    <xsl:param name="current-colour" select="'#037A33'"/>
     <xsl:import href="./LOD-idnos.xsl"/>
+    <xsl:include href="./params.xsl"/>
     <xsl:param name="places" select="document('../../data/indices/listplace.xml')"/>
     <!-- nur fürs Schnitzler-Tagebuch die folgenden beiden Einbindungen -->
     <xsl:param name="listperson" select="document('../../data/indices/listperson.xml')"/>
@@ -1511,7 +1510,7 @@
                                                 data-type="number" order="ascending"/>
                                             <xsl:variable name="year"
                                                 select="current-grouping-key()"/>
-                                            <details class="year-details">
+                                            <details class="year-details mb-3">
                                                 <summary class="year-summary">
                                                   <xsl:choose>
                                                   <xsl:when test="count(current-group()) = 1">
@@ -1534,8 +1533,8 @@
                                                   order="ascending"/>
                                                   <xsl:variable name="monthKey"
                                                   select="current-grouping-key()"/>
-                                                  <details class="month-details" open="open">
-                                                  <summary class="month-summary">
+                                                  <details class="month-details ms-4 mb-3 bg-light rounded p-2" open="open">
+                                                  <summary class="month-summary p-2 bg-light rounded fw-medium">
                                                   <xsl:variable name="monthNum"
                                                   select="number(substring(current-grouping-key(), 6, 2))"/>
                                                   <xsl:choose>
@@ -1559,7 +1558,7 @@
                                                   </xsl:otherwise>
                                                   </xsl:choose>
                                                   </summary>
-                                                  <div class="month-content">
+                                                  <div class="month-content py-2">
                                                   <ul class="dashed">
                                                   <xsl:for-each select="current-group()">
                                                   <xsl:sort select="replace(@corresp, '-', '')"
@@ -1730,4 +1729,3 @@
         </xsl:choose>
     </xsl:function>
 </xsl:stylesheet>
-

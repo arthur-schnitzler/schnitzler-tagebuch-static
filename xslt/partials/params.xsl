@@ -7,4 +7,6 @@
     <xsl:param name="html_title">Schnitzler Tagebuch</xsl:param>
     <xsl:param name="project_logo">./img/schnitzler-tb.svg</xsl:param>
     <xsl:param name="base_url">https://schnitzler-tagebuch.acdh.oeaw.ac.at</xsl:param>
+    <xsl:param name="current-edition" select="'schnitzler-tagebuch'"/>
+    <xsl:param name="current-colour" select="'#037A33'"/>
 </xsl:stylesheet>
