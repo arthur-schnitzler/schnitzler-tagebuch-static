@@ -461,18 +461,18 @@ class NoskeSearchImplementation {
 
             if (docRef) {
                 // If docRef is already a full URL (from landingPageURI), extract just the filename
-                let letterUrl;
+                let entryUrl;
                 if (docRef.startsWith('http://') || docRef.startsWith('https://')) {
                     // Extract just the filename from the full URL
-                    // e.g., "https://arthur-schnitzler.github.io/schnitzler-briefe-static/L01761.html" -> "L01761.html"
+                    // e.g., "https://arthur-schnitzler.github.io/schnitzler-tagebuch-static/entry__1889-08-18.html" -> "entry__1889-08-18.html"
                     const urlParts = docRef.split('/');
-                    letterUrl = urlParts[urlParts.length - 1];
-                    console.log('Row', index, 'extracted filename from URL:', letterUrl);
+                    entryUrl = urlParts[urlParts.length - 1];
+                    console.log('Row', index, 'extracted entry URL:', entryUrl);
                 } else {
                     // Otherwise, treat it as a file ID and construct the URL
-                    const letterId = docRef.replace(/\.xml$/, '').replace(/^.*\//, '');
-                    letterUrl = `${letterId}.html`;
-                    console.log('Row', index, 'linking to:', letterUrl);
+                    const entryId = docRef.replace(/\.xml$/, '').replace(/^.*\//, '');
+                    entryUrl = `${entryId}.html`;
+                    console.log('Row', index, 'linking to entry:', entryUrl);
                 }
 
                 // Make the entire row clickable
@@ -486,7 +486,7 @@ class NoskeSearchImplementation {
                 newRow.addEventListener('click', (e) => {
                     // Don't navigate if clicking on an existing link
                     if (e.target.tagName !== 'A') {
-                        window.location.href = letterUrl;
+                        window.location.href = entryUrl;
                     }
                 });
 
@@ -495,7 +495,7 @@ class NoskeSearchImplementation {
                 const keywordCell = newCells[1];
                 if (keywordCell && !keywordCell.querySelector('a')) {
                     const keyword = keywordCell.innerHTML;
-                    keywordCell.innerHTML = `<a href="${letterUrl}">${keyword}</a>`;
+                    keywordCell.innerHTML = `<a href="${entryUrl}">${keyword}</a>`;
                 }
             } else {
                 console.warn('No document reference found for row', index);
