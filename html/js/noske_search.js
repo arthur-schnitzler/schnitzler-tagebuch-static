@@ -264,13 +264,35 @@ class NoskeSearchImplementation {
             console.log('Query type:', isCQL ? 'CQL' : 'Simple');
 
             const response = await fetch(url);
+
+            console.log('Response status:', response.status);
+            console.log('Response ok:', response.ok);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
             const data = await response.json();
 
             console.log('Direct fetch Noske API response:', data);
+            console.log('Data has Lines?', !!data.Lines);
+            console.log('Lines count:', data.Lines?.length || 0);
 
             // Log first line to see structure
             if (data.Lines && data.Lines.length > 0) {
                 console.log('First line sample:', JSON.stringify(data.Lines[0], null, 2));
+
+                // Check specifically for landingPageURI in different token arrays
+                const firstLine = data.Lines[0];
+                if (firstLine.Left && firstLine.Left.length > 0) {
+                    console.log('First Left token:', JSON.stringify(firstLine.Left[0], null, 2));
+                }
+                if (firstLine.Kwic && firstLine.Kwic.length > 0) {
+                    console.log('First Kwic token:', JSON.stringify(firstLine.Kwic[0], null, 2));
+                }
+                if (firstLine.Right && firstLine.Right.length > 0) {
+                    console.log('First Right token:', JSON.stringify(firstLine.Right[0], null, 2));
+                }
             }
 
             this.latestApiData = data;
