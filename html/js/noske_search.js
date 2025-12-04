@@ -106,7 +106,7 @@ class NoskeSearchImplementation {
                     id: "noske-client",
                     base: "https://corpus-search.acdh.oeaw.ac.at/",
                     corpname: "schnitzlertagebuch",
-                    attrs: "word,landingPageURI",
+                    attrs: "word",
                     structs: "chapter",
                     refs: "chapter.id",
                 },
