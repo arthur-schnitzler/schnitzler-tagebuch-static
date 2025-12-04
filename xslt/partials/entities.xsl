@@ -1534,7 +1534,8 @@
                                                   order="ascending"/>
                                                   <xsl:variable name="monthKey"
                                                   select="current-grouping-key()"/>
-                                                  <h3 class="mt-3">
+                                                  <details class="month-details" open="open">
+                                                  <summary class="month-summary">
                                                   <xsl:variable name="monthNum"
                                                   select="number(substring(current-grouping-key(), 6, 2))"/>
                                                   <xsl:choose>
@@ -1557,7 +1558,8 @@
                                                   <xsl:value-of select="current-grouping-key()"/>
                                                   </xsl:otherwise>
                                                   </xsl:choose>
-                                                  </h3>
+                                                  </summary>
+                                                  <div class="month-content">
                                                   <ul class="dashed">
                                                   <xsl:for-each select="current-group()">
                                                   <xsl:sort select="replace(@corresp, '-', '')"
@@ -1573,6 +1575,8 @@
                                                   </li>
                                                   </xsl:for-each>
                                                   </ul>
+                                                  </div>
+                                                  </details>
                                                   </xsl:for-each-group>
                                                   </xsl:when>
                                                   <xsl:otherwise>

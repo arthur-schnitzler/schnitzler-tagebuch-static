@@ -1237,10 +1237,12 @@ div#map {
 
 .year-details {
     border-bottom: 1px solid #dee2e6;
+    margin-bottom: 1rem;
 }
 
 .year-details:last-child {
     border-bottom: none;
+    margin-bottom: 0;
 }
 
 .year-summary {
@@ -1275,4 +1277,48 @@ div#map {
 .year-content {
     padding: 1rem 1.25rem;
     background-color: #fff;
+}
+
+/* Month details/summary styling (nested within years) */
+.month-details {
+    margin-left: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.month-details:last-child {
+    margin-bottom: 0;
+}
+
+.month-summary {
+    padding: 0.5rem 0.75rem;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 500;
+    user-select: none;
+    transition: background-color 0.15s ease-in-out;
+    border-radius: 0.25rem;
+}
+
+.month-summary:hover {
+    background-color: #e9ecef;
+}
+
+.month-summary::-webkit-details-marker {
+    display: none;
+}
+
+.month-summary::before {
+    content: "▶";
+    display: inline-block;
+    margin-right: 0.5rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.month-details[open] .month-summary::before {
+    transform: rotate(90deg);
+}
+
+.month-content {
+    padding: 0.5rem 0;
 }
