@@ -493,13 +493,32 @@ class NoskeSearchImplementation {
                 // Add link to the keyword (middle cell)
                 const newCells = newRow.querySelectorAll('td');
                 const keywordCell = newCells[1];
-                if (keywordCell && !keywordCell.querySelector('a')) {
-                    const keyword = keywordCell.innerHTML;
-                    keywordCell.innerHTML = `<a href="${entryUrl}">${keyword}</a>`;
+                if (keywordCell) {
+                    // Remove any existing bad links first
+                    const badLinks = keywordCell.querySelectorAll('a[href*="search.htmlnull"], a[href*="null"]');
+                    badLinks.forEach(link => {
+                        const text = link.textContent;
+                        link.replaceWith(document.createTextNode(text));
+                    });
+
+                    // Now add our correct link
+                    if (!keywordCell.querySelector('a')) {
+                        const keyword = keywordCell.innerHTML;
+                        keywordCell.innerHTML = `<a href="${entryUrl}">${keyword}</a>`;
+                    }
                 }
             } else {
                 console.warn('No document reference found for row', index);
             }
+        });
+
+        // Additional cleanup: find and fix any remaining bad links in the entire container
+        const allBadLinks = hitsContainer.querySelectorAll('a[href*="search.htmlnull"], a[href*="null#"]');
+        console.log('Found', allBadLinks.length, 'bad links to fix');
+        allBadLinks.forEach(link => {
+            const text = link.textContent.trim();
+            console.log('Removing bad link:', link.href, 'text:', text);
+            link.replaceWith(document.createTextNode(text));
         });
     }
 
