@@ -1227,3 +1227,52 @@ div#map {
             overflow-x: auto; /* Horizontal scrollen */
             white-space: nowrap; /* Kein Umbruch für Kinder */
         }
+
+
+/* Native HTML details/summary styling (replaces Bootstrap accordion) */
+.mentions-by-year {
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+}
+
+.year-details {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.year-details:last-child {
+    border-bottom: none;
+}
+
+.year-summary {
+    padding: 1rem 1.25rem;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 500;
+    user-select: none;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.year-summary:hover {
+    background-color: #e9ecef;
+}
+
+.year-summary::-webkit-details-marker {
+    display: none;
+}
+
+.year-summary::before {
+    content: "▶";
+    display: inline-block;
+    margin-right: 0.5rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.year-details[open] .year-summary::before {
+    transform: rotate(90deg);
+}
+
+.year-content {
+    padding: 1rem 1.25rem;
+    background-color: #fff;
+}
