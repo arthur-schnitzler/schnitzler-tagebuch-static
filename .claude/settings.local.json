@@ -20,7 +20,9 @@
       "Bash(for:*)",
       "Bash(do echo \"=== $file ===\")",
       "Bash(done)",
-      "Bash(xargs:*)"
+      "Bash(xargs:*)",
+      "Bash(echo:*)",
+      "Bash(/Users/oldfiche/git/schnitzler-tagebuch-static/html/css/style.css)"
     ],
     "deny": []
   }

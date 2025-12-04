@@ -1503,7 +1503,7 @@
                             <xsl:choose>
                                 <!-- Wenn mehr als 10 Erwähnungen -->
                                 <xsl:when test="$mentionCount > 10">
-                                    <div class="accordion" id="mentionsAccordion">
+                                    <div class="mentions-by-year">
                                         <!-- Gruppieren nach Jahr -->
                                         <xsl:for-each-group select="$mentions//tei:note"
                                             group-by="substring(@corresp, 1, 4)">
@@ -1511,15 +1511,8 @@
                                                 data-type="number" order="ascending"/>
                                             <xsl:variable name="year"
                                                 select="current-grouping-key()"/>
-                                            <xsl:variable name="accordionId"
-                                                select="concat('accordion-', $year)"/>
-                                            <div class="accordion-item">
-                                                <h2 class="accordion-header" id="heading-{$year}">
-                                                  <button class="accordion-button collapsed"
-                                                  type="button" data-bs-toggle="collapse"
-                                                  data-bs-target="#{$accordionId}"
-                                                  aria-expanded="false"
-                                                  aria-controls="{$accordionId}">
+                                            <details class="year-details">
+                                                <summary class="year-summary">
                                                   <xsl:choose>
                                                   <xsl:when test="count(current-group()) = 1">
                                                   <xsl:value-of
@@ -1531,13 +1524,8 @@
                                                   />
                                                   </xsl:otherwise>
                                                   </xsl:choose>
-                                                  </button>
-                                                </h2>
-                                                <div id="{$accordionId}"
-                                                  class="accordion-collapse collapse"
-                                                  aria-labelledby="heading-{$year}"
-                                                  data-bs-parent="#mentionsAccordion">
-                                                  <div class="accordion-body">
+                                                </summary>
+                                                <div class="year-content">
                                                   <xsl:choose>
                                                   <xsl:when test="count(current-group()) > 10">
                                                   <xsl:for-each-group select="current-group()"
@@ -1608,9 +1596,8 @@
                                                   </ul>
                                                   </xsl:otherwise>
                                                   </xsl:choose>
-                                                  </div>
                                                 </div>
-                                            </div>
+                                            </details>
                                         </xsl:for-each-group>
                                     </div>
                                 </xsl:when>
