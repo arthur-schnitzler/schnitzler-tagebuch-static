@@ -19,7 +19,7 @@
                 <xsl:with-param name="page_url" select="'https://schnitzler-tagebuch.acdh.oeaw.ac.at/toc.html'"/>
                 <xsl:with-param name="meta_description" select="'Inhaltsverzeichnis aller Tagebucheinträge von Arthur Schnitzler. Durchsuchbare Übersicht mit Datum, Jahr und direkten Links zu den digitalisierten Einträgen.'"/>
             </xsl:call-template>
-            <link href="https://unpkg.com/tabulator-tables@6.2.1/dist/css/tabulator_bootstrap5.min.css" rel="stylesheet" />
+            <link href="vendor/tabulator-tables/css/tabulator_bootstrap5.min.css" rel="stylesheet" />
             
             <body class="page">
                 <div class="hfeed site" id="page">
@@ -73,7 +73,7 @@
                     </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
-                    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.2.1/dist/js/tabulator.min.js"/>
+                    <script type="text/javascript" src="vendor/tabulator-tables/js/tabulator.min.js"/>
                     <script src="tabulator-js/tabulator-limited.js"/>
                     
                 </div>
