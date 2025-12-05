@@ -18,7 +18,7 @@
                 <xsl:with-param name="html_title" select="$doc_title"/>
                 <xsl:with-param name="page_url" select="'https://schnitzler-tagebuch.acdh.oeaw.ac.at/listperson.html'"/>
             </xsl:call-template>
-            <link href="https://unpkg.com/tabulator-tables@6.2.1/dist/css/tabulator_bootstrap5.min.css" rel="stylesheet" />
+            <link href="vendor/tabulator-tables/css/tabulator_bootstrap5.min.css" rel="stylesheet" />
             
             <body class="page">
                 <div class="hfeed site" id="page">
@@ -239,6 +239,7 @@
                                                                             >adoptierter Name</item>
                                                                         <item type="namensvariante">Namensvariante</item>
                                                                         <item type="person_rufname">Rufname</item>
+                                                                        <item type="person_rufname_vorname">Rufname</item>
                                                                         <item type="person_pseudonym">Pseudonym</item>
                                                                         <item type="person_geschieden_nachname">geschieden</item>
                                                                         <item type="person_ehename">Ehename</item>
@@ -314,7 +315,7 @@
                         </div>
                 
                     <xsl:call-template name="html_footer"/>
-                    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.2.1/dist/js/tabulator.min.js"/>
+                    <script type="text/javascript" src="vendor/tabulator-tables/js/tabulator.min.js"/>
                     <script src="tabulator-js/tabulator_person.js"/>
                 </div>
             </body>
