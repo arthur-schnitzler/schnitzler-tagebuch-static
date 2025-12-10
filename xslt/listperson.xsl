@@ -3,12 +3,13 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:mam="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0"
     exclude-result-prefixes="xsl tei xs">
-    <xsl:output encoding="UTF-8" media-type="text/html" method="html" version="5.0" indent="yes" omit-xml-declaration="yes"/>
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/entities.xsl"/>
     <xsl:import href="./partials/tabulator_js.xsl"/>
+    <xsl:output encoding="UTF-8" media-type="text/html" method="html" version="5.0" indent="yes" omit-xml-declaration="yes"/>
+
     <xsl:variable name="teiSource" select="'listperson.xml'"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Verzeichnis erwähnter Personen'"/>
@@ -18,7 +19,7 @@
                 <xsl:with-param name="html_title" select="$doc_title"/>
                 <xsl:with-param name="page_url" select="'https://schnitzler-tagebuch.acdh.oeaw.ac.at/listperson.html'"/>
             </xsl:call-template>
-            <link href="vendor/tabulator-tables/css/tabulator_bootstrap5.min.css" rel="stylesheet" />
+            <link href="https://cdn.jsdelivr.net/npm/tabulator-tables@6.3.0/dist/css/tabulator_bootstrap5.min.css" rel="stylesheet" />
             
             <body class="page">
                 <div class="hfeed site" id="page">
@@ -315,7 +316,7 @@
                         </div>
                 
                     <xsl:call-template name="html_footer"/>
-                    <script type="text/javascript" src="vendor/tabulator-tables/js/tabulator.min.js"/>
+                    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/tabulator-tables@6.3.0/dist/js/tabulator.min.js"/>
                     <script src="tabulator-js/tabulator_person.js"/>
                 </div>
             </body>

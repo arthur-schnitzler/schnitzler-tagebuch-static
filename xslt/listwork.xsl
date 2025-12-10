@@ -30,7 +30,7 @@
                                     <xsl:value-of select="$doc_title"/>
                                 </h1>
                             </div>
-                            <link href="vendor/tabulator-tables/css/tabulator_bootstrap5.min.css" rel="stylesheet" />
+                            <link href="https://cdn.jsdelivr.net/npm/tabulator-tables@6.3.0/dist/css/tabulator_bootstrap5.min.css" rel="stylesheet" />
                             
                             <div>
                                 <div class="container mb-3"
@@ -137,7 +137,7 @@
                     </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
-                    <script type="text/javascript" src="vendor/tabulator-tables/js/tabulator.min.js"/>
+                    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/tabulator-tables@6.3.0/dist/js/tabulator.min.js"/>
                     <script src="tabulator-js/tabulator_work.js"/>
                 </div>
             </body>
