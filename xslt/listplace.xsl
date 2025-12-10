@@ -16,7 +16,7 @@
                 <xsl:with-param name="html_title" select="$doc_title"/>
                 <xsl:with-param name="page_url" select="'https://schnitzler-tagebuch.acdh.oeaw.ac.at/listplace.html'"/>
             </xsl:call-template>
-            <link href="vendor/tabulator-tables/css/tabulator_bootstrap5.min.css" rel="stylesheet" />
+            <link href="https://cdn.jsdelivr.net/npm/tabulator-tables@6.3.0/dist/css/tabulator_bootstrap5.min.css" rel="stylesheet" />
             <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
                 integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
             <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""/>
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
-                    <script type="text/javascript" src="vendor/tabulator-tables/js/tabulator.min.js"/>
+                    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/tabulator-tables@6.3.0/dist/js/tabulator.min.js"/>
                     <script src="js/map_table_cfg.js"/>
                     <script src="js/make_map_and_table.js"/>
                     <script>
