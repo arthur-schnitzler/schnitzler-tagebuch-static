@@ -3,7 +3,6 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:local="http://dse-static.foo.bar"
     xmlns:mam="whatever" version="2.0" exclude-result-prefixes="xsl tei xs">
-    <xsl:output encoding="UTF-8" media-type="text/html" method="html" version="5.0" indent="yes" omit-xml-declaration="yes"/>
     <xsl:import href="./partials/shared.xsl"/>
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
@@ -13,15 +12,20 @@
     <xsl:import href="./partials/entities.xsl"/>
     <xsl:import href="./partials/html_title_navigation.xsl"/>
     <xsl:import href="./partials/view-type.xsl"/>
+    <xsl:import href="./partials/zotero.xsl"/>
+    <xsl:import href="./partials/biblStruct-output.xsl"/>
+
     <!-- Einstellungen für die Schnitzler-Chronik. Lokaler Import zur Vermeidung von Remote-Fetching während des Builds -->
     <xsl:import href="../../schnitzler-chronik-static/xslt/export/schnitzler-chronik.xsl"/>
     <!--<xsl:import
         href="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/schnitzler-chronik.xsl"/>-->
+        
     <xsl:param name="schnitzler-chronik_fetch-locally" as="xs:boolean" select="true()"/>
     <xsl:param name="schnitzler-chronik_current-type" as="xs:string" select="'schnitzler-tagebuch'"/>
-    <xsl:import href="./partials/biblStruct-output.xsl"/>
     <xsl:param name="quotationURL"/>
     <xsl:param name="chronik-dir">../chronik-data</xsl:param>
+       <xsl:output encoding="UTF-8" media-type="text/html" method="html" version="5.0" indent="yes" omit-xml-declaration="yes"/>
+
     <xsl:variable name="chronik-data"
         select="collection(concat($chronik-dir, '/?select=L0*.xml;recurse=yes'))"/>
     <xsl:variable name="prev">
@@ -111,6 +115,10 @@
                 <xsl:with-param name="entry_date" select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"/>
                 <xsl:with-param name="page_url" select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', $teiSource, '.html')"/>
                 <xsl:with-param name="meta_description" select="concat('Tagebucheintrag von Arthur Schnitzler vom ', $doc_title, '. Digitale Edition des Tagebuchs (1879–1931) des österreichischen Schriftstellers.')"/>
+            </xsl:call-template>
+            <xsl:call-template name="zoterMetaTags">
+                <xsl:with-param name="pageId" select="$link"/>
+                <xsl:with-param name="zoteroTitle" select="$doc_title"/>
             </xsl:call-template>
             <body class="page">
                 <div class="hfeed site" id="page">
