@@ -12,7 +12,7 @@ jobs:
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v4
-    - name: Install Saxon, Ant and Fundament
+    - name: Install dependencies
       run: |
         ./script.sh
     - name: Install Python Package

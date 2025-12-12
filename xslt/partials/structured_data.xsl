@@ -5,8 +5,6 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xsl tei xs" version="2.0">
 
-    <xsl:include href="./params.xsl"/>
-
     <!-- Template for Website/Organization structured data -->
     <xsl:template name="website_structured_data">
         <xsl:param name="page_title" select="''"/>
