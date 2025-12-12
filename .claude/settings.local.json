@@ -23,7 +23,11 @@
       "Bash(xargs:*)",
       "Bash(echo:*)",
       "Bash(/Users/oldfiche/git/schnitzler-tagebuch-static/html/css/style.css)",
-      "Bash(git check-ignore:*)"
+      "Bash(git check-ignore:*)",
+      "Bash(test:*)",
+      "Bash(./script.sh)",
+      "Bash(wget:*)",
+      "Bash(unzip:*)"
     ],
     "deny": []
   }
