@@ -15,7 +15,14 @@ Anyways, for the most up-to-date instructions on how to get up and running have 
 
 ## Third-Party Libraries
 
-This project uses the following third-party libraries (located in `html/vendor/`, not tracked in git):
+This project uses the following third-party libraries:
+
+### Build Tools (tracked in repository)
+
+- **[Saxon-HE 9.9.1.7](https://www.saxonica.com/html/welcome/welcome.html)** (Mozilla Public License 2.0) - XSLT processor located in `./saxon/`
+  - Full license text: `./saxon/notices/LICENSE.txt`
+
+### Frontend Libraries (located in `html/vendor/`, not tracked in git)
 
 - **[Tabulator](https://tabulator.info/)** (MIT License) - Interactive table library for person, place, and work indexes
 - **[Bootstrap 5](https://getbootstrap.com/)** (MIT License) - CSS framework

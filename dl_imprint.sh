@@ -1,4 +1,4 @@
-# bin/bash
+#!/bin/bash
 
 REDMINE_ID=11833
 IMPRINT_XML=./data/imprint.xml
