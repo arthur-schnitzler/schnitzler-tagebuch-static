@@ -121,6 +121,15 @@
                 <xsl:with-param name="zoteroTitle" select="$doc_title"/>
             </xsl:call-template>
             <body class="page">
+                <!-- Unsichtbarer ISO-Datum-Kopierbereich in der oberen rechten Ecke -->
+                <div style="position: fixed; top: 0; right: 0; width: 50px; height: 50px; cursor: pointer; z-index: 9999; opacity: 0;"
+                     title="ISO-Datum kopieren">
+                    <xsl:attribute name="onclick">
+                        <xsl:text>navigator.clipboard.writeText('</xsl:text>
+                        <xsl:value-of select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"/>
+                        <xsl:text>').then(() => { this.style.opacity = '0.2'; setTimeout(() => { this.style.opacity = '0'; }, 500); });</xsl:text>
+                    </xsl:attribute>
+                </div>
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     <div class="container-fluid">
@@ -206,18 +215,6 @@
                                 </nav>
                             </div>
                             <xsl:call-template name="html_footer"/>
-                            <div class="d-flex justify-content-between">
-                                <span id="isoDateValue" style="color:white">
-                                    <xsl:value-of
-                                        select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"
-                                    />
-                                </span>
-                                <span id="isoDateValueLink" style="color:white;cursor:pointer" onclick="navigator.clipboard.writeText(this.textContent)">
-                                    <xsl:value-of
-                                        select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"
-                                    />
-                                </span>
-                            </div>
                         </div>
                     </div>
                 </div>
