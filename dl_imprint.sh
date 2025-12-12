@@ -2,6 +2,7 @@
 
 REDMINE_ID=11833
 IMPRINT_XML=./data/imprint.xml
+mkdir -p ./data
 rm -f ${IMPRINT_XML}
 echo '<?xml version="1.0" encoding="UTF-8"?>' > ${IMPRINT_XML}
 echo "<root>" >> ${IMPRINT_XML}
