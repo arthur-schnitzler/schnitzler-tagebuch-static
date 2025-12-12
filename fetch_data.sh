@@ -1,5 +1,6 @@
-# bin/bash
-rm master.zip
+#!/bin/bash
+set -e  # Exit immediately if a command exits with a non-zero status
+rm -f master.zip
 rm -rf data
 wget https://github.com/arthur-schnitzler/schnitzler-tagebuch-data/archive/refs/heads/master.zip
 unzip master
