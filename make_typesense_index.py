@@ -109,7 +109,9 @@ for x in tqdm(files, total=len(files)):
          " ".join(" ".join(x.xpath('.//text()')).split()) for x in doc.any_xpath('.//tei:listBibl//tei:bibl[@xml:id]/tei:title[1]')
     ]
     cfts_record['works'] = record['works']
-    record['full_text'] = " ".join(''.join(body.itertext()).split())
+    # Exclude tei:fw elements from full-text indexing
+    full_text_nodes = doc.any_xpath('.//tei:body//text()[not(ancestor::tei:fw)]')
+    record['full_text'] = " ".join(''.join(full_text_nodes).split())
     cfts_record['full_text'] = record['full_text']
     records.append(record)
     cfts_records.append(cfts_record)
