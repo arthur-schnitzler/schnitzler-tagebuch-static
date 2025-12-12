@@ -3,7 +3,6 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:mam="whatever" version="2.0" exclude-result-prefixes="xsl tei xs">
     <xsl:import href="./LOD-idnos.xsl"/>
-    <xsl:include href="./params.xsl"/>
     <xsl:param name="places" select="document('../../data/indices/listplace.xml')"/>
     <!-- nur fürs Schnitzler-Tagebuch die folgenden beiden Einbindungen -->
     <xsl:param name="listperson" select="document('../../data/indices/listperson.xml')"/>
