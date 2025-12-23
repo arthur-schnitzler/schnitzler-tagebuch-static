@@ -3,10 +3,20 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:mam="whatever" version="2.0" exclude-result-prefixes="xsl tei xs">
     <xsl:import href="./LOD-idnos.xsl"/>
+    <xsl:include href="./params.xsl"/>
     <xsl:param name="places" select="document('../../data/indices/listplace.xml')"/>
     <!-- nur fürs Schnitzler-Tagebuch die folgenden beiden Einbindungen -->
     <xsl:param name="listperson" select="document('../../data/indices/listperson.xml')"/>
     <xsl:key name="author-lookup" match="tei:person" use="tei:idno[@subtype = 'pmb']"/>
+    <!-- Korrespondenzen (nur für schnitzler-briefe) -->
+    <xsl:variable name="listcorrespondencePath" select="'../../data/indices/listcorrespondence.xml'"/>
+    <xsl:param name="listcorrespondence" select="
+            if (unparsed-text-available($listcorrespondencePath))
+            then
+                document($listcorrespondencePath)
+            else
+                ()"/>
+    <xsl:key name="correspondence-lookup" match="tei:personGrp[not(@ana='planned') and not(@xml:id='correspondence_null')]" use="tei:persName[@role='main'][1]/@ref"/>
     <xsl:variable name="listbiblPath" select="'../../data/indices/listbibl.xml'"/>
     <xsl:variable name="listworkPath" select="'../../data/indices/listwork.xml'"/>
     <xsl:param name="events"
@@ -30,10 +40,8 @@
     <xsl:key name="work-day-lookup" match="item" use="ref"/>
     <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
     <!-- Schnitzler-Lektüren -->
-    <xsl:param name="lektueren-konkordanz"
-        select="document('../../data/indices/konkordanz.xml')"/>
+    <xsl:param name="lektueren-konkordanz" select="document('../../data/indices/konkordanz.xml')"/>
     <xsl:key name="lektueren-konk-lookup" match="ref" use="@xml:id"/>
-    
     <!-- PERSON -->
     <xsl:template match="tei:person" name="person_detail">
         <xsl:param name="showNumberOfMentions" as="xs:integer" select="50000"/>
@@ -323,6 +331,28 @@
             <xsl:call-template name="lod-reihe">
                 <xsl:with-param name="idno" select="$idnos"/>
             </xsl:call-template>
+            <xsl:if test="$current-edition = 'schnitzler-briefe'">
+                <xsl:variable name="person-ref" as="xs:string">
+                    <xsl:value-of select="concat('#pmb', replace(replace(@xml:id, 'person__', ''), 'pmb', ''))"/>
+                </xsl:variable>
+                <xsl:variable name="correspondence" select="key('correspondence-lookup', $person-ref, $listcorrespondence)"/>
+                <xsl:if test="$correspondence">
+                    <div class="korrespondenz">
+                        <legend>Korrespondenz</legend>
+                        <ul class="dashed">
+                            <li>
+                                <a>
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of select="concat('toc_', replace($correspondence/@xml:id, 'correspondence_', ''), '.html')"/>
+                                    </xsl:attribute>
+                                    <xsl:text>Zum Briefwechsel Schnitzler – </xsl:text>
+                                    <xsl:value-of select="$lemma-name"/>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </xsl:if>
+            </xsl:if>
             <div class="werke">
                 <xsl:variable name="author-ref" as="xs:string">
                     <xsl:choose>
@@ -469,9 +499,8 @@
                         <xsl:variable name="link"
                             select="key('lektueren-konk-lookup', @xml:id, $lektueren-konkordanz)[1]/@target"/>
                         <a href="{concat($link, '#', @xml:id)}"
-                            style="display: inline-block; background-color: #022954; color: white; padding: 0.5em 1em; border-radius: 0.25rem; text-decoration: none;">
-                            Zur Leseliste
-                        </a>
+                            style="display: inline-block; background-color: #022954; color: white; padding: 0.5em 1em; border-radius: 0.25rem; text-decoration: none;"
+                            > Zur Leseliste </a>
                     </p>
                 </xsl:if>
             </div>
@@ -571,7 +600,6 @@
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </xsl:variable>
-                              
                                 <xsl:choose>
                                     <xsl:when
                                         test="$autor-ref = 'pmb2121' and $current-edition = 'schnitzler-tagebuch'">
@@ -581,11 +609,11 @@
                                         <a href="pmb2121.html">
                                             <xsl:text>Arthur Schnitzler</xsl:text>
                                         </a>
-                                    </xsl:when> 
+                                    </xsl:when>
                                     <xsl:when test="$current-edition = 'schnitzler-tagebuch'">
                                         <xsl:variable name="author-lookup-mit-schraegstrich"
                                             select="
-                                            key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', replace($autor-ref, 'pmb', ''), '/'),
+                                                key('author-lookup', concat('https://pmb.acdh.oeaw.ac.at/entity/', replace($autor-ref, 'pmb', ''), '/'),
                                                 $listperson)/tei:idno[@subtype = 'schnitzler-tagebuch' or @type = 'schnitzler-tagebuch'][1]/substring-after(., 'https://schnitzler-tagebuch.acdh.oeaw.ac.at/')"/>
                                         <xsl:variable name="autor-ref-schnitzler-tagebuch">
                                             <xsl:choose>
@@ -1532,8 +1560,11 @@
                                                   order="ascending"/>
                                                   <xsl:variable name="monthKey"
                                                   select="current-grouping-key()"/>
-                                                  <details class="month-details ms-4 mb-3 bg-light rounded p-2" open="open">
-                                                  <summary class="month-summary p-2 bg-light rounded fw-medium">
+                                                  <details
+                                                  class="month-details ms-4 mb-3 bg-light rounded p-2"
+                                                  open="open">
+                                                  <summary
+                                                  class="month-summary p-2 bg-light rounded fw-medium">
                                                   <xsl:variable name="monthNum"
                                                   select="number(substring(current-grouping-key(), 6, 2))"/>
                                                   <xsl:choose>
