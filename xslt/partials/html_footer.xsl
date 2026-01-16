@@ -43,22 +43,15 @@
                             </p>
                             <p>
                                 T: +43 1 51581-2200<br/>
-                                    E: <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">acdh-ch-helpdesk(at)oeaw.ac.at</a>
+                                    E: <a href="mailto:acdh-helpdesk@oeaw.ac.at">acdh-helpdesk(at)oeaw.ac.at</a>
                             </p>
                         </div>
                     </div>
                     
                     <!-- Rechte Spalte -->
                     <div class="col-md-6">
-                        <h6>Work in Progress</h6>
-                        <p>
-                            Bei Fragen, Anmerkungen, Kritik, aber gerne auch Lob, wenden Sie sich bitte an den
-                            <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">ACDH Helpdesk</a>.
-                        </p>
-                        <p>
-                            <a class="helpdesk-button"
-                                href="mailto:acdh-ch-helpdesk@oeaw.ac.at">e-Mail</a>
-                        </p>
+                        <h6>Zitiervorschlag</h6>
+                        <p>Austrian Centre for Digital Humanities, Arthur Schnitzler Tagebuch 1879–1931 digital, 2021. (<a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/">https://schnitzler-tagebuch.acdh.oeaw.ac.at/</a>)</p>
                         <p>
                             <a href="https://github.com/arthur-schnitzler/schnitzler-tagebuch-static">
                                 <i class="fab fa-github-square fa-2x" style="color: #037a33;"></i>
