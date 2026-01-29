@@ -51,7 +51,7 @@
                     <!-- Rechte Spalte -->
                     <div class="col-md-6">
                         <h6>Zitiervorschlag</h6>
-                        <p>Austrian Centre for Digital Humanities, Arthur Schnitzler Tagebuch 1879–1931 digital, 2021. (<a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/">https://schnitzler-tagebuch.acdh.oeaw.ac.at/</a>)</p>
+                        <p>Arthur Schnitzler: Tagebuch 1879–1931. Digitale Ausgabe. Herausgegeben von Austrian Centre for Digital Humanities (ACDH) der Österreichischen Akademie der Wissenschaften. Wien, 2021. (<a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/">https://schnitzler-tagebuch.acdh.oeaw.ac.at/</a>)</p>
                         <p>
                             <a href="https://github.com/arthur-schnitzler/schnitzler-tagebuch-static">
                                 <i class="fab fa-github-square fa-2x" style="color: #037a33;"></i>
