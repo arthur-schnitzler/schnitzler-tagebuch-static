@@ -45,7 +45,7 @@ const columns = [
   {
     headerFilter: "input",
     title: "Erwähnungen",
-    field: "mentions",
+    field: "Erwähnungen",
     formatter: "plaintext",
     resizable: true,
   },
