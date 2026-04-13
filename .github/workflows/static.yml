@@ -25,7 +25,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     env:
-      ANT_OPTS: -Xmx6g
+      ANT_OPTS: -Xmx12g
       TYPESENSE_HOST: typesense.acdh-dev.oeaw.ac.at
       TYPESENSE_PORT: 443
       TYPESENSE_PROTOCOL: https
