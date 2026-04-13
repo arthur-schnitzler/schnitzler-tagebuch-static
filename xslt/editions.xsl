@@ -571,14 +571,8 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Schließen"/>
                             </div>
-                            <xsl:variable name="relevant-eventtypes" as="xs:string">
-                                <xsl:for-each select="document('https://github.com/arthur-schnitzler/schnitzler-chronik-static/blob/main/xslt/export/list-of-relevant-uris.xml')/descendant::*:abbr[.!='schnitzler-tagebuch']">
-                                    <xsl:value-of select="."/>
-                                    <xsl:if test="not(position()=last())">
-                                        <xsl:text> </xsl:text>
-                                    </xsl:if>
-                                </xsl:for-each>
-                            </xsl:variable>
+                            <xsl:variable name="relevant-eventtypes" as="xs:string"
+                                select="string-join(document('../../schnitzler-chronik-static/xslt/export/list-of-relevant-uris.xml')/descendant::*:abbr[. != 'schnitzler-tagebuch'], ' ')"/>
                             <!-- Achtung, kein Tagebuch, weil es ja keine zwei Einträge an einem Tag gibt -->
                             <div class="modal-body">
                                 <div id="chronik-modal-body"/>
