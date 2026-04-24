@@ -1,0 +1,647 @@
+{
+  "eventeventrelation": [
+    {
+      "id": 4337,
+      "name": "enthält",
+      "name_reverse": "gehört zu"
+    },
+    {
+      "id": 3440,
+      "name": "nachgefolgt",
+      "name_reverse": "vorangegangen"
+    },
+    {
+      "id": 3439,
+      "name": "vorangegangen",
+      "name_reverse": "nachgefolgt"
+    }
+  ],
+  "eventworkrelation": [
+    {
+      "id": 4416,
+      "name": "ist Ausstellung von",
+      "name_reverse": "ausgestellt in"
+    },
+    {
+      "id": 4362,
+      "name": "ist Neueinstudierung von",
+      "name_reverse": "wurde neu einstudiert gegeben"
+    },
+    {
+      "id": 1528,
+      "name": "ist Generalprobe von",
+      "name_reverse": "hat Generalprobe"
+    },
+    {
+      "id": 1527,
+      "name": "ist Probe von",
+      "name_reverse": "hat Probe"
+    },
+    {
+      "id": 1371,
+      "name": "wird rezensiert in",
+      "name_reverse": "rezensiert"
+    },
+    {
+      "id": 1252,
+      "name": "ist Lesung von",
+      "name_reverse": "hatte Lesung bei"
+    },
+    {
+      "id": 1206,
+      "name": "ist Premiere von",
+      "name_reverse": "hatte Premiere bei"
+    },
+    {
+      "id": 1204,
+      "name": "ist Uraufführung von",
+      "name_reverse": "hatte Uraufführung bei"
+    },
+    {
+      "id": 1201,
+      "name": "ist Aufführung von",
+      "name_reverse": "wurde aufgeführt bei"
+    }
+  ],
+  "institutioneventrelation": [
+    {
+      "id": 1351,
+      "name": "veranstaltet",
+      "name_reverse": "veranstaltet von"
+    }
+  ],
+  "institutioninstitutionrelation": [
+    {
+      "id": 1517,
+      "name": "enthält",
+      "name_reverse": "ist Teil von"
+    },
+    {
+      "id": 1516,
+      "name": "ist Teil von",
+      "name_reverse": "enthält"
+    },
+    {
+      "id": 1244,
+      "name": "succeeding",
+      "name_reverse": ""
+    },
+    {
+      "id": 1237,
+      "name": "preceding",
+      "name_reverse": ""
+    },
+    {
+      "id": 1192,
+      "name": "in Relation zu",
+      "name_reverse": "in Relation zu"
+    },
+    {
+      "id": 1159,
+      "name": "Vorgänger war",
+      "name_reverse": "aufgegangen in"
+    },
+    {
+      "id": 1158,
+      "name": "aufgegangen in",
+      "name_reverse": "Vorgänger war"
+    }
+  ],
+  "institutionplacerelation": [
+    {
+      "id": 4413,
+      "name": "besitzt",
+      "name_reverse": "gehört zu"
+    },
+    {
+      "id": 970,
+      "name": "angesiedelt in",
+      "name_reverse": "enthält"
+    }
+  ],
+  "institutionworkrelation": [
+    {
+      "id": 1143,
+      "name": "in Beziehung zu",
+      "name_reverse": "in Beziehung zu"
+    },
+    {
+      "id": 1139,
+      "name": "enthält",
+      "name_reverse": "enthalten in"
+    },
+    {
+      "id": 1138,
+      "name": "enthalten in",
+      "name_reverse": "enthält"
+    }
+  ],
+  "personeventrelation": [
+    {
+      "id": 1370,
+      "name": "teilnehmend an",
+      "name_reverse": "hat teilnehmend"
+    },
+    {
+      "id": 1256,
+      "name": "mitwirkend an",
+      "name_reverse": "hat mitwirkend"
+    }
+  ],
+  "personinstitutionrelation": [
+    {
+      "id": 4232,
+      "name": "ist Mitglied bei",
+      "name_reverse": "hat als Mitglied"
+    },
+    {
+      "id": 3415,
+      "name": "Lernender/Lernende an",
+      "name_reverse": "Unterricht für"
+    },
+    {
+      "id": 1534,
+      "name": "unterstützt",
+      "name_reverse": "wird unterstützt von"
+    },
+    {
+      "id": 1409,
+      "name": "besitzt",
+      "name_reverse": "steht im Eigentum von"
+    },
+    {
+      "id": 1182,
+      "name": "arbeitet für",
+      "name_reverse": "hat als Arbeitskraft"
+    },
+    {
+      "id": 1153,
+      "name": "in Bezug zu",
+      "name_reverse": "in Bezug zu"
+    }
+  ],
+  "personpersonrelation": [
+    {
+      "id": 4510,
+      "name": "möglicherweise biologischer Elternteil von",
+      "name_reverse": "möglicherweise biologisches Kind von"
+    },
+    {
+      "id": 4509,
+      "name": "möglicherweise biologisches Kind von",
+      "name_reverse": "möglicherweise biologischer Elternteil von"
+    },
+    {
+      "id": 4404,
+      "name": "ist Schwiegerkind von",
+      "name_reverse": "ist Schwiegerelternteil von"
+    },
+    {
+      "id": 4403,
+      "name": "ist Schwiegerelternteil von",
+      "name_reverse": "ist Schwiegerkind von"
+    },
+    {
+      "id": 3464,
+      "name": "ist verlobt mit",
+      "name_reverse": "ist verlobt mit"
+    },
+    {
+      "id": 3459,
+      "name": "ist Stiefgeschwister von",
+      "name_reverse": "ist Stiefgeschwister von"
+    },
+    {
+      "id": 3429,
+      "name": "ist Vormund von",
+      "name_reverse": "steht unter Vormundschaft von"
+    },
+    {
+      "id": 3403,
+      "name": "ist biologisches Kind von",
+      "name_reverse": "ist biologisches Elternteil von"
+    },
+    {
+      "id": 3402,
+      "name": "ist biologisches Elternteil von",
+      "name_reverse": "ist biologisches Kind von"
+    },
+    {
+      "id": 1530,
+      "name": "ist Schüler/Schülerin von",
+      "name_reverse": "ist Lehrer/Lehrerin von"
+    },
+    {
+      "id": 1523,
+      "name": "ist Halbgeschwister von",
+      "name_reverse": "ist Halbgeschwister von"
+    },
+    {
+      "id": 1424,
+      "name": "ist Lehrer/Lehrerin von",
+      "name_reverse": "ist Schüler/Schülerin von"
+    },
+    {
+      "id": 1405,
+      "name": "in beruflichem Bezug zu",
+      "name_reverse": "in beruflichem Bezug zu"
+    },
+    {
+      "id": 1310,
+      "name": "ist Großonkel/Großtante von",
+      "name_reverse": "ist Großneffe/Großnichte von"
+    },
+    {
+      "id": 1309,
+      "name": "ist Großneffe/Großnichte von",
+      "name_reverse": "ist Großonkel/Großtante von"
+    },
+    {
+      "id": 1247,
+      "name": "ist Arbeitgeber/Arbeitgeberin für",
+      "name_reverse": "arbeitet für"
+    },
+    {
+      "id": 1186,
+      "name": "arbeitet zusammen mit",
+      "name_reverse": "arbeitet zusammen mit"
+    },
+    {
+      "id": 1178,
+      "name": "arbeitet für",
+      "name_reverse": "ist Arbeitgeber/Arbeitgeberin für"
+    },
+    {
+      "id": 1177,
+      "name": "ist befreundet mit",
+      "name_reverse": "ist befreundet mit"
+    },
+    {
+      "id": 1176,
+      "name": "in Bezug zu",
+      "name_reverse": "in Bezug zu"
+    },
+    {
+      "id": 1175,
+      "name": "ist Neffe/Nichte von",
+      "name_reverse": "ist Onkel/Tante von"
+    },
+    {
+      "id": 1174,
+      "name": "ist Stiefelternteil von",
+      "name_reverse": "ist Stiefkind von"
+    },
+    {
+      "id": 1173,
+      "name": "ist Stiefkind von",
+      "name_reverse": "ist Stiefelternteil von"
+    },
+    {
+      "id": 1171,
+      "name": "hinterlässt durch Tod",
+      "name_reverse": "ist durch Tod getrennt von"
+    },
+    {
+      "id": 1170,
+      "name": "ist durch Tod getrennt von",
+      "name_reverse": "hinterlässt durch Tod"
+    },
+    {
+      "id": 1169,
+      "name": "ist geschieden von",
+      "name_reverse": "ist geschieden von"
+    },
+    {
+      "id": 1122,
+      "name": "ist adoptiertes Kind von",
+      "name_reverse": "ist durch Adoption Elternteil von"
+    },
+    {
+      "id": 1121,
+      "name": "ist Enkel/Enkelin von",
+      "name_reverse": "ist Großelternteil von"
+    },
+    {
+      "id": 1120,
+      "name": "ist Kind von",
+      "name_reverse": "ist Elternteil von"
+    },
+    {
+      "id": 1118,
+      "name": "ist verschwägert mit",
+      "name_reverse": "ist verschwägert mit"
+    },
+    {
+      "id": 1117,
+      "name": "ist Großelternteil von",
+      "name_reverse": "ist Enkel von"
+    },
+    {
+      "id": 1116,
+      "name": "ist Geschwister von",
+      "name_reverse": "ist Geschwister von"
+    },
+    {
+      "id": 1115,
+      "name": "ist verheiratet mit",
+      "name_reverse": "ist verheiratet mit"
+    },
+    {
+      "id": 1114,
+      "name": "in intimer Beziehung zu",
+      "name_reverse": "in intimer Beziehung zu"
+    },
+    {
+      "id": 1113,
+      "name": "ist durch Adoption Elternteil von",
+      "name_reverse": "ist adoptiertes Kind von"
+    },
+    {
+      "id": 1112,
+      "name": "ist Cousin/Cousine von",
+      "name_reverse": "ist Cousin/Cousine von"
+    },
+    {
+      "id": 1111,
+      "name": "ist Onkel/Tante von",
+      "name_reverse": "ist Neffe/Nichte von"
+    },
+    {
+      "id": 1110,
+      "name": "ist verwandt zu",
+      "name_reverse": "ist verwandt zu"
+    },
+    {
+      "id": 1109,
+      "name": "ist Elternteil von",
+      "name_reverse": "ist Kind von"
+    }
+  ],
+  "personplacerelation": [
+    {
+      "id": 2253,
+      "name": "wohnhaft in",
+      "name_reverse": "Wohnadresse von"
+    },
+    {
+      "id": 1901,
+      "name": "vielleicht gestorben in",
+      "name_reverse": "vielleicht der Sterbeort von"
+    },
+    {
+      "id": 1900,
+      "name": "vielleicht geboren in",
+      "name_reverse": "vielleicht der Geburtsort von"
+    },
+    {
+      "id": 1294,
+      "name": "deportiert nach",
+      "name_reverse": "Deportationsort von"
+    },
+    {
+      "id": 1187,
+      "name": "beerdigt in",
+      "name_reverse": "enthält das Grab von"
+    },
+    {
+      "id": 1181,
+      "name": "hält sich auf in",
+      "name_reverse": "war Aufenthaltsort von"
+    },
+    {
+      "id": 1179,
+      "name": "ist Staatsbürger/Staatsbürgerin von",
+      "name_reverse": "hat als Staatsangehörigen"
+    },
+    {
+      "id": 1165,
+      "name": "in Bezug zu",
+      "name_reverse": "in Bezug zu"
+    },
+    {
+      "id": 1150,
+      "name": "ist Eigentümer/Eigentümerin von",
+      "name_reverse": "im Eigentum von"
+    },
+    {
+      "id": 1140,
+      "name": "arbeitet in",
+      "name_reverse": "Arbeitsort von"
+    },
+    {
+      "id": 89,
+      "name": "gestorben in",
+      "name_reverse": "Sterbeort von"
+    },
+    {
+      "id": 88,
+      "name": "geboren in",
+      "name_reverse": "Geburtsort von"
+    }
+  ],
+  "personworkrelation": [
+    {
+      "id": 3466,
+      "name": "besitzt",
+      "name_reverse": "steht im Eigentum von"
+    },
+    {
+      "id": 3107,
+      "name": "wird hauptsächlich behandelt in",
+      "name_reverse": "behandelt hauptsächlich"
+    },
+    {
+      "id": 3106,
+      "name": "wird erwähnt in",
+      "name_reverse": "erwähnt"
+    },
+    {
+      "id": 1587,
+      "name": "hat unter einem Kürzel veröffentlicht",
+      "name_reverse": "mit Kürzel veröffentlicht von"
+    },
+    {
+      "id": 1553,
+      "name": "hat illustriert",
+      "name_reverse": "illustriert von"
+    },
+    {
+      "id": 1335,
+      "name": "bekommt zugeschrieben",
+      "name_reverse": "wird zugeschrieben an"
+    },
+    {
+      "id": 1224,
+      "name": "hat einen Beitrag geschaffen zu",
+      "name_reverse": "enthält einen Beitrag von"
+    },
+    {
+      "id": 1217,
+      "name": "hat vertont",
+      "name_reverse": "vertont durch"
+    },
+    {
+      "id": 1144,
+      "name": "hat ein Vorwort/Nachwort verfasst zu",
+      "name_reverse": "ist mit Vorwort/Nachwort versehen von"
+    },
+    {
+      "id": 1053,
+      "name": "hat herausgegeben",
+      "name_reverse": "herausgegeben von"
+    },
+    {
+      "id": 1052,
+      "name": "hat übersetzt",
+      "name_reverse": "übersetzt von"
+    },
+    {
+      "id": 1051,
+      "name": "hat unter Pseudonym geschrieben",
+      "name_reverse": "unter Pseudonym veröffentlicht von"
+    },
+    {
+      "id": 1050,
+      "name": "hat anonym veröffentlicht",
+      "name_reverse": "ohne Autornennung verfasst von"
+    },
+    {
+      "id": 1049,
+      "name": "hat geschaffen",
+      "name_reverse": "geschaffen von"
+    },
+    {
+      "id": 1048,
+      "name": "steht in Bezug zu",
+      "name_reverse": "steht in Bezug zu"
+    }
+  ],
+  "placeeventrelation": [
+    {
+      "id": 1202,
+      "name": "Veranstaltungsort von",
+      "name_reverse": "veranstaltet in"
+    }
+  ],
+  "placeplacerelation": [
+    {
+      "id": 1106,
+      "name": "gehört zu",
+      "name_reverse": "enthält"
+    },
+    {
+      "id": 971,
+      "name": "enthält",
+      "name_reverse": "gehört zu"
+    }
+  ],
+  "placeworkrelation": [
+    {
+      "id": 1549,
+      "name": "enthält",
+      "name_reverse": "enthalten in"
+    },
+    {
+      "id": 1338,
+      "name": "ist Erscheinungsort von",
+      "name_reverse": "erschienen in"
+    },
+    {
+      "id": 1194,
+      "name": "hatte am Spielplan",
+      "name_reverse": "aufgeführt am"
+    },
+    {
+      "id": 1193,
+      "name": "aufgeführt am",
+      "name_reverse": "hatte am Spielplan"
+    }
+  ],
+  "workworkrelation": [
+    {
+      "id": 3651,
+      "name": "ist eine frühere Ausgabe von",
+      "name_reverse": "ist eine spätere Ausgabe von"
+    },
+    {
+      "id": 3650,
+      "name": "ist eine spätere Ausgabe von",
+      "name_reverse": "ist eine frühere Ausgabe von"
+    },
+    {
+      "id": 3467,
+      "name": "wird erwähnt in",
+      "name_reverse": "erwähnt"
+    },
+    {
+      "id": 3446,
+      "name": "erwähnt",
+      "name_reverse": "wird erwähnt in"
+    },
+    {
+      "id": 1884,
+      "name": "übersetzt als",
+      "name_reverse": "ist eine Übersetzung von"
+    },
+    {
+      "id": 1385,
+      "name": "in Bezug zu",
+      "name_reverse": "in Bezug zu"
+    },
+    {
+      "id": 1363,
+      "name": "ist eine Übersetzung von",
+      "name_reverse": "übersetzt als"
+    },
+    {
+      "id": 1233,
+      "name": "vorangegangen ist",
+      "name_reverse": "fortgeführt als"
+    },
+    {
+      "id": 1225,
+      "name": "fortgeführt als",
+      "name_reverse": "vorangegangen ist"
+    },
+    {
+      "id": 1190,
+      "name": "ist eine spätere Fassung von",
+      "name_reverse": "ist eine frühere Fassung von"
+    },
+    {
+      "id": 1189,
+      "name": "ist eine frühere Fassung von",
+      "name_reverse": "ist eine spätere Fassung von"
+    },
+    {
+      "id": 1185,
+      "name": "wurde bearbeitet als",
+      "name_reverse": "ist eine Bearbeitung von"
+    },
+    {
+      "id": 1184,
+      "name": "wird rezensiert in",
+      "name_reverse": "ist eine Rezension von"
+    },
+    {
+      "id": 1162,
+      "name": "enthält",
+      "name_reverse": "enthalten in"
+    },
+    {
+      "id": 1161,
+      "name": "enthalten in",
+      "name_reverse": "enthält"
+    },
+    {
+      "id": 1133,
+      "name": "ist eine Bearbeitung von",
+      "name_reverse": "wurde bearbeitet als"
+    },
+    {
+      "id": 1132,
+      "name": "ist eine Rezension von",
+      "name_reverse": "wird rezensiert in"
+    }
+  ]
+}

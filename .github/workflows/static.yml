@@ -33,14 +33,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Sync entities.xsl from schnitzler-chronik-static
+      - name: Sync entity assets from schnitzler-chronik-static
         run: |
           python3 check_entities_xsl.py
-          if [[ -n "$(git status --porcelain xslt/partials/entities.xsl)" ]]; then
+          paths=(
+            xslt/partials/entities.xsl
+            xslt/partials/entities-setup.xsl
+            xslt/partials/relations.json
+            html/css/entities.css
+            html/js/entity-tabs.js
+          )
+          if [[ -n "$(git status --porcelain "${paths[@]}")" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add xslt/partials/entities.xsl
-            git commit -m "chore: sync entities.xsl from schnitzler-chronik-static"
+            git add "${paths[@]}"
+            git commit -m "chore: sync entity assets from schnitzler-chronik-static"
             git push
           fi
       - name: Install dependencies

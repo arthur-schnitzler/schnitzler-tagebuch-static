@@ -16,6 +16,9 @@ add-attributes -g "./data/editions/*.xml" -b "https://id.acdh.oeaw.ac.at/schnitz
 echo "denormalize indices"
 schnitzler
 
+echo "fetch filtered relations.csv from PMB"
+python3 xslt/export/fetch_relations.py
+
 # get schnitzler-chronik-data
 
 # Download XML files from GitHub repository
