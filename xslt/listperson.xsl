@@ -356,23 +356,8 @@
                     <body class="page">
                         <div class="hfeed site" id="page">
                             <xsl:call-template name="nav_bar"/>
-                            <div class="container-fluid">
-                                <div>
-                                    <div class="card-header">
-                                    <h2 align="center">
-                                        <xsl:value-of select="$name"/>
-                                        <xsl:text> </xsl:text>
-                                        <xsl:choose>
-                                            <xsl:when test="child::tei:birth and child::tei:death">
-                                                <span class="lebensdaten">
-                                                    <xsl:text>(</xsl:text>
-                                                    <xsl:value-of select="mam:lebensdaten($entity)"/>
-                                                    <xsl:text>)</xsl:text>
-                                                </span>
-                                            </xsl:when>
-                                        </xsl:choose>
-                                    </h2>
-                                </div>
+                            <div class="container">
+                                
                                 <div class="card-body-index">
                                     <xsl:call-template name="person_detail"/>
                                 </div></div>
@@ -384,50 +369,5 @@
             </xsl:result-document>
         </xsl:for-each>
     </xsl:template>
-    <xsl:function name="mam:lebensdaten">
-        <xsl:param name="entity" as="node()"/>
-        <xsl:variable name="geburtsort" as="xs:string?" select="$entity/tei:birth[1]/tei:settlement[1]/tei:placeName[1]"/>
-        <xsl:variable name="geburtsdatum" as="xs:string?" select="mam:normalize-date($entity/tei:birth[1]/tei:date[1]/text())"/>
-        <xsl:variable name="todessort" as="xs:string?" select="$entity/tei:death[1]/tei:settlement[1]/tei:placeName[1]"/>
-        <xsl:variable name="todesdatum" as="xs:string?" select="mam:normalize-date($entity/tei:death[1]/tei:date[1]/text())"/>
-        <xsl:choose>
-            <xsl:when test="$geburtsdatum !='' and $todesdatum != ''">
-                <xsl:value-of select="$geburtsdatum"/>
-                <xsl:if
-                    test="$geburtsort != ''">
-                    <xsl:text> </xsl:text>
-                    <xsl:value-of
-                        select="$geburtsort"/>
-                </xsl:if>
-                <xsl:text> – </xsl:text>
-                <xsl:value-of select="$todesdatum"/>
-                <xsl:if
-                    test="$todessort != ''">
-                    <xsl:text> </xsl:text>
-                    <xsl:value-of
-                        select="$todessort"/>
-                </xsl:if>
-            </xsl:when>
-            <xsl:when test="$geburtsdatum !=''">
-                <xsl:text>* </xsl:text>
-                <xsl:value-of select="$geburtsdatum"/>
-                <xsl:if
-                    test="$geburtsort != ''">
-                    <xsl:text> </xsl:text>
-                    <xsl:value-of
-                        select="$geburtsort"/>
-                </xsl:if>
-            </xsl:when>
-            <xsl:when test="$todesdatum !=''">
-                <xsl:text>† </xsl:text>
-                <xsl:value-of select="$todesdatum"/>
-                <xsl:if
-                    test="$todessort != ''">
-                    <xsl:text> </xsl:text>
-                    <xsl:value-of
-                        select="$todessort"/>
-                </xsl:if>
-            </xsl:when>
-        </xsl:choose>
-    </xsl:function>
+   
 </xsl:stylesheet>

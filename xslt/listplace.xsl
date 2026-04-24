@@ -124,13 +124,9 @@
                     <body class="page">
                         <div class="hfeed site" id="page">
                             <xsl:call-template name="nav_bar"/>
-                            <div class="container-fluid">
+                            <div class="container">
                                 <div>
-                                    <div class="card-header">
-                                        <h1 align="center">
-                                            <xsl:value-of select="$name"/>
-                                        </h1>
-                                    </div>
+                                   
                                     <div class="card-body">
                                         <xsl:call-template name="place_detail"/>
                                     </div>
