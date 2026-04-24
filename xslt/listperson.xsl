@@ -361,7 +361,6 @@
                                 <div class="card-body-index">
                                     <xsl:call-template name="person_detail"/>
                                 </div></div>
-                            </div>
                             <xsl:call-template name="html_footer"/>
                         </div>
                     </body>
