@@ -1,0 +1,880 @@
+/* entities.css – Layout für Entitätsseiten
+   Rot-Palette (OKLCH), Portrait-Karte, Normdaten/Ressourcen-Boxen,
+   Tabs mit Count-Badges, Jahres-Zeilen und Relationen-Sub-Navigation.
+   ================================================================== */
+
+/* ── Variablen ───────────────────────────────────────────────── */
+/* Die Akzentfarbe wird pro Edition als --project-color gesetzt
+   (Inline-Style auf .entity-page, Wert aus $current-colour der jeweiligen
+   params.xsl). Alle --red-*-Ableitungen werden via oklch(from …) aus
+   dieser Farbe berechnet, sodass Lightness/Chroma konsistent bleiben,
+   die Hue aber aus der Projektfarbe kommt. */
+.entity-page {
+    --red: var(--project-color);
+    --red-ink: oklch(from var(--project-color) 0.34 calc(c * 0.85) h);
+    --red-soft: oklch(from var(--project-color) 0.94 0.04 h);
+    --red-softer: oklch(from var(--project-color) 0.975 0.018 h);
+    --red-line: oklch(from var(--project-color) 0.88 0.06 h);
+
+    --entity-accent: var(--project-color);
+    --entity-bg: oklch(0.985 0.003 60);
+    --entity-card-bg: #ffffff;
+    --entity-border: oklch(0.9 0.005 60);
+    --entity-border-soft: oklch(0.94 0.004 60);
+    --entity-ink: oklch(0.2 0.01 60);
+    --entity-ink-soft: oklch(0.42 0.01 60);
+    --entity-ink-muted: oklch(0.58 0.008 60);
+    --entity-tab-text: var(--entity-ink-soft);
+    --entity-tab-active-bg: var(--red-softer);
+}
+
+/* ── Eltern-Container aufweiten wenn entity-page drin ist ──── */
+.card:has(.entity-page) {
+    max-width: 100%;
+    box-shadow: none;
+    border: none;
+    margin: 0;
+}
+
+.card:has(.entity-page) > .card-body,
+.card:has(.entity-page) > .card-body-index {
+    padding: 0;
+}
+
+.container-fluid:has(.entity-page) {
+    max-width: 100%;
+    padding: 0 1rem;
+}
+
+.card-body-index.entity-layout {
+    max-width: 100%;
+}
+
+/* ── Lebensdaten-Zeile (unter h1 im card-header) ─────────────── */
+.life-dates {
+    color: var(--entity-ink-soft);
+    font-size: 1.05rem;
+    margin: 0 0 1rem 0;
+    font-weight: 500;
+}
+.life-dates b {
+    color: var(--entity-ink);
+    font-weight: 600;
+}
+
+/* ── Zwei-Spalten-Grid ───────────────────────────────────────── */
+.entity-layout {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
+    align-items: start;
+    padding: 1rem 0;
+}
+
+/* ── Linke Spalte: Steckbrief (sticky, Stack aus Karten) ─────── */
+.entity-sidebar {
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-height: calc(100vh - 120px);
+    max-height: none !important;
+    overflow: visible !important;
+    position: sticky; 
+    margin-bottom: 100px;
+}
+
+/* Portrait-Karte */
+.entity-portrait-card {
+    background: var(--entity-card-bg);
+    border: 1px solid var(--entity-border);
+    border-radius: .625rem;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.entity-portrait-frame {
+    width: 100%;
+    /* Entferne oder ändere display: grid, falls es nicht zwingend nötig ist */
+    display: block; 
+    aspect-ratio: 3 / 4;
+    overflow: hidden;
+    border-bottom: 1px solid var(--entity-border);
+}
+
+.entity-portrait-frame img {
+    width: 100%;
+    min-width: 
+    height: auto; /* Ändere 100% auf auto, damit das Verhältnis gewahrt bleibt */
+    min-height: 100%; /* Stellt sicher, dass der Frame gefüllt wird */
+    object-fit: cover;
+}
+
+.entity-portrait-meta {
+    padding: 14px 16px 16px;
+}
+.entity-portrait-card.no-image .entity-portrait-meta {
+    padding: 16px 18px;
+}
+.entity-portrait-meta:empty {
+    display: none;
+}
+
+/* Meta-Zeilen in Portrait-Karte und Side-Blocks */
+.meta-row {
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: var(--entity-ink);
+    text-align: left;
+}
+.meta-row + .meta-row {
+    margin-top: 4px;
+}
+.meta-row .label {
+    color: var(--entity-ink-muted);
+    font-weight: 500;
+    margin-right: 4px;
+}
+.meta-row.prof {
+    font-style: italic;
+    color: var(--entity-ink-soft);
+    margin-top: 10px;
+}
+
+/* Side-Blocks (Normdaten, Ressourcen, Korrespondenz, Karte, …) */
+.side-block {
+    background: var(--entity-card-bg);
+    border: 1px solid var(--entity-border);
+    border-radius: .625rem;
+    padding: 14px 16px 16px;
+    margin-bottom: 2rem;
+}
+.side-block > h3,
+.side-block > legend {
+    font-size: 12px;
+    color: var(--red);
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--red-line);
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    float: none;
+}
+.side-block > ul.dashed {
+    margin: 0;
+    padding-left: 1.2em;
+    list-style: none;
+}
+.side-block > ul.dashed li {
+    text-indent: -1.2em;
+    font-size: 13.5px;
+    line-height: 1.45;
+}
+.side-block > ul.dashed li::before {
+    content: "–";
+    margin-right: .5em;
+    color: var(--entity-ink-muted);
+}
+.side-block a {
+    color: var(--red-ink);
+    text-decoration: none;
+}
+.side-block a:hover {
+    color: var(--red);
+    text-decoration: underline;
+}
+
+/* Normdaten-Badges (GND, Wikidata, PMB, …) */
+.normdaten-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.normdaten-list .meta-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+.gnd-badge {
+    font-family: ui-monospace, "JetBrains Mono", Menlo, monospace;
+    font-size: 12px;
+    color: var(--entity-ink-soft);
+    background: var(--entity-bg);
+    padding: 1px 6px;
+    border-radius: 3px;
+    border: 1px solid var(--entity-border);
+    text-decoration: none;
+    line-height: 1.4;
+}
+.gnd-badge:hover {
+    color: var(--red);
+    border-color: var(--red-line);
+    text-decoration: none;
+}
+
+/* Ressourcen: bestehende buttonreihe in side-block einpassen */
+.side-block .buttonreihe {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 0;
+}
+.side-block .buttonreihe > .badge,
+.side-block .buttonreihe > a > .badge,
+.side-block .buttonreihe > button.badge {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 10px;
+    line-height: 1.3;
+    border: none;
+}
+
+/* ── Rechte Spalte: Panel mit Tabs ────────────────────────────── */
+.entity-main {
+    min-width: 0;
+    width: 100%;
+    background: var(--entity-card-bg);
+    border: 1px solid var(--entity-border);
+    border-radius: .625rem;
+    overflow: hidden;
+}
+
+/* Tab-Navigation */
+.entity-tabs {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    background: var(--red-softer);
+    border-bottom: 1px solid var(--entity-border);
+    position: relative;
+}
+
+.entity-tab-btn {
+    flex: 1 1 0%;
+    min-width: 0;
+    text-align: center;
+    padding: 14px 18px;
+    border: none;
+    background: transparent;
+    font-size: .95rem;
+    font-weight: 600;
+    color: var(--entity-tab-text);
+    cursor: pointer;
+    border-right: 1px solid var(--entity-border);
+    transition: color .15s, background-color .15s;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.entity-tab-btn:hover {
+    color: var(--red-ink);
+    background-color: var(--red-soft);
+}
+.entity-tab-btn.active {
+    color: #fff;
+    background-color: var(--red);
+}
+
+.entity-tab-btn .tab-count {
+    font-family: ui-monospace, "JetBrains Mono", Menlo, monospace;
+    font-size: 11px;
+    padding: 2px 7px;
+    border-radius: 999px;
+    background: #fff;
+    color: var(--entity-ink-soft);
+    border: 1px solid var(--entity-border);
+    font-weight: 500;
+    line-height: 1.2;
+}
+.entity-tab-btn.active .tab-count {
+    background: rgba(255, 255, 255, .25);
+    color: #fff;
+    border-color: transparent;
+}
+
+/* Info-Button neben dem Relationen-Tab */
+.relationen-info-popup {
+    position: static;
+    align-self: center;
+    margin-left: .25rem;
+    margin-right: .5rem;
+    flex: 0 0 auto;
+}
+.relationen-info-btn {
+    cursor: pointer;
+    list-style: none;
+    padding: .3rem .5rem;
+    font-size: 1.1rem;
+    color: var(--entity-tab-text);
+    user-select: none;
+    line-height: 1;
+    border-radius: .25rem;
+    transition: color .15s, background-color .15s;
+}
+.relationen-info-btn::-webkit-details-marker { display: none; }
+.relationen-info-btn::marker { content: ''; }
+.relationen-info-btn:hover {
+    color: var(--red);
+    background-color: var(--red-soft);
+}
+.relationen-info-popup[open] .relationen-info-btn {
+    color: var(--red);
+}
+.relationen-info-content {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 4px);
+    z-index: 20;
+    background: var(--entity-card-bg);
+    border: 1px solid var(--entity-border);
+    border-radius: .35rem;
+    padding: .9rem 1rem;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .12);
+    width: 340px;
+    max-width: 90vw;
+    font-size: .9rem;
+    line-height: 1.4;
+    color: var(--entity-tab-text);
+}
+.relationen-info-content p:last-child { margin-bottom: 0; }
+
+/* Fallback-Hinweis */
+.no-mentions-hint {
+    color: var(--entity-ink-muted);
+    font-style: italic;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+/* Tab-Panels */
+.entity-tab-panel {
+    display: none;
+    padding: 1.5rem 1.75rem 2rem;
+    animation: fadeIn .2s ease;
+}
+.entity-tab-panel.active {
+    display: block;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Erwähnungen: Legend im Tab ausblenden (Tab-Titel reicht) */
+.entity-tab-panel #mentions > .infodesc > legend {
+    display: none;
+}
+
+/* Erwähnungen: Toolbar (Toggle + Summary) über dem Chart */
+.mentions-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 1rem;
+}
+.mentions-toolbar .mentions-summary {
+    margin-left: auto;
+    font-size: 12px;
+    color: var(--entity-ink-muted);
+    font-family: ui-monospace, "JetBrains Mono", Menlo, monospace;
+}
+.mentions-toolbar .mentions-summary b {
+    color: var(--red);
+    font-weight: 600;
+}
+.mentions-toolbar .mentions-summary b.neutral {
+    color: var(--entity-ink);
+}
+
+/* Kommentar-Toggle */
+.annotation-toggle {
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+.annotation-toggle .switch {
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 18px;
+    margin: 0;
+}
+.annotation-toggle .switch input {
+    display: none;
+}
+.annotation-toggle .i-slider {
+    position: absolute;
+    inset: 0;
+    background: var(--entity-border);
+    border-radius: 999px;
+    transition: background .18s;
+    cursor: pointer;
+}
+.annotation-toggle .i-slider::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border-radius: 50%;
+    transition: left .18s;
+    box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+.annotation-toggle .switch input:checked + .i-slider {
+    background: var(--red);
+}
+.annotation-toggle .switch input:checked + .i-slider::before {
+    left: 16px;
+    transform: none; /* Add this to stop the extra movement */
+}
+
+/* Toggle aus: Kommentar-Erwähnungen in Liste & Chart ausblenden */
+#mentions.hide-commentary .mention-commentary,
+#mentions.hide-commentary #mentions-chart [data-type="commentary"] {
+    display: none;
+}
+
+/* Mentions-Chart: Kopf mit Legende + Range */
+.entity-tab-panel #mentions-chart {
+    position: relative;
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--entity-border);
+    border-radius: .5rem;
+    padding: 14px 16px 10px;
+    background: linear-gradient(180deg, #fff, var(--red-softer));
+    max-width: none;
+}
+.chart-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 12px;
+    color: var(--entity-ink-muted);
+    margin-bottom: 6px;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.chart-head .legend {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.chart-head .legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+.chart-head .legend .dot {
+    width: 10px;
+    height: 10px;
+    background: var(--red);
+    border-radius: 2px;
+}
+.chart-head .legend .dot.k {
+    background: var(--red-soft);
+    border: 1px solid var(--red-line);
+}
+
+.entity-tab-panel #mentions-chart svg {
+    width: 100%;
+    height: auto;
+    min-height: 180px;
+    max-height: 260px;
+    cursor: zoom-in;
+}
+.entity-tab-panel #mentions-chart .mentions-chart-fs-btn {
+    position: absolute;
+    top: .35rem;
+    right: .35rem;
+    z-index: 2;
+    background: rgba(255, 255, 255, .85);
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+    padding: .1rem .4rem;
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    color: #333;
+    transition: background-color .15s, color .15s;
+}
+.entity-tab-panel #mentions-chart .mentions-chart-fs-btn:hover,
+.entity-tab-panel #mentions-chart .mentions-chart-fs-btn:focus {
+    background: #fff;
+    color: #000;
+    outline: none;
+}
+.entity-tab-panel #mentions-chart.is-fullscreen {
+    position: fixed;
+    inset: 0;
+    max-width: none;
+    margin: 0;
+    padding: 2rem clamp(1rem, 4vw, 4rem);
+    background: rgba(255, 255, 255, .97);
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+    cursor: zoom-out;
+    border-radius: 0;
+}
+.entity-tab-panel #mentions-chart.is-fullscreen svg {
+    width: 100%;
+    height: auto;
+    max-height: 85vh;
+    min-height: 0;
+    cursor: zoom-out;
+}
+.entity-tab-panel #mentions-chart.is-fullscreen .mentions-chart-fs-btn {
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.4rem;
+    padding: .25rem .6rem;
+}
+
+/* Jahres-Zeilen: neue Zeile mit Chevron, Label, Progressbar, Count-Pill */
+.entity-tab-panel .mentions-by-year {
+    display: flex;
+    flex-direction: column;
+}
+.entity-tab-panel .year-details {
+    border-bottom: 1px solid var(--entity-border-soft);
+    margin: 0;
+    padding: 0;
+}
+.entity-tab-panel .year-details > summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 10px 4px;
+    color: var(--entity-ink);
+    font-size: 15px;
+}
+.entity-tab-panel .year-details > summary::-webkit-details-marker { display: none; }
+.entity-tab-panel .year-details > summary::marker { content: ''; }
+.entity-tab-panel .year-details > summary:hover { color: var(--red-ink); }
+
+.year-chevron {
+    width: 10px;
+    height: 10px;
+    border-right: 1.8px solid currentColor;
+    border-bottom: 1.8px solid currentColor;
+    transform: rotate(-45deg);
+    transition: transform .18s;
+    margin-left: 2px;
+    opacity: .6;
+    flex: 0 0 auto;
+}
+.entity-tab-panel .year-details[open] > summary .year-chevron {
+    transform: rotate(45deg);
+}
+.year-label {
+    font-weight: 600;
+    font-size: 17px;
+    min-width: 64px;
+    flex: 0 0 auto;
+}
+.year-entries {
+    font-size: 12.5px;
+    color: var(--entity-ink-muted);
+    flex: 0 0 auto;
+    width: 96px;
+    text-align: right;
+}
+.year-bar {
+    flex: 1 1 auto;
+    height: 6px;
+    background: var(--red-soft);
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 6px;
+    min-width: 40px;
+}
+.year-bar i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: var(--red);
+    display: block;
+}
+.year-count {
+    background: var(--red);
+    color: #fff;
+    font-size: 11px;
+    font-family: ui-monospace, "JetBrains Mono", Menlo, monospace;
+    padding: 3px 8px;
+    border-radius: 999px;
+    min-width: 32px;
+    text-align: center;
+    flex: 0 0 auto;
+}
+.entity-tab-panel .year-content {
+    padding: 4px 0 12px 78px;
+}
+
+/* Monats-Details: dezenter eingerückt */
+.entity-tab-panel .month-details {
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+    padding: .35rem .5rem;
+    border-radius: .25rem;
+}
+.entity-tab-panel .month-summary {
+    font-weight: 500;
+    padding: .3rem .4rem;
+    border-radius: .25rem;
+    cursor: pointer;
+    color: var(--entity-ink);
+}
+
+/* ── Relationen: Sub-Navigation + Chips ───────────────────────── */
+.entity-tab-panel .relationen {
+    border: none;
+    padding: 0;
+}
+.entity-tab-panel .relationen[open] {
+    padding: 0;
+}
+.entity-tab-panel .relationen > summary {
+    display: none;
+}
+
+.rel-subnav {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 1.25rem;
+    border-bottom: 1px solid var(--entity-border);
+    flex-wrap: wrap;
+}
+.rel-subnav-btn {
+    background: transparent;
+    border: none;
+    padding: 9px 14px;
+    font-weight: 500;
+    font-size: 13.5px;
+    color: var(--entity-ink-soft);
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: -1px;
+}
+.rel-subnav-btn:hover {
+    color: var(--entity-ink);
+}
+.rel-subnav-btn.active {
+    color: var(--red-ink);
+    border-bottom-color: var(--red);
+}
+.rel-subnav-btn .c {
+    font-family: ui-monospace, "JetBrains Mono", Menlo, monospace;
+    background: var(--entity-bg);
+    color: var(--entity-ink-muted);
+    padding: 1px 7px;
+    border-radius: 999px;
+    font-size: 11px;
+    border: 1px solid var(--entity-border);
+}
+.rel-subnav-btn.active .c {
+    background: var(--red);
+    color: #fff;
+    border-color: var(--red);
+}
+
+.rel-section {
+    display: none;
+}
+.rel-section.active {
+    display: block;
+}
+.rel-section .rel-empty {
+    color: var(--entity-ink-muted);
+    padding: 2rem 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.rel-group {
+    margin-bottom: 1.5rem;
+}
+.rel-group h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--red-ink);
+    margin: 0 0 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--red-line);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.rel-group h4 .rel-count {
+    font-family: ui-monospace, "JetBrains Mono", Menlo, monospace;
+    font-size: 11px;
+    color: var(--entity-ink-muted);
+    font-weight: 500;
+}
+.rel-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 8px;
+}
+.rel-chip {
+    font-size: 13.5px;
+    color: var(--entity-ink);
+    background: var(--entity-bg);
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid var(--entity-border);
+    text-decoration: none;
+    line-height: 1.2;
+    display: inline-block;
+    transition: background-color .12s, color .12s, border-color .12s;
+}
+.rel-chip:hover {
+    background: #fff;
+    color: var(--red-ink);
+    border-color: var(--red-line);
+    text-decoration: none;
+}
+.rel-chip.placeholder {
+    color: var(--entity-ink-muted);
+    font-style: italic;
+    cursor: default;
+}
+
+/* ── Karte in der Sidebar ──────────────────────────────────────── */
+.entity-sidebar #mapid {
+    width: 100%;
+    height: 220px;
+    border-radius: .35rem;
+}
+
+/* ── Responsive: einspaltig auf schmalen Screens ─────────────── */
+@media (max-width: 992px) {
+    .entity-layout {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .entity-sidebar {
+        position: static;
+        max-height: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .entity-tab-btn {
+        padding: .6rem .75rem;
+        font-size: .85rem;
+        gap: 6px;
+    }
+    .entity-tab-panel {
+        padding: 1rem .75rem 1.5rem;
+    }
+    .entity-tab-panel .year-content {
+        padding-left: 20px;
+    }
+}
+
+/* ── Dashed Listen (im Content-Bereich) ───────────────────────── */
+.entity-tab-panel ul.dashed {
+    list-style: none;
+    padding-left: 1.2em;
+    margin: 0;
+}
+.entity-tab-panel ul.dashed li {
+    text-indent: -1.2em;
+    padding-left: 0;
+}
+.entity-tab-panel ul.dashed li::before {
+    content: "–";
+    margin-right: .5em;
+    color: #999;
+}
+
+/* Entity-Tabelle (Events) */
+.entity-tab-panel .entity-table {
+    margin: 0;
+}
+
+/* Links in Sidebar */
+.entity-sidebar a {
+    color: var(--red-ink);
+}
+.entity-sidebar a:hover {
+    color: var(--red);
+}
+
+/* Hover-Fett in Relationen */
+.entity-tab-panel .relationen a:hover {
+    font-weight: 700;
+}
+
+/* Backwards-Compat: WikimediaContainer bleibt funktional, wird aber in der
+   neuen Struktur nicht mehr genutzt (durch .entity-portrait-card ersetzt). */
+.entity-sidebar .WikimediaContainer {
+    display: block;
+}
+.entity-sidebar .WikimediaLeft-div {
+    margin-bottom: 1rem;
+}
+.entity-sidebar .WikimediaLeft-div img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    border-radius: .35rem;
+}
+
+.crumbs{
+    font-size:12px; color:var(--ink-muted); letter-spacing:.08em; text-transform:uppercase;
+    display:flex; gap:10px; align-items:center; margin-bottom:14px;
+  }
+  .crumbs a{color:var(--project-color); text-decoration:none;}
+  .crumbs .sep{opacity:.4;}
+  .crumbs .type-pill{
+    background: var(--project-color);
+    color:#fff;
+    padding:3px 10px;
+    border-radius: 999px;
+    letter-spacing:.14em;
+    font-weight:600;
+    font-size:10.5px;
+  }
+  h1.entity-name{
+    font-family:'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+    margin:0;
+    text-align:left;
+  }
+  .life-dates{
+    color:var(--ink-soft);
+    font-size: 17px;
+    margin-top: 8px;
+    font-weight: 500;
+  }
+  .life-dates b{color:var(--ink); font-weight:600;}
