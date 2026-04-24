@@ -155,13 +155,9 @@
                     <body class="page">
                         <div class="hfeed site" id="page">
                             <xsl:call-template name="nav_bar"/>
-                            <div class="container-fluid">
+                            <div class="container">
                                 <div >
-                                    <div class="header">
-                                        <h1 align="center">
-                                            <xsl:value-of select="$name"/>
-                                        </h1>
-                                    </div>
+                                   
                                     <div class="body-index">
                                         <xsl:call-template name="work_detail"/>
                                     </div>
