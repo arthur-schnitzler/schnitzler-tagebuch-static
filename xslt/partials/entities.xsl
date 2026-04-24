@@ -105,6 +105,9 @@
                         <xsl:with-param name="entity" select="."/>
                         <xsl:with-param name="lemma-name" select="$lemma-name"/>
                     </xsl:call-template>
+                    <xsl:call-template name="person-leseliste">
+                        <xsl:with-param name="entity" select="."/>
+                    </xsl:call-template>
                 </div>
                 <!-- Rechte Spalte: Tabs -->
                 <div class="entity-main me-auto" style="max-width: 1400px;">
@@ -459,6 +462,26 @@
                                 </xsl:attribute>
                                 <xsl:text>Zum Briefwechsel Schnitzler – </xsl:text>
                                 <xsl:value-of select="$lemma-name"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </xsl:if>
+        </xsl:if>
+    </xsl:template>
+    <!-- Link zur Editionsseite in schnitzler-lektueren (Konkordanz-Lookup) -->
+    <xsl:template name="person-leseliste">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:if test="$current-edition = 'schnitzler-lektueren'">
+            <xsl:variable name="link"
+                select="key('lektueren-konk-lookup', $entity/@xml:id, $lektueren-konkordanz)[1]/@target"/>
+            <xsl:if test="$link">
+                <div class="side-block leseliste">
+                    <h3>Leseliste</h3>
+                    <ul class="dashed">
+                        <li>
+                            <a href="{concat($link, '#', $entity/@xml:id)}">
+                                <xsl:text>Zur Leseliste</xsl:text>
                             </a>
                         </li>
                     </ul>
