@@ -70,25 +70,6 @@
     <xsl:key name="project-place-xmlid" match="tei:place[@xml:id]" use="@xml:id"/>
     <xsl:key name="project-event-xmlid" match="tei:event[@xml:id]" use="@xml:id"/>
     <xsl:key name="project-bibl-xmlid" match="tei:bibl[@xml:id]" use="@xml:id"/>
-    <!-- Zusätzlicher Index über die PMB-ID aus <idno subtype="pmb"> (URL):
-         nötig, wenn die xml:id nicht 'pmb<N>' ist (z. B. 'person_<interne-id>' im
-         schnitzler-tagebuch) und die numerische Übereinstimmung zur relations.csv
-         nur aus dem idno-Element ableitbar ist. -->
-    <xsl:key name="project-person-by-pmb" match="tei:person[tei:idno[@subtype = 'pmb']]"
-        use="for $u in tei:idno[@subtype = 'pmb']
-        return replace(string($u), '^.*/(\d+)/?\s*$', '$1')"/>
-    <xsl:key name="project-org-by-pmb" match="tei:org[tei:idno[@subtype = 'pmb']]"
-        use="for $u in tei:idno[@subtype = 'pmb']
-        return replace(string($u), '^.*/(\d+)/?\s*$', '$1')"/>
-    <xsl:key name="project-place-by-pmb" match="tei:place[tei:idno[@subtype = 'pmb']]"
-        use="for $u in tei:idno[@subtype = 'pmb']
-        return replace(string($u), '^.*/(\d+)/?\s*$', '$1')"/>
-    <xsl:key name="project-event-by-pmb" match="tei:event[tei:idno[@subtype = 'pmb']]"
-        use="for $u in tei:idno[@subtype = 'pmb']
-        return replace(string($u), '^.*/(\d+)/?\s*$', '$1')"/>
-    <xsl:key name="project-bibl-by-pmb" match="tei:bibl[tei:idno[@subtype = 'pmb']]"
-        use="for $u in tei:idno[@subtype = 'pmb']
-        return replace(string($u), '^.*/(\d+)/?\s*$', '$1')"/>
     <!-- Relationen aus relations.csv (selber Ordner wie listperson.xml etc.) -->
     <xsl:variable name="relationsPath" select="'../../data/indices/relations.csv'"/>
     <xsl:variable name="relations-csv-raw" as="xs:string?" select="
