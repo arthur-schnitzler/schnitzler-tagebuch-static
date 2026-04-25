@@ -63,4 +63,7 @@
         </fileset>
     </copy>
     <copy file="robots.txt" todir="${target}"/>
+    <exec executable="python" failonerror="true">
+        <arg value="make_redirects.py"/>
+    </exec>
 </project>
