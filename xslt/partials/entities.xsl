@@ -2168,105 +2168,17 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
-    <!-- Hilfsfunktion: Prüft, ob eine pmb-ID in einem der Projekt-Indizes vorkommt.
-         Sucht zusätzlich über die PMB-ID aus <idno subtype="pmb">, damit auch
-         Indizes mit abweichender xml:id-Konvention (z. B. schnitzler-tagebuch,
-         'person_<interne-id>') gefunden werden. -->
+    <!-- Hilfsfunktion: Prüft, ob eine pmb-ID in einem der Projekt-Indizes vorkommt -->
     <xsl:function name="mam:in-project" as="xs:boolean">
         <xsl:param name="pmbId" as="xs:string"/>
-        <xsl:variable name="num" select="mam:pmb-num($pmbId)"/>
         <xsl:sequence select="
                 $pmbId != '' and (
-                ($listperson and (
-                exists(key('project-person-xmlid', $pmbId, $listperson))
-                or ($num != '' and exists(key('project-person-by-pmb', $num, $listperson)))
-                )) or
-                ($listorg and (
-                exists(key('project-org-xmlid', $pmbId, $listorg))
-                or ($num != '' and exists(key('project-org-by-pmb', $num, $listorg)))
-                )) or
-                ($places and (
-                exists(key('project-place-xmlid', $pmbId, $places))
-                or ($num != '' and exists(key('project-place-by-pmb', $num, $places)))
-                )) or
-                ($events and (
-                exists(key('project-event-xmlid', $pmbId, $events))
-                or ($num != '' and exists(key('project-event-by-pmb', $num, $events)))
-                )) or
-                ($works and (
-                exists(key('project-bibl-xmlid', $pmbId, $works))
-                or ($num != '' and exists(key('project-bibl-by-pmb', $num, $works)))
-                ))
+                ($listperson and exists(key('project-person-xmlid', $pmbId, $listperson))) or
+                ($listorg and exists(key('project-org-xmlid', $pmbId, $listorg))) or
+                ($places and exists(key('project-place-xmlid', $pmbId, $places))) or
+                ($events and exists(key('project-event-xmlid', $pmbId, $events))) or
+                ($works and exists(key('project-bibl-xmlid', $pmbId, $works)))
                 )"/>
-    </xsl:function>
-    <!-- Liefert für eine PMB-ID die tatsächliche xml:id im Projekt-Index.
-         Fällt auf die pmb-Form zurück, wenn kein abweichender Eintrag gefunden
-         wird. Wird für href-Ziele (Relationen-Links) benötigt. -->
-    <xsl:function name="mam:project-xmlid" as="xs:string">
-        <xsl:param name="pmbId" as="xs:string"/>
-        <xsl:param name="type" as="xs:string?"/>
-        <xsl:variable name="num" select="mam:pmb-num($pmbId)"/>
-        <xsl:choose>
-            <xsl:when test="$type = 'Person' and $listperson
-                            and not(exists(key('project-person-xmlid', $pmbId, $listperson)))
-                            and $num != ''
-                            and exists(key('project-person-by-pmb', $num, $listperson))">
-                <xsl:value-of
-                    select="string(key('project-person-by-pmb', $num, $listperson)[1]/@xml:id)"/>
-            </xsl:when>
-            <xsl:when test="$type = 'Ort' and $places
-                            and not(exists(key('project-place-xmlid', $pmbId, $places)))
-                            and $num != ''
-                            and exists(key('project-place-by-pmb', $num, $places))">
-                <xsl:value-of
-                    select="string(key('project-place-by-pmb', $num, $places)[1]/@xml:id)"/>
-            </xsl:when>
-            <xsl:when test="($type = 'Institution' or $type = 'Organisation') and $listorg
-                            and not(exists(key('project-org-xmlid', $pmbId, $listorg)))
-                            and $num != ''
-                            and exists(key('project-org-by-pmb', $num, $listorg))">
-                <xsl:value-of
-                    select="string(key('project-org-by-pmb', $num, $listorg)[1]/@xml:id)"/>
-            </xsl:when>
-            <xsl:when test="($type = 'Ereignis' or $type = 'Veranstaltung') and $events
-                            and not(exists(key('project-event-xmlid', $pmbId, $events)))
-                            and $num != ''
-                            and exists(key('project-event-by-pmb', $num, $events))">
-                <xsl:value-of
-                    select="string(key('project-event-by-pmb', $num, $events)[1]/@xml:id)"/>
-            </xsl:when>
-            <xsl:when test="$type = 'Werk' and $works
-                            and not(exists(key('project-bibl-xmlid', $pmbId, $works)))
-                            and $num != ''
-                            and exists(key('project-bibl-by-pmb', $num, $works))">
-                <xsl:value-of
-                    select="string(key('project-bibl-by-pmb', $num, $works)[1]/@xml:id)"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:value-of select="$pmbId"/>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:function>
-    <!-- Liefert die PMB-ID (rein numerisch) der aktuellen Entität.
-         Bevorzugt die xml:id, wenn sie 'pmb<N>' ist; sonst Fallback auf
-         <idno subtype="pmb"> (z. B. 'person_13473' → 10848). -->
-    <xsl:function name="mam:entity-pmb-num" as="xs:string">
-        <xsl:param name="entity" as="node()"/>
-        <xsl:variable name="xmlid" select="string($entity/@xml:id)"/>
-        <xsl:variable name="viaXml" select="mam:pmb-num($xmlid)"/>
-        <xsl:choose>
-            <xsl:when test="starts-with($xmlid, 'pmb') and $viaXml != ''">
-                <xsl:value-of select="$viaXml"/>
-            </xsl:when>
-            <xsl:when test="$entity/tei:idno[@subtype = 'pmb'][1]">
-                <xsl:value-of
-                    select="replace(string($entity/tei:idno[@subtype = 'pmb'][1]), '^.*/(\d+)/?\s*$', '$1')"
-                />
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:value-of select="$viaXml"/>
-            </xsl:otherwise>
-        </xsl:choose>
     </xsl:function>
     <!-- Einzelnes Werk-Listenelement (von Werke-Block und "alle Werke anzeigen" wiederverwendet) -->
     <xsl:template name="work-list-item">
@@ -2476,7 +2388,8 @@
          (für Tab-Count und für die Weitergabe an relationen-block). -->
     <xsl:template name="collect-relation-items" as="element(rel-item)*">
         <xsl:param name="entity" as="node()"/>
-        <xsl:variable name="num" select="mam:entity-pmb-num($entity)"/>
+        <xsl:variable name="pmbId" select="mam:to-pmb(string($entity/@xml:id))"/>
+        <xsl:variable name="num" select="mam:pmb-num($pmbId)"/>
         <!-- Alte Relationen aus tei:affiliation und tei:listEvent -->
         <xsl:for-each select="$entity/tei:affiliation">
             <xsl:variable name="targetNode" select="(tei:orgName | tei:persName | tei:placeName)[1]"/>
@@ -2495,8 +2408,7 @@
                                 'Person'
                             else
                                 'Ort'"/>
-                <rel-item display-name="{$dn}" other-type="{$ot}"
-                    other-id="{mam:project-xmlid($pmbId2, $ot)}"
+                <rel-item display-name="{$dn}" other-type="{$ot}" other-id="{$pmbId2}"
                     other-name="{normalize-space($targetNode)}"/>
             </xsl:if>
         </xsl:for-each>
@@ -2508,8 +2420,7 @@
                             normalize-space(tei:desc)
                         else
                             '(ohne Bezeichnung)'"/>
-                <rel-item display-name="{$dn}" other-type="Veranstaltung"
-                    other-id="{mam:project-xmlid($pmbId2, 'Veranstaltung')}"
+                <rel-item display-name="{$dn}" other-type="Veranstaltung" other-id="{$pmbId2}"
                     other-name="{normalize-space(tei:label)}"/>
             </xsl:if>
         </xsl:for-each>
@@ -2560,8 +2471,7 @@
                             string(@tgt-type)"/>
                 <xsl:if test="mam:in-project($other-id)">
                     <rel-item display-name="{$display-name}" other-type="{$other-type}"
-                        other-id="{mam:project-xmlid($other-id, $other-type)}"
-                        other-name="{$other-name}"/>
+                        other-id="{$other-id}" other-name="{$other-name}"/>
                 </xsl:if>
             </xsl:for-each>
         </xsl:if>
