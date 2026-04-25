@@ -2464,11 +2464,10 @@
         <xsl:choose>
             <xsl:when test="$type = 'Person'">1</xsl:when>
             <xsl:when test="$type = 'Werk'">2</xsl:when>
-            <xsl:when test="$type = 'Ereignis'">3</xsl:when>
+            <xsl:when test="$type = 'Veranstaltung'">3</xsl:when>
             <xsl:when test="$type = 'Ort'">4</xsl:when>
             <xsl:when test="$type = 'Institution'">5</xsl:when>
             <xsl:when test="$type = 'Organisation'">5</xsl:when>
-            <xsl:when test="$type = 'Veranstaltung'">6</xsl:when>
             <xsl:otherwise>9</xsl:otherwise>
         </xsl:choose>
     </xsl:function>
@@ -2525,11 +2524,18 @@
                             @tgt-id
                         else
                             @src-id))"/>
-                <xsl:variable name="other-type" as="xs:string" select="
+                <xsl:variable name="other-type-raw" as="xs:string" select="
                         if ($is-source) then
                             string(@tgt-type)
                         else
                             string(@src-type)"/>
+                <!-- 'Ereignis' aus der CSV mit dem Legacy-listEvent-Label
+                     'Veranstaltung' zusammenführen, damit nur ein Tab erscheint. -->
+                <xsl:variable name="other-type" as="xs:string" select="
+                        if ($other-type-raw = 'Ereignis') then
+                            'Veranstaltung'
+                        else
+                            $other-type-raw"/>
                 <xsl:variable name="other-name" as="xs:string" select="
                         if ($is-source) then
                             string(@tgt-name)
