@@ -298,19 +298,7 @@ div.dataTables_filter {
     padding-top: 40px;
     padding-bottom: 70px}
     
-.card-body-index {
-    color: #000000;
-    max-width: 750px;
-    min-height: 270px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    line-height: 1.7rem;
-    font-size: 1.1rem;
-    padding: 1.25rem;
-    border: white;
 
-}
 .card-body-place {
     justify-content: center;
     align-items: center}

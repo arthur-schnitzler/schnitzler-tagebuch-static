@@ -358,7 +358,7 @@
                             <xsl:call-template name="nav_bar"/>
                             <div class="container-fluid">
 
-                                <div class="card-body-index">
+                                <div class="card-body">
                                     <xsl:call-template name="person_detail"/>
                                 </div></div>
                             <xsl:call-template name="html_footer"/>
