@@ -356,8 +356,8 @@
                     <body class="page">
                         <div class="hfeed site" id="page">
                             <xsl:call-template name="nav_bar"/>
-                            <div class="container">
-                                
+                            <div class="container-fluid">
+
                                 <div class="card-body-index">
                                     <xsl:call-template name="person_detail"/>
                                 </div></div>
