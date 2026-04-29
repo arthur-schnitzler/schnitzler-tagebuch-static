@@ -155,13 +155,8 @@
                     <body class="page">
                         <div class="hfeed site" id="page">
                             <xsl:call-template name="nav_bar"/>
-                            <div class="container">
-                                <div >
-                                   
-                                    <div class="body-index">
-                                        <xsl:call-template name="work_detail"/>
-                                    </div>
-                                </div>
+                            <div style="max-width: 2000px; margin: 0 auto;">
+                                <xsl:call-template name="work_detail"/>
                             </div>
                             <xsl:call-template name="html_footer"/>
                         </div>
