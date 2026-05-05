@@ -43,7 +43,7 @@
 
 .container-fluid:has(.entity-page) {
     max-width: 100%;
-    padding: 0 1rem;
+    padding: 0;
 }
 
 .card-body-index.entity-layout {
@@ -68,7 +68,7 @@
     grid-template-columns: 300px 1fr;
     gap: 2rem;
     align-items: start;
-    padding: 1rem 0;
+    padding: 1rem;
 }
 
 /* ── Linke Spalte: Steckbrief (sticky, Stack aus Karten) ─────── */
