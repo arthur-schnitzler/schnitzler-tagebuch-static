@@ -10,6 +10,7 @@
    dieser Farbe berechnet, sodass Lightness/Chroma konsistent bleiben,
    die Hue aber aus der Projektfarbe kommt. */
 .entity-page {
+    padding: 0 1rem;
     --red: var(--project-color);
     --red-ink: oklch(from var(--project-color) 0.34 calc(c * 0.85) h);
     --red-soft: oklch(from var(--project-color) 0.94 0.04 h);
@@ -43,7 +44,7 @@
 
 .container-fluid:has(.entity-page) {
     max-width: 100%;
-    padding: 0 1rem;
+    padding: 0;
 }
 
 .card-body-index.entity-layout {
