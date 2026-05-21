@@ -59,9 +59,11 @@ class NoskeSearchImplementation {
             const response = await originalFetch(...args);
 
             // Check if this is a Noske API call
-            const url = args[0];
-            if (typeof url === 'string' && url.includes('corpus-search.acdh.oeaw.ac.at')) {
-                console.log('Intercepted Noske API call:', url);
+            const urlStr = (typeof args[0] === 'string') ? args[0] :
+                           (args[0] instanceof URL) ? args[0].href :
+                           (args[0] instanceof Request) ? args[0].url : String(args[0]);
+            if (urlStr.includes('corpus-search.acdh.oeaw.ac.at')) {
+                console.log('Intercepted Noske API call:', urlStr);
 
                 // Clone response so we can read it without consuming it
                 const clonedResponse = response.clone();
@@ -71,10 +73,11 @@ class NoskeSearchImplementation {
                     console.log('Noske API response data:', data);
 
                     // Store in the class instance using 'self' reference
-                    self.latestApiData = data;
-                    self.searchResults = data;
-
-                    console.log('Stored API data in self.latestApiData');
+                    if (data.Lines || data.lines) {
+                        self.latestApiData = data;
+                        self.searchResults = data;
+                        console.log('Stored concordance API data in self.latestApiData');
+                    }
                 } catch (e) {
                     console.warn('Could not parse Noske API response:', e);
                 }
@@ -141,6 +144,9 @@ class NoskeSearchImplementation {
                         text: "mb-0"
                     }
                 },
+                autocompleteOptions: {
+                    id: "noske-autocomplete",
+                },
             });
 
             // Add custom event listeners
@@ -202,21 +208,17 @@ class NoskeSearchImplementation {
                 console.log('New results table detected');
                 // Add a delay to ensure table is fully rendered
                 setTimeout(() => {
-                    // Try to find the search input - it might be created dynamically
                     const searchContainer = document.getElementById('noske-search');
                     const searchInput = searchContainer ? searchContainer.querySelector('input') : null;
                     const query = searchInput ? searchInput.value : null;
-
-                    console.log('Search input found:', !!searchInput);
-                    console.log('Query value:', query);
-
+                    console.log('Query value for link resolution:', query);
                     if (query) {
-                        console.log('Search detected, fetching API data for query:', query);
                         this.fetchNoskeDataDirectly(query).then(() => {
+                            this.addLinksToResults();
+                        }).catch(() => {
                             this.addLinksToResults();
                         });
                     } else {
-                        console.warn('No query found, trying to add links anyway...');
                         this.addLinksToResults();
                     }
                 }, 500);
@@ -257,7 +259,7 @@ class NoskeSearchImplementation {
 
             // Use the correct SketchEngine API endpoint
             // structs=chapter ensures KWIC respects chapter boundaries (each diary entry)
-            const url = `https://corpus-search.acdh.oeaw.ac.at/search/concordance?corpname=schnitzlertagebuch&q=${q}&attrs=word,landingPageURI&attr_allpos=kw&viewmode=sen&structs=chapter&fromp=1&pagesize=50&kwicleftctx=100&format=json`;
+            const url = `https://corpus-search.acdh.oeaw.ac.at/search/concordance?corpname=schnitzlertagebuch&q=${q}&attrs=word,landingPageURI&attr_allpos=kw&viewmode=sen&structs=chapter&refs=chapter.id&fromp=1&pagesize=50&kwicleftctx=100&format=json`;
 
             console.log('Original query:', query);
             console.log('Cleaned query:', cleanQuery);
@@ -324,6 +326,7 @@ class NoskeSearchImplementation {
         // Find all table rows in the results
         const rows = hitsContainer.querySelectorAll('tr');
         console.log('Found', rows.length, 'rows');
+        let dataRowIndex = 0;
 
         rows.forEach((row, index) => {
             // Skip if already processed
@@ -334,6 +337,8 @@ class NoskeSearchImplementation {
 
             const cells = row.querySelectorAll('td');
             if (cells.length < 3) return;
+
+            const currentDataIndex = dataRowIndex++;
 
             // Try to extract document reference from various sources
             let docRef = null;
@@ -355,9 +360,9 @@ class NoskeSearchImplementation {
             // 3. Try to extract from latestApiData if available
             if (!docRef && this.latestApiData) {
                 const lines = this.latestApiData.Lines || this.latestApiData.lines;
-                if (lines && lines[index]) {
-                    const line = lines[index];
-                    console.log('Line', index, 'full data:', JSON.stringify(line, null, 2));
+                if (lines && lines[currentDataIndex]) {
+                    const line = lines[currentDataIndex];
+                    console.log('Line', currentDataIndex, 'full data:', JSON.stringify(line, null, 2));
 
                     // First try to get landingPageURI from the line structure
                     // The landingPageURI is in the 'attr' field of Kwic tokens
@@ -402,24 +407,27 @@ class NoskeSearchImplementation {
 
                     console.log('After checking all tokens, docRef:', docRef);
 
-                    // Fallback: Check Refs for chapter.id
-                    if (!docRef && line.Refs && Array.isArray(line.Refs)) {
-                        console.log('Line', index, 'Refs:', line.Refs);
-                        const docRefObj = line.Refs.find(ref =>
-                            ref.name === 'chapter.id' || ref.name === 'chapter' || ref.name === 'doc.id' || ref.name === 'doc' || ref.name === 'text'
-                        );
-                        if (docRefObj) {
-                            docRef = docRefObj.val || docRefObj.value;
-                            console.log('Found docRef in Refs:', docRef);
-                        }
-                    }
-
-                    if (!docRef && line.refs && Array.isArray(line.refs)) {
-                        const docRefObj = line.refs.find(ref =>
-                            ref.name === 'chapter.id' || ref.name === 'chapter' || ref.name === 'doc.id' || ref.name === 'doc' || ref.name === 'text'
-                        );
-                        if (docRefObj) {
-                            docRef = docRefObj.val || docRefObj.value;
+                    const refsArray = line.Refs || line.refs;
+                    if (!docRef && refsArray && Array.isArray(refsArray) && refsArray.length > 0) {
+                        console.log('Line', currentDataIndex, 'Refs:', refsArray);
+                        for (const ref of refsArray) {
+                            if (typeof ref === 'string' && ref && ref !== 'null') {
+                                const val = ref.includes('=') ? ref.split('=').slice(1).join('=') : ref;
+                                if (val && val !== 'null' && val !== '') {
+                                    docRef = val;
+                                    console.log('Found docRef in Refs (string):', docRef);
+                                    break;
+                                }
+                            } else if (ref && typeof ref === 'object') {
+                                if (ref.name === 'chapter.id' || ref.name === 'doc.id' ||
+                                    ref.name === 'chapter' || ref.name === 'doc') {
+                                    docRef = ref.val || ref.value;
+                                    if (docRef) {
+                                        console.log('Found docRef in Refs (object):', docRef);
+                                        break;
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -460,6 +468,10 @@ class NoskeSearchImplementation {
             // Log for debugging
             console.log('Row', index, 'final docRef:', docRef);
 
+            if (docRef === 'null' || docRef === 'undefined' || docRef === '' || docRef === '/') {
+                docRef = null;
+            }
+
             if (docRef) {
                 // If docRef is already a full URL (from landingPageURI), extract just the filename
                 let entryUrl;
@@ -476,6 +488,11 @@ class NoskeSearchImplementation {
                     console.log('Row', index, 'linking to entry:', entryUrl);
                 }
 
+                if (!entryUrl || entryUrl === 'null.html' || entryUrl === 'undefined.html' || entryUrl === '.html') {
+                    console.warn('Row', currentDataIndex, 'invalid entryUrl, skipping:', entryUrl);
+                    return;
+                }
+
                 // Make the entire row clickable
                 row.style.cursor = 'pointer';
                 row.classList.add('clickable-row');
@@ -485,29 +502,21 @@ class NoskeSearchImplementation {
                 row.parentNode.replaceChild(newRow, row);
 
                 newRow.addEventListener('click', (e) => {
-                    // Don't navigate if clicking on an existing link
-                    if (e.target.tagName !== 'A') {
-                        window.location.href = entryUrl;
-                    }
+                    if (e.target.closest('a')) return;
+                    window.location.href = entryUrl;
                 });
 
-                // Add link to the keyword (middle cell)
+                // Make the entire KWIC snippet clickable (left context, keyword, right context)
                 const newCells = newRow.querySelectorAll('td');
-                const keywordCell = newCells[1];
-                if (keywordCell) {
-                    // Remove any existing bad links first
-                    const badLinks = keywordCell.querySelectorAll('a[href*="search.htmlnull"], a[href*="null"]');
-                    badLinks.forEach(link => {
-                        const text = link.textContent;
-                        link.replaceWith(document.createTextNode(text));
-                    });
-
-                    // Now add our correct link
-                    if (!keywordCell.querySelector('a')) {
-                        const keyword = keywordCell.innerHTML;
-                        keywordCell.innerHTML = `<a href="${entryUrl}">${keyword}</a>`;
+                newCells.forEach(cell => {
+                    const existingLinks = cell.querySelectorAll('a');
+                    if (existingLinks.length > 0) {
+                        existingLinks.forEach(link => { link.href = entryUrl; });
+                    } else {
+                        const content = cell.innerHTML;
+                        cell.innerHTML = `<a href="${entryUrl}" class="kwic-link">${content}</a>`;
                     }
-                }
+                });
             } else {
                 console.warn('No document reference found for row', index);
             }
