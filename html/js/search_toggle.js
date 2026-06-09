@@ -147,14 +147,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Mobile filter toggle
     const filterBtn = document.getElementById('filter-button');
-    const refinementsSection = document.getElementById('refinements-section');
-    if (filterBtn && refinementsSection) {
+    const filterCards = document.getElementById('filter-cards');
+    if (filterBtn && filterCards) {
         if (window.innerWidth < 768) {
-            refinementsSection.classList.add('mobile-collapsed');
+            filterCards.classList.add('mobile-collapsed');
         }
         filterBtn.addEventListener('click', function() {
-            refinementsSection.classList.toggle('mobile-collapsed');
-            const isCollapsed = refinementsSection.classList.contains('mobile-collapsed');
+            filterCards.classList.toggle('mobile-collapsed');
+            const isCollapsed = filterCards.classList.contains('mobile-collapsed');
             filterBtn.innerHTML = isCollapsed
                 ? '<i class="fas fa-filter"></i> Filter anzeigen'
                 : '<i class="fas fa-filter"></i> Filter ausblenden';

@@ -57,11 +57,11 @@
 }
 
 @media (max-width: 767px) {
-    #refinements-section {
+    #filter-cards {
         margin-bottom: 1rem;
     }
 
-    #refinements-section.mobile-collapsed {
+    #filter-cards.mobile-collapsed {
         display: none !important;
     }
 }

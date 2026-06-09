@@ -65,6 +65,7 @@
                                                 <div id="current-refinements"></div>
                                                 <div id="clear-refinements"></div>
 
+                                                <div id="filter-cards">
                                                 <h4>Sortierung</h4>
                                                 <div id="sort-by"></div>
                                                 <h4>Jahr</h4>
@@ -75,6 +76,7 @@
                                                 <div id="refinement-list-works"></div>
                                                 <h4>Orte</h4>
                                                 <div id="refinement-list-places"></div>
+                                                </div><!-- /filter-cards -->
 
                                             </div>
                                             <div class="col-md-8">
