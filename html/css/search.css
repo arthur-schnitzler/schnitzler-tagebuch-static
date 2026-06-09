@@ -44,3 +44,24 @@
     max-height: calc(100vh - 40px);
     overflow-y: auto;
 }
+
+/* Mobile filter toggle */
+#filter-button {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    #filter-button {
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    #refinements-section {
+        margin-bottom: 1rem;
+    }
+
+    #refinements-section.mobile-collapsed {
+        display: none !important;
+    }
+}

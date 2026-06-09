@@ -34,8 +34,11 @@
                                 <!-- Typesense Search Container -->
                                 <div id="typesense-search-container" style="display: block;">
                                     <div class="ais-InstantSearch">
+                                        <button id="filter-button" class="btn btn-secondary d-md-none mb-3 w-100">
+                                            <i class="fas fa-filter"></i> Filter anzeigen
+                                        </button>
                                         <div class="row">
-                                            <div class="col-md-4 sticky-sidebar">
+                                            <div class="col-md-4 sticky-sidebar" id="refinements-section">
                                                 <!-- Search Engine Toggle -->
                                                 <div class="card mb-3">
                                                     <div class="card-header d-flex justify-content-between align-items-center">
