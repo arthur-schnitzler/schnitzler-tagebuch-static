@@ -7,18 +7,20 @@ var table = new Tabulator("#tabulator-table-person", {
             paginationCounter:"rows",
             movableColumns:true,
             layout:"fitColumns",
-            responsiveLayout:"hide", // automatisch Spalten ausblenden bei Platzmangel
+            responsiveLayout:"collapse",
             dataLoader: true,
     columns:[ {
-        title: "Vorname", field: "vorname", sorter: "string", formatter: "html", responsive: 0, maxWidth: 250, width:200
+        formatter: "responsiveCollapse", width: 30, minWidth: 30, hozAlign: "center", resizable: false, headerSort: false
     }, {
-        title: "Nachname", field: "nachname", sorter: "string", formatter: "html", responsive: 0, maxWidth: 450, width:250
+        title: "Vorname", field: "vorname", sorter: "string", formatter: "html", responsive: 1, minWidth: 80
     }, {
-        title: "Namensvarianten", field: "namensvarianten", sorter: "string", formatter: "html", responsive: 2, width:300, maxWidth:500
+        title: "Nachname", field: "nachname", sorter: "string", formatter: "html", responsive: 0, minWidth: 100
     }, {
-        title: "Lebensdaten", field: "lebensdaten", sorter: "string", formatter: "html", responsive: 1, width:300
+        title: "Namensvarianten", field: "namensvarianten", sorter: "string", formatter: "html", responsive: 4, minWidth: 120
     }, {
-        title: "Berufe", field: "berufe", sorter: "string", formatter: "html", responsive: 3, width:200
+        title: "Lebensdaten", field: "lebensdaten", sorter: "string", formatter: "html", responsive: 3, minWidth: 80
+    }, {
+        title: "Berufe", field: "berufe", sorter: "string", formatter: "html", responsive: 2, minWidth: 100
     }],
     initialSort:[ {
         column: "vorname", dir: "asc"

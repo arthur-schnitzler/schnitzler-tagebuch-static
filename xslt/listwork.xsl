@@ -38,6 +38,7 @@
                                     <table class="table display" id="tabulator-table-work">
                                         <thead>
                                             <tr>
+                                                <th></th>
                                                 <th scope="col" tabulator-headerFilter="input"
                                                     tabulator-formatter="html">Titel</th>
                                                 <th scope="col" tabulator-headerFilter="input"
@@ -72,6 +73,7 @@
                                             </xsl:variable>
                                             <xsl:for-each select="tei:author">
                                                 <tr>
+                                                    <td></td>
                                                     <td>
                                                         <xsl:element name="a">
                                                             <xsl:attribute name="href">
