@@ -14,18 +14,16 @@
     <xsl:import href="./partials/view-type.xsl"/>
     <xsl:import href="./partials/zotero.xsl"/>
     <xsl:import href="./partials/biblStruct-output.xsl"/>
-
     <!-- Einstellungen für die Schnitzler-Chronik. Lokaler Import zur Vermeidung von Remote-Fetching während des Builds -->
     <xsl:import href="../../schnitzler-chronik-static/xslt/export/schnitzler-chronik.xsl"/>
     <!--<xsl:import
         href="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/schnitzler-chronik.xsl"/>-->
-        
     <xsl:param name="schnitzler-chronik_fetch-locally" as="xs:boolean" select="true()"/>
     <xsl:param name="schnitzler-chronik_current-type" as="xs:string" select="'schnitzler-tagebuch'"/>
     <xsl:param name="quotationURL"/>
     <xsl:param name="chronik-dir">../chronik-data</xsl:param>
-       <xsl:output encoding="UTF-8" media-type="text/html" method="html" version="5.0" indent="yes" omit-xml-declaration="yes"/>
-
+    <xsl:output encoding="UTF-8" media-type="text/html" method="html" version="5.0" indent="yes"
+        omit-xml-declaration="yes"/>
     <xsl:variable name="chronik-data"
         select="collection(concat($chronik-dir, '/?select=L0*.xml;recurse=yes'))"/>
     <xsl:variable name="prev">
@@ -112,9 +110,13 @@
         <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
-                <xsl:with-param name="entry_date" select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"/>
-                <xsl:with-param name="page_url" select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', $teiSource, '.html')"/>
-                <xsl:with-param name="meta_description" select="concat('Tagebucheintrag von Arthur Schnitzler vom ', $doc_title, '. Digitale Edition des Tagebuchs (1879–1931) des österreichischen Schriftstellers.')"/>
+                <xsl:with-param name="entry_date"
+                    select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"/>
+                <xsl:with-param name="page_url"
+                    select="concat('https://schnitzler-tagebuch.acdh.oeaw.ac.at/', $teiSource, '.html')"/>
+                <xsl:with-param name="meta_description"
+                    select="concat('Tagebucheintrag von Arthur Schnitzler vom ', $doc_title, '. Digitale Edition des Tagebuchs (1879–1931) des österreichischen Schriftstellers.')"
+                />
             </xsl:call-template>
             <xsl:call-template name="zoterMetaTags">
                 <xsl:with-param name="pageId" select="$link"/>
@@ -122,11 +124,13 @@
             </xsl:call-template>
             <body class="page">
                 <!-- Unsichtbarer ISO-Datum-Kopierbereich in der oberen rechten Ecke -->
-                <div style="position: fixed; top: 0; right: 0; width: 50px; height: 50px; cursor: pointer; z-index: 9999; opacity: 0;"
-                     title="ISO-Datum kopieren">
+                <div
+                    style="position: fixed; top: 0; right: 0; width: 50px; height: 50px; cursor: pointer; z-index: 9999; opacity: 0;"
+                    title="ISO-Datum kopieren">
                     <xsl:attribute name="onclick">
                         <xsl:text>navigator.clipboard.writeText('</xsl:text>
-                        <xsl:value-of select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"/>
+                        <xsl:value-of
+                            select="descendant::tei:titleStmt[1]/tei:title[@type = 'iso-date'][1]/text()"/>
                         <xsl:text>').then(() => { this.style.opacity = '0.2'; setTimeout(() => { this.style.opacity = '0'; }, 500); });</xsl:text>
                     </xsl:attribute>
                 </div>
@@ -204,8 +208,8 @@
                                                   class="fas fa-solid fa-download"/> DOWNLOAD
                                                   </a>&#160; </li>
                                                 <li class="nav-item"> &#160;<a href="#"
-                                                        data-bs-target="#schnitzler-chronik-modal" type="button"
-                                                  data-bs-toggle="modal"
+                                                  data-bs-target="#schnitzler-chronik-modal"
+                                                  type="button" data-bs-toggle="modal"
                                                   title="Weitere Ereignisse an diesem Tag">
                                                   <i class="fas fa-calendar-day"/> CHRONIK
                                                   </a>&#160; </li>
@@ -321,41 +325,38 @@
                     </div>
                 </div>
                 <!-- Modal Faksimile -->
-                <div class="modal fade" id="faks-modal" tabindex="-1" aria-labelledby="faksimile" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered faksimile-modal" style="max-width: 90%;">
+                <div class="modal fade" id="faks-modal" tabindex="-1" aria-labelledby="faksimile"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered faksimile-modal"
+                        style="max-width: 90%;">
                         <div class="modal-content">
-                            
                             <!-- Modal Header -->
                             <div class="modal-header">
                                 <h5 class="modal-title">Faksimile</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Schließen"/>
                             </div>
-                            
                             <!-- Modal Body -->
                             <div class="modal-body">
-                                <div id="openseadragon-photo" style="height: 850px;"></div>
-                                
+                                <div id="openseadragon-photo" style="height: 850px;"/>
                                 <!-- OpenSeadragon Script -->
-                                <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"></script>
+                                <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"/>
                                 <script type="text/javascript">
                                     var viewer = OpenSeadragon({
-                                    id: "openseadragon-photo",
-                                    protocol: "http://iiif.io/api/image",
-                                    prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
-                                    sequenceMode: true,
-                                    showReferenceStrip: true,
-                                    tileSources: [
-                                    <xsl:for-each select=".//tei:facsimile/tei:graphic/data(@url)">
+                                        id: "openseadragon-photo",
+                                        protocol: "http://iiif.io/api/image",
+                                        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
+                                        sequenceMode: true,
+                                        showReferenceStrip: true,
+                                        tileSources:[<xsl:for-each select=".//tei:facsimile/tei:graphic/data(@url)">
                                         {
                                         type: "image",
                                         url: "<xsl:value-of select="concat(., '?format=iiif')"/>"
                                         }<xsl:if test="position() != last()">,</xsl:if>
                                     </xsl:for-each>
-                                    ]
-                                    });
-                                </script>
+]
+                                });</script>
                             </div>
-                            
                             <!-- Modal Footer (Links) -->
                             <div class="modal-footer" style="justify-content: flex-start;">
                                 <ul class="list-unstyled">
@@ -368,7 +369,6 @@
                                     </xsl:for-each>
                                 </ul>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -496,81 +496,8 @@
                     aria-labelledby="downloadModalLabel2" aria-hidden="true">
                     <xsl:variable name="datum"
                         select="descendant::tei:title[@type = 'iso-date']/text()" as="xs:date"/>
-                    <xsl:variable name="datum-written" select="
-                            format-date($datum, '[D1].&#160;[M1].&#160;[Y0001]',
-                            'en',
-                            'AD',
-                            'EN')"/>
-                    <xsl:variable name="wochentag">
-                        <xsl:choose>
-                            <xsl:when test="
-                                    format-date($datum, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Monday'">
-                                <xsl:text>Montag</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Tuesday'">
-                                <xsl:text>Dienstag</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Wednesday'">
-                                <xsl:text>Mittwoch</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Thursday'">
-                                <xsl:text>Donnerstag</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Friday'">
-                                <xsl:text>Freitag</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Saturday'">
-                                <xsl:text>Samstag</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="
-                                    format-date($datum, '[F]',
-                                    'en',
-                                    'AD',
-                                    'EN') = 'Sunday'">
-                                <xsl:text>Sonntag</xsl:text>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:text>DATUMSFEHLER</xsl:text>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </xsl:variable>
                     <div class="modal-dialog">
                         <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle3">
-                                    <a
-                                        href="{concat('https://schnitzler-chronik.acdh.oeaw.ac.at/', $datum, '.html')}"
-                                        target="_blank" style="color: #008B8B">
-                                        <xsl:value-of
-                                            select="concat($wochentag, ', ', $datum-written)"/>
-                                    </a>
-                                </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Schließen"/>
-                            </div>
                             <xsl:variable name="relevant-eventtypes" as="xs:string"
                                 select="string-join(document('../../schnitzler-chronik-static/xslt/export/list-of-relevant-uris.xml')/descendant::*:abbr[. != 'schnitzler-tagebuch'], ' ')"/>
                             <!-- Achtung, kein Tagebuch, weil es ja keine zwei Einträge an einem Tag gibt -->
@@ -623,7 +550,9 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    <xsl:template match="tei:hi[@rend='italicised']">
-        <span style="text-decoration:underline;"><xsl:apply-templates/></span>
+    <xsl:template match="tei:hi[@rend = 'italicised']">
+        <span style="text-decoration:underline;">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
 </xsl:stylesheet>
