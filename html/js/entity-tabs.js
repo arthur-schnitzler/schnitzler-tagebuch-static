@@ -1,39 +1,64 @@
 /* entity-tabs.js – Tab-Umschaltung auf Entitätsseiten */
 document.addEventListener('DOMContentLoaded', function () {
+    function activateTab(buttons, panels, activeBtn, activePanelId) {
+        buttons.forEach(function (b) {
+            var on = b === activeBtn;
+            b.classList.toggle('active', on);
+            b.setAttribute('aria-selected', on ? 'true' : 'false');
+            b.setAttribute('tabindex', on ? '0' : '-1');
+        });
+        panels.forEach(function (p) {
+            p.classList.toggle('active', p.id === activePanelId);
+        });
+    }
+    function wireTablistKeys(tablist, buttons) {
+        tablist.addEventListener('keydown', function (e) {
+            if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight' &&
+                e.key !== 'Home' && e.key !== 'End') return;
+            var current = document.activeElement;
+            var idx = buttons.indexOf(current);
+            if (idx === -1) return;
+            var next = idx;
+            if (e.key === 'ArrowLeft') next = (idx - 1 + buttons.length) % buttons.length;
+            else if (e.key === 'ArrowRight') next = (idx + 1) % buttons.length;
+            else if (e.key === 'Home') next = 0;
+            else if (e.key === 'End') next = buttons.length - 1;
+            buttons[next].focus();
+            buttons[next].click();
+            e.preventDefault();
+        });
+    }
     document.querySelectorAll('.entity-tabs').forEach(function (nav) {
+        var container = nav.parentElement;
+        var buttons = Array.prototype.slice.call(nav.querySelectorAll('.entity-tab-btn'));
+        var panels = Array.prototype.slice.call(container.querySelectorAll('.entity-tab-panel'));
         nav.addEventListener('click', function (e) {
             var btn = e.target.closest('.entity-tab-btn');
             if (!btn) return;
-            var tabId = btn.getAttribute('data-tab');
-            var container = nav.parentElement;
-            // Buttons
-            nav.querySelectorAll('.entity-tab-btn').forEach(function (b) {
-                b.classList.remove('active');
-            });
-            btn.classList.add('active');
-            // Panels
-            container.querySelectorAll('.entity-tab-panel').forEach(function (p) {
-                p.classList.remove('active');
-            });
-            var panel = container.querySelector('#' + tabId);
-            if (panel) panel.classList.add('active');
+            activateTab(buttons, panels, btn, btn.getAttribute('data-tab'));
         });
+        wireTablistKeys(nav, buttons);
     });
     // Relationen-Subnavigation (Typ-Tabs: Personen/Werke/Orte/…)
     document.querySelectorAll('.rel-subnav').forEach(function (subnav) {
         var container = subnav.parentElement;
+        var buttons = Array.prototype.slice.call(subnav.querySelectorAll('.rel-subnav-btn'));
+        var sections = Array.prototype.slice.call(container.querySelectorAll('.rel-section'));
         subnav.addEventListener('click', function (e) {
             var btn = e.target.closest('.rel-subnav-btn');
             if (!btn) return;
             var type = btn.getAttribute('data-rel-type');
-            subnav.querySelectorAll('.rel-subnav-btn').forEach(function (b) {
-                b.classList.remove('active');
+            buttons.forEach(function (b) {
+                var on = b === btn;
+                b.classList.toggle('active', on);
+                b.setAttribute('aria-selected', on ? 'true' : 'false');
+                b.setAttribute('tabindex', on ? '0' : '-1');
             });
-            btn.classList.add('active');
-            container.querySelectorAll('.rel-section').forEach(function (s) {
+            sections.forEach(function (s) {
                 s.classList.toggle('active', s.getAttribute('data-rel-type') === type);
             });
         });
+        wireTablistKeys(subnav, buttons);
     });
     // Leaflet-Karte in der Sidebar sofort initialisieren
     if (typeof window.initEntityMap === 'function') {

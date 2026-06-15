@@ -47,6 +47,12 @@
     padding: 0;
 }
 
+/* Der Wrapper in den list*.xsl zentriert per Inline-Style
+   (max-width + margin: 0 auto); Entitätsseiten sollen linksbündig sein. */
+div:has(> .entity-page) {
+    margin: 0 !important;
+}
+
 .card-body-index.entity-layout {
     max-width: 100%;
 }
@@ -104,9 +110,8 @@
 
 .entity-portrait-frame img {
     width: 100%;
-    min-width: 
-    height: auto; /* Ändere 100% auf auto, damit das Verhältnis gewahrt bleibt */
-    min-height: 100%; /* Stellt sicher, dass der Frame gefüllt wird */
+    height: auto;
+    min-height: 100%;
     object-fit: cover;
 }
 
@@ -370,9 +375,17 @@
     to   { opacity: 1; transform: translateY(0); }
 }
 
-/* Erwähnungen: Legend im Tab ausblenden (Tab-Titel reicht) */
-.entity-tab-panel #mentions > .infodesc > legend {
-    display: none;
+/* Visuell versteckt, aber für Screenreader sichtbar */
+.visually-hidden {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 /* Erwähnungen: Toolbar (Toggle + Summary) über dem Chart */

@@ -991,7 +991,6 @@
                 </xsl:for-each-group>
             </xsl:variable>
             <xsl:variable name="relationsCount" select="count($rel-items)" as="xs:integer"/>
-            <div class="container-fluid">
                 <div class="card-body-index entity-layout">
                     <!-- Linke Spalte: Steckbrief -->
                     <aside class="entity-sidebar" aria-label="Steckbrief">
@@ -1040,7 +1039,6 @@
                         </div>
                     </section>
                 </div>
-            </div>
         </article>
     </xsl:template>
     <!-- PLACE: Sub-Templates -->
@@ -1358,7 +1356,6 @@
                 </xsl:for-each-group>
             </xsl:variable>
             <xsl:variable name="relationsCount" select="count($rel-items)" as="xs:integer"/>
-            <div class="container-fluid">
                 <div class="card-body-index entity-layout">
                     <!-- Linke Spalte: Steckbrief -->
                     <aside class="entity-sidebar" aria-label="Steckbrief">
@@ -1413,7 +1410,6 @@
                         </div>
                     </section>
                 </div>
-            </div>
         </article>
     </xsl:template>
     <!-- EVENT: Sub-Templates -->
