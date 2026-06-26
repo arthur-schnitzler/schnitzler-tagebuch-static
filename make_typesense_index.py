@@ -19,6 +19,11 @@ except ObjectNotFound:
 
 current_schema = {
     "name": "stb",
+    "metadata": {
+        "owners": ["Peter Andorfer", "Martin Anton Müller"],
+        "description": "https://github.com/arthur-schnitzler/schnitzler-tagebuch-static",
+        "service_ids": [11833],
+    },
     "fields": [
         {
             "name": "id",
