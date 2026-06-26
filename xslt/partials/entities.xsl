@@ -675,6 +675,9 @@
                                 <xsl:attribute name="href">
                                     <xsl:value-of select="."/>
                                 </xsl:attribute>
+                                <xsl:if test="$abbr = 'pmb'">
+                                    <xsl:attribute name="style">background-color: #9B5F98; color: #fff;</xsl:attribute>
+                                </xsl:if>
                                 <xsl:value-of select="$id-tail"/>
                             </a>
                         </div>

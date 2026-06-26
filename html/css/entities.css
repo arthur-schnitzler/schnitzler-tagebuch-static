@@ -202,7 +202,11 @@ div:has(> .entity-page) {
     display: flex;
     align-items: center;
     gap: 6px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+}
+.normdaten-list .meta-row .label {
+    min-width: 5em;
+    flex-shrink: 0;
 }
 .gnd-badge {
     font-family: ui-monospace, "JetBrains Mono", Menlo, monospace;
