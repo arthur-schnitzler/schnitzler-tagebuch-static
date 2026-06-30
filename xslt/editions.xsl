@@ -328,20 +328,28 @@
                 <div class="modal fade" id="faks-modal" tabindex="-1" aria-labelledby="faksimile"
                     aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered faksimile-modal"
-                        style="max-width: 90%;">
+                        style="max-width: 1000px;">
                         <div class="modal-content">
                             <!-- Modal Header -->
                             <div class="modal-header">
                                 <h5 class="modal-title">Faksimile</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Schließen"/>
+                                <div class="d-flex align-items-center gap-2">
+                                    <button type="button" class="btn btn-primary btn-sm"
+                                        id="faks-download-btn" onclick="downloadFaksimile()">
+                                        <i class="fa-solid fa-download"/> Herunterladen </button>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Schließen"/>
+                                </div>
                             </div>
                             <!-- Modal Body -->
                             <div class="modal-body">
-                                <div id="openseadragon-photo" style="height: 850px;"/>
+                                <div id="openseadragon-photo" style="height: 80vh;"/>
                                 <!-- OpenSeadragon Script -->
                                 <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"/>
                                 <script type="text/javascript">
+                                    var faksUrls = [<xsl:for-each select=".//tei:facsimile/tei:graphic/data(@url)">
+                                        "<xsl:value-of select="."/>"<xsl:if test="position() != last()">,</xsl:if>
+                                    </xsl:for-each>];
                                     var viewer = OpenSeadragon({
                                         id: "openseadragon-photo",
                                         protocol: "http://iiif.io/api/image",
@@ -355,19 +363,36 @@
                                         }<xsl:if test="position() != last()">,</xsl:if>
                                     </xsl:for-each>
 ]
-                                });</script>
+                                    });
+                                    function downloadFaksimile() {
+                                        var i = viewer ? viewer.currentPage() : 0;
+                                        var url = faksUrls[i];
+                                        if (url) {
+                                            window.open(url + "?format=iiif&amp;param=/full/full/0/default.jpg", "_blank");
+                                        }
+                                    }</script>
                             </div>
                             <!-- Modal Footer (Links) -->
                             <div class="modal-footer" style="justify-content: flex-start;">
-                                <ul class="list-unstyled">
-                                    <xsl:for-each select=".//tei:facsimile/tei:graphic/data(@url)">
-                                        <li>
-                                            <a href="{concat(., '?format=gui')}">
-                                                <xsl:value-of select="."/>
-                                            </a>
-                                        </li>
-                                    </xsl:for-each>
-                                </ul>
+                                <div class="w-100">
+                                    <p class="mb-1 fw-bold">Alle Faksimiles dieses Eintrags:</p>
+                                    <ul class="list-unstyled mb-0">
+                                        <xsl:for-each
+                                            select=".//tei:facsimile/tei:graphic/data(@url)">
+                                            <li class="mb-1">
+                                                <a href="{concat(., '?format=iiif&amp;param=/full/full/0/default.jpg')}"
+                                                    target="_blank" class="me-3">
+                                                    <i class="fa-solid fa-download"/> Bild
+                                                        <xsl:value-of select="position()"/>
+                                                    als JPEG </a>
+                                                <a href="{concat(., '?format=gui')}"
+                                                    target="_blank">
+                                                    <i class="fa-solid fa-up-right-from-square"/> in
+                                                    ARCHE (TIFF) </a>
+                                            </li>
+                                        </xsl:for-each>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
