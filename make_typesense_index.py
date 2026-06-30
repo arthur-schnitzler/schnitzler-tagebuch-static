@@ -4,7 +4,7 @@ import ciso8601
 import time
 import typesense
 
-from typesense.api_call import ObjectNotFound
+from typesense.exceptions import ObjectNotFound
 from acdh_cfts_pyutils import TYPESENSE_CLIENT as client
 from acdh_cfts_pyutils import CFTS_COLLECTION
 from acdh_tei_pyutils.tei import TeiReader
