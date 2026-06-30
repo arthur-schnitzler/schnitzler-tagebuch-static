@@ -218,9 +218,9 @@
                                     </div>
                                 </nav>
                             </div>
-                            <xsl:call-template name="html_footer"/>
                         </div>
                     </div>
+                    <xsl:call-template name="html_footer"/>
                 </div>
                 <!-- Modal Entitäten -->
                 <div class="modal fade" id="entitaeten" tabindex="-1"
