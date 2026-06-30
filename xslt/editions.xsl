@@ -249,8 +249,10 @@
                                     style="cursor: pointer; user-select: all;"
                                     title="Klicken zum Kopieren"
                                     onclick="navigator.clipboard.writeText(this.innerText)"> Arthur
-                                    Schnitzler: Tagebuch. Digitale Edition, <xsl:value-of
-                                        select="$doctitle"/>,
+                                    Schnitzler: Tagebuch 1879–1931. Digitale Ausgabe. Herausgegeben
+                                    von Austrian Centre for Digital Humanities (ACDH) der
+                                    Österreichischen Akademie der Wissenschaften. Wien, 2021.
+                                        <xsl:value-of select="$doctitle"/>,
                                     https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__<xsl:value-of
                                         select="descendant::tei:teiHeader[1]/tei:fileDesc[1]/tei:titleStmt[1]/tei:title[@type = 'iso-date']"
                                     />.html (Stand <xsl:value-of select="$currentDate"/>), PID:
