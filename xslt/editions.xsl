@@ -140,31 +140,32 @@
                     <nav class="action-bar" id="actionBar"
                         aria-label="Werkzeuge und Blättern">
                         <div class="inner">
-                            <a href="#" data-bs-target="#entitaeten" data-bs-toggle="modal"
+                            <button type="button" data-drawer="entitaeten" aria-expanded="false"
                                 title="Entitäten in diesem Eintrag">
                                 <i class="fas fa-sharp fa-solid fa-people-group"/>
                                 <xsl:text> Entitäten</xsl:text>
-                            </a>
-                            <a href="#" data-bs-target="#zitat" data-bs-toggle="modal"
+                            </button>
+                            <button type="button" data-drawer="cite" aria-expanded="false"
                                 title="Zitiervorschlag zu diesem Eintrag">
                                 <i class="fas fa-quote-right"/>
                                 <xsl:text> Zitieren</xsl:text>
-                            </a>
+                            </button>
+                            <!-- Faksimile bleibt ein Modal (OpenSeadragon-Viewer) -->
                             <a href="#" data-bs-target="#faks-modal" data-bs-toggle="modal"
                                 title="Faksimile zu diesem Eintrag">
                                 <i class="fa-lg far fa-file-image"/>
                                 <xsl:text> Faksimile</xsl:text>
                             </a>
-                            <a href="#" data-bs-target="#downloadModal" data-bs-toggle="modal"
+                            <button type="button" data-drawer="download" aria-expanded="false"
                                 title="Diesen Eintrag herunterladen">
                                 <i class="fas fa-solid fa-download"/>
                                 <xsl:text> Download</xsl:text>
-                            </a>
-                            <a href="#" data-bs-target="#schnitzler-chronik-modal"
-                                data-bs-toggle="modal" title="Weitere Ereignisse an diesem Tag">
+                            </button>
+                            <button type="button" data-drawer="chronik" aria-expanded="false"
+                                title="Weitere Ereignisse an diesem Tag">
                                 <i class="fas fa-calendar-day"/>
                                 <xsl:text> Chronik</xsl:text>
-                            </a>
+                            </button>
                             <span class="gap"/>
                             <span class="neighbors">
                                 <xsl:if test="ends-with($prev, '.html')">
@@ -182,6 +183,149 @@
                             </span>
                         </div>
                     </nav>
+                    <!-- Drawer, der unter der Action-Bar aufklappt -->
+                    <div class="drawer-backdrop" id="drawerBackdrop"/>
+                    <div class="action-drawer" id="drawer" role="region" aria-label="Werkzeuge">
+                        <div class="drawer-inner">
+                            <!-- ENTITÄTEN -->
+                            <div class="drawer-panel" data-panel="entitaeten">
+                                <h3>Erwähnte Entitäten <button type="button" class="close"
+                                        data-close="">schließen ✕</button></h3>
+                                <div class="drawer-grid">
+                                    <xsl:if test="//tei:back/tei:listPerson/tei:person[1]">
+                                        <div>
+                                            <div class="meta-caption">Personen</div>
+                                            <ul>
+                                                <xsl:for-each
+                                                  select="descendant::tei:back/tei:listPerson/tei:person">
+                                                  <li>
+                                                  <a href="{concat(data(@xml:id), '.html')}">
+                                                  <xsl:value-of select="child::tei:persName[1]"/>
+                                                  </a>
+                                                  </li>
+                                                </xsl:for-each>
+                                            </ul>
+                                        </div>
+                                    </xsl:if>
+                                    <xsl:if test=".//tei:back/tei:listBibl/tei:bibl[1]">
+                                        <div>
+                                            <div class="meta-caption">Werke</div>
+                                            <ul>
+                                                <xsl:for-each
+                                                  select="descendant::tei:back/tei:listBibl/tei:bibl">
+                                                  <li>
+                                                  <a href="{concat(data(@xml:id), '.html')}">
+                                                  <xsl:value-of select="tei:title[@type = 'main'][1]"/>
+                                                  </a>
+                                                  </li>
+                                                </xsl:for-each>
+                                            </ul>
+                                        </div>
+                                    </xsl:if>
+                                    <xsl:if test="//tei:back/tei:listPlace/tei:place[1]">
+                                        <div>
+                                            <div class="meta-caption">Orte</div>
+                                            <ul>
+                                                <xsl:for-each
+                                                  select="descendant::tei:back/tei:listPlace/tei:place">
+                                                  <li>
+                                                  <a href="{concat(data(@xml:id), '.html')}">
+                                                  <xsl:value-of
+                                                  select="child::tei:placeName[1]/text()"/>
+                                                  </a>
+                                                  </li>
+                                                </xsl:for-each>
+                                            </ul>
+                                        </div>
+                                    </xsl:if>
+                                </div>
+                            </div>
+                            <!-- ZITIEREN -->
+                            <div class="drawer-panel" data-panel="cite">
+                                <h3>Zitieren <button type="button" class="close" data-close=""
+                                        >schließen ✕</button></h3>
+                                <div class="meta-caption">Empfohlene Zitierweise</div>
+                                <blockquote class="cite-block"
+                                    style="cursor: pointer; user-select: all;"
+                                    title="Klicken zum Kopieren"
+                                    onclick="navigator.clipboard.writeText(this.innerText)"> Arthur
+                                    Schnitzler: Tagebuch 1879–1931. Digitale Ausgabe. Herausgegeben
+                                    von Austrian Centre for Digital Humanities (ACDH) der
+                                    Österreichischen Akademie der Wissenschaften. Wien, 2021.
+                                        <xsl:value-of select="$doctitle"/>,
+                                    https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__<xsl:value-of
+                                        select="descendant::tei:teiHeader[1]/tei:fileDesc[1]/tei:titleStmt[1]/tei:title[@type = 'iso-date']"
+                                    />.html (Stand <xsl:value-of select="$currentDate"/>), PID:
+                                        <xsl:value-of select="$pid"/>. </blockquote>
+                            </div>
+                            <!-- DOWNLOAD -->
+                            <div class="drawer-panel" data-panel="download">
+                                <h3>Download <button type="button" class="close" data-close=""
+                                        >schließen ✕</button></h3>
+                                <div class="download-list">
+                                    <xsl:choose>
+                                        <xsl:when test="$source-double-page = true()">
+                                            <a href="{$source1_pdf}" data-bs-toggle="tooltip"
+                                                title="Eintrag als PDF">
+                                                <i class="far fa-file-pdf"/>
+                                                <xsl:text> PDF (Seite 1)</xsl:text>
+                                            </a>
+                                            <a href="{$source2_pdf}" data-bs-toggle="tooltip"
+                                                title="Eintrag als PDF">
+                                                <i class="far fa-file-pdf"/>
+                                                <xsl:text> PDF (Seite 2)</xsl:text>
+                                            </a>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <a href="{$source1_pdf}" data-bs-toggle="tooltip"
+                                                title="Eintrag als PDF">
+                                                <i class="far fa-file-pdf"/>
+                                                <xsl:text> PDF</xsl:text>
+                                            </a>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                    <a class="secondary"
+                                        href="{concat(replace($teiSource, '.xml', ''), '.xml')}"
+                                        data-bs-toggle="tooltip" title="Eintrag als TEI-Datei">
+                                        <i class="far fa-file-code"/>
+                                        <xsl:text> TEI-XML</xsl:text>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- CHRONIK -->
+                            <div class="drawer-panel" data-panel="chronik">
+                                <xsl:variable name="datum"
+                                    select="descendant::tei:title[@type = 'iso-date']/text()"
+                                    as="xs:date"/>
+                                <h3>Chronik <button type="button" class="close" data-close=""
+                                        >schließen ✕</button></h3>
+                                <div id="chronik-modal-body"/>
+                                <!-- SCHNITZLER-CHRONIK. Zuerst wird der Eintrag geladen, weil das schneller ist, wenn er lokal vorliegt -->
+                                <xsl:variable name="fetchContentsFromURL" as="node()?">
+                                    <xsl:choose>
+                                        <xsl:when test="$schnitzler-chronik_fetch-locally">
+                                            <xsl:copy-of
+                                                select="document(concat('../chronik-data/', $datum, '.xml'))"/>
+                                            <!-- das geht davon aus, dass das schnitzler-chronik-repo lokal vorliegt -->
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:copy-of
+                                                select="document(concat('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-data/refs/heads/main/editions/data/', $datum, '.xml'))"
+                                            />
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:variable>
+                                <xsl:call-template name="mam:schnitzler-chronik">
+                                    <xsl:with-param name="datum-iso" select="$datum"/>
+                                    <xsl:with-param name="current-type"
+                                        select="$schnitzler-chronik_current-type"/>
+                                    <xsl:with-param name="teiSource" select="$teiSource"/>
+                                    <xsl:with-param name="fetchContentsFromURL"
+                                        select="$fetchContentsFromURL" as="node()?"/>
+                                </xsl:call-template>
+                            </div>
+                        </div>
+                    </div>
                     <div class="container-fluid">
                         <div class="wp-transcript">
                             <div class="card" data-index="true">
@@ -201,108 +345,6 @@
                         </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
-                </div>
-                <!-- Modal Entitäten -->
-                <div class="modal fade" id="entitaeten" tabindex="-1"
-                    aria-labelledby="entitaetenModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Erwähnte
-                                    Entitäten</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Schließen"/>
-                            </div>
-                            <div class="modal-body">
-                                <div>
-                                    <xsl:if test="//tei:back/tei:listPerson/tei:person[1]">
-                                        <legend>Personen</legend>
-                                        <ul>
-                                            <xsl:for-each
-                                                select="descendant::tei:back/tei:listPerson/tei:person">
-                                                <li>
-                                                  <a>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of
-                                                  select="concat(data(@xml:id), '.html')"/>
-                                                  </xsl:attribute>
-                                                  <xsl:value-of select="child::tei:persName[1]"/>
-                                                  </a>
-                                                </li>
-                                            </xsl:for-each>
-                                        </ul>
-                                    </xsl:if>
-                                </div>
-                                <div>
-                                    <xsl:if test=".//tei:back/tei:listBibl/tei:bibl[1]">
-                                        <legend>Werke</legend>
-                                        <ul>
-                                            <xsl:for-each
-                                                select="descendant::tei:back/tei:listBibl/tei:bibl">
-                                                <li>
-                                                  <a>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of
-                                                  select="concat(data(@xml:id), '.html')"/>
-                                                  </xsl:attribute>
-                                                  <xsl:value-of
-                                                  select="tei:title[@type = 'main'][1]"/>
-                                                  </a>
-                                                </li>
-                                            </xsl:for-each>
-                                        </ul>
-                                    </xsl:if>
-                                </div>
-                                <div>
-                                    <xsl:if test="//tei:back/tei:listPlace/tei:place[1]">
-                                        <legend>Orte</legend>
-                                        <ul>
-                                            <xsl:for-each
-                                                select="descendant::tei:back/tei:listPlace/tei:place">
-                                                <li>
-                                                  <a>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of
-                                                  select="concat(data(@xml:id), '.html')"/>
-                                                  </xsl:attribute>
-                                                  <xsl:value-of
-                                                  select="child::tei:placeName[1]/text()"/>
-                                                  </a>
-                                                </li>
-                                            </xsl:for-each>
-                                        </ul>
-                                    </xsl:if>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary"
-                                    data-bs-dismiss="modal">Schließen</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Modal Zitat -->
-                <div class="modal fade" id="zitat" tabindex="-1" aria-labelledby="zitatModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Zitiervorschlag</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Schließen"/>
-                            </div>
-                            <div class="modal-body"> Arthur Schnitzler: Tagebuch. Digitale Edition,
-                                    <xsl:value-of select="$doctitle"/>,
-                                    https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__<xsl:value-of
-                                    select="descendant::tei:teiHeader[1]/tei:fileDesc[1]/tei:titleStmt[1]/tei:title[@type = 'iso-date']"
-                                />.html (Stand <xsl:value-of select="$currentDate"/>), PID:
-                                    <xsl:value-of select="$pid"/>. </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary"
-                                    data-bs-dismiss="modal">Schließen</button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <!-- Modal Faksimile -->
                 <div class="modal fade" id="faks-modal" tabindex="-1" aria-labelledby="faksimile"
@@ -439,108 +481,47 @@
                         </div>
                     </div>
                 </xsl:for-each>-->
-                <!-- Modal Download -->
-                <div class="modal fade" id="downloadModal" tabindex="-1"
-                    aria-labelledby="downloadModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle4"
-                                    >Downloadmöglichkeiten</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Schließen"/>
-                            </div>
-                            <div class="modal-body">
-                                <p>
-                                    <xsl:choose>
-                                        <xsl:when test="$source-double-page = true()">
-                                            <a class="ml-3" data-toggle="tooltip"
-                                                title="Eintrag als PDF">
-                                                <xsl:attribute name="href">
-                                                  <xsl:value-of select="$source1_pdf"/>
-                                                </xsl:attribute><xsl:text>&#160; </xsl:text>
-                                                <i class="fa-lg far fa-file-pdf"/>PDF </a>
-                                            <xsl:text>&#160; und </xsl:text>
-                                            <a class="ml-3" data-toggle="tooltip"
-                                                title="Eintrag als PDF">
-                                                <xsl:attribute name="href">
-                                                  <xsl:value-of select="$source2_pdf"/>
-                                                </xsl:attribute><xsl:text>&#160; </xsl:text>
-                                                <i class="fa-lg far fa-file-pdf"/>PDF </a>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <a class="ml-3" data-toggle="tooltip"
-                                                title="Eintrag als PDF">
-                                                <xsl:attribute name="href">
-                                                  <xsl:value-of select="$source1_pdf"/>
-                                                </xsl:attribute><xsl:text>&#160; </xsl:text>
-                                                <i class="fa-lg far fa-file-pdf"/>PDF </a>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
-                                </p>
-                                <p>
-                                    <a class="ml-3" data-toggle="tooltip"
-                                        title="Eintrag als TEI-Datei">
-                                        <xsl:attribute name="href">
-                                            <xsl:value-of
-                                                select="concat(replace($teiSource, '.xml', ''), '.xml')"
-                                            />
-                                        </xsl:attribute><xsl:text>&#160;</xsl:text>
-                                        <i class="fa-lg far fa-file-code"/>TEI </a>
-                                </p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary"
-                                    data-bs-dismiss="modal">Schließen</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Modal Chronik -->
-                <div class="modal fade" id="schnitzler-chronik-modal" tabindex="-1"
-                    aria-labelledby="downloadModalLabel2" aria-hidden="true">
-                    <xsl:variable name="datum"
-                        select="descendant::tei:title[@type = 'iso-date']/text()" as="xs:date"/>
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <xsl:variable name="relevant-eventtypes" as="xs:string"
-                                select="string-join(document('../../schnitzler-chronik-static/xslt/export/list-of-relevant-uris.xml')/descendant::*:abbr[. != 'schnitzler-tagebuch'], ' ')"/>
-                            <!-- Achtung, kein Tagebuch, weil es ja keine zwei Einträge an einem Tag gibt -->
-                            <div class="modal-body">
-                                <div id="chronik-modal-body"/>
-                                <!-- SCHNITZLER-CHRONIK. Zuerst wird der Eintrag geladen, weil das schneller ist, wenn er lokal vorliegt -->
-                                <xsl:variable name="fetchContentsFromURL" as="node()?">
-                                    <xsl:choose>
-                                        <xsl:when test="$schnitzler-chronik_fetch-locally">
-                                            <xsl:copy-of
-                                                select="document(concat('../chronik-data/', $datum, '.xml'))"/>
-                                            <!-- das geht davon aus, dass das schnitzler-chronik-repo lokal vorliegt -->
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <xsl:copy-of
-                                                select="document(concat('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-data/refs/heads/main/editions/data/', $datum, '.xml'))"
-                                            />
-                                        </xsl:otherwise>
-                                    </xsl:choose>
-                                </xsl:variable>
-                                <xsl:call-template name="mam:schnitzler-chronik">
-                                    <xsl:with-param name="datum-iso" select="$datum"/>
-                                    <xsl:with-param name="current-type"
-                                        select="$schnitzler-chronik_current-type"/>
-                                    <xsl:with-param name="teiSource" select="$teiSource"/>
-                                    <xsl:with-param name="fetchContentsFromURL"
-                                        select="$fetchContentsFromURL" as="node()?"/>
-                                </xsl:call-template>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary"
-                                    data-bs-dismiss="modal">Schließen</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <!--<script src="https://unpkg.com/de-micro-editor@0.2.6/dist/de-editor.min.js"/>-->
                 <!--<script type="text/javascript" src="js/run.js"/>-->
+                <script>
+// Action-Bar-Drawer (Entitäten, Zitieren, Download, Chronik)
+(function(){
+var bar=document.getElementById('actionBar');
+var drawer=document.getElementById('drawer');
+var backdrop=document.getElementById('drawerBackdrop');
+if(!bar||!drawer){return;}
+var buttons=bar.querySelectorAll('button[data-drawer]');
+var panels=drawer.querySelectorAll('.drawer-panel');
+function syncTop(){drawer.style.top=bar.offsetHeight+'px';}
+syncTop();
+window.addEventListener('resize',syncTop);
+if(window.ResizeObserver){new ResizeObserver(syncTop).observe(bar);}
+function openDrawer(name){
+syncTop();
+buttons.forEach(function(b){b.setAttribute('aria-expanded',b.getAttribute('data-drawer')===name?'true':'false');});
+panels.forEach(function(p){p.classList.toggle('active',p.getAttribute('data-panel')===name);});
+drawer.classList.add('open');
+if(backdrop){backdrop.classList.add('show');}
+var inner=drawer.querySelector('.drawer-inner');
+if(inner){inner.scrollTop=0;}
+document.dispatchEvent(new CustomEvent('drawer:open',{detail:name}));
+}
+function closeDrawer(){
+buttons.forEach(function(b){b.setAttribute('aria-expanded','false');});
+drawer.classList.remove('open');
+if(backdrop){backdrop.classList.remove('show');}
+}
+buttons.forEach(function(b){
+b.addEventListener('click',function(){
+var name=b.getAttribute('data-drawer');
+var expanded=b.getAttribute('aria-expanded')==='true';
+if(expanded){closeDrawer();}else{openDrawer(name);}
+});
+});
+drawer.querySelectorAll('[data-close]').forEach(function(c){c.addEventListener('click',closeDrawer);});
+if(backdrop){backdrop.addEventListener('click',closeDrawer);}
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeDrawer();}});
+})();</script>
             </body>
         </html>
     </xsl:template>
