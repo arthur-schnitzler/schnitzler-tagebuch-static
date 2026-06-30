@@ -136,87 +136,67 @@
                 </div>
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
+                    <!-- Zweites Menü: breiter Balken in Projekt-Farbe direkt unter der Navbar -->
+                    <nav class="action-bar" id="actionBar"
+                        aria-label="Werkzeuge und Blättern">
+                        <div class="inner">
+                            <a href="#" data-bs-target="#entitaeten" data-bs-toggle="modal"
+                                title="Entitäten in diesem Eintrag">
+                                <i class="fas fa-sharp fa-solid fa-people-group"/>
+                                <xsl:text> Entitäten</xsl:text>
+                            </a>
+                            <a href="#" data-bs-target="#zitat" data-bs-toggle="modal"
+                                title="Zitiervorschlag zu diesem Eintrag">
+                                <i class="fas fa-quote-right"/>
+                                <xsl:text> Zitieren</xsl:text>
+                            </a>
+                            <a href="#" data-bs-target="#faks-modal" data-bs-toggle="modal"
+                                title="Faksimile zu diesem Eintrag">
+                                <i class="fa-lg far fa-file-image"/>
+                                <xsl:text> Faksimile</xsl:text>
+                            </a>
+                            <a href="#" data-bs-target="#downloadModal" data-bs-toggle="modal"
+                                title="Diesen Eintrag herunterladen">
+                                <i class="fas fa-solid fa-download"/>
+                                <xsl:text> Download</xsl:text>
+                            </a>
+                            <a href="#" data-bs-target="#schnitzler-chronik-modal"
+                                data-bs-toggle="modal" title="Weitere Ereignisse an diesem Tag">
+                                <i class="fas fa-calendar-day"/>
+                                <xsl:text> Chronik</xsl:text>
+                            </a>
+                            <span class="gap"/>
+                            <span class="neighbors">
+                                <xsl:if test="ends-with($prev, '.html')">
+                                    <a href="{$prev}" title="vorheriger Eintrag"
+                                        aria-label="vorheriger Eintrag">
+                                        <i class="fas fa-chevron-left"/>
+                                    </a>
+                                </xsl:if>
+                                <xsl:if test="ends-with($next, '.html')">
+                                    <a href="{$next}" title="nächster Eintrag"
+                                        aria-label="nächster Eintrag">
+                                        <i class="fas fa-chevron-right"/>
+                                    </a>
+                                </xsl:if>
+                            </span>
+                        </div>
+                    </nav>
                     <div class="container-fluid">
                         <div class="wp-transcript">
                             <div class="card" data-index="true">
                                 <div class="card-header">
                                     <div class="row">
-                                        <div class="col-md-2">
-                                            <xsl:if test="ends-with($prev, '.html')">
-                                                <h2>
-                                                  <a>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of select="$prev"/>
-                                                  </xsl:attribute>
-                                                  <i class="fas fa-chevron-left" title="prev"/>
-                                                  </a>
-                                                </h2>
-                                            </xsl:if>
-                                        </div>
-                                        <div class="col-md-8">
+                                        <div class="col-md-12">
                                             <h1 align="center">
                                                 <xsl:value-of select="$doc_title"/>
                                             </h1>
-                                        </div>
-                                        <div class="col-md-2" style="text-align:right">
-                                            <xsl:if test="ends-with($next, '.html')">
-                                                <h1>
-                                                  <a>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of select="$next"/>
-                                                  </xsl:attribute>
-                                                  <i class="fas fa-chevron-right" title="next"/>
-                                                  </a>
-                                                </h1>
-                                            </xsl:if>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card-body-normalertext" data-index="true">
                                     <xsl:apply-templates select=".//tei:body"/>
                                 </div>
-                            </div>
-                            <div class="card-footer" style="clear: both;">
-                                <nav class="navbar navbar-expand-lg" style="box-shadow: none;">
-                                    <div class="container-fluid" style="display: flex;
-                                        justify-content: center;
-                                        align-items: center;">
-                                        <div id="navbarSupportedContent">
-                                            <ul class="navbar-nav mb-2 mb-lg-0" id="secondary-menu">
-                                                <li class="nav-item"> &#160;<a href="#"
-                                                  data-bs-target="#entitaeten" type="button"
-                                                  data-bs-toggle="modal"
-                                                  title="Entitäten in diesem Eintrag">
-                                                  <i class="fas fa-sharp fa-solid fa-people-group"/>
-                                                  ENTITÄTEN </a>&#160; </li>
-                                                <li class="nav-item"> &#160;<a href="#"
-                                                  data-bs-target="#zitat" type="button"
-                                                  data-bs-toggle="modal"
-                                                  title="Zitiervorschlag zu diesem Eintrag">
-                                                  <i class="fas fa-quote-right"/> ZITIEREN
-                                                  </a>&#160; </li>
-                                                <li class="nav-item"> &#160; <a href="#"
-                                                  title="Faksimile zu diesem Eintrag"
-                                                  data-bs-toggle="modal" type="button"
-                                                  data-bs-target="#faks-modal">
-                                                  <i class="fa-lg far fa-file-image"/> FAKSIMILE
-                                                  </a>&#160; </li>
-                                                <li class="nav-item"> &#160;<a href="#"
-                                                  data-bs-target="#downloadModal" type="button"
-                                                  data-bs-toggle="modal"
-                                                  title="Diesen Eintrag herunterladen"><i
-                                                  class="fas fa-solid fa-download"/> DOWNLOAD
-                                                  </a>&#160; </li>
-                                                <li class="nav-item"> &#160;<a href="#"
-                                                  data-bs-target="#schnitzler-chronik-modal"
-                                                  type="button" data-bs-toggle="modal"
-                                                  title="Weitere Ereignisse an diesem Tag">
-                                                  <i class="fas fa-calendar-day"/> CHRONIK
-                                                  </a>&#160; </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </nav>
                             </div>
                         </div>
                     </div>

@@ -469,6 +469,56 @@ h5 {
     color: white;
 }
 
+/* Action-Bar (zweites Menü unter der Navbar) */
+.action-bar {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    background: #037A33;
+    color: #fff;
+    border-bottom: 1px solid #025c27;
+}
+.action-bar .inner {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 22px;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 0;
+}
+.action-bar a {
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding: 11px 14px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: .02em;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    transition: background .12s;
+}
+.action-bar a:hover {
+    background: rgba(255, 255, 255, .1);
+    color: #fff;
+    text-decoration: none;
+}
+.action-bar .fas,
+.action-bar .far {
+    color: #fff;
+}
+.action-bar .gap {
+    flex: 1;
+}
+.action-bar .neighbors {
+    display: inline-flex;
+    align-items: stretch;
+}
+
 p {
     display: block;
 }
