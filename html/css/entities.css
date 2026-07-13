@@ -340,17 +340,24 @@ div:has(> .entity-page) {
     color: var(--red);
 }
 .relationen-info-content {
-    position: absolute;
-    right: 0;
-    top: calc(100% + 4px);
-    z-index: 20;
+    /* position: fixed, damit das Popup nicht vom overflow:hidden des
+       umgebenden .entity-main abgeschnitten wird (z. B. auf Windows/Linux,
+       wo der Text höher umbricht). Die genaue Position (left/top) setzt
+       entity-tabs.js anhand des ⓘ-Buttons. Fallback-Werte hier, falls JS
+       nicht greift. */
+    position: fixed;
+    right: 1rem;
+    top: 6.5rem;
+    z-index: 1000;
     background: var(--entity-card-bg);
     border: 1px solid var(--entity-border);
     border-radius: .35rem;
     padding: .9rem 1rem;
     box-shadow: 0 4px 14px rgba(0, 0, 0, .12);
     width: 340px;
-    max-width: 90vw;
+    max-width: calc(100vw - 1.5rem);
+    max-height: calc(100vh - 1.5rem);
+    overflow-y: auto;
     font-size: .9rem;
     line-height: 1.4;
     color: var(--entity-tab-text);

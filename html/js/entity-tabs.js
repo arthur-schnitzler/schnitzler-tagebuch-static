@@ -60,6 +60,45 @@ document.addEventListener('DOMContentLoaded', function () {
         });
         wireTablistKeys(subnav, buttons);
     });
+    // Info-Popup neben dem Relationen-Tab: am ⓘ-Button ausrichten.
+    // Das Popup ist position:fixed, damit es nicht vom overflow:hidden des
+    // .entity-main abgeschnitten wird. Position daher hier berechnen.
+    document.querySelectorAll('.relationen-info-popup').forEach(function (details) {
+        var summary = details.querySelector('summary');
+        var content = details.querySelector('.relationen-info-content');
+        if (!summary || !content) return;
+        var GAP = 4, MARGIN = 8;
+        function position() {
+            var r = summary.getBoundingClientRect();
+            content.style.top = (r.bottom + GAP) + 'px';
+            // Rechte Kante des Popups an der rechten Kante des Buttons ausrichten …
+            var width = content.offsetWidth;
+            var left = r.right - width;
+            // … aber im Viewport halten.
+            var maxLeft = window.innerWidth - width - MARGIN;
+            if (left > maxLeft) left = maxLeft;
+            if (left < MARGIN) left = MARGIN;
+            content.style.left = left + 'px';
+            content.style.right = 'auto';
+        }
+        details.addEventListener('toggle', function () {
+            if (details.open) position();
+        });
+        window.addEventListener('resize', function () {
+            if (details.open) position();
+        });
+        window.addEventListener('scroll', function () {
+            if (details.open) position();
+        }, true);
+        // Klick außerhalb schließt das Popup.
+        document.addEventListener('click', function (e) {
+            if (details.open && !details.contains(e.target)) details.open = false;
+        });
+        // Esc schließt das Popup.
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && details.open) details.open = false;
+        });
+    });
     // Leaflet-Karte in der Sidebar sofort initialisieren
     if (typeof window.initEntityMap === 'function') {
         window.initEntityMap();
