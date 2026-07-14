@@ -33,7 +33,7 @@
                             <div class="card-body">
                                 <div clss="container mb-3"
                                     style="width:100%; margin: auto"> 
-                                <table class="table table-sm display" id="tabulator-limited_js"
+                                <table class="table table-sm display" id="tabulator-table-limited"
                                     style="width:100%">
                                     <thead>
                                         <tr>

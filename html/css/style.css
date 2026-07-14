@@ -1510,3 +1510,29 @@ div#map {
 .month-details[open] .month-summary::before {
     transform: rotate(90deg);
 }
+
+/* Tabulator-Paginierung am Handy: Standard-Footer (nowrap, rechtsbündig) ragt
+   sonst aus dem Viewport – wegen body{overflow-x:hidden} sind "Nächste"/
+   "Letzte" am iPhone dann unerreichbar. Daher Zähler und Buttons stapeln/
+   umbrechen. !important nötig: das Tabulator-Theme-CSS (CDN) lädt nach
+   style.css. */
+@media (max-width: 768px) {
+    .tabulator .tabulator-footer .tabulator-footer-contents {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 4px;
+    }
+    .tabulator .tabulator-footer .tabulator-paginator {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 4px;
+        white-space: normal !important;
+        text-align: center !important;
+        width: 100% !important;
+        flex: 0 0 auto !important;
+    }
+    .tabulator .tabulator-footer .tabulator-paginator .tabulator-page {
+        margin: 0 !important;
+    }
+}
