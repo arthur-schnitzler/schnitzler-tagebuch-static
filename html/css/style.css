@@ -1106,7 +1106,10 @@ code{
     border-bottom: 5px solid #037A33;
     background-color: #fff;
     box-shadow: 0 0.3rem 1.2rem 0 rgb(5 10 15 / 10%);
-    z-index: 99;
+    /* muss über der Action-Bar (1020) liegen, sonst verschwinden die
+       Dropdowns des Hauptmenüs hinter dem zweiten Menü */
+    position: relative;
+    z-index: 1030;
 }
 .dropdown-item {
     display: block;
