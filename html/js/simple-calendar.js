@@ -17,21 +17,28 @@ class SimpleCalendar {
     // View modes: 'year', 'month', 'week'
     this.currentView = 'year';
 
-    // Event type categories and colors
+    // Event type categories and colors (Brief-Farben identisch mit schnitzler-briefe-static)
     this.eventCategories = {
-      'entry': '#037A33',    // Tagebucheintrag (grün)
-      'letter': '#A63437'    // Brief von Arthur Schnitzler (rot)
+      'entry': '#037A33',           // Tagebucheintrag (grün)
+      'letter': '#A63437',          // Brief von Arthur Schnitzler (rot)
+      'gedruckt': 'rgb(101, 67, 33)', // Gedruckter Brief von Schnitzler (braun)
+      'fischer': '#3D4F9F'          // Brief von Schnitzler an S. Fischer (blau)
     };
 
     this.categoryLabels = {
       'entry': 'Tagebucheintrag',
-      'letter': 'Brief von Schnitzler'
+      'letter': 'Brief von Schnitzler',
+      'gedruckt': 'Gedruckte Briefe',
+      'fischer': 'S. Fischer'
     };
 
-    // Tagebucheinträge sollen an einem Tag immer vor Briefen stehen
+    // Tagebucheinträge stehen an einem Tag immer vor Briefen, gedruckte
+    // Briefe und S.-Fischer-Briefe (ohne eigene Edition) zuletzt
     this.categoryOrder = {
       'entry': 0,
-      'letter': 1
+      'letter': 1,
+      'gedruckt': 2,
+      'fischer': 3
     };
 
     // Entitätsfarben für die Wochenansicht, identisch mit schnitzler-briefe-static
@@ -141,6 +148,14 @@ class SimpleCalendar {
                   <button class="filter-toggle active" data-category="letter" title="Briefe von Arthur Schnitzler">
                     <span class="filter-dot"></span>
                     Brief von Schnitzler
+                  </button>
+                  <button class="filter-toggle active" data-category="gedruckt" title="Gedruckte Briefe von Arthur Schnitzler">
+                    <span class="filter-dot"></span>
+                    Gedruckte Briefe
+                  </button>
+                  <button class="filter-toggle active" data-category="fischer" title="Briefe von Arthur Schnitzler an S. Fischer">
+                    <span class="filter-dot"></span>
+                    S. Fischer
                   </button>
                 </div>
               </div>
@@ -319,6 +334,14 @@ class SimpleCalendar {
           border-color: #A63437;
         }
 
+        .filter-toggle[data-category="gedruckt"] .filter-dot {
+          border-color: rgb(101, 67, 33);
+        }
+
+        .filter-toggle[data-category="fischer"] .filter-dot {
+          border-color: #3D4F9F;
+        }
+
         .filter-toggle.active[data-category="entry"] {
           background: #037A33;
           color: white;
@@ -329,6 +352,18 @@ class SimpleCalendar {
           background: #A63437;
           color: white;
           border-color: #A63437;
+        }
+
+        .filter-toggle.active[data-category="gedruckt"] {
+          background: rgb(101, 67, 33);
+          color: white;
+          border-color: rgb(101, 67, 33);
+        }
+
+        .filter-toggle.active[data-category="fischer"] {
+          background: #3D4F9F;
+          color: white;
+          border-color: #3D4F9F;
         }
 
         .filter-toggle:not(.active) {
@@ -1104,7 +1139,7 @@ class SimpleCalendar {
         e.stopPropagation();
 
         const date = new Date(year, month, day);
-        this.onDayClick({ events: sortedEvents, date: date });
+        this.onDayClick({ events: sortedEvents, date: date, calendar: this });
       });
     }
 
@@ -1117,7 +1152,9 @@ class SimpleCalendar {
     // Count events per category
     const categoryCounts = {
       'entry': 0,
-      'letter': 0
+      'letter': 0,
+      'gedruckt': 0,
+      'fischer': 0
     };
 
     dayEvents.forEach(event => {
@@ -1164,6 +1201,25 @@ class SimpleCalendar {
     const opacity = Math.min(0.05 + (totalEvents - 1) * 0.05, 0.25);
 
     return `rgba(${avgR}, ${avgG}, ${avgB}, ${opacity})`;
+  }
+
+  // Tagebucheintrag: interne Navigation. Brief/S. Fischer: externer Link.
+  // Gedruckter Brief: keine eigene Edition, daher kein Link (nur Tooltip).
+  handleEventClick(event) {
+    if (event.category === 'entry') {
+      window.location.href = event.linkId;
+    } else if (event.category !== 'gedruckt' && event.linkId) {
+      window.open(event.linkId, '_blank');
+    }
+  }
+
+  // Bei gedruckten Briefen den bibliographischen Nachweis mit anzeigen,
+  // da es dafür keine eigene Edition bzw. keinen Link gibt.
+  getEventTooltip(event) {
+    if (event.category === 'gedruckt' && event.bibliographic) {
+      return `${event.name}\n${event.bibliographic}`;
+    }
+    return event.name;
   }
 
   // Tagebucheinträge stehen an einem Tag immer vor Briefen; innerhalb
@@ -1288,15 +1344,10 @@ class SimpleCalendar {
         eventEl.className = 'event-item-large';
         eventEl.style.backgroundColor = this.eventCategories[event.category] || '#999';
         eventEl.textContent = event.name;
-        eventEl.title = event.name;
+        eventEl.title = this.getEventTooltip(event);
         eventEl.addEventListener('click', (e) => {
           e.stopPropagation();
-          if (event.category === 'letter') {
-            // Brief: externer Link zur Edition schnitzler-briefe
-            window.open(event.linkId, '_blank');
-          } else {
-            window.location.href = event.linkId;
-          }
+          this.handleEventClick(event);
         });
         eventsContainer.appendChild(eventEl);
       });
@@ -1313,7 +1364,7 @@ class SimpleCalendar {
         e.preventDefault();
         e.stopPropagation();
         const date = new Date(year, month, day);
-        this.onDayClick({ events: sortedEvents, date: date });
+        this.onDayClick({ events: sortedEvents, date: date, calendar: this });
       });
 
       dayEl.style.cursor = 'pointer';
@@ -1366,15 +1417,10 @@ class SimpleCalendar {
         eventEl.className = 'week-event';
         eventEl.style.backgroundColor = this.eventCategories[event.category] || '#999';
         eventEl.textContent = event.name;
-        eventEl.title = event.name;
+        eventEl.title = this.getEventTooltip(event);
         eventEl.addEventListener('click', (e) => {
           e.stopPropagation();
-          if (event.category === 'letter') {
-            // Brief: externer Link zur Edition schnitzler-briefe
-            window.open(event.linkId, '_blank');
-          } else {
-            window.location.href = event.linkId;
-          }
+          this.handleEventClick(event);
         });
         dayColumn.appendChild(eventEl);
       });
