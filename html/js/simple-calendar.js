@@ -34,6 +34,14 @@ class SimpleCalendar {
       'letter': 1
     };
 
+    // Entitätsfarben für die Wochenansicht, identisch mit schnitzler-briefe-static
+    // (abgedunkelte Varianten der Entitätsfarben, Kontrast >= 4.5:1 auf Weiß)
+    this.entityColors = {
+      persons: '#c0392b',
+      places: '#2874a6',
+      works: '#9c6408'
+    };
+
 
     this.monthNames = [
       'Jänner', 'Februar', 'März', 'April', 'Mai', 'Juni',
@@ -1378,9 +1386,9 @@ class SimpleCalendar {
         entitiesEl.className = 'week-entities';
 
         [
-          { label: 'Personen', items: entities.persons },
-          { label: 'Orte', items: entities.places },
-          { label: 'Werke', items: entities.works }
+          { label: 'Personen', items: entities.persons, color: this.entityColors.persons },
+          { label: 'Orte', items: entities.places, color: this.entityColors.places },
+          { label: 'Werke', items: entities.works, color: this.entityColors.works }
         ].forEach(group => {
           if (!group.items.length) return;
 
@@ -1390,6 +1398,7 @@ class SimpleCalendar {
           const labelEl = document.createElement('div');
           labelEl.className = 'week-entity-label';
           labelEl.textContent = group.label;
+          labelEl.style.color = group.color;
           groupEl.appendChild(labelEl);
 
           group.items.forEach(item => {
