@@ -28,6 +28,12 @@ class SimpleCalendar {
       'letter': 'Brief von Schnitzler'
     };
 
+    // Tagebucheinträge sollen an einem Tag immer vor Briefen stehen
+    this.categoryOrder = {
+      'entry': 0,
+      'letter': 1
+    };
+
 
     this.monthNames = [
       'Jänner', 'Februar', 'März', 'April', 'Mai', 'Juni',
@@ -1068,12 +1074,7 @@ class SimpleCalendar {
         dayEl.style.backgroundColor = backgroundColor;
       }
 
-      // Sort events by tageszaehler before rendering
-      const sortedEvents = [...dayEvents].sort((a, b) => {
-        const posA = parseInt(a.tageszaehler) || 999;
-        const posB = parseInt(b.tageszaehler) || 999;
-        return posA - posB;
-      });
+      const sortedEvents = this.sortDayEvents(dayEvents);
 
       // Create event bars
       const barsEl = document.createElement('div');
@@ -1155,6 +1156,19 @@ class SimpleCalendar {
     const opacity = Math.min(0.05 + (totalEvents - 1) * 0.05, 0.25);
 
     return `rgba(${avgR}, ${avgG}, ${avgB}, ${opacity})`;
+  }
+
+  // Tagebucheinträge stehen an einem Tag immer vor Briefen; innerhalb
+  // derselben Kategorie wird nach tageszaehler sortiert.
+  sortDayEvents(dayEvents) {
+    return [...dayEvents].sort((a, b) => {
+      const catA = this.categoryOrder[a.category] ?? 99;
+      const catB = this.categoryOrder[b.category] ?? 99;
+      if (catA !== catB) return catA - catB;
+      const posA = parseInt(a.tageszaehler) || 999;
+      const posB = parseInt(b.tageszaehler) || 999;
+      return posA - posB;
+    });
   }
 
   getWeekOfYear(date) {
@@ -1259,12 +1273,7 @@ class SimpleCalendar {
     const dayEvents = eventsByDate[dateStr] || [];
 
     if (dayEvents.length > 0 && !isOtherMonth) {
-      // Sort events by tageszaehler before rendering
-      const sortedEvents = [...dayEvents].sort((a, b) => {
-        const posA = parseInt(a.tageszaehler) || 999;
-        const posB = parseInt(b.tageszaehler) || 999;
-        return posA - posB;
-      });
+      const sortedEvents = this.sortDayEvents(dayEvents);
 
       sortedEvents.slice(0, 5).forEach(event => {
         const eventEl = document.createElement('div');
@@ -1338,12 +1347,7 @@ class SimpleCalendar {
       const dateStr = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
       const dayEvents = eventsByDate[dateStr] || [];
 
-      // Sort events by tageszaehler before rendering
-      const sortedEvents = [...dayEvents].sort((a, b) => {
-        const posA = parseInt(a.tageszaehler) || 999;
-        const posB = parseInt(b.tageszaehler) || 999;
-        return posA - posB;
-      });
+      const sortedEvents = this.sortDayEvents(dayEvents);
 
       const dayColumn = document.createElement('div');
       dayColumn.className = 'week-day-column';
