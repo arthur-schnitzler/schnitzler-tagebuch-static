@@ -34,6 +34,12 @@ work_lookup = build_lookup(
     './data/indices/listwork.xml', './/tei:bibl[@xml:id]', './tei:title[@type="main"][1]'
 )
 
+print("reading days with an actual diary entry")
+diary_days = {
+    (d.text or '').strip()
+    for d in ET.parse('./data/indices/index_days.xml').getroot().xpath('.//date')
+}
+
 entities_by_day = {}
 
 
@@ -45,6 +51,8 @@ print("collecting persons mentioned per day")
 person_day = ET.parse('./data/indices/index_person_day.xml').getroot()
 for item in person_day.xpath('.//item'):
     date = item.get('target')
+    if date not in diary_days:
+        continue
     persons = day_entry(date)['persons']
     for ref in item.xpath('./ref'):
         person_id = (ref.text or '').strip()
@@ -56,6 +64,8 @@ print("collecting places mentioned per day")
 place_day = ET.parse('./data/indices/index_place_day.xml').getroot()
 for item in place_day.xpath('.//item'):
     date = item.get('target')
+    if date not in diary_days:
+        continue
     places = day_entry(date)['places']
     for place_name in item.xpath('./placeName'):
         place_id = place_name.get('ref')
@@ -69,6 +79,8 @@ print("collecting works mentioned per day")
 work_day = ET.parse('./data/indices/index_work_day.xml').getroot()
 for item in work_day.xpath('.//item'):
     date = item.get('target')
+    if date not in diary_days:
+        continue
     works = day_entry(date)['works']
     for ref in item.xpath('./ref'):
         work_id = (ref.text or '').strip()
