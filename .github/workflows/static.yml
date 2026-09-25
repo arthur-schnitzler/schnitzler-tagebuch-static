@@ -32,7 +32,7 @@ jobs:
       TYPESENSE_API_KEY: ${{secrets.TYPESENSE_API_KEY}}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Sync entity assets from schnitzler-chronik-static
         run: |
           python3 check_entities_xsl.py
