@@ -13,6 +13,9 @@ for x in tqdm(files, total=len(files)):
     item['name'] = doc.any_xpath('//tei:title[@type="main"]/text()')[0]
     item['startDate'] = doc.any_xpath('//tei:title[@type="iso-date"]/text()')[0]
     item['id'] = tail.replace('.xml', '.html')
+    item['category'] = 'entry'
+    item['categoryLabel'] = 'Tagebucheintrag'
+    item['tageszaehler'] = '00'
     data.append(item)
 
 print(f"writing calendar data to {out_file}")

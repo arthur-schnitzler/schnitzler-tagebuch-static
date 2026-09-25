@@ -846,26 +846,6 @@ low resolution
 */
 }
 
-/*** calendar ***/
-
-
-#years-table .btn-light:focus, #years-table .btn-light.focus {
-    background: #037A33;
-    text-decoration-thickness: 4px;
-    color: white;
-    font-weight: bolder;
-}
-
-.yearbtn {
-    padding: 2px;
-    font-size: 0.9rem;
-    border: none;
-    background-color: transparent;
-}
-
-
-/*** calendar end ***/
-
 /*** Anpassungen für editions ***/
 
 

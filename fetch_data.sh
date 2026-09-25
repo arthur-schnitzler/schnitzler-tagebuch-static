@@ -31,6 +31,17 @@ rm -rf schnitzler-chronik-data-main
 
 rm main.zip
 
+# get schnitzler-briefe-data (nur Editionen, fuer Kalenderintegration)
+echo "fetch schnitzler-briefe-data editions for calendar"
+rm -rf briefe-data
+mkdir -p briefe-data
+git clone --depth 1 --filter=blob:none --sparse https://github.com/arthur-schnitzler/schnitzler-briefe-data.git temp-briefe
+cd temp-briefe
+git sparse-checkout set data/editions
+cd ..
+find temp-briefe/data/editions -name "*.xml" -exec cp {} briefe-data/ \;
+rm -rf temp-briefe
+
 # get schnitzler-chronik-static (for local XSLT import to avoid remote fetching during build)
 echo "download schnitzler-chronik-static for local XSLT"
 cd ..
