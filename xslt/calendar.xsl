@@ -20,13 +20,12 @@
                 <xsl:with-param name="page_url" select="'https://schnitzler-tagebuch.acdh.oeaw.ac.at/calendar.html'"/>
             </xsl:call-template>
             <body class="page">
-                <script src="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.js"></script>
-                <script src="https://unpkg.com/js-year-calendar@latest/locales/js-year-calendar.de.js"></script>
-                <link rel="stylesheet" type="text/css" href="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.css" />
                 <script src="calendarData.js"></script>
+                <script src="entitiesByDay.js"></script>
+                <script src="js/simple-calendar.js"></script>
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                    
+
                     <div class="container-fluid">
                         <div class="card">
                             <div class="card-header" style="text-align:center">
@@ -34,34 +33,23 @@
                                     Kalender</h1>
                                 <a>
                                     <i class="fas fa-info"
-                                        title="Korrespondenzstücke nach Tagen suchen"
+                                        title="Tagebucheinträge und Briefe nach Tagen suchen"
                                         data-bs-toggle="modal" data-target="#exampleModal"/>
                                 </a>
-                                <a style="padding-left:5px;" href="js-data/calendarData.js">
+                                <a style="padding-left:5px;" href="calendarData.js">
                                     <i class="fas fa-download" title="Kalenderdaten herunterladen"/>
                                 </a>
                             </div>
                             <div class="card-body containingloader">
-                                <div class="row">
-                                    <div class="col-sm-2 yearscol">
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <p
-                                                    style="text-align:center;font-weight:bold;margin-bottom:0;"
-                                                    >Jahr</p>
-                                            </div>
-                                        </div>
-                                        <div class="row justify-content-md-center" id="years-table"
-                                            > </div>
-                                    </div>
-                                    <div class="col-sm-10">
+                                <div class="row" id="calendar-row">
+                                    <div class="col-12" id="calendar-col">
                                         <div id="calendar"/>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
@@ -70,7 +58,10 @@
                                 </div>
                                 <div class="modal-body">
                                     <p>
-                                        Fünfzig Jahre lang legte Schnitzler nahezu täglich Einträge an. Über den Kalender können bestimmte Tage direkt aufgefunden werden.
+                                        Fünfzig Jahre lang legte Schnitzler nahezu täglich Einträge an. Über den Kalender können bestimmte Tage direkt aufgefunden werden. In der Jahres- und Monatsansicht sind die Tagebucheinträge grün und die von Arthur Schnitzler geschriebenen Briefe rot markiert; ein Klick auf einen Brief führt zur Edition schnitzler-briefe.
+                                    </p>
+                                    <p>
+                                        In der Wochenansicht werden zusätzlich die an den jeweiligen Tagen erwähnten Personen, Orte und Werke aufgelistet.
                                     </p>
                                 </div>
                                 <div class="modal-footer">
@@ -79,10 +70,10 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <script type="text/javascript" src="js/calendar.js" charset="UTF-8"/>
                     <div id="loadModal"/>
-                    
+
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>
