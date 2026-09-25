@@ -30,7 +30,7 @@
                         <div class="card">
                             <div class="card-header" style="text-align:center">
                                 <h1 style="display:inline-block;margin-bottom:0;padding-right:5px;">
-                                    Kalender</h1>
+                                    Kalender (1879–1931)</h1>
                                 <a>
                                     <i class="fas fa-info"
                                         title="Tagebucheinträge und Briefe nach Tagen suchen"
@@ -58,7 +58,10 @@
                                 </div>
                                 <div class="modal-body">
                                     <p>
-                                        Fünfzig Jahre lang legte Schnitzler nahezu täglich Einträge an. Über den Kalender können bestimmte Tage direkt aufgefunden werden. In der Jahres- und Monatsansicht sind die Tagebucheinträge grün und die von Arthur Schnitzler geschriebenen Briefe rot markiert; ein Klick auf einen Brief führt zur Edition schnitzler-briefe.
+                                        Fünfzig Jahre lang legte Schnitzler nahezu täglich Einträge an. Über den Kalender können bestimmte Tage direkt aufgefunden werden. In der Jahres- und Monatsansicht sind die Tagebucheinträge grün markiert, dazu kommen von Arthur Schnitzler geschriebene Briefe: rot (Briefe der Edition schnitzler-briefe, verlinkt), braun (gedruckt überlieferte Briefe ohne eigene Edition) und blau (Briefe an den Verleger S. Fischer, verlinkt zur S. Fischer-Briefdatenbank).
+                                    </p>
+                                    <p>
+                                        Gibt es an einem Tag mehr als einen Eintrag, öffnet ein Klick auf den Tag ein Auswahlfenster.
                                     </p>
                                     <p>
                                         In der Wochenansicht werden zusätzlich die an den jeweiligen Tagen erwähnten Personen, Orte und Werke aufgelistet.

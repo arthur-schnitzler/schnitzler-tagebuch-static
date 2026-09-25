@@ -35,9 +35,17 @@ work_lookup = build_lookup(
 )
 
 print("reading days with an actual diary entry")
+# Ground truth is calendarData.js (written by make_calendar_data.py right
+# before this script runs): it reflects exactly the entries present in
+# this build. index_days.xml is a separately fetched index and can be
+# stale relative to the actual ./data/editions/*.xml files.
+with open('./html/calendarData.js', encoding='utf8') as f:
+    calendar_content = f.read()
+calendar_data = json.loads(
+    calendar_content[calendar_content.find('['):calendar_content.rfind(']') + 1]
+)
 diary_days = {
-    (d.text or '').strip()
-    for d in ET.parse('./data/indices/index_days.xml').getroot().xpath('.//date')
+    item['startDate'] for item in calendar_data if item.get('category') == 'entry'
 }
 
 entities_by_day = {}

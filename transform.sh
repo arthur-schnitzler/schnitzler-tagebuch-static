@@ -10,6 +10,9 @@ python make_calendar_data.py
 echo "add letters to calendar"
 python add_letters_to_calendar.py
 
+echo "add printed letters (gedruckt, S. Fischer) to calendar"
+python add_printed_letters_to_calendar.py
+
 echo "make calendar entities data"
 python make_calendar_entities_data.py
 
