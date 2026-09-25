@@ -14,11 +14,18 @@ document.addEventListener('DOMContentLoaded', function () {
   window.activeFilters = new Set(['entry', 'letter']);
   window.entitiesByDay = typeof entitiesByDay !== 'undefined' ? entitiesByDay : {};
 
-  const startYear = Math.min(...data.map(e => new Date(e.startDate).getFullYear()));
+  function handleDayClick(e) {
+    const entryEvent = e.events.find(ev => ev.category === 'entry');
+    if (entryEvent) {
+      window.location.href = entryEvent.linkId;
+    } else if (e.events.length) {
+      window.open(e.events[0].linkId, '_blank');
+    }
+  }
 
   new SimpleCalendar('calendar', {
-    startYear: startYear,
+    startYear: 1900,
     dataSource: data,
-    clickDay: function () {}
+    clickDay: handleDayClick
   });
 });
