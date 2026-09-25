@@ -26,10 +26,19 @@ document.addEventListener('DOMContentLoaded', function () {
     openDayDrawer(e);
   }
 
-  new SimpleCalendar('calendar', {
+  let calendar;
+
+  function showPrintedLetterInfo(event) {
+    // Gedruckte Briefe haben keinen Link, also in Monats- und Wochenansicht
+    // die bibliographische Angabe im selben Auswahlfenster anzeigen.
+    openDayDrawer({ events: [event], date: new Date(event.startDate), calendar: calendar });
+  }
+
+  calendar = new SimpleCalendar('calendar', {
     startYear: 1900,
     dataSource: data,
-    clickDay: handleDayClick
+    clickDay: handleDayClick,
+    onPrintedLetterClick: showPrintedLetterInfo
   });
 });
 
@@ -44,7 +53,9 @@ function addDrawerStyles() {
       position: fixed;
       inset: 0;
       background: rgba(0, 0, 0, 0.35);
-      z-index: 1000;
+      /* ueber der Navbar (z-index bis 1030), sonst verdeckt sie den
+         oberen Teil des Drawers samt Schliessen-Button */
+      z-index: 1040;
       display: flex;
       justify-content: flex-end;
     }

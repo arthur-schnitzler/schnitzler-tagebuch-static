@@ -13,6 +13,7 @@ class SimpleCalendar {
     this.currentWeek = this.getWeekOfYear(new Date());
     this.events = options.dataSource || [];
     this.onDayClick = options.clickDay || (() => {});
+    this.onPrintedLetterClick = options.onPrintedLetterClick || (() => {});
 
     // View modes: 'year', 'month', 'week'
     this.currentView = 'year';
@@ -814,7 +815,7 @@ class SimpleCalendar {
       const option = document.createElement('option');
       option.value = week;
       const weekStart = this.getWeekStart(this.currentYear, week);
-      const weekEnd = new Date(weekStart.getTime() + 6 * 24 * 60 * 60 * 1000);
+      const weekEnd = this.addDays(weekStart, 6);
       option.textContent = `Woche ${week} (${weekStart.getDate()}.${weekStart.getMonth() + 1}. - ${weekEnd.getDate()}.${weekEnd.getMonth() + 1}.)`;
       option.selected = week === this.currentWeek;
       weekSelect.appendChild(option);
@@ -836,7 +837,7 @@ class SimpleCalendar {
       return `${this.monthNames[this.currentMonth]} ${this.currentYear}`;
     } else if (this.currentView === 'week') {
       const weekStart = this.getWeekStart(this.currentYear, this.currentWeek);
-      const weekEnd = new Date(weekStart.getTime() + 6 * 24 * 60 * 60 * 1000);
+      const weekEnd = this.addDays(weekStart, 6);
       return `${weekStart.getDate()}.${weekStart.getMonth() + 1}. - ${weekEnd.getDate()}.${weekEnd.getMonth() + 1}.${weekEnd.getFullYear()}`;
     }
   }
@@ -1204,11 +1205,14 @@ class SimpleCalendar {
   }
 
   // Tagebucheintrag: interne Navigation. Brief/S. Fischer: externer Link.
-  // Gedruckter Brief: keine eigene Edition, daher kein Link (nur Tooltip).
+  // Gedruckter Brief: keine eigene Edition, daher kein Link, stattdessen
+  // die bibliographische Angabe anzeigen (siehe onPrintedLetterClick).
   handleEventClick(event) {
     if (event.category === 'entry') {
       window.location.href = event.linkId;
-    } else if (event.category !== 'gedruckt' && event.linkId) {
+    } else if (event.category === 'gedruckt') {
+      this.onPrintedLetterClick(event);
+    } else if (event.linkId) {
       window.open(event.linkId, '_blank');
     }
   }
@@ -1235,9 +1239,27 @@ class SimpleCalendar {
     });
   }
 
+  // Kalendertage zwischen zwei Terminen, unabhaengig von Zeitzone/Sommerzeit-
+  // Umstellungen (die bei reiner Millisekunden-Differenz zwischen zwei
+  // lokalen Date-Objekten zu Off-by-one-Fehlern fuehren koennen).
+  daysBetween(a, b) {
+    const utcA = Date.UTC(a.getFullYear(), a.getMonth(), a.getDate());
+    const utcB = Date.UTC(b.getFullYear(), b.getMonth(), b.getDate());
+    return Math.round((utcB - utcA) / 86400000);
+  }
+
+  // Kalendertag + n Tage, ueber die Datumsfelder (nicht ueber Millisekunden),
+  // damit historische Zeitzonen-/Sommerzeit-Umstellungen keinen Tag verschieben.
+  addDays(date, n) {
+    return new Date(date.getFullYear(), date.getMonth(), date.getDate() + n);
+  }
+
+  // Muss die exakte Umkehrung von getWeekStart sein, sonst landen Tage in der
+  // falschen Kalenderwoche und fehlen dort in der Wochenansicht.
   getWeekOfYear(date) {
-    const onejan = new Date(date.getFullYear(), 0, 1);
-    return Math.ceil((((date - onejan) / 86400000) + onejan.getDay() + 1) / 7);
+    const week1Start = this.getWeekStart(date.getFullYear(), 1);
+    const diffDays = this.daysBetween(week1Start, date);
+    return Math.floor(diffDays / 7) + 1;
   }
 
   getWeekStart(year, week) {
@@ -1385,7 +1407,7 @@ class SimpleCalendar {
     headerEl.className = 'week-days-header';
 
     for (let i = 0; i < 7; i++) {
-      const date = new Date(weekStart.getTime() + i * 24 * 60 * 60 * 1000);
+      const date = this.addDays(weekStart, i);
       const headerDay = document.createElement('div');
       headerDay.className = 'week-day-header';
       headerDay.innerHTML = `
@@ -1402,7 +1424,7 @@ class SimpleCalendar {
     daysContainer.className = 'week-days-container';
 
     for (let i = 0; i < 7; i++) {
-      const date = new Date(weekStart.getTime() + i * 24 * 60 * 60 * 1000);
+      const date = this.addDays(weekStart, i);
       const dateStr = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
       const dayEvents = eventsByDate[dateStr] || [];
 
