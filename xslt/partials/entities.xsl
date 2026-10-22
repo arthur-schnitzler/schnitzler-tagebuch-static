@@ -108,7 +108,7 @@
                     </xsl:call-template>
                 </aside>
                 <!-- Rechte Spalte: Tabs -->
-                <section class="entity-main me-auto" aria-label="Erwähnungen und Relationen" style="max-width: 1400px;">
+                <section class="entity-main" aria-label="Erwähnungen und Relationen">
                     <div class="entity-tabs" role="tablist" aria-label="Inhaltsbereiche">
                         <xsl:call-template name="entity-tab-buttons">
                             <xsl:with-param name="hasMentions" select="$hasMentions"/>
@@ -819,7 +819,7 @@
                     </xsl:call-template>
                 </aside>
                 <!-- Rechte Spalte: Tabs -->
-                <section class="entity-main me-auto" aria-label="Erwähnungen und Relationen" style="max-width: 1400px;">
+                <section class="entity-main" aria-label="Erwähnungen und Relationen">
                     <div class="entity-tabs" role="tablist" aria-label="Inhaltsbereiche">
                         <xsl:call-template name="entity-tab-buttons">
                             <xsl:with-param name="hasMentions" select="$hasMentions"/>
@@ -1011,7 +1011,7 @@
                         </xsl:call-template>
                     </aside>
                     <!-- Rechte Spalte: Tabs -->
-                    <section class="entity-main me-auto" aria-label="Erwähnungen und Relationen" style="max-width: 1400px;">
+                    <section class="entity-main" aria-label="Erwähnungen und Relationen">
                         <div class="entity-tabs" role="tablist" aria-label="Inhaltsbereiche">
                             <xsl:call-template name="entity-tab-buttons">
                                 <xsl:with-param name="hasMentions" select="$hasMentions"/>
@@ -1194,7 +1194,7 @@
                     </xsl:call-template>
                 </aside>
                 <!-- Rechte Spalte: Tabs -->
-                <section class="entity-main me-auto" aria-label="Erwähnungen und Relationen" style="max-width: 1400px;">
+                <section class="entity-main" aria-label="Erwähnungen und Relationen">
                     <div class="entity-tabs" role="tablist" aria-label="Inhaltsbereiche">
                         <xsl:call-template name="entity-tab-buttons">
                             <xsl:with-param name="hasMentions" select="$hasMentions"/>
@@ -1382,7 +1382,7 @@
                         </xsl:call-template>
                     </aside>
                     <!-- Rechte Spalte: Tabs -->
-                    <section class="entity-main me-auto" aria-label="Erwähnungen und Relationen" style="max-width: 1400px;">
+                    <section class="entity-main" aria-label="Erwähnungen und Relationen">
                         <div class="entity-tabs" role="tablist" aria-label="Inhaltsbereiche">
                             <xsl:call-template name="entity-tab-buttons">
                                 <xsl:with-param name="hasMentions" select="$hasMentions"/>

@@ -10,6 +10,9 @@
    dieser Farbe berechnet, sodass Lightness/Chroma konsistent bleiben,
    die Hue aber aus der Projektfarbe kommt. */
 .entity-page {
+    /* Zentrale Breite und Zentrierung: unabhängig vom Wrapper im jeweiligen Projekt */
+    max-width: 1800px;
+    margin-inline: auto;
     padding: 0 1rem;
     --red: var(--project-color);
     --red-ink: oklch(from var(--project-color) 0.34 calc(c * 0.85) h);
@@ -45,12 +48,6 @@
 .container-fluid:has(.entity-page) {
     max-width: 100%;
     padding: 0;
-}
-
-/* Der Wrapper in den list*.xsl zentriert per Inline-Style
-   (max-width + margin: 0 auto); Entitätsseiten sollen linksbündig sein. */
-div:has(> .entity-page) {
-    margin: 0 !important;
 }
 
 .card-body-index.entity-layout {
