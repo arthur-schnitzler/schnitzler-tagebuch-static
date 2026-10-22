@@ -1368,17 +1368,17 @@
                         <xsl:call-template name="event-row-veranstaltungsort">
                             <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
-                        <xsl:call-template name="event-row-theaterzettel">
-                            <xsl:with-param name="entity" select="."/>
-                        </xsl:call-template>
-                        <xsl:call-template name="event-row-tageszeitungen">
-                            <xsl:with-param name="entity" select="."/>
-                        </xsl:call-template>
                         <xsl:call-template name="lod-ressourcen">
                             <xsl:with-param name="idno" select="$idnos"/>
                         </xsl:call-template>
                         <xsl:call-template name="lod-normdaten">
                             <xsl:with-param name="idno" select="$idnos"/>
+                        </xsl:call-template>
+                        <xsl:call-template name="event-row-theaterzettel">
+                            <xsl:with-param name="entity" select="."/>
+                        </xsl:call-template>
+                        <xsl:call-template name="event-row-tageszeitungen">
+                            <xsl:with-param name="entity" select="."/>
                         </xsl:call-template>
                     </aside>
                     <!-- Rechte Spalte: Tabs -->
