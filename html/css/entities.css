@@ -10,6 +10,9 @@
    dieser Farbe berechnet, sodass Lightness/Chroma konsistent bleiben,
    die Hue aber aus der Projektfarbe kommt. */
 .entity-page {
+    /* Zentrale Breite und Zentrierung: unabhängig vom Wrapper im jeweiligen Projekt */
+    max-width: 1800px;
+    margin-inline: auto;
     padding: 0 1rem;
     --red: var(--project-color);
     --red-ink: oklch(from var(--project-color) 0.34 calc(c * 0.85) h);
@@ -47,12 +50,6 @@
     padding: 0;
 }
 
-/* Der Wrapper in den list*.xsl zentriert per Inline-Style
-   (max-width + margin: 0 auto); Entitätsseiten sollen linksbündig sein. */
-div:has(> .entity-page) {
-    margin: 0 !important;
-}
-
 .card-body-index.entity-layout {
     max-width: 100%;
 }
@@ -83,7 +80,10 @@ div:has(> .entity-page) {
     top: 100px;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 0;
+    background: var(--entity-card-bg);
+    border: 1px solid var(--entity-border);
+    border-radius: .625rem;
     max-height: calc(100vh - 120px);
     max-height: none !important;
     overflow: visible !important;
@@ -91,11 +91,11 @@ div:has(> .entity-page) {
     margin-bottom: 100px;
 }
 
-/* Portrait-Karte */
+/* Portrait-Karte (liegt im gemeinsamen Rahmen der Sidebar) */
 .entity-portrait-card {
     background: var(--entity-card-bg);
-    border: 1px solid var(--entity-border);
-    border-radius: .625rem;
+    border: 0;
+    border-radius: .625rem .625rem 0 0;
     overflow: hidden;
     flex-shrink: 0;
 }
@@ -146,13 +146,14 @@ div:has(> .entity-page) {
     margin-top: 10px;
 }
 
-/* Side-Blocks (Normdaten, Ressourcen, Korrespondenz, Karte, …) */
+/* Side-Blocks (Normdaten, Ressourcen, Korrespondenz, Karte, …):
+   Abschnitte im gemeinsamen Sidebar-Rahmen, getrennt durch Haarlinien */
 .side-block {
-    background: var(--entity-card-bg);
-    border: 1px solid var(--entity-border);
-    border-radius: .625rem;
-    padding: 14px 16px 16px;
-    margin-bottom: 2rem;
+    padding: 10px 16px 12px;
+    margin: 0;
+}
+.entity-sidebar > * + * {
+    border-top: 1px solid var(--entity-border);
 }
 .side-block > h3,
 .side-block > legend {
@@ -160,8 +161,8 @@ div:has(> .entity-page) {
     color: var(--red);
     letter-spacing: .16em;
     text-transform: uppercase;
-    margin: 0 0 10px;
-    padding-bottom: 8px;
+    margin: 0 0 6px;
+    padding-bottom: 5px;
     border-bottom: 1px solid var(--red-line);
     font-weight: 600;
     display: block;
