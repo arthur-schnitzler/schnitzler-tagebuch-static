@@ -1813,6 +1813,23 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
+    <!-- Kleinste Achsenstufe, die mit höchstens vier Teilstrichen bis $max reicht.
+         Dieselbe Stufenfolge steht in entity-tabs.js (Monatsansicht). -->
+    <xsl:function name="mam:axis-step" as="xs:integer">
+        <xsl:param name="max" as="xs:integer"/>
+        <xsl:sequence
+            select="(1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000)[. * 4 ge $max][1]"
+        />
+    </xsl:function>
+    <!-- Erwähnungen pro Monat als kommagetrennte Liste von Jänner bis Dezember -->
+    <xsl:function name="mam:month-counts" as="xs:string">
+        <xsl:param name="notes" as="element()*"/>
+        <xsl:sequence select="
+                string-join(for $month in 1 to 12
+                return
+                    string(count($notes[number(substring(@corresp, 6, 2)) = $month])), ',')"
+        />
+    </xsl:function>
     <xsl:template name="list-all-mentions">
         <xsl:param name="mentions" as="node()"/>
         <xsl:variable name="commentaryMentionCount"
@@ -1850,26 +1867,32 @@
                                 </label>
                                 <span class="opt-title">Kommentar berücksichtigen</span>
                             </div>
+                            <span class="mentions-summary">
+                                <span class="ms-mentions">
+                                    <b>
+                                        <xsl:value-of select="$mentionCount"/>
+                                    </b>
+                                    <xsl:text> Erwähnung</xsl:text>
+                                    <xsl:if test="$mentionCount != 1">en</xsl:if>
+                                </span>
+                                <xsl:text> · </xsl:text>
+                                <span class="ms-years">
+                                    <b class="neutral">
+                                        <xsl:value-of select="$years-with-entries"/>
+                                    </b>
+                                    <xsl:text> Jahr</xsl:text>
+                                    <xsl:if test="$years-with-entries != 1">e</xsl:if>
+                                </span>
+                            </span>
                         </xsl:if>
-                        <span class="mentions-summary">
-                            <span class="ms-mentions">
-                                <b>
-                                    <xsl:value-of select="$mentionCount"/>
-                                </b>
-                                <xsl:text> Erwähnung</xsl:text>
-                                <xsl:if test="$mentionCount != 1">en</xsl:if>
-                            </span>
-                            <xsl:text> · </xsl:text>
-                            <span class="ms-years">
-                                <b class="neutral">
-                                    <xsl:value-of select="$years-with-entries"/>
-                                </b>
-                                <xsl:text> Jahr</xsl:text>
-                                <xsl:if test="$years-with-entries != 1">e</xsl:if>
-                            </span>
-                        </span>
                     </div>
-                    <!-- Chart mit Kopf (Legende + Jahr-Range) -->
+                    <!-- Chart mit Kopf (Legende + Zeitraum). Die Jahresansicht steht hier
+                         statisch; die Monatsansicht zeichnet entity-tabs.js aus data-m und
+                         data-k (Erwähnungen pro Monat, Jänner bis Dezember). Zeichenfläche
+                         (x 50–580, y 14–160) und Achsenstufen müssen dort gleich bleiben. -->
+                    <xsl:variable name="chart-notes" select="
+                            $mentions//tei:note[number(substring(@corresp, 1, 4)) ge $start-year
+                            and number(substring(@corresp, 1, 4)) le $end-year]"/>
                     <div id="mentions-chart">
                         <div class="chart-head">
                             <div class="legend">
@@ -1884,94 +1907,133 @@
                                     </span>
                                 </xsl:if>
                             </div>
-                            <span>
-                                <xsl:value-of select="$start-year"/>
-                                <xsl:text>–</xsl:text>
-                                <xsl:value-of select="$end-year"/>
+                            <span class="chart-nav">
+                                <span class="chart-range" aria-live="polite">
+                                    <xsl:value-of select="$start-year"/>
+                                    <xsl:text>–</xsl:text>
+                                    <xsl:value-of select="$end-year"/>
+                                </span>
                             </span>
                         </div>
-                        <xsl:variable name="years" as="element()*">
-                            <xsl:element name="years">
-                                <xsl:for-each select="$start-year to $end-year">
-                                    <xsl:element name="year">
-                                        <xsl:attribute name="val">
-                                            <xsl:value-of select="."/>
-                                        </xsl:attribute>
-                                    </xsl:element>
-                                </xsl:for-each>
-                            </xsl:element>
-                        </xsl:variable>
                         <button type="button" class="mentions-chart-fs-btn"
                             aria-label="Diagramm im Vollbild anzeigen"
-                            title="Vollbild (Klick auf Diagramm schließt)">
+                            title="Vollbild ein/aus (Esc schließt)">
                             <xsl:text>⤢</xsl:text>
                         </button>
-                        <svg viewBox="0 0 600 200" preserveAspectRatio="xMidYMid meet"
+                        <xsl:variable name="year-max" as="xs:integer">
+                            <xsl:variable name="counts" as="xs:integer*">
+                                <xsl:for-each-group select="$chart-notes"
+                                    group-by="substring(@corresp, 1, 4)">
+                                    <xsl:sequence select="count(current-group())"/>
+                                </xsl:for-each-group>
+                            </xsl:variable>
+                            <xsl:sequence select="max((1, $counts))"/>
+                        </xsl:variable>
+                        <xsl:variable name="axis-step" as="xs:integer"
+                            select="mam:axis-step($year-max)"/>
+                        <xsl:variable name="axis-top" as="xs:integer"
+                            select="xs:integer(ceiling($year-max div $axis-step)) * $axis-step"/>
+                        <xsl:variable name="unit" select="146 div $axis-top"/>
+                        <xsl:variable name="stepWidth"
+                            select="530 div ($end-year - $start-year + 1)"/>
+                        <svg viewBox="0 0 600 185" preserveAspectRatio="xMidYMid meet"
                             aria-label="Balkendiagramm der Erwähnungen pro Jahr" role="img">
-                            <line x1="50" y1="10" x2="50" y2="160" stroke="black" stroke-width="2"/>
-                            <line x1="50" y1="160" x2="580" y2="160" stroke="black" stroke-width="2"/>
-                            <text x="30" y="165" font-size="10" text-anchor="end">0</text>
-                            <text x="30" y="115" font-size="10" text-anchor="end">10</text>
-                            <text x="30" y="65" font-size="10" text-anchor="end">20</text>
-                            <text x="30" y="15" font-size="10" text-anchor="end">30</text>
-                            <xsl:variable name="totalYears" select="$end-year - $start-year + 1"/>
-                            <xsl:variable name="stepWidth" select="(580 - 50) div $totalYears"/>
-                            <xsl:for-each select="188 to 193">
-                                <xsl:variable name="year" select="(.) * 10"/>
-                                <xsl:variable name="xPos"
-                                    select="50 + ($year - $start-year) * $stepWidth"/>
-                                <text x="{$xPos}" y="175" font-size="10" text-anchor="middle">
-                                    <xsl:value-of select="$year"/>
-                                </text>
-                            </xsl:for-each>
-                            <xsl:for-each select="$years/*[local-name() = 'year']">
-                                <xsl:variable name="year" select="number(@val)"/>
-                                <xsl:variable name="editionstext-count"
-                                    select="count($mentions//tei:note[substring(@corresp, 1, 4) = string($year) and not(@ana = 'comment')])"/>
-                                <xsl:variable name="commentary-only-count"
-                                    select="count($mentions//tei:note[substring(@corresp, 1, 4) = string($year) and @ana = 'comment'])"/>
-                                <xsl:variable name="editionstext-height"
-                                    select="($editionstext-count * 140) div 30"/>
-                                <xsl:variable name="commentary-height"
-                                    select="($commentary-only-count * 140) div 30"/>
-                                <xsl:variable name="xPos"
-                                    select="50 + ($year - $start-year) * $stepWidth - 2"/>
-                                <xsl:if test="$editionstext-count > 0">
-                                    <rect x="{$xPos}" y="{160 - $editionstext-height}" width="4"
-                                        height="{$editionstext-height}" fill="{$current-colour}">
+                            <g class="chart-years">
+                                <xsl:for-each select="0 to xs:integer($axis-top div $axis-step)">
+                                    <xsl:variable name="tick" select=". * $axis-step"/>
+                                    <xsl:variable name="y"
+                                        select="round-half-to-even(160 - $tick * $unit, 2)"/>
+                                    <line class="{if ($tick = 0) then 'chart-baseline' else 'chart-grid'}"
+                                        x1="50" x2="580" y1="{$y}" y2="{$y}"/>
+                                    <text class="chart-tick" x="44" y="{$y + 3.5}"
+                                        text-anchor="end">
+                                        <xsl:value-of select="$tick"/>
+                                    </text>
+                                </xsl:for-each>
+                                <xsl:for-each select="188 to 193">
+                                    <xsl:variable name="decade" select=". * 10"/>
+                                    <text class="chart-tick"
+                                        x="{round-half-to-even(50 + ($decade - $start-year + 0.5) * $stepWidth, 2)}"
+                                        y="175" text-anchor="middle">
+                                        <xsl:value-of select="$decade"/>
+                                    </text>
+                                </xsl:for-each>
+                                <xsl:for-each-group select="$chart-notes"
+                                    group-by="substring(@corresp, 1, 4)">
+                                    <xsl:sort select="current-grouping-key()"/>
+                                    <xsl:variable name="year"
+                                        select="xs:integer(current-grouping-key())"/>
+                                    <xsl:variable name="text-notes"
+                                        select="current-group()[not(@ana = 'comment')]"/>
+                                    <xsl:variable name="comment-notes"
+                                        select="current-group()[@ana = 'comment']"/>
+                                    <xsl:variable name="text-count" select="count($text-notes)"/>
+                                    <xsl:variable name="comment-count"
+                                        select="count($comment-notes)"/>
+                                    <!-- Mindesthöhe, damit Einzelnennungen auch neben
+                                         Jahren mit Hunderten Erwähnungen sichtbar bleiben -->
+                                    <xsl:variable name="text-height" select="
+                                            if ($text-count gt 0) then
+                                                max((1.5, $text-count * $unit))
+                                            else
+                                                0"/>
+                                    <xsl:variable name="comment-height" select="
+                                            if ($comment-count gt 0) then
+                                                max((1.5, $comment-count * $unit))
+                                            else
+                                                0"/>
+                                    <xsl:variable name="comment-gap" select="
+                                            if ($text-count gt 0) then
+                                                1
+                                            else
+                                                0"/>
+                                    <xsl:variable name="x"
+                                        select="50 + ($year - $start-year) * $stepWidth"/>
+                                    <xsl:variable name="bar-x"
+                                        select="round-half-to-even($x + ($stepWidth - 5) div 2, 2)"/>
+                                    <g class="chart-col year-col" data-year="{$year}"
+                                        data-text="{$text-count}" data-comment="{$comment-count}"
+                                        data-m="{mam:month-counts($text-notes)}">
+                                        <xsl:if test="$comment-count gt 0">
+                                            <xsl:attribute name="data-k"
+                                                select="mam:month-counts($comment-notes)"/>
+                                        </xsl:if>
+                                        <xsl:if test="$text-count = 0">
+                                            <xsl:attribute name="data-type">commentary</xsl:attribute>
+                                        </xsl:if>
                                         <title>
                                             <xsl:value-of select="
-                                                    concat($year, ': ', $editionstext-count, ' Erwähnung', if ($editionstext-count = 1) then
+                                                    concat($year, ': ', $text-count + $comment-count, ' Erwähnung',
+                                                    if ($text-count + $comment-count = 1) then
                                                         ''
                                                     else
-                                                        'en', ' (Editionstext)')"
-                                            />
-                                        </title>
-                                    </rect>
-                                </xsl:if>
-                                <xsl:if test="$commentary-only-count > 0">
-                                    <xsl:variable name="commentary-colour">
-                                        <xsl:choose>
-                                            <xsl:when test="$current-colour = '#A63437'"
-                                                >#D98B8E</xsl:when>
-                                            <xsl:otherwise>#CCCCCC</xsl:otherwise>
-                                        </xsl:choose>
-                                    </xsl:variable>
-                                    <rect x="{$xPos}"
-                                        y="{160 - $editionstext-height - $commentary-height}"
-                                        width="4" height="{$commentary-height}"
-                                        fill="{$commentary-colour}" data-type="commentary">
-                                        <title>
-                                            <xsl:value-of select="
-                                                    concat($year, ': ', $commentary-only-count, ' Erwähnung', if ($commentary-only-count = 1) then
-                                                        ''
+                                                        'en',
+                                                    if ($comment-count gt 0) then
+                                                        concat(', davon ', $comment-count, ' im Kommentar')
                                                     else
-                                                        'en', ' (im Kommentar)')"
+                                                        '')"
                                             />
                                         </title>
-                                    </rect>
-                                </xsl:if>
-                            </xsl:for-each>
+                                        <rect class="chart-hit" x="{round-half-to-even($x, 2)}"
+                                            y="14" width="{round-half-to-even($stepWidth, 2)}"
+                                            height="146" fill="transparent"/>
+                                        <xsl:if test="$text-count gt 0">
+                                            <rect class="chart-bar" x="{$bar-x}"
+                                                y="{round-half-to-even(160 - $text-height, 2)}"
+                                                width="5"
+                                                height="{round-half-to-even($text-height, 2)}"
+                                                rx="1"/>
+                                        </xsl:if>
+                                        <xsl:if test="$comment-count gt 0">
+                                            <rect class="chart-bar chart-bar-k" x="{$bar-x}"
+                                                y="{round-half-to-even(160 - $text-height - $comment-gap - $comment-height, 2)}"
+                                                width="5"
+                                                height="{round-half-to-even($comment-height, 2)}"
+                                                rx="1" data-type="commentary"/>
+                                        </xsl:if>
+                                    </g>
+                                </xsl:for-each-group>
+                            </g>
                         </svg>
                     </div>
                     <div id="mentions-liste">

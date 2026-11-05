@@ -19,6 +19,7 @@
     --red-soft: oklch(from var(--project-color) 0.94 0.04 h);
     --red-softer: oklch(from var(--project-color) 0.975 0.018 h);
     --red-line: oklch(from var(--project-color) 0.88 0.06 h);
+    --chart-comment: oklch(from var(--project-color) calc(l + (1 - l) * 0.35) calc(c * 0.8) h);
 
     --entity-accent: var(--project-color);
     --entity-bg: oklch(0.985 0.003 60);
@@ -447,6 +448,7 @@
     gap: 14px;
     margin-bottom: 1rem;
 }
+
 .mentions-toolbar .mentions-summary {
     margin-left: auto;
     font-size: 12px;
@@ -534,6 +536,38 @@
     margin-bottom: 6px;
     gap: 1rem;
     flex-wrap: wrap;
+    /* Platz für den Vollbild-Button */
+    padding-right: 2rem;
+}
+.chart-head .chart-nav {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.chart-head .chart-hint {
+    color: var(--entity-ink-muted);
+}
+#mentions-chart.is-zoomed .chart-hint {
+    display: none;
+}
+#mentions-chart.is-zoomed .chart-range {
+    color: var(--entity-ink);
+    font-weight: 600;
+}
+.chart-head .mentions-chart-back {
+    background: #fff;
+    border: 1px solid var(--entity-border);
+    border-radius: .25rem;
+    padding: .15rem .5rem;
+    font-size: 12px;
+    color: var(--red-ink);
+    cursor: pointer;
+}
+.chart-head .mentions-chart-back:hover,
+.chart-head .mentions-chart-back:focus-visible {
+    background: var(--red-soft);
+    border-color: var(--red-line);
 }
 .chart-head .legend {
     display: flex;
@@ -552,8 +586,7 @@
     border-radius: 2px;
 }
 .chart-head .legend .dot.k {
-    background: var(--red-soft);
-    border: 1px solid var(--red-line);
+    background: var(--chart-comment);
 }
 
 .entity-tab-panel #mentions-chart svg {
@@ -561,7 +594,98 @@
     height: auto;
     min-height: 180px;
     max-height: 260px;
+}
+#mentions-chart .chart-bar {
+    fill: var(--red);
+}
+#mentions-chart .chart-bar-k {
+    fill: var(--chart-comment);
+}
+#mentions-chart .chart-grid,
+#mentions-chart .chart-baseline {
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+}
+#mentions-chart .chart-grid {
+    stroke: var(--entity-border);
+}
+#mentions-chart .chart-baseline {
+    stroke: var(--entity-ink-muted);
+}
+#mentions-chart .chart-tick,
+#mentions-chart .chart-value {
+    font-size: 10px;
+}
+#mentions-chart .chart-tick {
+    fill: var(--entity-ink-soft);
+}
+#mentions-chart .chart-value {
+    fill: var(--entity-ink);
+    font-weight: 600;
+}
+#mentions-chart .chart-col {
+    outline: none;
+}
+#mentions-chart .year-col {
     cursor: zoom-in;
+}
+#mentions-chart .chart-col:hover .chart-hit,
+#mentions-chart .chart-col:focus-visible .chart-hit {
+    fill: var(--red-soft);
+}
+#mentions-chart .chart-col:focus-visible .chart-hit {
+    stroke: var(--red);
+    stroke-width: 1;
+    vector-effect: non-scaling-stroke;
+}
+#mentions-chart .chart-months.is-entering {
+    animation: mentions-chart-zoom .22s ease-out;
+}
+@keyframes mentions-chart-zoom {
+    from {
+        opacity: .2;
+        transform: scaleX(.1);
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    #mentions-chart .chart-months.is-entering {
+        animation: none;
+    }
+}
+#mentions-chart.is-zoomed .chart-years {
+    display: none;
+}
+#mentions-chart .chart-tip {
+    position: absolute;
+    z-index: 3;
+    transform: translate(-50%, calc(-100% - 4px));
+    padding: 4px 8px;
+    background: #fff;
+    border: 1px solid var(--entity-border);
+    border-radius: .25rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
+    font-size: 12px;
+    line-height: 1.35;
+    white-space: nowrap;
+    color: var(--entity-ink-soft);
+    pointer-events: none;
+}
+#mentions-chart .chart-tip b {
+    color: var(--entity-ink);
+}
+#mentions-chart .chart-tip span {
+    display: block;
+    color: var(--entity-ink-muted);
+}
+/* Das SVG schrumpft auf schmalen Bildschirmen mit: größere Einheiten halten die Achsen lesbar */
+@media (max-width: 600px) {
+    .entity-tab-panel #mentions-chart svg {
+        min-height: 0;
+    }
+    #mentions-chart .chart-tick,
+    #mentions-chart .chart-value {
+        font-size: 16px;
+    }
 }
 .entity-tab-panel #mentions-chart .mentions-chart-fs-btn {
     position: absolute;
@@ -590,13 +714,12 @@
     max-width: none;
     margin: 0;
     padding: 2rem clamp(1rem, 4vw, 4rem);
-    background: rgba(255, 255, 255, .97);
+    background: #fff;
     z-index: 2000;
     display: flex;
     flex-direction: column;
     justify-content: center;
     overflow: auto;
-    cursor: zoom-out;
     border-radius: 0;
 }
 .entity-tab-panel #mentions-chart.is-fullscreen svg {
@@ -604,7 +727,6 @@
     height: auto;
     max-height: 85vh;
     min-height: 0;
-    cursor: zoom-out;
 }
 .entity-tab-panel #mentions-chart.is-fullscreen .mentions-chart-fs-btn {
     top: 1rem;

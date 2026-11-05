@@ -146,27 +146,9 @@ document.addEventListener('DOMContentLoaded', function () {
     if (typeof window.initEntityMap === 'function') {
         window.initEntityMap();
     }
-    // Mentions-Chart: Vollbild-Umschaltung
-    document.querySelectorAll('#mentions-chart').forEach(function (chart) {
-        function toggle(on) {
-            var active = typeof on === 'boolean'
-                ? on
-                : !chart.classList.contains('is-fullscreen');
-            chart.classList.toggle('is-fullscreen', active);
-            document.body.classList.toggle('mentions-chart-fs-open', active);
-        }
-        chart.addEventListener('click', function (e) {
-            if (e.target.closest('.mentions-chart-fs-btn') ||
-                e.target.closest('svg')) {
-                toggle();
-            }
-        });
-        document.addEventListener('keydown', function (e) {
-            if (e.key === 'Escape' && chart.classList.contains('is-fullscreen')) {
-                toggle(false);
-            }
-        });
-    });
+    // Mentions-Chart: Zoom auf Monate und Vollbild
+    var mentionsChart = document.getElementById('mentions-chart');
+    if (mentionsChart) initMentionsChart(mentionsChart);
     // Kommentar-Toggle: blendet Kommentar-Erwähnungen aus und aktualisiert Jahresliste
     var commentaryToggle = document.getElementById('toggle-commentary-mentions');
     if (commentaryToggle) {
@@ -244,3 +226,308 @@ document.addEventListener('DOMContentLoaded', function () {
         updateTabSubs();
     }
 });
+
+/* Erwähnungs-Chart: Klick auf ein Jahr zoomt auf dessen Monate, ⤢ schaltet das Vollbild.
+   Die Jahresansicht kommt fertig aus entities.xsl (Template list-all-mentions), die
+   Monatsansicht entsteht hier aus data-m und data-k. Zeichenfläche und Achsenstufen
+   müssen mit der XSLT übereinstimmen. */
+function initMentionsChart(chart) {
+    var SVG_NS = 'http://www.w3.org/2000/svg';
+    var LEFT = 50, RIGHT = 580, TOP = 14, BASE = 160, LABEL_Y = 175;
+    var BAR_WIDTH = 18, BAR_RADIUS = 2, MIN_BAR_HEIGHT = 1.5, STACK_GAP = 1;
+    var AXIS_STEPS = [1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000];
+    var MONTHS = ['Jänner', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August',
+        'September', 'Oktober', 'November', 'Dezember'];
+
+    var svg = chart.querySelector('svg');
+    var years = chart.querySelector('.chart-years');
+    var range = chart.querySelector('.chart-range');
+    // Noch nicht neu gebaute Seiten behalten ihr statisches Chart
+    if (!years || !range) return;
+    var toggle = document.getElementById('toggle-commentary-mentions');
+    var overviewText = range.textContent;
+    var zoomedCol = null;
+    var monthsGroup = null;
+
+    var back = document.createElement('button');
+    back.type = 'button';
+    back.className = 'mentions-chart-back';
+    back.hidden = true;
+    back.textContent = '← ' + overviewText;
+    back.setAttribute('aria-label', 'Zurück zur Übersicht ' + overviewText);
+    range.parentNode.insertBefore(back, range);
+    var hint = document.createElement('span');
+    hint.className = 'chart-hint';
+    hint.textContent = 'Jahr wählen für Monatsansicht';
+    range.parentNode.insertBefore(hint, range);
+    var tip = document.createElement('div');
+    tip.className = 'chart-tip';
+    tip.hidden = true;
+    chart.appendChild(tip);
+
+    function commentaryVisible() {
+        return !toggle || toggle.checked;
+    }
+    function shownCount(col) {
+        return Number(col.dataset.text) + (commentaryVisible() ? Number(col.dataset.comment) : 0);
+    }
+    function mentionsLabel(n) {
+        return n + ' Erwähnung' + (n === 1 ? '' : 'en');
+    }
+    function commentNote(col) {
+        var k = commentaryVisible() ? Number(col.dataset.comment) : 0;
+        return k ? ', davon ' + k + ' im Kommentar' : '';
+    }
+    function describeColumn(col) {
+        col.setAttribute('aria-label', col.dataset.label + ': ' +
+            mentionsLabel(shownCount(col)) + commentNote(col) +
+            (col.classList.contains('year-col') ? '. Monate anzeigen' : ''));
+    }
+    // Spalten der aktuellen Ansicht; reine Kommentar-Jahre fallen bei ausgeblendetem Kommentar weg
+    function columns() {
+        var all = (monthsGroup || years).querySelectorAll('.chart-col');
+        return Array.prototype.filter.call(all, function (col) {
+            return commentaryVisible() || col.dataset.type !== 'commentary';
+        });
+    }
+    // Das Diagramm ist ein einziger Tab-Stopp, die Pfeiltasten wechseln die Spalte
+    function setTabStop(target) {
+        columns().forEach(function (col) {
+            col.setAttribute('tabindex', col === target ? '0' : '-1');
+        });
+    }
+
+    function hideTip() {
+        tip.hidden = true;
+    }
+    function showTip(col) {
+        var n = shownCount(col);
+        tip.textContent = '';
+        tip.appendChild(document.createElement('b')).textContent = n;
+        tip.appendChild(document.createTextNode(n === 1 ? ' Erwähnung' : ' Erwähnungen'));
+        tip.appendChild(document.createElement('span')).textContent =
+            col.dataset.label + commentNote(col);
+        tip.hidden = false;
+        var box = chart.getBoundingClientRect();
+        var hit = col.querySelector('.chart-hit').getBoundingClientRect();
+        var half = tip.offsetWidth / 2;
+        var center = hit.left + hit.width / 2 - box.left;
+        tip.style.left = Math.min(Math.max(center, half), box.width - half) + 'px';
+        tip.style.top = (hit.top - box.top + chart.scrollTop) + 'px';
+    }
+
+    function addSvg(parent, name, attrs) {
+        var node = parent.appendChild(document.createElementNS(SVG_NS, name));
+        Object.keys(attrs).forEach(function (key) {
+            node.setAttribute(key, attrs[key]);
+        });
+        return node;
+    }
+    function monthCounts(attr) {
+        return attr
+            ? attr.split(',').map(Number)
+            : MONTHS.map(function () { return 0; });
+    }
+    // Balkensegment: unten eckig, oben optional abgerundet
+    function addBar(col, className, x, y, height, radius) {
+        var r = Math.min(radius, height);
+        addSvg(col, 'path', {
+            class: className,
+            d: 'M' + x + ' ' + (y + height) + 'V' + (y + r) +
+                'Q' + x + ' ' + y + ' ' + (x + r) + ' ' + y +
+                'H' + (x + BAR_WIDTH - r) +
+                'Q' + (x + BAR_WIDTH) + ' ' + y + ' ' + (x + BAR_WIDTH) + ' ' + (y + r) +
+                'V' + (y + height) + 'Z'
+        });
+    }
+    function drawMonths(animate) {
+        if (monthsGroup) monthsGroup.remove();
+        var withComments = commentaryVisible();
+        var year = zoomedCol.dataset.year;
+        var text = monthCounts(zoomedCol.dataset.m);
+        var comment = monthCounts(zoomedCol.dataset.k);
+        var totals = text.map(function (t, i) {
+            return t + (withComments ? comment[i] : 0);
+        });
+        var peak = Math.max.apply(null, totals);
+        var axisMax = Math.max(peak, 1);
+        var step = AXIS_STEPS.filter(function (s) { return s * 4 >= axisMax; })[0];
+        var axisTop = Math.ceil(axisMax / step) * step;
+        var unit = (BASE - TOP) / axisTop;
+        var band = (RIGHT - LEFT) / MONTHS.length;
+
+        monthsGroup = addSvg(svg, 'g', { class: 'chart-months' });
+        if (animate) {
+            // Die Monate klappen aus der Position des gewählten Jahres auf
+            var hit = zoomedCol.querySelector('.chart-hit');
+            var originX = Number(hit.getAttribute('x')) + Number(hit.getAttribute('width')) / 2;
+            monthsGroup.style.transformOrigin = originX + 'px ' + BASE + 'px';
+            monthsGroup.classList.add('is-entering');
+        }
+        for (var tick = 0; tick <= axisTop; tick += step) {
+            var tickY = BASE - tick * unit;
+            addSvg(monthsGroup, 'line', {
+                class: tick === 0 ? 'chart-baseline' : 'chart-grid',
+                x1: LEFT, x2: RIGHT, y1: tickY, y2: tickY
+            });
+            addSvg(monthsGroup, 'text', {
+                class: 'chart-tick', x: 44, y: tickY + 3.5, 'text-anchor': 'end'
+            }).textContent = tick;
+        }
+        MONTHS.forEach(function (name, i) {
+            var x = LEFT + i * band;
+            var barX = x + (band - BAR_WIDTH) / 2;
+            var col = addSvg(monthsGroup, 'g', {
+                class: 'chart-col', role: 'img', tabindex: '-1',
+                'data-label': name + ' ' + year,
+                'data-text': text[i], 'data-comment': comment[i]
+            });
+            addSvg(col, 'rect', {
+                class: 'chart-hit', x: x, y: TOP, width: band, height: BASE - TOP,
+                fill: 'transparent'
+            });
+            var hasComment = withComments && comment[i] > 0;
+            var barTop = BASE;
+            if (text[i] > 0) {
+                var textHeight = Math.max(MIN_BAR_HEIGHT, text[i] * unit);
+                barTop -= textHeight;
+                addBar(col, 'chart-bar', barX, barTop, textHeight, hasComment ? 0 : BAR_RADIUS);
+            }
+            if (hasComment) {
+                var commentHeight = Math.max(MIN_BAR_HEIGHT, comment[i] * unit);
+                barTop -= commentHeight + (text[i] > 0 ? STACK_GAP : 0);
+                addBar(col, 'chart-bar chart-bar-k', barX, barTop, commentHeight, BAR_RADIUS);
+            }
+            // Nur der Höchstwert trägt eine Zahl, die übrigen zeigt der Tooltip
+            if (peak > 0 && totals[i] === peak) {
+                addSvg(col, 'text', {
+                    class: 'chart-value', x: x + band / 2, y: barTop - 3, 'text-anchor': 'middle'
+                }).textContent = peak;
+            }
+            addSvg(monthsGroup, 'text', {
+                class: 'chart-tick', x: x + band / 2, y: LABEL_Y, 'text-anchor': 'middle'
+            }).textContent = name.slice(0, 3);
+            describeColumn(col);
+        });
+        setTabStop(monthsGroup.querySelector('.chart-col'));
+
+        var shown = shownCount(zoomedCol);
+        var undated = shown - totals.reduce(function (sum, n) { return sum + n; }, 0);
+        range.textContent = year + ': ' + mentionsLabel(shown) + commentNote(zoomedCol) +
+            (undated > 0 ? ' (' + undated + ' ohne Monatsangabe)' : '');
+    }
+
+    // Klappt das Jahr in der Liste unter dem Chart auf
+    function openYearInList(year) {
+        var target = null;
+        document.querySelectorAll('.mentions-by-year > .year-details').forEach(function (details) {
+            var isTarget = details.querySelector('.year-label').textContent.trim() === year;
+            details.open = isTarget;
+            if (isTarget) target = details;
+        });
+        if (target && !chart.classList.contains('is-fullscreen')) {
+            target.querySelector('summary').scrollIntoView({ block: 'nearest' });
+        }
+    }
+    function zoomIn(col) {
+        zoomedCol = col;
+        hideTip();
+        chart.classList.add('is-zoomed');
+        back.hidden = false;
+        drawMonths(true);
+        openYearInList(col.dataset.year);
+        back.focus();
+    }
+    function zoomOut() {
+        var col = zoomedCol;
+        zoomedCol = null;
+        hideTip();
+        monthsGroup.remove();
+        monthsGroup = null;
+        chart.classList.remove('is-zoomed');
+        back.hidden = true;
+        range.textContent = overviewText;
+        setTabStop(col);
+        col.focus();
+    }
+    function setFullscreen(on) {
+        hideTip();
+        chart.classList.toggle('is-fullscreen', on);
+        document.body.classList.toggle('mentions-chart-fs-open', on);
+    }
+
+    years.querySelectorAll('.chart-col').forEach(function (col) {
+        var nativeTitle = col.querySelector('title');
+        if (nativeTitle) nativeTitle.remove();
+        col.dataset.label = col.dataset.year;
+        col.setAttribute('role', 'button');
+        describeColumn(col);
+    });
+    svg.setAttribute('role', 'group');
+    setTabStop(columns()[0]);
+
+    back.addEventListener('click', zoomOut);
+    chart.querySelector('.mentions-chart-fs-btn').addEventListener('click', function () {
+        setFullscreen(!chart.classList.contains('is-fullscreen'));
+    });
+    svg.addEventListener('click', function (e) {
+        var col = e.target.closest('.year-col');
+        if (col) zoomIn(col);
+    });
+    svg.addEventListener('keydown', function (e) {
+        var col = e.target.closest('.chart-col');
+        if (!col) return;
+        if ((e.key === 'Enter' || e.key === ' ') && col.classList.contains('year-col')) {
+            e.preventDefault();
+            zoomIn(col);
+            return;
+        }
+        var move = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+        if (!move) return;
+        e.preventDefault();
+        var visible = columns();
+        var next = visible[visible.indexOf(col) + move];
+        if (next) {
+            setTabStop(next);
+            next.focus();
+        }
+    });
+    document.addEventListener('keydown', function (e) {
+        if (e.key !== 'Escape') return;
+        var fullscreen = chart.classList.contains('is-fullscreen');
+        if (zoomedCol && (fullscreen || chart.contains(document.activeElement))) {
+            zoomOut();
+        } else if (fullscreen) {
+            setFullscreen(false);
+        }
+    });
+
+    svg.addEventListener('pointerover', function (e) {
+        var col = e.target.closest('.chart-col');
+        if (col) showTip(col); else hideTip();
+    });
+    // Beim Antippen bleibt der Tooltip stehen, bis woanders hingetippt wird
+    svg.addEventListener('pointerleave', function (e) {
+        if (e.pointerType !== 'touch') hideTip();
+    });
+    document.addEventListener('pointerdown', function (e) {
+        if (!svg.contains(e.target)) hideTip();
+    });
+    svg.addEventListener('focusin', function (e) {
+        var col = e.target.closest('.chart-col');
+        if (col && col.matches(':focus-visible')) showTip(col);
+    });
+    svg.addEventListener('focusout', hideTip);
+
+    if (toggle) {
+        toggle.addEventListener('change', function () {
+            hideTip();
+            years.querySelectorAll('.chart-col').forEach(describeColumn);
+            if (zoomedCol) {
+                if (shownCount(zoomedCol) > 0) drawMonths(false); else zoomOut();
+            } else {
+                setTabStop(columns()[0]);
+            }
+        });
+    }
+}
