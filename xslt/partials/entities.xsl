@@ -209,7 +209,7 @@
                 </xsl:call-template>
                 <xsl:call-template name="persName-gruppen-meta">
                     <xsl:with-param name="namen"
-                        select="$namensformen/descendant::tei:persName[not(descendant::*) and @type != 'person_geburtsname_vorname' and @type != 'person_geburtsname_nachname']"
+                        select="$namensformen/descendant::tei:persName[not(descendant::*) and not(starts-with(mam:name-kind(@type), 'geburtsname'))]"
                     />
                 </xsl:call-template>
                 <xsl:call-template name="person-berufe-meta">
@@ -222,8 +222,8 @@
     <xsl:template name="person-meta-geburtsname">
         <xsl:param name="namen" as="node()*"/>
         <xsl:param name="surname-fallback" as="xs:string?" select="''"/>
-        <xsl:variable name="geb_v" select="$namen[@type = 'person_geburtsname_vorname']"/>
-        <xsl:variable name="geb_n" select="$namen[@type = 'person_geburtsname_nachname']"/>
+        <xsl:variable name="geb_v" select="$namen[mam:name-kind(@type) = 'geburtsname-vorname']"/>
+        <xsl:variable name="geb_n" select="$namen[mam:name-kind(@type) = 'geburtsname-nachname']"/>
         <xsl:if test="$geb_v or $geb_n">
             <div class="meta-row">
                 <span class="label">Geburtsname:</span>
@@ -248,43 +248,44 @@
     <!-- Namensvarianten als meta-rows (analog zu persName-gruppen, aber mit label-Span) -->
     <xsl:template name="persName-gruppen-meta">
         <xsl:param name="namen"/>
-        <xsl:for-each-group select="$namen" group-by="@type">
+        <xsl:for-each-group select="$namen" group-by="mam:name-kind(@type)">
             <xsl:variable name="typ" select="current-grouping-key()"/>
             <xsl:variable name="anzahl" select="count(current-group())"/>
             <xsl:variable name="label">
                 <xsl:choose>
-                    <xsl:when test="$typ = 'person_rufname_vorname'">
+                    <xsl:when test="$typ = 'rufname'">
                         <xsl:choose>
                             <xsl:when test="$anzahl &gt; 1">Rufnamen</xsl:when>
                             <xsl:otherwise>Rufname</xsl:otherwise>
                         </xsl:choose>
                     </xsl:when>
-                    <xsl:when test="$typ = 'person_ehename_nachname'">
+                    <xsl:when test="$typ = 'ehename'">
                         <xsl:choose>
                             <xsl:when test="$anzahl &gt; 1">Ehenamen</xsl:when>
                             <xsl:otherwise>Ehename</xsl:otherwise>
                         </xsl:choose>
                     </xsl:when>
-                    <xsl:when test="$typ = 'person_pseudonym'">
+                    <xsl:when test="$typ = 'pseudonym'">
                         <xsl:choose>
                             <xsl:when test="$anzahl &gt; 1">Pseudonyme</xsl:when>
                             <xsl:otherwise>Pseudonym</xsl:otherwise>
                         </xsl:choose>
                     </xsl:when>
-                    <xsl:when test="$typ = 'person_namensvariante'">
+                    <xsl:when test="$typ = 'variante'">
                         <xsl:choose>
                             <xsl:when test="$anzahl &gt; 1">Namensvarianten</xsl:when>
                             <xsl:otherwise>Namensvariante</xsl:otherwise>
                         </xsl:choose>
                     </xsl:when>
-                    <xsl:when test="$typ = 'person_namensvariante-nachname'">Namensvariante
+                    <xsl:when test="$typ = 'variante-nachname'">Namensvariante
                         Nachname</xsl:when>
-                    <xsl:when test="$typ = 'person_namensvariante-vorname'">Namensvariante
+                    <xsl:when test="$typ = 'variante-vorname'">Namensvariante
                         Vorname</xsl:when>
-                    <xsl:when test="$typ = 'person_adoptierter-nachname'">Nachname durch
+                    <xsl:when test="$typ = 'adoption'">Nachname durch
                         Adoption</xsl:when>
-                    <xsl:when test="$typ = 'person_geschieden_nachname'">geschieden</xsl:when>
-                    <xsl:when test="$typ = 'person_verwitwet_nachname'">verwitwet</xsl:when>
+                    <xsl:when test="$typ = 'geschieden'">geschieden</xsl:when>
+                    <xsl:when test="$typ = 'verwitwet'">verwitwet</xsl:when>
+                    <xsl:when test="$typ = 'frueher'">früherer Name</xsl:when>
                 </xsl:choose>
             </xsl:variable>
             <xsl:if test="$label != ''">
@@ -360,8 +361,8 @@
     <xsl:template name="person-geburtsname">
         <xsl:param name="namen" as="node()*"/>
         <xsl:param name="surname-fallback" as="xs:string?" select="''"/>
-        <xsl:variable name="geb_v" select="$namen[@type = 'person_geburtsname_vorname']"/>
-        <xsl:variable name="geb_n" select="$namen[@type = 'person_geburtsname_nachname']"/>
+        <xsl:variable name="geb_v" select="$namen[mam:name-kind(@type) = 'geburtsname-vorname']"/>
+        <xsl:variable name="geb_n" select="$namen[mam:name-kind(@type) = 'geburtsname-nachname']"/>
         <xsl:if test="$geb_v or $geb_n">
             <p class="personenname">
                 <xsl:text>geboren </xsl:text>
@@ -433,7 +434,7 @@
         </xsl:call-template>
         <xsl:call-template name="persName-gruppen">
             <xsl:with-param name="namen"
-                select="$namensformen/descendant::tei:persName[not(descendant::*) and @type != 'person_geburtsname_vorname' and @type != 'person_geburtsname_nachname']"
+                select="$namensformen/descendant::tei:persName[not(descendant::*) and not(starts-with(mam:name-kind(@type), 'geburtsname'))]"
             />
         </xsl:call-template>
         <xsl:call-template name="person-berufe">
@@ -609,28 +610,36 @@
             aria-selected="{if ($hasMentions) then 'true' else 'false'}"
             tabindex="{if ($hasMentions) then '0' else '-1'}"
             class="entity-tab-btn{if ($hasMentions) then ' active' else ''}"
-            data-tab="tab-erwaehnungen">
-            <xsl:text>Erwähnungen</xsl:text>
-            <xsl:if test="$mentionsCount gt 0">
-                <xsl:text> </xsl:text>
-                <span class="tab-count">
-                    <xsl:value-of select="$mentionsCount"/>
-                </span>
-            </xsl:if>
+            data-tab="tab-erwaehnungen"
+            data-hash="erwaehnungen">
+            <span class="tab-title-row">
+                <span class="tab-title">Erwähnungen</span>
+                <xsl:if test="$mentionsCount gt 0">
+                    <span class="tab-count">
+                        <xsl:value-of select="$mentionsCount"/>
+                    </span>
+                </xsl:if>
+                <span class="tab-arrow" aria-hidden="true">→</span>
+            </span>
+            <span class="tab-sub" data-sub="mentions"/>
         </button>
         <button id="btn-tab-relationen" type="button" role="tab"
             aria-controls="tab-relationen"
             aria-selected="{if ($hasMentions) then 'false' else 'true'}"
             tabindex="{if ($hasMentions) then '-1' else '0'}"
-            class="entity-tab-btn{if ($hasMentions) then '' else ' active'}"
-            data-tab="tab-relationen">
-            <xsl:text>Relationen</xsl:text>
-            <xsl:if test="$relationsCount gt 0">
-                <xsl:text> </xsl:text>
-                <span class="tab-count">
-                    <xsl:value-of select="$relationsCount"/>
-                </span>
-            </xsl:if>
+            class="entity-tab-btn{if ($hasMentions) then '' else ' active'}{if ($relationsCount gt 0) then '' else ' is-empty'}"
+            data-tab="tab-relationen"
+            data-hash="relationen">
+            <span class="tab-title-row">
+                <span class="tab-title">Relationen</span>
+                <xsl:if test="$relationsCount gt 0">
+                    <span class="tab-count">
+                        <xsl:value-of select="$relationsCount"/>
+                    </span>
+                </xsl:if>
+                <span class="tab-arrow" aria-hidden="true">→</span>
+            </span>
+            <span class="tab-sub" data-sub="relations"/>
         </button>
         <xsl:call-template name="relationen-info-popup"/>
     </xsl:template>
@@ -744,6 +753,30 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
+    <!-- Kanonische Art eines Namens-/Titel-Labels; "legacy" wird ignoriert -->
+    <xsl:function name="mam:name-kind" as="xs:string">
+        <xsl:param name="type" as="xs:string?"/>
+        <xsl:variable name="n" select="replace(lower-case(string($type)), '[_\- ]', '')"/>
+        <xsl:choose>
+            <xsl:when test="contains($n, 'legacy')">legacy</xsl:when>
+            <xsl:when test="contains($n, 'geburtsname')">
+                <xsl:value-of select="if (contains($n, 'vorname')) then 'geburtsname-vorname' else 'geburtsname-nachname'"/>
+            </xsl:when>
+            <xsl:when test="contains($n, 'rufname')">rufname</xsl:when>
+            <xsl:when test="contains($n, 'ehename')">ehename</xsl:when>
+            <xsl:when test="contains($n, 'pseudonym')">pseudonym</xsl:when>
+            <xsl:when test="contains($n, 'adoptiert')">adoption</xsl:when>
+            <xsl:when test="contains($n, 'geschieden')">geschieden</xsl:when>
+            <xsl:when test="contains($n, 'verwitwet')">verwitwet</xsl:when>
+            <xsl:when test="matches($n, 'fr(ü|u|ue)hern')">frueher</xsl:when>
+            <xsl:when test="contains($n, 'arbeitstitel')">arbeitstitel</xsl:when>
+            <xsl:when test="contains($n, 'unterdiesemnamen')">veroeffentlicht</xsl:when>
+            <xsl:when test="contains($n, 'namensvariante') and contains($n, 'vorname')">variante-vorname</xsl:when>
+            <xsl:when test="contains($n, 'namensvariante') and contains($n, 'nachname')">variante-nachname</xsl:when>
+            <xsl:when test="contains($n, 'namensvariante') or contains($n, 'alternativename')">variante</xsl:when>
+            <xsl:otherwise><xsl:sequence select="''"/></xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
     <!-- WORK / WERKE -->
     <xsl:template match="tei:listBibl/tei:bibl" name="work_detail">
         <xsl:param name="showNumberOfMentions" as="xs:integer" select="50000"/>
@@ -803,14 +836,25 @@
             <div class="card-body-index entity-layout">
                 <!-- Linke Spalte: Steckbrief -->
                 <aside class="entity-sidebar" aria-label="Steckbrief">
-                    <xsl:if test="tei:author">
-                        <xsl:call-template name="work-erscheinungsdatum">
-                            <xsl:with-param name="entity" select="."/>
-                        </xsl:call-template>
+                    <xsl:variable name="work-kind" select="normalize-space(tei:note[@type = 'work_kind'][1])"/>
+                    <xsl:if test="tei:author and tei:date[1] or $work-kind != '' or tei:title[@type = 'werk_bibliografische-angabe' or starts-with(@type, 'werk_link') or @type = 'anno' or mam:name-kind(@type) = ('variante', 'arbeitstitel', 'veroeffentlicht', 'pseudonym', 'frueher')]">
+                        <div class="side-block">
+                            <h3>Werk</h3>
+                            <ul class="dashed">
+                                <xsl:if test="tei:author">
+                                    <xsl:call-template name="work-erscheinungsdatum">
+                                        <xsl:with-param name="entity" select="."/>
+                                    </xsl:call-template>
+                                </xsl:if>
+                                <xsl:if test="$work-kind != ''">
+                                    <li>Typ: <xsl:value-of select="$work-kind"/></li>
+                                </xsl:if>
+                                <xsl:call-template name="work-links">
+                                    <xsl:with-param name="entity" select="."/>
+                                </xsl:call-template>
+                            </ul>
+                        </div>
                     </xsl:if>
-                    <xsl:call-template name="work-links">
-                        <xsl:with-param name="entity" select="."/>
-                    </xsl:call-template>
                     <xsl:call-template name="lod-ressourcen">
                         <xsl:with-param name="idno" select="$idnos"/>
                     </xsl:call-template>
@@ -857,10 +901,8 @@
     <xsl:template name="work-erscheinungsdatum">
         <xsl:param name="entity" as="node()"/>
         <xsl:if test="$entity/tei:date[1]">
-            <div class="side-block">
-                <h3>Erschienen</h3>
-                <ul class="dashed">
                     <li>
+                        <xsl:text>Erschienen: </xsl:text>
                         <xsl:choose>
                             <xsl:when test="contains($entity/tei:date[1], '-')">
                                 <xsl:choose>
@@ -885,40 +927,35 @@
                             <xsl:text>.</xsl:text>
                         </xsl:if>
                     </li>
-                </ul>
-            </div>
         </xsl:if>
     </xsl:template>
     <!-- Bibliografische Angabe + Online-Links -->
     <xsl:template name="work-links">
         <xsl:param name="entity" as="node()"/>
-        <xsl:if
-            test="$entity/tei:title[@type = 'werk_bibliografische-angabe' or starts-with(@type, 'werk_link')]">
-            <div class="side-block">
-                <h3>Werk</h3>
-                <ul class="dashed">
-                    <xsl:for-each select="$entity/tei:title[@type = 'werk_bibliografische-angabe']">
-                        <li>
-                            <xsl:text>Bibliografische Angabe: </xsl:text>
-                            <xsl:value-of select="."/>
-                        </li>
-                    </xsl:for-each>
-                    <xsl:for-each select="$entity/tei:title[@type = 'werk_link' or @type = 'anno']">
-                        <li>
-                            <a>
-                                <xsl:attribute name="href">
-                                    <xsl:value-of select="."/>
-                                </xsl:attribute>
-                                <xsl:attribute name="target">
-                                    <xsl:text>_blank</xsl:text>
-                                </xsl:attribute>
-                                <xsl:text>Online verfügbar</xsl:text>
-                            </a>
-                        </li>
-                    </xsl:for-each>
-                </ul>
-            </div>
-        </xsl:if>
+        <xsl:variable name="first" select="normalize-space($entity/tei:title[1])"/>
+        <xsl:for-each select="('variante', 'pseudonym', 'frueher', 'arbeitstitel', 'veroeffentlicht')">
+            <xsl:variable name="k" select="."/>
+            <xsl:variable name="vals" select="distinct-values($entity/tei:title[mam:name-kind(@type) = $k]/normalize-space(.)[. != $first])"/>
+            <xsl:if test="exists($vals)">
+                <li>
+                    <xsl:value-of select="if ($k = 'variante') then 'Namensvariante' else if ($k = 'pseudonym') then 'Pseudonym' else if ($k = 'frueher') then 'Früherer Titel' else if ($k = 'arbeitstitel') then 'Arbeitstitel' else 'Veröffentlicht unter'"/>
+                    <xsl:text>: </xsl:text>
+                    <xsl:value-of select="string-join($vals, ', ')"/>
+                </li>
+            </xsl:if>
+        </xsl:for-each>
+        <xsl:for-each select="$entity/tei:title[@type = 'werk_bibliografische-angabe']">
+            <li>
+                <xsl:text>Bibliografische Angabe: </xsl:text>
+                <xsl:value-of select="."/>
+            </li>
+        </xsl:for-each>
+        <xsl:for-each select="$entity/tei:title[starts-with(@type, 'werk_link') or @type = 'anno']">
+            <li>
+                <xsl:text>Online: </xsl:text>
+                <a href="{.}" target="_blank">verfügbar</a>
+            </li>
+        </xsl:for-each>
     </xsl:template>
     <!-- Mentions-Block (events oder tei:note[@type='mentions']) -->
     <xsl:template name="work-mentions">
@@ -1084,13 +1121,27 @@
     <!-- Namensvarianten-Liste -->
     <xsl:template name="place-namensvarianten">
         <xsl:param name="entity" as="node()"/>
-        <xsl:if test="count($entity//tei:placeName[contains(@type, 'namensvariante')]) gt 1">
+        <xsl:variable name="varianten" select="$entity/tei:placeName[position() gt 1][mam:name-kind(@type) = ('variante', '') and not(starts-with(@type, 'wien-geschichte') or starts-with(@type, 'x_'))][normalize-space(.) != normalize-space($entity/tei:placeName[1])]"/>
+        <xsl:variable name="frueher" select="$entity/tei:placeName[mam:name-kind(@type) = 'frueher']"/>
+        <xsl:if test="$varianten">
             <div class="side-block">
                 <h3>Namensvarianten</h3>
                 <ul class="dashed">
-                    <xsl:for-each select="$entity//tei:placeName[contains(@type, 'namensvariante')]">
+                    <xsl:for-each select="distinct-values($varianten/normalize-space(.))">
                         <li>
-                            <xsl:value-of select="./text()"/>
+                            <xsl:value-of select="."/>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </div>
+        </xsl:if>
+        <xsl:if test="$frueher">
+            <div class="side-block">
+                <h3>Früherer Name</h3>
+                <ul class="dashed">
+                    <xsl:for-each select="distinct-values($frueher/normalize-space(.))">
+                        <li>
+                            <xsl:value-of select="."/>
                         </li>
                     </xsl:for-each>
                 </ul>
@@ -1231,20 +1282,22 @@
     <!-- Alternative orgName-Werte als Komma-Liste -->
     <xsl:template name="org-namensvarianten">
         <xsl:param name="entity" as="node()"/>
-        <xsl:variable name="ersterName" select="$entity/tei:orgName[1]"/>
-        <xsl:if test="$entity/tei:orgName[2]">
+        <xsl:variable name="ersterName" select="normalize-space($entity/tei:orgName[1])"/>
+        <xsl:variable name="varianten" select="distinct-values($entity/tei:orgName[mam:name-kind(@type) = 'variante']/normalize-space(.)[. != $ersterName])"/>
+        <xsl:variable name="frueher" select="distinct-values($entity/tei:orgName[mam:name-kind(@type) = 'frueher']/normalize-space(.)[. != $ersterName])"/>
+        <xsl:if test="exists($varianten)">
             <div class="side-block">
                 <h3>Namensvarianten</h3>
                 <p>
-                    <xsl:for-each
-                        select="distinct-values($entity/tei:orgName[@type = 'ort_alternative-name'])">
-                        <xsl:if test=". != $ersterName">
-                            <xsl:value-of select="."/>
-                        </xsl:if>
-                        <xsl:if test="not(position() = last())">
-                            <xsl:text>, </xsl:text>
-                        </xsl:if>
-                    </xsl:for-each>
+                    <xsl:value-of select="string-join($varianten, ', ')"/>
+                </p>
+            </div>
+        </xsl:if>
+        <xsl:if test="exists($frueher)">
+            <div class="side-block">
+                <h3>Früherer Name</h3>
+                <p>
+                    <xsl:value-of select="string-join($frueher, ', ')"/>
                 </p>
             </div>
         </xsl:if>
@@ -2563,43 +2616,44 @@
     <!-- Namensvarianten gruppiert ausgeben (eine Zeile pro Typ, Werte kommagetrennt) -->
     <xsl:template name="persName-gruppen">
         <xsl:param name="namen"/>
-        <xsl:for-each-group select="$namen" group-by="@type">
+        <xsl:for-each-group select="$namen" group-by="mam:name-kind(@type)">
             <xsl:variable name="typ" select="current-grouping-key()"/>
             <xsl:variable name="anzahl" select="count(current-group())"/>
             <xsl:variable name="label">
                 <xsl:choose>
-                    <xsl:when test="$typ = 'person_rufname_vorname'">
+                    <xsl:when test="$typ = 'rufname'">
                         <xsl:choose>
                             <xsl:when test="$anzahl &gt; 1">Rufnamen</xsl:when>
                             <xsl:otherwise>Rufname</xsl:otherwise>
                         </xsl:choose>
                     </xsl:when>
-                    <xsl:when test="$typ = 'person_ehename_nachname'">
+                    <xsl:when test="$typ = 'ehename'">
                         <xsl:choose>
                             <xsl:when test="$anzahl &gt; 1">Ehenamen</xsl:when>
                             <xsl:otherwise>Ehename</xsl:otherwise>
                         </xsl:choose>
                     </xsl:when>
-                    <xsl:when test="$typ = 'person_pseudonym'">
+                    <xsl:when test="$typ = 'pseudonym'">
                         <xsl:choose>
                             <xsl:when test="$anzahl &gt; 1">Pseudonyme</xsl:when>
                             <xsl:otherwise>Pseudonym</xsl:otherwise>
                         </xsl:choose>
                     </xsl:when>
-                    <xsl:when test="$typ = 'person_namensvariante'">
+                    <xsl:when test="$typ = 'variante'">
                         <xsl:choose>
                             <xsl:when test="$anzahl &gt; 1">Namensvarianten</xsl:when>
                             <xsl:otherwise>Namensvariante</xsl:otherwise>
                         </xsl:choose>
                     </xsl:when>
-                    <xsl:when test="$typ = 'person_namensvariante-nachname'">Namensvariante
+                    <xsl:when test="$typ = 'variante-nachname'">Namensvariante
                         Nachname</xsl:when>
-                    <xsl:when test="$typ = 'person_namensvariante-vorname'">Namensvariante
+                    <xsl:when test="$typ = 'variante-vorname'">Namensvariante
                         Vorname</xsl:when>
-                    <xsl:when test="$typ = 'person_adoptierter-nachname'">Nachname durch
+                    <xsl:when test="$typ = 'adoption'">Nachname durch
                         Adoption</xsl:when>
-                    <xsl:when test="$typ = 'person_geschieden_nachname'">geschieden</xsl:when>
-                    <xsl:when test="$typ = 'person_verwitwet_nachname'">verwitwet</xsl:when>
+                    <xsl:when test="$typ = 'geschieden'">geschieden</xsl:when>
+                    <xsl:when test="$typ = 'verwitwet'">verwitwet</xsl:when>
+                    <xsl:when test="$typ = 'frueher'">früherer Name</xsl:when>
                 </xsl:choose>
             </xsl:variable>
             <xsl:if test="$label != ''">

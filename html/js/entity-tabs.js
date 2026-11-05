@@ -1,5 +1,35 @@
 /* entity-tabs.js – Tab-Umschaltung auf Entitätsseiten */
 document.addEventListener('DOMContentLoaded', function () {
+    // Unterzeilen der Haupt-Tabs aus den Daten im DOM erzeugen
+    function updateTabSubs() {
+        var subM = document.querySelector('.entity-tab-btn .tab-sub[data-sub="mentions"]');
+        if (subM) {
+            var years = [];
+            document.querySelectorAll('.mentions-by-year > .year-details:not([hidden]) .year-label')
+                .forEach(function (el) { years.push(el.textContent.trim()); });
+            if (!years.length) {
+                subM.textContent = 'keine Erwähnungen';
+            } else {
+                years.sort();
+                var n = years.length;
+                subM.textContent = 'in ' + n + (n === 1 ? ' Jahr, ' : ' Jahren, ') +
+                    (n === 1 ? years[0] : years[0] + '\u2013' + years[n - 1]);
+            }
+        }
+        var subR = document.querySelector('.entity-tab-btn .tab-sub[data-sub="relations"]');
+        if (subR) {
+            var types = [];
+            document.querySelectorAll('#tab-relationen .rel-subnav-btn').forEach(function (b) {
+                var c = b.querySelector('.c');
+                var t = b.textContent.replace(c ? c.textContent : '', '').trim();
+                if (t) types.push(t);
+            });
+            subR.textContent = types.length
+                ? types.slice(0, 3).join(', ') + (types.length > 3 ? ', \u2026' : '')
+                : 'keine Relationen';
+        }
+    }
+    updateTabSubs();
     function activateTab(buttons, panels, activeBtn, activePanelId) {
         buttons.forEach(function (b) {
             var on = b === activeBtn;
@@ -23,6 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
             else if (e.key === 'ArrowRight') next = (idx + 1) % buttons.length;
             else if (e.key === 'Home') next = 0;
             else if (e.key === 'End') next = buttons.length - 1;
+            if (buttons[next].classList.contains('is-empty') && !buttons[next].classList.contains('active')) return;
             buttons[next].focus();
             buttons[next].click();
             e.preventDefault();
@@ -35,9 +66,21 @@ document.addEventListener('DOMContentLoaded', function () {
         nav.addEventListener('click', function (e) {
             var btn = e.target.closest('.entity-tab-btn');
             if (!btn) return;
+            if (btn.classList.contains('is-empty') && !btn.classList.contains('active')) return;
             activateTab(buttons, panels, btn, btn.getAttribute('data-tab'));
+            var h = btn.getAttribute('data-hash');
+            if (h && history.replaceState) history.replaceState(null, '', '#' + h);
         });
         wireTablistKeys(nav, buttons);
+        function fromHash() {
+            var h = location.hash.replace('#', '');
+            var btn = buttons.filter(function (b) { return b.getAttribute('data-hash') === h; })[0];
+            if (btn && !(btn.classList.contains('is-empty') && !btn.classList.contains('active'))) {
+                activateTab(buttons, panels, btn, btn.getAttribute('data-tab'));
+            }
+        }
+        fromHash();
+        window.addEventListener('hashchange', fromHash);
     });
     // Relationen-Subnavigation (Typ-Tabs: Personen/Werke/Orte/…)
     document.querySelectorAll('.rel-subnav').forEach(function (subnav) {
@@ -193,7 +236,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 msYears.appendChild(document.createTextNode(' Jahr' + (visibleYears === 1 ? '' : 'e')));
             }
         }
-        commentaryToggle.addEventListener('change', applyCommentaryState);
+        commentaryToggle.addEventListener('change', function () {
+            applyCommentaryState();
+            updateTabSubs();
+        });
         applyCommentaryState();
+        updateTabSubs();
     }
 });

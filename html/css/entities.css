@@ -262,8 +262,8 @@
     margin: 0;
     list-style: none;
     width: 100%;
-    background: var(--red-softer);
-    border-bottom: 1px solid var(--entity-border);
+    background: #fff;
+    border-bottom: 1px solid var(--red-line);
     position: relative;
 }
 
@@ -271,38 +271,76 @@
     flex: 1 1 0%;
     min-width: 0;
     text-align: center;
-    padding: 14px 18px;
+    padding: 14px;
     border: none;
-    background: transparent;
-    font-size: .95rem;
-    font-weight: 600;
-    color: var(--entity-tab-text);
+    background: #fff;
+    font: inherit;
+    color: var(--red);
     cursor: pointer;
-    border-right: 1px solid var(--entity-border);
+    border-right: 1px solid var(--red-line);
     transition: color .15s, background-color .15s;
-    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.entity-tab-btn .tab-title-row {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
 }
-.entity-tab-btn:hover {
-    color: var(--red-ink);
-    background-color: var(--red-soft);
+.entity-tab-btn .tab-title {
+    font-size: 17px;
+    font-weight: 700;
+}
+.entity-tab-btn .tab-sub {
+    font-size: 13px;
+    font-weight: 400;
+    color: #555;
+    white-space: normal;
+}
+.entity-tab-btn .tab-sub:empty { display: none; }
+.entity-tab-btn .tab-arrow {
+    font-size: 18px;
+    line-height: 1;
+    color: var(--red);
+    transition: transform 150ms;
+}
+.entity-tab-btn:hover:not(.active):not(.is-empty) {
+    background-color: var(--red-softer);
+}
+.entity-tab-btn:hover:not(.active):not(.is-empty) .tab-arrow {
+    transform: translateX(3px);
+}
+.entity-tab-btn:focus-visible {
+    outline: 2px solid var(--red);
+    outline-offset: -4px;
+}
+.entity-tab-btn.active:focus-visible {
+    outline-color: #fff;
 }
 .entity-tab-btn.active {
     color: #fff;
     background-color: var(--red);
 }
+.entity-tab-btn.active .tab-sub { color: #fff; }
+.entity-tab-btn.active .tab-arrow,
+.entity-tab-btn.is-empty .tab-arrow { display: none; }
+.entity-tab-btn.is-empty:not(.active) {
+    cursor: default;
+    opacity: .6;
+}
 
 .entity-tab-btn .tab-count {
     font-family: ui-monospace, "JetBrains Mono", Menlo, monospace;
-    font-size: 11px;
-    padding: 2px 7px;
-    border-radius: 999px;
-    background: #fff;
-    color: var(--entity-ink-soft);
-    border: 1px solid var(--entity-border);
+    font-size: 12px;
+    padding: 1px 7px;
+    border-radius: 10px;
+    background: transparent;
+    color: var(--red);
+    border: 1px solid var(--red);
     font-weight: 500;
     line-height: 1.2;
 }
@@ -310,6 +348,7 @@
     background: rgba(255, 255, 255, .25);
     color: #fff;
     border-color: transparent;
+    padding: 2px 8px;
 }
 
 /* Info-Button neben dem Relationen-Tab */
@@ -812,10 +851,10 @@
 
 @media (max-width: 575px) {
     .entity-tab-btn {
-        padding: .6rem .75rem;
-        font-size: .85rem;
-        gap: 6px;
+        padding: 10px 8px;
     }
+    .entity-tab-btn .tab-title { font-size: 15px; }
+    .entity-tab-btn .tab-title-row { flex-wrap: wrap; gap: 6px; }
     .entity-tab-panel {
         padding: 1rem .75rem 1.5rem;
     }
