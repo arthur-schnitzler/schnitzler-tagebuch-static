@@ -241,11 +241,12 @@ function initMentionsChart(chart) {
 
     var svg = chart.querySelector('svg');
     var years = chart.querySelector('.chart-years');
-    var range = chart.querySelector('.chart-range');
+    var title = chart.querySelector('.chart-title');
+    var nav = chart.querySelector('.chart-nav');
     // Noch nicht neu gebaute Seiten behalten ihr statisches Chart
-    if (!years || !range) return;
+    if (!years || !title || !nav) return;
     var toggle = document.getElementById('toggle-commentary-mentions');
-    var overviewText = range.textContent;
+    var overviewText = title.textContent.trim();
     var zoomedCol = null;
     var monthsGroup = null;
 
@@ -255,11 +256,11 @@ function initMentionsChart(chart) {
     back.hidden = true;
     back.textContent = '← ' + overviewText;
     back.setAttribute('aria-label', 'Zurück zur Übersicht ' + overviewText);
-    range.parentNode.insertBefore(back, range);
+    nav.appendChild(back);
     var hint = document.createElement('span');
     hint.className = 'chart-hint';
     hint.textContent = 'Jahr wählen für Monatsansicht';
-    range.parentNode.insertBefore(hint, range);
+    nav.appendChild(hint);
     var tip = document.createElement('div');
     tip.className = 'chart-tip';
     tip.hidden = true;
@@ -413,21 +414,21 @@ function initMentionsChart(chart) {
 
         var shown = shownCount(zoomedCol);
         var undated = shown - totals.reduce(function (sum, n) { return sum + n; }, 0);
-        range.textContent = year + ': ' + mentionsLabel(shown) + commentNote(zoomedCol) +
-            (undated > 0 ? ' (' + undated + ' ohne Monatsangabe)' : '');
+        var shownComments = withComments ? Number(zoomedCol.dataset.comment) : 0;
+        var notes = [];
+        if (shownComments) notes.push('davon ' + shownComments + ' im Kommentar');
+        if (undated > 0) notes.push(undated + ' ohne Monatsangabe');
+        title.textContent = mentionsLabel(shown) + ' ' + year;
+        if (notes.length) {
+            title.appendChild(document.createElement('small')).textContent = notes.join(' · ');
+        }
     }
 
-    // Klappt das Jahr in der Liste unter dem Chart auf
+    // Klappt das Jahr in der Liste unter dem Chart auf, die Seite bleibt dabei stehen
     function openYearInList(year) {
-        var target = null;
         document.querySelectorAll('.mentions-by-year > .year-details').forEach(function (details) {
-            var isTarget = details.querySelector('.year-label').textContent.trim() === year;
-            details.open = isTarget;
-            if (isTarget) target = details;
+            details.open = details.querySelector('.year-label').textContent.trim() === year;
         });
-        if (target && !chart.classList.contains('is-fullscreen')) {
-            target.querySelector('summary').scrollIntoView({ block: 'nearest' });
-        }
     }
     function zoomIn(col) {
         zoomedCol = col;
@@ -436,7 +437,7 @@ function initMentionsChart(chart) {
         back.hidden = false;
         drawMonths(true);
         openYearInList(col.dataset.year);
-        back.focus();
+        back.focus({ preventScroll: true });
     }
     function zoomOut() {
         var col = zoomedCol;
@@ -446,9 +447,9 @@ function initMentionsChart(chart) {
         monthsGroup = null;
         chart.classList.remove('is-zoomed');
         back.hidden = true;
-        range.textContent = overviewText;
+        title.textContent = overviewText;
         setTabStop(col);
-        col.focus();
+        col.focus({ preventScroll: true });
     }
     function setFullscreen(on) {
         hideTip();

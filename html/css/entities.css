@@ -526,24 +526,39 @@
     padding: 14px 16px 10px;
     background: linear-gradient(180deg, #fff, var(--red-softer));
     max-width: none;
+    container-type: inline-size;
 }
+/* Gleich breite Seitenspalten halten die Überschrift genau in der Mitte;
+   die Mindesthöhe verhindert ein Springen beim Wechsel der Ansicht */
 .chart-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    align-items: center;
+    gap: 4px 1rem;
+    min-height: 28px;
     font-size: 12px;
     color: var(--entity-ink-muted);
     margin-bottom: 6px;
-    gap: 1rem;
-    flex-wrap: wrap;
-    /* Platz für den Vollbild-Button */
-    padding-right: 2rem;
+}
+.chart-head .chart-title {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+    color: var(--entity-ink);
+}
+.chart-head .chart-title small {
+    display: block;
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--entity-ink-muted);
 }
 .chart-head .chart-nav {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
+    justify-self: end;
+    text-align: right;
+    /* Platz für den Vollbild-Button */
+    padding-right: 2rem;
 }
 .chart-head .chart-hint {
     color: var(--entity-ink-muted);
@@ -551,9 +566,19 @@
 #mentions-chart.is-zoomed .chart-hint {
     display: none;
 }
-#mentions-chart.is-zoomed .chart-range {
-    color: var(--entity-ink);
-    font-weight: 600;
+/* Zu schmal für drei Spalten: Legende, Überschrift und Navigation untereinander */
+@container (max-width: 640px) {
+    .chart-head {
+        grid-template-columns: minmax(0, 1fr);
+    }
+    .chart-head .legend {
+        padding-right: 2rem;
+    }
+    .chart-head .chart-nav {
+        justify-self: center;
+        text-align: center;
+        padding-right: 0;
+    }
 }
 .chart-head .mentions-chart-back {
     background: #fff;
@@ -571,7 +596,8 @@
 }
 .chart-head .legend {
     display: flex;
-    gap: 16px;
+    flex-wrap: wrap;
+    gap: 4px 16px;
     align-items: center;
 }
 .chart-head .legend span {
@@ -658,7 +684,8 @@
 #mentions-chart .chart-tip {
     position: absolute;
     z-index: 3;
-    transform: translate(-50%, calc(-100% - 4px));
+    /* Liegt in der Zeichenfläche, damit Überschrift und Zurück-Button sichtbar bleiben */
+    transform: translate(-50%, 4px);
     padding: 4px 8px;
     background: #fff;
     border: 1px solid var(--entity-border);

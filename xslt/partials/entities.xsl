@@ -1907,13 +1907,12 @@
                                     </span>
                                 </xsl:if>
                             </div>
-                            <span class="chart-nav">
-                                <span class="chart-range" aria-live="polite">
-                                    <xsl:value-of select="$start-year"/>
-                                    <xsl:text>–</xsl:text>
-                                    <xsl:value-of select="$end-year"/>
-                                </span>
-                            </span>
+                            <h3 class="chart-title" aria-live="polite">
+                                <xsl:value-of select="$start-year"/>
+                                <xsl:text>–</xsl:text>
+                                <xsl:value-of select="$end-year"/>
+                            </h3>
+                            <span class="chart-nav"/>
                         </div>
                         <button type="button" class="mentions-chart-fs-btn"
                             aria-label="Diagramm im Vollbild anzeigen"
