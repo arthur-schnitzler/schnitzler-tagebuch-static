@@ -73,10 +73,56 @@ def sync(filename: str, dest_dir: Path) -> int:
     return 0
 
 
+# Lokale Korrekturen an Dateien, die bewusst NICHT vom Upstream ueberschrieben
+# werden (LOD-idnos.xsl laedt list-of-relevant-uris.xml projektspezifisch).
+# Jede Ersetzung ist idempotent: ist der alte Text nicht (mehr) da, passiert nichts.
+LOCAL_PATCHES = (
+    (
+        REPO_ROOT / "xslt" / "partials" / "LOD-idnos.xsl",
+        "Modal 'Mehrfache Links': h5 -> h2, eindeutige id (Barrierefreiheit)",
+        (
+            (
+                'aria-labelledby="{$pill/caption}" aria-hidden="true"',
+                'aria-labelledby="{$pill/caption}-label" aria-hidden="true"',
+            ),
+            (
+                '<h5 class="modal-title" id="exampleModalLabel">Mehrfache Links</h5>',
+                '<h2 class="modal-title h5" id="{$pill/caption}-label">Mehrfache Links</h2>',
+            ),
+        ),
+    ),
+)
+
+
+def apply_local_patches() -> int:
+    for path, label, replacements in LOCAL_PATCHES:
+        if not path.exists():
+            continue
+        text = path.read_text(encoding="utf-8")
+        patched = text
+        for old, new in replacements:
+            patched = patched.replace(old, new)
+        if patched == text:
+            print(f"{path}: {label} – bereits angewendet.")
+            continue
+        ok, err = is_well_formed_xml(patched.encode("utf-8"))
+        if not ok:
+            print(
+                f"WARNUNG: {path} nach Korrektur nicht wohlgeformt ({err}) – "
+                f"bleibt unveraendert.",
+                file=sys.stderr,
+            )
+            continue
+        path.write_text(patched, encoding="utf-8")
+        print(f"{path}: {label} – angewendet.")
+    return 0
+
+
 def main() -> int:
     exit_code = 0
     for filename, dest_dir in ASSETS:
         exit_code |= sync(filename, dest_dir)
+    exit_code |= apply_local_patches()
     return exit_code
 
 
