@@ -156,6 +156,10 @@
 .entity-sidebar > * + * {
     border-top: 1px solid var(--entity-border);
 }
+/* Erstes sichtbares Element nach der versteckten h2 ohne Trennlinie */
+.entity-sidebar > .visually-hidden + * {
+    border-top: 0;
+}
 .side-block > h3,
 .side-block > legend {
     font-size: 12px;
@@ -932,7 +936,7 @@
 .rel-group {
     margin-bottom: 1.5rem;
 }
-.rel-group h4 {
+.rel-group h3 {
     font-size: 14px;
     font-weight: 600;
     color: var(--red-ink);
@@ -944,7 +948,7 @@
     align-items: center;
     gap: 1rem;
 }
-.rel-group h4 .rel-count {
+.rel-group h3 .rel-count {
     font-family: ui-monospace, "JetBrains Mono", Menlo, monospace;
     font-size: 11px;
     color: var(--entity-ink-muted);

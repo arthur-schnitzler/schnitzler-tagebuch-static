@@ -9,6 +9,19 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:mam="whatever" version="2.0" exclude-result-prefixes="xsl tei xs">
     <xsl:import href="./LOD-idnos.xsl"/>
+    <!-- Erwähnungen: Zeitraum des Diagramms, Obergrenze der Liste, Beschriftung des Tabs.
+         Projekte können die Parameter im Haupt-Stylesheet überschreiben (höhere Importpriorität),
+         z. B. <xsl:param name="mentions-start-year" select="1860"/>. -->
+    <xsl:param name="mentions-start-year" as="xs:integer" select="
+            if ($current-edition = 'schnitzler-kultur') then
+                1876
+            else
+                1879"/>
+    <xsl:param name="mentions-end-year" as="xs:integer" select="1931"/>
+    <!-- Ab dieser Anzahl werden die Erwähnungen nur pro Jahr gezählt, ohne Einzeleinträge
+         (Template mentions-year-overflow); 0 = immer vollständige Liste -->
+    <xsl:param name="mentions-max-inline" as="xs:integer" select="0"/>
+    <xsl:param name="mentions-tab-label" as="xs:string" select="'Erwähnungen'"/>
     <!-- Index-Dateien -->
     <xsl:param name="places" select="document('../../data/indices/listplace.xml')"/>
     <!-- nur fürs Schnitzler-Tagebuch die folgenden beiden Einbindungen -->
